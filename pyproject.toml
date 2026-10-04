@@ -1,0 +1,88 @@
+[tool.poetry]
+name = "init-repo"
+version = "0.1.0"
+description = "Starter layout for a Python project."
+authors = ["KMH"]
+readme = "README.md"
+packages = [
+    { include = "init_repo", from = "src" },
+]
+include = ["src/init_repo/py.typed"]
+
+[tool.poetry.dependencies]
+python = "~3.12"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "~1.18.2"
+black = "^24.9.0"
+isort = "^7.0.0"
+flake8 = "^7.3.0"
+flake8-bugbear = "^23.2.13"
+flake8-builtins = "^2.1.0"
+flake8-comprehensions = "^3.10.1"
+flake8-docstrings = "^1.7.0"
+flake8-print = "^5.0.0"
+flake8-variables-names = "^0.0.5"
+pep8-naming = "^0.15.1"
+pytest = "^9.0.3"
+pytest-mock = "^3.11.1"
+pytest-cov = "^6.0.0"
+ipykernel = "^6.29.2"
+# types-* stubs for every third-party library used, added beside the library.
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "integration: needs an external service; deselected by default, run with -m integration",
+]
+addopts = "-q --strict-markers --strict-config -m 'not integration' --cov=src --cov-report=term-missing"
+# A warning is a behaviour change announcing itself early. Ignore one narrowly, with a reason.
+filterwarnings = ["error"]
+
+[tool.mypy]
+strict = true
+warn_unreachable = true
+enable_error_code = [
+    "ignore-without-code",
+    "redundant-expr",
+    "truthy-bool",
+    "possibly-undefined",
+]
+mypy_path = "src"
+exclude = [
+    '.git',
+    '.mypy_cache',
+    '.venv',
+    '_tmp',
+]
+
+[[tool.mypy.overrides]]
+# Third-party packages that ship no stubs. Add by name, with a reason.
+module = []
+ignore_missing_imports = true
+
+[tool.black]
+line-length = 99
+# `_tmp/` is gitignored scratch. It cannot exist on CI, so excluding it gates nothing differently;
+# it is what lets syntax.ps1, which runs the formatters in FIX mode over `.`, be safe to run.
+force-exclude = '_tmp'
+
+[tool.isort]
+line_length = 99
+profile = "black"
+multi_line_output = 3
+lines_after_imports = 2
+default_section = "THIRDPARTY"
+known_compatibility = "six,future"
+sections = "FUTURE,COMPATIBILITY,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+src_paths = ["src", "tests"]
+known_first_party = ["init_repo"]
+skip_glob = ["_tmp/*"]
+
+[tool.pyright]
+# mypy is the type checker; Pylance would otherwise report a second, differing set of errors.
+typeCheckingMode = "off"
