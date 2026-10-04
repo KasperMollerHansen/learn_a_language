@@ -1,0 +1,15 @@
+{
+  "name": "Wortlauf: Danish to German",
+  "short_name": "Wortlauf",
+  "description": "Learn German vocabulary while running through three lanes.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f4eb",
+  "theme_color": "#173c32",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

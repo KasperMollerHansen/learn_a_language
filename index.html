@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#173c32" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <title>Wortlauf | Danish to German</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #173c32;
+        --muted: #668078;
+        --paper: #f5f4eb;
+        --lime: #d5f36a;
+        --coral: #f17d62;
+        --line: rgba(23, 60, 50, .16);
+        --safe-bottom: env(safe-area-inset-bottom, 0px);
+      }
+      * { box-sizing: border-box; }
+      body { min-width: 320px; min-height: 100vh; min-height: 100dvh; margin: 0; background: var(--paper); color: var(--ink); font-family: "Trebuchet MS", "Segoe UI", sans-serif; }
+      button { font: inherit; }
+      .app { display: grid; grid-template-rows: auto 1fr auto; width: min(1450px, 100%); min-height: 100vh; min-height: 100dvh; margin: auto; padding: 0 5vw; }
+      header { display: flex; align-items: center; justify-content: space-between; min-height: 68px; border-bottom: 1px solid var(--line); }
+      .brand { display: flex; align-items: center; gap: 10px; border: 0; background: transparent; color: inherit; cursor: pointer; font-size: 14px; font-weight: 900; letter-spacing: .07em; }
+      .brand-mark { display: grid; width: 31px; height: 31px; place-items: center; border-radius: 50%; background: var(--lime); font-family: Georgia, serif; font-size: 19px; }
+      .header-right { display: flex; align-items: center; gap: 16px; }
+      .language { color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+      .install { display: none; min-height: 34px; padding: 0 11px; border: 1px solid var(--line); border-radius: 3px; background: transparent; color: var(--ink); cursor: pointer; font-size: 11px; font-weight: 800; }
+      main { display: grid; grid-template-columns: minmax(250px, .8fr) minmax(390px, 1.2fr); align-items: center; gap: clamp(32px, 6vw, 90px); padding: 38px 0; }
+      .intro { align-self: center; }
+      .eyebrow { display: flex; align-items: center; gap: 9px; margin: 0 0 15px; color: #55766b; font-size: 10px; font-weight: 900; letter-spacing: .15em; text-transform: uppercase; }
+      .eyebrow::before { width: 22px; height: 2px; background: var(--coral); content: ""; }
+      h1 { max-width: 500px; margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(44px, 5vw, 70px); font-weight: 500; line-height: .98; }
+      h1 span { color: #6d9385; font-style: italic; }
+      .description { max-width: 370px; margin: 20px 0 24px; color: #547168; font-size: 14px; line-height: 1.65; }
+      .levels { display: flex; gap: 8px; margin-bottom: 14px; }
+      .level { min-height: 39px; padding: 0 12px; border: 1px solid var(--line); border-radius: 3px; background: transparent; color: var(--muted); cursor: pointer; font-size: 11px; font-weight: 800; }
+      .level[aria-selected="true"] { border-color: var(--ink); background: var(--ink); color: white; }
+      .level:disabled { cursor: not-allowed; opacity: .42; }
+      .start { display: inline-flex; min-height: 48px; align-items: center; gap: 16px; padding: 0 18px; border: 0; border-radius: 3px; background: var(--coral); color: #172f28; cursor: pointer; font-size: 13px; font-weight: 900; }
+      .start:hover { background: #f68c70; }
+      .arrow { font-size: 18px; }
+      button:focus-visible { outline: 3px solid #267b68; outline-offset: 3px; }
+      .game { position: relative; min-height: 570px; overflow: hidden; border-radius: 5px; background: #173c32; box-shadow: 0 20px 60px rgba(23, 60, 50, .16); isolation: isolate; }
+      .game::before, .game::after { position: absolute; z-index: -1; border: 1px solid rgba(213, 243, 106, .13); border-radius: 50%; content: ""; }
+      .game::before { top: -190px; right: -110px; width: 470px; height: 470px; }
+      .game::after { top: -130px; right: -52px; width: 350px; height: 350px; }
+      .hud { position: relative; z-index: 3; display: flex; justify-content: space-between; padding: 12px 18px 0; color: white; }
+      .hud-label { display: block; margin-bottom: 5px; color: #a9c5b9; font-size: 9px; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
+      .hud-value { font-size: 16px; font-weight: 900; }
+      .timer { color: var(--lime); font-variant-numeric: tabular-nums; }
+      .prompt { position: relative; z-index: 2; display: grid; justify-items: center; padding: 10px 18px 0; text-align: center; }
+      .road .prompt { position: absolute; z-index: 6; top: 7px; right: 0; left: 0; padding: 0 10px; }
+      .prompt-label { margin: 0 0 4px; color: #b4c9bc; font-size: 9px; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
+      .word { min-height: 34px; color: white; font-family: Georgia, "Times New Roman", serif; font-size: 32px; line-height: 1.1; }
+      .feedback { min-height: 18px; margin-top: 2px; color: var(--lime); font-size: 11px; font-weight: 800; }
+      .feedback.wrong { color: #ffab92; }
+      .road { position: absolute; z-index: 3; inset: 130px 0 0; overflow: hidden; background: #244b3b; }
+      .surface { position: absolute; inset: 0; background: repeating-linear-gradient(180deg, rgba(213, 243, 106, .055) 0 2px, transparent 2px 110px), linear-gradient(90deg, #294d3d 0 33.333%, #315844 33.333% 66.666%, #294d3d 66.666% 100%); animation: road-flow 650ms linear infinite; animation-play-state: paused; }
+      .surface.moving { animation-play-state: running; animation-duration: var(--run-speed, 650ms); }
+      .lane-lines { position: absolute; inset: 0; }
+      .lane-lines::before, .lane-lines::after { position: absolute; top: 0; bottom: 0; border-left: 2px dashed rgba(224, 232, 173, .5); content: ""; }
+      .lane-lines::before { left: 33.333%; }
+      .lane-lines::after { left: 66.666%; }
+      .runner { position: absolute; z-index: 4; bottom: 108px; left: 50%; width: 58px; height: 82px; transform: translateX(calc(-50% + var(--shift, 0px))); transition: transform 170ms cubic-bezier(.2, .9, .3, 1.2); pointer-events: none; }
+      .runner-bob { animation: run-cycle 260ms ease-in-out infinite; }
+      .runner-bob .leg-left, .runner-bob .shoe-left { transform-box: fill-box; transform-origin: center top; animation: stride-left 260ms ease-in-out infinite alternate; }
+      .runner-bob .leg-right, .runner-bob .shoe-right { transform-box: fill-box; transform-origin: center top; animation: stride-right 260ms ease-in-out infinite alternate; }
+      .runner-bob .arm-left, .runner-bob .arm-right { transform-box: fill-box; transform-origin: center center; animation: arm-swing 260ms ease-in-out infinite alternate; }
+      .runner-bob .arm-right { animation-delay: -130ms; }
+      .runner.approaching { animation: runner-approach var(--gate-duration, 3.5s) linear forwards; }
+      .runner.hit { animation: hit var(--bounce-duration, 420ms) cubic-bezier(.18, .68, .32, 1.2); }
+      .runner.correct { animation: dash var(--pass-duration, 280ms) cubic-bezier(.22, .61, .36, 1); }
+      .lanes { position: absolute; z-index: 5; inset: 0; pointer-events: none; }
+      .lane { position: absolute; top: 95px; width: 31%; height: 168px; padding: 0; border: 0; border-radius: 0; background: transparent; color: white; cursor: pointer; opacity: 1; pointer-events: auto; text-align: center; transform: translateX(-50%); }
+      .lane::before { position: absolute; inset: 0 8px 8px; border: 3px solid rgba(213, 243, 106, .72); border-bottom: 0; border-radius: 18px 18px 0 0; box-shadow: inset 0 0 0 5px rgba(213, 243, 106, .08), 0 0 14px rgba(213, 243, 106, .08); content: ""; }
+      .lane:nth-child(1) { left: 16.666%; }
+      .lane:nth-child(2) { left: 50%; }
+      .lane:nth-child(3) { left: 83.333%; }
+      .lane:hover::before, .lane.selected::before { border-color: var(--lime); box-shadow: inset 0 0 0 5px rgba(213, 243, 106, .14), 0 0 19px rgba(213, 243, 106, .22); }
+      .lane.good::before { border-color: var(--lime); box-shadow: 0 0 25px rgba(213, 243, 106, .4); animation: gate-frame-pass var(--pass-duration, 280ms) cubic-bezier(.22, .61, .36, 1) forwards; }
+      .lane.good small, .lane.good strong { animation: gate-sign-pass var(--pass-duration, 280ms) cubic-bezier(.22, .61, .36, 1) forwards; }
+      .lane.bad::before { border-color: var(--coral); box-shadow: 0 0 22px rgba(241, 125, 98, .38); }
+      .lane small { position: absolute; z-index: 1; top: 20px; left: 50%; color: #d5f36a; font-size: 8px; font-weight: 900; letter-spacing: .1em; transform: translateX(-50%); }
+      .lane strong { position: absolute; z-index: 1; top: 38px; left: 50%; display: grid; width: calc(100% - 18px); min-height: 34px; place-items: center; padding: 5px 4px; border: 1px solid rgba(255, 255, 255, .35); border-radius: 3px; background: #173c32; box-shadow: 0 3px 8px rgba(0, 0, 0, .24); font-size: 13px; line-height: 1.15; overflow-wrap: anywhere; transform: translateX(-50%); }
+      .game-footer { position: absolute; z-index: 5; right: 20px; bottom: 23px; left: 20px; display: flex; justify-content: space-between; color: #bdd0c2; font-size: 9px; pointer-events: none; }
+      .speed-track { width: 80px; height: 4px; margin-top: 5px; overflow: hidden; border-radius: 4px; background: rgba(255, 255, 255, .18); }
+      .speed-fill { width: 42%; height: 100%; border-radius: inherit; background: var(--lime); transition: width 220ms ease; }
+      .overlay { position: absolute; z-index: 8; inset: 0; display: grid; align-content: center; justify-items: center; padding: 25px; background: rgba(15, 43, 35, .92); color: white; text-align: center; }
+      .overlay[hidden] { display: none; }
+      .overlay-mark { display: grid; width: 52px; height: 52px; place-items: center; margin-bottom: 16px; border-radius: 50%; background: var(--lime); color: var(--ink); font-family: Georgia, serif; font-size: 25px; }
+      .overlay h2 { margin: 0; font-family: Georgia, serif; font-size: 32px; font-weight: 500; }
+      .overlay p { max-width: 290px; margin: 11px 0 18px; color: #c1d3c7; font-size: 12px; line-height: 1.6; }
+      .overlay button { min-height: 43px; padding: 0 16px; border: 0; border-radius: 3px; background: var(--lime); color: var(--ink); cursor: pointer; font-size: 11px; font-weight: 900; }
+      footer { display: flex; justify-content: space-between; gap: 16px; padding: 15px 0 calc(15px + var(--safe-bottom)); border-top: 1px solid var(--line); color: var(--muted); font-size: 10px; }
+      footer strong { color: var(--ink); }
+      @keyframes road-flow { to { background-position: 0 110px, 0 0; } }
+      @keyframes runner-approach { from { transform: translate(calc(-50% + var(--shift, 0px)), 0) scale(1); } to { transform: translate(calc(-50% + var(--shift, 0px)), var(--approach-y, -160px)) scale(.86); } }
+      @keyframes run-cycle { 0%, 100% { transform: translateY(0) rotate(0); } 25% { transform: translateY(-5px) rotate(1deg); } 50% { transform: translateY(0) rotate(0); } 75% { transform: translateY(-4px) rotate(-1deg); } }
+      @keyframes stride-left { to { transform: rotate(18deg); } }
+      @keyframes stride-right { to { transform: rotate(-18deg); } }
+      @keyframes arm-swing { to { transform: rotate(18deg); } }
+      @keyframes hit { 0% { transform: translate(calc(-50% + var(--shift, 0px)), var(--approach-y, -160px)) scale(.86); } 28% { transform: translate(calc(-50% + var(--shift, 0px)), calc(var(--approach-y, -160px) + 44px)) scale(.76); } 68% { transform: translate(calc(-50% + var(--shift, 0px)), calc(var(--approach-y, -160px) + 18px)) scale(.96); } 100% { transform: translate(calc(-50% + var(--shift, 0px)), 0) scale(1); } }
+      @keyframes dash { 0% { transform: translate(calc(-50% + var(--shift, 0px)), var(--approach-y, -160px)) scale(.86); } 34% { transform: translate(calc(-50% + var(--shift, 0px)), calc(var(--approach-y, -160px) - 40px)) scale(.78); } 70% { transform: translate(calc(-50% + var(--shift, 0px)), calc(var(--approach-y, -160px) - 18px)) scale(.82); } 100% { transform: translate(calc(-50% + var(--shift, 0px)), 0) scale(1); } }
+      @keyframes gate-frame-pass { to { transform: translateY(52px); opacity: 0; } }
+      @keyframes gate-sign-pass { to { transform: translate(-50%, 52px); opacity: 0; } }
+      @media (max-width: 850px) and (min-width: 681px) { main { grid-template-columns: minmax(210px, .8fr) minmax(340px, 1.2fr); gap: 25px; } .game { min-height: 530px; } }
+      @media (max-width: 680px) {
+        body { background: #173c32; }
+        .app { display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh; padding: 0; background: var(--paper); }
+        header { flex: 0 0 55px; min-height: 55px; padding: 0 18px; border-color: rgba(255, 255, 255, .15); background: var(--ink); color: white; }
+        .brand-mark { width: 28px; height: 28px; }
+        .language { color: #c4d3c9; font-size: 9px; }
+        .install { min-height: 31px; border-color: rgba(255, 255, 255, .3); color: white; font-size: 10px; }
+        main { display: flex; flex: 1; flex-direction: column; gap: 0; padding: 0; }
+        .game { order: 0; flex: 1; width: 100%; min-height: min(610px, calc(100dvh - 94px)); border-radius: 0; box-shadow: none; }
+        .intro { order: 1; padding: 27px 22px 30px; }
+        .eyebrow { margin-bottom: 10px; }
+        h1 { font-size: 48px; }
+        .description { margin: 12px 0 16px; font-size: 13px; }
+        .levels { margin-bottom: 12px; }
+        .start { min-height: 44px; }
+        .hud { padding: 10px 14px 0; }
+        .hud-label { font-size: 8px; }
+        .hud-value { font-size: 14px; }
+        .prompt { padding: 8px 12px 0; }
+        .word { font-size: 32px; }
+        .road { inset-block-start: 114px; }
+        .runner { bottom: 113px; }
+        .lane { min-height: 58px; }
+        .lane strong { font-size: clamp(11px, 3.5vw, 14px); }
+        .game-footer { right: 16px; bottom: 93px; left: 16px; }
+        footer { display: none; }
+      }
+      @media (max-height: 700px) and (max-width: 680px) { .game { min-height: 515px; } .road { inset-block-start: 105px; } .prompt { padding-top: 6px; } }
+      body.playing { height: 100vh; height: 100dvh; overflow: hidden; background: #173c32; }
+      body.playing .app { display: grid; grid-template-rows: 44px minmax(0, 1fr); width: 100%; height: 100vh; height: 100dvh; min-height: 0; max-width: none; margin: 0; padding: 0; }
+      body.playing header { min-height: 44px; padding: 0 14px; border: 0; background: var(--ink); color: white; }
+      body.playing .brand { min-height: 44px; padding: 0 4px; }
+      body.playing .header-right, body.playing .intro, body.playing footer { display: none; }
+      body.playing main { display: block; height: 100%; min-height: 0; overflow: hidden; padding: 0; }
+      body.playing .game { width: 100%; height: 100%; min-height: 0; border-radius: 0; box-shadow: none; }
+      body.menu-mode .app { grid-template-rows: auto minmax(0, 1fr); width: min(900px, 100%); height: 100vh; height: 100dvh; min-height: 0; padding: 0 5vw; }
+      body.menu-mode main { grid-template-columns: minmax(0, 1fr); gap: 0; padding: 28px 0; }
+      body.menu-mode .intro { display: block; width: 100%; max-width: 600px; margin: auto; }
+      body.menu-mode .game, body.menu-mode footer { display: none; }
+      @media (max-width: 680px) {
+        body.menu-mode .app { display: flex; flex-direction: column; padding: 0 20px; }
+        body.menu-mode header { flex: 0 0 55px; min-height: 55px; margin: 0 -20px; padding: 0 18px; }
+        body.menu-mode main { display: grid; flex: 1; grid-template-columns: minmax(0, 1fr); padding: 26px 0; }
+        body.menu-mode .intro { order: 0; padding: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
+    </style>
+  </head>
+  <body class="playing">
+    <div class="app">
+      <header>
+        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF</button>
+        <div class="header-right"><span class="language">Dansk / Deutsch</span><button class="install" id="install-button" type="button">Install app</button></div>
+      </header>
+      <main>
+        <section class="intro" aria-labelledby="title">
+          <p class="eyebrow">A little German, at full speed</p>
+          <h1 id="title">Learn on<br />the <span>run.</span></h1>
+          <p class="description">Catch the right German word. Three lanes, one Danish clue, and a new way to get words moving.</p>
+          <div class="levels" role="tablist" aria-label="Choose a level">
+            <button class="level" role="tab" aria-selected="true" data-level="0">1-1 &nbsp; People + family</button>
+            <button class="level" role="tab" aria-selected="false" data-level="1" disabled>1-2 &nbsp; Animals</button>
+            <button class="level" role="tab" aria-selected="false" data-level="2" disabled>1-3 &nbsp; Articles</button>
+          </div>
+          <button class="start" id="start-button" type="button">Start running <span class="arrow" aria-hidden="true">↗</span></button>
+        </section>
+        <section class="game" aria-label="German vocabulary lane game">
+          <div class="hud" aria-live="polite">
+            <div><span class="hud-label">Level</span><span class="hud-value" id="hud-level">1-1</span></div>
+            <div><span class="hud-label">Caught</span><span class="hud-value"><span id="score">0</span> / 30</span></div>
+            <div><span class="hud-label">Time</span><span class="hud-value timer" id="timer">2:00</span></div>
+          </div>
+          <div class="road"><div class="surface" aria-hidden="true"></div><div class="lane-lines" aria-hidden="true"></div>
+            <div class="prompt" aria-live="polite">
+              <p class="prompt-label" id="prompt-label">Find the German word for</p>
+              <div class="word" id="word">mor</div>
+              <div class="feedback" id="feedback">Move into a lane</div>
+            </div>
+            <div class="lanes" id="lanes" role="group" aria-label="Choose a lane before the answer gates arrive">
+              <button class="lane" data-lane="0" type="button"><small>LANE 1</small><strong>Katze</strong></button>
+              <button class="lane selected" data-lane="1" type="button"><small>LANE 2</small><strong>Hund</strong></button>
+              <button class="lane" data-lane="2" type="button"><small>LANE 3</small><strong>Pferd</strong></button>
+            </div>
+          </div>
+          <div class="runner" id="runner" aria-hidden="true">
+            <div class="runner-bob"><svg viewBox="0 0 64 88" width="58" height="80" role="presentation">
+              <ellipse cx="32" cy="81" rx="18" ry="4" fill="#102b24" opacity=".45" />
+              <path class="leg-left" d="M22 55h10l-4 20h-8z" fill="#f17d62" />
+              <path class="leg-right" d="M34 55h10l4 20h-9z" fill="#f17d62" />
+              <path class="shoe-left" d="M18 72h12v6H17c-4 0-4-5 1-6z" fill="#d5f36a" />
+              <path class="shoe-right" d="M38 72h13c4 0 4 6 0 6H36z" fill="#d5f36a" />
+              <path d="M18 31c0-8 6-14 14-14s14 6 14 14v27H18z" fill="#d5f36a" />
+              <path class="arm-left" d="M17 36 7 51l5 4 12-12z" fill="#d5f36a" />
+              <path class="arm-right" d="M47 37l10 12-5 5-12-11z" fill="#d5f36a" />
+              <circle cx="32" cy="12" r="10" fill="#f1bd8d" />
+              <path d="M22 11c1-9 17-13 20-2-6-3-12-2-20 2z" fill="#173c32" />
+              <circle cx="36" cy="13" r="1.2" fill="#173c32" />
+            </svg></div>
+          </div>
+          <div class="game-footer"><div><span class="hud-label">Running speed</span><div class="speed-track"><div class="speed-fill" id="speed"></div></div></div><span class="keys">Tap lane · ← → or 1 2 3</span></div>
+          <div class="overlay" id="overlay" hidden>
+            <span class="overlay-mark" aria-hidden="true">W</span>
+            <h2 id="overlay-title">Ready when you are?</h2>
+            <p id="overlay-copy">Choose the German translation in one of the three lanes. Catch 30 words before your two minutes are up.</p>
+            <button id="overlay-action" type="button">Start level 1-1</button>
+          </div>
+        </section>
+      </main>
+      <footer><span><strong>30 words</strong> to finish each run</span><span>Two minutes on the clock</span></footer>
+    </div>
+    <script>
+      let config;
+      let levels = [];
+      let grammar;
+      let target = 0;
+      const $ = (selector) => document.querySelector(selector);
+      const tabs = [...document.querySelectorAll(".level")];
+      const lanes = [...document.querySelectorAll(".lane")];
+      let levelIndex = 0, unlockedLevel = Number(localStorage.getItem("wortlauf-unlocked") || 0), currentWord, correctLane = 0, selectedLane = 1;
+      let wordDeck = [], wordBankLoaded = false, loadingGameData = false, gateIntervalSeconds = 0;
+      let score = 0, speed = 0, timeLeft = 0, running = false, answerLocked = false, timerId, gateTimerId, gateIntervalId, transitionTimerId;
+      let installPrompt;
+
+      function shuffle(items) { return [...items].sort(() => Math.random() - .5); }
+      function article(word, form, grammaticalCase) {
+        const articleForm = grammar.articles[form][grammaticalCase][word.gender];
+        const noun = grammaticalCase === "genitive" ? grammar.genitiveNouns[word.id] : word.german;
+        return `${articleForm} ${noun}`;
+      }
+      function setLane(index) {
+        const targetLane = Math.max(0, Math.min(2, index));
+        selectedLane += Math.sign(targetLane - selectedLane);
+        lanes.forEach((button, lane) => button.classList.toggle("selected", lane === selectedLane));
+        const laneWidth = $("#runner").parentElement.clientWidth / 3;
+        $("#runner").style.setProperty("--shift", `${(selectedLane - 1) * laneWidth}px`);
+      }
+      function updateHud() {
+        $("#hud-level").textContent = levels[levelIndex].id;
+        $("#score").textContent = String(score);
+        $("#timer").textContent = `${Math.floor(timeLeft / 60)}:${String(timeLeft % 60).padStart(2, "0")}`;
+        $("#speed").style.width = `${speed}%`;
+        const roadFlow = Math.max(
+          config.roadFlowMinimumMilliseconds,
+          config.roadFlowBaseMilliseconds - speed * config.roadFlowSpeedReductionMillisecondsPerPercent
+        );
+        $(".surface").style.setProperty("--run-speed", `${roadFlow}ms`);
+      }
+      function approachGates() {
+        const gateDuration = gateIntervalSeconds * 1000;
+        lanes.forEach((button) => button.classList.remove("good", "bad"));
+        const runner = $("#runner");
+        runner.classList.remove("approaching", "hit", "correct");
+        void runner.offsetWidth;
+        const runnerBounds = runner.getBoundingClientRect();
+        const gateBounds = lanes[selectedLane].getBoundingClientRect();
+        const runnerCenter = runnerBounds.top + runnerBounds.height / 2;
+        const gateCenter = gateBounds.top + gateBounds.height / 2;
+        const approachY = Math.min(0, gateCenter - runnerCenter);
+        runner.style.setProperty("--approach-y", `${approachY}px`);
+        runner.style.setProperty("--gate-duration", `${gateDuration}ms`);
+        runner.classList.add("approaching");
+        answerLocked = false;
+        $("#feedback").classList.remove("wrong");
+        const gateDeadline = performance.now() + gateDuration;
+        $("#feedback").textContent = `Move into a lane · ${gateIntervalSeconds.toFixed(1)}s`;
+        clearTimeout(gateTimerId);
+        clearInterval(gateIntervalId);
+        gateIntervalId = setInterval(() => {
+          const remaining = Math.max(0, (gateDeadline - performance.now()) / 1000);
+          if (remaining > 0 && running) $("#feedback").textContent = `Move into a lane · ${remaining.toFixed(1)}s`;
+        }, config.countdownRefreshMilliseconds);
+        gateTimerId = setTimeout(resolveEncounter, gateDuration);
+      }
+      function chooseQuestion() {
+        if (wordDeck.length === 0) { finishRun(true); return; }
+        const level = levels[levelIndex];
+        currentWord = wordDeck.shift();
+        let options;
+        if (level.mode === "article") {
+          const form = Math.random() < config.articleIndefiniteChance ? "indefinite" : "definite";
+          const questionIndex = target - wordDeck.length - 1;
+          const questionsPerCase = Math.ceil(target / grammar.cases.length);
+          const caseIndex = Math.min(grammar.cases.length - 1, Math.floor(questionIndex / questionsPerCase));
+          const grammaticalCase = grammar.cases[caseIndex];
+          const danish = form === "definite" ? currentWord.danishDefinite : currentWord.danishIndefinite;
+          $("#prompt-label").textContent = `Choose the German form · ${grammar.caseLabels[grammaticalCase]} · ${form}`;
+          $("#word").textContent = danish;
+          options = shuffle([currentWord, ...shuffle(level.words.filter((word) => word !== currentWord)).slice(0, 2)]).map((word) => article(word, form, grammaticalCase));
+          const correct = article(currentWord, form, grammaticalCase);
+          correctLane = options.indexOf(correct);
+        } else {
+          $("#prompt-label").textContent = level.prompt;
+          $("#word").textContent = currentWord.danish;
+          options = shuffle([currentWord, ...shuffle(level.words.filter((word) => word !== currentWord)).slice(0, 2)]).map((word) => word.german);
+          correctLane = options.indexOf(currentWord.german);
+        }
+        lanes.forEach((button, index) => {
+          button.querySelector("strong").textContent = options[index];
+          button.setAttribute("aria-label", `Lane ${index + 1}: ${options[index]}`);
+        });
+        approachGates();
+      }
+      function showOverlay(title, copy, action, callback) {
+        running = false;
+        $(".surface").classList.remove("moving");
+        clearInterval(timerId);
+        clearTimeout(gateTimerId);
+        clearInterval(gateIntervalId);
+        clearTimeout(transitionTimerId);
+        $("#overlay-title").textContent = title;
+        $("#overlay-copy").textContent = copy;
+        $("#overlay-action").textContent = action;
+        $("#overlay").hidden = false;
+        $("#overlay-action").onclick = callback;
+      }
+      function showMenu() {
+        running = false;
+        clearInterval(timerId);
+        clearTimeout(gateTimerId);
+        clearInterval(gateIntervalId);
+        clearTimeout(transitionTimerId);
+        $(".surface").classList.remove("moving");
+        $("#overlay").hidden = true;
+        document.body.classList.remove("playing");
+        document.body.classList.add("menu-mode");
+      }
+      function startLevel() {
+        if (!wordBankLoaded || !config) { loadGameData(); return; }
+        clearInterval(timerId);
+        clearTimeout(gateTimerId);
+        clearInterval(gateIntervalId);
+        clearTimeout(transitionTimerId);
+        document.body.classList.remove("menu-mode");
+        document.body.classList.add("playing");
+        score = 0;
+        speed = config.initialRunSpeedPercent;
+        timeLeft = config.roundDurationSeconds;
+        gateIntervalSeconds = config.initialGateIntervalSeconds;
+        running = true;
+        wordDeck = shuffle(levels[levelIndex].words);
+        $("#overlay").hidden = true;
+        $(".surface").classList.add("moving");
+        $("#feedback").textContent = "Get into the right lane before impact";
+        $("#feedback").classList.remove("wrong");
+        updateHud(); chooseQuestion();
+        timerId = setInterval(() => {
+          if (!running) return;
+          timeLeft = Math.max(0, timeLeft - config.roundClockTickMilliseconds / 1000); updateHud();
+          if (timeLeft <= 0) finishRun(false);
+        }, config.roundClockTickMilliseconds);
+      }
+      function finishRun(won) {
+        if (won && levelIndex < levels.length - 1) {
+          const nextIndex = levelIndex + 1;
+          unlockedLevel = Math.max(unlockedLevel, nextIndex);
+          localStorage.setItem("wortlauf-unlocked", String(unlockedLevel));
+          tabs[nextIndex].disabled = false;
+          const nextLevel = levels[nextIndex];
+          showOverlay("Level complete!", `${target} words caught. Next up: ${nextLevel.name}.`, `Run level ${nextLevel.id}`, () => { selectLevel(nextIndex); startLevel(); });
+        } else if (won) {
+          showOverlay("Sehr gut!", "You finished all levels. Keep going to make those German words stick.", "Run again", startLevel);
+        } else {
+          showOverlay("Run over", `${score} of ${target} words caught in level ${levels[levelIndex].id}. Catch ${target} to finish this run.`, "Try again", startLevel);
+        }
+      }
+      function resolveEncounter() {
+        if (!running || answerLocked) return;
+        answerLocked = true;
+        clearInterval(gateIntervalId);
+        const correct = selectedLane === correctLane;
+        lanes[selectedLane].classList.add(correct ? "good" : "bad");
+        $("#feedback").classList.toggle("wrong", !correct);
+        $("#feedback").textContent = correct ? "" : "Keep running.";
+        const runner = $("#runner");
+        runner.classList.remove("approaching", "hit", "correct"); void runner.offsetWidth;
+        runner.classList.add(correct ? "correct" : "hit");
+        if (correct) {
+          score += 1;
+          speed = Math.min(config.maximumRunSpeedPercent, speed + config.correctRunSpeedGainPercent);
+          gateIntervalSeconds = Math.max(config.minimumGateIntervalSeconds, gateIntervalSeconds / config.gateSpeedMultiplierPerCorrect);
+        } else {
+          speed = Math.max(config.minimumRunSpeedPercent, speed - config.wrongRunSpeedLossPercent);
+          gateIntervalSeconds = Math.min(config.maximumGateIntervalSeconds, gateIntervalSeconds * config.gateSpeedMultiplierOnWrong);
+        }
+        updateHud();
+        if (!correct) {
+          transitionTimerId = setTimeout(() => {
+            if (running) approachGates();
+          }, config.wrongRetryTransitionMilliseconds);
+          return;
+        }
+        if (score >= target) { transitionTimerId = setTimeout(() => finishRun(true), config.levelCompleteTransitionMilliseconds); return; }
+        transitionTimerId = setTimeout(() => {
+          if (!running) return;
+          chooseQuestion();
+        }, config.correctTransitionMilliseconds);
+      }
+      function selectLevel(index) {
+        if (index > unlockedLevel || !levels[index]) return;
+        levelIndex = index;
+        tabs.forEach((tab, i) => tab.setAttribute("aria-selected", String(i === index)));
+        $("#start-button").innerHTML = `Start level ${levels[index].id} <span class="arrow" aria-hidden="true">↗</span>`;
+        $("#overlay-title").textContent = levels[index].mode === "article" ? "Ready for der, die, das?" : `Ready for ${levels[index].name}?`;
+        $("#overlay-copy").textContent = levels[index].mode === "article"
+          ? `Practice Nominativ, then Akkusativ, Dativ, and Genitiv. Catch ${target} words before your two minutes are up.`
+          : `Choose the German translation in one of the three lanes. Catch ${target} words before your two minutes are up.`;
+        updateHud();
+      }
+      async function updateServiceWorker() {
+        if (!("serviceWorker" in navigator)) return;
+        try {
+          const registration = await navigator.serviceWorker.register("./service-worker.js");
+          await registration.update();
+          const worker = registration.installing || registration.waiting;
+          if (!worker || worker.state === "activated" || worker.state === "redundant") return;
+          await new Promise((resolve) => {
+            const finish = () => {
+              if (worker.state === "activated" || worker.state === "redundant") {
+                worker.removeEventListener("statechange", finish);
+                resolve();
+              }
+            };
+            worker.addEventListener("statechange", finish);
+            finish();
+          });
+        } catch {
+          return;
+        }
+      }
+      async function loadGameData() {
+        if (loadingGameData) return;
+        loadingGameData = true;
+        try {
+          await updateServiceWorker();
+          const [configResponse, bankResponse] = await Promise.all([fetch("./config.json"), fetch("./wordbank.json")]);
+          if (!configResponse.ok || !bankResponse.ok) throw new Error("Game data request failed");
+          config = await configResponse.json();
+          const bank = await bankResponse.json();
+          grammar = bank.grammar;
+          const pacingValues = [
+            config.roundDurationSeconds, config.wordsPerLevel, config.initialGateIntervalSeconds,
+            config.minimumGateIntervalSeconds, config.maximumGateIntervalSeconds,
+            config.gateSpeedMultiplierPerCorrect, config.gateSpeedMultiplierOnWrong
+          ];
+          if (pacingValues.some((value) => !Number.isFinite(value)) || config.gateSpeedMultiplierPerCorrect <= 1 ||
+              config.gateSpeedMultiplierOnWrong <= 1 || config.minimumGateIntervalSeconds > config.initialGateIntervalSeconds ||
+              config.initialGateIntervalSeconds > config.maximumGateIntervalSeconds) {
+            throw new Error("Invalid gate speed settings");
+          }
+          const loadedLevels = bank.levels.map((level) => ({
+            ...level,
+            words: level.wordIds.map((wordId) => {
+              const word = bank.words[wordId];
+              if (!word) throw new Error(`Unknown word ID: ${wordId}`);
+              return { ...word, id: wordId };
+            })
+          }));
+          if (loadedLevels.length !== tabs.length || loadedLevels.some((level) => level.words.length !== config.wordsPerLevel)) {
+            throw new Error("Each level must match the configured word count");
+          }
+          levels = loadedLevels;
+          target = config.wordsPerLevel;
+          unlockedLevel = Math.max(0, Math.min(unlockedLevel, levels.length - 1));
+          tabs.forEach((tab, index) => {
+            tab.textContent = `${levels[index].id}  ${levels[index].name}`;
+            tab.disabled = index > unlockedLevel;
+          });
+          wordBankLoaded = true;
+          loadingGameData = false;
+          document.documentElement.style.setProperty("--bounce-duration", `${config.wrongBounceAnimationMilliseconds}ms`);
+          document.documentElement.style.setProperty("--pass-duration", `${config.correctPassAnimationMilliseconds}ms`);
+          updateHud();
+          startLevel();
+        } catch {
+          loadingGameData = false;
+          showOverlay("Game data unavailable", "Could not load config.json or wordbank.json. Check your connection and retry.", "Retry", loadGameData);
+        }
+      }
+      tabs.forEach((tab, index) => { tab.disabled = index > unlockedLevel; });
+      tabs.forEach((tab) => tab.addEventListener("click", () => selectLevel(Number(tab.dataset.level))));
+      $("#brand-button").addEventListener("click", () => {
+        if (document.body.classList.contains("playing")) showMenu();
+        else startLevel();
+      });
+      $("#start-button").addEventListener("click", startLevel);
+      $("#overlay-action").addEventListener("click", startLevel);
+      lanes.forEach((button, index) => button.addEventListener("click", () => {
+        if (running && !answerLocked) setLane(index);
+      }));
+      document.addEventListener("keydown", (event) => {
+        if (!running || answerLocked) return;
+        if (event.key === "ArrowLeft" || event.key.toLowerCase() === "a") { event.preventDefault(); setLane(selectedLane - 1); }
+        else if (event.key === "ArrowRight" || event.key.toLowerCase() === "d") { event.preventDefault(); setLane(selectedLane + 1); }
+        else if (["1", "2", "3"].includes(event.key)) setLane(Number(event.key) - 1);
+      });
+      window.addEventListener("beforeinstallprompt", (event) => {
+        event.preventDefault(); installPrompt = event; $("#install-button").style.display = "inline-block";
+      });
+      $("#install-button").addEventListener("click", async () => {
+        if (!installPrompt) return;
+        installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null;
+        $("#install-button").style.display = "none";
+      });
+      window.addEventListener("resize", () => setLane(selectedLane));
+      if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js"));
+      setLane(selectedLane);
+      loadGameData();
+    </script>
+  </body>
+</html>

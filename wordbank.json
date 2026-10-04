@@ -1,0 +1,146 @@
+{
+  "levels": [
+    {
+      "id": "1-1",
+      "name": "People + family",
+      "mode": "word",
+      "prompt": "Find the German word for",
+      "wordIds": [
+        "people.mother", "people.father", "people.child", "people.baby", "people.son",
+        "people.daughter", "people.brother", "people.sister", "people.grandmother",
+        "people.grandfather", "people.family", "people.friend", "people.female-friend",
+        "people.person", "people.man", "people.woman", "people.girl", "people.boy",
+        "people.uncle", "people.aunt", "people.male-cousin", "people.female-cousin",
+        "people.neighbor", "people.teacher", "people.student", "people.doctor",
+        "people.nurse", "people.colleague", "people.guest", "people.boss"
+      ]
+    },
+    {
+      "id": "1-2",
+      "name": "Animals",
+      "mode": "word",
+      "prompt": "Find the German word for",
+      "wordIds": [
+        "animals.dog", "animals.cat", "animals.horse", "animals.cow", "animals.pig",
+        "animals.sheep", "animals.goat", "animals.hen", "animals.duck", "animals.goose",
+        "animals.bird", "animals.fish", "animals.mouse", "animals.rat", "animals.rabbit",
+        "animals.hare", "animals.lion", "animals.tiger", "animals.elephant",
+        "animals.monkey", "animals.bear", "animals.wolf", "animals.fox", "animals.deer",
+        "animals.snake", "animals.frog", "animals.turtle", "animals.bee",
+        "animals.butterfly", "animals.spider"
+      ]
+    },
+    {
+      "id": "1-3",
+      "name": "Articles: all cases",
+      "mode": "article",
+      "wordIds": [
+        "people.mother", "people.father", "people.child", "people.baby", "people.son",
+        "people.daughter", "people.brother", "people.sister", "people.grandmother",
+        "people.grandfather", "people.family", "people.friend", "people.female-friend",
+        "people.person", "people.man", "animals.dog", "animals.cat", "animals.horse",
+        "animals.cow", "animals.pig", "animals.sheep", "animals.goat", "animals.hen",
+        "animals.duck", "animals.goose", "animals.bird", "animals.fish", "animals.mouse",
+        "animals.rat", "animals.rabbit"
+      ]
+    }
+  ],
+  "grammar": {
+    "cases": ["nominative", "accusative", "dative", "genitive"],
+    "caseLabels": {
+      "nominative": "Nominativ",
+      "accusative": "Akkusativ",
+      "dative": "Dativ",
+      "genitive": "Genitiv"
+    },
+    "articles": {
+      "definite": {
+        "nominative": { "der": "der", "die": "die", "das": "das" },
+        "accusative": { "der": "den", "die": "die", "das": "das" },
+        "dative": { "der": "dem", "die": "der", "das": "dem" },
+        "genitive": { "der": "des", "die": "der", "das": "des" }
+      },
+      "indefinite": {
+        "nominative": { "der": "ein", "die": "eine", "das": "ein" },
+        "accusative": { "der": "einen", "die": "eine", "das": "ein" },
+        "dative": { "der": "einem", "die": "einer", "das": "einem" },
+        "genitive": { "der": "eines", "die": "einer", "das": "eines" }
+      }
+    },
+    "genitiveNouns": {
+      "people.mother": "Mutter", "people.father": "Vaters", "people.child": "Kindes",
+      "people.baby": "Babys", "people.son": "Sohnes", "people.daughter": "Tochter",
+      "people.brother": "Bruders", "people.sister": "Schwester",
+      "people.grandmother": "Großmutter", "people.grandfather": "Großvaters",
+      "people.family": "Familie", "people.friend": "Freundes",
+      "people.female-friend": "Freundin", "people.person": "Person", "people.man": "Mannes",
+      "animals.dog": "Hundes", "animals.cat": "Katze", "animals.horse": "Pferdes",
+      "animals.cow": "Kuh", "animals.pig": "Schweins", "animals.sheep": "Schafs",
+      "animals.goat": "Ziege", "animals.hen": "Huhns", "animals.duck": "Ente",
+      "animals.goose": "Gans", "animals.bird": "Vogels", "animals.fish": "Fisches",
+      "animals.mouse": "Maus", "animals.rat": "Ratte", "animals.rabbit": "Kaninchens"
+    }
+  },
+  "words": {
+    "people.mother": { "danish": "mor", "german": "Mutter", "gender": "die", "danishDefinite": "moren", "danishIndefinite": "en mor" },
+    "people.father": { "danish": "far", "german": "Vater", "gender": "der", "danishDefinite": "faren", "danishIndefinite": "en far" },
+    "people.child": { "danish": "barn", "german": "Kind", "gender": "das", "danishDefinite": "barnet", "danishIndefinite": "et barn" },
+    "people.baby": { "danish": "baby", "german": "Baby", "gender": "das", "danishDefinite": "babyen", "danishIndefinite": "en baby" },
+    "people.son": { "danish": "søn", "german": "Sohn", "gender": "der", "danishDefinite": "sønnen", "danishIndefinite": "en søn" },
+    "people.daughter": { "danish": "datter", "german": "Tochter", "gender": "die", "danishDefinite": "datteren", "danishIndefinite": "en datter" },
+    "people.brother": { "danish": "bror", "german": "Bruder", "gender": "der", "danishDefinite": "broren", "danishIndefinite": "en bror" },
+    "people.sister": { "danish": "søster", "german": "Schwester", "gender": "die", "danishDefinite": "søsteren", "danishIndefinite": "en søster" },
+    "people.grandmother": { "danish": "bedstemor", "german": "Großmutter", "gender": "die", "danishDefinite": "bedstemoren", "danishIndefinite": "en bedstemor" },
+    "people.grandfather": { "danish": "bedstefar", "german": "Großvater", "gender": "der", "danishDefinite": "bedstefaren", "danishIndefinite": "en bedstefar" },
+    "people.family": { "danish": "familie", "german": "Familie", "gender": "die", "danishDefinite": "familien", "danishIndefinite": "en familie" },
+    "people.friend": { "danish": "ven", "german": "Freund", "gender": "der", "danishDefinite": "vennen", "danishIndefinite": "en ven" },
+    "people.female-friend": { "danish": "veninde", "german": "Freundin", "gender": "die", "danishDefinite": "veninden", "danishIndefinite": "en veninde" },
+    "people.person": { "danish": "person", "german": "Person", "gender": "die", "danishDefinite": "personen", "danishIndefinite": "en person" },
+    "people.man": { "danish": "mand", "german": "Mann", "gender": "der", "danishDefinite": "manden", "danishIndefinite": "en mand" },
+    "people.woman": { "danish": "kvinde", "german": "Frau", "gender": "die", "danishDefinite": "kvinden", "danishIndefinite": "en kvinde" },
+    "people.girl": { "danish": "pige", "german": "Mädchen", "gender": "das", "danishDefinite": "pigen", "danishIndefinite": "en pige" },
+    "people.boy": { "danish": "dreng", "german": "Junge", "gender": "der", "danishDefinite": "drengen", "danishIndefinite": "en dreng" },
+    "people.uncle": { "danish": "onkel", "german": "Onkel", "gender": "der", "danishDefinite": "onklen", "danishIndefinite": "en onkel" },
+    "people.aunt": { "danish": "tante", "german": "Tante", "gender": "die", "danishDefinite": "tanten", "danishIndefinite": "en tante" },
+    "people.male-cousin": { "danish": "fætter", "german": "Cousin", "gender": "der", "danishDefinite": "fætteren", "danishIndefinite": "en fætter" },
+    "people.female-cousin": { "danish": "kusine", "german": "Cousine", "gender": "die", "danishDefinite": "kusinen", "danishIndefinite": "en kusine" },
+    "people.neighbor": { "danish": "nabo", "german": "Nachbar", "gender": "der", "danishDefinite": "naboen", "danishIndefinite": "en nabo" },
+    "people.teacher": { "danish": "lærer", "german": "Lehrer", "gender": "der", "danishDefinite": "læreren", "danishIndefinite": "en lærer" },
+    "people.student": { "danish": "elev", "german": "Schüler", "gender": "der", "danishDefinite": "eleven", "danishIndefinite": "en elev" },
+    "people.doctor": { "danish": "læge", "german": "Arzt", "gender": "der", "danishDefinite": "lægen", "danishIndefinite": "en læge" },
+    "people.nurse": { "danish": "sygeplejerske", "german": "Krankenschwester", "gender": "die", "danishDefinite": "sygeplejersken", "danishIndefinite": "en sygeplejerske" },
+    "people.colleague": { "danish": "kollega", "german": "Kollege", "gender": "der", "danishDefinite": "kollegaen", "danishIndefinite": "en kollega" },
+    "people.guest": { "danish": "gæst", "german": "Gast", "gender": "der", "danishDefinite": "gæsten", "danishIndefinite": "en gæst" },
+    "people.boss": { "danish": "chef", "german": "Chef", "gender": "der", "danishDefinite": "chefen", "danishIndefinite": "en chef" },
+    "animals.dog": { "danish": "hund", "german": "Hund", "gender": "der", "danishDefinite": "hunden", "danishIndefinite": "en hund" },
+    "animals.cat": { "danish": "kat", "german": "Katze", "gender": "die", "danishDefinite": "katten", "danishIndefinite": "en kat" },
+    "animals.horse": { "danish": "hest", "german": "Pferd", "gender": "das", "danishDefinite": "hesten", "danishIndefinite": "en hest" },
+    "animals.cow": { "danish": "ko", "german": "Kuh", "gender": "die", "danishDefinite": "koen", "danishIndefinite": "en ko" },
+    "animals.pig": { "danish": "gris", "german": "Schwein", "gender": "das", "danishDefinite": "grisen", "danishIndefinite": "en gris" },
+    "animals.sheep": { "danish": "får", "german": "Schaf", "gender": "das", "danishDefinite": "fåret", "danishIndefinite": "et får" },
+    "animals.goat": { "danish": "ged", "german": "Ziege", "gender": "die", "danishDefinite": "geden", "danishIndefinite": "en ged" },
+    "animals.hen": { "danish": "høne", "german": "Huhn", "gender": "das", "danishDefinite": "hønen", "danishIndefinite": "en høne" },
+    "animals.duck": { "danish": "and", "german": "Ente", "gender": "die", "danishDefinite": "anden", "danishIndefinite": "en and" },
+    "animals.goose": { "danish": "gås", "german": "Gans", "gender": "die", "danishDefinite": "gåsen", "danishIndefinite": "en gås" },
+    "animals.bird": { "danish": "fugl", "german": "Vogel", "gender": "der", "danishDefinite": "fuglen", "danishIndefinite": "en fugl" },
+    "animals.fish": { "danish": "fisk", "german": "Fisch", "gender": "der", "danishDefinite": "fisken", "danishIndefinite": "en fisk" },
+    "animals.mouse": { "danish": "mus", "german": "Maus", "gender": "die", "danishDefinite": "musen", "danishIndefinite": "en mus" },
+    "animals.rat": { "danish": "rotte", "german": "Ratte", "gender": "die", "danishDefinite": "rotten", "danishIndefinite": "en rotte" },
+    "animals.rabbit": { "danish": "kanin", "german": "Kaninchen", "gender": "das", "danishDefinite": "kaninen", "danishIndefinite": "en kanin" },
+    "animals.hare": { "danish": "hare", "german": "Hase", "gender": "der", "danishDefinite": "haren", "danishIndefinite": "en hare" },
+    "animals.lion": { "danish": "løve", "german": "Löwe", "gender": "der", "danishDefinite": "løven", "danishIndefinite": "en løve" },
+    "animals.tiger": { "danish": "tiger", "german": "Tiger", "gender": "der", "danishDefinite": "tigeren", "danishIndefinite": "en tiger" },
+    "animals.elephant": { "danish": "elefant", "german": "Elefant", "gender": "der", "danishDefinite": "elefanten", "danishIndefinite": "en elefant" },
+    "animals.monkey": { "danish": "abe", "german": "Affe", "gender": "der", "danishDefinite": "aben", "danishIndefinite": "en abe" },
+    "animals.bear": { "danish": "bjørn", "german": "Bär", "gender": "der", "danishDefinite": "bjørnen", "danishIndefinite": "en bjørn" },
+    "animals.wolf": { "danish": "ulv", "german": "Wolf", "gender": "der", "danishDefinite": "ulven", "danishIndefinite": "en ulv" },
+    "animals.fox": { "danish": "ræv", "german": "Fuchs", "gender": "der", "danishDefinite": "ræven", "danishIndefinite": "en ræv" },
+    "animals.deer": { "danish": "hjort", "german": "Hirsch", "gender": "der", "danishDefinite": "hjorten", "danishIndefinite": "en hjort" },
+    "animals.snake": { "danish": "slange", "german": "Schlange", "gender": "die", "danishDefinite": "slangen", "danishIndefinite": "en slange" },
+    "animals.frog": { "danish": "frø", "german": "Frosch", "gender": "der", "danishDefinite": "frøen", "danishIndefinite": "en frø" },
+    "animals.turtle": { "danish": "skildpadde", "german": "Schildkröte", "gender": "die", "danishDefinite": "skildpadden", "danishIndefinite": "en skildpadde" },
+    "animals.bee": { "danish": "bi", "german": "Biene", "gender": "die", "danishDefinite": "bien", "danishIndefinite": "en bi" },
+    "animals.butterfly": { "danish": "sommerfugl", "german": "Schmetterling", "gender": "der", "danishDefinite": "sommerfuglen", "danishIndefinite": "en sommerfugl" },
+    "animals.spider": { "danish": "edderkop", "german": "Spinne", "gender": "die", "danishDefinite": "edderkoppen", "danishIndefinite": "en edderkop" }
+  }
+}
