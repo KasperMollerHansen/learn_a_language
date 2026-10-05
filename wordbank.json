@@ -7,45 +7,114 @@
       "mode": "word",
       "prompt": "Find the German word for",
       "wordIds": [
-        "people.mother", "people.father", "people.child", "people.baby", "people.son",
-        "people.daughter", "people.brother", "people.sister", "people.grandmother",
-        "people.grandfather", "people.family", "people.friend", "people.female-friend",
-        "people.person", "people.man", "people.woman", "people.girl", "people.boy",
-        "people.uncle", "people.aunt", "people.male-cousin", "people.female-cousin",
-        "people.neighbor", "people.teacher", "people.student", "people.doctor",
-        "people.nurse", "people.colleague", "people.guest", "people.boss"
+        "people.mother",
+        "people.father",
+        "people.child",
+        "people.baby",
+        "people.son",
+        "people.daughter",
+        "people.brother",
+        "people.sister",
+        "people.grandmother",
+        "people.grandfather",
+        "people.family",
+        "people.friend",
+        "people.female-friend",
+        "people.person",
+        "people.man",
+        "people.woman",
+        "people.girl",
+        "people.boy",
+        "people.uncle",
+        "people.aunt",
+        "people.male-cousin",
+        "people.female-cousin",
+        "people.neighbor",
+        "people.teacher",
+        "people.student",
+        "people.doctor",
+        "people.nurse",
+        "people.colleague",
+        "people.guest",
+        "people.boss"
       ]
     },
     {
       "id": "1-2",
       "chapter": "Chapter 1",
-      "name": "Adjective",
+      "name": "Tilægsord",
       "mode": "word",
       "prompt": "Find the German word for",
       "wordIds": [
-        "animals.dog", "animals.cat", "animals.horse", "animals.cow", "animals.pig",
-        "animals.sheep", "animals.goat", "animals.hen", "animals.duck", "animals.goose",
-        "animals.bird", "animals.fish", "animals.mouse", "animals.rat", "animals.rabbit",
-        "animals.hare", "animals.lion", "animals.tiger", "animals.elephant",
-        "animals.monkey", "animals.bear", "animals.wolf", "animals.fox", "animals.deer",
-        "animals.snake", "animals.frog", "animals.turtle", "animals.bee",
-        "animals.butterfly", "animals.spider"
+        "adjectives.happy",
+        "adjectives.sad",
+        "adjectives.big",
+        "adjectives.small",
+        "adjectives.new",
+        "adjectives.old",
+        "adjectives.fast",
+        "adjectives.slow",
+        "adjectives.strong",
+        "adjectives.weak",
+        "adjectives.clean",
+        "adjectives.dirty",
+        "adjectives.hot",
+        "adjectives.cold",
+        "adjectives.light",
+        "adjectives.heavy",
+        "adjectives.quiet",
+        "adjectives.loud",
+        "adjectives.beautiful",
+        "adjectives.ugly",
+        "adjectives.smart",
+        "adjectives.tall",
+        "adjectives.short",
+        "adjectives.young",
+        "adjectives.good",
+        "adjectives.bad",
+        "adjectives.easy",
+        "adjectives.difficult",
+        "adjectives.expensive",
+        "adjectives.cheap"
       ]
     },
     {
       "id": "1-3",
       "chapter": "Chapter 1",
-      "name": "Tilægsord",
+      "name": "Forholdsord",
       "mode": "word",
       "prompt": "Find the German word for",
       "wordIds": [
-        "people.mother", "people.father", "people.child", "people.baby", "people.son",
-        "people.daughter", "people.brother", "people.sister", "people.grandmother",
-        "people.grandfather", "people.family", "people.friend", "people.female-friend",
-        "people.person", "people.man", "animals.dog", "animals.cat", "animals.horse",
-        "animals.cow", "animals.pig", "animals.sheep", "animals.goat", "animals.hen",
-        "animals.duck", "animals.goose", "animals.bird", "animals.fish", "animals.mouse",
-        "animals.rat", "animals.rabbit"
+        "prepositions.in",
+        "prepositions.on",
+        "prepositions.under",
+        "prepositions.over",
+        "prepositions.behind",
+        "prepositions.infrontof",
+        "prepositions.beside",
+        "prepositions.between",
+        "prepositions.with",
+        "prepositions.without",
+        "prepositions.from",
+        "prepositions.to",
+        "prepositions.before",
+        "prepositions.after",
+        "prepositions.around",
+        "prepositions.through",
+        "prepositions.across",
+        "prepositions.near",
+        "prepositions.farfrom",
+        "prepositions.inside",
+        "prepositions.outside",
+        "prepositions.above",
+        "prepositions.below",
+        "prepositions.into",
+        "prepositions.outof",
+        "prepositions.along",
+        "prepositions.against",
+        "prepositions.among",
+        "prepositions.nextto",
+        "prepositions.during"
       ]
     },
     {
@@ -55,50 +124,153 @@
       "mode": "article",
       "prompt": "Choose the German form",
       "wordIds": [
-        "people.mother", "people.father", "people.child", "people.baby", "people.son",
-        "people.daughter", "people.brother", "people.sister", "people.grandmother",
-        "people.grandfather", "people.family", "people.friend", "people.female-friend",
-        "people.person", "people.man", "people.woman", "people.girl", "people.boy",
-        "people.uncle", "people.aunt", "people.male-cousin", "people.female-cousin",
-        "people.neighbor", "people.teacher", "people.student", "people.doctor",
-        "people.nurse", "people.colleague", "people.guest", "people.boss"
+        "people.mother",
+        "people.father",
+        "people.child",
+        "people.baby",
+        "people.son",
+        "people.daughter",
+        "people.brother",
+        "people.sister",
+        "people.grandmother",
+        "people.grandfather",
+        "people.family",
+        "people.friend",
+        "people.female-friend",
+        "people.person",
+        "people.man",
+        "people.woman",
+        "people.girl",
+        "people.boy",
+        "people.uncle",
+        "people.aunt",
+        "people.male-cousin",
+        "people.female-cousin",
+        "people.neighbor",
+        "people.teacher",
+        "people.student",
+        "people.doctor",
+        "people.nurse",
+        "people.colleague",
+        "people.guest",
+        "people.boss"
       ]
     },
     {
       "id": "1-5",
       "chapter": "Chapter 1",
-      "name": "Sentences",
+      "name": "Animals",
       "mode": "word",
-      "prompt": "Choose the next word in the sentence",
+      "prompt": "Find the German word for",
       "wordIds": [
-        "people.mother", "people.father", "people.child", "people.baby", "people.son",
-        "people.daughter", "people.brother", "people.sister", "people.grandmother",
-        "people.grandfather", "people.family", "people.friend", "people.female-friend",
-        "people.person", "people.man", "people.woman", "people.girl", "people.boy",
-        "people.uncle", "people.aunt", "people.male-cousin", "people.female-cousin",
-        "people.neighbor", "people.teacher", "people.student", "people.doctor",
-        "people.nurse", "people.colleague", "people.guest", "people.boss"
+        "animals.dog",
+        "animals.cat",
+        "animals.horse",
+        "animals.cow",
+        "animals.pig",
+        "animals.sheep",
+        "animals.goat",
+        "animals.hen",
+        "animals.duck",
+        "animals.goose",
+        "animals.bird",
+        "animals.fish",
+        "animals.mouse",
+        "animals.rat",
+        "animals.rabbit",
+        "animals.hare",
+        "animals.lion",
+        "animals.tiger",
+        "animals.elephant",
+        "animals.monkey",
+        "animals.bear",
+        "animals.wolf",
+        "animals.fox",
+        "animals.deer",
+        "animals.snake",
+        "animals.frog",
+        "animals.turtle",
+        "animals.bee",
+        "animals.butterfly",
+        "animals.spider"
+      ]
+    },
+    {
+      "id": "1-6",
+      "chapter": "Chapter 1",
+      "name": "Words that look alike",
+      "mode": "word",
+      "prompt": "Translate the Danish word into German",
+      "wordIds": [
+        "spelling.hotel", "spelling.restaurant", "spelling.radio", "spelling.computer",
+        "spelling.bus", "spelling.park", "spelling.museum", "spelling.problem",
+        "spelling.telephone", "spelling.video", "spelling.internet", "spelling.bank",
+        "spelling.music", "spelling.family", "spelling.number", "spelling.minute",
+        "spelling.meter", "spelling.second", "spelling.pizza", "spelling.chocolate",
+        "spelling.salad", "spelling.tomato", "spelling.camera", "spelling.taxi",
+        "spelling.university", "spelling.student", "spelling.professor", "spelling.zoo",
+        "spelling.theater", "spelling.artist"
       ]
     },
     {
       "id": "2-1",
       "chapter": "Chapter 2",
-      "name": "More advanced",
+      "name": "Modalverber",
+      "mode": "word",
+      "prompt": "Translate the Danish sentence into German",
+      "wordIds": [
+        "modals.koennen.ich", "modals.koennen.du", "modals.koennen.er",
+        "modals.koennen.wir", "modals.koennen.sie", "modals.muessen.ich",
+        "modals.muessen.du", "modals.muessen.er", "modals.muessen.wir",
+        "modals.muessen.sie", "modals.wollen.ich", "modals.wollen.du",
+        "modals.wollen.er", "modals.wollen.wir", "modals.wollen.sie",
+        "modals.duerfen.ich", "modals.duerfen.du", "modals.duerfen.er",
+        "modals.duerfen.wir", "modals.duerfen.sie", "modals.sollen.ich",
+        "modals.sollen.du", "modals.sollen.er", "modals.sollen.wir",
+        "modals.sollen.sie", "modals.moegen.ich", "modals.moegen.du",
+        "modals.moegen.er", "modals.moegen.wir", "modals.moegen.sie"
+      ]
+    },
+    {
+      "id": "2-2",
+      "chapter": "Chapter 2",
+      "name": "Common verbs",
       "mode": "word",
       "prompt": "Find the German word for",
       "wordIds": [
-        "animals.hare", "animals.lion", "animals.tiger", "animals.elephant",
-        "animals.monkey", "animals.bear", "animals.wolf", "animals.fox", "animals.deer",
-        "animals.snake", "animals.frog", "animals.turtle", "animals.bee",
-        "animals.butterfly", "animals.spider", "people.nurse", "people.colleague",
-        "people.guest", "people.boss", "people.teacher", "people.student",
-        "people.doctor", "people.neighbor", "people.male-cousin", "people.female-cousin",
-        "people.aunt", "people.uncle", "people.woman", "people.girl", "people.boy"
+        "verbs.be", "verbs.have", "verbs.do", "verbs.go", "verbs.come", "verbs.see",
+        "verbs.hear", "verbs.speak", "verbs.say", "verbs.eat", "verbs.drink", "verbs.sleep",
+        "verbs.read", "verbs.write", "verbs.learn", "verbs.work", "verbs.live", "verbs.buy",
+        "verbs.pay", "verbs.find", "verbs.think", "verbs.know", "verbs.understand",
+        "verbs.help", "verbs.ask", "verbs.answer", "verbs.open", "verbs.close", "verbs.wait",
+        "verbs.walk"
+      ]
+    },
+    {
+      "id": "2-3",
+      "chapter": "Chapter 2",
+      "name": "Everyday things",
+      "mode": "word",
+      "prompt": "Find the German word for",
+      "wordIds": [
+        "kitchen.pan", "kitchen.pot", "kitchen.cup", "kitchen.plate", "kitchen.spoon",
+        "kitchen.fork", "kitchen.knife", "kitchen.fridge", "kitchen.tablecloth",
+        "kitchen.mirror", "kitchen.blanket", "kitchen.cushion", "kitchen.bowl",
+        "everyday.breakfast", "everyday.lunch", "everyday.dinner", "everyday.umbrella",
+        "everyday.wallet", "everyday.watch", "everyday.toothbrush", "everyday.shampoo",
+        "everyday.soap", "everyday.towel", "technology.screen", "technology.keyboard",
+        "technology.mouse", "technology.wifi", "technology.app", "technology.email",
+        "technology.chat"
       ]
     }
   ],
   "grammar": {
-    "cases": ["nominative", "accusative", "dative", "genitive"],
+    "cases": [
+      "nominative",
+      "accusative",
+      "dative",
+      "genitive"
+    ],
     "caseLabels": {
       "nominative": "Nominativ",
       "accusative": "Akkusativ",
@@ -107,92 +279,1735 @@
     },
     "articles": {
       "definite": {
-        "nominative": { "der": "der", "die": "die", "das": "das" },
-        "accusative": { "der": "den", "die": "die", "das": "das" },
-        "dative": { "der": "dem", "die": "der", "das": "dem" },
-        "genitive": { "der": "des", "die": "der", "das": "des" }
+        "nominative": {
+          "der": "der",
+          "die": "die",
+          "das": "das"
+        },
+        "accusative": {
+          "der": "den",
+          "die": "die",
+          "das": "das"
+        },
+        "dative": {
+          "der": "dem",
+          "die": "der",
+          "das": "dem"
+        },
+        "genitive": {
+          "der": "des",
+          "die": "der",
+          "das": "des"
+        }
       },
       "indefinite": {
-        "nominative": { "der": "ein", "die": "eine", "das": "ein" },
-        "accusative": { "der": "einen", "die": "eine", "das": "ein" },
-        "dative": { "der": "einem", "die": "einer", "das": "einem" },
-        "genitive": { "der": "eines", "die": "einer", "das": "eines" }
+        "nominative": {
+          "der": "ein",
+          "die": "eine",
+          "das": "ein"
+        },
+        "accusative": {
+          "der": "einen",
+          "die": "eine",
+          "das": "ein"
+        },
+        "dative": {
+          "der": "einem",
+          "die": "einer",
+          "das": "einem"
+        },
+        "genitive": {
+          "der": "eines",
+          "die": "einer",
+          "das": "eines"
+        }
       }
     },
     "genitiveNouns": {
-      "people.mother": "Mutter", "people.father": "Vaters", "people.child": "Kindes",
-      "people.baby": "Babys", "people.son": "Sohnes", "people.daughter": "Tochter",
-      "people.brother": "Bruders", "people.sister": "Schwester",
-      "people.grandmother": "Großmutter", "people.grandfather": "Großvaters",
-      "people.family": "Familie", "people.friend": "Freundes",
-      "people.female-friend": "Freundin", "people.person": "Person", "people.man": "Mannes",
-      "animals.dog": "Hundes", "animals.cat": "Katze", "animals.horse": "Pferdes",
-      "animals.cow": "Kuh", "animals.pig": "Schweins", "animals.sheep": "Schafs",
-      "animals.goat": "Ziege", "animals.hen": "Huhns", "animals.duck": "Ente",
-      "animals.goose": "Gans", "animals.bird": "Vogels", "animals.fish": "Fisches",
-      "animals.mouse": "Maus", "animals.rat": "Ratte", "animals.rabbit": "Kaninchens"
+      "people.mother": "Mutter",
+      "people.father": "Vaters",
+      "people.child": "Kindes",
+      "people.baby": "Babys",
+      "people.son": "Sohnes",
+      "people.daughter": "Tochter",
+      "people.brother": "Bruders",
+      "people.sister": "Schwester",
+      "people.grandmother": "Großmutter",
+      "people.grandfather": "Großvaters",
+      "people.family": "Familie",
+      "people.friend": "Freundes",
+      "people.female-friend": "Freundin",
+      "people.person": "Person",
+      "people.man": "Mannes",
+      "people.woman": "Frau",
+      "people.girl": "Mädchens",
+      "people.boy": "Jungen",
+      "people.uncle": "Onkels",
+      "people.aunt": "Tante",
+      "people.male-cousin": "Cousins",
+      "people.female-cousin": "Cousine",
+      "people.neighbor": "Nachbarn",
+      "people.teacher": "Lehrers",
+      "people.student": "Schülers",
+      "people.doctor": "Arztes",
+      "people.nurse": "Krankenschwester",
+      "people.colleague": "Kollegen",
+      "people.guest": "Gastes",
+      "people.boss": "Chefs",
+      "animals.dog": "Hundes",
+      "animals.cat": "Katze",
+      "animals.horse": "Pferdes",
+      "animals.cow": "Kuh",
+      "animals.pig": "Schweins",
+      "animals.sheep": "Schafs",
+      "animals.goat": "Ziege",
+      "animals.hen": "Huhns",
+      "animals.duck": "Ente",
+      "animals.goose": "Gans",
+      "animals.bird": "Vogels",
+      "animals.fish": "Fisches",
+      "animals.mouse": "Maus",
+      "animals.rat": "Ratte",
+      "animals.rabbit": "Kaninchens"
     }
   },
   "words": {
-    "people.mother": { "danish": "mor", "german": "Mutter", "gender": "die", "danishDefinite": "moren", "danishIndefinite": "en mor" },
-    "people.father": { "danish": "far", "german": "Vater", "gender": "der", "danishDefinite": "faren", "danishIndefinite": "en far" },
-    "people.child": { "danish": "barn", "german": "Kind", "gender": "das", "danishDefinite": "barnet", "danishIndefinite": "et barn" },
-    "people.baby": { "danish": "baby", "german": "Baby", "gender": "das", "danishDefinite": "babyen", "danishIndefinite": "en baby" },
-    "people.son": { "danish": "søn", "german": "Sohn", "gender": "der", "danishDefinite": "sønnen", "danishIndefinite": "en søn" },
-    "people.daughter": { "danish": "datter", "german": "Tochter", "gender": "die", "danishDefinite": "datteren", "danishIndefinite": "en datter" },
-    "people.brother": { "danish": "bror", "german": "Bruder", "gender": "der", "danishDefinite": "broren", "danishIndefinite": "en bror" },
-    "people.sister": { "danish": "søster", "german": "Schwester", "gender": "die", "danishDefinite": "søsteren", "danishIndefinite": "en søster" },
-    "people.grandmother": { "danish": "bedstemor", "german": "Großmutter", "gender": "die", "danishDefinite": "bedstemoren", "danishIndefinite": "en bedstemor" },
-    "people.grandfather": { "danish": "bedstefar", "german": "Großvater", "gender": "der", "danishDefinite": "bedstefaren", "danishIndefinite": "en bedstefar" },
-    "people.family": { "danish": "familie", "german": "Familie", "gender": "die", "danishDefinite": "familien", "danishIndefinite": "en familie" },
-    "people.friend": { "danish": "ven", "german": "Freund", "gender": "der", "danishDefinite": "vennen", "danishIndefinite": "en ven" },
-    "people.female-friend": { "danish": "veninde", "german": "Freundin", "gender": "die", "danishDefinite": "veninden", "danishIndefinite": "en veninde" },
-    "people.person": { "danish": "person", "german": "Person", "gender": "die", "danishDefinite": "personen", "danishIndefinite": "en person" },
-    "people.man": { "danish": "mand", "german": "Mann", "gender": "der", "danishDefinite": "manden", "danishIndefinite": "en mand" },
-    "people.woman": { "danish": "kvinde", "german": "Frau", "gender": "die", "danishDefinite": "kvinden", "danishIndefinite": "en kvinde" },
-    "people.girl": { "danish": "pige", "german": "Mädchen", "gender": "das", "danishDefinite": "pigen", "danishIndefinite": "en pige" },
-    "people.boy": { "danish": "dreng", "german": "Junge", "gender": "der", "danishDefinite": "drengen", "danishIndefinite": "en dreng" },
-    "people.uncle": { "danish": "onkel", "german": "Onkel", "gender": "der", "danishDefinite": "onklen", "danishIndefinite": "en onkel" },
-    "people.aunt": { "danish": "tante", "german": "Tante", "gender": "die", "danishDefinite": "tanten", "danishIndefinite": "en tante" },
-    "people.male-cousin": { "danish": "fætter", "german": "Cousin", "gender": "der", "danishDefinite": "fætteren", "danishIndefinite": "en fætter" },
-    "people.female-cousin": { "danish": "kusine", "german": "Cousine", "gender": "die", "danishDefinite": "kusinen", "danishIndefinite": "en kusine" },
-    "people.neighbor": { "danish": "nabo", "german": "Nachbar", "gender": "der", "danishDefinite": "naboen", "danishIndefinite": "en nabo" },
-    "people.teacher": { "danish": "lærer", "german": "Lehrer", "gender": "der", "danishDefinite": "læreren", "danishIndefinite": "en lærer" },
-    "people.student": { "danish": "elev", "german": "Schüler", "gender": "der", "danishDefinite": "eleven", "danishIndefinite": "en elev" },
-    "people.doctor": { "danish": "læge", "german": "Arzt", "gender": "der", "danishDefinite": "lægen", "danishIndefinite": "en læge" },
-    "people.nurse": { "danish": "sygeplejerske", "german": "Krankenschwester", "gender": "die", "danishDefinite": "sygeplejersken", "danishIndefinite": "en sygeplejerske" },
-    "people.colleague": { "danish": "kollega", "german": "Kollege", "gender": "der", "danishDefinite": "kollegaen", "danishIndefinite": "en kollega" },
-    "people.guest": { "danish": "gæst", "german": "Gast", "gender": "der", "danishDefinite": "gæsten", "danishIndefinite": "en gæst" },
-    "people.boss": { "danish": "chef", "german": "Chef", "gender": "der", "danishDefinite": "chefen", "danishIndefinite": "en chef" },
-    "animals.dog": { "danish": "hund", "german": "Hund", "gender": "der", "danishDefinite": "hunden", "danishIndefinite": "en hund" },
-    "animals.cat": { "danish": "kat", "german": "Katze", "gender": "die", "danishDefinite": "katten", "danishIndefinite": "en kat" },
-    "animals.horse": { "danish": "hest", "german": "Pferd", "gender": "das", "danishDefinite": "hesten", "danishIndefinite": "en hest" },
-    "animals.cow": { "danish": "ko", "german": "Kuh", "gender": "die", "danishDefinite": "koen", "danishIndefinite": "en ko" },
-    "animals.pig": { "danish": "gris", "german": "Schwein", "gender": "das", "danishDefinite": "grisen", "danishIndefinite": "en gris" },
-    "animals.sheep": { "danish": "får", "german": "Schaf", "gender": "das", "danishDefinite": "fåret", "danishIndefinite": "et får" },
-    "animals.goat": { "danish": "ged", "german": "Ziege", "gender": "die", "danishDefinite": "geden", "danishIndefinite": "en ged" },
-    "animals.hen": { "danish": "høne", "german": "Huhn", "gender": "das", "danishDefinite": "hønen", "danishIndefinite": "en høne" },
-    "animals.duck": { "danish": "and", "german": "Ente", "gender": "die", "danishDefinite": "anden", "danishIndefinite": "en and" },
-    "animals.goose": { "danish": "gås", "german": "Gans", "gender": "die", "danishDefinite": "gåsen", "danishIndefinite": "en gås" },
-    "animals.bird": { "danish": "fugl", "german": "Vogel", "gender": "der", "danishDefinite": "fuglen", "danishIndefinite": "en fugl" },
-    "animals.fish": { "danish": "fisk", "german": "Fisch", "gender": "der", "danishDefinite": "fisken", "danishIndefinite": "en fisk" },
-    "animals.mouse": { "danish": "mus", "german": "Maus", "gender": "die", "danishDefinite": "musen", "danishIndefinite": "en mus" },
-    "animals.rat": { "danish": "rotte", "german": "Ratte", "gender": "die", "danishDefinite": "rotten", "danishIndefinite": "en rotte" },
-    "animals.rabbit": { "danish": "kanin", "german": "Kaninchen", "gender": "das", "danishDefinite": "kaninen", "danishIndefinite": "en kanin" },
-    "animals.hare": { "danish": "hare", "german": "Hase", "gender": "der", "danishDefinite": "haren", "danishIndefinite": "en hare" },
-    "animals.lion": { "danish": "løve", "german": "Löwe", "gender": "der", "danishDefinite": "løven", "danishIndefinite": "en løve" },
-    "animals.tiger": { "danish": "tiger", "german": "Tiger", "gender": "der", "danishDefinite": "tigeren", "danishIndefinite": "en tiger" },
-    "animals.elephant": { "danish": "elefant", "german": "Elefant", "gender": "der", "danishDefinite": "elefanten", "danishIndefinite": "en elefant" },
-    "animals.monkey": { "danish": "abe", "german": "Affe", "gender": "der", "danishDefinite": "aben", "danishIndefinite": "en abe" },
-    "animals.bear": { "danish": "bjørn", "german": "Bär", "gender": "der", "danishDefinite": "bjørnen", "danishIndefinite": "en bjørn" },
-    "animals.wolf": { "danish": "ulv", "german": "Wolf", "gender": "der", "danishDefinite": "ulven", "danishIndefinite": "en ulv" },
-    "animals.fox": { "danish": "ræv", "german": "Fuchs", "gender": "der", "danishDefinite": "ræven", "danishIndefinite": "en ræv" },
-    "animals.deer": { "danish": "hjort", "german": "Hirsch", "gender": "der", "danishDefinite": "hjorten", "danishIndefinite": "en hjort" },
-    "animals.snake": { "danish": "slange", "german": "Schlange", "gender": "die", "danishDefinite": "slangen", "danishIndefinite": "en slange" },
-    "animals.frog": { "danish": "frø", "german": "Frosch", "gender": "der", "danishDefinite": "frøen", "danishIndefinite": "en frø" },
-    "animals.turtle": { "danish": "skildpadde", "german": "Schildkröte", "gender": "die", "danishDefinite": "skildpadden", "danishIndefinite": "en skildpadde" },
-    "animals.bee": { "danish": "bi", "german": "Biene", "gender": "die", "danishDefinite": "bien", "danishIndefinite": "en bi" },
-    "animals.butterfly": { "danish": "sommerfugl", "german": "Schmetterling", "gender": "der", "danishDefinite": "sommerfuglen", "danishIndefinite": "en sommerfugl" },
-    "animals.spider": { "danish": "edderkop", "german": "Spinne", "gender": "die", "danishDefinite": "edderkoppen", "danishIndefinite": "en edderkop" }
+    "people.mother": {
+      "danish": "mor",
+      "german": "Mutter",
+      "gender": "die",
+      "danishDefinite": "moren",
+      "danishIndefinite": "en mor"
+    },
+    "people.father": {
+      "danish": "far",
+      "german": "Vater",
+      "gender": "der",
+      "danishDefinite": "faren",
+      "danishIndefinite": "en far"
+    },
+    "people.child": {
+      "danish": "barn",
+      "german": "Kind",
+      "gender": "das",
+      "danishDefinite": "barnet",
+      "danishIndefinite": "et barn"
+    },
+    "people.baby": {
+      "danish": "baby",
+      "german": "Baby",
+      "gender": "das",
+      "danishDefinite": "babyen",
+      "danishIndefinite": "en baby"
+    },
+    "people.son": {
+      "danish": "søn",
+      "german": "Sohn",
+      "gender": "der",
+      "danishDefinite": "sønnen",
+      "danishIndefinite": "en søn"
+    },
+    "people.daughter": {
+      "danish": "datter",
+      "german": "Tochter",
+      "gender": "die",
+      "danishDefinite": "datteren",
+      "danishIndefinite": "en datter"
+    },
+    "people.brother": {
+      "danish": "bror",
+      "german": "Bruder",
+      "gender": "der",
+      "danishDefinite": "broren",
+      "danishIndefinite": "en bror"
+    },
+    "people.sister": {
+      "danish": "søster",
+      "german": "Schwester",
+      "gender": "die",
+      "danishDefinite": "søsteren",
+      "danishIndefinite": "en søster"
+    },
+    "people.grandmother": {
+      "danish": "bedstemor",
+      "german": "Großmutter",
+      "gender": "die",
+      "danishDefinite": "bedstemoren",
+      "danishIndefinite": "en bedstemor"
+    },
+    "people.grandfather": {
+      "danish": "bedstefar",
+      "german": "Großvater",
+      "gender": "der",
+      "danishDefinite": "bedstefaren",
+      "danishIndefinite": "en bedstefar"
+    },
+    "people.family": {
+      "danish": "familie",
+      "german": "Familie",
+      "gender": "die",
+      "danishDefinite": "familien",
+      "danishIndefinite": "en familie"
+    },
+    "people.friend": {
+      "danish": "ven",
+      "german": "Freund",
+      "gender": "der",
+      "danishDefinite": "vennen",
+      "danishIndefinite": "en ven"
+    },
+    "people.female-friend": {
+      "danish": "veninde",
+      "german": "Freundin",
+      "gender": "die",
+      "danishDefinite": "veninden",
+      "danishIndefinite": "en veninde"
+    },
+    "people.person": {
+      "danish": "person",
+      "german": "Person",
+      "gender": "die",
+      "danishDefinite": "personen",
+      "danishIndefinite": "en person"
+    },
+    "people.man": {
+      "danish": "mand",
+      "german": "Mann",
+      "gender": "der",
+      "danishDefinite": "manden",
+      "danishIndefinite": "en mand"
+    },
+    "people.woman": {
+      "danish": "kvinde",
+      "german": "Frau",
+      "gender": "die",
+      "danishDefinite": "kvinden",
+      "danishIndefinite": "en kvinde"
+    },
+    "people.girl": {
+      "danish": "pige",
+      "german": "Mädchen",
+      "gender": "das",
+      "danishDefinite": "pigen",
+      "danishIndefinite": "en pige"
+    },
+    "people.boy": {
+      "danish": "dreng",
+      "german": "Junge",
+      "gender": "der",
+      "danishDefinite": "drengen",
+      "danishIndefinite": "en dreng"
+    },
+    "people.uncle": {
+      "danish": "onkel",
+      "german": "Onkel",
+      "gender": "der",
+      "danishDefinite": "onklen",
+      "danishIndefinite": "en onkel"
+    },
+    "people.aunt": {
+      "danish": "tante",
+      "german": "Tante",
+      "gender": "die",
+      "danishDefinite": "tanten",
+      "danishIndefinite": "en tante"
+    },
+    "people.male-cousin": {
+      "danish": "fætter",
+      "german": "Cousin",
+      "gender": "der",
+      "danishDefinite": "fætteren",
+      "danishIndefinite": "en fætter"
+    },
+    "people.female-cousin": {
+      "danish": "kusine",
+      "german": "Cousine",
+      "gender": "die",
+      "danishDefinite": "kusinen",
+      "danishIndefinite": "en kusine"
+    },
+    "people.neighbor": {
+      "danish": "nabo",
+      "german": "Nachbar",
+      "gender": "der",
+      "danishDefinite": "naboen",
+      "danishIndefinite": "en nabo"
+    },
+    "people.teacher": {
+      "danish": "lærer",
+      "german": "Lehrer",
+      "gender": "der",
+      "danishDefinite": "læreren",
+      "danishIndefinite": "en lærer"
+    },
+    "people.student": {
+      "danish": "elev",
+      "german": "Schüler",
+      "gender": "der",
+      "danishDefinite": "eleven",
+      "danishIndefinite": "en elev"
+    },
+    "people.doctor": {
+      "danish": "læge",
+      "german": "Arzt",
+      "gender": "der",
+      "danishDefinite": "lægen",
+      "danishIndefinite": "en læge"
+    },
+    "people.nurse": {
+      "danish": "sygeplejerske",
+      "german": "Krankenschwester",
+      "gender": "die",
+      "danishDefinite": "sygeplejersken",
+      "danishIndefinite": "en sygeplejerske"
+    },
+    "people.colleague": {
+      "danish": "kollega",
+      "german": "Kollege",
+      "gender": "der",
+      "danishDefinite": "kollegaen",
+      "danishIndefinite": "en kollega"
+    },
+    "people.guest": {
+      "danish": "gæst",
+      "german": "Gast",
+      "gender": "der",
+      "danishDefinite": "gæsten",
+      "danishIndefinite": "en gæst"
+    },
+    "people.boss": {
+      "danish": "chef",
+      "german": "Chef",
+      "gender": "der",
+      "danishDefinite": "chefen",
+      "danishIndefinite": "en chef"
+    },
+    "animals.dog": {
+      "danish": "hund",
+      "german": "Hund",
+      "gender": "der",
+      "danishDefinite": "hunden",
+      "danishIndefinite": "en hund"
+    },
+    "animals.cat": {
+      "danish": "kat",
+      "german": "Katze",
+      "gender": "die",
+      "danishDefinite": "katten",
+      "danishIndefinite": "en kat"
+    },
+    "animals.horse": {
+      "danish": "hest",
+      "german": "Pferd",
+      "gender": "das",
+      "danishDefinite": "hesten",
+      "danishIndefinite": "en hest"
+    },
+    "animals.cow": {
+      "danish": "ko",
+      "german": "Kuh",
+      "gender": "die",
+      "danishDefinite": "koen",
+      "danishIndefinite": "en ko"
+    },
+    "animals.pig": {
+      "danish": "gris",
+      "german": "Schwein",
+      "gender": "das",
+      "danishDefinite": "grisen",
+      "danishIndefinite": "en gris"
+    },
+    "animals.sheep": {
+      "danish": "får",
+      "german": "Schaf",
+      "gender": "das",
+      "danishDefinite": "fåret",
+      "danishIndefinite": "et får"
+    },
+    "animals.goat": {
+      "danish": "ged",
+      "german": "Ziege",
+      "gender": "die",
+      "danishDefinite": "geden",
+      "danishIndefinite": "en ged"
+    },
+    "animals.hen": {
+      "danish": "høne",
+      "german": "Huhn",
+      "gender": "das",
+      "danishDefinite": "hønen",
+      "danishIndefinite": "en høne"
+    },
+    "animals.duck": {
+      "danish": "and",
+      "german": "Ente",
+      "gender": "die",
+      "danishDefinite": "anden",
+      "danishIndefinite": "en and"
+    },
+    "animals.goose": {
+      "danish": "gås",
+      "german": "Gans",
+      "gender": "die",
+      "danishDefinite": "gåsen",
+      "danishIndefinite": "en gås"
+    },
+    "animals.bird": {
+      "danish": "fugl",
+      "german": "Vogel",
+      "gender": "der",
+      "danishDefinite": "fuglen",
+      "danishIndefinite": "en fugl"
+    },
+    "animals.fish": {
+      "danish": "fisk",
+      "german": "Fisch",
+      "gender": "der",
+      "danishDefinite": "fisken",
+      "danishIndefinite": "en fisk"
+    },
+    "animals.mouse": {
+      "danish": "mus",
+      "german": "Maus",
+      "gender": "die",
+      "danishDefinite": "musen",
+      "danishIndefinite": "en mus"
+    },
+    "animals.rat": {
+      "danish": "rotte",
+      "german": "Ratte",
+      "gender": "die",
+      "danishDefinite": "rotten",
+      "danishIndefinite": "en rotte"
+    },
+    "animals.rabbit": {
+      "danish": "kanin",
+      "german": "Kaninchen",
+      "gender": "das",
+      "danishDefinite": "kaninen",
+      "danishIndefinite": "en kanin"
+    },
+    "animals.hare": {
+      "danish": "hare",
+      "german": "Hase",
+      "gender": "der",
+      "danishDefinite": "haren",
+      "danishIndefinite": "en hare"
+    },
+    "animals.lion": {
+      "danish": "løve",
+      "german": "Löwe",
+      "gender": "der",
+      "danishDefinite": "løven",
+      "danishIndefinite": "en løve"
+    },
+    "animals.tiger": {
+      "danish": "tiger",
+      "german": "Tiger",
+      "gender": "der",
+      "danishDefinite": "tigeren",
+      "danishIndefinite": "en tiger"
+    },
+    "animals.elephant": {
+      "danish": "elefant",
+      "german": "Elefant",
+      "gender": "der",
+      "danishDefinite": "elefanten",
+      "danishIndefinite": "en elefant"
+    },
+    "animals.monkey": {
+      "danish": "abe",
+      "german": "Affe",
+      "gender": "der",
+      "danishDefinite": "aben",
+      "danishIndefinite": "en abe"
+    },
+    "animals.bear": {
+      "danish": "bjørn",
+      "german": "Bär",
+      "gender": "der",
+      "danishDefinite": "bjørnen",
+      "danishIndefinite": "en bjørn"
+    },
+    "animals.wolf": {
+      "danish": "ulv",
+      "german": "Wolf",
+      "gender": "der",
+      "danishDefinite": "ulven",
+      "danishIndefinite": "en ulv"
+    },
+    "animals.fox": {
+      "danish": "ræv",
+      "german": "Fuchs",
+      "gender": "der",
+      "danishDefinite": "ræven",
+      "danishIndefinite": "en ræv"
+    },
+    "animals.deer": {
+      "danish": "hjort",
+      "german": "Hirsch",
+      "gender": "der",
+      "danishDefinite": "hjorten",
+      "danishIndefinite": "en hjort"
+    },
+    "animals.snake": {
+      "danish": "slange",
+      "german": "Schlange",
+      "gender": "die",
+      "danishDefinite": "slangen",
+      "danishIndefinite": "en slange"
+    },
+    "animals.frog": {
+      "danish": "frø",
+      "german": "Frosch",
+      "gender": "der",
+      "danishDefinite": "frøen",
+      "danishIndefinite": "en frø"
+    },
+    "animals.turtle": {
+      "danish": "skildpadde",
+      "german": "Schildkröte",
+      "gender": "die",
+      "danishDefinite": "skildpadden",
+      "danishIndefinite": "en skildpadde"
+    },
+    "animals.bee": {
+      "danish": "bi",
+      "german": "Biene",
+      "gender": "die",
+      "danishDefinite": "bien",
+      "danishIndefinite": "en bi"
+    },
+    "animals.butterfly": {
+      "danish": "sommerfugl",
+      "german": "Schmetterling",
+      "gender": "der",
+      "danishDefinite": "sommerfuglen",
+      "danishIndefinite": "en sommerfugl"
+    },
+    "animals.spider": {
+      "danish": "edderkop",
+      "german": "Spinne",
+      "gender": "die",
+      "danishDefinite": "edderkoppen",
+      "danishIndefinite": "en edderkop"
+    },
+    "adjectives.happy": {
+      "danish": "glad",
+      "german": "glücklich",
+      "gender": "der",
+      "danishDefinite": "glad",
+      "danishIndefinite": "glad"
+    },
+    "adjectives.sad": {
+      "danish": "ked af det",
+      "german": "traurig",
+      "gender": "der",
+      "danishDefinite": "traurig",
+      "danishIndefinite": "traurig"
+    },
+    "adjectives.big": {
+      "danish": "stor",
+      "german": "groß",
+      "gender": "der",
+      "danishDefinite": "stor",
+      "danishIndefinite": "stor"
+    },
+    "adjectives.small": {
+      "danish": "lille",
+      "german": "klein",
+      "gender": "der",
+      "danishDefinite": "lille",
+      "danishIndefinite": "lille"
+    },
+    "adjectives.new": {
+      "danish": "ny",
+      "german": "neu",
+      "gender": "der",
+      "danishDefinite": "ny",
+      "danishIndefinite": "ny"
+    },
+    "adjectives.old": {
+      "danish": "gammel",
+      "german": "alt",
+      "gender": "der",
+      "danishDefinite": "gammel",
+      "danishIndefinite": "gammel"
+    },
+    "adjectives.fast": {
+      "danish": "hurtig",
+      "german": "schnell",
+      "gender": "der",
+      "danishDefinite": "hurtig",
+      "danishIndefinite": "hurtig"
+    },
+    "adjectives.slow": {
+      "danish": "langsom",
+      "german": "langsam",
+      "gender": "der",
+      "danishDefinite": "langsom",
+      "danishIndefinite": "langsom"
+    },
+    "adjectives.strong": {
+      "danish": "stærk",
+      "german": "stark",
+      "gender": "der",
+      "danishDefinite": "stærk",
+      "danishIndefinite": "stærk"
+    },
+    "adjectives.weak": {
+      "danish": "svag",
+      "german": "schwach",
+      "gender": "der",
+      "danishDefinite": "svag",
+      "danishIndefinite": "svag"
+    },
+    "adjectives.clean": {
+      "danish": "ren",
+      "german": "sauber",
+      "gender": "der",
+      "danishDefinite": "ren",
+      "danishIndefinite": "ren"
+    },
+    "adjectives.dirty": {
+      "danish": "beskidt",
+      "german": "schmutzig",
+      "gender": "der",
+      "danishDefinite": "beskidt",
+      "danishIndefinite": "beskidt"
+    },
+    "adjectives.hot": {
+      "danish": "varm",
+      "german": "heiß",
+      "gender": "der",
+      "danishDefinite": "varm",
+      "danishIndefinite": "varm"
+    },
+    "adjectives.cold": {
+      "danish": "kold",
+      "german": "kalt",
+      "gender": "der",
+      "danishDefinite": "kold",
+      "danishIndefinite": "kold"
+    },
+    "adjectives.light": {
+      "danish": "let",
+      "german": "leicht",
+      "gender": "der",
+      "danishDefinite": "let",
+      "danishIndefinite": "let"
+    },
+    "adjectives.heavy": {
+      "danish": "tung",
+      "german": "schwer",
+      "gender": "der",
+      "danishDefinite": "tung",
+      "danishIndefinite": "tung"
+    },
+    "adjectives.quiet": {
+      "danish": "stille",
+      "german": "ruhig",
+      "gender": "der",
+      "danishDefinite": "stille",
+      "danishIndefinite": "stille"
+    },
+    "adjectives.loud": {
+      "danish": "høj",
+      "german": "laut",
+      "gender": "der",
+      "danishDefinite": "høj",
+      "danishIndefinite": "høj"
+    },
+    "adjectives.beautiful": {
+      "danish": "smuk",
+      "german": "schön",
+      "gender": "der",
+      "danishDefinite": "smuk",
+      "danishIndefinite": "smuk"
+    },
+    "adjectives.ugly": {
+      "danish": "grim",
+      "german": "hässlich",
+      "gender": "der",
+      "danishDefinite": "grim",
+      "danishIndefinite": "grim"
+    },
+    "adjectives.smart": {
+      "danish": "smart",
+      "german": "klug",
+      "gender": "der",
+      "danishDefinite": "smart",
+      "danishIndefinite": "smart"
+    },
+    "adjectives.tall": {
+      "danish": "høj",
+      "german": "groß",
+      "gender": "der",
+      "danishDefinite": "høj",
+      "danishIndefinite": "høj"
+    },
+    "adjectives.short": {
+      "danish": "kort",
+      "german": "kurz",
+      "gender": "der",
+      "danishDefinite": "kort",
+      "danishIndefinite": "kort"
+    },
+    "adjectives.young": {
+      "danish": "ung",
+      "german": "jung",
+      "gender": "der",
+      "danishDefinite": "ung",
+      "danishIndefinite": "ung"
+    },
+    "adjectives.good": {
+      "danish": "god",
+      "german": "gut",
+      "gender": "der",
+      "danishDefinite": "god",
+      "danishIndefinite": "god"
+    },
+    "adjectives.bad": {
+      "danish": "dårlig",
+      "german": "schlecht",
+      "gender": "der",
+      "danishDefinite": "dårlig",
+      "danishIndefinite": "dårlig"
+    },
+    "adjectives.easy": {
+      "danish": "let",
+      "german": "einfach",
+      "gender": "der",
+      "danishDefinite": "let",
+      "danishIndefinite": "let"
+    },
+    "adjectives.difficult": {
+      "danish": "svær",
+      "german": "schwierig",
+      "gender": "der",
+      "danishDefinite": "svær",
+      "danishIndefinite": "svær"
+    },
+    "adjectives.expensive": {
+      "danish": "dyr",
+      "german": "teuer",
+      "gender": "der",
+      "danishDefinite": "dyr",
+      "danishIndefinite": "dyr"
+    },
+    "adjectives.cheap": {
+      "danish": "billig",
+      "german": "billig",
+      "gender": "der",
+      "danishDefinite": "billig",
+      "danishIndefinite": "billig"
+    },
+    "prepositions.in": {
+      "danish": "i",
+      "german": "in",
+      "gender": "der",
+      "danishDefinite": "i",
+      "danishIndefinite": "i"
+    },
+    "prepositions.on": {
+      "danish": "på",
+      "german": "auf",
+      "gender": "der",
+      "danishDefinite": "på",
+      "danishIndefinite": "på"
+    },
+    "prepositions.under": {
+      "danish": "under",
+      "german": "unter",
+      "gender": "der",
+      "danishDefinite": "under",
+      "danishIndefinite": "under"
+    },
+    "prepositions.over": {
+      "danish": "over",
+      "german": "über",
+      "gender": "der",
+      "danishDefinite": "over",
+      "danishIndefinite": "over"
+    },
+    "prepositions.behind": {
+      "danish": "bagved",
+      "german": "hinter",
+      "gender": "der",
+      "danishDefinite": "bagved",
+      "danishIndefinite": "bagved"
+    },
+    "prepositions.infrontof": {
+      "danish": "foran",
+      "german": "vor",
+      "gender": "der",
+      "danishDefinite": "foran",
+      "danishIndefinite": "foran"
+    },
+    "prepositions.beside": {
+      "danish": "ved siden af",
+      "german": "neben",
+      "gender": "der",
+      "danishDefinite": "ved siden af",
+      "danishIndefinite": "ved siden af"
+    },
+    "prepositions.between": {
+      "danish": "mellem",
+      "german": "zwischen",
+      "gender": "der",
+      "danishDefinite": "mellem",
+      "danishIndefinite": "mellem"
+    },
+    "prepositions.with": {
+      "danish": "med",
+      "german": "mit",
+      "gender": "der",
+      "danishDefinite": "med",
+      "danishIndefinite": "med"
+    },
+    "prepositions.without": {
+      "danish": "uden",
+      "german": "ohne",
+      "gender": "der",
+      "danishDefinite": "uden",
+      "danishIndefinite": "uden"
+    },
+    "prepositions.from": {
+      "danish": "fra",
+      "german": "von",
+      "gender": "der",
+      "danishDefinite": "fra",
+      "danishIndefinite": "fra"
+    },
+    "prepositions.to": {
+      "danish": "til",
+      "german": "zu",
+      "gender": "der",
+      "danishDefinite": "til",
+      "danishIndefinite": "til"
+    },
+    "prepositions.before": {
+      "danish": "før",
+      "german": "vor",
+      "gender": "der",
+      "danishDefinite": "før",
+      "danishIndefinite": "før"
+    },
+    "prepositions.after": {
+      "danish": "efter",
+      "german": "nach",
+      "gender": "der",
+      "danishDefinite": "efter",
+      "danishIndefinite": "efter"
+    },
+    "prepositions.around": {
+      "danish": "omkring",
+      "german": "um",
+      "gender": "der",
+      "danishDefinite": "omkring",
+      "danishIndefinite": "omkring"
+    },
+    "prepositions.through": {
+      "danish": "gennem",
+      "german": "durch",
+      "gender": "der",
+      "danishDefinite": "gennem",
+      "danishIndefinite": "gennem"
+    },
+    "prepositions.across": {
+      "danish": "tværs over",
+      "german": "über",
+      "gender": "der",
+      "danishDefinite": "tværs over",
+      "danishIndefinite": "tværs over"
+    },
+    "prepositions.near": {
+      "danish": "nær",
+      "german": "nah",
+      "gender": "der",
+      "danishDefinite": "nær",
+      "danishIndefinite": "nær"
+    },
+    "prepositions.farfrom": {
+      "danish": "langt fra",
+      "german": "weit von",
+      "gender": "der",
+      "danishDefinite": "langt fra",
+      "danishIndefinite": "langt fra"
+    },
+    "prepositions.inside": {
+      "danish": "inde i",
+      "german": "innerhalb",
+      "gender": "der",
+      "danishDefinite": "inde i",
+      "danishIndefinite": "inde i"
+    },
+    "prepositions.outside": {
+      "danish": "udenfor",
+      "german": "außerhalb",
+      "gender": "der",
+      "danishDefinite": "udenfor",
+      "danishIndefinite": "udenfor"
+    },
+    "prepositions.above": {
+      "danish": "over",
+      "german": "oberhalb",
+      "gender": "der",
+      "danishDefinite": "over",
+      "danishIndefinite": "over"
+    },
+    "prepositions.below": {
+      "danish": "under",
+      "german": "unterhalb",
+      "gender": "der",
+      "danishDefinite": "under",
+      "danishIndefinite": "under"
+    },
+    "prepositions.into": {
+      "danish": "ind i",
+      "german": "in",
+      "gender": "der",
+      "danishDefinite": "ind i",
+      "danishIndefinite": "ind i"
+    },
+    "prepositions.outof": {
+      "danish": "ud af",
+      "german": "aus",
+      "gender": "der",
+      "danishDefinite": "ud af",
+      "danishIndefinite": "ud af"
+    },
+    "prepositions.along": {
+      "danish": "langs med",
+      "german": "entlang",
+      "gender": "der",
+      "danishDefinite": "langs med",
+      "danishIndefinite": "langs med"
+    },
+    "prepositions.against": {
+      "danish": "imod",
+      "german": "gegen",
+      "gender": "der",
+      "danishDefinite": "imod",
+      "danishIndefinite": "imod"
+    },
+    "prepositions.among": {
+      "danish": "blandt",
+      "german": "unter",
+      "gender": "der",
+      "danishDefinite": "blandt",
+      "danishIndefinite": "blandt"
+    },
+    "prepositions.nextto": {
+      "danish": "ved siden af",
+      "german": "neben",
+      "gender": "der",
+      "danishDefinite": "ved siden af",
+      "danishIndefinite": "ved siden af"
+    },
+    "prepositions.during": {
+      "danish": "under",
+      "german": "während",
+      "gender": "der",
+      "danishDefinite": "under",
+      "danishIndefinite": "under"
+    },
+    "kitchen.pan": {
+      "danish": "gryde",
+      "german": "Topf",
+      "gender": "der",
+      "danishDefinite": "gryden",
+      "danishIndefinite": "en gryde"
+    },
+    "kitchen.pot": {
+      "danish": "kedel",
+      "german": "Kessel",
+      "gender": "der",
+      "danishDefinite": "kedlen",
+      "danishIndefinite": "en kedel"
+    },
+    "kitchen.cup": {
+      "danish": "kop",
+      "german": "Tasse",
+      "gender": "die",
+      "danishDefinite": "koppen",
+      "danishIndefinite": "en kop"
+    },
+    "kitchen.plate": {
+      "danish": "tallerken",
+      "german": "Teller",
+      "gender": "der",
+      "danishDefinite": "tallerkenen",
+      "danishIndefinite": "en tallerken"
+    },
+    "kitchen.spoon": {
+      "danish": "ske",
+      "german": "Löffel",
+      "gender": "der",
+      "danishDefinite": "skeen",
+      "danishIndefinite": "en ske"
+    },
+    "kitchen.fork": {
+      "danish": "gaffel",
+      "german": "Gabel",
+      "gender": "die",
+      "danishDefinite": "gaffelen",
+      "danishIndefinite": "en gaffel"
+    },
+    "kitchen.knife": {
+      "danish": "kniv",
+      "german": "Messer",
+      "gender": "das",
+      "danishDefinite": "kniven",
+      "danishIndefinite": "en kniv"
+    },
+    "kitchen.fridge": {
+      "danish": "fryser",
+      "german": "Kühlschrank",
+      "gender": "der",
+      "danishDefinite": "fryseren",
+      "danishIndefinite": "en fryser"
+    },
+    "kitchen.tablecloth": {
+      "danish": "dug",
+      "german": "Tischtuch",
+      "gender": "das",
+      "danishDefinite": "duget",
+      "danishIndefinite": "et dug"
+    },
+    "kitchen.mirror": {
+      "danish": "spejl",
+      "german": "Spiegel",
+      "gender": "der",
+      "danishDefinite": "spejlet",
+      "danishIndefinite": "et spejl"
+    },
+    "kitchen.blanket": {
+      "danish": "tæppe",
+      "german": "Decke",
+      "gender": "die",
+      "danishDefinite": "tæppet",
+      "danishIndefinite": "et tæppe"
+    },
+    "kitchen.cushion": {
+      "danish": "kudde",
+      "german": "Kissen",
+      "gender": "das",
+      "danishDefinite": "kudden",
+      "danishIndefinite": "en pude"
+    },
+    "kitchen.bowl": {
+      "danish": "skål",
+      "german": "Schüssel",
+      "gender": "die",
+      "danishDefinite": "skålen",
+      "danishIndefinite": "en skål"
+    },
+    "garden.tree": {
+      "danish": "træ",
+      "german": "Baum",
+      "gender": "der",
+      "danishDefinite": "træet",
+      "danishIndefinite": "et træ"
+    },
+    "garden.grass": {
+      "danish": "græs",
+      "german": "Gras",
+      "gender": "das",
+      "danishDefinite": "græsset",
+      "danishIndefinite": "et græs"
+    },
+    "garden.flowerbed": {
+      "danish": "blomsterbed",
+      "german": "Blumenbeet",
+      "gender": "das",
+      "danishDefinite": "blomsterbedet",
+      "danishIndefinite": "et blomsterbed"
+    },
+    "garden.fence": {
+      "danish": "hegn",
+      "german": "Zaun",
+      "gender": "der",
+      "danishDefinite": "hegnet",
+      "danishIndefinite": "et hegn"
+    },
+    "garden.path": {
+      "danish": "sti",
+      "german": "Weg",
+      "gender": "der",
+      "danishDefinite": "stien",
+      "danishIndefinite": "en sti"
+    },
+    "garden.bush": {
+      "danish": "busk",
+      "german": "Busch",
+      "gender": "der",
+      "danishDefinite": "busken",
+      "danishIndefinite": "en busk"
+    },
+    "garden.seed": {
+      "danish": "frø",
+      "german": "Samen",
+      "gender": "der",
+      "danishDefinite": "frøet",
+      "danishIndefinite": "et frø"
+    },
+    "garden.pot": {
+      "danish": "potte",
+      "german": "Topf",
+      "gender": "der",
+      "danishDefinite": "potten",
+      "danishIndefinite": "en potte"
+    },
+    "weather.sunrise": {
+      "danish": "solopgang",
+      "german": "Sonnenaufgang",
+      "gender": "der",
+      "danishDefinite": "solopgangen",
+      "danishIndefinite": "en solopgang"
+    },
+    "weather.sunset": {
+      "danish": "solnedgang",
+      "german": "Sonnenuntergang",
+      "gender": "der",
+      "danishDefinite": "solnedgangen",
+      "danishIndefinite": "en solnedgang"
+    },
+    "weather.fog": {
+      "danish": "tåge",
+      "german": "Nebel",
+      "gender": "der",
+      "danishDefinite": "tågen",
+      "danishIndefinite": "en tåge"
+    },
+    "weather.storm": {
+      "danish": "storm",
+      "german": "Sturm",
+      "gender": "der",
+      "danishDefinite": "stormen",
+      "danishIndefinite": "en storm"
+    },
+    "weather.thunder": {
+      "danish": "torden",
+      "german": "Donner",
+      "gender": "der",
+      "danishDefinite": "tordenen",
+      "danishIndefinite": "en torden"
+    },
+    "weather.lightning": {
+      "danish": "lyn",
+      "german": "Blitz",
+      "gender": "der",
+      "danishDefinite": "lynet",
+      "danishIndefinite": "et lyn"
+    },
+    "weather.winter": {
+      "danish": "vinter",
+      "german": "Winter",
+      "gender": "der",
+      "danishDefinite": "vinteren",
+      "danishIndefinite": "en vinter"
+    },
+    "weather.spring": {
+      "danish": "forår",
+      "german": "Frühling",
+      "gender": "der",
+      "danishDefinite": "foråret",
+      "danishIndefinite": "et forår"
+    },
+    "weather.summer": {
+      "danish": "sommer",
+      "german": "Sommer",
+      "gender": "der",
+      "danishDefinite": "sommeren",
+      "danishIndefinite": "en sommer"
+    },
+    "weather.autumn": {
+      "danish": "efterår",
+      "german": "Herbst",
+      "gender": "der",
+      "danishDefinite": "efteråret",
+      "danishIndefinite": "et efterår"
+    },
+    "everyday.breakfast": {
+      "danish": "morgenmad",
+      "german": "Frühstück",
+      "gender": "das",
+      "danishDefinite": "morgenmaden",
+      "danishIndefinite": "et morgenmad"
+    },
+    "everyday.lunch": {
+      "danish": "frokost",
+      "german": "Mittagessen",
+      "gender": "das",
+      "danishDefinite": "frokosten",
+      "danishIndefinite": "en frokost"
+    },
+    "everyday.dinner": {
+      "danish": "middag",
+      "german": "Abendessen",
+      "gender": "das",
+      "danishDefinite": "middagen",
+      "danishIndefinite": "en middag"
+    },
+    "everyday.umbrella": {
+      "danish": "paraply",
+      "german": "Regenschirm",
+      "gender": "der",
+      "danishDefinite": "paraplyen",
+      "danishIndefinite": "en paraply"
+    },
+    "everyday.wallet": {
+      "danish": "pung",
+      "german": "Geldbörse",
+      "gender": "die",
+      "danishDefinite": "pungen",
+      "danishIndefinite": "en pung"
+    },
+    "everyday.watch": {
+      "danish": "ur",
+      "german": "Armbanduhr",
+      "gender": "die",
+      "danishDefinite": "uret",
+      "danishIndefinite": "et ur"
+    },
+    "everyday.toothbrush": {
+      "danish": "tandbørste",
+      "german": "Zahnbürste",
+      "gender": "die",
+      "danishDefinite": "tandbørsten",
+      "danishIndefinite": "en tandbørste"
+    },
+    "everyday.shampoo": {
+      "danish": "shampoo",
+      "german": "Shampoo",
+      "gender": "das",
+      "danishDefinite": "shampoen",
+      "danishIndefinite": "et shampoo"
+    },
+    "everyday.soap": {
+      "danish": "sæbe",
+      "german": "Seife",
+      "gender": "die",
+      "danishDefinite": "sæben",
+      "danishIndefinite": "en sæbe"
+    },
+    "everyday.towel": {
+      "danish": "håndklæde",
+      "german": "Handtuch",
+      "gender": "das",
+      "danishDefinite": "håndklædet",
+      "danishIndefinite": "et håndklæde"
+    },
+    "technology.screen": {
+      "danish": "skærm",
+      "german": "Bildschirm",
+      "gender": "der",
+      "danishDefinite": "skærmen",
+      "danishIndefinite": "en skærm"
+    },
+    "technology.keyboard": {
+      "danish": "tastatur",
+      "german": "Tastatur",
+      "gender": "die",
+      "danishDefinite": "tastaturet",
+      "danishIndefinite": "et tastatur"
+    },
+    "technology.mouse": {
+      "danish": "mus",
+      "german": "Maus",
+      "gender": "die",
+      "danishDefinite": "musen",
+      "danishIndefinite": "en mus"
+    },
+    "technology.wifi": {
+      "danish": "wifi",
+      "german": "WLAN",
+      "gender": "das",
+      "danishDefinite": "wifi-en",
+      "danishIndefinite": "et wifi"
+    },
+    "technology.app": {
+      "danish": "app",
+      "german": "App",
+      "gender": "die",
+      "danishDefinite": "appen",
+      "danishIndefinite": "en app"
+    },
+    "technology.email": {
+      "danish": "e-mail",
+      "german": "E-Mail",
+      "gender": "die",
+      "danishDefinite": "e-mailen",
+      "danishIndefinite": "en e-mail"
+    },
+    "technology.chat": {
+      "danish": "chat",
+      "german": "Chat",
+      "gender": "der",
+      "danishDefinite": "chatten",
+      "danishIndefinite": "en chat"
+    },
+    "technology.file": {
+      "danish": "fil",
+      "german": "Datei",
+      "gender": "die",
+      "danishDefinite": "filen",
+      "danishIndefinite": "en fil"
+    },
+    "technology.folder": {
+      "danish": "mappe",
+      "german": "Ordner",
+      "gender": "der",
+      "danishDefinite": "mappen",
+      "danishIndefinite": "en mappe"
+    },
+    "technology.network": {
+      "danish": "netværk",
+      "german": "Netzwerk",
+      "gender": "das",
+      "danishDefinite": "netværket",
+      "danishIndefinite": "et netværk"
+    },
+    "work.salary": {
+      "danish": "løn",
+      "german": "Gehalt",
+      "gender": "die",
+      "danishDefinite": "lønnen",
+      "danishIndefinite": "en løn"
+    },
+    "work.meeting": {
+      "danish": "møde",
+      "german": "Treffen",
+      "gender": "das",
+      "danishDefinite": "mødet",
+      "danishIndefinite": "et møde"
+    },
+    "work.contract": {
+      "danish": "kontrakt",
+      "german": "Vertrag",
+      "gender": "der",
+      "danishDefinite": "kontrakten",
+      "danishIndefinite": "en kontrakt"
+    },
+    "work.report": {
+      "danish": "rapport",
+      "german": "Bericht",
+      "gender": "der",
+      "danishDefinite": "rapporten",
+      "danishIndefinite": "en rapport"
+    },
+    "work.schedule": {
+      "danish": "plan",
+      "german": "Zeitplan",
+      "gender": "der",
+      "danishDefinite": "planen",
+      "danishIndefinite": "en plan"
+    },
+    "work.holiday": {
+      "danish": "ferie",
+      "german": "Urlaub",
+      "gender": "der",
+      "danishDefinite": "ferien",
+      "danishIndefinite": "en ferie"
+    },
+    "work.skill": {
+      "danish": "færdighed",
+      "german": "Fertigkeit",
+      "gender": "die",
+      "danishDefinite": "færdigheden",
+      "danishIndefinite": "en færdighed"
+    },
+    "work.task": {
+      "danish": "opgave",
+      "german": "Aufgabe",
+      "gender": "die",
+      "danishDefinite": "opgaven",
+      "danishIndefinite": "en opgave"
+    },
+    "learning.lesson": {
+      "danish": "lektion",
+      "german": "Lektion",
+      "gender": "die",
+      "danishDefinite": "lektionen",
+      "danishIndefinite": "en lektion"
+    },
+    "learning.exercise": {
+      "danish": "øvelse",
+      "german": "Übung",
+      "gender": "die",
+      "danishDefinite": "øvelsen",
+      "danishIndefinite": "en øvelse"
+    },
+    "learning.homework": {
+      "danish": "lektie",
+      "german": "Hausaufgabe",
+      "gender": "die",
+      "danishDefinite": "lektien",
+      "danishIndefinite": "en lektie"
+    },
+    "learning.textbook": {
+      "danish": "lærebog",
+      "german": "Lehrbuch",
+      "gender": "das",
+      "danishDefinite": "lærebogen",
+      "danishIndefinite": "en lærebog"
+    },
+    "learning.dictionary": {
+      "danish": "ordbog",
+      "german": "Wörterbuch",
+      "gender": "das",
+      "danishDefinite": "ordbogen",
+      "danishIndefinite": "en ordbog"
+    },
+    "learning.language": {
+      "danish": "sprog",
+      "german": "Sprache",
+      "gender": "die",
+      "danishDefinite": "sproget",
+      "danishIndefinite": "et sprog"
+    },
+    "learning.word": {
+      "danish": "ord",
+      "german": "Wort",
+      "gender": "das",
+      "danishDefinite": "ordet",
+      "danishIndefinite": "et ord"
+    },
+    "learning.sentence": {
+      "danish": "sætning",
+      "german": "Satz",
+      "gender": "der",
+      "danishDefinite": "sætningen",
+      "danishIndefinite": "en sætning"
+    },
+    "music.note": {
+      "danish": "note",
+      "german": "Note",
+      "gender": "die",
+      "danishDefinite": "noten",
+      "danishIndefinite": "en note"
+    },
+    "music.piano": {
+      "danish": "klaver",
+      "german": "Klavier",
+      "gender": "das",
+      "danishDefinite": "klaveret",
+      "danishIndefinite": "et klaver"
+    },
+    "music.violin": {
+      "danish": "violin",
+      "german": "Violine",
+      "gender": "die",
+      "danishDefinite": "violinen",
+      "danishIndefinite": "en violin"
+    },
+    "music.microphone": {
+      "danish": "mikrofon",
+      "german": "Mikrofon",
+      "gender": "die",
+      "danishDefinite": "mikrofonen",
+      "danishIndefinite": "en mikrofon"
+    },
+    "music.radio": {
+      "danish": "radio",
+      "german": "Radio",
+      "gender": "die",
+      "danishDefinite": "radioen",
+      "danishIndefinite": "en radio"
+    },
+    "sport.racket": {
+      "danish": "racket",
+      "german": "Schläger",
+      "gender": "der",
+      "danishDefinite": "racketen",
+      "danishIndefinite": "en racket"
+    },
+    "sport.goal": {
+      "danish": "mål",
+      "german": "Tor",
+      "gender": "das",
+      "danishDefinite": "målet",
+      "danishIndefinite": "et mål"
+    },
+    "sport.stadium": {
+      "danish": "stadion",
+      "german": "Stadion",
+      "gender": "das",
+      "danishDefinite": "stadionet",
+      "danishIndefinite": "et stadion"
+    },
+    "sport.track": {
+      "danish": "bane",
+      "german": "Laufbahn",
+      "gender": "die",
+      "danishDefinite": "banen",
+      "danishIndefinite": "en bane"
+    },
+    "sport.player": {
+      "danish": "spiller",
+      "german": "Spieler",
+      "gender": "der",
+      "danishDefinite": "spilleren",
+      "danishIndefinite": "en spiller"
+    },
+    "travel.passport": {
+      "danish": "pas",
+      "german": "Pass",
+      "gender": "das",
+      "danishDefinite": "passet",
+      "danishIndefinite": "et pas"
+    },
+    "travel.hotel": {
+      "danish": "hotel",
+      "german": "Hotel",
+      "gender": "das",
+      "danishDefinite": "hotellet",
+      "danishIndefinite": "et hotel"
+    },
+    "travel.luggage": {
+      "danish": "bagage",
+      "german": "Gepäck",
+      "gender": "das",
+      "danishDefinite": "bagagen",
+      "danishIndefinite": "en bagage"
+    },
+    "travel.platform": {
+      "danish": "perron",
+      "german": "Bahnsteig",
+      "gender": "der",
+      "danishDefinite": "perronen",
+      "danishIndefinite": "en perron"
+    },
+    "travel.stop": {
+      "danish": "stop",
+      "german": "Haltestelle",
+      "gender": "die",
+      "danishDefinite": "stoppen",
+      "danishIndefinite": "en stop"
+    },
+    "travel.destination": {
+      "danish": "destination",
+      "german": "Ziel",
+      "gender": "das",
+      "danishDefinite": "destinationen",
+      "danishIndefinite": "en destination"
+    },
+    "city.square": {
+      "danish": "torv",
+      "german": "Platz",
+      "gender": "der",
+      "danishDefinite": "torvet",
+      "danishIndefinite": "et torv"
+    },
+    "city.cafe": {
+      "danish": "café",
+      "german": "Café",
+      "gender": "das",
+      "danishDefinite": "cafét",
+      "danishIndefinite": "et café"
+    },
+    "city.library": {
+      "danish": "bibliotek",
+      "german": "Bibliothek",
+      "gender": "die",
+      "danishDefinite": "biblioteket",
+      "danishIndefinite": "et bibliotek"
+    },
+    "city.pool": {
+      "danish": "bassin",
+      "german": "Pool",
+      "gender": "der",
+      "danishDefinite": "bassinet",
+      "danishIndefinite": "et bassin"
+    },
+    "city.bridge": {
+      "danish": "bro",
+      "german": "Brücke",
+      "gender": "die",
+      "danishDefinite": "broen",
+      "danishIndefinite": "en bro"
+    },
+    "spelling.hotel": {
+      "danish": "hotel", "german": "Hotel", "gender": "das",
+      "danishDefinite": "hotellet", "danishIndefinite": "et hotel"
+    },
+    "spelling.restaurant": {
+      "danish": "restaurant", "german": "Restaurant", "gender": "das",
+      "danishDefinite": "restauranten", "danishIndefinite": "en restaurant"
+    },
+    "spelling.radio": {
+      "danish": "radio", "german": "Radio", "gender": "das",
+      "danishDefinite": "radioen", "danishIndefinite": "en radio"
+    },
+    "spelling.computer": {
+      "danish": "computer", "german": "Computer", "gender": "der",
+      "danishDefinite": "computeren", "danishIndefinite": "en computer"
+    },
+    "spelling.bus": {
+      "danish": "bus", "german": "Bus", "gender": "der",
+      "danishDefinite": "bussen", "danishIndefinite": "en bus"
+    },
+    "spelling.park": {
+      "danish": "park", "german": "Park", "gender": "der",
+      "danishDefinite": "parken", "danishIndefinite": "en park"
+    },
+    "spelling.museum": {
+      "danish": "museum", "german": "Museum", "gender": "das",
+      "danishDefinite": "museet", "danishIndefinite": "et museum"
+    },
+    "spelling.problem": {
+      "danish": "problem", "german": "Problem", "gender": "das",
+      "danishDefinite": "problemet", "danishIndefinite": "et problem"
+    },
+    "spelling.telephone": {
+      "danish": "telefon", "german": "Telefon", "gender": "das",
+      "danishDefinite": "telefonen", "danishIndefinite": "en telefon"
+    },
+    "spelling.video": {
+      "danish": "video", "german": "Video", "gender": "das",
+      "danishDefinite": "videoen", "danishIndefinite": "en video"
+    },
+    "spelling.internet": {
+      "danish": "internet", "german": "Internet", "gender": "das",
+      "danishDefinite": "internettet", "danishIndefinite": "et internet"
+    },
+    "spelling.bank": {
+      "danish": "bank", "german": "Bank", "gender": "die",
+      "danishDefinite": "banken", "danishIndefinite": "en bank"
+    },
+    "spelling.music": {
+      "danish": "musik", "german": "Musik", "gender": "die",
+      "danishDefinite": "musikken", "danishIndefinite": "en musik"
+    },
+    "spelling.family": {
+      "danish": "familie", "german": "Familie", "gender": "die",
+      "danishDefinite": "familien", "danishIndefinite": "en familie"
+    },
+    "spelling.number": {
+      "danish": "nummer", "german": "Nummer", "gender": "die",
+      "danishDefinite": "nummeret", "danishIndefinite": "et nummer"
+    },
+    "spelling.minute": {
+      "danish": "minut", "german": "Minute", "gender": "die",
+      "danishDefinite": "minuttet", "danishIndefinite": "et minut"
+    },
+    "spelling.meter": {
+      "danish": "meter", "german": "Meter", "gender": "der",
+      "danishDefinite": "meteren", "danishIndefinite": "en meter"
+    },
+    "spelling.second": {
+      "danish": "sekund", "german": "Sekunde", "gender": "die",
+      "danishDefinite": "sekundet", "danishIndefinite": "et sekund"
+    },
+    "spelling.pizza": {
+      "danish": "pizza", "german": "Pizza", "gender": "die",
+      "danishDefinite": "pizzaen", "danishIndefinite": "en pizza"
+    },
+    "spelling.chocolate": {
+      "danish": "chokolade", "german": "Schokolade", "gender": "die",
+      "danishDefinite": "chokoladen", "danishIndefinite": "en chokolade"
+    },
+    "spelling.salad": {
+      "danish": "salat", "german": "Salat", "gender": "der",
+      "danishDefinite": "salaten", "danishIndefinite": "en salat"
+    },
+    "spelling.tomato": {
+      "danish": "tomat", "german": "Tomate", "gender": "die",
+      "danishDefinite": "tomaten", "danishIndefinite": "en tomat"
+    },
+    "spelling.camera": {
+      "danish": "kamera", "german": "Kamera", "gender": "das",
+      "danishDefinite": "kameraet", "danishIndefinite": "et kamera"
+    },
+    "spelling.taxi": {
+      "danish": "taxa", "german": "Taxi", "gender": "das",
+      "danishDefinite": "taxaen", "danishIndefinite": "en taxa"
+    },
+    "spelling.university": {
+      "danish": "universitet", "german": "Universität", "gender": "die",
+      "danishDefinite": "universitetet", "danishIndefinite": "et universitet"
+    },
+    "spelling.student": {
+      "danish": "student", "german": "Student", "gender": "der",
+      "danishDefinite": "den studerende", "danishIndefinite": "en studerende"
+    },
+    "spelling.professor": {
+      "danish": "professor", "german": "Professor", "gender": "der",
+      "danishDefinite": "professoren", "danishIndefinite": "en professor"
+    },
+    "spelling.zoo": {
+      "danish": "zoo", "german": "Zoo", "gender": "der",
+      "danishDefinite": "zooen", "danishIndefinite": "en zoo"
+    },
+    "spelling.theater": {
+      "danish": "teater", "german": "Theater", "gender": "das",
+      "danishDefinite": "teatret", "danishIndefinite": "et teater"
+    },
+    "spelling.artist": {
+      "danish": "artist", "german": "Artist", "gender": "der",
+      "danishDefinite": "artisten", "danishIndefinite": "en artist"
+    },
+    "verbs.be": { "danish": "at være", "german": "sein" },
+    "verbs.have": { "danish": "at have", "german": "haben" },
+    "verbs.do": { "danish": "at gøre", "german": "machen" },
+    "verbs.go": { "danish": "at gå", "german": "gehen" },
+    "verbs.come": { "danish": "at komme", "german": "kommen" },
+    "verbs.see": { "danish": "at se", "german": "sehen" },
+    "verbs.hear": { "danish": "at høre", "german": "hören" },
+    "verbs.speak": { "danish": "at tale", "german": "sprechen" },
+    "verbs.say": { "danish": "at sige", "german": "sagen" },
+    "verbs.eat": { "danish": "at spise", "german": "essen" },
+    "verbs.drink": { "danish": "at drikke", "german": "trinken" },
+    "verbs.sleep": { "danish": "at sove", "german": "schlafen" },
+    "verbs.read": { "danish": "at læse", "german": "lesen" },
+    "verbs.write": { "danish": "at skrive", "german": "schreiben" },
+    "verbs.learn": { "danish": "at lære", "german": "lernen" },
+    "verbs.work": { "danish": "at arbejde", "german": "arbeiten" },
+    "verbs.live": { "danish": "at bo", "german": "wohnen" },
+    "verbs.buy": { "danish": "at købe", "german": "kaufen" },
+    "verbs.pay": { "danish": "at betale", "german": "bezahlen" },
+    "verbs.find": { "danish": "at finde", "german": "finden" },
+    "verbs.think": { "danish": "at tænke", "german": "denken" },
+    "verbs.know": { "danish": "at vide", "german": "wissen" },
+    "verbs.understand": { "danish": "at forstå", "german": "verstehen" },
+    "verbs.help": { "danish": "at hjælpe", "german": "helfen" },
+    "verbs.ask": { "danish": "at spørge", "german": "fragen" },
+    "verbs.answer": { "danish": "at svare", "german": "antworten" },
+    "verbs.open": { "danish": "at åbne", "german": "öffnen" },
+    "verbs.close": { "danish": "at lukke", "german": "schließen" },
+    "verbs.wait": { "danish": "at vente", "german": "warten" },
+    "verbs.walk": { "danish": "at gå til fods", "german": "zu Fuß gehen" },
+    "verbs.drive": { "danish": "at køre", "german": "fahren" },
+    "modals.koennen.ich": { "danish": "Jeg kan svømme.", "german": "Ich kann schwimmen." },
+    "modals.koennen.du": { "danish": "Du kan svømme.", "german": "Du kannst schwimmen." },
+    "modals.koennen.er": { "danish": "Han kan svømme.", "german": "Er kann schwimmen." },
+    "modals.koennen.wir": { "danish": "Vi kan svømme.", "german": "Wir können schwimmen." },
+    "modals.koennen.sie": { "danish": "De kan svømme.", "german": "Sie können schwimmen." },
+    "modals.muessen.ich": { "danish": "Jeg skal arbejde.", "german": "Ich muss arbeiten." },
+    "modals.muessen.du": { "danish": "Du skal arbejde.", "german": "Du musst arbeiten." },
+    "modals.muessen.er": { "danish": "Han skal arbejde.", "german": "Er muss arbeiten." },
+    "modals.muessen.wir": { "danish": "Vi skal arbejde.", "german": "Wir müssen arbeiten." },
+    "modals.muessen.sie": { "danish": "De skal arbejde.", "german": "Sie müssen arbeiten." },
+    "modals.wollen.ich": { "danish": "Jeg vil rejse.", "german": "Ich will reisen." },
+    "modals.wollen.du": { "danish": "Du vil rejse.", "german": "Du willst reisen." },
+    "modals.wollen.er": { "danish": "Han vil rejse.", "german": "Er will reisen." },
+    "modals.wollen.wir": { "danish": "Vi vil rejse.", "german": "Wir wollen reisen." },
+    "modals.wollen.sie": { "danish": "De vil rejse.", "german": "Sie wollen reisen." },
+    "modals.duerfen.ich": { "danish": "Jeg må blive her.", "german": "Ich darf hier bleiben." },
+    "modals.duerfen.du": { "danish": "Du må blive her.", "german": "Du darfst hier bleiben." },
+    "modals.duerfen.er": { "danish": "Han må blive her.", "german": "Er darf hier bleiben." },
+    "modals.duerfen.wir": { "danish": "Vi må blive her.", "german": "Wir dürfen hier bleiben." },
+    "modals.duerfen.sie": { "danish": "De må blive her.", "german": "Sie dürfen hier bleiben." },
+    "modals.sollen.ich": { "danish": "Jeg bør læse.", "german": "Ich soll lesen." },
+    "modals.sollen.du": { "danish": "Du bør læse.", "german": "Du sollst lesen." },
+    "modals.sollen.er": { "danish": "Han bør læse.", "german": "Er soll lesen." },
+    "modals.sollen.wir": { "danish": "Vi bør læse.", "german": "Wir sollen lesen." },
+    "modals.sollen.sie": { "danish": "De bør læse.", "german": "Sie sollen lesen." },
+    "modals.moegen.ich": { "danish": "Jeg kan lide kaffe.", "german": "Ich mag Kaffee." },
+    "modals.moegen.du": { "danish": "Du kan lide kaffe.", "german": "Du magst Kaffee." },
+    "modals.moegen.er": { "danish": "Han kan lide kaffe.", "german": "Er mag Kaffee." },
+    "modals.moegen.wir": { "danish": "Vi kan lide kaffe.", "german": "Wir mögen Kaffee." },
+    "modals.moegen.sie": { "danish": "De kan lide kaffe.", "german": "Sie mögen Kaffee." }
   }
 }

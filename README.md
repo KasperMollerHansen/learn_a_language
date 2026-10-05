@@ -24,13 +24,16 @@ and offline caching to work; opening `index.html` directly is only suitable for 
 
 ### Chapter 1 - The basic
 - **1-1 People:** 30 words about family, friends, and everyday people.
-- **1-2 Adjective:** 30 words for a first pass at descriptive vocabulary.
-- **1-3 Tilægsord:** 30 Danish/German adjective pairs to reinforce the same pattern.
+- **1-2 Tilægsord:** 30 adjectives for describing people and things.
+- **1-3 Forholdsord:** 30 common prepositions and place relationships.
 - **1-4 People with articles:** 30 people nouns practiced with German definite and indefinite forms.
-- **1-5 Sentences:** 30 words chosen one at a time to build sentence rhythm and recall.
+- **1-5 Animals:** 30 familiar animal names.
+- **1-6 Words that look alike:** Danish-German cognates and near-cognates, with attention to spelling changes.
 
-### Chapter 2 - More advanced
-- **2-1 More advanced:** a next-step set for broader vocabulary and faster recall.
+### Chapter 2 - Verbs and sentences
+- **2-1 Modalverber:** sentence patterns for *können, müssen, wollen, dürfen, sollen,* and *mögen* across five subjects.
+- **2-2 Common verbs:** 30 useful infinitives that can follow modal verbs.
+- **2-3 Everyday things:** household, meal, and technology vocabulary.
 
 - Catch all 30 words within two minutes. The Danish prompt sits ahead of the stationary gates, and
   the runner advances toward them for each timed choice. A correct pass speeds up the next run by
@@ -41,10 +44,21 @@ and offline caching to work; opening `index.html` directly is only suitable for 
 ## Game data
 
 Vocabulary and level lists live in [`wordbank.json`](wordbank.json), separate from the game code.
-Each level references 30 word IDs; entries contain Danish forms, German nouns, and gender. The word
-bank also stores article declensions and genitive noun forms. Pacing and scoring live in
+Each lesson curates 30 stable, category-prefixed word IDs from the shared vocabulary map; entries
+may be words or practice sentences. This keeps a large vocabulary inventory reusable across short,
+focused lessons instead of duplicating translations. Noun entries contain German gender and Danish
+article forms. The word bank also stores German article declensions and genitive noun forms.
+Pacing and scoring live in
 [`config.json`](config.json), so you can tune the round duration, speed multiplier, penalties, and
 transitions without changing JavaScript.
+
+## Publish and install on a phone
+
+The GitHub Actions workflow deploys the static app to GitHub Pages whenever changes reach `main`.
+In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
+After the workflow succeeds, open <https://kaspermollerhansen.github.io/learn_a_language/> on a
+phone and use the browser's **Add to Home Screen** or **Install app** option. Progress is stored
+locally in that browser; it does not sync between devices.
 
 ## Python quality gate
 

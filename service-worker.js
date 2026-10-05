@@ -1,4 +1,4 @@
-const CACHE_NAME = "wortlauf-v16";
+const CACHE_NAME = "wortlauf-v17";
 const APP_FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon.svg", "./config.json", "./wordbank.json"];
 
 self.addEventListener("install", (event) => {

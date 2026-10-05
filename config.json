@@ -2,7 +2,7 @@
   "roundDurationSeconds": 120,
   "wordsPerLevel": 30,
   "roundClockTickMilliseconds": 1000,
-  "initialGateIntervalSeconds": 3.5,
+  "initialGateIntervalSeconds": 4.2,
   "minimumGateIntervalSeconds": 0.5,
   "maximumGateIntervalSeconds": 5,
   "gateSpeedMultiplierPerCorrect": 1.1,

@@ -40,6 +40,7 @@
       .levels { display: flex; flex-direction: column; gap: 14px; max-height: 340px; margin-bottom: 14px; overflow-y: auto; padding-right: 4px; }
       .levels::-webkit-scrollbar { width: 8px; }
       .levels::-webkit-scrollbar-thumb { border-radius: 999px; background: rgba(23, 60, 50, .18); }
+      .progress-status { margin: 4px 0 12px; color: var(--muted); font-size: 11px; }
       .chapter-group { display: grid; gap: 8px; }
       .chapter-label { display: flex; align-items: center; gap: 8px; margin: 0; color: #4d766d; font-size: 10px; font-weight: 900; letter-spacing: .16em; text-transform: uppercase; }
       .chapter-label .chapter-icon { display: grid; width: 22px; height: 22px; place-items: center; border-radius: 50%; background: rgba(213, 243, 106, .22); font-size: 12px; }
@@ -74,7 +75,7 @@
       .lane-lines::before, .lane-lines::after { position: absolute; top: 0; bottom: 0; border-left: 2px dashed rgba(224, 232, 173, .5); content: ""; }
       .lane-lines::before { left: 33.333%; }
       .lane-lines::after { left: 66.666%; }
-      .runner { position: absolute; z-index: 4; bottom: 108px; left: 50%; width: 58px; height: 82px; transform: translateX(calc(-50% + var(--shift, 0px))); transition: transform 170ms cubic-bezier(.2, .9, .3, 1.2); pointer-events: none; }
+      .runner { position: absolute; z-index: 4; bottom: 140px; left: 50%; width: 58px; height: 82px; transform: translateX(calc(-50% + var(--shift, 0px))); transition: transform 170ms cubic-bezier(.2, .9, .3, 1.2); pointer-events: none; }
       .runner-bob { animation: run-cycle 260ms ease-in-out infinite; }
       .runner-bob .leg-left, .runner-bob .shoe-left { transform-box: fill-box; transform-origin: center top; animation: stride-left 260ms ease-in-out infinite alternate; }
       .runner-bob .leg-right, .runner-bob .shoe-right { transform-box: fill-box; transform-origin: center top; animation: stride-right 260ms ease-in-out infinite alternate; }
@@ -138,7 +139,7 @@
         .prompt { padding: 8px 12px 0; }
         .word { font-size: 32px; }
         .road { inset-block-start: 114px; }
-        .runner { bottom: 113px; }
+        .runner { bottom: 145px; }
         .lane { min-height: 58px; }
         .lane strong { font-size: clamp(11px, 3.5vw, 14px); }
         .game-footer { right: 16px; bottom: 93px; left: 16px; }
@@ -177,6 +178,7 @@
           <h1 id="title">Learn on<br />the <span>run.</span></h1>
           <p class="description">Catch the right German word. Three lanes, one Danish clue, and a new way to get words moving.</p>
           <div class="levels" role="tablist" aria-label="Choose a level"></div>
+          <p class="progress-status" id="progress-status" aria-live="polite">Progress is saved on this phone.</p>
           <button class="start" id="start-button" type="button">Start running <span class="arrow" aria-hidden="true">↗</span></button>
         </section>
         <section class="game" aria-label="German vocabulary lane game">
@@ -231,7 +233,19 @@
       const $ = (selector) => document.querySelector(selector);
       let tabs = [...document.querySelectorAll(".level")];
       const lanes = [...document.querySelectorAll(".lane")];
-      let levelIndex = 0, unlockedLevel = Number(localStorage.getItem("wortlauf-unlocked") || 0), currentWord, correctLane = 0, selectedLane = 1;
+      const progressStorageKey = "wortlauf-progress-v1";
+      function loadProgress() {
+        const defaults = { version: 1, unlockedLevel: 0, currentLevelId: "1-1", completedLevelIds: [], correctAnswers: 0, wrongAnswers: 0, completedRuns: 0 };
+        try {
+          const saved = JSON.parse(localStorage.getItem(progressStorageKey) || "null");
+          if (saved && saved.version === 1) return { ...defaults, ...saved };
+          return { ...defaults, unlockedLevel: Math.max(0, Number(localStorage.getItem("wortlauf-unlocked") || 0)) };
+        } catch {
+          return defaults;
+        }
+      }
+      let progress = loadProgress();
+      let levelIndex = 0, unlockedLevel = progress.unlockedLevel, currentWord, correctLane = 0, selectedLane = 1;
       let wordDeck = [], wordBankLoaded = false, loadingGameData = false, gateIntervalSeconds = 0;
       let score = 0, speed = 0, timeLeft = 0, running = false, answerLocked = false, timerId, gateTimerId, gateIntervalId, transitionTimerId;
       let installPrompt;
@@ -259,6 +273,20 @@
           config.roadFlowBaseMilliseconds - speed * config.roadFlowSpeedReductionMillisecondsPerPercent
         );
         $(".surface").style.setProperty("--run-speed", `${roadFlow}ms`);
+      }
+      function saveProgress() {
+        progress.unlockedLevel = unlockedLevel;
+        progress.currentLevelId = levels[levelIndex]?.id || progress.currentLevelId;
+        progress.lastPlayedAt = new Date().toISOString();
+        try {
+          localStorage.setItem(progressStorageKey, JSON.stringify(progress));
+          const completed = progress.completedLevelIds.length;
+          const status = $("#progress-status");
+          if (status) status.textContent = `Saved on this phone · ${completed} of ${levels.length} levels completed · ${progress.correctAnswers} correct answers`;
+        } catch {
+          const status = $("#progress-status");
+          if (status) status.textContent = "Progress could not be saved in this browser.";
+        }
       }
       function approachGates() {
         const gateDuration = gateIntervalSeconds * 1000;
@@ -300,13 +328,18 @@
           const danish = form === "definite" ? currentWord.danishDefinite : currentWord.danishIndefinite;
           $("#prompt-label").textContent = `Choose the German form · ${grammar.caseLabels[grammaticalCase]} · ${form}`;
           $("#word").textContent = danish;
-          options = shuffle([currentWord, ...shuffle(level.words.filter((word) => word !== currentWord)).slice(0, 2)]).map((word) => article(word, form, grammaticalCase));
           const correct = article(currentWord, form, grammaticalCase);
+          const distractors = [...new Set(shuffle(level.words.filter((word) => word !== currentWord)
+            .map((word) => article(word, form, grammaticalCase))
+            .filter((answer) => answer !== correct)))].slice(0, 2);
+          options = shuffle([correct, ...distractors]);
           correctLane = options.indexOf(correct);
         } else {
           $("#prompt-label").textContent = level.prompt;
           $("#word").textContent = currentWord.danish;
-          options = shuffle([currentWord, ...shuffle(level.words.filter((word) => word !== currentWord)).slice(0, 2)]).map((word) => word.german);
+          const distractors = [...new Map(shuffle(level.words.filter((word) => word !== currentWord && word.german !== currentWord.german))
+            .map((word) => [word.german, word])).values()].slice(0, 2);
+          options = shuffle([currentWord, ...distractors]).map((word) => word.german);
           correctLane = options.indexOf(currentWord.german);
         }
         lanes.forEach((button, index) => {
@@ -351,6 +384,7 @@
         speed = config.initialRunSpeedPercent;
         timeLeft = config.roundDurationSeconds;
         gateIntervalSeconds = config.initialGateIntervalSeconds;
+        saveProgress();
         running = true;
         wordDeck = shuffle(levels[levelIndex].words);
         $("#overlay").hidden = true;
@@ -365,16 +399,22 @@
         }, config.roundClockTickMilliseconds);
       }
       function finishRun(won) {
+        progress.completedRuns += 1;
+        if (won && !progress.completedLevelIds.includes(levels[levelIndex].id)) {
+          progress.completedLevelIds.push(levels[levelIndex].id);
+        }
         if (won && levelIndex < levels.length - 1) {
           const nextIndex = levelIndex + 1;
           unlockedLevel = Math.max(unlockedLevel, nextIndex);
-          localStorage.setItem("wortlauf-unlocked", String(unlockedLevel));
-          tabs[nextIndex].disabled = false;
+          saveProgress();
+          renderLevelTabs();
           const nextLevel = levels[nextIndex];
           showOverlay("Level complete!", `${target} words caught. Next up: ${nextLevel.name}.`, `Run level ${nextLevel.id}`, () => { selectLevel(nextIndex); startLevel(); });
         } else if (won) {
+          saveProgress();
           showOverlay("Sehr gut!", "You finished all levels. Keep going to make those German words stick.", "Run again", startLevel);
         } else {
+          saveProgress();
           showOverlay("Run over", `${score} of ${target} words caught in level ${levels[levelIndex].id}. Catch ${target} to finish this run.`, "Try again", startLevel);
         }
       }
@@ -391,12 +431,15 @@
         runner.classList.add(correct ? "correct" : "hit");
         if (correct) {
           score += 1;
+          progress.correctAnswers += 1;
           speed = Math.min(config.maximumRunSpeedPercent, speed + config.correctRunSpeedGainPercent);
           gateIntervalSeconds = Math.max(config.minimumGateIntervalSeconds, gateIntervalSeconds / config.gateSpeedMultiplierPerCorrect);
         } else {
+          progress.wrongAnswers += 1;
           speed = Math.max(config.minimumRunSpeedPercent, speed - config.wrongRunSpeedLossPercent);
           gateIntervalSeconds = Math.min(config.maximumGateIntervalSeconds, gateIntervalSeconds * config.gateSpeedMultiplierOnWrong);
         }
+        saveProgress();
         updateHud();
         if (!correct) {
           transitionTimerId = setTimeout(() => {
@@ -456,6 +499,7 @@
       function selectLevel(index) {
         if (index > unlockedLevel || !levels[index]) return;
         levelIndex = index;
+        saveProgress();
         tabs.forEach((tab, i) => tab.setAttribute("aria-selected", String(i === index)));
         $("#start-button").innerHTML = `Start level ${levels[index].id} <span class="arrow" aria-hidden="true">↗</span>`;
         $("#overlay-title").textContent = levels[index].mode === "article" ? "Ready for der, die, das?" : `Ready for ${levels[index].name}?`;
@@ -524,7 +568,10 @@
           levels = loadedLevels;
           target = config.wordsPerLevel;
           unlockedLevel = Math.max(0, Math.min(unlockedLevel, levels.length - 1));
+          const savedLevelIndex = levels.findIndex((level) => level.id === progress.currentLevelId);
+          levelIndex = savedLevelIndex >= 0 && savedLevelIndex <= unlockedLevel ? savedLevelIndex : 0;
           renderLevelTabs();
+          selectLevel(levelIndex);
           wordBankLoaded = true;
           loadingGameData = false;
           document.documentElement.style.setProperty("--bounce-duration", `${config.wrongBounceAnimationMilliseconds}ms`);
