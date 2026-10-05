@@ -262,6 +262,25 @@
         "technology.mouse", "technology.wifi", "technology.app", "technology.email",
         "technology.chat"
       ]
+    },
+    {
+      "id": "2-4",
+      "chapter": "Chapter 2",
+      "name": "Sentence builder",
+      "mode": "sentence",
+      "prompt": "Build the German sentence one chunk at a time",
+      "wordIds": [
+        "sentence-builder.mand.subject", "sentence-builder.mand.verb", "sentence-builder.mand.adjective",
+        "sentence-builder.kvinde.subject", "sentence-builder.kvinde.verb", "sentence-builder.kvinde.adjective",
+        "sentence-builder.barn.subject", "sentence-builder.barn.verb", "sentence-builder.barn.adjective",
+        "sentence-builder.hund.subject", "sentence-builder.hund.verb", "sentence-builder.hund.object",
+        "sentence-builder.pige.subject", "sentence-builder.pige.verb", "sentence-builder.pige.object",
+        "sentence-builder.bror.subject", "sentence-builder.bror.verb", "sentence-builder.bror.object",
+        "sentence-builder.vi.subject", "sentence-builder.vi.verb", "sentence-builder.vi.object",
+        "sentence-builder.hun.subject", "sentence-builder.hun.verb", "sentence-builder.hun.adverb",
+        "sentence-builder.laerer.subject", "sentence-builder.laerer.verb", "sentence-builder.laerer.object",
+        "sentence-builder.soster.subject", "sentence-builder.soster.verb", "sentence-builder.soster.place"
+      ]
     }
   ],
   "grammar": {
@@ -2008,6 +2027,156 @@
     "modals.moegen.du": { "danish": "Du kan lide kaffe.", "german": "Du magst Kaffee." },
     "modals.moegen.er": { "danish": "Han kan lide kaffe.", "german": "Er mag Kaffee." },
     "modals.moegen.wir": { "danish": "Vi kan lide kaffe.", "german": "Wir mögen Kaffee." },
-    "modals.moegen.sie": { "danish": "De kan lide kaffe.", "german": "Sie mögen Kaffee." }
+    "modals.moegen.sie": { "danish": "De kan lide kaffe.", "german": "Sie mögen Kaffee." },
+    "sentence-builder.mand.subject": {
+      "danish": "Manden", "german": "Der Mann", "sentence": "Manden er stor.",
+      "sentenceId": "mand", "step": 1, "steps": 3,
+      "options": ["Den Mann", "Der Mann", "Dem Mann"]
+    },
+    "sentence-builder.mand.verb": {
+      "danish": "er", "german": "ist", "sentence": "Manden er stor.",
+      "sentenceId": "mand", "step": 2, "steps": 3,
+      "options": ["bist", "ist", "sind"]
+    },
+    "sentence-builder.mand.adjective": {
+      "danish": "stor", "german": "groß.", "sentence": "Manden er stor.",
+      "sentenceId": "mand", "step": 3, "steps": 3,
+      "options": ["groß.", "klein.", "alt."]
+    },
+    "sentence-builder.kvinde.subject": {
+      "danish": "Kvinden", "german": "Die Frau", "sentence": "Kvinden er glad.",
+      "sentenceId": "kvinde", "step": 1, "steps": 3,
+      "options": ["Die Frau", "Der Frau", "Die Frauen"]
+    },
+    "sentence-builder.kvinde.verb": {
+      "danish": "er", "german": "ist", "sentence": "Kvinden er glad.",
+      "sentenceId": "kvinde", "step": 2, "steps": 3,
+      "options": ["bin", "ist", "seid"]
+    },
+    "sentence-builder.kvinde.adjective": {
+      "danish": "glad", "german": "glücklich.", "sentence": "Kvinden er glad.",
+      "sentenceId": "kvinde", "step": 3, "steps": 3,
+      "options": ["traurig.", "glücklich.", "müde."]
+    },
+    "sentence-builder.barn.subject": {
+      "danish": "Barnet", "german": "Das Kind", "sentence": "Barnet er lille.",
+      "sentenceId": "barn", "step": 1, "steps": 3,
+      "options": ["Dem Kind", "Das Kind", "Des Kindes"]
+    },
+    "sentence-builder.barn.verb": {
+      "danish": "er", "german": "ist", "sentence": "Barnet er lille.",
+      "sentenceId": "barn", "step": 2, "steps": 3,
+      "options": ["ist", "bist", "seid"]
+    },
+    "sentence-builder.barn.adjective": {
+      "danish": "lille", "german": "klein.", "sentence": "Barnet er lille.",
+      "sentenceId": "barn", "step": 3, "steps": 3,
+      "options": ["groß.", "klein.", "kurz."]
+    },
+    "sentence-builder.hund.subject": {
+      "danish": "Jeg", "german": "Ich", "sentence": "Jeg ser hunden.",
+      "sentenceId": "hund", "step": 1, "steps": 3,
+      "options": ["Er", "Ich", "Du"]
+    },
+    "sentence-builder.hund.verb": {
+      "danish": "ser", "german": "sehe", "sentence": "Jeg ser hunden.",
+      "sentenceId": "hund", "step": 2, "steps": 3,
+      "options": ["sieht", "sehe", "siehst"]
+    },
+    "sentence-builder.hund.object": {
+      "danish": "hunden", "german": "den Hund.", "sentence": "Jeg ser hunden.",
+      "sentenceId": "hund", "step": 3, "steps": 3,
+      "options": ["dem Hund.", "den Hund.", "der Hund."]
+    },
+    "sentence-builder.pige.subject": {
+      "danish": "Pigen", "german": "Das Mädchen", "sentence": "Pigen drikker vand.",
+      "sentenceId": "pige", "step": 1, "steps": 3,
+      "options": ["Das Mädchen", "Dem Mädchen", "Der Junge"]
+    },
+    "sentence-builder.pige.verb": {
+      "danish": "drikker", "german": "trinkt", "sentence": "Pigen drikker vand.",
+      "sentenceId": "pige", "step": 2, "steps": 3,
+      "options": ["trinkst", "trinkt", "trinken"]
+    },
+    "sentence-builder.pige.object": {
+      "danish": "vand", "german": "Wasser.", "sentence": "Pigen drikker vand.",
+      "sentenceId": "pige", "step": 3, "steps": 3,
+      "options": ["Milch.", "Wasser.", "Saft."]
+    },
+    "sentence-builder.bror.subject": {
+      "danish": "Min bror", "german": "Mein Bruder", "sentence": "Min bror læser en bog.",
+      "sentenceId": "bror", "step": 1, "steps": 3,
+      "options": ["Mein Bruder", "Meinen Bruder", "Meinem Bruder"]
+    },
+    "sentence-builder.bror.verb": {
+      "danish": "læser", "german": "liest", "sentence": "Min bror læser en bog.",
+      "sentenceId": "bror", "step": 2, "steps": 3,
+      "options": ["lese", "liest", "lesen"]
+    },
+    "sentence-builder.bror.object": {
+      "danish": "en bog", "german": "ein Buch.", "sentence": "Min bror læser en bog.",
+      "sentenceId": "bror", "step": 3, "steps": 3,
+      "options": ["ein Buch.", "einem Buch.", "einen Roman."]
+    },
+    "sentence-builder.vi.subject": {
+      "danish": "Vi", "german": "Wir", "sentence": "Vi køber æbler.",
+      "sentenceId": "vi", "step": 1, "steps": 3,
+      "options": ["Wir", "Ihr", "Sie"]
+    },
+    "sentence-builder.vi.verb": {
+      "danish": "køber", "german": "kaufen", "sentence": "Vi køber æbler.",
+      "sentenceId": "vi", "step": 2, "steps": 3,
+      "options": ["kauft", "kaufen", "kaufe"]
+    },
+    "sentence-builder.vi.object": {
+      "danish": "æbler", "german": "Äpfel.", "sentence": "Vi køber æbler.",
+      "sentenceId": "vi", "step": 3, "steps": 3,
+      "options": ["Äpfel.", "Birnen.", "Trauben."]
+    },
+    "sentence-builder.hun.subject": {
+      "danish": "Hun", "german": "Sie", "sentence": "Hun taler langsomt.",
+      "sentenceId": "hun", "step": 1, "steps": 3,
+      "options": ["Sie", "Er", "Wir"]
+    },
+    "sentence-builder.hun.verb": {
+      "danish": "taler", "german": "spricht", "sentence": "Hun taler langsomt.",
+      "sentenceId": "hun", "step": 2, "steps": 3,
+      "options": ["sprechen", "spricht", "sprichst"]
+    },
+    "sentence-builder.hun.adverb": {
+      "danish": "langsomt", "german": "langsam.", "sentence": "Hun taler langsomt.",
+      "sentenceId": "hun", "step": 3, "steps": 3,
+      "options": ["langsam.", "schnell.", "laut."]
+    },
+    "sentence-builder.laerer.subject": {
+      "danish": "Læreren", "german": "Der Lehrer", "sentence": "Læreren åbner døren.",
+      "sentenceId": "laerer", "step": 1, "steps": 3,
+      "options": ["Den Lehrer", "Der Lehrer", "Dem Lehrer"]
+    },
+    "sentence-builder.laerer.verb": {
+      "danish": "åbner", "german": "öffnet", "sentence": "Læreren åbner døren.",
+      "sentenceId": "laerer", "step": 2, "steps": 3,
+      "options": ["öffnet", "öffnen", "öffnest"]
+    },
+    "sentence-builder.laerer.object": {
+      "danish": "døren", "german": "die Tür.", "sentence": "Læreren åbner døren.",
+      "sentenceId": "laerer", "step": 3, "steps": 3,
+      "options": ["die Tür.", "der Tür.", "das Tor."]
+    },
+    "sentence-builder.soster.subject": {
+      "danish": "Min søster", "german": "Meine Schwester", "sentence": "Min søster arbejder i Berlin.",
+      "sentenceId": "soster", "step": 1, "steps": 3,
+      "options": ["Meine Schwester", "Meiner Schwester", "Mein Bruder"]
+    },
+    "sentence-builder.soster.verb": {
+      "danish": "arbejder", "german": "arbeitet", "sentence": "Min søster arbejder i Berlin.",
+      "sentenceId": "soster", "step": 2, "steps": 3,
+      "options": ["arbeite", "arbeitet", "arbeiten"]
+    },
+    "sentence-builder.soster.place": {
+      "danish": "i Berlin", "german": "in Berlin.", "sentence": "Min søster arbejder i Berlin.",
+      "sentenceId": "soster", "step": 3, "steps": 3,
+      "options": ["in Berlin.", "nach Berlin.", "in Hamburg."]
+    }
   }
 }

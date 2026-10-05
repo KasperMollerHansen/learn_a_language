@@ -57,7 +57,7 @@
       .level[aria-selected="true"] { border-color: var(--ink); background: var(--ink); color: white; box-shadow: 0 10px 18px rgba(23, 60, 50, .14); }
       .level[aria-selected="true"] .level-badge { background: rgba(213, 243, 106, .18); color: var(--lime); }
       .level:disabled { cursor: not-allowed; opacity: .42; }
-      .start { display: inline-flex; min-height: 48px; align-items: center; gap: 16px; margin-bottom: 18px; padding: 0 18px; border: 0; border-radius: 3px; background: var(--coral); color: #172f28; cursor: pointer; font-size: 13px; font-weight: 900; }
+      .start { display: inline-flex; min-height: 48px; flex: 0 0 auto; align-items: center; align-self: flex-start; gap: 16px; margin-bottom: 18px; padding: 0 18px; border: 0; border-radius: 3px; background: var(--coral); color: #172f28; cursor: pointer; font-size: 13px; font-weight: 900; }
       .start:hover { background: #f68c70; }
       .arrow { font-size: 18px; }
       button:focus-visible { outline: 3px solid #267b68; outline-offset: 3px; }
@@ -73,6 +73,8 @@
       .road .prompt { position: absolute; z-index: 6; top: 7px; right: 0; left: 0; padding: 0 10px; }
       .prompt-label { margin: 0 0 4px; color: #b4c9bc; font-size: 9px; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
       .word { min-height: 34px; color: white; font-family: Georgia, "Times New Roman", serif; font-size: 32px; line-height: 1.1; }
+      .translation-added { min-height: 18px; color: var(--lime); font-size: 14px; font-weight: 800; }
+      .translation-added[hidden] { display: none; }
       .feedback { min-height: 18px; margin-top: 2px; color: var(--lime); font-size: 11px; font-weight: 800; }
       .feedback.wrong { color: #ffab92; }
       .road { position: absolute; z-index: 3; inset: 130px 0 0; overflow: hidden; background: #244b3b; touch-action: none; }
@@ -97,6 +99,8 @@
       .lane:nth-child(1) { left: 16.666%; }
       .lane:nth-child(2) { left: 50%; }
       .lane:nth-child(3) { left: 83.333%; }
+      .game.sentence-mode .lane { top: 112px; }
+      .game.sentence-mode .prompt-label { font-size: 10px; letter-spacing: 0; line-height: 1.2; text-transform: none; }
       .lane:hover::before, .lane.selected::before { border-color: var(--lime); box-shadow: inset 0 0 0 5px rgba(213, 243, 106, .14), 0 0 19px rgba(213, 243, 106, .22); }
       .lane.good::before { border-color: var(--lime); box-shadow: 0 0 25px rgba(213, 243, 106, .4); animation: gate-frame-pass var(--pass-duration, 280ms) cubic-bezier(.22, .61, .36, 1) forwards; }
       .lane.good small, .lane.good strong { animation: gate-sign-pass var(--pass-duration, 280ms) cubic-bezier(.22, .61, .36, 1) forwards; }
@@ -162,14 +166,16 @@
       body.playing .header-right, body.playing .intro, body.playing footer { display: none; }
       body.playing main { display: block; height: 100%; min-height: 0; overflow: hidden; padding: 0; }
       body.playing .game { width: 100%; height: 100%; min-height: 0; border-radius: 0; box-shadow: none; }
+      body.menu-mode { height: 100vh; height: 100dvh; overflow: hidden; }
       body.menu-mode .app { grid-template-rows: auto minmax(0, 1fr); width: min(900px, 100%); height: 100vh; height: 100dvh; min-height: 0; padding: 0 5vw; }
-      body.menu-mode main { grid-template-columns: minmax(0, 1fr); gap: 0; padding: 28px 0; }
-      body.menu-mode .intro { display: block; width: 100%; max-width: 600px; margin: auto; }
+      body.menu-mode main { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr); min-height: 0; gap: 0; overflow: hidden; padding: 28px 0; }
+      body.menu-mode .intro { display: flex; flex-direction: column; width: 100%; height: 100%; max-width: 600px; min-height: 0; margin: auto; }
+      body.menu-mode .levels { flex: 1 1 auto; min-height: 0; }
       body.menu-mode .game, body.menu-mode footer { display: none; }
       @media (max-width: 680px) {
         body.menu-mode .app { display: flex; flex-direction: column; padding: 0 20px; }
         body.menu-mode header { flex: 0 0 55px; min-height: 55px; margin: 0 -20px; padding: 0 18px; }
-        body.menu-mode main { display: grid; flex: 1; grid-template-columns: minmax(0, 1fr); padding: 26px 0; }
+        body.menu-mode main { display: grid; flex: 1; grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr); min-height: 0; padding: 26px 0; }
         body.menu-mode .intro { order: 0; padding: 0; }
       }
       @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
@@ -178,7 +184,7 @@
   <body class="menu-mode">
     <div class="app">
       <header>
-        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.0.19</span></button>
+        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.0.20</span></button>
         <div class="header-right"><span class="language">Dansk / Deutsch</span><button class="install" id="install-button" type="button">Install app</button></div>
       </header>
       <main>
@@ -200,6 +206,7 @@
             <div class="prompt" aria-live="polite">
               <p class="prompt-label" id="prompt-label">Find the German word for</p>
               <div class="word" id="word">mor</div>
+              <div class="translation-added" id="translation-added" hidden></div>
               <div class="feedback" id="feedback">Move into a lane</div>
             </div>
             <div class="lanes" id="lanes" role="group" aria-label="Choose a lane before the answer gates arrive">
@@ -265,6 +272,15 @@
       let installPrompt, activePointerId = null;
 
       function shuffle(items) { return [...items].sort(() => Math.random() - .5); }
+      function buildWordDeck(level) {
+        if (level.mode !== "sentence") return shuffle(level.words);
+        const sentences = new Map();
+        level.words.forEach((chunk) => {
+          if (!sentences.has(chunk.sentenceId)) sentences.set(chunk.sentenceId, []);
+          sentences.get(chunk.sentenceId).push(chunk);
+        });
+        return shuffle([...sentences.values()]).flatMap((chunks) => chunks.sort((left, right) => left.step - right.step));
+      }
       function article(word, form, grammaticalCase) {
         const articleForm = grammar.articles[form][grammaticalCase][word.gender];
         const noun = grammaticalCase === "genitive" ? grammar.genitiveNouns[word.id] : word.german;
@@ -332,8 +348,15 @@
         if (wordDeck.length === 0) { finishRun(true); return; }
         const level = levels[levelIndex];
         currentWord = wordDeck.shift();
+        $("#translation-added").textContent = "";
+        $("#translation-added").hidden = true;
         let options;
-        if (level.mode === "article") {
+        if (level.mode === "sentence") {
+          $("#prompt-label").textContent = `${currentWord.sentence} · ${currentWord.step}/${currentWord.steps}`;
+          $("#word").textContent = currentWord.danish;
+          options = shuffle(currentWord.options);
+          correctLane = options.indexOf(currentWord.german);
+        } else if (level.mode === "article") {
           const form = Math.random() < config.articleIndefiniteChance ? "indefinite" : "definite";
           const questionIndex = target - wordDeck.length - 1;
           const questionsPerCase = Math.ceil(target / grammar.cases.length);
@@ -382,6 +405,7 @@
         clearInterval(gateIntervalId);
         clearTimeout(transitionTimerId);
         $(".surface").classList.remove("moving");
+        $(".game").classList.remove("sentence-mode");
         $("#overlay").hidden = true;
         document.body.classList.remove("playing");
         document.body.classList.add("menu-mode");
@@ -394,13 +418,14 @@
         clearTimeout(transitionTimerId);
         document.body.classList.remove("menu-mode");
         document.body.classList.add("playing");
+        $(".game").classList.toggle("sentence-mode", levels[levelIndex].mode === "sentence");
         score = 0;
         speed = config.initialRunSpeedPercent;
         timeLeft = config.roundDurationSeconds;
         gateIntervalSeconds = config.initialGateIntervalSeconds;
         saveProgress();
         running = true;
-        wordDeck = shuffle(levels[levelIndex].words);
+        wordDeck = buildWordDeck(levels[levelIndex]);
         $("#overlay").hidden = true;
         $(".surface").classList.add("moving");
         $("#feedback").textContent = "Get into the right lane before impact";
@@ -438,6 +463,10 @@
         clearInterval(gateIntervalId);
         const correct = selectedLane === correctLane;
         lanes[selectedLane].classList.add(correct ? "good" : "bad");
+        if (correct && levels[levelIndex].mode === "sentence") {
+          $("#translation-added").textContent = currentWord.german;
+          $("#translation-added").hidden = false;
+        }
         $("#feedback").classList.toggle("wrong", !correct);
         $("#feedback").textContent = correct ? "" : "Keep running.";
         const runner = $("#runner");
@@ -465,7 +494,7 @@
         transitionTimerId = setTimeout(() => {
           if (!running) return;
           chooseQuestion();
-        }, config.correctTransitionMilliseconds);
+        }, levels[levelIndex].mode === "sentence" ? Math.max(config.correctTransitionMilliseconds, 650) : config.correctTransitionMilliseconds);
       }
       function renderLevelTabs() {
         const levelsPanel = $(".levels");
@@ -519,7 +548,9 @@
         $("#overlay-title").textContent = levels[index].mode === "article" ? "Ready for der, die, das?" : `Ready for ${levels[index].name}?`;
         $("#overlay-copy").textContent = levels[index].mode === "article"
           ? `Practice Nominativ, then Akkusativ, Dativ, and Genitiv. Catch ${target} words before your two minutes are up.`
-          : `Choose the German translation in one of the three lanes. Catch ${target} words before your two minutes are up.`;
+          : levels[index].mode === "sentence"
+            ? `Build German sentences one chunk at a time. Catch ${target} chunks before your two minutes are up.`
+            : `Choose the German translation in one of the three lanes. Catch ${target} words before your two minutes are up.`;
         updateHud();
       }
       async function updateServiceWorker() {
