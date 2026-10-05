@@ -42,7 +42,7 @@
     {
       "id": "1-2",
       "chapter": "Chapter 1",
-      "name": "Tilægsord",
+      "name": "Adjectives",
       "mode": "word",
       "prompt": "Find the German word for",
       "wordIds": [
@@ -81,7 +81,7 @@
     {
       "id": "1-3",
       "chapter": "Chapter 1",
-      "name": "Forholdsord",
+      "name": "Prepositions",
       "mode": "word",
       "prompt": "Find the German word for",
       "wordIds": [
@@ -215,7 +215,7 @@
     {
       "id": "2-1",
       "chapter": "Chapter 2",
-      "name": "Modalverber",
+      "name": "Modal verbs",
       "mode": "word",
       "prompt": "Translate the Danish sentence into German",
       "wordIds": [
@@ -290,12 +290,12 @@
       "dative",
       "genitive"
     ],
-    "caseLabels": {
-      "nominative": "Nominativ",
-      "accusative": "Akkusativ",
-      "dative": "Dativ",
-      "genitive": "Genitiv"
-    },
+      "caseLabels": {
+        "nominative": "Nominative",
+        "accusative": "Accusative",
+        "dative": "Dative",
+        "genitive": "Genitive"
+      },
     "articles": {
       "definite": {
         "nominative": {
