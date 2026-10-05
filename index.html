@@ -187,8 +187,8 @@
   <body class="menu-mode">
     <div class="app">
       <header>
-        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.0.21</span></button>
-        <div class="header-right"><span class="language">Dansk / Deutsch</span><button class="install" id="install-button" type="button">Install app</button></div>
+        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.0.22</span></button>
+        <div class="header-right"><span class="language">Danish / German</span><button class="install" id="install-button" type="button">Install app</button></div>
       </header>
       <main>
         <section class="intro" aria-labelledby="title">
@@ -582,7 +582,7 @@
         $("#start-button").innerHTML = `Start level ${levels[index].id} <span class="arrow" aria-hidden="true">↗</span>`;
         $("#overlay-title").textContent = levels[index].mode === "article" ? "Ready for der, die, das?" : `Ready for ${levels[index].name}?`;
         $("#overlay-copy").textContent = levels[index].mode === "article"
-          ? `Practice Nominativ, then Akkusativ, Dativ, and Genitiv. Catch ${target} words before your two minutes are up.`
+          ? `Practice nominative, accusative, dative, and genitive. Catch ${target} words before your two minutes are up.`
           : levels[index].mode === "sentence"
             ? `Build German sentences one chunk at a time. Catch ${target} chunks before your two minutes are up.`
             : `Choose the German translation in one of the three lanes. Catch ${target} words before your two minutes are up.`;

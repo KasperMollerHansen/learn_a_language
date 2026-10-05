@@ -13,12 +13,12 @@ def test_level_structure_matches_plan() -> None:
     assert level_ids == ["1-1", "1-2", "1-3", "1-4", "1-5", "1-6", "2-1", "2-2", "2-3", "2-4"]
     assert level_names == [
         "People",
-        "Tilægsord",
-        "Forholdsord",
+        "Adjectives",
+        "Prepositions",
         "People with articles",
         "Animals",
         "Words that look alike",
-        "Modalverber",
+        "Modal verbs",
         "Common verbs",
         "Everyday things",
         "Sentence builder",
@@ -86,6 +86,12 @@ def test_german_article_declensions_match_expected_forms() -> None:
     }
 
     assert bank["grammar"]["articles"] == expected
+    assert bank["grammar"]["caseLabels"] == {
+        "nominative": "Nominative",
+        "accusative": "Accusative",
+        "dative": "Dative",
+        "genitive": "Genitive",
+    }
 
 
 def test_sentence_builder_chunks_have_ordered_answers_and_distractors() -> None:
