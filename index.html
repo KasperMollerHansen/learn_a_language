@@ -73,8 +73,11 @@
       .road .prompt { position: absolute; z-index: 6; top: 7px; right: 0; left: 0; padding: 0 10px; }
       .prompt-label { margin: 0 0 4px; color: #b4c9bc; font-size: 9px; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
       .word { min-height: 34px; color: white; font-family: Georgia, "Times New Roman", serif; font-size: 32px; line-height: 1.1; }
-      .translation-added { min-height: 18px; color: var(--lime); font-size: 14px; font-weight: 800; }
+      .translation-added { min-height: 20px; color: var(--lime); font-size: 14px; font-weight: 800; line-height: 1.25; overflow-wrap: anywhere; }
       .translation-added[hidden] { display: none; }
+      .game.sentence-mode .word { width: 100%; min-height: 64px; font-size: 24px; line-height: 1.3; text-wrap: balance; }
+      .sentence-chunk.active { color: var(--lime); text-decoration: underline; text-decoration-color: var(--coral); text-underline-offset: 3px; }
+      .sentence-chunk.complete { color: var(--lime); }
       .feedback { min-height: 18px; margin-top: 2px; color: var(--lime); font-size: 11px; font-weight: 800; }
       .feedback.wrong { color: #ffab92; }
       .road { position: absolute; z-index: 3; inset: 130px 0 0; overflow: hidden; background: #244b3b; touch-action: none; }
@@ -99,7 +102,7 @@
       .lane:nth-child(1) { left: 16.666%; }
       .lane:nth-child(2) { left: 50%; }
       .lane:nth-child(3) { left: 83.333%; }
-      .game.sentence-mode .lane { top: 112px; }
+      .game.sentence-mode .lane { top: 138px; }
       .game.sentence-mode .prompt-label { font-size: 10px; letter-spacing: 0; line-height: 1.2; text-transform: none; }
       .lane:hover::before, .lane.selected::before { border-color: var(--lime); box-shadow: inset 0 0 0 5px rgba(213, 243, 106, .14), 0 0 19px rgba(213, 243, 106, .22); }
       .lane.good::before { border-color: var(--lime); box-shadow: 0 0 25px rgba(213, 243, 106, .4); animation: gate-frame-pass var(--pass-duration, 280ms) cubic-bezier(.22, .61, .36, 1) forwards; }
@@ -184,7 +187,7 @@
   <body class="menu-mode">
     <div class="app">
       <header>
-        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.0.20</span></button>
+        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.0.21</span></button>
         <div class="header-right"><span class="language">Dansk / Deutsch</span><button class="install" id="install-button" type="button">Install app</button></div>
       </header>
       <main>
@@ -269,7 +272,7 @@
       let levelIndex = 0, unlockedLevel = progress.unlockedLevel, currentWord, correctLane = 0, selectedLane = 1;
       let wordDeck = [], wordBankLoaded = false, loadingGameData = false, gateIntervalSeconds = 0;
       let score = 0, speed = 0, timeLeft = 0, running = false, answerLocked = false, timerId, gateTimerId, gateIntervalId, transitionTimerId;
-      let installPrompt, activePointerId = null;
+      let installPrompt, activePointerId = null, activeSentenceId = null, sentenceProgress = [];
 
       function shuffle(items) { return [...items].sort(() => Math.random() - .5); }
       function buildWordDeck(level) {
@@ -280,6 +283,24 @@
           sentences.get(chunk.sentenceId).push(chunk);
         });
         return shuffle([...sentences.values()]).flatMap((chunks) => chunks.sort((left, right) => left.step - right.step));
+      }
+      function renderSentence(sentence, chunks, activeStep) {
+        const display = $("#word");
+        display.replaceChildren();
+        let offset = 0;
+        for (const chunk of chunks) {
+          const start = sentence.indexOf(chunk.danish, offset);
+          if (start < offset) { display.textContent = sentence; return; }
+          if (start > offset) display.append(document.createTextNode(sentence.slice(offset, start)));
+          const part = document.createElement("span");
+          part.className = "sentence-chunk";
+          if (chunk.step === activeStep) part.classList.add("active");
+          else if (chunk.step < activeStep) part.classList.add("complete");
+          part.textContent = chunk.danish;
+          display.append(part);
+          offset = start + chunk.danish.length;
+        }
+        display.append(document.createTextNode(sentence.slice(offset)));
       }
       function article(word, form, grammaticalCase) {
         const articleForm = grammar.articles[form][grammaticalCase][word.gender];
@@ -348,15 +369,24 @@
         if (wordDeck.length === 0) { finishRun(true); return; }
         const level = levels[levelIndex];
         currentWord = wordDeck.shift();
-        $("#translation-added").textContent = "";
-        $("#translation-added").hidden = true;
         let options;
         if (level.mode === "sentence") {
-          $("#prompt-label").textContent = `${currentWord.sentence} · ${currentWord.step}/${currentWord.steps}`;
-          $("#word").textContent = currentWord.danish;
+          if (activeSentenceId !== currentWord.sentenceId) {
+            activeSentenceId = currentWord.sentenceId;
+            sentenceProgress = [];
+          }
+          $("#prompt-label").textContent = `German chunk · ${currentWord.step}/${currentWord.steps}`;
+          const sentenceChunks = level.words
+            .filter((chunk) => chunk.sentenceId === currentWord.sentenceId)
+            .sort((left, right) => left.step - right.step);
+          renderSentence(currentWord.sentence, sentenceChunks, currentWord.step);
+          $("#translation-added").textContent = sentenceProgress.join(" ");
+          $("#translation-added").hidden = sentenceProgress.length === 0;
           options = shuffle(currentWord.options);
           correctLane = options.indexOf(currentWord.german);
         } else if (level.mode === "article") {
+          $("#translation-added").textContent = "";
+          $("#translation-added").hidden = true;
           const form = Math.random() < config.articleIndefiniteChance ? "indefinite" : "definite";
           const questionIndex = target - wordDeck.length - 1;
           const questionsPerCase = Math.ceil(target / grammar.cases.length);
@@ -372,6 +402,8 @@
           options = shuffle([correct, ...distractors]);
           correctLane = options.indexOf(correct);
         } else {
+          $("#translation-added").textContent = "";
+          $("#translation-added").hidden = true;
           $("#prompt-label").textContent = level.prompt;
           $("#word").textContent = currentWord.danish;
           const distractors = [...new Map(shuffle(level.words.filter((word) => word !== currentWord && word.german !== currentWord.german))
@@ -425,6 +457,8 @@
         gateIntervalSeconds = config.initialGateIntervalSeconds;
         saveProgress();
         running = true;
+        activeSentenceId = null;
+        sentenceProgress = [];
         wordDeck = buildWordDeck(levels[levelIndex]);
         $("#overlay").hidden = true;
         $(".surface").classList.add("moving");
@@ -464,7 +498,8 @@
         const correct = selectedLane === correctLane;
         lanes[selectedLane].classList.add(correct ? "good" : "bad");
         if (correct && levels[levelIndex].mode === "sentence") {
-          $("#translation-added").textContent = currentWord.german;
+          sentenceProgress.push(currentWord.german);
+          $("#translation-added").textContent = sentenceProgress.join(" ");
           $("#translation-added").hidden = false;
         }
         $("#feedback").classList.toggle("wrong", !correct);
