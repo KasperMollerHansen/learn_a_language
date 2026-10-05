@@ -57,7 +57,7 @@
       .level[aria-selected="true"] { border-color: var(--ink); background: var(--ink); color: white; box-shadow: 0 10px 18px rgba(23, 60, 50, .14); }
       .level[aria-selected="true"] .level-badge { background: rgba(213, 243, 106, .18); color: var(--lime); }
       .level:disabled { cursor: not-allowed; opacity: .42; }
-      .start { display: inline-flex; min-height: 48px; align-items: center; gap: 16px; padding: 0 18px; border: 0; border-radius: 3px; background: var(--coral); color: #172f28; cursor: pointer; font-size: 13px; font-weight: 900; }
+      .start { display: inline-flex; min-height: 48px; align-items: center; gap: 16px; margin-bottom: 18px; padding: 0 18px; border: 0; border-radius: 3px; background: var(--coral); color: #172f28; cursor: pointer; font-size: 13px; font-weight: 900; }
       .start:hover { background: #f68c70; }
       .arrow { font-size: 18px; }
       button:focus-visible { outline: 3px solid #267b68; outline-offset: 3px; }
@@ -178,7 +178,7 @@
   <body class="menu-mode">
     <div class="app">
       <header>
-        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.0.18</span></button>
+        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.0.19</span></button>
         <div class="header-right"><span class="language">Dansk / Deutsch</span><button class="install" id="install-button" type="button">Install app</button></div>
       </header>
       <main>
@@ -186,9 +186,9 @@
           <p class="eyebrow">A little German, at full speed</p>
           <h1 id="title">Learn on<br />the <span>run.</span></h1>
           <p class="description">Catch the right German word. Three lanes, one Danish clue, and a new way to get words moving.</p>
+          <button class="start" id="start-button" type="button">Start running <span class="arrow" aria-hidden="true">↗</span></button>
           <div class="levels" role="tablist" aria-label="Choose a level"></div>
           <p class="progress-status" id="progress-status" aria-live="polite">Progress is saved on this phone.</p>
-          <button class="start" id="start-button" type="button">Start running <span class="arrow" aria-hidden="true">↗</span></button>
         </section>
         <section class="game" aria-label="German vocabulary lane game">
           <div class="hud" aria-live="polite">
