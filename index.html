@@ -29,7 +29,13 @@
       .brand-mark { display: grid; width: 31px; height: 31px; place-items: center; border-radius: 50%; background: var(--lime); font-family: Georgia, serif; font-size: 19px; }
       .header-right { display: flex; align-items: center; gap: 16px; }
       .language { color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
-      .install { display: none; min-height: 34px; padding: 0 11px; border: 1px solid var(--line); border-radius: 3px; background: transparent; color: var(--ink); cursor: pointer; font-size: 11px; font-weight: 800; }
+      .install { display: inline-flex; min-height: 34px; align-items: center; padding: 0 11px; border: 1px solid var(--line); border-radius: 3px; background: transparent; color: var(--ink); cursor: pointer; font-size: 11px; font-weight: 800; }
+      .install[hidden] { display: none; }
+      .install-dialog { width: min(360px, calc(100vw - 32px)); border: 1px solid var(--line); border-radius: 5px; padding: 24px; background: var(--paper); color: var(--ink); }
+      .install-dialog::backdrop { background: rgba(15, 43, 35, .72); }
+      .install-dialog h2 { margin: 0; font-family: Georgia, serif; font-size: 25px; font-weight: 500; }
+      .install-dialog p { margin: 12px 0 20px; color: var(--muted); font-size: 13px; line-height: 1.5; }
+      .install-dialog button { min-height: 40px; padding: 0 14px; border: 0; border-radius: 3px; background: var(--ink); color: white; cursor: pointer; font-size: 12px; font-weight: 800; }
       main { display: grid; grid-template-columns: minmax(250px, .8fr) minmax(390px, 1.2fr); align-items: center; gap: clamp(32px, 6vw, 90px); padding: 38px 0; }
       .intro { align-self: center; }
       .eyebrow { display: flex; align-items: center; gap: 9px; margin: 0 0 15px; color: #55766b; font-size: 10px; font-weight: 900; letter-spacing: .15em; text-transform: uppercase; }
@@ -68,7 +74,7 @@
       .word { min-height: 34px; color: white; font-family: Georgia, "Times New Roman", serif; font-size: 32px; line-height: 1.1; }
       .feedback { min-height: 18px; margin-top: 2px; color: var(--lime); font-size: 11px; font-weight: 800; }
       .feedback.wrong { color: #ffab92; }
-      .road { position: absolute; z-index: 3; inset: 130px 0 0; overflow: hidden; background: #244b3b; }
+      .road { position: absolute; z-index: 3; inset: 130px 0 0; overflow: hidden; background: #244b3b; touch-action: none; }
       .surface { position: absolute; inset: 0; background: repeating-linear-gradient(180deg, rgba(213, 243, 106, .055) 0 2px, transparent 2px 110px), linear-gradient(90deg, #294d3d 0 33.333%, #315844 33.333% 66.666%, #294d3d 66.666% 100%); animation: road-flow 650ms linear infinite; animation-play-state: paused; }
       .surface.moving { animation-play-state: running; animation-duration: var(--run-speed, 650ms); }
       .lane-lines { position: absolute; inset: 0; }
@@ -123,8 +129,10 @@
         .app { display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh; padding: 0; background: var(--paper); }
         header { flex: 0 0 55px; min-height: 55px; padding: 0 18px; border-color: rgba(255, 255, 255, .15); background: var(--ink); color: white; }
         .brand-mark { width: 28px; height: 28px; }
-        .language { color: #c4d3c9; font-size: 9px; }
-        .install { min-height: 31px; border-color: rgba(255, 255, 255, .3); color: white; font-size: 10px; }
+        .header-right { gap: 8px; }
+        .language { display: none; }
+        .install { min-height: 31px; padding: 0 9px; font-size: 10px; }
+        .install { border-color: rgba(255, 255, 255, .3); color: white; }
         main { display: flex; flex: 1; flex-direction: column; gap: 0; padding: 0; }
         .game { order: 0; flex: 1; width: 100%; min-height: min(610px, calc(100dvh - 94px)); border-radius: 0; box-shadow: none; }
         .intro { order: 1; padding: 27px 22px 30px; }
@@ -139,10 +147,10 @@
         .prompt { padding: 8px 12px 0; }
         .word { font-size: 32px; }
         .road { inset-block-start: 114px; }
-        .runner { bottom: 145px; }
+        .runner { bottom: 38px; }
         .lane { min-height: 58px; }
         .lane strong { font-size: clamp(11px, 3.5vw, 14px); }
-        .game-footer { right: 16px; bottom: 93px; left: 16px; }
+        .game-footer { right: 16px; bottom: 10px; left: 16px; }
         footer { display: none; }
       }
       @media (max-height: 700px) and (max-width: 680px) { .game { min-height: 515px; } .road { inset-block-start: 105px; } .prompt { padding-top: 6px; } }
@@ -166,7 +174,7 @@
       @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
     </style>
   </head>
-  <body class="playing">
+  <body class="menu-mode">
     <div class="app">
       <header>
         <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF</button>
@@ -224,6 +232,11 @@
         </section>
       </main>
       <footer><span><strong>30 words</strong> to finish each run</span><span>Two minutes on the clock</span></footer>
+      <dialog class="install-dialog" id="install-dialog" aria-labelledby="install-title">
+        <h2 id="install-title">Install Wortlauf</h2>
+        <p id="install-instructions"></p>
+        <button id="close-install-dialog" type="button">Got it</button>
+      </dialog>
     </div>
     <script>
       let config;
@@ -248,7 +261,7 @@
       let levelIndex = 0, unlockedLevel = progress.unlockedLevel, currentWord, correctLane = 0, selectedLane = 1;
       let wordDeck = [], wordBankLoaded = false, loadingGameData = false, gateIntervalSeconds = 0;
       let score = 0, speed = 0, timeLeft = 0, running = false, answerLocked = false, timerId, gateTimerId, gateIntervalId, transitionTimerId;
-      let installPrompt;
+      let installPrompt, activePointerId = null;
 
       function shuffle(items) { return [...items].sort(() => Math.random() - .5); }
       function article(word, form, grammaticalCase) {
@@ -258,7 +271,7 @@
       }
       function setLane(index) {
         const targetLane = Math.max(0, Math.min(2, index));
-        selectedLane += Math.sign(targetLane - selectedLane);
+        selectedLane = targetLane;
         lanes.forEach((button, lane) => button.classList.toggle("selected", lane === selectedLane));
         const laneWidth = $("#runner").parentElement.clientWidth / 3;
         $("#runner").style.setProperty("--shift", `${(selectedLane - 1) * laneWidth}px`);
@@ -577,23 +590,42 @@
           document.documentElement.style.setProperty("--bounce-duration", `${config.wrongBounceAnimationMilliseconds}ms`);
           document.documentElement.style.setProperty("--pass-duration", `${config.correctPassAnimationMilliseconds}ms`);
           updateHud();
-          startLevel();
         } catch {
           loadingGameData = false;
-          showOverlay("Game data unavailable", "Could not load config.json or wordbank.json. Check your connection and retry.", "Retry", loadGameData);
+          $("#progress-status").textContent = "Game data unavailable. Check your connection and retry.";
+          $("#start-button").innerHTML = `Retry loading <span class="arrow" aria-hidden="true">↗</span>`;
         }
       }
       tabs.forEach((tab, index) => { tab.disabled = index > unlockedLevel; });
       tabs.forEach((tab) => tab.addEventListener("click", () => selectLevel(Number(tab.dataset.level))));
-      $("#brand-button").addEventListener("click", () => {
-        if (document.body.classList.contains("playing")) showMenu();
-        else startLevel();
-      });
+      $("#brand-button").addEventListener("click", showMenu);
       $("#start-button").addEventListener("click", startLevel);
       $("#overlay-action").addEventListener("click", startLevel);
       lanes.forEach((button, index) => button.addEventListener("click", () => {
         if (running && !answerLocked) setLane(index);
       }));
+      const road = $(".road");
+      function laneAtPointer(clientX) {
+        const bounds = road.getBoundingClientRect();
+        return Math.floor((clientX - bounds.left) / bounds.width * 3);
+      }
+      road.addEventListener("pointerdown", (event) => {
+        if (!running || answerLocked) return;
+        event.preventDefault();
+        activePointerId = event.pointerId;
+        road.setPointerCapture(event.pointerId);
+        setLane(laneAtPointer(event.clientX));
+      });
+      road.addEventListener("pointermove", (event) => {
+        if (event.pointerId !== activePointerId || !running || answerLocked) return;
+        event.preventDefault();
+        setLane(laneAtPointer(event.clientX));
+      });
+      const finishPointer = (event) => {
+        if (event.pointerId === activePointerId) activePointerId = null;
+      };
+      road.addEventListener("pointerup", finishPointer);
+      road.addEventListener("pointercancel", finishPointer);
       document.addEventListener("keydown", (event) => {
         if (!running || answerLocked) return;
         if (event.key === "ArrowLeft" || event.key.toLowerCase() === "a") { event.preventDefault(); setLane(selectedLane - 1); }
@@ -601,13 +633,25 @@
         else if (["1", "2", "3"].includes(event.key)) setLane(Number(event.key) - 1);
       });
       window.addEventListener("beforeinstallprompt", (event) => {
-        event.preventDefault(); installPrompt = event; $("#install-button").style.display = "inline-block";
+        event.preventDefault(); installPrompt = event;
       });
       $("#install-button").addEventListener("click", async () => {
-        if (!installPrompt) return;
-        installPrompt.prompt(); await installPrompt.userChoice; installPrompt = null;
-        $("#install-button").style.display = "none";
+        if (installPrompt) {
+          installPrompt.prompt();
+          const choice = await installPrompt.userChoice;
+          installPrompt = null;
+          if (choice.outcome === "accepted") $("#install-button").hidden = true;
+          return;
+        }
+        const isAppleMobile = /iPhone|iPad|iPod/.test(navigator.userAgent) ||
+          (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+        $("#install-instructions").textContent = isAppleMobile
+          ? "Open your browser's Share menu, then choose Add to Home Screen."
+          : "Open your browser menu and choose Install app or Add to Home screen.";
+        $("#install-dialog").showModal();
       });
+      $("#close-install-dialog").addEventListener("click", () => $("#install-dialog").close());
+      window.addEventListener("appinstalled", () => { $("#install-button").hidden = true; });
       window.addEventListener("resize", () => setLane(selectedLane));
       if ("serviceWorker" in navigator && !(location.hostname === "localhost" || location.hostname === "127.0.0.1")) {
         window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js"));
