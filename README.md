@@ -22,10 +22,16 @@ and offline caching to work; opening `index.html` directly is only suitable for 
 
 ## First levels
 
-- **1-1 People + family:** 30 words about family, friends, and people.
-- **1-2 Animals:** 30 animal words.
-- **1-3 Articles: all cases:** 30 words practiced with German definite and indefinite forms. The
-  questions progress from Nominativ through Akkusativ and Dativ to Genitiv.
+### Chapter 1 - The basic
+- **1-1 People:** 30 words about family, friends, and everyday people.
+- **1-2 Adjective:** 30 words for a first pass at descriptive vocabulary.
+- **1-3 Tilægsord:** 30 Danish/German adjective pairs to reinforce the same pattern.
+- **1-4 People with articles:** 30 people nouns practiced with German definite and indefinite forms.
+- **1-5 Sentences:** 30 words chosen one at a time to build sentence rhythm and recall.
+
+### Chapter 2 - More advanced
+- **2-1 More advanced:** a next-step set for broader vocabulary and faster recall.
+
 - Catch all 30 words within two minutes. The Danish prompt sits ahead of the stationary gates, and
   the runner advances toward them for each timed choice. A correct pass speeds up the next run by
   1.1; a miss bounces the runner back, slows the next approach, and retries the same word. The first

@@ -37,9 +37,17 @@
       h1 { max-width: 500px; margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(44px, 5vw, 70px); font-weight: 500; line-height: .98; }
       h1 span { color: #6d9385; font-style: italic; }
       .description { max-width: 370px; margin: 20px 0 24px; color: #547168; font-size: 14px; line-height: 1.65; }
-      .levels { display: flex; gap: 8px; margin-bottom: 14px; }
-      .level { min-height: 39px; padding: 0 12px; border: 1px solid var(--line); border-radius: 3px; background: transparent; color: var(--muted); cursor: pointer; font-size: 11px; font-weight: 800; }
-      .level[aria-selected="true"] { border-color: var(--ink); background: var(--ink); color: white; }
+      .levels { display: flex; flex-direction: column; gap: 14px; max-height: 340px; margin-bottom: 14px; overflow-y: auto; padding-right: 4px; }
+      .levels::-webkit-scrollbar { width: 8px; }
+      .levels::-webkit-scrollbar-thumb { border-radius: 999px; background: rgba(23, 60, 50, .18); }
+      .chapter-group { display: grid; gap: 8px; }
+      .chapter-label { display: flex; align-items: center; gap: 8px; margin: 0; color: #4d766d; font-size: 10px; font-weight: 900; letter-spacing: .16em; text-transform: uppercase; }
+      .chapter-label .chapter-icon { display: grid; width: 22px; height: 22px; place-items: center; border-radius: 50%; background: rgba(213, 243, 106, .22); font-size: 12px; }
+      .level { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 48px; width: 100%; padding: 0 12px; border: 1px solid var(--line); border-radius: 10px; background: rgba(255, 255, 255, .5); color: var(--ink); cursor: pointer; font-size: 12px; font-weight: 800; text-align: left; }
+      .level .level-badge { display: grid; width: 34px; height: 34px; place-items: center; flex-shrink: 0; border-radius: 8px; background: rgba(23, 60, 50, .06); color: var(--muted); font-size: 15px; }
+      .level .level-text { flex: 1; }
+      .level[aria-selected="true"] { border-color: var(--ink); background: var(--ink); color: white; box-shadow: 0 10px 18px rgba(23, 60, 50, .14); }
+      .level[aria-selected="true"] .level-badge { background: rgba(213, 243, 106, .18); color: var(--lime); }
       .level:disabled { cursor: not-allowed; opacity: .42; }
       .start { display: inline-flex; min-height: 48px; align-items: center; gap: 16px; padding: 0 18px; border: 0; border-radius: 3px; background: var(--coral); color: #172f28; cursor: pointer; font-size: 13px; font-weight: 900; }
       .start:hover { background: #f68c70; }
@@ -168,11 +176,7 @@
           <p class="eyebrow">A little German, at full speed</p>
           <h1 id="title">Learn on<br />the <span>run.</span></h1>
           <p class="description">Catch the right German word. Three lanes, one Danish clue, and a new way to get words moving.</p>
-          <div class="levels" role="tablist" aria-label="Choose a level">
-            <button class="level" role="tab" aria-selected="true" data-level="0">1-1 &nbsp; People + family</button>
-            <button class="level" role="tab" aria-selected="false" data-level="1" disabled>1-2 &nbsp; Animals</button>
-            <button class="level" role="tab" aria-selected="false" data-level="2" disabled>1-3 &nbsp; Articles</button>
-          </div>
+          <div class="levels" role="tablist" aria-label="Choose a level"></div>
           <button class="start" id="start-button" type="button">Start running <span class="arrow" aria-hidden="true">↗</span></button>
         </section>
         <section class="game" aria-label="German vocabulary lane game">
@@ -225,7 +229,7 @@
       let grammar;
       let target = 0;
       const $ = (selector) => document.querySelector(selector);
-      const tabs = [...document.querySelectorAll(".level")];
+      let tabs = [...document.querySelectorAll(".level")];
       const lanes = [...document.querySelectorAll(".lane")];
       let levelIndex = 0, unlockedLevel = Number(localStorage.getItem("wortlauf-unlocked") || 0), currentWord, correctLane = 0, selectedLane = 1;
       let wordDeck = [], wordBankLoaded = false, loadingGameData = false, gateIntervalSeconds = 0;
@@ -406,6 +410,49 @@
           chooseQuestion();
         }, config.correctTransitionMilliseconds);
       }
+      function renderLevelTabs() {
+        const levelsPanel = $(".levels");
+        if (!levelsPanel) return;
+        const chapterIcons = { "Chapter 1": "🌱", "Chapter 2": "🚀" };
+        const byChapter = new Map();
+        levels.forEach((level, index) => {
+          const key = level.chapter || "Chapter 1";
+          if (!byChapter.has(key)) byChapter.set(key, []);
+          byChapter.get(key).push({ level, index });
+        });
+
+        levelsPanel.innerHTML = "";
+        byChapter.forEach((entries, chapterName) => {
+          const chapterWrap = document.createElement("div");
+          chapterWrap.className = "chapter-group";
+
+          const chapterLabel = document.createElement("p");
+          chapterLabel.className = "chapter-label";
+          chapterLabel.innerHTML = `<span class="chapter-icon">${chapterIcons[chapterName] || "📘"}</span><span>${chapterName}</span>`;
+          chapterWrap.appendChild(chapterLabel);
+
+          entries.forEach(({ level, index }) => {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "level";
+            button.role = "tab";
+            button.dataset.level = String(index);
+            button.setAttribute("aria-selected", String(index === levelIndex));
+            button.disabled = index > unlockedLevel;
+            button.innerHTML = `
+              <span class="level-badge">${index + 1}</span>
+              <span class="level-text">${level.id} · ${level.name}</span>
+            `;
+            button.addEventListener("click", () => selectLevel(index));
+            chapterWrap.appendChild(button);
+          });
+
+          levelsPanel.appendChild(chapterWrap);
+        });
+
+        tabs = [...document.querySelectorAll(".level")];
+      }
+
       function selectLevel(index) {
         if (index > unlockedLevel || !levels[index]) return;
         levelIndex = index;
@@ -419,6 +466,7 @@
       }
       async function updateServiceWorker() {
         if (!("serviceWorker" in navigator)) return;
+        if (location.hostname === "localhost" || location.hostname === "127.0.0.1") return;
         try {
           const registration = await navigator.serviceWorker.register("./service-worker.js");
           await registration.update();
@@ -443,7 +491,11 @@
         loadingGameData = true;
         try {
           await updateServiceWorker();
-          const [configResponse, bankResponse] = await Promise.all([fetch("./config.json"), fetch("./wordbank.json")]);
+          const cacheBuster = `?ts=${Date.now()}`;
+          const [configResponse, bankResponse] = await Promise.all([
+            fetch(`./config.json${cacheBuster}`, { cache: "no-store" }),
+            fetch(`./wordbank.json${cacheBuster}`, { cache: "no-store" })
+          ]);
           if (!configResponse.ok || !bankResponse.ok) throw new Error("Game data request failed");
           config = await configResponse.json();
           const bank = await bankResponse.json();
@@ -466,16 +518,13 @@
               return { ...word, id: wordId };
             })
           }));
-          if (loadedLevels.length !== tabs.length || loadedLevels.some((level) => level.words.length !== config.wordsPerLevel)) {
+          if (loadedLevels.some((level) => level.words.length !== config.wordsPerLevel)) {
             throw new Error("Each level must match the configured word count");
           }
           levels = loadedLevels;
           target = config.wordsPerLevel;
           unlockedLevel = Math.max(0, Math.min(unlockedLevel, levels.length - 1));
-          tabs.forEach((tab, index) => {
-            tab.textContent = `${levels[index].id}  ${levels[index].name}`;
-            tab.disabled = index > unlockedLevel;
-          });
+          renderLevelTabs();
           wordBankLoaded = true;
           loadingGameData = false;
           document.documentElement.style.setProperty("--bounce-duration", `${config.wrongBounceAnimationMilliseconds}ms`);
@@ -513,7 +562,9 @@
         $("#install-button").style.display = "none";
       });
       window.addEventListener("resize", () => setLane(selectedLane));
-      if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js"));
+      if ("serviceWorker" in navigator && !(location.hostname === "localhost" || location.hostname === "127.0.0.1")) {
+        window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js"));
+      }
       setLane(selectedLane);
       loadGameData();
     </script>

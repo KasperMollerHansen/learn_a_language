@@ -1,4 +1,4 @@
-const CACHE_NAME = "wortlauf-v14";
+const CACHE_NAME = "wortlauf-v16";
 const APP_FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon.svg", "./config.json", "./wordbank.json"];
 
 self.addEventListener("install", (event) => {
@@ -15,6 +15,11 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+  const url = new URL(event.request.url);
+  if (url.hostname === "localhost" || url.hostname === "127.0.0.1") {
+    event.respondWith(fetch(event.request));
+    return;
+  }
   event.respondWith(
     caches.match(event.request).then((cached) => cached || fetch(event.request).then((response) => {
       if (response.ok && new URL(event.request.url).origin === self.location.origin) {
