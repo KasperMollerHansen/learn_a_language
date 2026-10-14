@@ -1,0 +1,212 @@
+{
+  "prepositions.in": {
+    "danish": "i",
+    "german": "in",
+    "gender": "der",
+    "danishDefinite": "i",
+    "danishIndefinite": "i"
+  },
+  "prepositions.on": {
+    "danish": "på",
+    "german": "auf",
+    "gender": "der",
+    "danishDefinite": "på",
+    "danishIndefinite": "på"
+  },
+  "prepositions.under": {
+    "danish": "under",
+    "german": "unter",
+    "gender": "der",
+    "danishDefinite": "under",
+    "danishIndefinite": "under"
+  },
+  "prepositions.over": {
+    "danish": "over",
+    "german": "über",
+    "gender": "der",
+    "danishDefinite": "over",
+    "danishIndefinite": "over"
+  },
+  "prepositions.behind": {
+    "danish": "bagved",
+    "german": "hinter",
+    "gender": "der",
+    "danishDefinite": "bagved",
+    "danishIndefinite": "bagved"
+  },
+  "prepositions.infrontof": {
+    "danish": "foran",
+    "german": "vor",
+    "gender": "der",
+    "danishDefinite": "foran",
+    "danishIndefinite": "foran"
+  },
+  "prepositions.beside": {
+    "danish": "ved siden af",
+    "german": "neben",
+    "gender": "der",
+    "danishDefinite": "ved siden af",
+    "danishIndefinite": "ved siden af"
+  },
+  "prepositions.between": {
+    "danish": "mellem",
+    "german": "zwischen",
+    "gender": "der",
+    "danishDefinite": "mellem",
+    "danishIndefinite": "mellem"
+  },
+  "prepositions.with": {
+    "danish": "med",
+    "german": "mit",
+    "gender": "der",
+    "danishDefinite": "med",
+    "danishIndefinite": "med"
+  },
+  "prepositions.without": {
+    "danish": "uden",
+    "german": "ohne",
+    "gender": "der",
+    "danishDefinite": "uden",
+    "danishIndefinite": "uden"
+  },
+  "prepositions.from": {
+    "danish": "fra",
+    "german": "von",
+    "gender": "der",
+    "danishDefinite": "fra",
+    "danishIndefinite": "fra"
+  },
+  "prepositions.to": {
+    "danish": "til",
+    "german": "zu",
+    "gender": "der",
+    "danishDefinite": "til",
+    "danishIndefinite": "til"
+  },
+  "prepositions.before": {
+    "danish": "før",
+    "german": "vor",
+    "gender": "der",
+    "danishDefinite": "før",
+    "danishIndefinite": "før"
+  },
+  "prepositions.after": {
+    "danish": "efter",
+    "german": "nach",
+    "gender": "der",
+    "danishDefinite": "efter",
+    "danishIndefinite": "efter"
+  },
+  "prepositions.around": {
+    "danish": "omkring",
+    "german": "um",
+    "gender": "der",
+    "danishDefinite": "omkring",
+    "danishIndefinite": "omkring"
+  },
+  "prepositions.through": {
+    "danish": "gennem",
+    "german": "durch",
+    "gender": "der",
+    "danishDefinite": "gennem",
+    "danishIndefinite": "gennem"
+  },
+  "prepositions.across": {
+    "danish": "tværs over",
+    "german": "über",
+    "gender": "der",
+    "danishDefinite": "tværs over",
+    "danishIndefinite": "tværs over"
+  },
+  "prepositions.near": {
+    "danish": "nær",
+    "german": "nah",
+    "gender": "der",
+    "danishDefinite": "nær",
+    "danishIndefinite": "nær"
+  },
+  "prepositions.farfrom": {
+    "danish": "langt fra",
+    "german": "weit von",
+    "gender": "der",
+    "danishDefinite": "langt fra",
+    "danishIndefinite": "langt fra"
+  },
+  "prepositions.inside": {
+    "danish": "inde i",
+    "german": "innerhalb",
+    "gender": "der",
+    "danishDefinite": "inde i",
+    "danishIndefinite": "inde i"
+  },
+  "prepositions.outside": {
+    "danish": "udenfor",
+    "german": "außerhalb",
+    "gender": "der",
+    "danishDefinite": "udenfor",
+    "danishIndefinite": "udenfor"
+  },
+  "prepositions.above": {
+    "danish": "over",
+    "german": "oberhalb",
+    "gender": "der",
+    "danishDefinite": "over",
+    "danishIndefinite": "over"
+  },
+  "prepositions.below": {
+    "danish": "under",
+    "german": "unterhalb",
+    "gender": "der",
+    "danishDefinite": "under",
+    "danishIndefinite": "under"
+  },
+  "prepositions.into": {
+    "danish": "ind i",
+    "german": "in",
+    "gender": "der",
+    "danishDefinite": "ind i",
+    "danishIndefinite": "ind i"
+  },
+  "prepositions.outof": {
+    "danish": "ud af",
+    "german": "aus",
+    "gender": "der",
+    "danishDefinite": "ud af",
+    "danishIndefinite": "ud af"
+  },
+  "prepositions.along": {
+    "danish": "langs med",
+    "german": "entlang",
+    "gender": "der",
+    "danishDefinite": "langs med",
+    "danishIndefinite": "langs med"
+  },
+  "prepositions.against": {
+    "danish": "imod",
+    "german": "gegen",
+    "gender": "der",
+    "danishDefinite": "imod",
+    "danishIndefinite": "imod"
+  },
+  "prepositions.among": {
+    "danish": "blandt",
+    "german": "unter",
+    "gender": "der",
+    "danishDefinite": "blandt",
+    "danishIndefinite": "blandt"
+  },
+  "prepositions.nextto": {
+    "danish": "ved siden af",
+    "german": "neben",
+    "gender": "der",
+    "danishDefinite": "ved siden af",
+    "danishIndefinite": "ved siden af"
+  },
+  "prepositions.during": {
+    "danish": "under",
+    "german": "während",
+    "gender": "der",
+    "danishDefinite": "under",
+    "danishIndefinite": "under"
+  }
+}

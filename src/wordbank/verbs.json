@@ -1,0 +1,126 @@
+{
+  "verbs.be": {
+    "danish": "at være",
+    "german": "sein"
+  },
+  "verbs.have": {
+    "danish": "at have",
+    "german": "haben"
+  },
+  "verbs.do": {
+    "danish": "at gøre",
+    "german": "machen"
+  },
+  "verbs.go": {
+    "danish": "at gå",
+    "german": "gehen"
+  },
+  "verbs.come": {
+    "danish": "at komme",
+    "german": "kommen"
+  },
+  "verbs.see": {
+    "danish": "at se",
+    "german": "sehen"
+  },
+  "verbs.hear": {
+    "danish": "at høre",
+    "german": "hören"
+  },
+  "verbs.speak": {
+    "danish": "at tale",
+    "german": "sprechen"
+  },
+  "verbs.say": {
+    "danish": "at sige",
+    "german": "sagen"
+  },
+  "verbs.eat": {
+    "danish": "at spise",
+    "german": "essen"
+  },
+  "verbs.drink": {
+    "danish": "at drikke",
+    "german": "trinken"
+  },
+  "verbs.sleep": {
+    "danish": "at sove",
+    "german": "schlafen"
+  },
+  "verbs.read": {
+    "danish": "at læse",
+    "german": "lesen"
+  },
+  "verbs.write": {
+    "danish": "at skrive",
+    "german": "schreiben"
+  },
+  "verbs.learn": {
+    "danish": "at lære",
+    "german": "lernen"
+  },
+  "verbs.work": {
+    "danish": "at arbejde",
+    "german": "arbeiten"
+  },
+  "verbs.live": {
+    "danish": "at bo",
+    "german": "wohnen"
+  },
+  "verbs.buy": {
+    "danish": "at købe",
+    "german": "kaufen"
+  },
+  "verbs.pay": {
+    "danish": "at betale",
+    "german": "bezahlen"
+  },
+  "verbs.find": {
+    "danish": "at finde",
+    "german": "finden"
+  },
+  "verbs.think": {
+    "danish": "at tænke",
+    "german": "denken"
+  },
+  "verbs.know": {
+    "danish": "at vide",
+    "german": "wissen"
+  },
+  "verbs.understand": {
+    "danish": "at forstå",
+    "german": "verstehen"
+  },
+  "verbs.help": {
+    "danish": "at hjælpe",
+    "german": "helfen"
+  },
+  "verbs.ask": {
+    "danish": "at spørge",
+    "german": "fragen"
+  },
+  "verbs.answer": {
+    "danish": "at svare",
+    "german": "antworten"
+  },
+  "verbs.open": {
+    "danish": "at åbne",
+    "german": "öffnen"
+  },
+  "verbs.close": {
+    "danish": "at lukke",
+    "german": "schließen"
+  },
+  "verbs.wait": {
+    "danish": "at vente",
+    "german": "warten"
+  },
+  "verbs.walk": {
+    "danish": "at gå til fods",
+    "german": "zu Fuß gehen"
+  },
+  "verbs.drive": {
+    "danish": "at køre",
+    "german": "fahren"
+  }
+}

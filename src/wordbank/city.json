@@ -1,0 +1,37 @@
+{
+  "city.square": {
+    "danish": "torv",
+    "german": "Platz",
+    "gender": "der",
+    "danishDefinite": "torvet",
+    "danishIndefinite": "et torv"
+  },
+  "city.cafe": {
+    "danish": "café",
+    "german": "Café",
+    "gender": "das",
+    "danishDefinite": "cafét",
+    "danishIndefinite": "et café"
+  },
+  "city.library": {
+    "danish": "bibliotek",
+    "german": "Bibliothek",
+    "gender": "die",
+    "danishDefinite": "biblioteket",
+    "danishIndefinite": "et bibliotek"
+  },
+  "city.pool": {
+    "danish": "bassin",
+    "german": "Pool",
+    "gender": "der",
+    "danishDefinite": "bassinet",
+    "danishIndefinite": "et bassin"
+  },
+  "city.bridge": {
+    "danish": "bro",
+    "german": "Brücke",
+    "gender": "die",
+    "danishDefinite": "broen",
+    "danishIndefinite": "en bro"
+  }
+}

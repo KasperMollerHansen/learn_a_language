@@ -1,0 +1,58 @@
+{
+  "work.salary": {
+    "danish": "løn",
+    "german": "Gehalt",
+    "gender": "die",
+    "danishDefinite": "lønnen",
+    "danishIndefinite": "en løn"
+  },
+  "work.meeting": {
+    "danish": "møde",
+    "german": "Treffen",
+    "gender": "das",
+    "danishDefinite": "mødet",
+    "danishIndefinite": "et møde"
+  },
+  "work.contract": {
+    "danish": "kontrakt",
+    "german": "Vertrag",
+    "gender": "der",
+    "danishDefinite": "kontrakten",
+    "danishIndefinite": "en kontrakt"
+  },
+  "work.report": {
+    "danish": "rapport",
+    "german": "Bericht",
+    "gender": "der",
+    "danishDefinite": "rapporten",
+    "danishIndefinite": "en rapport"
+  },
+  "work.schedule": {
+    "danish": "plan",
+    "german": "Zeitplan",
+    "gender": "der",
+    "danishDefinite": "planen",
+    "danishIndefinite": "en plan"
+  },
+  "work.holiday": {
+    "danish": "ferie",
+    "german": "Urlaub",
+    "gender": "der",
+    "danishDefinite": "ferien",
+    "danishIndefinite": "en ferie"
+  },
+  "work.skill": {
+    "danish": "færdighed",
+    "german": "Fertigkeit",
+    "gender": "die",
+    "danishDefinite": "færdigheden",
+    "danishIndefinite": "en færdighed"
+  },
+  "work.task": {
+    "danish": "opgave",
+    "german": "Aufgabe",
+    "gender": "die",
+    "danishDefinite": "opgaven",
+    "danishIndefinite": "en opgave"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "modals.koennen.ich": {
+    "danish": "Jeg kan svømme.",
+    "german": "Ich kann schwimmen."
+  },
+  "modals.koennen.du": {
+    "danish": "Du kan svømme.",
+    "german": "Du kannst schwimmen."
+  },
+  "modals.koennen.er": {
+    "danish": "Han kan svømme.",
+    "german": "Er kann schwimmen."
+  },
+  "modals.koennen.wir": {
+    "danish": "Vi kan svømme.",
+    "german": "Wir können schwimmen."
+  },
+  "modals.koennen.sie": {
+    "danish": "De kan svømme.",
+    "german": "Sie können schwimmen."
+  },
+  "modals.muessen.ich": {
+    "danish": "Jeg skal arbejde.",
+    "german": "Ich muss arbeiten."
+  },
+  "modals.muessen.du": {
+    "danish": "Du skal arbejde.",
+    "german": "Du musst arbeiten."
+  },
+  "modals.muessen.er": {
+    "danish": "Han skal arbejde.",
+    "german": "Er muss arbeiten."
+  },
+  "modals.muessen.wir": {
+    "danish": "Vi skal arbejde.",
+    "german": "Wir müssen arbeiten."
+  },
+  "modals.muessen.sie": {
+    "danish": "De skal arbejde.",
+    "german": "Sie müssen arbeiten."
+  },
+  "modals.wollen.ich": {
+    "danish": "Jeg vil rejse.",
+    "german": "Ich will reisen."
+  },
+  "modals.wollen.du": {
+    "danish": "Du vil rejse.",
+    "german": "Du willst reisen."
+  },
+  "modals.wollen.er": {
+    "danish": "Han vil rejse.",
+    "german": "Er will reisen."
+  },
+  "modals.wollen.wir": {
+    "danish": "Vi vil rejse.",
+    "german": "Wir wollen reisen."
+  },
+  "modals.wollen.sie": {
+    "danish": "De vil rejse.",
+    "german": "Sie wollen reisen."
+  },
+  "modals.duerfen.ich": {
+    "danish": "Jeg må blive her.",
+    "german": "Ich darf hier bleiben."
+  },
+  "modals.duerfen.du": {
+    "danish": "Du må blive her.",
+    "german": "Du darfst hier bleiben."
+  },
+  "modals.duerfen.er": {
+    "danish": "Han må blive her.",
+    "german": "Er darf hier bleiben."
+  },
+  "modals.duerfen.wir": {
+    "danish": "Vi må blive her.",
+    "german": "Wir dürfen hier bleiben."
+  },
+  "modals.duerfen.sie": {
+    "danish": "De må blive her.",
+    "german": "Sie dürfen hier bleiben."
+  },
+  "modals.sollen.ich": {
+    "danish": "Jeg bør læse.",
+    "german": "Ich soll lesen."
+  },
+  "modals.sollen.du": {
+    "danish": "Du bør læse.",
+    "german": "Du sollst lesen."
+  },
+  "modals.sollen.er": {
+    "danish": "Han bør læse.",
+    "german": "Er soll lesen."
+  },
+  "modals.sollen.wir": {
+    "danish": "Vi bør læse.",
+    "german": "Wir sollen lesen."
+  },
+  "modals.sollen.sie": {
+    "danish": "De bør læse.",
+    "german": "Sie sollen lesen."
+  },
+  "modals.moegen.ich": {
+    "danish": "Jeg kan lide kaffe.",
+    "german": "Ich mag Kaffee."
+  },
+  "modals.moegen.du": {
+    "danish": "Du kan lide kaffe.",
+    "german": "Du magst Kaffee."
+  },
+  "modals.moegen.er": {
+    "danish": "Han kan lide kaffe.",
+    "german": "Er mag Kaffee."
+  },
+  "modals.moegen.wir": {
+    "danish": "Vi kan lide kaffe.",
+    "german": "Wir mögen Kaffee."
+  },
+  "modals.moegen.sie": {
+    "danish": "De kan lide kaffe.",
+    "german": "Sie mögen Kaffee."
+  }
+}

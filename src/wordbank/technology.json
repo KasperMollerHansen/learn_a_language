@@ -1,0 +1,72 @@
+{
+  "technology.screen": {
+    "danish": "skærm",
+    "german": "Bildschirm",
+    "gender": "der",
+    "danishDefinite": "skærmen",
+    "danishIndefinite": "en skærm"
+  },
+  "technology.keyboard": {
+    "danish": "tastatur",
+    "german": "Tastatur",
+    "gender": "die",
+    "danishDefinite": "tastaturet",
+    "danishIndefinite": "et tastatur"
+  },
+  "technology.mouse": {
+    "danish": "mus",
+    "german": "Maus",
+    "gender": "die",
+    "danishDefinite": "musen",
+    "danishIndefinite": "en mus"
+  },
+  "technology.wifi": {
+    "danish": "wifi",
+    "german": "WLAN",
+    "gender": "das",
+    "danishDefinite": "wifi-en",
+    "danishIndefinite": "et wifi"
+  },
+  "technology.app": {
+    "danish": "app",
+    "german": "App",
+    "gender": "die",
+    "danishDefinite": "appen",
+    "danishIndefinite": "en app"
+  },
+  "technology.email": {
+    "danish": "e-mail",
+    "german": "E-Mail",
+    "gender": "die",
+    "danishDefinite": "e-mailen",
+    "danishIndefinite": "en e-mail"
+  },
+  "technology.chat": {
+    "danish": "chat",
+    "german": "Chat",
+    "gender": "der",
+    "danishDefinite": "chatten",
+    "danishIndefinite": "en chat"
+  },
+  "technology.file": {
+    "danish": "fil",
+    "german": "Datei",
+    "gender": "die",
+    "danishDefinite": "filen",
+    "danishIndefinite": "en fil"
+  },
+  "technology.folder": {
+    "danish": "mappe",
+    "german": "Ordner",
+    "gender": "der",
+    "danishDefinite": "mappen",
+    "danishIndefinite": "en mappe"
+  },
+  "technology.network": {
+    "danish": "netværk",
+    "german": "Netzwerk",
+    "gender": "das",
+    "danishDefinite": "netværket",
+    "danishIndefinite": "et netværk"
+  }
+}

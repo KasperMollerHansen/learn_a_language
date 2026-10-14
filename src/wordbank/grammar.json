@@ -1,0 +1,107 @@
+{
+  "cases": [
+    "nominative",
+    "accusative",
+    "dative",
+    "genitive"
+  ],
+  "caseLabels": {
+    "nominative": "Nominative",
+    "accusative": "Accusative",
+    "dative": "Dative",
+    "genitive": "Genitive"
+  },
+  "articles": {
+    "definite": {
+      "nominative": {
+        "der": "der",
+        "die": "die",
+        "das": "das"
+      },
+      "accusative": {
+        "der": "den",
+        "die": "die",
+        "das": "das"
+      },
+      "dative": {
+        "der": "dem",
+        "die": "der",
+        "das": "dem"
+      },
+      "genitive": {
+        "der": "des",
+        "die": "der",
+        "das": "des"
+      }
+    },
+    "indefinite": {
+      "nominative": {
+        "der": "ein",
+        "die": "eine",
+        "das": "ein"
+      },
+      "accusative": {
+        "der": "einen",
+        "die": "eine",
+        "das": "ein"
+      },
+      "dative": {
+        "der": "einem",
+        "die": "einer",
+        "das": "einem"
+      },
+      "genitive": {
+        "der": "eines",
+        "die": "einer",
+        "das": "eines"
+      }
+    }
+  },
+  "genitiveNouns": {
+    "people.mother": "Mutter",
+    "people.father": "Vaters",
+    "people.child": "Kindes",
+    "people.baby": "Babys",
+    "people.son": "Sohnes",
+    "people.daughter": "Tochter",
+    "people.brother": "Bruders",
+    "people.sister": "Schwester",
+    "people.grandmother": "Großmutter",
+    "people.grandfather": "Großvaters",
+    "people.family": "Familie",
+    "people.friend": "Freundes",
+    "people.female-friend": "Freundin",
+    "people.person": "Person",
+    "people.man": "Mannes",
+    "people.woman": "Frau",
+    "people.girl": "Mädchens",
+    "people.boy": "Jungen",
+    "people.uncle": "Onkels",
+    "people.aunt": "Tante",
+    "people.male-cousin": "Cousins",
+    "people.female-cousin": "Cousine",
+    "people.neighbor": "Nachbarn",
+    "people.teacher": "Lehrers",
+    "people.student": "Schülers",
+    "people.doctor": "Arztes",
+    "people.nurse": "Krankenschwester",
+    "people.colleague": "Kollegen",
+    "people.guest": "Gastes",
+    "people.boss": "Chefs",
+    "animals.dog": "Hundes",
+    "animals.cat": "Katze",
+    "animals.horse": "Pferdes",
+    "animals.cow": "Kuh",
+    "animals.pig": "Schweins",
+    "animals.sheep": "Schafs",
+    "animals.goat": "Ziege",
+    "animals.hen": "Huhns",
+    "animals.duck": "Ente",
+    "animals.goose": "Gans",
+    "animals.bird": "Vogels",
+    "animals.fish": "Fisches",
+    "animals.mouse": "Maus",
+    "animals.rat": "Ratte",
+    "animals.rabbit": "Kaninchens"
+  }
+}

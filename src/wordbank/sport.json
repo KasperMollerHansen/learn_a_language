@@ -1,0 +1,37 @@
+{
+  "sport.racket": {
+    "danish": "racket",
+    "german": "Schläger",
+    "gender": "der",
+    "danishDefinite": "racketen",
+    "danishIndefinite": "en racket"
+  },
+  "sport.goal": {
+    "danish": "mål",
+    "german": "Tor",
+    "gender": "das",
+    "danishDefinite": "målet",
+    "danishIndefinite": "et mål"
+  },
+  "sport.stadium": {
+    "danish": "stadion",
+    "german": "Stadion",
+    "gender": "das",
+    "danishDefinite": "stadionet",
+    "danishIndefinite": "et stadion"
+  },
+  "sport.track": {
+    "danish": "bane",
+    "german": "Laufbahn",
+    "gender": "die",
+    "danishDefinite": "banen",
+    "danishIndefinite": "en bane"
+  },
+  "sport.player": {
+    "danish": "spiller",
+    "german": "Spieler",
+    "gender": "der",
+    "danishDefinite": "spilleren",
+    "danishIndefinite": "en spiller"
+  }
+}

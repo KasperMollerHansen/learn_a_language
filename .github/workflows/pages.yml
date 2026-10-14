@@ -27,7 +27,7 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Prepare static app files
-        run: mkdir site; cp index.html manifest.webmanifest config.json wordbank.json service-worker.js icon.svg site/
+        run: mkdir site; cp src/index.html src/manifest.webmanifest src/config.json src/service-worker.js src/icon.svg site/; cp -r src/wordbank src/levels site/
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:

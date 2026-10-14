@@ -1,5 +1,31 @@
-const CACHE_NAME = "wortlauf-v0.0.22";
-const APP_FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon.svg", "./config.json", "./wordbank.json"];
+const CACHE_NAME = "wortlauf-v0.0.25";
+const APP_FILES = [
+  "./", "./index.html", "./manifest.webmanifest", "./icon.svg", "./config.json",
+  "./wordbank/adjectives.json",
+  "./wordbank/animals.json",
+  "./wordbank/city.json",
+  "./wordbank/everyday.json",
+  "./wordbank/garden.json",
+  "./wordbank/grammar.json",
+  "./wordbank/index.json",
+  "./wordbank/kitchen.json",
+  "./wordbank/learning.json",
+  "./wordbank/modals.json",
+  "./wordbank/music.json",
+  "./wordbank/people.json",
+  "./wordbank/prepositions.json",
+  "./wordbank/sentence-builder.json",
+  "./wordbank/spelling.json",
+  "./wordbank/sport.json",
+  "./wordbank/technology.json",
+  "./wordbank/travel.json",
+  "./wordbank/verbs.json",
+  "./wordbank/weather.json",
+  "./wordbank/work.json",
+  "./levels/chapter-1.json",
+  "./levels/chapter-2.json",
+  "./levels/index.json"
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_FILES)));
@@ -28,6 +54,17 @@ self.addEventListener("fetch", (event) => {
   }
   if (url.hostname === "localhost" || url.hostname === "127.0.0.1") {
     event.respondWith(fetch(event.request));
+    return;
+  }
+  if (url.origin === self.location.origin && url.pathname.endsWith(".json")) {
+    const key = url.origin + url.pathname;
+    event.respondWith(fetch(event.request).then((response) => {
+      if (response.ok) {
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(key, copy));
+      }
+      return response;
+    }).catch(() => caches.match(event.request, { ignoreSearch: true })));
     return;
   }
   event.respondWith(

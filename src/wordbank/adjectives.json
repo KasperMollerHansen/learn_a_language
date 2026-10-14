@@ -1,0 +1,212 @@
+{
+  "adjectives.happy": {
+    "danish": "glad",
+    "german": "glücklich",
+    "gender": "der",
+    "danishDefinite": "glad",
+    "danishIndefinite": "glad"
+  },
+  "adjectives.sad": {
+    "danish": "ked af det",
+    "german": "traurig",
+    "gender": "der",
+    "danishDefinite": "traurig",
+    "danishIndefinite": "traurig"
+  },
+  "adjectives.big": {
+    "danish": "stor",
+    "german": "groß",
+    "gender": "der",
+    "danishDefinite": "stor",
+    "danishIndefinite": "stor"
+  },
+  "adjectives.small": {
+    "danish": "lille",
+    "german": "klein",
+    "gender": "der",
+    "danishDefinite": "lille",
+    "danishIndefinite": "lille"
+  },
+  "adjectives.new": {
+    "danish": "ny",
+    "german": "neu",
+    "gender": "der",
+    "danishDefinite": "ny",
+    "danishIndefinite": "ny"
+  },
+  "adjectives.old": {
+    "danish": "gammel",
+    "german": "alt",
+    "gender": "der",
+    "danishDefinite": "gammel",
+    "danishIndefinite": "gammel"
+  },
+  "adjectives.fast": {
+    "danish": "hurtig",
+    "german": "schnell",
+    "gender": "der",
+    "danishDefinite": "hurtig",
+    "danishIndefinite": "hurtig"
+  },
+  "adjectives.slow": {
+    "danish": "langsom",
+    "german": "langsam",
+    "gender": "der",
+    "danishDefinite": "langsom",
+    "danishIndefinite": "langsom"
+  },
+  "adjectives.strong": {
+    "danish": "stærk",
+    "german": "stark",
+    "gender": "der",
+    "danishDefinite": "stærk",
+    "danishIndefinite": "stærk"
+  },
+  "adjectives.weak": {
+    "danish": "svag",
+    "german": "schwach",
+    "gender": "der",
+    "danishDefinite": "svag",
+    "danishIndefinite": "svag"
+  },
+  "adjectives.clean": {
+    "danish": "ren",
+    "german": "sauber",
+    "gender": "der",
+    "danishDefinite": "ren",
+    "danishIndefinite": "ren"
+  },
+  "adjectives.dirty": {
+    "danish": "beskidt",
+    "german": "schmutzig",
+    "gender": "der",
+    "danishDefinite": "beskidt",
+    "danishIndefinite": "beskidt"
+  },
+  "adjectives.hot": {
+    "danish": "varm",
+    "german": "heiß",
+    "gender": "der",
+    "danishDefinite": "varm",
+    "danishIndefinite": "varm"
+  },
+  "adjectives.cold": {
+    "danish": "kold",
+    "german": "kalt",
+    "gender": "der",
+    "danishDefinite": "kold",
+    "danishIndefinite": "kold"
+  },
+  "adjectives.light": {
+    "danish": "let",
+    "german": "leicht",
+    "gender": "der",
+    "danishDefinite": "let",
+    "danishIndefinite": "let"
+  },
+  "adjectives.heavy": {
+    "danish": "tung",
+    "german": "schwer",
+    "gender": "der",
+    "danishDefinite": "tung",
+    "danishIndefinite": "tung"
+  },
+  "adjectives.quiet": {
+    "danish": "stille",
+    "german": "ruhig",
+    "gender": "der",
+    "danishDefinite": "stille",
+    "danishIndefinite": "stille"
+  },
+  "adjectives.loud": {
+    "danish": "høj",
+    "german": "laut",
+    "gender": "der",
+    "danishDefinite": "høj",
+    "danishIndefinite": "høj"
+  },
+  "adjectives.beautiful": {
+    "danish": "smuk",
+    "german": "schön",
+    "gender": "der",
+    "danishDefinite": "smuk",
+    "danishIndefinite": "smuk"
+  },
+  "adjectives.ugly": {
+    "danish": "grim",
+    "german": "hässlich",
+    "gender": "der",
+    "danishDefinite": "grim",
+    "danishIndefinite": "grim"
+  },
+  "adjectives.smart": {
+    "danish": "smart",
+    "german": "klug",
+    "gender": "der",
+    "danishDefinite": "smart",
+    "danishIndefinite": "smart"
+  },
+  "adjectives.tall": {
+    "danish": "høj",
+    "german": "groß",
+    "gender": "der",
+    "danishDefinite": "høj",
+    "danishIndefinite": "høj"
+  },
+  "adjectives.short": {
+    "danish": "kort",
+    "german": "kurz",
+    "gender": "der",
+    "danishDefinite": "kort",
+    "danishIndefinite": "kort"
+  },
+  "adjectives.young": {
+    "danish": "ung",
+    "german": "jung",
+    "gender": "der",
+    "danishDefinite": "ung",
+    "danishIndefinite": "ung"
+  },
+  "adjectives.good": {
+    "danish": "god",
+    "german": "gut",
+    "gender": "der",
+    "danishDefinite": "god",
+    "danishIndefinite": "god"
+  },
+  "adjectives.bad": {
+    "danish": "dårlig",
+    "german": "schlecht",
+    "gender": "der",
+    "danishDefinite": "dårlig",
+    "danishIndefinite": "dårlig"
+  },
+  "adjectives.easy": {
+    "danish": "let",
+    "german": "einfach",
+    "gender": "der",
+    "danishDefinite": "let",
+    "danishIndefinite": "let"
+  },
+  "adjectives.difficult": {
+    "danish": "svær",
+    "german": "schwierig",
+    "gender": "der",
+    "danishDefinite": "svær",
+    "danishIndefinite": "svær"
+  },
+  "adjectives.expensive": {
+    "danish": "dyr",
+    "german": "teuer",
+    "gender": "der",
+    "danishDefinite": "dyr",
+    "danishIndefinite": "dyr"
+  },
+  "adjectives.cheap": {
+    "danish": "billig",
+    "german": "billig",
+    "gender": "der",
+    "danishDefinite": "billig",
+    "danishIndefinite": "billig"
+  }
+}

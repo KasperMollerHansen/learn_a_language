@@ -8,7 +8,7 @@ Wortlauf is a small Danish-to-German vocabulary runner, built as an installable 
 With Python installed, run this from the repository root:
 
 ```powershell
-python -m http.server 8000
+python -m http.server 8000 --directory src
 ```
 
 Open <http://localhost:8000>. The game also caches its files for offline use after the first visit.
@@ -35,22 +35,46 @@ and offline caching to work; opening `index.html` directly is only suitable for 
 - **2-2 Common verbs:** 30 useful infinitives that can follow modal verbs.
 - **2-3 Everyday things:** household, meal, and technology vocabulary.
 
-- Catch all 30 words within two minutes. The Danish prompt sits ahead of the stationary gates, and
-  the runner advances toward them for each timed choice. A correct pass speeds up the next run by
-  1.1; a miss bounces the runner back, slows the next approach, and retries the same word. The first
-  approach takes 3.5 seconds. Tap a gate on a phone, or use the arrow keys and number keys on a
-  keyboard.
+- Catch all 30 words before the clock runs out. The Danish prompt sits ahead of the stationary
+  gates, and the runner advances toward them for each timed choice. A correct pass speeds up the
+  next approach; a miss bounces the runner back, slows the next approach, and retries the same word.
+  The first approach takes 4.2 seconds. Only one gate is ever a correct answer: a German word that also translates the Danish prompt (for
+  example *unterhalb* for "under") is never shown as a wrong gate. Tap a gate on a phone, or use
+  the arrow keys and number keys on a keyboard.
+
+## Easy and Hard
+
+Pick the difficulty with the **Easy / Hard** toggle above the level list. New players start on Easy.
+
+| | Round length | Approach speed-up per correct pass | Slow-down per miss |
+|---|---|---|---|
+| Easy | 2½ minutes (150 s) | ÷ 1.085 | × 1.2 |
+| Hard | 2 minutes (120 s) | ÷ 1.1 | × 1.3 |
+
+Each difficulty keeps its own unlocked levels and cleared levels (marked ✓). Clearing a level on
+Easy counts only for Easy; clearing it on Hard counts for both Hard and Easy. Progress saved by an
+earlier version is copied into both difficulties the first time the new version loads.
 
 ## Game data
 
-Vocabulary and level lists live in [`wordbank.json`](wordbank.json), separate from the game code.
+Vocabulary lives in [`src/wordbank/`](src/wordbank) (one file per category plus `grammar.json`) and level lists in [`src/levels/`](src/levels) (one file per chapter), separate from the game code. Each folder has an `index.json` listing its files.
 Each lesson curates 30 stable, category-prefixed word IDs from the shared vocabulary map; entries
 may be words or practice sentences. This keeps a large vocabulary inventory reusable across short,
 focused lessons instead of duplicating translations. Noun entries contain German gender and Danish
 article forms. The word bank also stores German article declensions and genitive noun forms.
 Pacing and scoring live in
-[`config.json`](config.json), so you can tune the round duration, speed multiplier, penalties, and
-transitions without changing JavaScript.
+[`config.json`](src/config.json), so you can tune the round duration, speed multiplier, penalties, and
+transitions without changing JavaScript. The per-difficulty values (round duration and the two gate
+speed multipliers) sit under `difficulties.easy` and `difficulties.hard`. A word entry may list
+`germanAlternatives`: other German answers that are also correct for its Danish prompt, which are
+then never offered as wrong gates.
+
+## Reviewing translations
+
+1. `poetry run python scripts/translations.py export` writes `translations.csv` (`;`-separated, UTF-8 with BOM, opens in Excel with æøå/ß intact). Re-running it keeps your `checked` and `comment` columns.
+2. Review in Excel and correct danish, german, gender, danishDefinite, danishIndefinite or options (separate options with ` | `). Use `checked` and `comment` for your own notes. Save as CSV (semicolon-delimited), keeping the same file name.
+3. `poetry run python scripts/translations.py apply` writes the changed cells back into `src/wordbank/*.json` and lists the changed ids. It refuses unknown ids and refuses to blank a field that has a value.
+4. Re-run `export` afterwards so the CSV matches the wordbank; a test fails if they drift.
 
 ## Publish and install on a phone
 
@@ -79,11 +103,12 @@ poetry check --lock, isort, black, mypy, flake8, pytest
 ## Layout
 
 ```
-index.html          the game and level flow
-config.json         pacing and scoring settings
-wordbank.json       levels and Danish-German vocabulary
-service-worker.js   offline app and data cache
-src/init_repo/      the package
+src/                the static app
+  index.html          the game and level flow
+  config.json         pacing and scoring settings
+  wordbank/           Danish-German vocabulary, one file per category, plus grammar
+  levels/             level lists, one file per chapter
+  service-worker.js   offline app and data cache
 tests/              pytest
 docs/setup/         the guides above
 ```

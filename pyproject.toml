@@ -4,10 +4,7 @@ version = "0.1.0"
 description = "Starter layout for a Python project."
 authors = ["KMH"]
 readme = "README.md"
-packages = [
-    { include = "init_repo", from = "src" },
-]
-include = ["src/init_repo/py.typed"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "~3.12"
@@ -39,7 +36,7 @@ testpaths = ["tests"]
 markers = [
     "integration: needs an external service; deselected by default, run with -m integration",
 ]
-addopts = "-q --strict-markers --strict-config -m 'not integration' --cov=src --cov-report=term-missing"
+addopts = "-q --strict-markers --strict-config -m 'not integration'"
 # A warning is a behaviour change announcing itself early. Ignore one narrowly, with a reason.
 filterwarnings = ["error"]
 
@@ -52,7 +49,6 @@ enable_error_code = [
     "truthy-bool",
     "possibly-undefined",
 ]
-mypy_path = "src"
 exclude = [
     '.git',
     '.mypy_cache',
@@ -80,7 +76,6 @@ default_section = "THIRDPARTY"
 known_compatibility = "six,future"
 sections = "FUTURE,COMPATIBILITY,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
 src_paths = ["src", "tests"]
-known_first_party = ["init_repo"]
 skip_glob = ["_tmp/*"]
 
 [tool.pyright]

@@ -1,0 +1,58 @@
+{
+  "garden.tree": {
+    "danish": "træ",
+    "german": "Baum",
+    "gender": "der",
+    "danishDefinite": "træet",
+    "danishIndefinite": "et træ"
+  },
+  "garden.grass": {
+    "danish": "græs",
+    "german": "Gras",
+    "gender": "das",
+    "danishDefinite": "græsset",
+    "danishIndefinite": "et græs"
+  },
+  "garden.flowerbed": {
+    "danish": "blomsterbed",
+    "german": "Blumenbeet",
+    "gender": "das",
+    "danishDefinite": "blomsterbedet",
+    "danishIndefinite": "et blomsterbed"
+  },
+  "garden.fence": {
+    "danish": "hegn",
+    "german": "Zaun",
+    "gender": "der",
+    "danishDefinite": "hegnet",
+    "danishIndefinite": "et hegn"
+  },
+  "garden.path": {
+    "danish": "sti",
+    "german": "Weg",
+    "gender": "der",
+    "danishDefinite": "stien",
+    "danishIndefinite": "en sti"
+  },
+  "garden.bush": {
+    "danish": "busk",
+    "german": "Busch",
+    "gender": "der",
+    "danishDefinite": "busken",
+    "danishIndefinite": "en busk"
+  },
+  "garden.seed": {
+    "danish": "frø",
+    "german": "Samen",
+    "gender": "der",
+    "danishDefinite": "frøet",
+    "danishIndefinite": "et frø"
+  },
+  "garden.pot": {
+    "danish": "potte",
+    "german": "Topf",
+    "gender": "der",
+    "danishDefinite": "potten",
+    "danishIndefinite": "en potte"
+  }
+}

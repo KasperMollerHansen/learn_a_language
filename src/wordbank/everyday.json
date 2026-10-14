@@ -1,0 +1,72 @@
+{
+  "everyday.breakfast": {
+    "danish": "morgenmad",
+    "german": "Frühstück",
+    "gender": "das",
+    "danishDefinite": "morgenmaden",
+    "danishIndefinite": "et morgenmad"
+  },
+  "everyday.lunch": {
+    "danish": "frokost",
+    "german": "Mittagessen",
+    "gender": "das",
+    "danishDefinite": "frokosten",
+    "danishIndefinite": "en frokost"
+  },
+  "everyday.dinner": {
+    "danish": "middag",
+    "german": "Abendessen",
+    "gender": "das",
+    "danishDefinite": "middagen",
+    "danishIndefinite": "en middag"
+  },
+  "everyday.umbrella": {
+    "danish": "paraply",
+    "german": "Regenschirm",
+    "gender": "der",
+    "danishDefinite": "paraplyen",
+    "danishIndefinite": "en paraply"
+  },
+  "everyday.wallet": {
+    "danish": "pung",
+    "german": "Geldbörse",
+    "gender": "die",
+    "danishDefinite": "pungen",
+    "danishIndefinite": "en pung"
+  },
+  "everyday.watch": {
+    "danish": "ur",
+    "german": "Armbanduhr",
+    "gender": "die",
+    "danishDefinite": "uret",
+    "danishIndefinite": "et ur"
+  },
+  "everyday.toothbrush": {
+    "danish": "tandbørste",
+    "german": "Zahnbürste",
+    "gender": "die",
+    "danishDefinite": "tandbørsten",
+    "danishIndefinite": "en tandbørste"
+  },
+  "everyday.shampoo": {
+    "danish": "shampoo",
+    "german": "Shampoo",
+    "gender": "das",
+    "danishDefinite": "shampoen",
+    "danishIndefinite": "et shampoo"
+  },
+  "everyday.soap": {
+    "danish": "sæbe",
+    "german": "Seife",
+    "gender": "die",
+    "danishDefinite": "sæben",
+    "danishIndefinite": "en sæbe"
+  },
+  "everyday.towel": {
+    "danish": "håndklæde",
+    "german": "Handtuch",
+    "gender": "das",
+    "danishDefinite": "håndklædet",
+    "danishIndefinite": "et håndklæde"
+  }
+}

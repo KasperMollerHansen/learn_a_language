@@ -1,0 +1,37 @@
+{
+  "music.note": {
+    "danish": "note",
+    "german": "Note",
+    "gender": "die",
+    "danishDefinite": "noten",
+    "danishIndefinite": "en note"
+  },
+  "music.piano": {
+    "danish": "klaver",
+    "german": "Klavier",
+    "gender": "das",
+    "danishDefinite": "klaveret",
+    "danishIndefinite": "et klaver"
+  },
+  "music.violin": {
+    "danish": "violin",
+    "german": "Violine",
+    "gender": "die",
+    "danishDefinite": "violinen",
+    "danishIndefinite": "en violin"
+  },
+  "music.microphone": {
+    "danish": "mikrofon",
+    "german": "Mikrofon",
+    "gender": "die",
+    "danishDefinite": "mikrofonen",
+    "danishIndefinite": "en mikrofon"
+  },
+  "music.radio": {
+    "danish": "radio",
+    "german": "Radio",
+    "gender": "die",
+    "danishDefinite": "radioen",
+    "danishIndefinite": "en radio"
+  }
+}

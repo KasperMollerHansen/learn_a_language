@@ -1,0 +1,212 @@
+{
+  "people.mother": {
+    "danish": "mor",
+    "german": "Mutter",
+    "gender": "die",
+    "danishDefinite": "moren",
+    "danishIndefinite": "en mor"
+  },
+  "people.father": {
+    "danish": "far",
+    "german": "Vater",
+    "gender": "der",
+    "danishDefinite": "faren",
+    "danishIndefinite": "en far"
+  },
+  "people.child": {
+    "danish": "barn",
+    "german": "Kind",
+    "gender": "das",
+    "danishDefinite": "barnet",
+    "danishIndefinite": "et barn"
+  },
+  "people.baby": {
+    "danish": "baby",
+    "german": "Baby",
+    "gender": "das",
+    "danishDefinite": "babyen",
+    "danishIndefinite": "en baby"
+  },
+  "people.son": {
+    "danish": "søn",
+    "german": "Sohn",
+    "gender": "der",
+    "danishDefinite": "sønnen",
+    "danishIndefinite": "en søn"
+  },
+  "people.daughter": {
+    "danish": "datter",
+    "german": "Tochter",
+    "gender": "die",
+    "danishDefinite": "datteren",
+    "danishIndefinite": "en datter"
+  },
+  "people.brother": {
+    "danish": "bror",
+    "german": "Bruder",
+    "gender": "der",
+    "danishDefinite": "broren",
+    "danishIndefinite": "en bror"
+  },
+  "people.sister": {
+    "danish": "søster",
+    "german": "Schwester",
+    "gender": "die",
+    "danishDefinite": "søsteren",
+    "danishIndefinite": "en søster"
+  },
+  "people.grandmother": {
+    "danish": "bedstemor",
+    "german": "Großmutter",
+    "gender": "die",
+    "danishDefinite": "bedstemoren",
+    "danishIndefinite": "en bedstemor"
+  },
+  "people.grandfather": {
+    "danish": "bedstefar",
+    "german": "Großvater",
+    "gender": "der",
+    "danishDefinite": "bedstefaren",
+    "danishIndefinite": "en bedstefar"
+  },
+  "people.family": {
+    "danish": "familie",
+    "german": "Familie",
+    "gender": "die",
+    "danishDefinite": "familien",
+    "danishIndefinite": "en familie"
+  },
+  "people.friend": {
+    "danish": "ven",
+    "german": "Freund",
+    "gender": "der",
+    "danishDefinite": "vennen",
+    "danishIndefinite": "en ven"
+  },
+  "people.female-friend": {
+    "danish": "veninde",
+    "german": "Freundin",
+    "gender": "die",
+    "danishDefinite": "veninden",
+    "danishIndefinite": "en veninde"
+  },
+  "people.person": {
+    "danish": "person",
+    "german": "Person",
+    "gender": "die",
+    "danishDefinite": "personen",
+    "danishIndefinite": "en person"
+  },
+  "people.man": {
+    "danish": "mand",
+    "german": "Mann",
+    "gender": "der",
+    "danishDefinite": "manden",
+    "danishIndefinite": "en mand"
+  },
+  "people.woman": {
+    "danish": "kvinde",
+    "german": "Frau",
+    "gender": "die",
+    "danishDefinite": "kvinden",
+    "danishIndefinite": "en kvinde"
+  },
+  "people.girl": {
+    "danish": "pige",
+    "german": "Mädchen",
+    "gender": "das",
+    "danishDefinite": "pigen",
+    "danishIndefinite": "en pige"
+  },
+  "people.boy": {
+    "danish": "dreng",
+    "german": "Junge",
+    "gender": "der",
+    "danishDefinite": "drengen",
+    "danishIndefinite": "en dreng"
+  },
+  "people.uncle": {
+    "danish": "onkel",
+    "german": "Onkel",
+    "gender": "der",
+    "danishDefinite": "onklen",
+    "danishIndefinite": "en onkel"
+  },
+  "people.aunt": {
+    "danish": "tante",
+    "german": "Tante",
+    "gender": "die",
+    "danishDefinite": "tanten",
+    "danishIndefinite": "en tante"
+  },
+  "people.male-cousin": {
+    "danish": "fætter",
+    "german": "Cousin",
+    "gender": "der",
+    "danishDefinite": "fætteren",
+    "danishIndefinite": "en fætter"
+  },
+  "people.female-cousin": {
+    "danish": "kusine",
+    "german": "Cousine",
+    "gender": "die",
+    "danishDefinite": "kusinen",
+    "danishIndefinite": "en kusine"
+  },
+  "people.neighbor": {
+    "danish": "nabo",
+    "german": "Nachbar",
+    "gender": "der",
+    "danishDefinite": "naboen",
+    "danishIndefinite": "en nabo"
+  },
+  "people.teacher": {
+    "danish": "lærer",
+    "german": "Lehrer",
+    "gender": "der",
+    "danishDefinite": "læreren",
+    "danishIndefinite": "en lærer"
+  },
+  "people.student": {
+    "danish": "elev",
+    "german": "Schüler",
+    "gender": "der",
+    "danishDefinite": "eleven",
+    "danishIndefinite": "en elev"
+  },
+  "people.doctor": {
+    "danish": "læge",
+    "german": "Arzt",
+    "gender": "der",
+    "danishDefinite": "lægen",
+    "danishIndefinite": "en læge"
+  },
+  "people.nurse": {
+    "danish": "sygeplejerske",
+    "german": "Krankenschwester",
+    "gender": "die",
+    "danishDefinite": "sygeplejersken",
+    "danishIndefinite": "en sygeplejerske"
+  },
+  "people.colleague": {
+    "danish": "kollega",
+    "german": "Kollege",
+    "gender": "der",
+    "danishDefinite": "kollegaen",
+    "danishIndefinite": "en kollega"
+  },
+  "people.guest": {
+    "danish": "gæst",
+    "german": "Gast",
+    "gender": "der",
+    "danishDefinite": "gæsten",
+    "danishIndefinite": "en gæst"
+  },
+  "people.boss": {
+    "danish": "chef",
+    "german": "Chef",
+    "gender": "der",
+    "danishDefinite": "chefen",
+    "danishIndefinite": "en chef"
+  }
+}
