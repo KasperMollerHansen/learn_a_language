@@ -1,122 +1,182 @@
 {
   "modals.koennen.ich": {
     "danish": "Jeg kan svømme.",
-    "german": "Ich kann schwimmen."
+    "german": "Ich kann schwimmen.",
+    "english": "I can swim.",
+    "tier": 1
   },
   "modals.koennen.du": {
     "danish": "Du kan svømme.",
-    "german": "Du kannst schwimmen."
+    "german": "Du kannst schwimmen.",
+    "english": "You can swim.",
+    "tier": 1
   },
   "modals.koennen.er": {
     "danish": "Han kan svømme.",
-    "german": "Er kann schwimmen."
+    "german": "Er kann schwimmen.",
+    "english": "He can swim.",
+    "tier": 1
   },
   "modals.koennen.wir": {
     "danish": "Vi kan svømme.",
-    "german": "Wir können schwimmen."
+    "german": "Wir können schwimmen.",
+    "english": "We can swim.",
+    "tier": 1
   },
   "modals.koennen.sie": {
     "danish": "De kan svømme.",
-    "german": "Sie können schwimmen."
+    "german": "Sie können schwimmen.",
+    "english": "They can swim.",
+    "tier": 1
   },
   "modals.muessen.ich": {
     "danish": "Jeg skal arbejde.",
-    "german": "Ich muss arbeiten."
+    "german": "Ich muss arbeiten.",
+    "english": "I have to work.",
+    "tier": 1
   },
   "modals.muessen.du": {
     "danish": "Du skal arbejde.",
-    "german": "Du musst arbeiten."
+    "german": "Du musst arbeiten.",
+    "english": "You have to work.",
+    "tier": 1
   },
   "modals.muessen.er": {
     "danish": "Han skal arbejde.",
-    "german": "Er muss arbeiten."
+    "german": "Er muss arbeiten.",
+    "english": "He has to work.",
+    "tier": 1
   },
   "modals.muessen.wir": {
     "danish": "Vi skal arbejde.",
-    "german": "Wir müssen arbeiten."
+    "german": "Wir müssen arbeiten.",
+    "english": "We have to work.",
+    "tier": 1
   },
   "modals.muessen.sie": {
     "danish": "De skal arbejde.",
-    "german": "Sie müssen arbeiten."
+    "german": "Sie müssen arbeiten.",
+    "english": "They have to work.",
+    "tier": 1
   },
   "modals.wollen.ich": {
     "danish": "Jeg vil rejse.",
-    "german": "Ich will reisen."
+    "german": "Ich will reisen.",
+    "english": "I want to travel.",
+    "tier": 2
   },
   "modals.wollen.du": {
     "danish": "Du vil rejse.",
-    "german": "Du willst reisen."
+    "german": "Du willst reisen.",
+    "english": "You want to travel.",
+    "tier": 2
   },
   "modals.wollen.er": {
     "danish": "Han vil rejse.",
-    "german": "Er will reisen."
+    "german": "Er will reisen.",
+    "english": "He wants to travel.",
+    "tier": 2
   },
   "modals.wollen.wir": {
     "danish": "Vi vil rejse.",
-    "german": "Wir wollen reisen."
+    "german": "Wir wollen reisen.",
+    "english": "We want to travel.",
+    "tier": 2
   },
   "modals.wollen.sie": {
     "danish": "De vil rejse.",
-    "german": "Sie wollen reisen."
+    "german": "Sie wollen reisen.",
+    "english": "They want to travel.",
+    "tier": 2
   },
   "modals.duerfen.ich": {
     "danish": "Jeg må blive her.",
-    "german": "Ich darf hier bleiben."
+    "german": "Ich darf hier bleiben.",
+    "english": "I may stay here.",
+    "tier": 3
   },
   "modals.duerfen.du": {
     "danish": "Du må blive her.",
-    "german": "Du darfst hier bleiben."
+    "german": "Du darfst hier bleiben.",
+    "english": "You may stay here.",
+    "tier": 3
   },
   "modals.duerfen.er": {
     "danish": "Han må blive her.",
-    "german": "Er darf hier bleiben."
+    "german": "Er darf hier bleiben.",
+    "english": "He may stay here.",
+    "tier": 3
   },
   "modals.duerfen.wir": {
     "danish": "Vi må blive her.",
-    "german": "Wir dürfen hier bleiben."
+    "german": "Wir dürfen hier bleiben.",
+    "english": "We may stay here.",
+    "tier": 3
   },
   "modals.duerfen.sie": {
     "danish": "De må blive her.",
-    "german": "Sie dürfen hier bleiben."
+    "german": "Sie dürfen hier bleiben.",
+    "english": "They may stay here.",
+    "tier": 3
   },
   "modals.sollen.ich": {
     "danish": "Jeg bør læse.",
-    "german": "Ich soll lesen."
+    "german": "Ich sollte lesen.",
+    "english": "I should read.",
+    "tier": 3
   },
   "modals.sollen.du": {
     "danish": "Du bør læse.",
-    "german": "Du sollst lesen."
+    "german": "Du solltest lesen.",
+    "english": "You should read.",
+    "tier": 3
   },
   "modals.sollen.er": {
     "danish": "Han bør læse.",
-    "german": "Er soll lesen."
+    "german": "Er sollte lesen.",
+    "english": "He should read.",
+    "tier": 3
   },
   "modals.sollen.wir": {
     "danish": "Vi bør læse.",
-    "german": "Wir sollen lesen."
+    "german": "Wir sollten lesen.",
+    "english": "We should read.",
+    "tier": 3
   },
   "modals.sollen.sie": {
     "danish": "De bør læse.",
-    "german": "Sie sollen lesen."
+    "german": "Sie sollten lesen.",
+    "english": "They should read.",
+    "tier": 3
   },
   "modals.moegen.ich": {
     "danish": "Jeg kan lide kaffe.",
-    "german": "Ich mag Kaffee."
+    "german": "Ich mag Kaffee.",
+    "english": "I like coffee.",
+    "tier": 2
   },
   "modals.moegen.du": {
     "danish": "Du kan lide kaffe.",
-    "german": "Du magst Kaffee."
+    "german": "Du magst Kaffee.",
+    "english": "You like coffee.",
+    "tier": 2
   },
   "modals.moegen.er": {
     "danish": "Han kan lide kaffe.",
-    "german": "Er mag Kaffee."
+    "german": "Er mag Kaffee.",
+    "english": "He likes coffee.",
+    "tier": 2
   },
   "modals.moegen.wir": {
     "danish": "Vi kan lide kaffe.",
-    "german": "Wir mögen Kaffee."
+    "german": "Wir mögen Kaffee.",
+    "english": "We like coffee.",
+    "tier": 2
   },
   "modals.moegen.sie": {
     "danish": "De kan lide kaffe.",
-    "german": "Sie mögen Kaffee."
+    "german": "Sie mögen Kaffee.",
+    "english": "They like coffee.",
+    "tier": 2
   }
 }

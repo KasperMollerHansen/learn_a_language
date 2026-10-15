@@ -1,0 +1,902 @@
+{
+  "sentences.my-name-is-anna": {
+    "danish": "Jeg hedder Anna.",
+    "german": "Ich heiße Anna.",
+    "english": "My name is Anna.",
+    "tier": 1
+  },
+  "sentences.i-live-in-berlin": {
+    "danish": "Jeg bor i Berlin.",
+    "german": "Ich wohne in Berlin.",
+    "english": "I live in Berlin.",
+    "tier": 1
+  },
+  "sentences.she-is-a-teacher": {
+    "danish": "Hun er lærer.",
+    "german": "Sie ist Lehrerin.",
+    "english": "She is a teacher.",
+    "tier": 1
+  },
+  "sentences.we-have-a-dog": {
+    "danish": "Vi har en hund.",
+    "german": "Wir haben einen Hund.",
+    "english": "We have a dog.",
+    "tier": 1
+  },
+  "sentences.the-water-is-cold": {
+    "danish": "Vandet er koldt.",
+    "german": "Das Wasser ist kalt.",
+    "english": "The water is cold.",
+    "tier": 1
+  },
+  "sentences.he-drinks-coffee": {
+    "danish": "Han drikker kaffe.",
+    "german": "Er trinkt Kaffee.",
+    "english": "He drinks coffee.",
+    "tier": 1
+  },
+  "sentences.i-eat-an-apple": {
+    "danish": "Jeg spiser et æble.",
+    "german": "Ich esse einen Apfel.",
+    "english": "I eat an apple.",
+    "tier": 1
+  },
+  "sentences.the-house-is-big": {
+    "danish": "Huset er stort.",
+    "german": "Das Haus ist groß.",
+    "english": "The house is big.",
+    "tier": 1
+  },
+  "sentences.they-play-football": {
+    "danish": "De spiller fodbold.",
+    "german": "Sie spielen Fußball.",
+    "english": "They play football.",
+    "tier": 1
+  },
+  "sentences.i-am-tired": {
+    "danish": "Jeg er træt.",
+    "german": "Ich bin müde.",
+    "english": "I am tired.",
+    "tier": 1
+  },
+  "sentences.the-bus-comes-now": {
+    "danish": "Bussen kommer nu.",
+    "german": "Der Bus kommt jetzt.",
+    "english": "The bus is coming now.",
+    "tier": 1
+  },
+  "sentences.my-mother-is-nice": {
+    "danish": "Min mor er sød.",
+    "german": "Meine Mutter ist nett.",
+    "english": "My mother is nice.",
+    "tier": 1
+  },
+  "sentences.we-learn-german": {
+    "danish": "Vi lærer tysk.",
+    "german": "Wir lernen Deutsch.",
+    "english": "We are learning German.",
+    "tier": 1
+  },
+  "sentences.you-read-a-book": {
+    "danish": "Du læser en bog.",
+    "german": "Du liest ein Buch.",
+    "english": "You are reading a book.",
+    "tier": 1
+  },
+  "sentences.the-cat-sleeps-in-bed": {
+    "danish": "Katten sover i sengen.",
+    "german": "Die Katze schläft im Bett.",
+    "english": "The cat sleeps in the bed.",
+    "tier": 1
+  },
+  "sentences.i-like-music": {
+    "danish": "Jeg kan godt lide musik.",
+    "german": "Ich mag Musik.",
+    "english": "I like music.",
+    "tier": 1
+  },
+  "sentences.it-is-warm-today": {
+    "danish": "I dag er det varmt.",
+    "german": "Heute ist es warm.",
+    "english": "Today it is warm.",
+    "tier": 1
+  },
+  "sentences.he-works-in-a-bank": {
+    "danish": "Han arbejder i en bank.",
+    "german": "Er arbeitet in einer Bank.",
+    "english": "He works in a bank.",
+    "tier": 1
+  },
+  "sentences.i-have-two-brothers": {
+    "danish": "Jeg har to brødre.",
+    "german": "Ich habe zwei Brüder.",
+    "english": "I have two brothers.",
+    "tier": 1
+  },
+  "sentences.the-child-eats-bread": {
+    "danish": "Barnet spiser brød.",
+    "german": "Das Kind isst Brot.",
+    "english": "The child eats bread.",
+    "tier": 1
+  },
+  "sentences.we-go-to-school": {
+    "danish": "Vi går i skole.",
+    "german": "Wir gehen zur Schule.",
+    "english": "We go to school.",
+    "tier": 1
+  },
+  "sentences.the-car-is-red": {
+    "danish": "Bilen er rød.",
+    "german": "Das Auto ist rot.",
+    "english": "The car is red.",
+    "tier": 1
+  },
+  "sentences.she-sings-well": {
+    "danish": "Hun synger godt.",
+    "german": "Sie singt gut.",
+    "english": "She sings well.",
+    "tier": 1
+  },
+  "sentences.i-need-a-pen": {
+    "danish": "Jeg har brug for en kuglepen.",
+    "german": "Ich brauche einen Kugelschreiber.",
+    "english": "I need a pen.",
+    "tier": 1
+  },
+  "sentences.the-shop-is-open": {
+    "danish": "Butikken er åben.",
+    "german": "Der Laden ist geöffnet.",
+    "english": "The shop is open.",
+    "tier": 1
+  },
+  "sentences.we-eat-at-seven": {
+    "danish": "Vi spiser klokken syv.",
+    "german": "Wir essen um sieben Uhr.",
+    "english": "We eat at seven o'clock.",
+    "tier": 1
+  },
+  "sentences.my-friend-is-from-spain": {
+    "danish": "Min ven kommer fra Spanien.",
+    "german": "Mein Freund kommt aus Spanien.",
+    "english": "My friend comes from Spain.",
+    "tier": 1
+  },
+  "sentences.i-see-a-bird": {
+    "danish": "Jeg ser en fugl.",
+    "german": "Ich sehe einen Vogel.",
+    "english": "I see a bird.",
+    "tier": 1
+  },
+  "sentences.the-train-is-late": {
+    "danish": "Toget er forsinket.",
+    "german": "Der Zug hat Verspätung.",
+    "english": "The train is late.",
+    "tier": 1
+  },
+  "sentences.you-are-my-friend": {
+    "danish": "Du er min ven.",
+    "german": "Du bist mein Freund.",
+    "english": "You are my friend.",
+    "tier": 1
+  },
+  "sentences.where-do-you-live": {
+    "danish": "Hvor bor du?",
+    "german": "Wo wohnst du?",
+    "english": "Where do you live?",
+    "tier": 2
+  },
+  "sentences.what-is-your-name": {
+    "danish": "Hvad hedder du?",
+    "german": "Wie heißt du?",
+    "english": "What is your name?",
+    "tier": 2
+  },
+  "sentences.i-have-had-breakfast": {
+    "danish": "Jeg har spist morgenmad.",
+    "german": "Ich habe gefrühstückt.",
+    "english": "I have had breakfast.",
+    "tier": 2
+  },
+  "sentences.we-travelled-to-vienna": {
+    "danish": "Vi rejste til Wien.",
+    "german": "Wir sind nach Wien gereist.",
+    "english": "We travelled to Vienna.",
+    "tier": 2
+  },
+  "sentences.she-bought-a-new-jacket": {
+    "danish": "Hun har købt en ny jakke.",
+    "german": "Sie hat eine neue Jacke gekauft.",
+    "english": "She bought a new jacket.",
+    "tier": 2
+  },
+  "sentences.the-train-departs-at-eight": {
+    "danish": "Toget afgår klokken otte.",
+    "german": "Der Zug fährt um acht Uhr ab.",
+    "english": "The train departs at eight o'clock.",
+    "tier": 2
+  },
+  "sentences.i-get-up-early": {
+    "danish": "Jeg står tidligt op.",
+    "german": "Ich stehe früh auf.",
+    "english": "I get up early.",
+    "tier": 2
+  },
+  "sentences.we-go-shopping-tomorrow": {
+    "danish": "Vi handler ind i morgen.",
+    "german": "Wir kaufen morgen ein.",
+    "english": "We are going shopping tomorrow.",
+    "tier": 2
+  },
+  "sentences.i-give-my-brother-a-book": {
+    "danish": "Jeg giver min bror en bog.",
+    "german": "Ich gebe meinem Bruder ein Buch.",
+    "english": "I give my brother a book.",
+    "tier": 2
+  },
+  "sentences.he-helps-his-mother": {
+    "danish": "Han hjælper sin mor i køkkenet.",
+    "german": "Er hilft seiner Mutter in der Küche.",
+    "english": "He helps his mother in the kitchen.",
+    "tier": 2
+  },
+  "sentences.when-do-you-come-home": {
+    "danish": "Hvornår kommer du hjem?",
+    "german": "Wann kommst du nach Hause?",
+    "english": "When are you coming home?",
+    "tier": 2
+  },
+  "sentences.who-called-you": {
+    "danish": "Hvem har ringet til dig?",
+    "german": "Wer hat dich angerufen?",
+    "english": "Who called you?",
+    "tier": 2
+  },
+  "sentences.how-much-is-the-ticket": {
+    "danish": "Hvor meget koster billetten?",
+    "german": "Wie viel kostet die Fahrkarte?",
+    "english": "How much does the ticket cost?",
+    "tier": 2
+  },
+  "sentences.i-have-not-slept-well": {
+    "danish": "Jeg har ikke sovet godt.",
+    "german": "Ich habe nicht gut geschlafen.",
+    "english": "I have not slept well.",
+    "tier": 2
+  },
+  "sentences.the-book-belongs-to-my-sister": {
+    "danish": "Bogen tilhører min søster.",
+    "german": "Das Buch gehört meiner Schwester.",
+    "english": "The book belongs to my sister.",
+    "tier": 2
+  },
+  "sentences.are-you-closing-the-window": {
+    "danish": "Lukker du vinduet?",
+    "german": "Machst du das Fenster zu?",
+    "english": "Are you closing the window?",
+    "tier": 2
+  },
+  "sentences.they-saw-a-film-yesterday": {
+    "danish": "De har set en film i går.",
+    "german": "Sie haben gestern einen Film gesehen.",
+    "english": "They saw a film yesterday.",
+    "tier": 2
+  },
+  "sentences.we-lived-in-hamburg-two-years": {
+    "danish": "Vi boede i Hamburg i to år.",
+    "german": "Wir haben zwei Jahre in Hamburg gewohnt.",
+    "english": "We lived in Hamburg for two years.",
+    "tier": 2
+  },
+  "sentences.why-are-you-so-happy": {
+    "danish": "Hvorfor er du så glad?",
+    "german": "Warum bist du so froh?",
+    "english": "Why are you so happy?",
+    "tier": 2
+  },
+  "sentences.he-lives-with-his-grandparents": {
+    "danish": "Han bor hos sine bedsteforældre.",
+    "german": "Er wohnt bei seinen Großeltern.",
+    "english": "He lives with his grandparents.",
+    "tier": 2
+  },
+  "sentences.she-calls-her-friend-tonight": {
+    "danish": "Hun ringer til sin veninde i aften.",
+    "german": "Sie ruft heute Abend ihre Freundin an.",
+    "english": "She is calling her friend tonight.",
+    "tier": 2
+  },
+  "sentences.what-did-you-do-at-the-weekend": {
+    "danish": "Hvad har du lavet i weekenden?",
+    "german": "Was hast du am Wochenende gemacht?",
+    "english": "What did you do at the weekend?",
+    "tier": 2
+  },
+  "sentences.i-forgot-my-key": {
+    "danish": "Jeg har glemt min nøgle.",
+    "german": "Ich habe meinen Schlüssel vergessen.",
+    "english": "I have forgotten my key.",
+    "tier": 2
+  },
+  "sentences.he-fell-off-the-bike": {
+    "danish": "Han er faldet af cyklen.",
+    "german": "Er ist vom Fahrrad gefallen.",
+    "english": "He fell off the bike.",
+    "tier": 2
+  },
+  "sentences.where-have-you-been": {
+    "danish": "Hvor har du været?",
+    "german": "Wo bist du gewesen?",
+    "english": "Where have you been?",
+    "tier": 2
+  },
+  "sentences.we-go-out-tonight": {
+    "danish": "Vi går ud i aften.",
+    "german": "Wir gehen heute Abend aus.",
+    "english": "We are going out tonight.",
+    "tier": 2
+  },
+  "sentences.the-film-starts-at-nine": {
+    "danish": "Filmen begynder klokken ni.",
+    "german": "Der Film fängt um neun Uhr an.",
+    "english": "The film starts at nine o'clock.",
+    "tier": 2
+  },
+  "sentences.i-show-you-the-city": {
+    "danish": "Jeg viser dig byen.",
+    "german": "Ich zeige dir die Stadt.",
+    "english": "I will show you the city.",
+    "tier": 2
+  },
+  "sentences.she-has-not-answered-me": {
+    "danish": "Hun har ikke svaret mig.",
+    "german": "Sie hat mir nicht geantwortet.",
+    "english": "She has not answered me.",
+    "tier": 2
+  },
+  "sentences.when-did-you-arrive": {
+    "danish": "Hvornår er I ankommet?",
+    "german": "Wann seid ihr angekommen?",
+    "english": "When did you arrive?",
+    "tier": 2
+  },
+  "sentences.i-stay-home-because-sick": {
+    "danish": "Jeg bliver hjemme, fordi jeg er syg.",
+    "german": "Ich bleibe zu Hause, weil ich krank bin.",
+    "english": "I am staying home because I am sick.",
+    "tier": 3
+  },
+  "sentences.i-think-he-comes-tomorrow": {
+    "danish": "Jeg tror, at han kommer i morgen.",
+    "german": "Ich glaube, dass er morgen kommt.",
+    "english": "I think that he is coming tomorrow.",
+    "tier": 3
+  },
+  "sentences.if-it-rains-we-stay-home": {
+    "danish": "Hvis det regner, bliver vi hjemme.",
+    "german": "Wenn es regnet, bleiben wir zu Hause.",
+    "english": "If it rains, we will stay at home.",
+    "tier": 3
+  },
+  "sentences.she-says-she-has-no-time": {
+    "danish": "Hun siger, at hun ikke har tid.",
+    "german": "Sie sagt, dass sie keine Zeit hat.",
+    "english": "She says that she has no time.",
+    "tier": 3
+  },
+  "sentences.i-have-to-go-to-bed-early": {
+    "danish": "Jeg skal gå tidligt i seng.",
+    "german": "Ich muss früh ins Bett gehen.",
+    "english": "I have to go to bed early.",
+    "tier": 3
+  },
+  "sentences.we-would-like-to-reserve-a-table": {
+    "danish": "Vi vil gerne bestille et bord.",
+    "german": "Wir möchten einen Tisch reservieren.",
+    "english": "We would like to reserve a table.",
+    "tier": 3
+  },
+  "sentences.he-is-busy-because-he-has-to-work": {
+    "danish": "Han har travlt, fordi han skal arbejde.",
+    "german": "Er hat viel zu tun, weil er arbeiten muss.",
+    "english": "He is busy because he has to work.",
+    "tier": 3
+  },
+  "sentences.i-look-forward-to-the-holiday": {
+    "danish": "Jeg glæder mig til ferien.",
+    "german": "Ich freue mich auf den Urlaub.",
+    "english": "I am looking forward to the holiday.",
+    "tier": 3
+  },
+  "sentences.she-is-interested-in-history": {
+    "danish": "Hun interesserer sig for historie.",
+    "german": "Sie interessiert sich für Geschichte.",
+    "english": "She is interested in history.",
+    "tier": 3
+  },
+  "sentences.we-are-not-allowed-to-park-here": {
+    "danish": "Vi må ikke parkere her.",
+    "german": "Wir dürfen hier nicht parken.",
+    "english": "We are not allowed to park here.",
+    "tier": 3
+  },
+  "sentences.when-i-was-a-child": {
+    "danish": "Da jeg var barn, boede jeg på landet.",
+    "german": "Als ich Kind war, habe ich auf dem Land gewohnt.",
+    "english": "When I was a child, I lived in the countryside.",
+    "tier": 3
+  },
+  "sentences.i-do-not-know-whether-he-comes": {
+    "danish": "Jeg ved ikke, om han kommer.",
+    "german": "Ich weiß nicht, ob er kommt.",
+    "english": "I do not know whether he is coming.",
+    "tier": 3
+  },
+  "sentences.the-children-must-wash-before-lunch": {
+    "danish": "Børnene skal vaske sig før frokost.",
+    "german": "Die Kinder müssen sich vor dem Mittagessen waschen.",
+    "english": "The children must wash before lunch.",
+    "tier": 3
+  },
+  "sentences.he-wonders-why-she-does-not-call": {
+    "danish": "Han undrer sig over, hvorfor hun ikke ringer.",
+    "german": "Er wundert sich, warum sie nicht anruft.",
+    "english": "He wonders why she does not call.",
+    "tier": 3
+  },
+  "sentences.while-i-cook-i-listen-to-radio": {
+    "danish": "Mens jeg laver mad, hører jeg radio.",
+    "german": "Während ich koche, höre ich Radio.",
+    "english": "While I cook, I listen to the radio.",
+    "tier": 3
+  },
+  "sentences.we-must-hurry-or-miss-the-train": {
+    "danish": "Vi skal skynde os, ellers misser vi toget.",
+    "german": "Wir müssen uns beeilen, sonst verpassen wir den Zug.",
+    "english": "We must hurry, otherwise we will miss the train.",
+    "tier": 3
+  },
+  "sentences.i-am-glad-that-you-are-here": {
+    "danish": "Jeg er glad for, at du er her.",
+    "german": "Ich bin froh, dass du hier bist.",
+    "english": "I am glad that you are here.",
+    "tier": 3
+  },
+  "sentences.you-should-rest-a-little": {
+    "danish": "Du burde hvile dig lidt.",
+    "german": "Du solltest dich ein bisschen ausruhen.",
+    "english": "You should rest a little.",
+    "tier": 3
+  },
+  "sentences.i-have-to-call-the-doctor-today": {
+    "danish": "Jeg skal ringe til lægen i dag.",
+    "german": "Ich muss heute den Arzt anrufen.",
+    "english": "I have to call the doctor today.",
+    "tier": 3
+  },
+  "sentences.after-we-have-eaten-we-go-for-a-walk": {
+    "danish": "Efter vi har spist, går vi en tur.",
+    "german": "Nachdem wir gegessen haben, gehen wir spazieren.",
+    "english": "After we have eaten, we go for a walk.",
+    "tier": 3
+  },
+  "sentences.she-wants-to-study-medicine": {
+    "danish": "Hun vil gerne læse medicin.",
+    "german": "Sie will Medizin studieren.",
+    "english": "She wants to study medicine.",
+    "tier": 3
+  },
+  "sentences.he-sits-down-because-he-is-tired": {
+    "danish": "Han sætter sig, fordi han er træt.",
+    "german": "Er setzt sich, weil er müde ist.",
+    "english": "He sits down because he is tired.",
+    "tier": 3
+  },
+  "sentences.we-meet-as-soon-as-you-have-time": {
+    "danish": "Vi mødes, så snart du har tid.",
+    "german": "Wir treffen uns, sobald du Zeit hast.",
+    "english": "We will meet as soon as you have time.",
+    "tier": 3
+  },
+  "sentences.she-asks-where-the-station-is": {
+    "danish": "Hun spørger, hvor stationen ligger.",
+    "german": "Sie fragt, wo der Bahnhof liegt.",
+    "english": "She asks where the station is.",
+    "tier": 3
+  },
+  "sentences.i-cannot-come-meeting": {
+    "danish": "Jeg kan ikke komme, fordi jeg har et møde.",
+    "german": "Ich kann nicht kommen, weil ich eine Besprechung habe.",
+    "english": "I cannot come because I have a meeting.",
+    "tier": 3
+  },
+  "sentences.you-may-take-my-bike": {
+    "danish": "Du må gerne tage min cykel.",
+    "german": "Du darfst gern mein Fahrrad nehmen.",
+    "english": "You are welcome to take my bike.",
+    "tier": 3
+  },
+  "sentences.we-feel-at-home-here": {
+    "danish": "Vi føler os godt tilpas her.",
+    "german": "Wir fühlen uns hier wohl.",
+    "english": "We feel comfortable here.",
+    "tier": 3
+  },
+  "sentences.although-it-is-cold-no-jacket": {
+    "danish": "Selvom det er koldt, går han uden jakke.",
+    "german": "Obwohl es kalt ist, geht er ohne Jacke.",
+    "english": "Although it is cold, he goes without a jacket.",
+    "tier": 3
+  },
+  "sentences.i-hope-the-weather-is-good": {
+    "danish": "Jeg håber, at vejret bliver godt.",
+    "german": "Ich hoffe, dass das Wetter gut wird.",
+    "english": "I hope that the weather will be good.",
+    "tier": 3
+  },
+  "sentences.she-gets-dressed-before-leaving": {
+    "danish": "Hun klæder sig på, før hun går.",
+    "german": "Sie zieht sich an, bevor sie geht.",
+    "english": "She gets dressed before she leaves.",
+    "tier": 3
+  },
+  "sentences.if-i-had-time-i-would-travel-more": {
+    "danish": "Hvis jeg havde tid, ville jeg rejse mere.",
+    "german": "Wenn ich Zeit hätte, würde ich mehr reisen.",
+    "english": "If I had time, I would travel more.",
+    "tier": 4
+  },
+  "sentences.the-house-was-built-in-1990": {
+    "danish": "Huset blev bygget i 1990.",
+    "german": "Das Haus wurde 1990 gebaut.",
+    "english": "The house was built in 1990.",
+    "tier": 4
+  },
+  "sentences.the-man-next-door-is-a-doctor": {
+    "danish": "Manden, som bor ved siden af os, er læge.",
+    "german": "Der Mann, der neben uns wohnt, ist Arzt.",
+    "english": "The man who lives next to us is a doctor.",
+    "tier": 4
+  },
+  "sentences.he-came-late-bus-delayed": {
+    "danish": "Han kom for sent, fordi bussen var forsinket.",
+    "german": "Er kam zu spät, weil der Bus Verspätung hatte.",
+    "english": "He came too late because the bus was delayed.",
+    "tier": 4
+  },
+  "sentences.if-i-were-you": {
+    "danish": "Hvis jeg var dig, ville jeg blive hjemme.",
+    "german": "Wenn ich du wäre, würde ich zu Hause bleiben.",
+    "english": "If I were you, I would stay at home.",
+    "tier": 4
+  },
+  "sentences.the-window-is-closed-every-evening": {
+    "danish": "Vinduet bliver lukket hver aften.",
+    "german": "Das Fenster wird jeden Abend geschlossen.",
+    "english": "The window is closed every evening.",
+    "tier": 4
+  },
+  "sentences.the-book-i-read-yesterday": {
+    "danish": "Bogen, som jeg læste i går, var spændende.",
+    "german": "Das Buch, das ich gestern las, war spannend.",
+    "english": "The book that I read yesterday was exciting.",
+    "tier": 4
+  },
+  "sentences.i-would-like-to-know-where-he-is": {
+    "danish": "Jeg ville gerne vide, hvor han er.",
+    "german": "Ich würde gerne wissen, wo er ist.",
+    "english": "I would like to know where he is.",
+    "tier": 4
+  },
+  "sentences.the-road-has-been-repaired": {
+    "danish": "Vejen er blevet repareret.",
+    "german": "Die Straße ist repariert worden.",
+    "english": "The road has been repaired.",
+    "tier": 4
+  },
+  "sentences.we-went-home-when-it-began-to-rain": {
+    "danish": "Vi gik hjem, da det begyndte at regne.",
+    "german": "Wir gingen nach Hause, als es zu regnen begann.",
+    "english": "We went home when it began to rain.",
+    "tier": 4
+  },
+  "sentences.if-he-had-called-i-would-have-come": {
+    "danish": "Hvis han havde ringet, var jeg kommet.",
+    "german": "Wenn er angerufen hätte, wäre ich gekommen.",
+    "english": "If he had called, I would have come.",
+    "tier": 4
+  },
+  "sentences.the-girl-whose-bike-was-stolen": {
+    "danish": "Pigen, hvis cykel er stjålet, græder.",
+    "german": "Das Mädchen, dessen Fahrrad gestohlen wurde, weint.",
+    "english": "The girl whose bike was stolen is crying.",
+    "tier": 4
+  },
+  "sentences.the-food-is-served-at-six": {
+    "danish": "Maden bliver serveret klokken seks.",
+    "german": "Das Essen wird um sechs Uhr serviert.",
+    "english": "The food is served at six o'clock.",
+    "tier": 4
+  },
+  "sentences.she-said-she-had-forgotten-her-key": {
+    "danish": "Hun sagde, at hun havde glemt sin nøgle.",
+    "german": "Sie sagte, dass sie ihren Schlüssel vergessen hatte.",
+    "english": "She said that she had forgotten her key.",
+    "tier": 4
+  },
+  "sentences.it-would-be-lovely-if-you-could-come": {
+    "danish": "Det ville være dejligt, hvis du kunne komme.",
+    "german": "Es wäre schön, wenn du kommen könntest.",
+    "english": "It would be lovely if you could come.",
+    "tier": 4
+  },
+  "sentences.the-city-we-visited-is-old": {
+    "danish": "Byen, som vi besøgte, er meget gammel.",
+    "german": "Die Stadt, die wir besuchten, ist sehr alt.",
+    "english": "The city that we visited is very old.",
+    "tier": 4
+  },
+  "sentences.the-letter-was-written-by-hand": {
+    "danish": "Brevet blev skrevet i hånden.",
+    "german": "Der Brief wurde von Hand geschrieben.",
+    "english": "The letter was written by hand.",
+    "tier": 4
+  },
+  "sentences.i-would-not-have-thought-so-difficult": {
+    "danish": "Jeg havde ikke troet, at det var så svært.",
+    "german": "Ich hätte nicht gedacht, dass es so schwierig ist.",
+    "english": "I would not have thought it was so difficult.",
+    "tier": 4
+  },
+  "sentences.those-who-work-hard-succeed": {
+    "danish": "De, der arbejder hårdt, har succes.",
+    "german": "Diejenigen, die hart arbeiten, haben Erfolg.",
+    "english": "Those who work hard are successful.",
+    "tier": 4
+  },
+  "sentences.he-lived-in-munich-until-twenty": {
+    "danish": "Han boede i München, indtil han blev tyve.",
+    "german": "Er wohnte in München, bis er zwanzig wurde.",
+    "english": "He lived in Munich until he turned twenty.",
+    "tier": 4
+  },
+  "sentences.she-wished-she-had-more-time": {
+    "danish": "Hun ville ønske, at hun havde mere tid.",
+    "german": "Sie wünschte, sie hätte mehr Zeit.",
+    "english": "She wished she had more time.",
+    "tier": 4
+  },
+  "sentences.how-is-the-word-pronounced": {
+    "danish": "Hvordan bliver ordet udtalt?",
+    "german": "Wie wird das Wort ausgesprochen?",
+    "english": "How is the word pronounced?",
+    "tier": 4
+  },
+  "sentences.the-film-everyone-talks-about": {
+    "danish": "Det er den film, som alle taler om.",
+    "german": "Das ist der Film, über den alle sprechen.",
+    "english": "That is the film that everyone is talking about.",
+    "tier": 4
+  },
+  "sentences.we-first-met-in-2015": {
+    "danish": "Vi mødtes første gang i 2015.",
+    "german": "Wir trafen uns 2015 zum ersten Mal.",
+    "english": "We first met in 2015.",
+    "tier": 4
+  },
+  "sentences.the-parcel-was-delivered-this-morning": {
+    "danish": "Pakken blev leveret i morges.",
+    "german": "Das Paket wurde heute Morgen geliefert.",
+    "english": "The parcel was delivered this morning.",
+    "tier": 4
+  },
+  "sentences.if-we-ran-faster-we-would-catch-the-train": {
+    "danish": "Hvis vi løb hurtigere, ville vi nå toget.",
+    "german": "Wenn wir schneller liefen, würden wir den Zug erreichen.",
+    "english": "If we ran faster, we would catch the train.",
+    "tier": 4
+  },
+  "sentences.could-you-help-me": {
+    "danish": "Kunne du hjælpe mig?",
+    "german": "Könntest du mir helfen?",
+    "english": "Could you help me?",
+    "tier": 4
+  },
+  "sentences.the-task-was-solved-by-the-pupils": {
+    "danish": "Opgaven blev løst af eleverne.",
+    "german": "Die Aufgabe wurde von den Schülern gelöst.",
+    "english": "The task was solved by the pupils.",
+    "tier": 4
+  },
+  "sentences.the-woman-i-spoke-with-was-maria": {
+    "danish": "Kvinden, som jeg talte med, hed Maria.",
+    "german": "Die Frau, mit der ich sprach, hieß Maria.",
+    "english": "The woman I spoke with was called Maria.",
+    "tier": 4
+  },
+  "sentences.he-had-to-wait-no-more-seats": {
+    "danish": "Han måtte vente, fordi der ikke var flere pladser.",
+    "german": "Er musste warten, weil es keine Plätze mehr gab.",
+    "english": "He had to wait because there were no more seats.",
+    "tier": 4
+  },
+  "sentences.not-my-cup-of-tea": {
+    "danish": "Det er ikke min kop te.",
+    "german": "Das ist nicht mein Ding.",
+    "english": "That is not my cup of tea.",
+    "tier": 5
+  },
+  "sentences.like-a-fish-in-water": {
+    "danish": "Jeg har det som fisken i vandet.",
+    "german": "Ich fühle mich wie ein Fisch im Wasser.",
+    "english": "I feel like a fish in water.",
+    "tier": 5
+  },
+  "sentences.we-ask-for-your-understanding": {
+    "danish": "Vi beder om Deres forståelse.",
+    "german": "Wir bitten um Ihr Verständnis.",
+    "english": "We ask for your understanding.",
+    "tier": 5
+  },
+  "sentences.with-reference-to-your-letter": {
+    "danish": "Med henvisning til Deres brev af 5. maj henvender jeg mig til Dem.",
+    "german": "Bezugnehmend auf Ihr Schreiben vom 5. Mai wende ich mich an Sie.",
+    "english": "With reference to your letter of 5 May, I am contacting you.",
+    "tier": 5
+  },
+  "sentences.now-i-realise-i-was-wrong": {
+    "danish": "Nu går det op for mig, at jeg tog fejl.",
+    "german": "Jetzt wird mir klar, dass ich mich geirrt habe.",
+    "english": "Now it dawns on me that I was wrong.",
+    "tier": 5
+  },
+  "sentences.after-the-adoption-of-the-law": {
+    "danish": "Efter lovens vedtagelse steg priserne.",
+    "german": "Nach der Verabschiedung des Gesetzes stiegen die Preise.",
+    "english": "After the adoption of the law, prices rose.",
+    "tier": 5
+  },
+  "sentences.no-smoke-without-fire": {
+    "danish": "Der er ingen røg uden ild.",
+    "german": "Wo Rauch ist, da ist auch Feuer.",
+    "english": "There is no smoke without fire.",
+    "tier": 5
+  },
+  "sentences.out-of-the-question": {
+    "danish": "Det kommer ikke på tale.",
+    "german": "Das kommt nicht infrage.",
+    "english": "That is out of the question.",
+    "tier": 5
+  },
+  "sentences.fell-between-two-stools": {
+    "danish": "Projektet faldt mellem to stole.",
+    "german": "Das Projekt saß zwischen allen Stühlen.",
+    "english": "The project fell between two stools.",
+    "tier": 5
+  },
+  "sentences.i-got-cold-feet": {
+    "danish": "Jeg har fået kolde fødder.",
+    "german": "Ich habe kalte Füße bekommen.",
+    "english": "I have got cold feet.",
+    "tier": 5
+  },
+  "sentences.meeting-postponed-due-to-illness": {
+    "danish": "Mødet blev udsat på grund af sygdom.",
+    "german": "Die Sitzung wurde wegen Krankheit verschoben.",
+    "english": "The meeting was postponed due to illness.",
+    "tier": 5
+  },
+  "sentences.under-the-circumstances": {
+    "danish": "Under de givne omstændigheder er det en fornuftig løsning.",
+    "german": "Unter den gegebenen Umständen ist das eine vernünftige Lösung.",
+    "english": "Under the given circumstances, this is a sensible solution.",
+    "tier": 5
+  },
+  "sentences.subject-to-change": {
+    "danish": "Der tages forbehold for ændringer.",
+    "german": "Änderungen bleiben vorbehalten.",
+    "english": "Subject to change.",
+    "tier": 5
+  },
+  "sentences.she-lost-the-thread": {
+    "danish": "Hun tabte tråden midt i foredraget.",
+    "german": "Sie verlor mitten im Vortrag den Faden.",
+    "english": "She lost the thread in the middle of the lecture.",
+    "tier": 5
+  },
+  "sentences.hope-dies-last": {
+    "danish": "Håbet dør sidst.",
+    "german": "Die Hoffnung stirbt zuletzt.",
+    "english": "Hope dies last.",
+    "tier": 5
+  },
+  "sentences.no-matter-how-hard-he-tried": {
+    "danish": "Uanset hvor meget han anstrengte sig, lykkedes det ham ikke.",
+    "german": "Egal, wie sehr er sich anstrengte, es gelang ihm nicht.",
+    "english": "No matter how hard he tried, he did not succeed.",
+    "tier": 5
+  },
+  "sentences.a-drop-in-the-ocean": {
+    "danish": "Det er en dråbe i havet.",
+    "german": "Das ist ein Tropfen auf den heißen Stein.",
+    "english": "That is a drop in the ocean.",
+    "tier": 5
+  },
+  "sentences.i-am-writing-to-ask-about-the-position": {
+    "danish": "Jeg skriver for at høre, om stillingen stadig er ledig.",
+    "german": "Ich schreibe, um zu erfahren, ob die Stelle noch frei ist.",
+    "english": "I am writing to ask whether the position is still vacant.",
+    "tier": 5
+  },
+  "sentences.the-measures-took-effect": {
+    "danish": "Tiltagene trådte i kraft den første januar.",
+    "german": "Die Maßnahmen traten am ersten Januar in Kraft.",
+    "english": "The measures took effect on the first of January.",
+    "tier": 5
+  },
+  "sentences.beating-about-the-bush": {
+    "danish": "Han talte udenom.",
+    "german": "Er redete um den heißen Brei herum.",
+    "english": "He was beating about the bush.",
+    "tier": 5
+  },
+  "sentences.we-thank-you-for-your-enquiry": {
+    "danish": "Vi takker for Deres henvendelse og sender Dem hermed tilbuddet.",
+    "german": "Wir danken für Ihre Anfrage und übersenden Ihnen anbei das Angebot.",
+    "english": "We thank you for your enquiry and hereby send you the offer.",
+    "tier": 5
+  },
+  "sentences.whatever-happens-count-on-me": {
+    "danish": "Hvad end der sker, kan du regne med mig.",
+    "german": "Was auch immer geschieht, du kannst auf mich zählen.",
+    "english": "Whatever happens, you can count on me.",
+    "tier": 5
+  },
+  "sentences.there-is-no-way-around-it": {
+    "danish": "Der er ingen vej udenom.",
+    "german": "Daran führt kein Weg vorbei.",
+    "english": "There is no way around it.",
+    "tier": 5
+  },
+  "sentences.at-first-glance-the-plan": {
+    "danish": "Ved første øjekast virkede planen overbevisende.",
+    "german": "Auf den ersten Blick wirkte der Plan überzeugend.",
+    "english": "At first glance, the plan seemed convincing.",
+    "tier": 5
+  },
+  "sentences.although-young-much-experience": {
+    "danish": "Skønt han er ung, besidder han stor erfaring.",
+    "german": "Obwohl er jung ist, besitzt er große Erfahrung.",
+    "english": "Although he is young, he possesses great experience.",
+    "tier": 5
+  },
+  "sentences.we-need-a-swift-clarification": {
+    "danish": "Vi har brug for en hurtig afklaring af situationen.",
+    "german": "Wir benötigen eine rasche Klärung der Situation.",
+    "english": "We need a swift clarification of the situation.",
+    "tier": 5
+  },
+  "sentences.the-government-decided-despite-resistance": {
+    "danish": "Regeringen har besluttet at gennemføre reformen trods modstand.",
+    "german": "Die Regierung hat beschlossen, die Reform trotz des Widerstands durchzuführen.",
+    "english": "The government has decided to carry out the reform despite resistance.",
+    "tier": 5
+  },
+  "sentences.she-got-off-lightly": {
+    "danish": "Hun slap med skrækken.",
+    "german": "Sie ist mit einem blauen Auge davongekommen.",
+    "english": "She got off lightly.",
+    "tier": 5
+  },
+  "sentences.if-i-may-have-your-attention": {
+    "danish": "Hvis jeg må bede om Deres opmærksomhed.",
+    "german": "Wenn ich um Ihre Aufmerksamkeit bitten dürfte.",
+    "english": "If I may ask for your attention.",
+    "tier": 5
+  },
+  "sentences.it-is-up-to-you-how-to-solve-it": {
+    "danish": "Det er op til dig, hvordan du løser problemet.",
+    "german": "Es liegt an dir, wie du das Problem löst.",
+    "english": "It is up to you how you solve the problem.",
+    "tier": 5
+  }
+}

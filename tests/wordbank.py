@@ -27,3 +27,14 @@ def load_wordbank() -> dict[str, Any]:
         "grammar": read_json(WORDBANK_DIR / word_index["grammar"]),
         "words": words,
     }
+
+
+def level_word_ids(bank: dict[str, Any], level: dict[str, Any]) -> list[str]:
+    """Mirror the level pool in src/index.html: words in the level's categories and tiers."""
+    tiers = level.get("tiers")
+    return [
+        word_id
+        for word_id, word in bank["words"].items()
+        if word_id.split(".")[0] in level["categories"]
+        and (tiers is None or word["tier"] in tiers)
+    ]

@@ -2,71 +2,685 @@
   "weather.sunrise": {
     "danish": "solopgang",
     "german": "Sonnenaufgang",
+    "english": "sunrise",
     "gender": "der",
     "danishDefinite": "solopgangen",
-    "danishIndefinite": "en solopgang"
+    "danishIndefinite": "en solopgang",
+    "tier": 3
   },
   "weather.sunset": {
     "danish": "solnedgang",
     "german": "Sonnenuntergang",
+    "english": "sunset",
     "gender": "der",
     "danishDefinite": "solnedgangen",
-    "danishIndefinite": "en solnedgang"
+    "danishIndefinite": "en solnedgang",
+    "tier": 3
   },
   "weather.fog": {
     "danish": "tåge",
     "german": "Nebel",
+    "english": "fog",
     "gender": "der",
     "danishDefinite": "tågen",
-    "danishIndefinite": "en tåge"
+    "danishIndefinite": "en tåge",
+    "tier": 2
   },
   "weather.storm": {
     "danish": "storm",
     "german": "Sturm",
+    "english": "storm",
     "gender": "der",
     "danishDefinite": "stormen",
-    "danishIndefinite": "en storm"
+    "danishIndefinite": "en storm",
+    "tier": 2
   },
   "weather.thunder": {
     "danish": "torden",
     "german": "Donner",
+    "english": "thunder",
     "gender": "der",
     "danishDefinite": "tordenen",
-    "danishIndefinite": "en torden"
+    "danishIndefinite": "en torden",
+    "tier": 3
   },
   "weather.lightning": {
     "danish": "lyn",
     "german": "Blitz",
+    "english": "lightning",
     "gender": "der",
     "danishDefinite": "lynet",
-    "danishIndefinite": "et lyn"
+    "danishIndefinite": "et lyn",
+    "tier": 3
   },
   "weather.winter": {
     "danish": "vinter",
     "german": "Winter",
+    "english": "winter",
     "gender": "der",
     "danishDefinite": "vinteren",
-    "danishIndefinite": "en vinter"
+    "danishIndefinite": "en vinter",
+    "tier": 1
   },
   "weather.spring": {
     "danish": "forår",
     "german": "Frühling",
+    "english": "spring",
     "gender": "der",
     "danishDefinite": "foråret",
-    "danishIndefinite": "et forår"
+    "danishIndefinite": "et forår",
+    "tier": 1
   },
   "weather.summer": {
     "danish": "sommer",
     "german": "Sommer",
+    "english": "summer",
     "gender": "der",
     "danishDefinite": "sommeren",
-    "danishIndefinite": "en sommer"
+    "danishIndefinite": "en sommer",
+    "tier": 1
   },
   "weather.autumn": {
     "danish": "efterår",
     "german": "Herbst",
+    "english": "autumn",
     "gender": "der",
     "danishDefinite": "efteråret",
-    "danishIndefinite": "et efterår"
+    "danishIndefinite": "et efterår",
+    "tier": 2
+  },
+  "weather.weather": {
+    "danish": "vejr",
+    "german": "Wetter",
+    "english": "weather",
+    "gender": "das",
+    "danishDefinite": "vejret",
+    "danishIndefinite": "et vejr",
+    "tier": 1
+  },
+  "weather.sun": {
+    "danish": "sol",
+    "german": "Sonne",
+    "english": "sun",
+    "gender": "die",
+    "danishDefinite": "solen",
+    "danishIndefinite": "en sol",
+    "tier": 1
+  },
+  "weather.cloud": {
+    "danish": "sky",
+    "german": "Wolke",
+    "english": "cloud",
+    "gender": "die",
+    "danishDefinite": "skyen",
+    "danishIndefinite": "en sky",
+    "tier": 1
+  },
+  "weather.rain": {
+    "danish": "regn",
+    "german": "Regen",
+    "english": "rain",
+    "gender": "der",
+    "danishDefinite": "regnen",
+    "danishIndefinite": "en regn",
+    "tier": 1
+  },
+  "weather.snow": {
+    "danish": "sne",
+    "german": "Schnee",
+    "english": "snow",
+    "gender": "der",
+    "danishDefinite": "sneen",
+    "danishIndefinite": "en sne",
+    "tier": 1
+  },
+  "weather.wind": {
+    "danish": "vind",
+    "german": "Wind",
+    "english": "wind",
+    "gender": "der",
+    "danishDefinite": "vinden",
+    "danishIndefinite": "en vind",
+    "tier": 1
+  },
+  "weather.temperature": {
+    "danish": "temperatur",
+    "german": "Temperatur",
+    "english": "temperature",
+    "gender": "die",
+    "danishDefinite": "temperaturen",
+    "danishIndefinite": "en temperatur",
+    "tier": 1
+  },
+  "weather.season": {
+    "danish": "årstid",
+    "german": "Jahreszeit",
+    "english": "season",
+    "gender": "die",
+    "danishDefinite": "årstiden",
+    "danishIndefinite": "en årstid",
+    "tier": 2
+  },
+  "weather.weather-forecast": {
+    "danish": "vejrudsigt",
+    "german": "Wettervorhersage",
+    "english": "weather forecast",
+    "gender": "die",
+    "danishDefinite": "vejrudsigten",
+    "danishIndefinite": "en vejrudsigt",
+    "tier": 3
+  },
+  "weather.thunderstorm": {
+    "danish": "tordenvejr",
+    "german": "Gewitter",
+    "english": "thunderstorm",
+    "gender": "das",
+    "danishDefinite": "tordenvejret",
+    "danishIndefinite": "et tordenvejr",
+    "tier": 2
+  },
+  "weather.rainbow": {
+    "danish": "regnbue",
+    "german": "Regenbogen",
+    "english": "rainbow",
+    "gender": "der",
+    "danishDefinite": "regnbuen",
+    "danishIndefinite": "en regnbue",
+    "tier": 3
+  },
+  "weather.rain-shower": {
+    "danish": "regnbyge",
+    "german": "Regenschauer",
+    "english": "rain shower",
+    "gender": "der",
+    "danishDefinite": "regnbygen",
+    "danishIndefinite": "en regnbyge",
+    "tier": 4
+  },
+  "weather.gust-of-wind": {
+    "danish": "vindstød",
+    "german": "Böe",
+    "english": "gust of wind",
+    "gender": "die",
+    "danishDefinite": "vindstødet",
+    "danishIndefinite": "et vindstød",
+    "tier": 5
+  },
+  "weather.breeze": {
+    "danish": "brise",
+    "german": "Brise",
+    "english": "breeze",
+    "gender": "die",
+    "danishDefinite": "brisen",
+    "danishIndefinite": "en brise",
+    "tier": 4
+  },
+  "weather.severe-weather": {
+    "danish": "uvejr",
+    "german": "Unwetter",
+    "english": "severe weather",
+    "gender": "das",
+    "danishDefinite": "uvejret",
+    "danishIndefinite": "et uvejr",
+    "tier": 4
+  },
+  "weather.hurricane": {
+    "danish": "orkan",
+    "german": "Orkan",
+    "english": "hurricane",
+    "gender": "der",
+    "danishDefinite": "orkanen",
+    "danishIndefinite": "en orkan",
+    "tier": 4
+  },
+  "weather.tornado": {
+    "danish": "tornado",
+    "german": "Tornado",
+    "english": "tornado",
+    "gender": "der",
+    "danishDefinite": "tornadoen",
+    "danishIndefinite": "en tornado",
+    "tier": 4
+  },
+  "weather.monsoon": {
+    "danish": "monsun",
+    "german": "Monsun",
+    "english": "monsoon",
+    "gender": "der",
+    "danishDefinite": "monsunen",
+    "danishIndefinite": "en monsun",
+    "tier": 5
+  },
+  "weather.cloudburst": {
+    "danish": "skybrud",
+    "german": "Wolkenbruch",
+    "english": "cloudburst",
+    "gender": "der",
+    "danishDefinite": "skybruddet",
+    "danishIndefinite": "et skybrud",
+    "tier": 5
+  },
+  "weather.heatwave": {
+    "danish": "hedebølge",
+    "german": "Hitzewelle",
+    "english": "heatwave",
+    "gender": "die",
+    "danishDefinite": "hedebølgen",
+    "danishIndefinite": "en hedebølge",
+    "tier": 4
+  },
+  "weather.cold-spell": {
+    "danish": "kuldebølge",
+    "german": "Kältewelle",
+    "english": "cold spell",
+    "gender": "die",
+    "danishDefinite": "kuldebølgen",
+    "danishIndefinite": "en kuldebølge",
+    "tier": 5
+  },
+  "weather.frost": {
+    "danish": "frost",
+    "german": "Frost",
+    "english": "frost",
+    "gender": "der",
+    "danishDefinite": "frosten",
+    "danishIndefinite": "en frost",
+    "tier": 3
+  },
+  "weather.hoar-frost": {
+    "danish": "rimfrost",
+    "german": "Raureif",
+    "english": "hoar frost",
+    "gender": "der",
+    "danishDefinite": "rimfrosten",
+    "danishIndefinite": "en rimfrost",
+    "tier": 5
+  },
+  "weather.hailstorm": {
+    "danish": "haglbyge",
+    "german": "Hagelschauer",
+    "english": "hailstorm",
+    "gender": "der",
+    "danishDefinite": "haglbygen",
+    "danishIndefinite": "en haglbyge",
+    "tier": 5
+  },
+  "weather.raindrop": {
+    "danish": "regndråbe",
+    "german": "Regentropfen",
+    "english": "raindrop",
+    "gender": "der",
+    "danishDefinite": "regndråben",
+    "danishIndefinite": "en regndråbe",
+    "tier": 4
+  },
+  "weather.snowflake": {
+    "danish": "snefnug",
+    "german": "Schneeflocke",
+    "english": "snowflake",
+    "gender": "die",
+    "danishDefinite": "snefnugget",
+    "danishIndefinite": "et snefnug",
+    "tier": 3
+  },
+  "weather.snowman": {
+    "danish": "snemand",
+    "german": "Schneemann",
+    "english": "snowman",
+    "gender": "der",
+    "danishDefinite": "snemanden",
+    "danishIndefinite": "en snemand",
+    "tier": 2
+  },
+  "weather.snowball": {
+    "danish": "snebold",
+    "german": "Schneeball",
+    "english": "snowball",
+    "gender": "der",
+    "danishDefinite": "snebolden",
+    "danishIndefinite": "en snebold",
+    "tier": 4
+  },
+  "weather.snowfall": {
+    "danish": "snefald",
+    "german": "Schneefall",
+    "english": "snowfall",
+    "gender": "der",
+    "danishDefinite": "snefaldet",
+    "danishIndefinite": "et snefald",
+    "tier": 4
+  },
+  "weather.snowstorm": {
+    "danish": "snestorm",
+    "german": "Schneesturm",
+    "english": "snowstorm",
+    "gender": "der",
+    "danishDefinite": "snestormen",
+    "danishIndefinite": "en snestorm",
+    "tier": 4
+  },
+  "weather.dew": {
+    "danish": "dug",
+    "german": "Tau",
+    "english": "dew",
+    "gender": "der",
+    "danishDefinite": "duggen",
+    "danishIndefinite": "en dug",
+    "tier": 5
+  },
+  "weather.haze": {
+    "danish": "dis",
+    "german": "Dunst",
+    "english": "haze",
+    "gender": "der",
+    "danishDefinite": "disen",
+    "danishIndefinite": "en dis",
+    "tier": 5
+  },
+  "weather.humidity": {
+    "danish": "fugtighed",
+    "german": "Feuchtigkeit",
+    "english": "humidity",
+    "gender": "die",
+    "danishDefinite": "fugtigheden",
+    "danishIndefinite": "en fugtighed",
+    "tier": 4
+  },
+  "weather.degree": {
+    "danish": "grad",
+    "german": "Grad",
+    "english": "degree",
+    "gender": "der",
+    "danishDefinite": "graden",
+    "danishIndefinite": "en grad",
+    "tier": 2
+  },
+  "weather.climate": {
+    "danish": "klima",
+    "german": "Klima",
+    "english": "climate",
+    "gender": "das",
+    "danishDefinite": "klimaet",
+    "danishIndefinite": "et klima",
+    "tier": 3
+  },
+  "weather.climate-change": {
+    "danish": "klimaforandring",
+    "german": "Klimawandel",
+    "english": "climate change",
+    "gender": "der",
+    "danishDefinite": "klimaforandringen",
+    "danishIndefinite": "en klimaforandring",
+    "tier": 3
+  },
+  "weather.global-warming": {
+    "danish": "global opvarmning",
+    "german": "Erderwärmung",
+    "english": "global warming",
+    "gender": "die",
+    "danishDefinite": "den globale opvarmning",
+    "danishIndefinite": "en global opvarmning",
+    "tier": 4
+  },
+  "weather.greenhouse-effect": {
+    "danish": "drivhuseffekt",
+    "german": "Treibhauseffekt",
+    "english": "greenhouse effect",
+    "gender": "der",
+    "danishDefinite": "drivhuseffekten",
+    "danishIndefinite": "en drivhuseffekt",
+    "tier": 5
+  },
+  "weather.drought": {
+    "danish": "tørke",
+    "german": "Dürre",
+    "english": "drought",
+    "gender": "die",
+    "danishDefinite": "tørken",
+    "danishIndefinite": "en tørke",
+    "tier": 5
+  },
+  "weather.flood": {
+    "danish": "oversvømmelse",
+    "german": "Überschwemmung",
+    "english": "flood",
+    "gender": "die",
+    "danishDefinite": "oversvømmelsen",
+    "danishIndefinite": "en oversvømmelse",
+    "tier": 4
+  },
+  "weather.air-pressure": {
+    "danish": "lufttryk",
+    "german": "Luftdruck",
+    "english": "air pressure",
+    "gender": "der",
+    "danishDefinite": "lufttrykket",
+    "danishIndefinite": "et lufttryk",
+    "tier": 5
+  },
+  "weather.high-pressure-area": {
+    "danish": "højtryk",
+    "german": "Hochdruckgebiet",
+    "english": "high-pressure area",
+    "gender": "das",
+    "danishDefinite": "højtrykket",
+    "danishIndefinite": "et højtryk",
+    "tier": 5
+  },
+  "weather.low-pressure-area": {
+    "danish": "lavtryk",
+    "german": "Tiefdruckgebiet",
+    "english": "low-pressure area",
+    "gender": "das",
+    "danishDefinite": "lavtrykket",
+    "danishIndefinite": "et lavtryk",
+    "tier": 5
+  },
+  "weather.sunbeam": {
+    "danish": "solstråle",
+    "german": "Sonnenstrahl",
+    "english": "sunbeam",
+    "gender": "der",
+    "danishDefinite": "solstrålen",
+    "danishIndefinite": "en solstråle",
+    "tier": 4
+  },
+  "weather.shade": {
+    "danish": "skygge",
+    "german": "Schatten",
+    "english": "shade",
+    "gender": "der",
+    "danishDefinite": "skyggen",
+    "danishIndefinite": "en skygge",
+    "tier": 3
+  },
+  "weather.sunburn": {
+    "danish": "solbrand",
+    "german": "Sonnenbrand",
+    "english": "sunburn",
+    "gender": "der",
+    "danishDefinite": "solbranden",
+    "danishIndefinite": "en solbrand",
+    "tier": 4
+  },
+  "weather.sunscreen": {
+    "danish": "solcreme",
+    "german": "Sonnencreme",
+    "english": "sunscreen",
+    "gender": "die",
+    "danishDefinite": "solcremen",
+    "danishIndefinite": "en solcreme",
+    "tier": 2
+  },
+  "weather.umbrella": {
+    "danish": "paraply",
+    "german": "Regenschirm",
+    "english": "umbrella",
+    "gender": "der",
+    "danishDefinite": "paraplyen",
+    "danishIndefinite": "en paraply",
+    "tier": 2
+  },
+  "weather.raincoat": {
+    "danish": "regnfrakke",
+    "german": "Regenmantel",
+    "english": "raincoat",
+    "gender": "der",
+    "danishDefinite": "regnfrakken",
+    "danishIndefinite": "en regnfrakke",
+    "tier": 2
+  },
+  "weather.solstice": {
+    "danish": "solhverv",
+    "german": "Sonnenwende",
+    "english": "solstice",
+    "gender": "die",
+    "danishDefinite": "solhvervet",
+    "danishIndefinite": "et solhverv",
+    "tier": 5
+  },
+  "weather.solar-eclipse": {
+    "danish": "solformørkelse",
+    "german": "Sonnenfinsternis",
+    "english": "solar eclipse",
+    "gender": "die",
+    "danishDefinite": "solformørkelsen",
+    "danishIndefinite": "en solformørkelse",
+    "tier": 5
+  },
+  "weather.lunar-eclipse": {
+    "danish": "måneformørkelse",
+    "german": "Mondfinsternis",
+    "english": "lunar eclipse",
+    "gender": "die",
+    "danishDefinite": "måneformørkelsen",
+    "danishIndefinite": "en måneformørkelse",
+    "tier": 5
+  },
+  "weather.cloudy": {
+    "danish": "skyet",
+    "german": "bewölkt",
+    "english": "cloudy",
+    "tier": 2
+  },
+  "weather.overcast": {
+    "danish": "overskyet",
+    "german": "bedeckt",
+    "english": "overcast",
+    "tier": 4
+  },
+  "weather.windy": {
+    "danish": "blæsende",
+    "german": "windig",
+    "english": "windy",
+    "tier": 2
+  },
+  "weather.foggy": {
+    "danish": "tåget",
+    "german": "neblig",
+    "english": "foggy",
+    "tier": 2
+  },
+  "weather.stormy": {
+    "danish": "stormfuld",
+    "german": "stürmisch",
+    "english": "stormy",
+    "tier": 4
+  },
+  "weather.damp": {
+    "danish": "fugtig",
+    "german": "feucht",
+    "english": "damp",
+    "tier": 3
+  },
+  "weather.mild": {
+    "danish": "mild",
+    "german": "mild",
+    "english": "mild",
+    "tier": 3
+  },
+  "weather.icy": {
+    "danish": "isnende",
+    "german": "eisig",
+    "english": "icy",
+    "tier": 4
+  },
+  "weather.muggy": {
+    "danish": "lummer",
+    "german": "schwül",
+    "english": "muggy",
+    "tier": 5
+  },
+  "weather.to-rain": {
+    "danish": "at regne",
+    "german": "regnen",
+    "english": "to rain",
+    "tier": 1
+  },
+  "weather.to-snow": {
+    "danish": "at sne",
+    "german": "schneien",
+    "english": "to snow",
+    "tier": 1
+  },
+  "weather.to-shine": {
+    "danish": "at skinne",
+    "german": "scheinen",
+    "english": "to shine",
+    "tier": 2
+  },
+  "weather.to-freeze": {
+    "danish": "at fryse",
+    "german": "frieren",
+    "english": "to freeze",
+    "tier": 2
+  },
+  "weather.to-melt": {
+    "danish": "at smelte",
+    "german": "schmelzen",
+    "english": "to melt",
+    "tier": 3
+  },
+  "weather.to-thaw": {
+    "danish": "at tø",
+    "german": "tauen",
+    "english": "to thaw",
+    "tier": 5
+  },
+  "weather.to-thunder": {
+    "danish": "at tordne",
+    "german": "donnern",
+    "english": "to thunder",
+    "tier": 4
+  },
+  "weather.to-flash-with-lightning": {
+    "danish": "at lyne",
+    "german": "blitzen",
+    "english": "to flash with lightning",
+    "tier": 4
+  },
+  "weather.to-hail": {
+    "danish": "at hagle",
+    "german": "hageln",
+    "english": "to hail",
+    "tier": 5
+  },
+  "weather.to-drizzle": {
+    "danish": "at småregne",
+    "german": "nieseln",
+    "english": "to drizzle",
+    "tier": 5
+  },
+  "weather.to-evaporate": {
+    "danish": "at fordampe",
+    "german": "verdunsten",
+    "english": "to evaporate",
+    "tier": 5
+  },
+  "weather.to-dry": {
+    "danish": "at tørre",
+    "german": "trocknen",
+    "english": "to dry",
+    "tier": 3
   }
 }

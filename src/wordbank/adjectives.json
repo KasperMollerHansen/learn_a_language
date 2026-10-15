@@ -2,211 +2,1819 @@
   "adjectives.happy": {
     "danish": "glad",
     "german": "glücklich",
-    "gender": "der",
-    "danishDefinite": "glad",
-    "danishIndefinite": "glad"
+    "english": "happy",
+    "tier": 1
   },
   "adjectives.sad": {
     "danish": "ked af det",
     "german": "traurig",
-    "gender": "der",
-    "danishDefinite": "traurig",
-    "danishIndefinite": "traurig"
+    "english": "sad",
+    "tier": 2
   },
   "adjectives.big": {
     "danish": "stor",
     "german": "groß",
-    "gender": "der",
-    "danishDefinite": "stor",
-    "danishIndefinite": "stor"
+    "english": "big",
+    "tier": 1
   },
   "adjectives.small": {
     "danish": "lille",
     "german": "klein",
-    "gender": "der",
-    "danishDefinite": "lille",
-    "danishIndefinite": "lille"
+    "english": "small",
+    "tier": 1
   },
   "adjectives.new": {
     "danish": "ny",
     "german": "neu",
-    "gender": "der",
-    "danishDefinite": "ny",
-    "danishIndefinite": "ny"
+    "english": "new",
+    "tier": 1
   },
   "adjectives.old": {
     "danish": "gammel",
     "german": "alt",
-    "gender": "der",
-    "danishDefinite": "gammel",
-    "danishIndefinite": "gammel"
+    "english": "old",
+    "tier": 1
   },
   "adjectives.fast": {
     "danish": "hurtig",
     "german": "schnell",
-    "gender": "der",
-    "danishDefinite": "hurtig",
-    "danishIndefinite": "hurtig"
+    "english": "fast",
+    "tier": 1
   },
   "adjectives.slow": {
     "danish": "langsom",
     "german": "langsam",
-    "gender": "der",
-    "danishDefinite": "langsom",
-    "danishIndefinite": "langsom"
+    "english": "slow",
+    "tier": 1
   },
   "adjectives.strong": {
     "danish": "stærk",
     "german": "stark",
-    "gender": "der",
-    "danishDefinite": "stærk",
-    "danishIndefinite": "stærk"
+    "english": "strong",
+    "tier": 2
   },
   "adjectives.weak": {
     "danish": "svag",
     "german": "schwach",
-    "gender": "der",
-    "danishDefinite": "svag",
-    "danishIndefinite": "svag"
+    "english": "weak",
+    "tier": 2
   },
   "adjectives.clean": {
     "danish": "ren",
     "german": "sauber",
-    "gender": "der",
-    "danishDefinite": "ren",
-    "danishIndefinite": "ren"
+    "english": "clean",
+    "tier": 1
   },
   "adjectives.dirty": {
     "danish": "beskidt",
     "german": "schmutzig",
-    "gender": "der",
-    "danishDefinite": "beskidt",
-    "danishIndefinite": "beskidt"
+    "english": "dirty",
+    "tier": 3
   },
   "adjectives.hot": {
-    "danish": "varm",
+    "danish": "hed",
     "german": "heiß",
-    "gender": "der",
-    "danishDefinite": "varm",
-    "danishIndefinite": "varm"
+    "english": "hot",
+    "tier": 1
   },
   "adjectives.cold": {
     "danish": "kold",
     "german": "kalt",
-    "gender": "der",
-    "danishDefinite": "kold",
-    "danishIndefinite": "kold"
+    "english": "cold",
+    "tier": 1
   },
   "adjectives.light": {
     "danish": "let",
     "german": "leicht",
-    "gender": "der",
-    "danishDefinite": "let",
-    "danishIndefinite": "let"
+    "english": "light",
+    "tier": 2
   },
   "adjectives.heavy": {
     "danish": "tung",
     "german": "schwer",
-    "gender": "der",
-    "danishDefinite": "tung",
-    "danishIndefinite": "tung"
+    "english": "heavy",
+    "tier": 2
   },
   "adjectives.quiet": {
     "danish": "stille",
     "german": "ruhig",
-    "gender": "der",
-    "danishDefinite": "stille",
-    "danishIndefinite": "stille"
+    "english": "quiet",
+    "tier": 1
   },
   "adjectives.loud": {
-    "danish": "høj",
+    "danish": "højlydt",
     "german": "laut",
-    "gender": "der",
-    "danishDefinite": "høj",
-    "danishIndefinite": "høj"
+    "english": "loud",
+    "tier": 1
   },
   "adjectives.beautiful": {
     "danish": "smuk",
     "german": "schön",
-    "gender": "der",
-    "danishDefinite": "smuk",
-    "danishIndefinite": "smuk"
+    "english": "beautiful",
+    "tier": 2
   },
   "adjectives.ugly": {
     "danish": "grim",
     "german": "hässlich",
-    "gender": "der",
-    "danishDefinite": "grim",
-    "danishIndefinite": "grim"
+    "english": "ugly",
+    "tier": 3
   },
   "adjectives.smart": {
-    "danish": "smart",
+    "danish": "klog",
     "german": "klug",
-    "gender": "der",
-    "danishDefinite": "smart",
-    "danishIndefinite": "smart"
+    "english": "smart",
+    "tier": 3
   },
   "adjectives.tall": {
     "danish": "høj",
-    "german": "groß",
-    "gender": "der",
-    "danishDefinite": "høj",
-    "danishIndefinite": "høj"
+    "german": "hoch",
+    "english": "high",
+    "tier": 2
   },
   "adjectives.short": {
     "danish": "kort",
     "german": "kurz",
-    "gender": "der",
-    "danishDefinite": "kort",
-    "danishIndefinite": "kort"
+    "english": "short",
+    "tier": 2
   },
   "adjectives.young": {
     "danish": "ung",
     "german": "jung",
-    "gender": "der",
-    "danishDefinite": "ung",
-    "danishIndefinite": "ung"
+    "english": "young",
+    "tier": 1
   },
   "adjectives.good": {
     "danish": "god",
     "german": "gut",
-    "gender": "der",
-    "danishDefinite": "god",
-    "danishIndefinite": "god"
+    "english": "good",
+    "tier": 1
   },
   "adjectives.bad": {
     "danish": "dårlig",
     "german": "schlecht",
-    "gender": "der",
-    "danishDefinite": "dårlig",
-    "danishIndefinite": "dårlig"
+    "english": "bad",
+    "tier": 1
   },
   "adjectives.easy": {
-    "danish": "let",
+    "danish": "nem",
     "german": "einfach",
-    "gender": "der",
-    "danishDefinite": "let",
-    "danishIndefinite": "let"
+    "english": "easy",
+    "tier": 1
   },
   "adjectives.difficult": {
     "danish": "svær",
     "german": "schwierig",
-    "gender": "der",
-    "danishDefinite": "svær",
-    "danishIndefinite": "svær"
+    "english": "difficult",
+    "tier": 3
   },
   "adjectives.expensive": {
     "danish": "dyr",
     "german": "teuer",
-    "gender": "der",
-    "danishDefinite": "dyr",
-    "danishIndefinite": "dyr"
+    "english": "expensive",
+    "tier": 2
   },
   "adjectives.cheap": {
     "danish": "billig",
     "german": "billig",
-    "gender": "der",
-    "danishDefinite": "billig",
-    "danishIndefinite": "billig"
+    "english": "cheap",
+    "tier": 2
+  },
+  "adjectives.warm": {
+    "danish": "varm",
+    "german": "warm",
+    "english": "warm",
+    "tier": 1
+  },
+  "adjectives.cool": {
+    "danish": "kølig",
+    "german": "kühl",
+    "english": "cool",
+    "tier": 2
+  },
+  "adjectives.tired": {
+    "danish": "træt",
+    "german": "müde",
+    "english": "tired",
+    "tier": 1
+  },
+  "adjectives.awake": {
+    "danish": "vågen",
+    "german": "wach",
+    "english": "awake",
+    "tier": 3
+  },
+  "adjectives.hungry": {
+    "danish": "sulten",
+    "german": "hungrig",
+    "english": "hungry",
+    "tier": 1
+  },
+  "adjectives.thirsty": {
+    "danish": "tørstig",
+    "german": "durstig",
+    "english": "thirsty",
+    "tier": 1
+  },
+  "adjectives.full-of-food": {
+    "danish": "mæt",
+    "german": "satt",
+    "english": "full (of food)",
+    "tier": 2
+  },
+  "adjectives.sick": {
+    "danish": "syg",
+    "german": "krank",
+    "english": "sick",
+    "tier": 1
+  },
+  "adjectives.healthy": {
+    "danish": "sund",
+    "german": "gesund",
+    "english": "healthy",
+    "tier": 1
+  },
+  "adjectives.full": {
+    "danish": "fuld",
+    "german": "voll",
+    "english": "full",
+    "tier": 1
+  },
+  "adjectives.empty": {
+    "danish": "tom",
+    "german": "leer",
+    "english": "empty",
+    "tier": 1
+  },
+  "adjectives.open": {
+    "danish": "åben",
+    "german": "offen",
+    "english": "open",
+    "tier": 1
+  },
+  "adjectives.closed": {
+    "danish": "lukket",
+    "german": "geschlossen",
+    "english": "closed",
+    "tier": 1
+  },
+  "adjectives.right": {
+    "danish": "rigtig",
+    "german": "richtig",
+    "english": "right",
+    "tier": 1
+  },
+  "adjectives.wrong": {
+    "danish": "forkert",
+    "german": "falsch",
+    "english": "wrong",
+    "tier": 1
+  },
+  "adjectives.true": {
+    "danish": "sand",
+    "german": "wahr",
+    "english": "true",
+    "tier": 2
+  },
+  "adjectives.free": {
+    "danish": "fri",
+    "german": "frei",
+    "english": "free",
+    "tier": 1
+  },
+  "adjectives.occupied": {
+    "danish": "optaget",
+    "german": "besetzt",
+    "english": "occupied",
+    "tier": 2
+  },
+  "adjectives.wide": {
+    "danish": "bred",
+    "german": "breit",
+    "english": "wide",
+    "tier": 3
+  },
+  "adjectives.narrow": {
+    "danish": "smal",
+    "german": "schmal",
+    "english": "narrow",
+    "tier": 3
+  },
+  "adjectives.thick": {
+    "danish": "tyk",
+    "german": "dick",
+    "english": "thick",
+    "tier": 2
+  },
+  "adjectives.thin": {
+    "danish": "tynd",
+    "german": "dünn",
+    "english": "thin",
+    "tier": 2
+  },
+  "adjectives.long": {
+    "danish": "lang",
+    "german": "lang",
+    "english": "long",
+    "tier": 1
+  },
+  "adjectives.deep": {
+    "danish": "dyb",
+    "german": "tief",
+    "english": "deep",
+    "tier": 3
+  },
+  "adjectives.flat": {
+    "danish": "flad",
+    "german": "flach",
+    "english": "flat",
+    "tier": 3
+  },
+  "adjectives.bright": {
+    "danish": "lys",
+    "german": "hell",
+    "english": "bright",
+    "tier": 2
+  },
+  "adjectives.dark": {
+    "danish": "mørk",
+    "german": "dunkel",
+    "english": "dark",
+    "tier": 1
+  },
+  "adjectives.wet": {
+    "danish": "våd",
+    "german": "nass",
+    "english": "wet",
+    "tier": 2
+  },
+  "adjectives.dry": {
+    "danish": "tør",
+    "german": "trocken",
+    "english": "dry",
+    "tier": 2
+  },
+  "adjectives.soft": {
+    "danish": "blød",
+    "german": "weich",
+    "english": "soft",
+    "tier": 3
+  },
+  "adjectives.hard": {
+    "danish": "hård",
+    "german": "hart",
+    "english": "hard",
+    "tier": 3
+  },
+  "adjectives.sharp": {
+    "danish": "skarp",
+    "german": "scharf",
+    "english": "sharp",
+    "tier": 2
+  },
+  "adjectives.blunt": {
+    "danish": "sløv",
+    "german": "stumpf",
+    "english": "blunt",
+    "tier": 4
+  },
+  "adjectives.smooth": {
+    "danish": "glat",
+    "german": "glatt",
+    "english": "smooth",
+    "tier": 4
+  },
+  "adjectives.rough": {
+    "danish": "ru",
+    "german": "rau",
+    "english": "rough",
+    "tier": 4
+  },
+  "adjectives.round": {
+    "danish": "rund",
+    "german": "rund",
+    "english": "round",
+    "tier": 2
+  },
+  "adjectives.angular": {
+    "danish": "kantet",
+    "german": "eckig",
+    "english": "angular",
+    "tier": 4
+  },
+  "adjectives.straight": {
+    "danish": "lige",
+    "german": "gerade",
+    "english": "straight",
+    "tier": 2
+  },
+  "adjectives.crooked": {
+    "danish": "krum",
+    "german": "krumm",
+    "english": "crooked",
+    "tier": 4
+  },
+  "adjectives.lopsided": {
+    "danish": "skæv",
+    "german": "schief",
+    "english": "lopsided",
+    "tier": 4
+  },
+  "adjectives.sweet": {
+    "danish": "sød",
+    "german": "süß",
+    "english": "sweet",
+    "tier": 1
+  },
+  "adjectives.sour": {
+    "danish": "sur",
+    "german": "sauer",
+    "english": "sour",
+    "tier": 2
+  },
+  "adjectives.bitter": {
+    "danish": "bitter",
+    "german": "bitter",
+    "english": "bitter",
+    "tier": 3
+  },
+  "adjectives.salty": {
+    "danish": "salt",
+    "german": "salzig",
+    "english": "salty",
+    "tier": 2
+  },
+  "adjectives.delicious": {
+    "danish": "lækker",
+    "german": "lecker",
+    "english": "delicious",
+    "tier": 1
+  },
+  "adjectives.fresh": {
+    "danish": "frisk",
+    "german": "frisch",
+    "english": "fresh",
+    "tier": 2
+  },
+  "adjectives.ripe": {
+    "danish": "moden",
+    "german": "reif",
+    "english": "ripe",
+    "tier": 3
+  },
+  "adjectives.raw": {
+    "danish": "rå",
+    "german": "roh",
+    "english": "raw",
+    "tier": 3
+  },
+  "adjectives.cooked": {
+    "danish": "kogt",
+    "german": "gekocht",
+    "english": "cooked",
+    "tier": 3
+  },
+  "adjectives.greasy": {
+    "danish": "fedtet",
+    "german": "fettig",
+    "english": "greasy",
+    "tier": 3
+  },
+  "adjectives.spicy": {
+    "danish": "krydret",
+    "german": "würzig",
+    "english": "spicy",
+    "tier": 4
+  },
+  "adjectives.friendly": {
+    "danish": "venlig",
+    "german": "freundlich",
+    "english": "friendly",
+    "tier": 1
+  },
+  "adjectives.unfriendly": {
+    "danish": "uvenlig",
+    "german": "unfreundlich",
+    "english": "unfriendly",
+    "tier": 2
+  },
+  "adjectives.nice": {
+    "danish": "flink",
+    "german": "nett",
+    "english": "nice",
+    "tier": 1
+  },
+  "adjectives.polite": {
+    "danish": "høflig",
+    "german": "höflich",
+    "english": "polite",
+    "tier": 3
+  },
+  "adjectives.rude": {
+    "danish": "uhøflig",
+    "german": "unhöflich",
+    "english": "rude",
+    "tier": 3
+  },
+  "adjectives.honest": {
+    "danish": "ærlig",
+    "german": "ehrlich",
+    "english": "honest",
+    "tier": 3
+  },
+  "adjectives.diligent": {
+    "danish": "flittig",
+    "german": "fleißig",
+    "english": "diligent",
+    "tier": 2
+  },
+  "adjectives.lazy": {
+    "danish": "doven",
+    "german": "faul",
+    "english": "lazy",
+    "tier": 2
+  },
+  "adjectives.brave": {
+    "danish": "modig",
+    "german": "mutig",
+    "english": "brave",
+    "tier": 3
+  },
+  "adjectives.fearful": {
+    "danish": "bange",
+    "german": "ängstlich",
+    "english": "fearful",
+    "tier": 3
+  },
+  "adjectives.shy": {
+    "danish": "genert",
+    "german": "schüchtern",
+    "english": "shy",
+    "tier": 3
+  },
+  "adjectives.curious": {
+    "danish": "nysgerrig",
+    "german": "neugierig",
+    "english": "curious",
+    "tier": 3
+  },
+  "adjectives.patient": {
+    "danish": "tålmodig",
+    "german": "geduldig",
+    "english": "patient",
+    "tier": 3
+  },
+  "adjectives.impatient": {
+    "danish": "utålmodig",
+    "german": "ungeduldig",
+    "english": "impatient",
+    "tier": 3
+  },
+  "adjectives.stupid": {
+    "danish": "dum",
+    "german": "dumm",
+    "english": "stupid",
+    "tier": 1
+  },
+  "adjectives.wise": {
+    "danish": "vis",
+    "german": "weise",
+    "english": "wise",
+    "tier": 4
+  },
+  "adjectives.funny": {
+    "danish": "sjov",
+    "german": "lustig",
+    "english": "funny",
+    "tier": 1
+  },
+  "adjectives.witty": {
+    "danish": "vittig",
+    "german": "witzig",
+    "english": "witty",
+    "tier": 3
+  },
+  "adjectives.serious": {
+    "danish": "alvorlig",
+    "german": "ernst",
+    "english": "serious",
+    "tier": 3
+  },
+  "adjectives.angry": {
+    "danish": "vred",
+    "german": "wütend",
+    "english": "angry",
+    "tier": 3
+  },
+  "adjectives.evil": {
+    "danish": "ond",
+    "german": "böse",
+    "english": "evil",
+    "tier": 2
+  },
+  "adjectives.jealous": {
+    "danish": "skinsyg",
+    "german": "eifersüchtig",
+    "english": "jealous",
+    "tier": 3
+  },
+  "adjectives.proud": {
+    "danish": "stolt",
+    "german": "stolz",
+    "english": "proud",
+    "tier": 3
+  },
+  "adjectives.satisfied": {
+    "danish": "tilfreds",
+    "german": "zufrieden",
+    "english": "satisfied",
+    "tier": 2
+  },
+  "adjectives.surprised": {
+    "danish": "overrasket",
+    "german": "überrascht",
+    "english": "surprised",
+    "tier": 3
+  },
+  "adjectives.in-love": {
+    "danish": "forelsket",
+    "german": "verliebt",
+    "english": "in love",
+    "tier": 2
+  },
+  "adjectives.lonely": {
+    "danish": "ensom",
+    "german": "einsam",
+    "english": "lonely",
+    "tier": 3
+  },
+  "adjectives.nervous": {
+    "danish": "nervøs",
+    "german": "nervös",
+    "english": "nervous",
+    "tier": 2
+  },
+  "adjectives.excited": {
+    "danish": "spændt",
+    "german": "aufgeregt",
+    "english": "excited",
+    "tier": 3
+  },
+  "adjectives.relaxed": {
+    "danish": "afslappet",
+    "german": "entspannt",
+    "english": "relaxed",
+    "tier": 3
+  },
+  "adjectives.stressed": {
+    "danish": "stresset",
+    "german": "gestresst",
+    "english": "stressed",
+    "tier": 2
+  },
+  "adjectives.worried": {
+    "danish": "bekymret",
+    "german": "besorgt",
+    "english": "worried",
+    "tier": 3
+  },
+  "adjectives.safe": {
+    "danish": "sikker",
+    "german": "sicher",
+    "english": "safe",
+    "tier": 2
+  },
+  "adjectives.dangerous": {
+    "danish": "farlig",
+    "german": "gefährlich",
+    "english": "dangerous",
+    "tier": 2
+  },
+  "adjectives.cautious": {
+    "danish": "forsigtig",
+    "german": "vorsichtig",
+    "english": "cautious",
+    "tier": 2
+  },
+  "adjectives.important": {
+    "danish": "vigtig",
+    "german": "wichtig",
+    "english": "important",
+    "tier": 1
+  },
+  "adjectives.interesting": {
+    "danish": "interessant",
+    "german": "interessant",
+    "english": "interesting",
+    "tier": 1
+  },
+  "adjectives.boring": {
+    "danish": "kedelig",
+    "german": "langweilig",
+    "english": "boring",
+    "tier": 1
+  },
+  "adjectives.exciting": {
+    "danish": "spændende",
+    "german": "spannend",
+    "english": "exciting",
+    "tier": 2
+  },
+  "adjectives.terrible": {
+    "danish": "forfærdelig",
+    "german": "schrecklich",
+    "english": "terrible",
+    "tier": 2
+  },
+  "adjectives.wonderful": {
+    "danish": "vidunderlig",
+    "german": "wunderbar",
+    "english": "wonderful",
+    "tier": 2
+  },
+  "adjectives.great": {
+    "danish": "fantastisk",
+    "german": "toll",
+    "english": "great",
+    "tier": 1
+  },
+  "adjectives.perfect": {
+    "danish": "perfekt",
+    "german": "perfekt",
+    "english": "perfect",
+    "tier": 2
+  },
+  "adjectives.possible": {
+    "danish": "mulig",
+    "german": "möglich",
+    "english": "possible",
+    "tier": 2
+  },
+  "adjectives.impossible": {
+    "danish": "umulig",
+    "german": "unmöglich",
+    "english": "impossible",
+    "tier": 2
+  },
+  "adjectives.necessary": {
+    "danish": "nødvendig",
+    "german": "nötig",
+    "english": "necessary",
+    "tier": 2
+  },
+  "adjectives.useful": {
+    "danish": "nyttig",
+    "german": "nützlich",
+    "english": "useful",
+    "tier": 3
+  },
+  "adjectives.practical": {
+    "danish": "praktisk",
+    "german": "praktisch",
+    "english": "practical",
+    "tier": 3
+  },
+  "adjectives.normal": {
+    "danish": "normal",
+    "german": "normal",
+    "english": "normal",
+    "tier": 2
+  },
+  "adjectives.strange": {
+    "danish": "mærkelig",
+    "german": "seltsam",
+    "english": "strange",
+    "tier": 3
+  },
+  "adjectives.different": {
+    "danish": "forskellig",
+    "german": "verschieden",
+    "english": "different",
+    "tier": 2
+  },
+  "adjectives.alike": {
+    "danish": "ens",
+    "german": "gleich",
+    "english": "alike",
+    "tier": 2
+  },
+  "adjectives.similar": {
+    "danish": "lignende",
+    "german": "ähnlich",
+    "english": "similar",
+    "tier": 3
+  },
+  "adjectives.whole": {
+    "danish": "hel",
+    "german": "ganz",
+    "english": "whole",
+    "tier": 2
+  },
+  "adjectives.finished": {
+    "danish": "færdig",
+    "german": "fertig",
+    "english": "finished",
+    "tier": 1
+  },
+  "adjectives.ready": {
+    "danish": "parat",
+    "german": "bereit",
+    "english": "ready",
+    "tier": 2
+  },
+  "adjectives.clear": {
+    "danish": "tydelig",
+    "german": "klar",
+    "english": "clear",
+    "tier": 2
+  },
+  "adjectives.firm": {
+    "danish": "fast",
+    "german": "fest",
+    "english": "firm",
+    "tier": 3
+  },
+  "adjectives.loose": {
+    "danish": "løs",
+    "german": "lose",
+    "english": "loose",
+    "tier": 4
+  },
+  "adjectives.broken": {
+    "danish": "ødelagt",
+    "german": "kaputt",
+    "english": "broken",
+    "tier": 1
+  },
+  "adjectives.foreign": {
+    "danish": "fremmed",
+    "german": "fremd",
+    "english": "foreign",
+    "tier": 2
+  },
+  "adjectives.own": {
+    "danish": "egen",
+    "german": "eigen",
+    "english": "own",
+    "tier": 3
+  },
+  "adjectives.private": {
+    "danish": "privat",
+    "german": "privat",
+    "english": "private",
+    "tier": 2
+  },
+  "adjectives.public": {
+    "danish": "offentlig",
+    "german": "öffentlich",
+    "english": "public",
+    "tier": 3
+  },
+  "adjectives.genuine": {
+    "danish": "ægte",
+    "german": "echt",
+    "english": "genuine",
+    "tier": 2
+  },
+  "adjectives.artificial": {
+    "danish": "kunstig",
+    "german": "künstlich",
+    "english": "artificial",
+    "tier": 3
+  },
+  "adjectives.natural": {
+    "danish": "naturlig",
+    "german": "natürlich",
+    "english": "natural",
+    "tier": 2
+  },
+  "adjectives.modern": {
+    "danish": "moderne",
+    "german": "modern",
+    "english": "modern",
+    "tier": 2
+  },
+  "adjectives.old-fashioned": {
+    "danish": "gammeldags",
+    "german": "altmodisch",
+    "english": "old-fashioned",
+    "tier": 3
+  },
+  "adjectives.pretty": {
+    "danish": "køn",
+    "german": "hübsch",
+    "english": "pretty",
+    "tier": 2
+  },
+  "adjectives.elegant": {
+    "danish": "elegant",
+    "german": "elegant",
+    "english": "elegant",
+    "tier": 3
+  },
+  "adjectives.comfortable": {
+    "danish": "behagelig",
+    "german": "bequem",
+    "english": "comfortable",
+    "tier": 2
+  },
+  "adjectives.cosy": {
+    "danish": "hyggelig",
+    "german": "gemütlich",
+    "english": "cosy",
+    "tier": 2
+  },
+  "adjectives.uncomfortable": {
+    "danish": "ubekvem",
+    "german": "unbequem",
+    "english": "uncomfortable",
+    "tier": 3
+  },
+  "adjectives.rich": {
+    "danish": "rig",
+    "german": "reich",
+    "english": "rich",
+    "tier": 2
+  },
+  "adjectives.poor": {
+    "danish": "fattig",
+    "german": "arm",
+    "english": "poor",
+    "tier": 2
+  },
+  "adjectives.free-of-charge": {
+    "danish": "gratis",
+    "german": "kostenlos",
+    "english": "free of charge",
+    "tier": 2
+  },
+  "adjectives.valuable": {
+    "danish": "værdifuld",
+    "german": "wertvoll",
+    "english": "valuable",
+    "tier": 3
+  },
+  "adjectives.sunny": {
+    "danish": "solrig",
+    "german": "sonnig",
+    "english": "sunny",
+    "tier": 1
+  },
+  "adjectives.cloudy": {
+    "danish": "skyet",
+    "german": "wolkig",
+    "english": "cloudy",
+    "tier": 2
+  },
+  "adjectives.huge": {
+    "danish": "kæmpestor",
+    "german": "riesig",
+    "english": "huge",
+    "tier": 3
+  },
+  "adjectives.tiny": {
+    "danish": "lillebitte",
+    "german": "winzig",
+    "english": "tiny",
+    "tier": 3
+  },
+  "adjectives.enormous": {
+    "danish": "enorm",
+    "german": "enorm",
+    "english": "enormous",
+    "tier": 4
+  },
+  "adjectives.low": {
+    "danish": "lav",
+    "german": "niedrig",
+    "english": "low",
+    "tier": 3
+  },
+  "adjectives.near": {
+    "danish": "nær",
+    "german": "nah",
+    "english": "near",
+    "tier": 2
+  },
+  "adjectives.distant": {
+    "danish": "fjern",
+    "german": "fern",
+    "english": "distant",
+    "tier": 3
+  },
+  "adjectives.last": {
+    "danish": "sidste",
+    "german": "letzte",
+    "english": "last",
+    "tier": 1
+  },
+  "adjectives.next": {
+    "danish": "næste",
+    "german": "nächste",
+    "english": "next",
+    "tier": 1
+  },
+  "adjectives.early": {
+    "danish": "tidlig",
+    "german": "früh",
+    "english": "early",
+    "tier": 1
+  },
+  "adjectives.late": {
+    "danish": "sen",
+    "german": "spät",
+    "english": "late",
+    "tier": 1
+  },
+  "adjectives.alone": {
+    "danish": "alene",
+    "german": "allein",
+    "english": "alone",
+    "tier": 1
+  },
+  "adjectives.shared": {
+    "danish": "fælles",
+    "german": "gemeinsam",
+    "english": "shared",
+    "tier": 3
+  },
+  "adjectives.dead": {
+    "danish": "død",
+    "german": "tot",
+    "english": "dead",
+    "tier": 2
+  },
+  "adjectives.alive": {
+    "danish": "levende",
+    "german": "lebendig",
+    "english": "alive",
+    "tier": 3
+  },
+  "adjectives.pregnant": {
+    "danish": "gravid",
+    "german": "schwanger",
+    "english": "pregnant",
+    "tier": 3
+  },
+  "adjectives.naked": {
+    "danish": "nøgen",
+    "german": "nackt",
+    "english": "naked",
+    "tier": 3
+  },
+  "adjectives.blind": {
+    "danish": "blind",
+    "german": "blind",
+    "english": "blind",
+    "tier": 3
+  },
+  "adjectives.deaf": {
+    "danish": "døv",
+    "german": "taub",
+    "english": "deaf",
+    "tier": 4
+  },
+  "adjectives.mute": {
+    "danish": "stum",
+    "german": "stumm",
+    "english": "mute",
+    "tier": 4
+  },
+  "adjectives.logical": {
+    "danish": "logisk",
+    "german": "logisch",
+    "english": "logical",
+    "tier": 3
+  },
+  "adjectives.golden": {
+    "danish": "gylden",
+    "german": "golden",
+    "english": "golden",
+    "tier": 4
+  },
+  "adjectives.proper": {
+    "danish": "ordentlig",
+    "german": "ordentlich",
+    "english": "proper",
+    "tier": 3
+  },
+  "adjectives.exact": {
+    "danish": "nøjagtig",
+    "german": "genau",
+    "english": "exact",
+    "tier": 2
+  },
+  "adjectives.unique": {
+    "danish": "enestående",
+    "german": "einzigartig",
+    "english": "unique",
+    "tier": 4
+  },
+  "adjectives.typical": {
+    "danish": "typisk",
+    "german": "typisch",
+    "english": "typical",
+    "tier": 3
+  },
+  "adjectives.general": {
+    "danish": "generel",
+    "german": "allgemein",
+    "english": "general",
+    "tier": 3
+  },
+  "adjectives.special": {
+    "danish": "speciel",
+    "german": "speziell",
+    "english": "special",
+    "tier": 3
+  },
+  "adjectives.only": {
+    "danish": "eneste",
+    "german": "einzig",
+    "english": "only",
+    "tier": 3
+  },
+  "adjectives.political": {
+    "danish": "politisk",
+    "german": "politisch",
+    "english": "political",
+    "tier": 3
+  },
+  "adjectives.social": {
+    "danish": "social",
+    "german": "sozial",
+    "english": "social",
+    "tier": 3
+  },
+  "adjectives.international": {
+    "danish": "international",
+    "german": "international",
+    "english": "international",
+    "tier": 3
+  },
+  "adjectives.national": {
+    "danish": "national",
+    "german": "national",
+    "english": "national",
+    "tier": 3
+  },
+  "adjectives.well-behaved": {
+    "danish": "artig",
+    "german": "brav",
+    "english": "well-behaved",
+    "tier": 3
+  },
+  "adjectives.slim": {
+    "danish": "slank",
+    "german": "schlank",
+    "english": "slim",
+    "tier": 2
+  },
+  "adjectives.dear": {
+    "danish": "kær",
+    "german": "lieb",
+    "english": "dear",
+    "tier": 1
+  },
+  "adjectives.popular": {
+    "danish": "populær",
+    "german": "beliebt",
+    "english": "popular",
+    "tier": 3
+  },
+  "adjectives.famous": {
+    "danish": "berømt",
+    "german": "berühmt",
+    "english": "famous",
+    "tier": 2
+  },
+  "adjectives.known": {
+    "danish": "kendt",
+    "german": "bekannt",
+    "english": "known",
+    "tier": 2
+  },
+  "adjectives.unknown": {
+    "danish": "ukendt",
+    "german": "unbekannt",
+    "english": "unknown",
+    "tier": 3
+  },
+  "adjectives.crazy": {
+    "danish": "skør",
+    "german": "verrückt",
+    "english": "crazy",
+    "tier": 2
+  },
+  "adjectives.sudden": {
+    "danish": "pludselig",
+    "german": "plötzlich",
+    "english": "sudden",
+    "tier": 3
+  },
+  "adjectives.traditional": {
+    "danish": "traditionel",
+    "german": "traditionell",
+    "english": "traditional",
+    "tier": 3
+  },
+  "adjectives.hoarse": {
+    "danish": "hæs",
+    "german": "heiser",
+    "english": "hoarse",
+    "tier": 4
+  },
+  "adjectives.helpful": {
+    "danish": "hjælpsom",
+    "german": "hilfreich",
+    "english": "helpful",
+    "tier": 3
+  },
+  "adjectives.helpless": {
+    "danish": "hjælpeløs",
+    "german": "hilflos",
+    "english": "helpless",
+    "tier": 4
+  },
+  "adjectives.thorough": {
+    "danish": "omhyggelig",
+    "german": "sorgfältig",
+    "english": "thorough",
+    "tier": 3
+  },
+  "adjectives.annoying": {
+    "danish": "irriterende",
+    "german": "nervig",
+    "english": "annoying",
+    "tier": 3
+  },
+  "adjectives.embarrassing": {
+    "danish": "pinlig",
+    "german": "peinlich",
+    "english": "embarrassing",
+    "tier": 3
+  },
+  "adjectives.stable": {
+    "danish": "stabil",
+    "german": "stabil",
+    "english": "stable",
+    "tier": 4
+  },
+  "adjectives.unhealthy": {
+    "danish": "usund",
+    "german": "ungesund",
+    "english": "unhealthy",
+    "tier": 2
+  },
+  "adjectives.fragile": {
+    "danish": "skrøbelig",
+    "german": "zerbrechlich",
+    "english": "fragile",
+    "tier": 4
+  },
+  "adjectives.transparent": {
+    "danish": "gennemsigtig",
+    "german": "durchsichtig",
+    "english": "transparent",
+    "tier": 4
+  },
+  "adjectives.shiny": {
+    "danish": "skinnende",
+    "german": "glänzend",
+    "english": "shiny",
+    "tier": 4
+  },
+  "adjectives.gentle": {
+    "danish": "blid",
+    "german": "sanft",
+    "english": "gentle",
+    "tier": 4
+  },
+  "adjectives.coarse": {
+    "danish": "grov",
+    "german": "grob",
+    "english": "coarse",
+    "tier": 4
+  },
+  "adjectives.fine": {
+    "danish": "fin",
+    "german": "fein",
+    "english": "fine",
+    "tier": 4
+  },
+  "adjectives.strict": {
+    "danish": "streng",
+    "german": "streng",
+    "english": "strict",
+    "tier": 3
+  },
+  "adjectives.tight": {
+    "danish": "trang",
+    "german": "eng",
+    "english": "tight",
+    "tier": 2
+  },
+  "adjectives.direct": {
+    "danish": "direkte",
+    "german": "direkt",
+    "english": "direct",
+    "tier": 2
+  },
+  "adjectives.ordinary": {
+    "danish": "almindelig",
+    "german": "gewöhnlich",
+    "english": "ordinary",
+    "tier": 3
+  },
+  "adjectives.usual": {
+    "danish": "sædvanlig",
+    "german": "üblich",
+    "english": "usual",
+    "tier": 3
+  },
+  "adjectives.probable": {
+    "danish": "sandsynlig",
+    "german": "wahrscheinlich",
+    "english": "probable",
+    "tier": 3
+  },
+  "adjectives.eternal": {
+    "danish": "evig",
+    "german": "ewig",
+    "english": "eternal",
+    "tier": 4
+  },
+  "adjectives.daily": {
+    "danish": "daglig",
+    "german": "täglich",
+    "english": "daily",
+    "tier": 2
+  },
+  "adjectives.weekly": {
+    "danish": "ugentlig",
+    "german": "wöchentlich",
+    "english": "weekly",
+    "tier": 3
+  },
+  "adjectives.monthly": {
+    "danish": "månedlig",
+    "german": "monatlich",
+    "english": "monthly",
+    "tier": 3
+  },
+  "adjectives.yearly": {
+    "danish": "årlig",
+    "german": "jährlich",
+    "english": "yearly",
+    "tier": 3
+  },
+  "adjectives.current": {
+    "danish": "aktuel",
+    "german": "aktuell",
+    "english": "current",
+    "tier": 3
+  },
+  "adjectives.former": {
+    "danish": "tidligere",
+    "german": "ehemalig",
+    "english": "former",
+    "tier": 4
+  },
+  "adjectives.future": {
+    "danish": "fremtidig",
+    "german": "zukünftig",
+    "english": "future",
+    "tier": 3
+  },
+  "adjectives.previous": {
+    "danish": "forrige",
+    "german": "vorig",
+    "english": "previous",
+    "tier": 4
+  },
+  "adjectives.successful": {
+    "danish": "succesfuld",
+    "german": "erfolgreich",
+    "english": "successful",
+    "tier": 3
+  },
+  "adjectives.experienced": {
+    "danish": "erfaren",
+    "german": "erfahren",
+    "english": "experienced",
+    "tier": 4
+  },
+  "adjectives.gifted": {
+    "danish": "begavet",
+    "german": "begabt",
+    "english": "gifted",
+    "tier": 4
+  },
+  "adjectives.married": {
+    "danish": "gift",
+    "german": "verheiratet",
+    "english": "married",
+    "tier": 2
+  },
+  "adjectives.single": {
+    "danish": "ugift",
+    "german": "ledig",
+    "english": "single",
+    "tier": 2
+  },
+  "adjectives.divorced": {
+    "danish": "skilt",
+    "german": "geschieden",
+    "english": "divorced",
+    "tier": 3
+  },
+  "adjectives.adult": {
+    "danish": "voksen",
+    "german": "erwachsen",
+    "english": "adult",
+    "tier": 2
+  },
+  "adjectives.busy": {
+    "danish": "travl",
+    "german": "beschäftigt",
+    "english": "busy",
+    "tier": 2
+  },
+  "adjectives.available": {
+    "danish": "tilgængelig",
+    "german": "verfügbar",
+    "english": "available",
+    "tier": 4
+  },
+  "adjectives.absent": {
+    "danish": "fraværende",
+    "german": "abwesend",
+    "english": "absent",
+    "tier": 4
+  },
+  "adjectives.delayed": {
+    "danish": "forsinket",
+    "german": "verspätet",
+    "english": "delayed",
+    "tier": 2
+  },
+  "adjectives.punctual": {
+    "danish": "punktlig",
+    "german": "pünktlich",
+    "english": "punctual",
+    "tier": 2
+  },
+  "adjectives.forbidden": {
+    "danish": "forbudt",
+    "german": "verboten",
+    "english": "forbidden",
+    "tier": 2
+  },
+  "adjectives.allowed": {
+    "danish": "tilladt",
+    "german": "erlaubt",
+    "english": "allowed",
+    "tier": 2
+  },
+  "adjectives.valid": {
+    "danish": "gyldig",
+    "german": "gültig",
+    "english": "valid",
+    "tier": 3
+  },
+  "adjectives.in-agreement": {
+    "danish": "enig",
+    "german": "einverstanden",
+    "english": "in agreement",
+    "tier": 2
+  },
+  "adjectives.random": {
+    "danish": "tilfældig",
+    "german": "zufällig",
+    "english": "random",
+    "tier": 3
+  },
+  "adjectives.lean": {
+    "danish": "mager",
+    "german": "mager",
+    "english": "lean",
+    "tier": 4
+  },
+  "adjectives.digital": {
+    "danish": "digital",
+    "german": "digital",
+    "english": "digital",
+    "tier": 3
+  },
+  "adjectives.electric": {
+    "danish": "elektrisk",
+    "german": "elektrisch",
+    "english": "electric",
+    "tier": 3
+  },
+  "adjectives.automatic": {
+    "danish": "automatisk",
+    "german": "automatisch",
+    "english": "automatic",
+    "tier": 3
+  },
+  "adjectives.vegetarian": {
+    "danish": "vegetarisk",
+    "german": "vegetarisch",
+    "english": "vegetarian",
+    "tier": 3
+  },
+  "adjectives.lukewarm": {
+    "danish": "lunken",
+    "german": "lauwarm",
+    "english": "lukewarm",
+    "tier": 4
+  },
+  "adjectives.ice-cold": {
+    "danish": "iskold",
+    "german": "eiskalt",
+    "english": "ice-cold",
+    "tier": 3
+  },
+  "adjectives.independent": {
+    "danish": "selvstændig",
+    "german": "selbstständig",
+    "english": "independent",
+    "tier": 3
+  },
+  "adjectives.responsible": {
+    "danish": "ansvarlig",
+    "german": "verantwortlich",
+    "english": "responsible",
+    "tier": 3
+  },
+  "adjectives.lovely": {
+    "danish": "dejlig",
+    "german": "herrlich",
+    "english": "lovely",
+    "tier": 3
+  },
+  "adjectives.cute": {
+    "danish": "nuttet",
+    "german": "niedlich",
+    "english": "cute",
+    "tier": 3
+  },
+  "adjectives.cruel": {
+    "danish": "grusom",
+    "german": "grausam",
+    "english": "cruel",
+    "tier": 4
+  },
+  "adjectives.generous": {
+    "danish": "gavmild",
+    "german": "großzügig",
+    "english": "generous",
+    "tier": 3
+  },
+  "adjectives.stingy": {
+    "danish": "nærig",
+    "german": "geizig",
+    "english": "stingy",
+    "tier": 4
+  },
+  "adjectives.modest": {
+    "danish": "beskeden",
+    "german": "bescheiden",
+    "english": "modest",
+    "tier": 3
+  },
+  "adjectives.arrogant": {
+    "danish": "arrogant",
+    "german": "arrogant",
+    "english": "arrogant",
+    "tier": 3
+  },
+  "adjectives.unhappy": {
+    "danish": "ulykkelig",
+    "german": "unglücklich",
+    "english": "unhappy",
+    "tier": 2
+  },
+  "adjectives.having-a-cold": {
+    "danish": "forkølet",
+    "german": "erkältet",
+    "english": "having a cold",
+    "tier": 2
+  },
+  "adjectives.injured": {
+    "danish": "såret",
+    "german": "verletzt",
+    "english": "injured",
+    "tier": 2
+  },
+  "adjectives.drunk": {
+    "danish": "beruset",
+    "german": "betrunken",
+    "english": "drunk",
+    "tier": 3
+  },
+  "adjectives.sober": {
+    "danish": "ædru",
+    "german": "nüchtern",
+    "english": "sober",
+    "tier": 4
+  },
+  "adjectives.painful": {
+    "danish": "smertefuld",
+    "german": "schmerzhaft",
+    "english": "painful",
+    "tier": 3
+  },
+  "adjectives.holy": {
+    "danish": "hellig",
+    "german": "heilig",
+    "english": "holy",
+    "tier": 4
+  },
+  "adjectives.religious": {
+    "danish": "religiøs",
+    "german": "religiös",
+    "english": "religious",
+    "tier": 3
+  },
+  "adjectives.erheblich": {
+    "danish": "betydelig",
+    "german": "erheblich",
+    "english": "considerable",
+    "tier": 4
+  },
+  "adjectives.eindeutig": {
+    "danish": "entydig",
+    "german": "eindeutig",
+    "english": "unambiguous",
+    "tier": 4
+  },
+  "adjectives.geeignet": {
+    "danish": "egnet",
+    "german": "geeignet",
+    "english": "suitable",
+    "tier": 4
+  },
+  "adjectives.ausreichend": {
+    "danish": "tilstrækkelig",
+    "german": "ausreichend",
+    "english": "sufficient",
+    "tier": 4
+  },
+  "adjectives.umfassend": {
+    "danish": "omfattende",
+    "german": "umfassend",
+    "english": "comprehensive",
+    "tier": 4
+  },
+  "adjectives.wesentlich": {
+    "danish": "væsentlig",
+    "german": "wesentlich",
+    "english": "essential",
+    "tier": 4
+  },
+  "adjectives.ausgepraegt": {
+    "danish": "udpræget",
+    "german": "ausgeprägt",
+    "english": "pronounced",
+    "tier": 5
+  },
+  "adjectives.betraechtlich": {
+    "danish": "anselig",
+    "german": "beträchtlich",
+    "english": "sizeable",
+    "tier": 5
+  },
+  "adjectives.unverzichtbar": {
+    "danish": "uundværlig",
+    "german": "unverzichtbar",
+    "english": "indispensable",
+    "tier": 5
+  },
+  "adjectives.fragwuerdig": {
+    "danish": "tvivlsom",
+    "german": "fragwürdig",
+    "english": "questionable",
+    "tier": 5
+  },
+  "adjectives.einwandfrei": {
+    "danish": "upåklagelig",
+    "german": "einwandfrei",
+    "english": "flawless",
+    "tier": 5
+  },
+  "adjectives.ruecksichtslos": {
+    "danish": "hensynsløs",
+    "german": "rücksichtslos",
+    "english": "ruthless",
+    "tier": 5
+  },
+  "adjectives.kostspielig": {
+    "danish": "bekostelig",
+    "german": "kostspielig",
+    "english": "costly",
+    "tier": 5
+  },
+  "adjectives.vergaenglich": {
+    "danish": "forgængelig",
+    "german": "vergänglich",
+    "english": "transient",
+    "tier": 5
+  },
+  "adjectives.muehsam": {
+    "danish": "besværlig",
+    "german": "mühsam",
+    "english": "arduous",
+    "tier": 5
+  },
+  "adjectives.aufschlussreich": {
+    "danish": "indsigtsfuld",
+    "german": "aufschlussreich",
+    "english": "revealing",
+    "tier": 5
+  },
+  "adjectives.ueberfluessig": {
+    "danish": "overflødig",
+    "german": "überflüssig",
+    "english": "superfluous",
+    "tier": 5
+  },
+  "adjectives.zweckmaessig": {
+    "danish": "hensigtsmæssig",
+    "german": "zweckmäßig",
+    "english": "expedient",
+    "tier": 5
+  },
+  "adjectives.widerspruechlich": {
+    "danish": "modstridende",
+    "german": "widersprüchlich",
+    "english": "contradictory",
+    "tier": 5
+  },
+  "adjectives.willkuerlich": {
+    "danish": "vilkårlig",
+    "german": "willkürlich",
+    "english": "arbitrary",
+    "tier": 5
+  },
+  "adjectives.unumgaenglich": {
+    "danish": "uundgåelig",
+    "german": "unumgänglich",
+    "english": "unavoidable",
+    "tier": 5
+  },
+  "adjectives.vorbildlich": {
+    "danish": "eksemplarisk",
+    "german": "vorbildlich",
+    "english": "exemplary",
+    "tier": 5
+  },
+  "adjectives.scharfsinnig": {
+    "danish": "skarpsindig",
+    "german": "scharfsinnig",
+    "english": "astute",
+    "tier": 5
+  },
+  "adjectives.sachlich": {
+    "danish": "saglig",
+    "german": "sachlich",
+    "english": "objective",
+    "tier": 5
+  },
+  "adjectives.spuerbar": {
+    "danish": "mærkbar",
+    "german": "spürbar",
+    "english": "noticeable",
+    "tier": 5
+  },
+  "adjectives.dauerhaft": {
+    "danish": "varig",
+    "german": "dauerhaft",
+    "english": "lasting",
+    "tier": 5
+  },
+  "adjectives.kurzfristig": {
+    "danish": "kortsigtet",
+    "german": "kurzfristig",
+    "english": "short-term",
+    "tier": 5
+  },
+  "adjectives.langfristig": {
+    "danish": "langsigtet",
+    "german": "langfristig",
+    "english": "long-term",
+    "tier": 5
+  },
+  "adjectives.verbindlich": {
+    "danish": "bindende",
+    "german": "verbindlich",
+    "english": "binding",
+    "tier": 5
+  },
+  "adjectives.heikel": {
+    "danish": "delikat",
+    "german": "heikel",
+    "english": "delicate",
+    "tier": 5
   }
 }

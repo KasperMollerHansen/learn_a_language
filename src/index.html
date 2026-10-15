@@ -193,7 +193,7 @@
   <body class="menu-mode">
     <div class="app">
       <header>
-        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.0.25</span></button>
+        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.1.0</span></button>
         <div class="header-right"><span class="language">Danish / German</span><button class="install" id="install-button" type="button">Install app</button></div>
       </header>
       <main>
@@ -268,29 +268,26 @@
       const $ = (selector) => document.querySelector(selector);
       let tabs = [...document.querySelectorAll(".level")];
       const lanes = [...document.querySelectorAll(".lane")];
-      const progressStorageKey = "wortlauf-progress-v2";
+      const progressStorageKey = "wortlauf-progress-v3";
       const difficultyNames = ["easy", "hard"];
       function readStoredJson(key) {
         try { return JSON.parse(localStorage.getItem(key) || "null"); } catch { return null; }
       }
       function readTrack(saved) {
         return {
-          unlockedLevel: Math.max(0, Math.floor(Number(saved?.unlockedLevel)) || 0),
           completedLevelIds: Array.isArray(saved?.completedLevelIds) ? saved.completedLevelIds.filter((id) => typeof id === "string") : []
         };
       }
       function loadProgress() {
-        const v2 = readStoredJson(progressStorageKey);
-        // Without v2, migrate v1 (or the older single key) into both tracks; the old keys stay untouched.
-        const v1 = readStoredJson("wortlauf-progress-v1");
-        const saved = v2?.version === 2 ? v2 : v1?.version === 1 ? v1 : { unlockedLevel: readStoredJson("wortlauf-unlocked") };
+        const v3 = readStoredJson(progressStorageKey);
+        // The v3 levels replaced the old ones, so older progress keeps only its difficulty and counters; the old keys stay untouched.
+        const saved = v3?.version === 3 ? v3 : readStoredJson("wortlauf-progress-v2") || readStoredJson("wortlauf-progress-v1") || {};
         return {
-          version: 2,
+          version: 3,
           difficulty: difficultyNames.includes(saved.difficulty) ? saved.difficulty : "easy",
-          tracks: saved === v2
+          tracks: saved === v3
             ? { easy: readTrack(saved.tracks?.easy), hard: readTrack(saved.tracks?.hard) }
-            : { easy: readTrack(saved), hard: readTrack(saved) },
-          currentLevelId: saved.currentLevelId ?? "1-1",
+            : { easy: readTrack(null), hard: readTrack(null) },
           correctAnswers: saved.correctAnswers ?? 0,
           wrongAnswers: saved.wrongAnswers ?? 0,
           completedRuns: saved.completedRuns ?? 0,
@@ -299,7 +296,11 @@
       }
       let progress = loadProgress();
       const currentTrack = () => progress.tracks[progress.difficulty];
-      const unlockedIndex = () => Math.min(currentTrack().unlockedLevel, levels.length - 1);
+      const isCleared = (level) => currentTrack().completedLevelIds.includes(level.id);
+      // Levels are cleared from the top: a level opens once every level above it is cleared.
+      const isUnlocked = (level) => levels.slice(0, levels.indexOf(level)).every(isCleared);
+      // Start from the top: the first open level not yet cleared, or the first level when all are cleared.
+      const firstOpenLevelIndex = () => Math.max(0, levels.findIndex((level) => isUnlocked(level) && !isCleared(level)));
       let levelIndex = 0, currentWord, correctLane = 0, selectedLane = 1, runDifficulty = progress.difficulty;
       let wordDeck = [], wordBankLoaded = false, loadingGameData = false, gateIntervalSeconds = 0, germanByDanish = new Map();
       let score = 0, speed = 0, timeLeft = 0, running = false, answerLocked = false, timerId, gateTimerId, gateIntervalId, transitionTimerId;
@@ -319,14 +320,25 @@
         return `${minutes}:${String(rest).padStart(2, "0")} minutes`;
       }
       const roundLength = () => formatDuration(config.difficulties[progress.difficulty].roundDurationSeconds);
+      // Deal from the level's pool until the run has `target` questions, reshuffling whenever the pool runs out.
       function buildWordDeck(level) {
-        if (level.mode !== "sentence") return shuffle(level.words);
+        const deck = [];
+        if (level.mode !== "sentence") {
+          while (deck.length < target) deck.push(...shuffle(level.words));
+          return deck.slice(0, target);
+        }
         const sentences = new Map();
         level.words.forEach((chunk) => {
           if (!sentences.has(chunk.sentenceId)) sentences.set(chunk.sentenceId, []);
           sentences.get(chunk.sentenceId).push(chunk);
         });
-        return shuffle([...sentences.values()]).flatMap((chunks) => chunks.sort((left, right) => left.step - right.step));
+        while (deck.length < target) {
+          for (const chunks of shuffle([...sentences.values()])) {
+            if (deck.length >= target) break;
+            deck.push(...chunks.sort((left, right) => left.step - right.step));
+          }
+        }
+        return deck;
       }
       function renderSentence(sentence, chunks, activeStep) {
         const display = $("#word");
@@ -370,7 +382,6 @@
         $(".surface").style.setProperty("--run-speed", `${roadFlow}ms`);
       }
       function saveProgress() {
-        progress.currentLevelId = levels[levelIndex]?.id || progress.currentLevelId;
         progress.lastPlayedAt = new Date().toISOString();
         try {
           localStorage.setItem(progressStorageKey, JSON.stringify(progress));
@@ -415,7 +426,7 @@
         currentWord = wordDeck.shift();
         let options;
         if (level.mode === "sentence") {
-          if (activeSentenceId !== currentWord.sentenceId) {
+          if (activeSentenceId !== currentWord.sentenceId || currentWord.step === 1) {
             activeSentenceId = currentWord.sentenceId;
             sentenceProgress = [];
           }
@@ -525,11 +536,12 @@
           for (const name of runDifficulty === "hard" ? ["hard", "easy"] : ["easy"]) {
             const track = progress.tracks[name];
             if (!track.completedLevelIds.includes(levels[levelIndex].id)) track.completedLevelIds.push(levels[levelIndex].id);
-            track.unlockedLevel = Math.max(track.unlockedLevel, Math.min(levelIndex + 1, levels.length - 1));
           }
         }
-        if (won && levelIndex < levels.length - 1) {
-          const nextIndex = levelIndex + 1;
+        // Next up is the first open, uncleared level below this one, else the first from the top.
+        const below = levels.findIndex((level, index) => index > levelIndex && isUnlocked(level) && !isCleared(level));
+        const nextIndex = below >= 0 ? below : firstOpenLevelIndex();
+        if (won && !isCleared(levels[nextIndex])) {
           saveProgress();
           renderLevelTabs();
           const nextLevel = levels[nextIndex];
@@ -585,7 +597,7 @@
       function renderLevelTabs() {
         const levelsPanel = $(".levels");
         if (!levelsPanel) return;
-        const chapterIcons = { "Chapter 1": "🌱", "Chapter 2": "🚀" };
+        const chapterIcons = { "Chapter 1 · Basics": "🌱", "Chapter 2 · Everyday": "🌿", "Chapter 3 · Confident": "🚀", "Chapter 4 · Fluent": "🏔️", "Chapter 5 · Advanced": "🏆" };
         const byChapter = new Map();
         levels.forEach((level, index) => {
           const key = level.chapter || "Chapter 1";
@@ -610,8 +622,8 @@
             button.role = "tab";
             button.dataset.level = String(index);
             button.setAttribute("aria-selected", String(index === levelIndex));
-            button.disabled = index > unlockedIndex();
-            const cleared = currentTrack().completedLevelIds.includes(level.id);
+            button.disabled = !isUnlocked(level);
+            const cleared = isCleared(level);
             button.innerHTML = `
               <span class="level-badge">${index + 1}</span>
               <span class="level-text">${level.id} · ${level.name}</span>
@@ -628,7 +640,7 @@
       }
 
       function selectLevel(index) {
-        if (index > unlockedIndex() || !levels[index]) return;
+        if (!levels[index] || !isUnlocked(levels[index])) return;
         levelIndex = index;
         saveProgress();
         tabs.forEach((tab, i) => tab.setAttribute("aria-selected", String(i === index)));
@@ -648,7 +660,7 @@
         $("#difficulty-note").textContent = `${roundLength()} per run`;
         $("#round-length").textContent = `${roundLength()} on the clock`;
         renderLevelTabs();
-        selectLevel(Math.min(levelIndex, unlockedIndex()));
+        selectLevel(isUnlocked(levels[levelIndex]) ? levelIndex : firstOpenLevelIndex());
       }
       async function updateServiceWorker() {
         if (!("serviceWorker" in navigator)) return;
@@ -718,22 +730,21 @@
             if (!danishIndex.has(danishKey(word))) danishIndex.set(danishKey(word), new Set());
             danishIndex.get(danishKey(word)).add(word.german);
           }
+          // A level's pool is every word in its categories, narrowed to its tiers when it lists any.
           const loadedLevels = bank.levels.map((level) => ({
             ...level,
-            words: level.wordIds.map((wordId) => {
-              const word = bank.words[wordId];
-              if (!word) throw new Error(`Unknown word ID: ${wordId}`);
-              return { ...word, id: wordId };
-            })
+            words: Object.entries(bank.words)
+              .filter(([wordId, word]) => level.categories.includes(wordId.split(".")[0]) &&
+                (!level.tiers || level.tiers.includes(word.tier)))
+              .map(([wordId, word]) => ({ ...word, id: wordId }))
           }));
-          if (loadedLevels.some((level) => level.words.length !== config.wordsPerLevel)) {
-            throw new Error("Each level must match the configured word count");
+          if (loadedLevels.some((level) => level.words.length < 3)) {
+            throw new Error("Each level needs at least 3 words in its pool");
           }
           levels = loadedLevels;
           germanByDanish = danishIndex;
           target = config.wordsPerLevel;
-          const savedLevelIndex = levels.findIndex((level) => level.id === progress.currentLevelId);
-          levelIndex = savedLevelIndex >= 0 && savedLevelIndex <= unlockedIndex() ? savedLevelIndex : 0;
+          levelIndex = firstOpenLevelIndex();
           wordBankLoaded = true;
           loadingGameData = false;
           selectDifficulty(progress.difficulty);

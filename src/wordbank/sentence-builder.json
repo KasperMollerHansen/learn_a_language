@@ -2,6 +2,7 @@
   "sentence-builder.mand.subject": {
     "danish": "Manden",
     "german": "Der Mann",
+    "english": "The man",
     "sentence": "Manden er stor.",
     "sentenceId": "mand",
     "step": 1,
@@ -10,11 +11,13 @@
       "Den Mann",
       "Der Mann",
       "Dem Mann"
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.mand.verb": {
     "danish": "er",
     "german": "ist",
+    "english": "is",
     "sentence": "Manden er stor.",
     "sentenceId": "mand",
     "step": 2,
@@ -23,11 +26,13 @@
       "bist",
       "ist",
       "sind"
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.mand.adjective": {
     "danish": "stor",
     "german": "groß.",
+    "english": "big",
     "sentence": "Manden er stor.",
     "sentenceId": "mand",
     "step": 3,
@@ -36,11 +41,13 @@
       "groß.",
       "klein.",
       "alt."
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.kvinde.subject": {
     "danish": "Kvinden",
     "german": "Die Frau",
+    "english": "The woman",
     "sentence": "Kvinden er glad.",
     "sentenceId": "kvinde",
     "step": 1,
@@ -49,11 +56,13 @@
       "Die Frau",
       "Der Frau",
       "Die Frauen"
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.kvinde.verb": {
     "danish": "er",
     "german": "ist",
+    "english": "is",
     "sentence": "Kvinden er glad.",
     "sentenceId": "kvinde",
     "step": 2,
@@ -62,11 +71,13 @@
       "bin",
       "ist",
       "seid"
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.kvinde.adjective": {
     "danish": "glad",
     "german": "glücklich.",
+    "english": "happy",
     "sentence": "Kvinden er glad.",
     "sentenceId": "kvinde",
     "step": 3,
@@ -75,11 +86,13 @@
       "traurig.",
       "glücklich.",
       "müde."
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.barn.subject": {
     "danish": "Barnet",
     "german": "Das Kind",
+    "english": "The child",
     "sentence": "Barnet er lille.",
     "sentenceId": "barn",
     "step": 1,
@@ -88,11 +101,13 @@
       "Dem Kind",
       "Das Kind",
       "Des Kindes"
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.barn.verb": {
     "danish": "er",
     "german": "ist",
+    "english": "is",
     "sentence": "Barnet er lille.",
     "sentenceId": "barn",
     "step": 2,
@@ -101,11 +116,13 @@
       "ist",
       "bist",
       "seid"
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.barn.adjective": {
     "danish": "lille",
     "german": "klein.",
+    "english": "small",
     "sentence": "Barnet er lille.",
     "sentenceId": "barn",
     "step": 3,
@@ -114,11 +131,13 @@
       "groß.",
       "klein.",
       "kurz."
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.hund.subject": {
     "danish": "Jeg",
     "german": "Ich",
+    "english": "I",
     "sentence": "Jeg ser hunden.",
     "sentenceId": "hund",
     "step": 1,
@@ -127,11 +146,13 @@
       "Er",
       "Ich",
       "Du"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.hund.verb": {
     "danish": "ser",
     "german": "sehe",
+    "english": "see",
     "sentence": "Jeg ser hunden.",
     "sentenceId": "hund",
     "step": 2,
@@ -140,11 +161,13 @@
       "sieht",
       "sehe",
       "siehst"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.hund.object": {
     "danish": "hunden",
     "german": "den Hund.",
+    "english": "the dog",
     "sentence": "Jeg ser hunden.",
     "sentenceId": "hund",
     "step": 3,
@@ -153,11 +176,13 @@
       "dem Hund.",
       "den Hund.",
       "der Hund."
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.pige.subject": {
     "danish": "Pigen",
     "german": "Das Mädchen",
+    "english": "The girl",
     "sentence": "Pigen drikker vand.",
     "sentenceId": "pige",
     "step": 1,
@@ -166,11 +191,13 @@
       "Das Mädchen",
       "Dem Mädchen",
       "Der Junge"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.pige.verb": {
     "danish": "drikker",
     "german": "trinkt",
+    "english": "drinks",
     "sentence": "Pigen drikker vand.",
     "sentenceId": "pige",
     "step": 2,
@@ -179,11 +206,13 @@
       "trinkst",
       "trinkt",
       "trinken"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.pige.object": {
     "danish": "vand",
     "german": "Wasser.",
+    "english": "water",
     "sentence": "Pigen drikker vand.",
     "sentenceId": "pige",
     "step": 3,
@@ -192,11 +221,13 @@
       "Milch.",
       "Wasser.",
       "Saft."
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.bror.subject": {
     "danish": "Min bror",
     "german": "Mein Bruder",
+    "english": "My brother",
     "sentence": "Min bror læser en bog.",
     "sentenceId": "bror",
     "step": 1,
@@ -205,11 +236,13 @@
       "Mein Bruder",
       "Meinen Bruder",
       "Meinem Bruder"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.bror.verb": {
     "danish": "læser",
     "german": "liest",
+    "english": "reads",
     "sentence": "Min bror læser en bog.",
     "sentenceId": "bror",
     "step": 2,
@@ -218,11 +251,13 @@
       "lese",
       "liest",
       "lesen"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.bror.object": {
     "danish": "en bog",
     "german": "ein Buch.",
+    "english": "a book",
     "sentence": "Min bror læser en bog.",
     "sentenceId": "bror",
     "step": 3,
@@ -231,11 +266,13 @@
       "ein Buch.",
       "einem Buch.",
       "einen Roman."
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.vi.subject": {
     "danish": "Vi",
     "german": "Wir",
+    "english": "We",
     "sentence": "Vi køber æbler.",
     "sentenceId": "vi",
     "step": 1,
@@ -244,11 +281,13 @@
       "Wir",
       "Ihr",
       "Sie"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.vi.verb": {
     "danish": "køber",
     "german": "kaufen",
+    "english": "buy",
     "sentence": "Vi køber æbler.",
     "sentenceId": "vi",
     "step": 2,
@@ -257,11 +296,13 @@
       "kauft",
       "kaufen",
       "kaufe"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.vi.object": {
     "danish": "æbler",
     "german": "Äpfel.",
+    "english": "apples",
     "sentence": "Vi køber æbler.",
     "sentenceId": "vi",
     "step": 3,
@@ -270,11 +311,13 @@
       "Äpfel.",
       "Birnen.",
       "Trauben."
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.hun.subject": {
     "danish": "Hun",
     "german": "Sie",
+    "english": "She",
     "sentence": "Hun taler langsomt.",
     "sentenceId": "hun",
     "step": 1,
@@ -283,11 +326,13 @@
       "Sie",
       "Er",
       "Wir"
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.hun.verb": {
     "danish": "taler",
     "german": "spricht",
+    "english": "speaks",
     "sentence": "Hun taler langsomt.",
     "sentenceId": "hun",
     "step": 2,
@@ -296,11 +341,13 @@
       "sprechen",
       "spricht",
       "sprichst"
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.hun.adverb": {
     "danish": "langsomt",
     "german": "langsam.",
+    "english": "slowly",
     "sentence": "Hun taler langsomt.",
     "sentenceId": "hun",
     "step": 3,
@@ -309,11 +356,13 @@
       "langsam.",
       "schnell.",
       "laut."
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.laerer.subject": {
     "danish": "Læreren",
     "german": "Der Lehrer",
+    "english": "The teacher",
     "sentence": "Læreren åbner døren.",
     "sentenceId": "laerer",
     "step": 1,
@@ -322,11 +371,13 @@
       "Den Lehrer",
       "Der Lehrer",
       "Dem Lehrer"
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.laerer.verb": {
     "danish": "åbner",
     "german": "öffnet",
+    "english": "opens",
     "sentence": "Læreren åbner døren.",
     "sentenceId": "laerer",
     "step": 2,
@@ -335,11 +386,13 @@
       "öffnet",
       "öffnen",
       "öffnest"
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.laerer.object": {
     "danish": "døren",
     "german": "die Tür.",
+    "english": "the door",
     "sentence": "Læreren åbner døren.",
     "sentenceId": "laerer",
     "step": 3,
@@ -348,11 +401,13 @@
       "die Tür.",
       "der Tür.",
       "das Tor."
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.soster.subject": {
     "danish": "Min søster",
     "german": "Meine Schwester",
+    "english": "My sister",
     "sentence": "Min søster arbejder i Berlin.",
     "sentenceId": "soster",
     "step": 1,
@@ -361,11 +416,13 @@
       "Meine Schwester",
       "Meiner Schwester",
       "Mein Bruder"
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.soster.verb": {
     "danish": "arbejder",
     "german": "arbeitet",
+    "english": "works",
     "sentence": "Min søster arbejder i Berlin.",
     "sentenceId": "soster",
     "step": 2,
@@ -374,11 +431,13 @@
       "arbeite",
       "arbeitet",
       "arbeiten"
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.soster.place": {
     "danish": "i Berlin",
     "german": "in Berlin.",
+    "english": "in Berlin",
     "sentence": "Min søster arbejder i Berlin.",
     "sentenceId": "soster",
     "step": 3,
@@ -387,6 +446,1942 @@
       "in Berlin.",
       "nach Berlin.",
       "in Hamburg."
-    ]
+    ],
+    "tier": 3
+  },
+  "sentence-builder.bil.subject": {
+    "danish": "Jeg",
+    "german": "Ich",
+    "english": "I",
+    "sentence": "Jeg har en bil.",
+    "sentenceId": "bil",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Ich",
+      "Mich",
+      "Mir"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.bil.verb": {
+    "danish": "har",
+    "german": "habe",
+    "english": "have",
+    "sentence": "Jeg har en bil.",
+    "sentenceId": "bil",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "hast",
+      "habe",
+      "hat"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.bil.object": {
+    "danish": "en bil",
+    "german": "ein Auto.",
+    "english": "a car",
+    "sentence": "Jeg har en bil.",
+    "sentenceId": "bil",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "einen Auto.",
+      "eine Auto.",
+      "ein Auto."
+    ],
+    "tier": 1
+  },
+  "sentence-builder.ven.subject": {
+    "danish": "Du",
+    "german": "Du",
+    "english": "You",
+    "sentence": "Du er min ven.",
+    "sentenceId": "ven",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Du",
+      "Dich",
+      "Dir"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.ven.verb": {
+    "danish": "er",
+    "german": "bist",
+    "english": "are",
+    "sentence": "Du er min ven.",
+    "sentenceId": "ven",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "ist",
+      "bist",
+      "bin"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.ven.noun": {
+    "danish": "min ven",
+    "german": "mein Freund.",
+    "english": "my friend",
+    "sentence": "Du er min ven.",
+    "sentenceId": "ven",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "meinen Freund.",
+      "meiner Freund.",
+      "mein Freund."
+    ],
+    "tier": 1
+  },
+  "sentence-builder.kat.subject": {
+    "danish": "Katten",
+    "german": "Die Katze",
+    "english": "The cat",
+    "sentence": "Katten har sult.",
+    "sentenceId": "kat",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Die Katze",
+      "Der Katze",
+      "Das Katze"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.kat.verb": {
+    "danish": "har",
+    "german": "hat",
+    "english": "has",
+    "sentence": "Katten har sult.",
+    "sentenceId": "kat",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "haben",
+      "hat",
+      "hast"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.kat.object": {
+    "danish": "sult",
+    "german": "Hunger.",
+    "english": "hunger",
+    "sentence": "Katten har sult.",
+    "sentenceId": "kat",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "Hungern.",
+      "Durst.",
+      "Hunger."
+    ],
+    "tier": 1
+  },
+  "sentence-builder.traette.subject": {
+    "danish": "Vi",
+    "german": "Wir",
+    "english": "We",
+    "sentence": "Vi er trætte.",
+    "sentenceId": "traette",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Wir",
+      "Uns",
+      "Ihr"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.traette.verb": {
+    "danish": "er",
+    "german": "sind",
+    "english": "are",
+    "sentence": "Vi er trætte.",
+    "sentenceId": "traette",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "seid",
+      "sind",
+      "ist"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.traette.adjective": {
+    "danish": "trætte",
+    "german": "müde.",
+    "english": "tired",
+    "sentence": "Vi er trætte.",
+    "sentenceId": "traette",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "munter.",
+      "wach.",
+      "müde."
+    ],
+    "tier": 1
+  },
+  "sentence-builder.boern.subject": {
+    "danish": "Børnene",
+    "german": "Die Kinder",
+    "english": "The children",
+    "sentence": "Børnene har tid.",
+    "sentenceId": "boern",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Die Kinder",
+      "Der Kinder",
+      "Das Kinder"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.boern.verb": {
+    "danish": "har",
+    "german": "haben",
+    "english": "have",
+    "sentence": "Børnene har tid.",
+    "sentenceId": "boern",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "hat",
+      "haben",
+      "habt"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.boern.object": {
+    "danish": "tid",
+    "german": "Zeit.",
+    "english": "time",
+    "sentence": "Børnene har tid.",
+    "sentenceId": "boern",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "Geld.",
+      "Zeiten.",
+      "Zeit."
+    ],
+    "tier": 1
+  },
+  "sentence-builder.hjemme.subject": {
+    "danish": "De",
+    "german": "Sie",
+    "english": "They",
+    "sentence": "De er hjemme.",
+    "sentenceId": "hjemme",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Sie",
+      "Ihnen",
+      "Ihr"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.hjemme.verb": {
+    "danish": "er",
+    "german": "sind",
+    "english": "are",
+    "sentence": "De er hjemme.",
+    "sentenceId": "hjemme",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "ist",
+      "sind",
+      "seid"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.hjemme.place": {
+    "danish": "hjemme",
+    "german": "zu Hause.",
+    "english": "at home",
+    "sentence": "De er hjemme.",
+    "sentenceId": "hjemme",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "nach Hause.",
+      "von Hause.",
+      "zu Hause."
+    ],
+    "tier": 1
+  },
+  "sentence-builder.laege.subject": {
+    "danish": "Han",
+    "german": "Er",
+    "english": "He",
+    "sentence": "Han er læge.",
+    "sentenceId": "laege",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Er",
+      "Ihn",
+      "Ihm"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.laege.verb": {
+    "danish": "er",
+    "german": "ist",
+    "english": "is",
+    "sentence": "Han er læge.",
+    "sentenceId": "laege",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "bin",
+      "ist",
+      "bist"
+    ],
+    "tier": 1
+  },
+  "sentence-builder.laege.noun": {
+    "danish": "læge",
+    "german": "Arzt.",
+    "english": "a doctor",
+    "sentence": "Han er læge.",
+    "sentenceId": "laege",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "Ärzte.",
+      "Lehrer.",
+      "Arzt."
+    ],
+    "tier": 1
+  },
+  "sentence-builder.arbejdet.subject": {
+    "danish": "Jeg",
+    "german": "Ich",
+    "english": "I",
+    "sentence": "Jeg har arbejdet.",
+    "sentenceId": "arbejdet",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Ich",
+      "Mich",
+      "Mir"
+    ],
+    "tier": 2
+  },
+  "sentence-builder.arbejdet.auxiliary": {
+    "danish": "har",
+    "german": "habe",
+    "english": "have",
+    "sentence": "Jeg har arbejdet.",
+    "sentenceId": "arbejdet",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "bin",
+      "habe",
+      "hast"
+    ],
+    "tier": 2
+  },
+  "sentence-builder.arbejdet.participle": {
+    "danish": "arbejdet",
+    "german": "gearbeitet.",
+    "english": "worked",
+    "sentence": "Jeg har arbejdet.",
+    "sentenceId": "arbejdet",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "arbeiten.",
+      "gearbeite.",
+      "gearbeitet."
+    ],
+    "tier": 2
+  },
+  "sentence-builder.sovet.subject": {
+    "danish": "Hun",
+    "german": "Sie",
+    "english": "She",
+    "sentence": "Hun har sovet.",
+    "sentenceId": "sovet",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Sie",
+      "Ihr",
+      "Ihnen"
+    ],
+    "tier": 2
+  },
+  "sentence-builder.sovet.auxiliary": {
+    "danish": "har",
+    "german": "hat",
+    "english": "has",
+    "sentence": "Hun har sovet.",
+    "sentenceId": "sovet",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "ist",
+      "hat",
+      "haben"
+    ],
+    "tier": 2
+  },
+  "sentence-builder.sovet.participle": {
+    "danish": "sovet",
+    "german": "geschlafen.",
+    "english": "slept",
+    "sentence": "Hun har sovet.",
+    "sentenceId": "sovet",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "geschlaft.",
+      "schlafen.",
+      "geschlafen."
+    ],
+    "tier": 2
+  },
+  "sentence-builder.mor.subject": {
+    "danish": "Jeg",
+    "german": "Ich",
+    "english": "I",
+    "sentence": "Jeg elsker min mor.",
+    "sentenceId": "mor",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Ich",
+      "Mich",
+      "Mir"
+    ],
+    "tier": 2
+  },
+  "sentence-builder.mor.verb": {
+    "danish": "elsker",
+    "german": "liebe",
+    "english": "love",
+    "sentence": "Jeg elsker min mor.",
+    "sentenceId": "mor",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "liebt",
+      "liebe",
+      "lieben"
+    ],
+    "tier": 2
+  },
+  "sentence-builder.mor.object": {
+    "danish": "min mor",
+    "german": "meine Mutter.",
+    "english": "my mother",
+    "sentence": "Jeg elsker min mor.",
+    "sentenceId": "mor",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "meiner Mutter.",
+      "meinen Mutter.",
+      "meine Mutter."
+    ],
+    "tier": 2
+  },
+  "sentence-builder.gave.subject": {
+    "danish": "Han",
+    "german": "Er",
+    "english": "He",
+    "sentence": "Han giver pigen en bog.",
+    "sentenceId": "gave",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Er",
+      "Ihn",
+      "Ihm"
+    ],
+    "tier": 2
+  },
+  "sentence-builder.gave.verb": {
+    "danish": "giver",
+    "german": "gibt",
+    "english": "gives",
+    "sentence": "Han giver pigen en bog.",
+    "sentenceId": "gave",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "gebt",
+      "gibt",
+      "geben"
+    ],
+    "tier": 2
+  },
+  "sentence-builder.gave.object": {
+    "danish": "pigen en bog",
+    "german": "dem Mädchen ein Buch.",
+    "english": "the girl a book",
+    "sentence": "Han giver pigen en bog.",
+    "sentenceId": "gave",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "das Mädchen ein Buch.",
+      "dem Mädchen einem Buch.",
+      "dem Mädchen ein Buch."
+    ],
+    "tier": 2
+  },
+  "sentence-builder.hjaelper.subject": {
+    "danish": "Jeg",
+    "german": "Ich",
+    "english": "I",
+    "sentence": "Jeg hjælper min ven.",
+    "sentenceId": "hjaelper",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Ich",
+      "Mich",
+      "Mir"
+    ],
+    "tier": 2
+  },
+  "sentence-builder.hjaelper.verb": {
+    "danish": "hjælper",
+    "german": "helfe",
+    "english": "help",
+    "sentence": "Jeg hjælper min ven.",
+    "sentenceId": "hjaelper",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "helfen",
+      "helfe",
+      "hilft"
+    ],
+    "tier": 2
+  },
+  "sentence-builder.hjaelper.object": {
+    "danish": "min ven",
+    "german": "meinem Freund.",
+    "english": "my friend",
+    "sentence": "Jeg hjælper min ven.",
+    "sentenceId": "hjaelper",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "meinen Freund.",
+      "mein Freund.",
+      "meinem Freund."
+    ],
+    "tier": 2
+  },
+  "sentence-builder.rejst.subject": {
+    "danish": "Vi",
+    "german": "Wir",
+    "english": "We",
+    "sentence": "Vi er rejst.",
+    "sentenceId": "rejst",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Wir",
+      "Uns",
+      "Ihr"
+    ],
+    "tier": 2
+  },
+  "sentence-builder.rejst.auxiliary": {
+    "danish": "er",
+    "german": "sind",
+    "english": "are",
+    "sentence": "Vi er rejst.",
+    "sentenceId": "rejst",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "haben",
+      "sind",
+      "seid"
+    ],
+    "tier": 2
+  },
+  "sentence-builder.rejst.participle": {
+    "danish": "rejst",
+    "german": "gereist.",
+    "english": "travelled",
+    "sentence": "Vi er rejst.",
+    "sentenceId": "rejst",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "gereißt.",
+      "reist.",
+      "gereist."
+    ],
+    "tier": 2
+  },
+  "sentence-builder.komme.subject": {
+    "danish": "Jeg",
+    "german": "Ich",
+    "english": "I",
+    "sentence": "Jeg kan ikke komme.",
+    "sentenceId": "komme",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Ich",
+      "Mich",
+      "Mir"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.komme.modal": {
+    "danish": "kan",
+    "german": "kann",
+    "english": "can",
+    "sentence": "Jeg kan ikke komme.",
+    "sentenceId": "komme",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "kannst",
+      "kann",
+      "können"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.komme.infinitive": {
+    "danish": "ikke komme",
+    "german": "nicht kommen.",
+    "english": "not come",
+    "sentence": "Jeg kan ikke komme.",
+    "sentenceId": "komme",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "kommen nicht.",
+      "nicht gekommen.",
+      "nicht kommen."
+    ],
+    "tier": 3
+  },
+  "sentence-builder.ryge.subject": {
+    "danish": "Du",
+    "german": "Du",
+    "english": "You",
+    "sentence": "Du må ikke ryge.",
+    "sentenceId": "ryge",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Du",
+      "Dich",
+      "Dir"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.ryge.modal": {
+    "danish": "må",
+    "german": "darfst",
+    "english": "may",
+    "sentence": "Du må ikke ryge.",
+    "sentenceId": "ryge",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "musst",
+      "darfst",
+      "kannst"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.ryge.infinitive": {
+    "danish": "ikke ryge",
+    "german": "nicht rauchen.",
+    "english": "not smoke",
+    "sentence": "Du må ikke ryge.",
+    "sentenceId": "ryge",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "rauchen nicht.",
+      "nicht raucht.",
+      "nicht rauchen."
+    ],
+    "tier": 3
+  },
+  "sentence-builder.hvorbor.main": {
+    "danish": "Jeg ved ikke",
+    "german": "Ich weiß nicht,",
+    "english": "I don't know",
+    "sentence": "Jeg ved ikke hvor han bor.",
+    "sentenceId": "hvorbor",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Ich weiß nicht,",
+      "Ich kenne nicht,",
+      "Ich wissen nicht,"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.hvorbor.conjunction": {
+    "danish": "hvor",
+    "german": "wo",
+    "english": "where",
+    "sentence": "Jeg ved ikke hvor han bor.",
+    "sentenceId": "hvorbor",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "wohin",
+      "wo",
+      "woher"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.hvorbor.clause": {
+    "danish": "han bor",
+    "german": "er wohnt.",
+    "english": "he lives",
+    "sentence": "Jeg ved ikke hvor han bor.",
+    "sentenceId": "hvorbor",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "er wohnen.",
+      "wohnt er.",
+      "er wohnt."
+    ],
+    "tier": 3
+  },
+  "sentence-builder.syg.main": {
+    "danish": "Jeg bliver hjemme",
+    "german": "Ich bleibe zu Hause,",
+    "english": "I stay at home",
+    "sentence": "Jeg bliver hjemme fordi jeg er syg.",
+    "sentenceId": "syg",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Ich bleibe zu Hause,",
+      "Ich bleibe nach Hause,",
+      "Ich bleibst zu Hause,"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.syg.conjunction": {
+    "danish": "fordi",
+    "german": "weil",
+    "english": "because",
+    "sentence": "Jeg bliver hjemme fordi jeg er syg.",
+    "sentenceId": "syg",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "dass",
+      "weil",
+      "ob"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.syg.clause": {
+    "danish": "jeg er syg",
+    "german": "ich krank bin.",
+    "english": "I am ill",
+    "sentence": "Jeg bliver hjemme fordi jeg er syg.",
+    "sentenceId": "syg",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "ich bin krank.",
+      "ich krank ist.",
+      "ich krank bin."
+    ],
+    "tier": 3
+  },
+  "sentence-builder.onkel.subject": {
+    "danish": "Han bor",
+    "german": "Er wohnt",
+    "english": "He lives",
+    "sentence": "Han bor hos sin onkel.",
+    "sentenceId": "onkel",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Er wohnt",
+      "Er wohne",
+      "Er wohnst"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.onkel.preposition": {
+    "danish": "hos",
+    "german": "bei",
+    "english": "with",
+    "sentence": "Han bor hos sin onkel.",
+    "sentenceId": "onkel",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "zu",
+      "bei",
+      "nach"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.onkel.object": {
+    "danish": "sin onkel",
+    "german": "seinem Onkel.",
+    "english": "his uncle",
+    "sentence": "Han bor hos sin onkel.",
+    "sentenceId": "onkel",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "seinen Onkel.",
+      "seines Onkels.",
+      "seinem Onkel."
+    ],
+    "tier": 3
+  },
+  "sentence-builder.tog.subject": {
+    "danish": "Vi kører",
+    "german": "Wir fahren",
+    "english": "We travel",
+    "sentence": "Vi kører med toget.",
+    "sentenceId": "tog",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Wir fahren",
+      "Wir fahrt",
+      "Wir fahre"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.tog.preposition": {
+    "danish": "med",
+    "german": "mit",
+    "english": "by",
+    "sentence": "Vi kører med toget.",
+    "sentenceId": "tog",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "ohne",
+      "mit",
+      "für"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.tog.object": {
+    "danish": "toget",
+    "german": "dem Zug.",
+    "english": "the train",
+    "sentence": "Vi kører med toget.",
+    "sentenceId": "tog",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "den Zug.",
+      "der Zug.",
+      "dem Zug."
+    ],
+    "tier": 3
+  },
+  "sentence-builder.tror.main": {
+    "danish": "Jeg tror",
+    "german": "Ich glaube,",
+    "english": "I think",
+    "sentence": "Jeg tror at han kommer.",
+    "sentenceId": "tror",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Ich glaube,",
+      "Ich glauben,",
+      "Ich glaubst,"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.tror.conjunction": {
+    "danish": "at",
+    "german": "dass",
+    "english": "that",
+    "sentence": "Jeg tror at han kommer.",
+    "sentenceId": "tror",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "das",
+      "dass",
+      "ob"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.tror.clause": {
+    "danish": "han kommer",
+    "german": "er kommt.",
+    "english": "he comes",
+    "sentence": "Jeg tror at han kommer.",
+    "sentenceId": "tror",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "er kommen.",
+      "kommt er.",
+      "er kommt."
+    ],
+    "tier": 3
+  },
+  "sentence-builder.hvistid.condition": {
+    "danish": "Hvis jeg havde tid,",
+    "german": "Wenn ich Zeit hätte,",
+    "english": "If I had time,",
+    "sentence": "Hvis jeg havde tid, ville jeg komme.",
+    "sentenceId": "hvistid",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Wenn ich Zeit hätte,",
+      "Wenn ich Zeit habe,",
+      "Wenn ich Zeit hatte,"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.hvistid.verb": {
+    "danish": "ville jeg",
+    "german": "würde ich",
+    "english": "I would",
+    "sentence": "Hvis jeg havde tid, ville jeg komme.",
+    "sentenceId": "hvistid",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "werde ich",
+      "würde ich",
+      "wurde ich"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.hvistid.infinitive": {
+    "danish": "komme",
+    "german": "kommen.",
+    "english": "come",
+    "sentence": "Hvis jeg havde tid, ville jeg komme.",
+    "sentenceId": "hvistid",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "gekommen.",
+      "kam.",
+      "kommen."
+    ],
+    "tier": 4
+  },
+  "sentence-builder.oenske.main": {
+    "danish": "Jeg ville ønske",
+    "german": "Ich wünschte,",
+    "english": "I wish",
+    "sentence": "Jeg ville ønske du var her.",
+    "sentenceId": "oenske",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Ich wünschte,",
+      "Ich wünsche,",
+      "Ich wünschten,"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.oenske.clause": {
+    "danish": "du var",
+    "german": "du wärst",
+    "english": "you were",
+    "sentence": "Jeg ville ønske du var her.",
+    "sentenceId": "oenske",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "du bist",
+      "du wärst",
+      "du warst"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.oenske.place": {
+    "danish": "her",
+    "german": "hier.",
+    "english": "here",
+    "sentence": "Jeg ville ønske du var her.",
+    "sentenceId": "oenske",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "dort.",
+      "hin.",
+      "hier."
+    ],
+    "tier": 4
+  },
+  "sentence-builder.solgt.subject": {
+    "danish": "Huset",
+    "german": "Das Haus",
+    "english": "The house",
+    "sentence": "Huset er solgt.",
+    "sentenceId": "solgt",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Das Haus",
+      "Dem Haus",
+      "Den Haus"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.solgt.auxiliary": {
+    "danish": "er",
+    "german": "ist",
+    "english": "is",
+    "sentence": "Huset er solgt.",
+    "sentenceId": "solgt",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "hat",
+      "ist",
+      "wird"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.solgt.participle": {
+    "danish": "solgt",
+    "german": "verkauft.",
+    "english": "sold",
+    "sentence": "Huset er solgt.",
+    "sentenceId": "solgt",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "verkaufen.",
+      "verkaufte.",
+      "verkauft."
+    ],
+    "tier": 4
+  },
+  "sentence-builder.broen.subject": {
+    "danish": "Broen",
+    "german": "Die Brücke",
+    "english": "The bridge",
+    "sentence": "Broen blev bygget.",
+    "sentenceId": "broen",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Die Brücke",
+      "Der Brücke",
+      "Das Brücke"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.broen.auxiliary": {
+    "danish": "blev",
+    "german": "wurde",
+    "english": "was",
+    "sentence": "Broen blev bygget.",
+    "sentenceId": "broen",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "wird",
+      "wurde",
+      "wurden"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.broen.participle": {
+    "danish": "bygget",
+    "german": "gebaut.",
+    "english": "built",
+    "sentence": "Broen blev bygget.",
+    "sentenceId": "broen",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "bauen.",
+      "gebaute.",
+      "gebaut."
+    ],
+    "tier": 4
+  },
+  "sentence-builder.vinduet.subject": {
+    "danish": "Vinduet",
+    "german": "Das Fenster",
+    "english": "The window",
+    "sentence": "Vinduet bliver åbnet.",
+    "sentenceId": "vinduet",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Das Fenster",
+      "Dem Fenster",
+      "Den Fenster"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.vinduet.auxiliary": {
+    "danish": "bliver",
+    "german": "wird",
+    "english": "is being",
+    "sentence": "Vinduet bliver åbnet.",
+    "sentenceId": "vinduet",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "werde",
+      "wird",
+      "wurde"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.vinduet.participle": {
+    "danish": "åbnet",
+    "german": "geöffnet.",
+    "english": "opened",
+    "sentence": "Vinduet bliver åbnet.",
+    "sentenceId": "vinduet",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "öffnen.",
+      "geöffnete.",
+      "geöffnet."
+    ],
+    "tier": 4
+  },
+  "sentence-builder.relmand.subject": {
+    "danish": "Manden,",
+    "german": "Der Mann,",
+    "english": "The man,",
+    "sentence": "Manden, som bor her, er min bror.",
+    "sentenceId": "relmand",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Der Mann,",
+      "Den Mann,",
+      "Dem Mann,"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.relmand.relative": {
+    "danish": "som bor her,",
+    "german": "der hier wohnt,",
+    "english": "who lives here,",
+    "sentence": "Manden, som bor her, er min bror.",
+    "sentenceId": "relmand",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "den hier wohnt,",
+      "der hier wohnt,",
+      "das hier wohnt,"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.relmand.predicate": {
+    "danish": "er min bror.",
+    "german": "ist mein Bruder.",
+    "english": "is my brother.",
+    "sentence": "Manden, som bor her, er min bror.",
+    "sentenceId": "relmand",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "sind mein Bruder.",
+      "ist meinen Bruder.",
+      "ist mein Bruder."
+    ],
+    "tier": 4
+  },
+  "sentence-builder.relkvinde.subject": {
+    "danish": "Kvinden,",
+    "german": "Die Frau,",
+    "english": "The woman,",
+    "sentence": "Kvinden, som jeg ser, er min mor.",
+    "sentenceId": "relkvinde",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Die Frau,",
+      "Der Frau,",
+      "Den Frau,"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.relkvinde.relative": {
+    "danish": "som jeg ser,",
+    "german": "die ich sehe,",
+    "english": "whom I see,",
+    "sentence": "Kvinden, som jeg ser, er min mor.",
+    "sentenceId": "relkvinde",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "der ich sehe,",
+      "die ich sehe,",
+      "den ich sehe,"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.relkvinde.predicate": {
+    "danish": "er min mor.",
+    "german": "ist meine Mutter.",
+    "english": "is my mother.",
+    "sentence": "Kvinden, som jeg ser, er min mor.",
+    "sentenceId": "relkvinde",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "ist meiner Mutter.",
+      "ist meinen Mutter.",
+      "ist meine Mutter."
+    ],
+    "tier": 4
+  },
+  "sentence-builder.burde.subject": {
+    "danish": "Du",
+    "german": "Du",
+    "english": "You",
+    "sentence": "Du burde hvile dig.",
+    "sentenceId": "burde",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Du",
+      "Dich",
+      "Dir"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.burde.modal": {
+    "danish": "burde",
+    "german": "solltest",
+    "english": "should",
+    "sentence": "Du burde hvile dig.",
+    "sentenceId": "burde",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "sollst",
+      "solltest",
+      "solltet"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.burde.verb": {
+    "danish": "hvile dig",
+    "german": "dich ausruhen.",
+    "english": "rest",
+    "sentence": "Du burde hvile dig.",
+    "sentenceId": "burde",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "ausruhen dich.",
+      "dir ausruhen.",
+      "dich ausruhen."
+    ],
+    "tier": 4
+  },
+  "sentence-builder.relbog.subject": {
+    "danish": "Bogen,",
+    "german": "Das Buch,",
+    "english": "The book,",
+    "sentence": "Bogen, som jeg læser, er god.",
+    "sentenceId": "relbog",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Das Buch,",
+      "Der Buch,",
+      "Dem Buch,"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.relbog.relative": {
+    "danish": "som jeg læser,",
+    "german": "das ich lese,",
+    "english": "that I read,",
+    "sentence": "Bogen, som jeg læser, er god.",
+    "sentenceId": "relbog",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "der ich lese,",
+      "das ich lese,",
+      "die ich lese,"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.relbog.predicate": {
+    "danish": "er god.",
+    "german": "ist gut.",
+    "english": "is good.",
+    "sentence": "Bogen, som jeg læser, er god.",
+    "sentenceId": "relbog",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "sind gut.",
+      "ist gute.",
+      "ist gut."
+    ],
+    "tier": 4
+  },
+  "sentence-builder.hvisrig.condition": {
+    "danish": "Hvis jeg var rig,",
+    "german": "Wenn ich reich wäre,",
+    "english": "If I were rich,",
+    "sentence": "Hvis jeg var rig, ville jeg rejse.",
+    "sentenceId": "hvisrig",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Wenn ich reich wäre,",
+      "Wenn ich reich bin,",
+      "Wenn ich reich war,"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.hvisrig.verb": {
+    "danish": "ville jeg",
+    "german": "würde ich",
+    "english": "I would",
+    "sentence": "Hvis jeg var rig, ville jeg rejse.",
+    "sentenceId": "hvisrig",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "werde ich",
+      "würde ich",
+      "wurde ich"
+    ],
+    "tier": 4
+  },
+  "sentence-builder.hvisrig.infinitive": {
+    "danish": "rejse",
+    "german": "reisen.",
+    "english": "travel",
+    "sentence": "Hvis jeg var rig, ville jeg rejse.",
+    "sentenceId": "hvisrig",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "gereist.",
+      "reiste.",
+      "reisen."
+    ],
+    "tier": 4
+  },
+  "sentence-builder.bilenfar.main": {
+    "danish": "Det er",
+    "german": "Das ist",
+    "english": "This is",
+    "sentence": "Det er bilen til min far.",
+    "sentenceId": "bilenfar",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Das ist",
+      "Das bist",
+      "Dies sind"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.bilenfar.noun": {
+    "danish": "bilen",
+    "german": "das Auto",
+    "english": "the car",
+    "sentence": "Det er bilen til min far.",
+    "sentenceId": "bilenfar",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "des Autos",
+      "das Auto",
+      "dem Auto"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.bilenfar.genitive": {
+    "danish": "til min far",
+    "german": "meines Vaters.",
+    "english": "of my father",
+    "sentence": "Det er bilen til min far.",
+    "sentenceId": "bilenfar",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "meinem Vater.",
+      "meinen Vater.",
+      "meines Vaters."
+    ],
+    "tier": 3
+  },
+  "sentence-builder.regnen.preposition": {
+    "danish": "På grund af",
+    "german": "Wegen",
+    "english": "Because of",
+    "sentence": "På grund af regnen blev vi hjemme.",
+    "sentenceId": "regnen",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Wegen",
+      "Trotz",
+      "Ohne"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.regnen.genitive": {
+    "danish": "regnen",
+    "german": "des Regens",
+    "english": "the rain",
+    "sentence": "På grund af regnen blev vi hjemme.",
+    "sentenceId": "regnen",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "dem Regen",
+      "des Regens",
+      "den Regen"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.regnen.verb": {
+    "danish": "blev vi hjemme",
+    "german": "blieben wir zu Hause.",
+    "english": "we stayed at home",
+    "sentence": "På grund af regnen blev vi hjemme.",
+    "sentenceId": "regnen",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "wir blieben zu Hause.",
+      "blieb wir zu Hause.",
+      "blieben wir zu Hause."
+    ],
+    "tier": 5
+  },
+  "sentence-builder.trods.preposition": {
+    "danish": "Trods",
+    "german": "Trotz",
+    "english": "Despite",
+    "sentence": "Trods det dårlige vejr gik vi ud.",
+    "sentenceId": "trods",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Trotz",
+      "Wegen",
+      "Statt"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.trods.genitive": {
+    "danish": "det dårlige vejr",
+    "german": "des schlechten Wetters",
+    "english": "the bad weather",
+    "sentence": "Trods det dårlige vejr gik vi ud.",
+    "sentenceId": "trods",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "des schlechte Wetters",
+      "des schlechten Wetters",
+      "der schlechten Wetters"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.trods.verb": {
+    "danish": "gik vi ud",
+    "german": "gingen wir aus.",
+    "english": "we went out",
+    "sentence": "Trods det dårlige vejr gik vi ud.",
+    "sentenceId": "trods",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "wir gingen aus.",
+      "gingen aus wir.",
+      "gingen wir aus."
+    ],
+    "tier": 5
+  },
+  "sentence-builder.henviser.verb": {
+    "danish": "Jeg henviser",
+    "german": "Ich beziehe mich",
+    "english": "I refer",
+    "sentence": "Jeg henviser til Deres brev.",
+    "sentenceId": "henviser",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Ich beziehe mich",
+      "Ich beziehe sich",
+      "Ich bezieht mich"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.henviser.preposition": {
+    "danish": "til",
+    "german": "auf",
+    "english": "to",
+    "sentence": "Jeg henviser til Deres brev.",
+    "sentenceId": "henviser",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "zu",
+      "auf",
+      "an"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.henviser.object": {
+    "danish": "Deres brev",
+    "german": "Ihr Schreiben.",
+    "english": "your letter",
+    "sentence": "Jeg henviser til Deres brev.",
+    "sentenceId": "henviser",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "Ihrem Schreiben.",
+      "Ihres Schreiben.",
+      "Ihr Schreiben."
+    ],
+    "tier": 5
+  },
+  "sentence-builder.beklager.main": {
+    "danish": "Vi beklager",
+    "german": "Wir bedauern,",
+    "english": "We regret",
+    "sentence": "Vi beklager at vi ikke kan hjælpe.",
+    "sentenceId": "beklager",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Wir bedauern,",
+      "Wir bedauert,",
+      "Wir bedauerst,"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.beklager.conjunction": {
+    "danish": "at",
+    "german": "dass",
+    "english": "that",
+    "sentence": "Vi beklager at vi ikke kan hjælpe.",
+    "sentenceId": "beklager",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "das",
+      "dass",
+      "ob"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.beklager.clause": {
+    "danish": "vi ikke kan hjælpe",
+    "german": "wir nicht helfen können.",
+    "english": "we cannot help",
+    "sentence": "Vi beklager at vi ikke kan hjælpe.",
+    "sentenceId": "beklager",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "wir nicht können helfen.",
+      "wir können nicht helfen.",
+      "wir nicht helfen können."
+    ],
+    "tier": 5
+  },
+  "sentence-builder.kunnet.auxiliary": {
+    "danish": "Hun har",
+    "german": "Sie hat",
+    "english": "She has",
+    "sentence": "Hun har ikke kunnet komme.",
+    "sentenceId": "kunnet",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Sie hat",
+      "Sie haben",
+      "Sie hast"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.kunnet.negation": {
+    "danish": "ikke",
+    "german": "nicht",
+    "english": "not",
+    "sentence": "Hun har ikke kunnet komme.",
+    "sentenceId": "kunnet",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "kein",
+      "nicht",
+      "nichts"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.kunnet.verbs": {
+    "danish": "kunnet komme",
+    "german": "kommen können.",
+    "english": "been able to come",
+    "sentence": "Hun har ikke kunnet komme.",
+    "sentenceId": "kunnet",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "gekommen können.",
+      "kommen gekonnt.",
+      "kommen können."
+    ],
+    "tier": 5
+  },
+  "sentence-builder.kopte.main": {
+    "danish": "Det er ikke",
+    "german": "Das ist nicht",
+    "english": "That is not",
+    "sentence": "Det er ikke min kop te.",
+    "sentenceId": "kopte",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Das ist nicht",
+      "Das bist nicht",
+      "Das ist kein"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.kopte.possessive": {
+    "danish": "min",
+    "german": "meine",
+    "english": "my",
+    "sentence": "Det er ikke min kop te.",
+    "sentenceId": "kopte",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "meiner",
+      "meine",
+      "meinen"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.kopte.noun": {
+    "danish": "kop te",
+    "german": "Tasse Tee.",
+    "english": "cup of tea",
+    "sentence": "Det er ikke min kop te.",
+    "sentenceId": "kopte",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "Tasse Kaffee.",
+      "Glas Tee.",
+      "Tasse Tee."
+    ],
+    "tier": 5
+  },
+  "sentence-builder.lovet.auxiliary": {
+    "danish": "Han har",
+    "german": "Er hat",
+    "english": "He has",
+    "sentence": "Han har lovet at komme.",
+    "sentenceId": "lovet",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Er hat",
+      "Er ist",
+      "Er hast"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.lovet.participle": {
+    "danish": "lovet",
+    "german": "versprochen,",
+    "english": "promised",
+    "sentence": "Han har lovet at komme.",
+    "sentenceId": "lovet",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "versprechen,",
+      "versprochen,",
+      "versprach,"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.lovet.infinitive": {
+    "danish": "at komme",
+    "german": "zu kommen.",
+    "english": "to come",
+    "sentence": "Han har lovet at komme.",
+    "sentenceId": "lovet",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "zu gekommen.",
+      "kommen zu.",
+      "zu kommen."
+    ],
+    "tier": 3
+  },
+  "sentence-builder.forfatter.verb": {
+    "danish": "Jeg kender",
+    "german": "Ich kenne",
+    "english": "I know",
+    "sentence": "Jeg kender forfatteren til bogen.",
+    "sentenceId": "forfatter",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Ich kenne",
+      "Ich kennen",
+      "Ich kennt"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.forfatter.object": {
+    "danish": "forfatteren",
+    "german": "den Autor",
+    "english": "the author",
+    "sentence": "Jeg kender forfatteren til bogen.",
+    "sentenceId": "forfatter",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "der Autor",
+      "den Autor",
+      "dem Autor"
+    ],
+    "tier": 3
+  },
+  "sentence-builder.forfatter.genitive": {
+    "danish": "til bogen",
+    "german": "des Buches.",
+    "english": "of the book",
+    "sentence": "Jeg kender forfatteren til bogen.",
+    "sentenceId": "forfatter",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "dem Buch.",
+      "das Buch.",
+      "des Buches."
+    ],
+    "tier": 3
+  },
+  "sentence-builder.taknemmelig.main": {
+    "danish": "Jeg ville være taknemmelig,",
+    "german": "Ich wäre dankbar,",
+    "english": "I would be grateful,",
+    "sentence": "Jeg ville være taknemmelig, hvis De ville svare.",
+    "sentenceId": "taknemmelig",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Ich wäre dankbar,",
+      "Ich bin dankbar,",
+      "Ich war dankbar,"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.taknemmelig.conjunction": {
+    "danish": "hvis",
+    "german": "wenn",
+    "english": "if",
+    "sentence": "Jeg ville være taknemmelig, hvis De ville svare.",
+    "sentenceId": "taknemmelig",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "ob",
+      "wenn",
+      "dass"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.taknemmelig.clause": {
+    "danish": "De ville svare.",
+    "german": "Sie antworten würden.",
+    "english": "you would reply.",
+    "sentence": "Jeg ville være taknemmelig, hvis De ville svare.",
+    "sentenceId": "taknemmelig",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "Sie antworteten würden.",
+      "Sie würden antworten.",
+      "Sie antworten würden."
+    ],
+    "tier": 5
+  },
+  "sentence-builder.paastod.main": {
+    "danish": "Han påstod,",
+    "german": "Er behauptete,",
+    "english": "He claimed,",
+    "sentence": "Han påstod, at han var uskyldig.",
+    "sentenceId": "paastod",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Er behauptete,",
+      "Er behaupten,",
+      "Er behauptet sich,"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.paastod.subjunctive": {
+    "danish": "at han var",
+    "german": "er sei",
+    "english": "(that) he was",
+    "sentence": "Han påstod, at han var uskyldig.",
+    "sentenceId": "paastod",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "er sei",
+      "er sein",
+      "er seid"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.paastod.adjective": {
+    "danish": "uskyldig.",
+    "german": "unschuldig.",
+    "english": "innocent.",
+    "sentence": "Han påstod, at han var uskyldig.",
+    "sentenceId": "paastod",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "unschuldig.",
+      "unschuldige.",
+      "unschuldigen."
+    ],
+    "tier": 5
+  },
+  "sentence-builder.medmindre.main": {
+    "danish": "Vi går ud,",
+    "german": "Wir gehen aus,",
+    "english": "We go out,",
+    "sentence": "Vi går ud, medmindre det regner.",
+    "sentenceId": "medmindre",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Wir gehen aus,",
+      "Wir geht aus,",
+      "Wir ausgehen,"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.medmindre.conjunction": {
+    "danish": "medmindre",
+    "german": "es sei denn,",
+    "english": "unless",
+    "sentence": "Vi går ud, medmindre det regner.",
+    "sentenceId": "medmindre",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "es sei denn,",
+      "es ist denn,",
+      "es sei dann,"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.medmindre.clause": {
+    "danish": "det regner.",
+    "german": "es regnet.",
+    "english": "it rains.",
+    "sentence": "Vi går ud, medmindre det regner.",
+    "sentenceId": "medmindre",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "es regnet.",
+      "es regnen.",
+      "regnet es."
+    ],
+    "tier": 5
+  },
+  "sentence-builder.afslutning.preposition": {
+    "danish": "Efter afslutningen",
+    "german": "Nach Abschluss",
+    "english": "After the completion",
+    "sentence": "Efter afslutningen af arbejdet gik vi hjem.",
+    "sentenceId": "afslutning",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Nach Abschluss",
+      "Nach Abschlusses",
+      "Nach abschließen"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.afslutning.genitive": {
+    "danish": "af arbejdet",
+    "german": "der Arbeiten",
+    "english": "of the work",
+    "sentence": "Efter afslutningen af arbejdet gik vi hjem.",
+    "sentenceId": "afslutning",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "der Arbeiten",
+      "den Arbeiten",
+      "die Arbeiten"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.afslutning.verb": {
+    "danish": "gik vi hjem.",
+    "german": "gingen wir nach Hause.",
+    "english": "we went home.",
+    "sentence": "Efter afslutningen af arbejdet gik vi hjem.",
+    "sentenceId": "afslutning",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "gingen wir nach Hause.",
+      "wir gingen nach Hause.",
+      "gingen nach Hause wir."
+    ],
+    "tier": 5
   }
 }

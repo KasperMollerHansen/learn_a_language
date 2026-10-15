@@ -2,211 +2,1711 @@
   "people.mother": {
     "danish": "mor",
     "german": "Mutter",
+    "english": "mother",
     "gender": "die",
     "danishDefinite": "moren",
-    "danishIndefinite": "en mor"
+    "danishIndefinite": "en mor",
+    "tier": 1
   },
   "people.father": {
     "danish": "far",
     "german": "Vater",
+    "english": "father",
     "gender": "der",
     "danishDefinite": "faren",
-    "danishIndefinite": "en far"
+    "danishIndefinite": "en far",
+    "tier": 1
   },
   "people.child": {
     "danish": "barn",
     "german": "Kind",
+    "english": "child",
     "gender": "das",
     "danishDefinite": "barnet",
-    "danishIndefinite": "et barn"
+    "danishIndefinite": "et barn",
+    "tier": 1
   },
   "people.baby": {
     "danish": "baby",
     "german": "Baby",
+    "english": "baby",
     "gender": "das",
     "danishDefinite": "babyen",
-    "danishIndefinite": "en baby"
+    "danishIndefinite": "en baby",
+    "tier": 1
   },
   "people.son": {
     "danish": "søn",
     "german": "Sohn",
+    "english": "son",
     "gender": "der",
     "danishDefinite": "sønnen",
-    "danishIndefinite": "en søn"
+    "danishIndefinite": "en søn",
+    "tier": 1
   },
   "people.daughter": {
     "danish": "datter",
     "german": "Tochter",
+    "english": "daughter",
     "gender": "die",
     "danishDefinite": "datteren",
-    "danishIndefinite": "en datter"
+    "danishIndefinite": "en datter",
+    "tier": 1
   },
   "people.brother": {
     "danish": "bror",
     "german": "Bruder",
+    "english": "brother",
     "gender": "der",
     "danishDefinite": "broren",
-    "danishIndefinite": "en bror"
+    "danishIndefinite": "en bror",
+    "tier": 1
   },
   "people.sister": {
     "danish": "søster",
     "german": "Schwester",
+    "english": "sister",
     "gender": "die",
     "danishDefinite": "søsteren",
-    "danishIndefinite": "en søster"
+    "danishIndefinite": "en søster",
+    "tier": 1
   },
   "people.grandmother": {
     "danish": "bedstemor",
     "german": "Großmutter",
+    "english": "grandmother",
     "gender": "die",
     "danishDefinite": "bedstemoren",
-    "danishIndefinite": "en bedstemor"
+    "danishIndefinite": "en bedstemor",
+    "tier": 2
   },
   "people.grandfather": {
     "danish": "bedstefar",
     "german": "Großvater",
+    "english": "grandfather",
     "gender": "der",
     "danishDefinite": "bedstefaren",
-    "danishIndefinite": "en bedstefar"
+    "danishIndefinite": "en bedstefar",
+    "tier": 2
   },
   "people.family": {
     "danish": "familie",
     "german": "Familie",
+    "english": "family",
     "gender": "die",
     "danishDefinite": "familien",
-    "danishIndefinite": "en familie"
+    "danishIndefinite": "en familie",
+    "tier": 1
   },
   "people.friend": {
     "danish": "ven",
     "german": "Freund",
+    "english": "friend",
     "gender": "der",
     "danishDefinite": "vennen",
-    "danishIndefinite": "en ven"
+    "danishIndefinite": "en ven",
+    "tier": 1
   },
   "people.female-friend": {
     "danish": "veninde",
     "german": "Freundin",
+    "english": "friend (female)",
     "gender": "die",
     "danishDefinite": "veninden",
-    "danishIndefinite": "en veninde"
+    "danishIndefinite": "en veninde",
+    "tier": 2
   },
   "people.person": {
     "danish": "person",
     "german": "Person",
+    "english": "person",
     "gender": "die",
     "danishDefinite": "personen",
-    "danishIndefinite": "en person"
+    "danishIndefinite": "en person",
+    "tier": 2
   },
   "people.man": {
     "danish": "mand",
     "german": "Mann",
+    "english": "man",
     "gender": "der",
     "danishDefinite": "manden",
-    "danishIndefinite": "en mand"
+    "danishIndefinite": "en mand",
+    "tier": 1
   },
   "people.woman": {
     "danish": "kvinde",
     "german": "Frau",
+    "english": "woman",
     "gender": "die",
     "danishDefinite": "kvinden",
-    "danishIndefinite": "en kvinde"
+    "danishIndefinite": "en kvinde",
+    "tier": 1
   },
   "people.girl": {
     "danish": "pige",
     "german": "Mädchen",
+    "english": "girl",
     "gender": "das",
     "danishDefinite": "pigen",
-    "danishIndefinite": "en pige"
+    "danishIndefinite": "en pige",
+    "tier": 1
   },
   "people.boy": {
     "danish": "dreng",
     "german": "Junge",
+    "english": "boy",
     "gender": "der",
     "danishDefinite": "drengen",
-    "danishIndefinite": "en dreng"
+    "danishIndefinite": "en dreng",
+    "tier": 1
   },
   "people.uncle": {
     "danish": "onkel",
     "german": "Onkel",
+    "english": "uncle",
     "gender": "der",
     "danishDefinite": "onklen",
-    "danishIndefinite": "en onkel"
+    "danishIndefinite": "en onkel",
+    "tier": 2
   },
   "people.aunt": {
     "danish": "tante",
     "german": "Tante",
+    "english": "aunt",
     "gender": "die",
     "danishDefinite": "tanten",
-    "danishIndefinite": "en tante"
+    "danishIndefinite": "en tante",
+    "tier": 2
   },
   "people.male-cousin": {
     "danish": "fætter",
     "german": "Cousin",
+    "english": "cousin (male)",
     "gender": "der",
     "danishDefinite": "fætteren",
-    "danishIndefinite": "en fætter"
+    "danishIndefinite": "en fætter",
+    "tier": 3
   },
   "people.female-cousin": {
     "danish": "kusine",
     "german": "Cousine",
+    "english": "cousin (female)",
     "gender": "die",
     "danishDefinite": "kusinen",
-    "danishIndefinite": "en kusine"
+    "danishIndefinite": "en kusine",
+    "tier": 3
   },
   "people.neighbor": {
     "danish": "nabo",
     "german": "Nachbar",
+    "english": "neighbor",
     "gender": "der",
     "danishDefinite": "naboen",
-    "danishIndefinite": "en nabo"
+    "danishIndefinite": "en nabo",
+    "tier": 2
   },
   "people.teacher": {
     "danish": "lærer",
     "german": "Lehrer",
+    "english": "teacher",
     "gender": "der",
     "danishDefinite": "læreren",
-    "danishIndefinite": "en lærer"
+    "danishIndefinite": "en lærer",
+    "tier": 2
   },
   "people.student": {
     "danish": "elev",
     "german": "Schüler",
+    "english": "student",
     "gender": "der",
     "danishDefinite": "eleven",
-    "danishIndefinite": "en elev"
+    "danishIndefinite": "en elev",
+    "tier": 2
   },
   "people.doctor": {
     "danish": "læge",
     "german": "Arzt",
+    "english": "doctor",
     "gender": "der",
     "danishDefinite": "lægen",
-    "danishIndefinite": "en læge"
+    "danishIndefinite": "en læge",
+    "tier": 2
   },
   "people.nurse": {
     "danish": "sygeplejerske",
     "german": "Krankenschwester",
+    "english": "nurse",
     "gender": "die",
     "danishDefinite": "sygeplejersken",
-    "danishIndefinite": "en sygeplejerske"
+    "danishIndefinite": "en sygeplejerske",
+    "tier": 3
   },
   "people.colleague": {
     "danish": "kollega",
     "german": "Kollege",
+    "english": "colleague",
     "gender": "der",
     "danishDefinite": "kollegaen",
-    "danishIndefinite": "en kollega"
+    "danishIndefinite": "en kollega",
+    "tier": 1
   },
   "people.guest": {
     "danish": "gæst",
     "german": "Gast",
+    "english": "guest",
     "gender": "der",
     "danishDefinite": "gæsten",
-    "danishIndefinite": "en gæst"
+    "danishIndefinite": "en gæst",
+    "tier": 2
   },
   "people.boss": {
     "danish": "chef",
     "german": "Chef",
+    "english": "boss",
     "gender": "der",
     "danishDefinite": "chefen",
-    "danishIndefinite": "en chef"
+    "danishIndefinite": "en chef",
+    "tier": 2
+  },
+  "people.spouse": {
+    "danish": "ægtefælle",
+    "german": "Ehepartner",
+    "english": "spouse",
+    "gender": "der",
+    "danishDefinite": "ægtefællen",
+    "danishIndefinite": "en ægtefælle",
+    "tier": 3
+  },
+  "people.husband": {
+    "danish": "ægtemand",
+    "german": "Ehemann",
+    "english": "husband",
+    "gender": "der",
+    "danishDefinite": "ægtemanden",
+    "danishIndefinite": "en ægtemand",
+    "tier": 2
+  },
+  "people.wife": {
+    "danish": "hustru",
+    "german": "Ehefrau",
+    "english": "wife",
+    "gender": "die",
+    "danishDefinite": "hustruen",
+    "danishIndefinite": "en hustru",
+    "tier": 2
+  },
+  "people.mother-in-law": {
+    "danish": "svigermor",
+    "german": "Schwiegermutter",
+    "english": "mother-in-law",
+    "gender": "die",
+    "danishDefinite": "svigermoren",
+    "danishIndefinite": "en svigermor",
+    "tier": 3
+  },
+  "people.father-in-law": {
+    "danish": "svigerfar",
+    "german": "Schwiegervater",
+    "english": "father-in-law",
+    "gender": "der",
+    "danishDefinite": "svigerfaren",
+    "danishIndefinite": "en svigerfar",
+    "tier": 3
+  },
+  "people.brother-in-law": {
+    "danish": "svoger",
+    "german": "Schwager",
+    "english": "brother-in-law",
+    "gender": "der",
+    "danishDefinite": "svogeren",
+    "danishIndefinite": "en svoger",
+    "tier": 4
+  },
+  "people.sister-in-law": {
+    "danish": "svigerinde",
+    "german": "Schwägerin",
+    "english": "sister-in-law",
+    "gender": "die",
+    "danishDefinite": "svigerinden",
+    "danishIndefinite": "en svigerinde",
+    "tier": 4
+  },
+  "people.nephew": {
+    "danish": "nevø",
+    "german": "Neffe",
+    "english": "nephew",
+    "gender": "der",
+    "danishDefinite": "nevøen",
+    "danishIndefinite": "en nevø",
+    "tier": 3
+  },
+  "people.niece": {
+    "danish": "niece",
+    "german": "Nichte",
+    "english": "niece",
+    "gender": "die",
+    "danishDefinite": "niecen",
+    "danishIndefinite": "en niece",
+    "tier": 3
+  },
+  "people.grandchild": {
+    "danish": "barnebarn",
+    "german": "Enkelkind",
+    "english": "grandchild",
+    "gender": "das",
+    "danishDefinite": "barnebarnet",
+    "danishIndefinite": "et barnebarn",
+    "tier": 2
+  },
+  "people.twin": {
+    "danish": "tvilling",
+    "german": "Zwilling",
+    "english": "twin",
+    "gender": "der",
+    "danishDefinite": "tvillingen",
+    "danishIndefinite": "en tvilling",
+    "tier": 3
+  },
+  "people.stepfather": {
+    "danish": "stedfar",
+    "german": "Stiefvater",
+    "english": "stepfather",
+    "gender": "der",
+    "danishDefinite": "stedfaren",
+    "danishIndefinite": "en stedfar",
+    "tier": 4
+  },
+  "people.stepmother": {
+    "danish": "stedmor",
+    "german": "Stiefmutter",
+    "english": "stepmother",
+    "gender": "die",
+    "danishDefinite": "stedmoren",
+    "danishIndefinite": "en stedmor",
+    "tier": 4
+  },
+  "people.adopted-child": {
+    "danish": "adoptivbarn",
+    "german": "Adoptivkind",
+    "english": "adopted child",
+    "gender": "das",
+    "danishDefinite": "adoptivbarnet",
+    "danishIndefinite": "et adoptivbarn",
+    "tier": 4
+  },
+  "people.bride": {
+    "danish": "brud",
+    "german": "Braut",
+    "english": "bride",
+    "gender": "die",
+    "danishDefinite": "bruden",
+    "danishIndefinite": "en brud",
+    "tier": 3
+  },
+  "people.groom": {
+    "danish": "brudgom",
+    "german": "Bräutigam",
+    "english": "groom",
+    "gender": "der",
+    "danishDefinite": "brudgommen",
+    "danishIndefinite": "en brudgom",
+    "tier": 4
+  },
+  "people.widow": {
+    "danish": "enke",
+    "german": "Witwe",
+    "english": "widow",
+    "gender": "die",
+    "danishDefinite": "enken",
+    "danishIndefinite": "en enke",
+    "tier": 4
+  },
+  "people.widower": {
+    "danish": "enkemand",
+    "german": "Witwer",
+    "english": "widower",
+    "gender": "der",
+    "danishDefinite": "enkemanden",
+    "danishIndefinite": "en enkemand",
+    "tier": 4
+  },
+  "people.godfather": {
+    "danish": "gudfar",
+    "german": "Pate",
+    "english": "godfather",
+    "gender": "der",
+    "danishDefinite": "gudfaren",
+    "danishIndefinite": "en gudfar",
+    "tier": 4
+  },
+  "people.godmother": {
+    "danish": "gudmor",
+    "german": "Patin",
+    "english": "godmother",
+    "gender": "die",
+    "danishDefinite": "gudmoren",
+    "danishIndefinite": "en gudmor",
+    "tier": 4
+  },
+  "people.godchild": {
+    "danish": "gudbarn",
+    "german": "Patenkind",
+    "english": "godchild",
+    "gender": "das",
+    "danishDefinite": "gudbarnet",
+    "danishIndefinite": "et gudbarn",
+    "tier": 4
+  },
+  "people.infant": {
+    "danish": "spædbarn",
+    "german": "Säugling",
+    "english": "infant",
+    "gender": "der",
+    "danishDefinite": "spædbarnet",
+    "danishIndefinite": "et spædbarn",
+    "tier": 5
+  },
+  "people.toddler": {
+    "danish": "småbarn",
+    "german": "Kleinkind",
+    "english": "toddler",
+    "gender": "das",
+    "danishDefinite": "småbarnet",
+    "danishIndefinite": "et småbarn",
+    "tier": 4
+  },
+  "people.teenager": {
+    "danish": "teenager",
+    "german": "Teenager",
+    "english": "teenager",
+    "gender": "der",
+    "danishDefinite": "teenageren",
+    "danishIndefinite": "en teenager",
+    "tier": 3
+  },
+  "people.human-being": {
+    "danish": "menneske",
+    "german": "Mensch",
+    "english": "human being",
+    "gender": "der",
+    "danishDefinite": "mennesket",
+    "danishIndefinite": "et menneske",
+    "tier": 1
+  },
+  "people.gentleman": {
+    "danish": "herre",
+    "german": "Herr",
+    "english": "gentleman",
+    "gender": "der",
+    "danishDefinite": "herren",
+    "danishIndefinite": "en herre",
+    "tier": 2
+  },
+  "people.lady": {
+    "danish": "dame",
+    "german": "Dame",
+    "english": "lady",
+    "gender": "die",
+    "danishDefinite": "damen",
+    "danishIndefinite": "en dame",
+    "tier": 2
+  },
+  "people.pensioner": {
+    "danish": "pensionist",
+    "german": "Rentner",
+    "english": "pensioner",
+    "gender": "der",
+    "danishDefinite": "pensionisten",
+    "danishIndefinite": "en pensionist",
+    "tier": 3
+  },
+  "people.customer": {
+    "danish": "kunde",
+    "german": "Kunde",
+    "english": "customer",
+    "gender": "der",
+    "danishDefinite": "kunden",
+    "danishIndefinite": "en kunde",
+    "tier": 2
+  },
+  "people.host": {
+    "danish": "vært",
+    "german": "Gastgeber",
+    "english": "host",
+    "gender": "der",
+    "danishDefinite": "værten",
+    "danishIndefinite": "en vært",
+    "tier": 3
+  },
+  "people.hostess": {
+    "danish": "værtinde",
+    "german": "Gastgeberin",
+    "english": "hostess",
+    "gender": "die",
+    "danishDefinite": "værtinden",
+    "danishIndefinite": "en værtinde",
+    "tier": 3
+  },
+  "people.spectator": {
+    "danish": "tilskuer",
+    "german": "Zuschauer",
+    "english": "spectator",
+    "gender": "der",
+    "danishDefinite": "tilskueren",
+    "danishIndefinite": "en tilskuer",
+    "tier": 3
+  },
+  "people.participant": {
+    "danish": "deltager",
+    "german": "Teilnehmer",
+    "english": "participant",
+    "gender": "der",
+    "danishDefinite": "deltageren",
+    "danishIndefinite": "en deltager",
+    "tier": 3
+  },
+  "people.member": {
+    "danish": "medlem",
+    "german": "Mitglied",
+    "english": "member",
+    "gender": "das",
+    "danishDefinite": "medlemmet",
+    "danishIndefinite": "et medlem",
+    "tier": 3
+  },
+  "people.opponent": {
+    "danish": "modstander",
+    "german": "Gegner",
+    "english": "opponent",
+    "gender": "der",
+    "danishDefinite": "modstanderen",
+    "danishIndefinite": "en modstander",
+    "tier": 3
+  },
+  "people.winner": {
+    "danish": "vinder",
+    "german": "Gewinner",
+    "english": "winner",
+    "gender": "der",
+    "danishDefinite": "vinderen",
+    "danishIndefinite": "en vinder",
+    "tier": 3
+  },
+  "people.loser": {
+    "danish": "taber",
+    "german": "Verlierer",
+    "english": "loser",
+    "gender": "der",
+    "danishDefinite": "taberen",
+    "danishIndefinite": "en taber",
+    "tier": 4
+  },
+  "people.player": {
+    "danish": "spiller",
+    "german": "Spieler",
+    "english": "player",
+    "gender": "der",
+    "danishDefinite": "spilleren",
+    "danishIndefinite": "en spiller",
+    "tier": 2
+  },
+  "people.coach": {
+    "danish": "træner",
+    "german": "Trainer",
+    "english": "coach",
+    "gender": "der",
+    "danishDefinite": "træneren",
+    "danishIndefinite": "en træner",
+    "tier": 3
+  },
+  "people.judge": {
+    "danish": "dommer",
+    "german": "Richter",
+    "english": "judge",
+    "gender": "der",
+    "danishDefinite": "dommeren",
+    "danishIndefinite": "en dommer",
+    "tier": 4
+  },
+  "people.enemy": {
+    "danish": "fjende",
+    "german": "Feind",
+    "english": "enemy",
+    "gender": "der",
+    "danishDefinite": "fjenden",
+    "danishIndefinite": "en fjende",
+    "tier": 4
+  },
+  "people.hero": {
+    "danish": "helt",
+    "german": "Held",
+    "english": "hero",
+    "gender": "der",
+    "danishDefinite": "helten",
+    "danishIndefinite": "en helt",
+    "tier": 3
+  },
+  "people.heroine": {
+    "danish": "heltinde",
+    "german": "Heldin",
+    "english": "heroine",
+    "gender": "die",
+    "danishDefinite": "heltinden",
+    "danishIndefinite": "en heltinde",
+    "tier": 4
+  },
+  "people.king": {
+    "danish": "konge",
+    "german": "König",
+    "english": "king",
+    "gender": "der",
+    "danishDefinite": "kongen",
+    "danishIndefinite": "en konge",
+    "tier": 2
+  },
+  "people.queen": {
+    "danish": "dronning",
+    "german": "Königin",
+    "english": "queen",
+    "gender": "die",
+    "danishDefinite": "dronningen",
+    "danishIndefinite": "en dronning",
+    "tier": 2
+  },
+  "people.prince": {
+    "danish": "prins",
+    "german": "Prinz",
+    "english": "prince",
+    "gender": "der",
+    "danishDefinite": "prinsen",
+    "danishIndefinite": "en prins",
+    "tier": 3
+  },
+  "people.princess": {
+    "danish": "prinsesse",
+    "german": "Prinzessin",
+    "english": "princess",
+    "gender": "die",
+    "danishDefinite": "prinsessen",
+    "danishIndefinite": "en prinsesse",
+    "tier": 3
+  },
+  "people.emperor": {
+    "danish": "kejser",
+    "german": "Kaiser",
+    "english": "emperor",
+    "gender": "der",
+    "danishDefinite": "kejseren",
+    "danishIndefinite": "en kejser",
+    "tier": 4
+  },
+  "people.president": {
+    "danish": "præsident",
+    "german": "Präsident",
+    "english": "president",
+    "gender": "der",
+    "danishDefinite": "præsidenten",
+    "danishIndefinite": "en præsident",
+    "tier": 3
+  },
+  "people.chancellor": {
+    "danish": "kansler",
+    "german": "Kanzler",
+    "english": "chancellor",
+    "gender": "der",
+    "danishDefinite": "kansleren",
+    "danishIndefinite": "en kansler",
+    "tier": 4
+  },
+  "people.minister": {
+    "danish": "minister",
+    "german": "Minister",
+    "english": "minister",
+    "gender": "der",
+    "danishDefinite": "ministeren",
+    "danishIndefinite": "en minister",
+    "tier": 4
+  },
+  "people.mayor": {
+    "danish": "borgmester",
+    "german": "Bürgermeister",
+    "english": "mayor",
+    "gender": "der",
+    "danishDefinite": "borgmesteren",
+    "danishIndefinite": "en borgmester",
+    "tier": 3
+  },
+  "people.politician": {
+    "danish": "politiker",
+    "german": "Politiker",
+    "english": "politician",
+    "gender": "der",
+    "danishDefinite": "politikeren",
+    "danishIndefinite": "en politiker",
+    "tier": 3
+  },
+  "people.soldier": {
+    "danish": "soldat",
+    "german": "Soldat",
+    "english": "soldier",
+    "gender": "der",
+    "danishDefinite": "soldaten",
+    "danishIndefinite": "en soldat",
+    "tier": 3
+  },
+  "people.officer": {
+    "danish": "officer",
+    "german": "Offizier",
+    "english": "officer",
+    "gender": "der",
+    "danishDefinite": "officeren",
+    "danishIndefinite": "en officer",
+    "tier": 4
+  },
+  "people.citizen": {
+    "danish": "borger",
+    "german": "Bürger",
+    "english": "citizen",
+    "gender": "der",
+    "danishDefinite": "borgeren",
+    "danishIndefinite": "en borger",
+    "tier": 3
+  },
+  "people.inhabitant": {
+    "danish": "indbygger",
+    "german": "Einwohner",
+    "english": "inhabitant",
+    "gender": "der",
+    "danishDefinite": "indbyggeren",
+    "danishIndefinite": "en indbygger",
+    "tier": 3
+  },
+  "people.foreigner": {
+    "danish": "udlænding",
+    "german": "Ausländer",
+    "english": "foreigner",
+    "gender": "der",
+    "danishDefinite": "udlændingen",
+    "danishIndefinite": "en udlænding",
+    "tier": 2
+  },
+  "people.tourist": {
+    "danish": "turist",
+    "german": "Tourist",
+    "english": "tourist",
+    "gender": "der",
+    "danishDefinite": "turisten",
+    "danishIndefinite": "en turist",
+    "tier": 2
+  },
+  "people.passenger": {
+    "danish": "passager",
+    "german": "Passagier",
+    "english": "passenger",
+    "gender": "der",
+    "danishDefinite": "passageren",
+    "danishIndefinite": "en passager",
+    "tier": 3
+  },
+  "people.driver": {
+    "danish": "chauffør",
+    "german": "Fahrer",
+    "english": "driver",
+    "gender": "der",
+    "danishDefinite": "chaufføren",
+    "danishIndefinite": "en chauffør",
+    "tier": 2
+  },
+  "people.pilot": {
+    "danish": "pilot",
+    "german": "Pilot",
+    "english": "pilot",
+    "gender": "der",
+    "danishDefinite": "piloten",
+    "danishIndefinite": "en pilot",
+    "tier": 2
+  },
+  "people.captain": {
+    "danish": "kaptajn",
+    "german": "Kapitän",
+    "english": "captain",
+    "gender": "der",
+    "danishDefinite": "kaptajnen",
+    "danishIndefinite": "en kaptajn",
+    "tier": 3
+  },
+  "people.sailor": {
+    "danish": "sømand",
+    "german": "Seemann",
+    "english": "sailor",
+    "gender": "der",
+    "danishDefinite": "sømanden",
+    "danishIndefinite": "en sømand",
+    "tier": 4
+  },
+  "people.fisherman": {
+    "danish": "fisker",
+    "german": "Fischer",
+    "english": "fisherman",
+    "gender": "der",
+    "danishDefinite": "fiskeren",
+    "danishIndefinite": "en fisker",
+    "tier": 3
+  },
+  "people.farmer": {
+    "danish": "bonde",
+    "german": "Bauer",
+    "english": "farmer",
+    "gender": "der",
+    "danishDefinite": "bonden",
+    "danishIndefinite": "en bonde",
+    "tier": 2
+  },
+  "people.baker": {
+    "danish": "bager",
+    "german": "Bäcker",
+    "english": "baker",
+    "gender": "der",
+    "danishDefinite": "bageren",
+    "danishIndefinite": "en bager",
+    "tier": 1
+  },
+  "people.butcher": {
+    "danish": "slagter",
+    "german": "Metzger",
+    "english": "butcher",
+    "gender": "der",
+    "danishDefinite": "slagteren",
+    "danishIndefinite": "en slagter",
+    "tier": 2
+  },
+  "people.hairdresser": {
+    "danish": "frisør",
+    "german": "Friseur",
+    "english": "hairdresser",
+    "gender": "der",
+    "danishDefinite": "frisøren",
+    "danishIndefinite": "en frisør",
+    "tier": 2
+  },
+  "people.carpenter": {
+    "danish": "tømrer",
+    "german": "Zimmermann",
+    "english": "carpenter",
+    "gender": "der",
+    "danishDefinite": "tømreren",
+    "danishIndefinite": "en tømrer",
+    "tier": 4
+  },
+  "people.bricklayer": {
+    "danish": "murer",
+    "german": "Maurer",
+    "english": "bricklayer",
+    "gender": "der",
+    "danishDefinite": "mureren",
+    "danishIndefinite": "en murer",
+    "tier": 4
+  },
+  "people.electrician": {
+    "danish": "elektriker",
+    "german": "Elektriker",
+    "english": "electrician",
+    "gender": "der",
+    "danishDefinite": "elektrikeren",
+    "danishIndefinite": "en elektriker",
+    "tier": 3
+  },
+  "people.plumber": {
+    "danish": "blikkenslager",
+    "german": "Klempner",
+    "english": "plumber",
+    "gender": "der",
+    "danishDefinite": "blikkenslageren",
+    "danishIndefinite": "en blikkenslager",
+    "tier": 4
+  },
+  "people.mechanic": {
+    "danish": "mekaniker",
+    "german": "Mechaniker",
+    "english": "mechanic",
+    "gender": "der",
+    "danishDefinite": "mekanikeren",
+    "danishIndefinite": "en mekaniker",
+    "tier": 2
+  },
+  "people.engineer": {
+    "danish": "ingeniør",
+    "german": "Ingenieur",
+    "english": "engineer",
+    "gender": "der",
+    "danishDefinite": "ingeniøren",
+    "danishIndefinite": "en ingeniør",
+    "tier": 2
+  },
+  "people.architect": {
+    "danish": "arkitekt",
+    "german": "Architekt",
+    "english": "architect",
+    "gender": "der",
+    "danishDefinite": "arkitekten",
+    "danishIndefinite": "en arkitekt",
+    "tier": 3
+  },
+  "people.lawyer": {
+    "danish": "advokat",
+    "german": "Anwalt",
+    "english": "lawyer",
+    "gender": "der",
+    "danishDefinite": "advokaten",
+    "danishIndefinite": "en advokat",
+    "tier": 3
+  },
+  "people.police-officer": {
+    "danish": "politibetjent",
+    "german": "Polizist",
+    "english": "police officer",
+    "gender": "der",
+    "danishDefinite": "politibetjenten",
+    "danishIndefinite": "en politibetjent",
+    "tier": 1
+  },
+  "people.firefighter": {
+    "danish": "brandmand",
+    "german": "Feuerwehrmann",
+    "english": "firefighter",
+    "gender": "der",
+    "danishDefinite": "brandmanden",
+    "danishIndefinite": "en brandmand",
+    "tier": 2
+  },
+  "people.dentist": {
+    "danish": "tandlæge",
+    "german": "Zahnarzt",
+    "english": "dentist",
+    "gender": "der",
+    "danishDefinite": "tandlægen",
+    "danishIndefinite": "en tandlæge",
+    "tier": 1
+  },
+  "people.veterinarian": {
+    "danish": "dyrlæge",
+    "german": "Tierarzt",
+    "english": "veterinarian",
+    "gender": "der",
+    "danishDefinite": "dyrlægen",
+    "danishIndefinite": "en dyrlæge",
+    "tier": 2
+  },
+  "people.pharmacist": {
+    "danish": "apoteker",
+    "german": "Apotheker",
+    "english": "pharmacist",
+    "gender": "der",
+    "danishDefinite": "apotekeren",
+    "danishIndefinite": "en apoteker",
+    "tier": 3
+  },
+  "people.cook": {
+    "danish": "kok",
+    "german": "Koch",
+    "english": "cook",
+    "gender": "der",
+    "danishDefinite": "kokken",
+    "danishIndefinite": "en kok",
+    "tier": 1
+  },
+  "people.waiter": {
+    "danish": "tjener",
+    "german": "Kellner",
+    "english": "waiter",
+    "gender": "der",
+    "danishDefinite": "tjeneren",
+    "danishIndefinite": "en tjener",
+    "tier": 1
+  },
+  "people.journalist": {
+    "danish": "journalist",
+    "german": "Journalist",
+    "english": "journalist",
+    "gender": "der",
+    "danishDefinite": "journalisten",
+    "danishIndefinite": "en journalist",
+    "tier": 3
+  },
+  "people.author": {
+    "danish": "forfatter",
+    "german": "Autor",
+    "english": "author",
+    "gender": "der",
+    "danishDefinite": "forfatteren",
+    "danishIndefinite": "en forfatter",
+    "tier": 3
+  },
+  "people.poet": {
+    "danish": "digter",
+    "german": "Dichter",
+    "english": "poet",
+    "gender": "der",
+    "danishDefinite": "digteren",
+    "danishIndefinite": "en digter",
+    "tier": 4
+  },
+  "people.artist": {
+    "danish": "kunstner",
+    "german": "Künstler",
+    "english": "artist",
+    "gender": "der",
+    "danishDefinite": "kunstneren",
+    "danishIndefinite": "en kunstner",
+    "tier": 3
+  },
+  "people.musician": {
+    "danish": "musiker",
+    "german": "Musiker",
+    "english": "musician",
+    "gender": "der",
+    "danishDefinite": "musikeren",
+    "danishIndefinite": "en musiker",
+    "tier": 2
+  },
+  "people.singer": {
+    "danish": "sanger",
+    "german": "Sänger",
+    "english": "singer",
+    "gender": "der",
+    "danishDefinite": "sangeren",
+    "danishIndefinite": "en sanger",
+    "tier": 2
+  },
+  "people.actor": {
+    "danish": "skuespiller",
+    "german": "Schauspieler",
+    "english": "actor",
+    "gender": "der",
+    "danishDefinite": "skuespilleren",
+    "danishIndefinite": "en skuespiller",
+    "tier": 2
+  },
+  "people.dancer": {
+    "danish": "danser",
+    "german": "Tänzer",
+    "english": "dancer",
+    "gender": "der",
+    "danishDefinite": "danseren",
+    "danishIndefinite": "en danser",
+    "tier": 3
+  },
+  "people.photographer": {
+    "danish": "fotograf",
+    "german": "Fotograf",
+    "english": "photographer",
+    "gender": "der",
+    "danishDefinite": "fotografen",
+    "danishIndefinite": "en fotograf",
+    "tier": 2
+  },
+  "people.director": {
+    "danish": "direktør",
+    "german": "Direktor",
+    "english": "director",
+    "gender": "der",
+    "danishDefinite": "direktøren",
+    "danishIndefinite": "en direktør",
+    "tier": 3
+  },
+  "people.caretaker": {
+    "danish": "pedel",
+    "german": "Hausmeister",
+    "english": "caretaker",
+    "gender": "der",
+    "danishDefinite": "pedellen",
+    "danishIndefinite": "en pedel",
+    "tier": 3
+  },
+  "people.thief": {
+    "danish": "tyv",
+    "german": "Dieb",
+    "english": "thief",
+    "gender": "der",
+    "danishDefinite": "tyven",
+    "danishIndefinite": "en tyv",
+    "tier": 3
+  },
+  "people.murderer": {
+    "danish": "morder",
+    "german": "Mörder",
+    "english": "murderer",
+    "gender": "der",
+    "danishDefinite": "morderen",
+    "danishIndefinite": "en morder",
+    "tier": 4
+  },
+  "people.pastor": {
+    "danish": "præst",
+    "german": "Pfarrer",
+    "english": "pastor",
+    "gender": "der",
+    "danishDefinite": "præsten",
+    "danishIndefinite": "en præst",
+    "tier": 4
+  },
+  "people.nun": {
+    "danish": "nonne",
+    "german": "Nonne",
+    "english": "nun",
+    "gender": "die",
+    "danishDefinite": "nonnen",
+    "danishIndefinite": "en nonne",
+    "tier": 4
+  },
+  "people.monk": {
+    "danish": "munk",
+    "german": "Mönch",
+    "english": "monk",
+    "gender": "der",
+    "danishDefinite": "munken",
+    "danishIndefinite": "en munk",
+    "tier": 4
+  },
+  "people.scientist": {
+    "danish": "videnskabsmand",
+    "german": "Wissenschaftler",
+    "english": "scientist",
+    "gender": "der",
+    "danishDefinite": "videnskabsmanden",
+    "danishIndefinite": "en videnskabsmand",
+    "tier": 3
+  },
+  "people.researcher": {
+    "danish": "forsker",
+    "german": "Forscher",
+    "english": "researcher",
+    "gender": "der",
+    "danishDefinite": "forskeren",
+    "danishIndefinite": "en forsker",
+    "tier": 4
+  },
+  "people.professor": {
+    "danish": "professor",
+    "german": "Professor",
+    "english": "professor",
+    "gender": "der",
+    "danishDefinite": "professoren",
+    "danishIndefinite": "en professor",
+    "tier": 3
+  },
+  "people.apprentice": {
+    "danish": "lærling",
+    "german": "Lehrling",
+    "english": "apprentice",
+    "gender": "der",
+    "danishDefinite": "lærlingen",
+    "danishIndefinite": "en lærling",
+    "tier": 4
+  },
+  "people.intern": {
+    "danish": "praktikant",
+    "german": "Praktikant",
+    "english": "intern",
+    "gender": "der",
+    "danishDefinite": "praktikanten",
+    "danishIndefinite": "en praktikant",
+    "tier": 3
+  },
+  "people.worker": {
+    "danish": "arbejder",
+    "german": "Arbeiter",
+    "english": "worker",
+    "gender": "der",
+    "danishDefinite": "arbejderen",
+    "danishIndefinite": "en arbejder",
+    "tier": 2
+  },
+  "people.employee": {
+    "danish": "medarbejder",
+    "german": "Mitarbeiter",
+    "english": "employee",
+    "gender": "der",
+    "danishDefinite": "medarbejderen",
+    "danishIndefinite": "en medarbejder",
+    "tier": 2
+  },
+  "people.employer": {
+    "danish": "arbejdsgiver",
+    "german": "Arbeitgeber",
+    "english": "employer",
+    "gender": "der",
+    "danishDefinite": "arbejdsgiveren",
+    "danishIndefinite": "en arbejdsgiver",
+    "tier": 3
+  },
+  "people.salesperson": {
+    "danish": "sælger",
+    "german": "Verkäufer",
+    "english": "salesperson",
+    "gender": "der",
+    "danishDefinite": "sælgeren",
+    "danishIndefinite": "en sælger",
+    "tier": 2
+  },
+  "people.buyer": {
+    "danish": "køber",
+    "german": "Käufer",
+    "english": "buyer",
+    "gender": "der",
+    "danishDefinite": "køberen",
+    "danishIndefinite": "en køber",
+    "tier": 3
+  },
+  "people.owner": {
+    "danish": "ejer",
+    "german": "Besitzer",
+    "english": "owner",
+    "gender": "der",
+    "danishDefinite": "ejeren",
+    "danishIndefinite": "en ejer",
+    "tier": 3
+  },
+  "people.tenant": {
+    "danish": "lejer",
+    "german": "Mieter",
+    "english": "tenant",
+    "gender": "der",
+    "danishDefinite": "lejeren",
+    "danishIndefinite": "en lejer",
+    "tier": 3
+  },
+  "people.landlord": {
+    "danish": "udlejer",
+    "german": "Vermieter",
+    "english": "landlord",
+    "gender": "der",
+    "danishDefinite": "udlejeren",
+    "danishIndefinite": "en udlejer",
+    "tier": 3
+  },
+  "people.partner": {
+    "danish": "partner",
+    "german": "Partner",
+    "english": "partner",
+    "gender": "der",
+    "danishDefinite": "partneren",
+    "danishIndefinite": "en partner",
+    "tier": 2
+  },
+  "people.babysitter": {
+    "danish": "barnepige",
+    "german": "Babysitter",
+    "english": "babysitter",
+    "gender": "der",
+    "danishDefinite": "barnepigen",
+    "danishIndefinite": "en barnepige",
+    "tier": 2
+  },
+  "people.childcare-worker": {
+    "danish": "pædagog",
+    "german": "Erzieher",
+    "english": "childcare worker",
+    "gender": "der",
+    "danishDefinite": "pædagogen",
+    "danishIndefinite": "en pædagog",
+    "tier": 3
+  },
+  "people.surgeon": {
+    "danish": "kirurg",
+    "german": "Chirurg",
+    "english": "surgeon",
+    "gender": "der",
+    "danishDefinite": "kirurgen",
+    "danishIndefinite": "en kirurg",
+    "tier": 4
+  },
+  "people.midwife": {
+    "danish": "jordemoder",
+    "german": "Hebamme",
+    "english": "midwife",
+    "gender": "die",
+    "danishDefinite": "jordemoderen",
+    "danishIndefinite": "en jordemoder",
+    "tier": 4
+  },
+  "people.cleaner": {
+    "danish": "rengøringsassistent",
+    "german": "Reinigungskraft",
+    "english": "cleaner",
+    "gender": "die",
+    "danishDefinite": "rengøringsassistenten",
+    "danishIndefinite": "en rengøringsassistent",
+    "tier": 4
+  },
+  "people.librarian": {
+    "danish": "bibliotekar",
+    "german": "Bibliothekar",
+    "english": "librarian",
+    "gender": "der",
+    "danishDefinite": "bibliotekaren",
+    "danishIndefinite": "en bibliotekar",
+    "tier": 4
+  },
+  "people.interpreter": {
+    "danish": "tolk",
+    "german": "Dolmetscher",
+    "english": "interpreter",
+    "gender": "der",
+    "danishDefinite": "tolken",
+    "danishIndefinite": "en tolk",
+    "tier": 4
+  },
+  "people.translator": {
+    "danish": "oversætter",
+    "german": "Übersetzer",
+    "english": "translator",
+    "gender": "der",
+    "danishDefinite": "oversætteren",
+    "danishIndefinite": "en oversætter",
+    "tier": 3
+  },
+  "people.mail-carrier": {
+    "danish": "postbud",
+    "german": "Briefträger",
+    "english": "mail carrier",
+    "gender": "der",
+    "danishDefinite": "postbuddet",
+    "danishIndefinite": "et postbud",
+    "tier": 2
+  },
+  "people.teacher-f": {
+    "danish": "lærerinde",
+    "german": "Lehrerin",
+    "english": "female teacher",
+    "gender": "die",
+    "danishDefinite": "lærerinden",
+    "danishIndefinite": "en lærerinde",
+    "tier": 1
+  },
+  "people.waitress": {
+    "danish": "servitrice",
+    "german": "Kellnerin",
+    "english": "waitress",
+    "gender": "die",
+    "danishDefinite": "servitricen",
+    "danishIndefinite": "en servitrice",
+    "tier": 1
+  },
+  "people.actress": {
+    "danish": "skuespillerinde",
+    "german": "Schauspielerin",
+    "english": "actress",
+    "gender": "die",
+    "danishDefinite": "skuespillerinden",
+    "danishIndefinite": "en skuespillerinde",
+    "tier": 1
+  },
+  "people.dancer-f": {
+    "danish": "danserinde",
+    "german": "Tänzerin",
+    "english": "female dancer",
+    "gender": "die",
+    "danishDefinite": "danserinden",
+    "danishIndefinite": "en danserinde",
+    "tier": 1
+  },
+  "people.comrade": {
+    "danish": "kammerat",
+    "german": "Kumpel",
+    "english": "friend, mate",
+    "gender": "der",
+    "danishDefinite": "kammeraten",
+    "danishIndefinite": "en kammerat",
+    "tier": 1
+  },
+  "people.ambassador": {
+    "danish": "ambassadør",
+    "german": "Botschafter",
+    "english": "ambassador",
+    "gender": "der",
+    "danishDefinite": "ambassadøren",
+    "danishIndefinite": "en ambassadør",
+    "tier": 5
+  },
+  "people.guardian-legal": {
+    "danish": "værge",
+    "german": "Vormund",
+    "english": "legal guardian",
+    "gender": "der",
+    "danishDefinite": "værgen",
+    "danishIndefinite": "en værge",
+    "tier": 5
+  },
+  "people.patron-sponsor": {
+    "danish": "protektor",
+    "german": "Schirmherr",
+    "english": "patron (of an event)",
+    "gender": "der",
+    "danishDefinite": "protektoren",
+    "danishIndefinite": "en protektor",
+    "tier": 5
+  },
+  "people.lobbyist": {
+    "danish": "lobbyist",
+    "german": "Lobbyist",
+    "english": "lobbyist",
+    "gender": "der",
+    "danishDefinite": "lobbyisten",
+    "danishIndefinite": "en lobbyist",
+    "tier": 5
+  },
+  "people.plaintiff": {
+    "danish": "sagsøger",
+    "german": "Kläger",
+    "english": "plaintiff",
+    "gender": "der",
+    "danishDefinite": "sagsøgeren",
+    "danishIndefinite": "en sagsøger",
+    "tier": 5
+  },
+  "people.testator": {
+    "danish": "arvelader",
+    "german": "Erblasser",
+    "english": "testator",
+    "gender": "der",
+    "danishDefinite": "arveladeren",
+    "danishIndefinite": "en arvelader",
+    "tier": 5
+  },
+  "people.heir": {
+    "danish": "arving",
+    "german": "Erbe",
+    "english": "heir",
+    "gender": "der",
+    "danishDefinite": "arvingen",
+    "danishIndefinite": "en arving",
+    "tier": 5
+  },
+  "people.creditor": {
+    "danish": "kreditor",
+    "german": "Gläubiger",
+    "english": "creditor",
+    "gender": "der",
+    "danishDefinite": "kreditoren",
+    "danishIndefinite": "en kreditor",
+    "tier": 5
+  },
+  "people.debtor": {
+    "danish": "skyldner",
+    "german": "Schuldner",
+    "english": "debtor",
+    "gender": "der",
+    "danishDefinite": "skyldneren",
+    "danishIndefinite": "en skyldner",
+    "tier": 5
+  },
+  "people.guarantor": {
+    "danish": "kautionist",
+    "german": "Bürge",
+    "english": "guarantor",
+    "gender": "der",
+    "danishDefinite": "kautionisten",
+    "danishIndefinite": "en kautionist",
+    "tier": 5
+  },
+  "people.legislator": {
+    "danish": "lovgiver",
+    "german": "Gesetzgeber",
+    "english": "legislator",
+    "gender": "der",
+    "danishDefinite": "lovgiveren",
+    "danishIndefinite": "en lovgiver",
+    "tier": 5
+  },
+  "people.prosecutor": {
+    "danish": "anklager",
+    "german": "Staatsanwalt",
+    "english": "public prosecutor",
+    "gender": "der",
+    "danishDefinite": "anklageren",
+    "danishIndefinite": "en anklager",
+    "tier": 5
+  },
+  "people.lay-judge": {
+    "danish": "domsmand",
+    "german": "Schöffe",
+    "english": "lay judge",
+    "gender": "der",
+    "danishDefinite": "domsmanden",
+    "danishIndefinite": "en domsmand",
+    "tier": 5
+  },
+  "people.competitor": {
+    "danish": "konkurrent",
+    "german": "Konkurrent",
+    "english": "competitor",
+    "gender": "der",
+    "danishDefinite": "konkurrenten",
+    "danishIndefinite": "en konkurrent",
+    "tier": 3
+  },
+  "people.patron-arts": {
+    "danish": "mæcen",
+    "german": "Mäzen",
+    "english": "patron of the arts",
+    "gender": "der",
+    "danishDefinite": "mæcenen",
+    "danishIndefinite": "en mæcen",
+    "tier": 5
+  },
+  "people.critic": {
+    "danish": "kritiker",
+    "german": "Kritiker",
+    "english": "critic",
+    "gender": "der",
+    "danishDefinite": "kritikeren",
+    "danishIndefinite": "en kritiker",
+    "tier": 5
+  },
+  "people.philosopher": {
+    "danish": "filosof",
+    "german": "Philosoph",
+    "english": "philosopher",
+    "gender": "der",
+    "danishDefinite": "filosoffen",
+    "danishIndefinite": "en filosof",
+    "tier": 5
+  },
+  "people.historian": {
+    "danish": "historiker",
+    "german": "Historiker",
+    "english": "historian",
+    "gender": "der",
+    "danishDefinite": "historikeren",
+    "danishIndefinite": "en historiker",
+    "tier": 5
+  },
+  "people.curator": {
+    "danish": "kurator",
+    "german": "Kurator",
+    "english": "curator",
+    "gender": "der",
+    "danishDefinite": "kuratoren",
+    "danishIndefinite": "en kurator",
+    "tier": 5
+  },
+  "people.shareholder": {
+    "danish": "aktionær",
+    "german": "Aktionär",
+    "english": "shareholder",
+    "gender": "der",
+    "danishDefinite": "aktionæren",
+    "danishIndefinite": "en aktionær",
+    "tier": 5
+  },
+  "people.diplomat": {
+    "danish": "diplomat",
+    "german": "Diplomat",
+    "english": "diplomat",
+    "gender": "der",
+    "danishDefinite": "diplomaten",
+    "danishIndefinite": "en diplomat",
+    "tier": 5
+  },
+  "people.rebel": {
+    "danish": "oprører",
+    "german": "Rebell",
+    "english": "rebel",
+    "gender": "der",
+    "danishDefinite": "oprøreren",
+    "danishIndefinite": "en oprører",
+    "tier": 5
+  },
+  "people.despot": {
+    "danish": "despot",
+    "german": "Despot",
+    "english": "despot",
+    "gender": "der",
+    "danishDefinite": "despoten",
+    "danishIndefinite": "en despot",
+    "tier": 5
+  },
+  "people.monarch": {
+    "danish": "monark",
+    "german": "Monarch",
+    "english": "monarch",
+    "gender": "der",
+    "danishDefinite": "monarken",
+    "danishIndefinite": "en monark",
+    "tier": 5
+  },
+  "people.aristocrat": {
+    "danish": "aristokrat",
+    "german": "Aristokrat",
+    "english": "aristocrat",
+    "gender": "der",
+    "danishDefinite": "aristokraten",
+    "danishIndefinite": "en aristokrat",
+    "tier": 5
+  },
+  "people.publisher": {
+    "danish": "udgiver",
+    "german": "Herausgeber",
+    "english": "publisher, editor",
+    "gender": "der",
+    "danishDefinite": "udgiveren",
+    "danishIndefinite": "en udgiver",
+    "tier": 5
+  },
+  "people.benefactor": {
+    "danish": "velgører",
+    "german": "Wohltäter",
+    "english": "benefactor",
+    "gender": "der",
+    "danishDefinite": "velgøreren",
+    "danishIndefinite": "en velgører",
+    "tier": 5
+  },
+  "people.contemporary-witness": {
+    "danish": "tidsvidne",
+    "german": "Zeitzeuge",
+    "english": "contemporary witness",
+    "gender": "der",
+    "danishDefinite": "tidsvidnet",
+    "danishIndefinite": "et tidsvidne",
+    "tier": 5
+  },
+  "people.mediator": {
+    "danish": "konfliktmægler",
+    "german": "Schlichter",
+    "english": "mediator",
+    "gender": "der",
+    "danishDefinite": "konfliktmægleren",
+    "danishIndefinite": "en konfliktmægler",
+    "tier": 5
+  },
+  "people.estate-owner": {
+    "danish": "godsejer",
+    "german": "Gutsbesitzer",
+    "english": "estate owner",
+    "gender": "der",
+    "danishDefinite": "godsejeren",
+    "danishIndefinite": "en godsejer",
+    "tier": 5
+  },
+  "people.housewife": {
+    "danish": "husmor",
+    "german": "Hausfrau",
+    "english": "housewife",
+    "gender": "die",
+    "danishDefinite": "husmoren",
+    "danishIndefinite": "en husmor",
+    "tier": 1
+  },
+  "people.flatmate": {
+    "danish": "bofælle",
+    "german": "Mitbewohner",
+    "english": "flatmate",
+    "gender": "der",
+    "danishDefinite": "bofællen",
+    "danishIndefinite": "en bofælle",
+    "tier": 1
   }
 }

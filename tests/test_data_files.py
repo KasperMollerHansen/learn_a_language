@@ -40,3 +40,13 @@ def test_service_worker_caches_every_data_file() -> None:
     expected |= {f"wordbank/{p.name}" for p in WORDBANK_DIR.glob("*.json")}
     expected |= {f"levels/{p.name}" for p in LEVELS_DIR.glob("*.json")}
     assert expected <= app_files
+
+
+def test_app_version_matches_pyproject() -> None:
+    pyproject = (SRC.parent / "pyproject.toml").read_text(encoding="utf-8")
+    version = re.search(r'^version = "([^"]+)"', pyproject, re.MULTILINE)
+    assert version is not None
+    html = (SRC / "index.html").read_text(encoding="utf-8")
+    worker = (SRC / "service-worker.js").read_text(encoding="utf-8")
+    assert f'<span class="build-version">v{version[1]}</span>' in html
+    assert f'const CACHE_NAME = "wortlauf-v{version[1]}";' in worker

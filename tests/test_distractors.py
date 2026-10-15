@@ -3,7 +3,7 @@ from typing import Any
 
 import pytest
 
-from wordbank import load_wordbank
+from wordbank import level_word_ids, load_wordbank
 
 
 BANK = load_wordbank()
@@ -30,11 +30,10 @@ def article_answer(word_id: str, form: str, case: str) -> str:
     ids=lambda level: level["id"],
 )
 def test_every_word_has_two_unambiguous_distractors(level: dict[str, Any]) -> None:
-    for word_id in level["wordIds"]:
+    pool = level_word_ids(BANK, level)
+    for word_id in pool:
         accepted = accepted_german(BANK["words"][word_id])
-        eligible = [
-            other for other in level["wordIds"] if BANK["words"][other]["german"] not in accepted
-        ]
+        eligible = [other for other in pool if BANK["words"][other]["german"] not in accepted]
         if level["mode"] == "word":
             assert len({BANK["words"][other]["german"] for other in eligible}) >= 2, word_id
             continue

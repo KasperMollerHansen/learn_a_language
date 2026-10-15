@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
 CSV_PATH = ROOT / "translations.csv"
 
-TEXT_FIELDS = ["danish", "german", "gender", "danishDefinite", "danishIndefinite"]
+TEXT_FIELDS = ["danish", "german", "english", "gender", "danishDefinite", "danishIndefinite"]
 COLUMNS = ["id", "levels", *TEXT_FIELDS, "options", "checked", "comment"]
 OPTIONS_SEP = " | "
 DELIMITER = ";"
@@ -36,12 +36,19 @@ def word_files(src: Path) -> list[Path]:
 
 
 def level_ids_by_word(src: Path) -> dict[str, list[str]]:
-    """Map each word id to the ids of the levels that use it."""
+    """Map each word id to the ids of the levels whose pool includes it."""
+    words = {
+        word_id: entry for path in word_files(src) for word_id, entry in read_json(path).items()
+    }
     result: dict[str, list[str]] = {}
     for name in read_json(src / "levels" / "index.json")["files"]:
         for level in read_json(src / "levels" / name):
-            for word_id in level["wordIds"]:
-                result.setdefault(word_id, []).append(level["id"])
+            tiers = level.get("tiers")
+            for word_id, entry in words.items():
+                if word_id.split(".")[0] in level["categories"] and (
+                    tiers is None or entry["tier"] in tiers
+                ):
+                    result.setdefault(word_id, []).append(level["id"])
     return result
 
 

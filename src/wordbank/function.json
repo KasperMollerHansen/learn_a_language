@@ -1,0 +1,638 @@
+{
+  "function.i": {
+    "danish": "jeg",
+    "german": "ich",
+    "english": "I",
+    "tier": 1
+  },
+  "function.you": {
+    "danish": "du",
+    "german": "du",
+    "english": "you",
+    "tier": 1
+  },
+  "function.he": {
+    "danish": "han",
+    "german": "er",
+    "english": "he",
+    "tier": 1
+  },
+  "function.she": {
+    "danish": "hun",
+    "german": "sie",
+    "english": "she",
+    "tier": 1
+  },
+  "function.it": {
+    "danish": "det",
+    "german": "es",
+    "english": "it",
+    "tier": 1
+  },
+  "function.we": {
+    "danish": "vi",
+    "german": "wir",
+    "english": "we",
+    "tier": 1
+  },
+  "function.you-plural": {
+    "danish": "I",
+    "german": "ihr",
+    "english": "you (plural)",
+    "tier": 1
+  },
+  "function.me": {
+    "danish": "mig",
+    "german": "mich",
+    "english": "me",
+    "tier": 1
+  },
+  "function.you-object": {
+    "danish": "dig",
+    "german": "dich",
+    "english": "you (object)",
+    "tier": 1
+  },
+  "function.him": {
+    "danish": "ham",
+    "german": "ihn",
+    "english": "him",
+    "tier": 1
+  },
+  "function.us": {
+    "danish": "os",
+    "german": "uns",
+    "english": "us",
+    "tier": 1
+  },
+  "function.you-all-object": {
+    "danish": "jer",
+    "german": "euch",
+    "english": "you all (object)",
+    "tier": 1
+  },
+  "function.my": {
+    "danish": "min",
+    "german": "mein",
+    "english": "my",
+    "tier": 1
+  },
+  "function.your": {
+    "danish": "din",
+    "german": "dein",
+    "english": "your",
+    "tier": 1
+  },
+  "function.his": {
+    "danish": "hans",
+    "german": "sein",
+    "english": "his",
+    "tier": 1
+  },
+  "function.our": {
+    "danish": "vores",
+    "german": "unser",
+    "english": "our",
+    "tier": 1
+  },
+  "function.your-plural": {
+    "danish": "jeres",
+    "german": "euer",
+    "english": "your (plural)",
+    "tier": 1
+  },
+  "function.who": {
+    "danish": "hvem",
+    "german": "wer",
+    "english": "who",
+    "tier": 1
+  },
+  "function.what": {
+    "danish": "hvad",
+    "german": "was",
+    "english": "what",
+    "tier": 1
+  },
+  "function.where": {
+    "danish": "hvor",
+    "german": "wo",
+    "english": "where",
+    "tier": 1
+  },
+  "function.when": {
+    "danish": "hvornår",
+    "german": "wann",
+    "english": "when",
+    "tier": 1
+  },
+  "function.why": {
+    "danish": "hvorfor",
+    "german": "warum",
+    "english": "why",
+    "tier": 1
+  },
+  "function.how": {
+    "danish": "hvordan",
+    "german": "wie",
+    "english": "how",
+    "tier": 1
+  },
+  "function.where-to": {
+    "danish": "hvorhen",
+    "german": "wohin",
+    "english": "where to",
+    "tier": 1
+  },
+  "function.where-from": {
+    "danish": "hvorfra",
+    "german": "woher",
+    "english": "where from",
+    "tier": 1
+  },
+  "function.which": {
+    "danish": "hvilken",
+    "german": "welcher",
+    "english": "which",
+    "tier": 1
+  },
+  "function.how-much": {
+    "danish": "hvor meget",
+    "german": "wie viel",
+    "english": "how much",
+    "tier": 1
+  },
+  "function.how-many": {
+    "danish": "hvor mange",
+    "german": "wie viele",
+    "english": "how many",
+    "tier": 1
+  },
+  "function.how-long": {
+    "danish": "hvor længe",
+    "german": "wie lange",
+    "english": "how long",
+    "tier": 1
+  },
+  "function.how-often": {
+    "danish": "hvor ofte",
+    "german": "wie oft",
+    "english": "how often",
+    "tier": 1
+  },
+  "function.and": {
+    "danish": "og",
+    "german": "und",
+    "english": "and",
+    "tier": 1
+  },
+  "function.but": {
+    "danish": "men",
+    "german": "aber",
+    "english": "but",
+    "tier": 1
+  },
+  "function.or": {
+    "danish": "eller",
+    "german": "oder",
+    "english": "or",
+    "tier": 1
+  },
+  "function.because": {
+    "danish": "fordi",
+    "german": "weil",
+    "english": "because",
+    "tier": 1
+  },
+  "function.that": {
+    "danish": "at",
+    "german": "dass",
+    "english": "that",
+    "tier": 1
+  },
+  "function.whether": {
+    "danish": "om",
+    "german": "ob",
+    "english": "whether",
+    "tier": 2
+  },
+  "function.if": {
+    "danish": "hvis",
+    "german": "wenn",
+    "english": "if",
+    "tier": 1
+  },
+  "function.when-past": {
+    "danish": "da",
+    "german": "als",
+    "english": "when (past)",
+    "tier": 2
+  },
+  "function.although": {
+    "danish": "selvom",
+    "german": "obwohl",
+    "english": "although",
+    "tier": 3
+  },
+  "function.so-that": {
+    "danish": "for at",
+    "german": "damit",
+    "english": "so that",
+    "tier": 3
+  },
+  "function.while": {
+    "danish": "mens",
+    "german": "während",
+    "english": "while",
+    "tier": 3
+  },
+  "function.before": {
+    "danish": "før",
+    "german": "bevor",
+    "english": "before",
+    "tier": 3
+  },
+  "function.after-conjunction": {
+    "danish": "efter at",
+    "german": "nachdem",
+    "english": "after (conjunction)",
+    "tier": 3
+  },
+  "function.until": {
+    "danish": "indtil",
+    "german": "bis",
+    "english": "until",
+    "tier": 2
+  },
+  "function.as-soon-as": {
+    "danish": "så snart",
+    "german": "sobald",
+    "english": "as soon as",
+    "tier": 3
+  },
+  "function.either": {
+    "danish": "enten",
+    "german": "entweder",
+    "english": "either",
+    "tier": 3
+  },
+  "function.someone": {
+    "danish": "nogen",
+    "german": "jemand",
+    "english": "someone",
+    "tier": 1
+  },
+  "function.nobody": {
+    "danish": "ingen",
+    "german": "niemand",
+    "english": "nobody",
+    "tier": 1
+  },
+  "function.something": {
+    "danish": "noget",
+    "german": "etwas",
+    "english": "something",
+    "tier": 1
+  },
+  "function.nothing": {
+    "danish": "ingenting",
+    "german": "nichts",
+    "english": "nothing",
+    "tier": 1
+  },
+  "function.everything": {
+    "danish": "alt",
+    "german": "alles",
+    "english": "everything",
+    "tier": 1
+  },
+  "function.all": {
+    "danish": "alle",
+    "german": "alle",
+    "english": "all",
+    "tier": 1
+  },
+  "function.everyone": {
+    "danish": "enhver",
+    "german": "jeder",
+    "english": "everyone",
+    "tier": 2
+  },
+  "function.one-impersonal": {
+    "danish": "man",
+    "german": "man",
+    "english": "one (impersonal)",
+    "tier": 1
+  },
+  "function.many": {
+    "danish": "mange",
+    "german": "viele",
+    "english": "many",
+    "tier": 1
+  },
+  "function.few": {
+    "danish": "få",
+    "german": "wenige",
+    "english": "few",
+    "tier": 2
+  },
+  "function.several": {
+    "danish": "flere",
+    "german": "mehrere",
+    "english": "several",
+    "tier": 3
+  },
+  "function.some": {
+    "danish": "nogle",
+    "german": "einige",
+    "english": "some",
+    "tier": 2
+  },
+  "function.certain-ones": {
+    "danish": "visse",
+    "german": "manche",
+    "english": "certain ones",
+    "tier": 3
+  },
+  "function.others": {
+    "danish": "andre",
+    "german": "andere",
+    "english": "others",
+    "tier": 1
+  },
+  "function.both": {
+    "danish": "begge",
+    "german": "beide",
+    "english": "both",
+    "tier": 1
+  },
+  "function.oneself": {
+    "danish": "selv",
+    "german": "selbst",
+    "english": "oneself",
+    "tier": 3
+  },
+  "function.the-same": {
+    "danish": "samme",
+    "german": "derselbe",
+    "english": "the same",
+    "tier": 3
+  },
+  "function.such": {
+    "danish": "sådanne",
+    "german": "solche",
+    "english": "such",
+    "tier": 3
+  },
+  "function.this": {
+    "danish": "denne",
+    "german": "dieser",
+    "english": "this",
+    "tier": 1
+  },
+  "function.each-other": {
+    "danish": "hinanden",
+    "german": "einander",
+    "english": "each other",
+    "tier": 4
+  },
+  "function.himself-herself-themselves": {
+    "danish": "sig",
+    "german": "sich",
+    "english": "himself/herself/themselves",
+    "tier": 2
+  },
+  "function.yes": {
+    "danish": "ja",
+    "german": "ja",
+    "english": "yes",
+    "tier": 1
+  },
+  "function.no": {
+    "danish": "nej",
+    "german": "nein",
+    "english": "no",
+    "tier": 1
+  },
+  "function.yes-contradicting": {
+    "danish": "jo",
+    "german": "doch",
+    "english": "yes (contradicting)",
+    "tier": 1
+  },
+  "function.thanks": {
+    "danish": "tak",
+    "german": "danke",
+    "english": "thanks",
+    "tier": 1
+  },
+  "function.please": {
+    "danish": "vær så god",
+    "german": "bitte",
+    "english": "here you are",
+    "tier": 1
+  },
+  "function.not": {
+    "danish": "ikke",
+    "german": "nicht",
+    "english": "not",
+    "tier": 1
+  },
+  "function.there-is": {
+    "danish": "der er",
+    "german": "es gibt",
+    "english": "there is",
+    "tier": 1
+  },
+  "function.sofern": {
+    "danish": "forudsat at",
+    "german": "sofern",
+    "english": "provided that",
+    "tier": 4
+  },
+  "function.indem": {
+    "danish": "ved at",
+    "german": "indem",
+    "english": "by (doing)",
+    "tier": 4
+  },
+  "function.jedoch": {
+    "danish": "imidlertid",
+    "german": "jedoch",
+    "english": "however",
+    "tier": 4
+  },
+  "function.dennoch": {
+    "danish": "alligevel",
+    "german": "dennoch",
+    "english": "nevertheless",
+    "tier": 4
+  },
+  "function.somit": {
+    "danish": "dermed",
+    "german": "somit",
+    "english": "thus",
+    "tier": 4
+  },
+  "function.sowie": {
+    "danish": "samt",
+    "german": "sowie",
+    "english": "as well as",
+    "tier": 4
+  },
+  "function.weder_noch": {
+    "danish": "hverken … eller",
+    "german": "weder … noch",
+    "english": "neither … nor",
+    "tier": 4
+  },
+  "function.sowohl_als_auch": {
+    "danish": "såvel … som",
+    "german": "sowohl … als auch",
+    "english": "both … and",
+    "tier": 4
+  },
+  "function.naemlich": {
+    "danish": "nemlig",
+    "german": "nämlich",
+    "english": "namely",
+    "tier": 4
+  },
+  "function.falls": {
+    "danish": "i tilfælde af at",
+    "german": "falls",
+    "english": "in case",
+    "tier": 4
+  },
+  "function.solange": {
+    "danish": "så længe",
+    "german": "solange",
+    "english": "as long as",
+    "tier": 4
+  },
+  "function.andererseits": {
+    "danish": "på den anden side",
+    "german": "andererseits",
+    "english": "on the other hand",
+    "tier": 4
+  },
+  "function.einerseits": {
+    "danish": "på den ene side",
+    "german": "einerseits",
+    "english": "on the one hand",
+    "tier": 4
+  },
+  "function.darueber_hinaus": {
+    "danish": "derudover",
+    "german": "darüber hinaus",
+    "english": "furthermore",
+    "tier": 4
+  },
+  "function.irgendein": {
+    "danish": "en eller anden",
+    "german": "irgendein",
+    "english": "some (or other)",
+    "tier": 4
+  },
+  "function.allerdings": {
+    "danish": "dog",
+    "german": "allerdings",
+    "english": "though",
+    "tier": 4
+  },
+  "function.wohingegen": {
+    "danish": "hvorimod",
+    "german": "wohingegen",
+    "english": "whereas",
+    "tier": 5
+  },
+  "function.zumal": {
+    "danish": "især fordi",
+    "german": "zumal",
+    "english": "especially since",
+    "tier": 5
+  },
+  "function.folglich": {
+    "danish": "følgelig",
+    "german": "folglich",
+    "english": "consequently",
+    "tier": 5
+  },
+  "function.hingegen": {
+    "danish": "derimod",
+    "german": "hingegen",
+    "english": "on the other hand",
+    "tier": 5
+  },
+  "function.ferner": {
+    "danish": "endvidere",
+    "german": "ferner",
+    "english": "furthermore",
+    "tier": 5
+  },
+  "function.zudem": {
+    "danish": "tilmed",
+    "german": "zudem",
+    "english": "moreover",
+    "tier": 5
+  },
+  "function.andernfalls": {
+    "danish": "ellers",
+    "german": "andernfalls",
+    "english": "otherwise",
+    "tier": 5
+  },
+  "function.beziehungsweise": {
+    "danish": "henholdsvis",
+    "german": "beziehungsweise",
+    "english": "respectively",
+    "tier": 5
+  },
+  "function.gleichwohl": {
+    "danish": "ikke desto mindre",
+    "german": "gleichwohl",
+    "english": "nonetheless",
+    "tier": 5
+  },
+  "function.wonach": {
+    "danish": "hvorefter",
+    "german": "wonach",
+    "english": "after which",
+    "tier": 5
+  },
+  "function.woraufhin": {
+    "danish": "hvorpå",
+    "german": "woraufhin",
+    "english": "whereupon",
+    "tier": 5
+  },
+  "function.je_desto": {
+    "danish": "jo … desto",
+    "german": "je … desto",
+    "english": "the more … the",
+    "tier": 5
+  },
+  "function.zwar": {
+    "danish": "rigtignok",
+    "german": "zwar",
+    "english": "admittedly",
+    "tier": 5
+  },
+  "function.keinerlei": {
+    "danish": "ingen som helst",
+    "german": "keinerlei",
+    "english": "no … whatsoever",
+    "tier": 5
+  },
+  "function.saemtliche": {
+    "danish": "samtlige",
+    "german": "sämtliche",
+    "english": "all of the",
+    "tier": 5
+  },
+  "function.diesbezueglich": {
+    "danish": "i den forbindelse",
+    "german": "diesbezüglich",
+    "english": "in this regard",
+    "tier": 5
+  }
+}

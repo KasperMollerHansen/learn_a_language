@@ -2,211 +2,955 @@
   "spelling.hotel": {
     "danish": "hotel",
     "german": "Hotel",
+    "english": "hotel",
     "gender": "das",
     "danishDefinite": "hotellet",
-    "danishIndefinite": "et hotel"
+    "danishIndefinite": "et hotel",
+    "tier": 1
   },
   "spelling.restaurant": {
     "danish": "restaurant",
     "german": "Restaurant",
+    "english": "restaurant",
     "gender": "das",
     "danishDefinite": "restauranten",
-    "danishIndefinite": "en restaurant"
+    "danishIndefinite": "en restaurant",
+    "tier": 1
   },
   "spelling.radio": {
     "danish": "radio",
     "german": "Radio",
+    "english": "radio",
     "gender": "das",
     "danishDefinite": "radioen",
-    "danishIndefinite": "en radio"
+    "danishIndefinite": "en radio",
+    "tier": 1
   },
   "spelling.computer": {
     "danish": "computer",
     "german": "Computer",
+    "english": "computer",
     "gender": "der",
     "danishDefinite": "computeren",
-    "danishIndefinite": "en computer"
+    "danishIndefinite": "en computer",
+    "tier": 1
   },
   "spelling.bus": {
     "danish": "bus",
     "german": "Bus",
+    "english": "bus",
     "gender": "der",
     "danishDefinite": "bussen",
-    "danishIndefinite": "en bus"
+    "danishIndefinite": "en bus",
+    "tier": 1
   },
   "spelling.park": {
     "danish": "park",
     "german": "Park",
+    "english": "park",
     "gender": "der",
     "danishDefinite": "parken",
-    "danishIndefinite": "en park"
+    "danishIndefinite": "en park",
+    "tier": 1
   },
   "spelling.museum": {
     "danish": "museum",
     "german": "Museum",
+    "english": "museum",
     "gender": "das",
     "danishDefinite": "museet",
-    "danishIndefinite": "et museum"
+    "danishIndefinite": "et museum",
+    "tier": 2
   },
   "spelling.problem": {
     "danish": "problem",
     "german": "Problem",
+    "english": "problem",
     "gender": "das",
     "danishDefinite": "problemet",
-    "danishIndefinite": "et problem"
+    "danishIndefinite": "et problem",
+    "tier": 2
   },
   "spelling.telephone": {
     "danish": "telefon",
     "german": "Telefon",
+    "english": "telephone",
     "gender": "das",
     "danishDefinite": "telefonen",
-    "danishIndefinite": "en telefon"
+    "danishIndefinite": "en telefon",
+    "tier": 1
   },
   "spelling.video": {
     "danish": "video",
     "german": "Video",
+    "english": "video",
     "gender": "das",
     "danishDefinite": "videoen",
-    "danishIndefinite": "en video"
+    "danishIndefinite": "en video",
+    "tier": 1
   },
   "spelling.internet": {
     "danish": "internet",
     "german": "Internet",
+    "english": "internet",
     "gender": "das",
     "danishDefinite": "internettet",
-    "danishIndefinite": "et internet"
+    "danishIndefinite": "et internet",
+    "tier": 1
   },
   "spelling.bank": {
     "danish": "bank",
     "german": "Bank",
+    "english": "bank",
     "gender": "die",
     "danishDefinite": "banken",
-    "danishIndefinite": "en bank"
+    "danishIndefinite": "en bank",
+    "tier": 1
   },
   "spelling.music": {
     "danish": "musik",
     "german": "Musik",
+    "english": "music",
     "gender": "die",
     "danishDefinite": "musikken",
-    "danishIndefinite": "en musik"
+    "danishIndefinite": "en musik",
+    "tier": 1
   },
   "spelling.family": {
     "danish": "familie",
     "german": "Familie",
+    "english": "family",
     "gender": "die",
     "danishDefinite": "familien",
-    "danishIndefinite": "en familie"
+    "danishIndefinite": "en familie",
+    "tier": 1
   },
   "spelling.number": {
     "danish": "nummer",
     "german": "Nummer",
+    "english": "number",
     "gender": "die",
     "danishDefinite": "nummeret",
-    "danishIndefinite": "et nummer"
+    "danishIndefinite": "et nummer",
+    "tier": 1
   },
   "spelling.minute": {
     "danish": "minut",
     "german": "Minute",
+    "english": "minute",
     "gender": "die",
     "danishDefinite": "minuttet",
-    "danishIndefinite": "et minut"
+    "danishIndefinite": "et minut",
+    "tier": 1
   },
   "spelling.meter": {
     "danish": "meter",
     "german": "Meter",
+    "english": "meter",
     "gender": "der",
     "danishDefinite": "meteren",
-    "danishIndefinite": "en meter"
+    "danishIndefinite": "en meter",
+    "tier": 2
   },
   "spelling.second": {
     "danish": "sekund",
     "german": "Sekunde",
+    "english": "second",
     "gender": "die",
     "danishDefinite": "sekundet",
-    "danishIndefinite": "et sekund"
+    "danishIndefinite": "et sekund",
+    "tier": 2
   },
   "spelling.pizza": {
     "danish": "pizza",
     "german": "Pizza",
+    "english": "pizza",
     "gender": "die",
     "danishDefinite": "pizzaen",
-    "danishIndefinite": "en pizza"
+    "danishIndefinite": "en pizza",
+    "tier": 1
   },
   "spelling.chocolate": {
     "danish": "chokolade",
     "german": "Schokolade",
+    "english": "chocolate",
     "gender": "die",
     "danishDefinite": "chokoladen",
-    "danishIndefinite": "en chokolade"
+    "danishIndefinite": "en chokolade",
+    "tier": 1
   },
   "spelling.salad": {
     "danish": "salat",
     "german": "Salat",
+    "english": "salad",
     "gender": "der",
     "danishDefinite": "salaten",
-    "danishIndefinite": "en salat"
+    "danishIndefinite": "en salat",
+    "tier": 1
   },
   "spelling.tomato": {
     "danish": "tomat",
     "german": "Tomate",
+    "english": "tomato",
     "gender": "die",
     "danishDefinite": "tomaten",
-    "danishIndefinite": "en tomat"
+    "danishIndefinite": "en tomat",
+    "tier": 1
   },
   "spelling.camera": {
     "danish": "kamera",
     "german": "Kamera",
-    "gender": "das",
+    "english": "camera",
+    "gender": "die",
     "danishDefinite": "kameraet",
-    "danishIndefinite": "et kamera"
+    "danishIndefinite": "et kamera",
+    "tier": 2
   },
   "spelling.taxi": {
     "danish": "taxa",
     "german": "Taxi",
+    "english": "taxi",
     "gender": "das",
     "danishDefinite": "taxaen",
-    "danishIndefinite": "en taxa"
+    "danishIndefinite": "en taxa",
+    "tier": 1
   },
   "spelling.university": {
     "danish": "universitet",
     "german": "Universität",
+    "english": "university",
     "gender": "die",
     "danishDefinite": "universitetet",
-    "danishIndefinite": "et universitet"
+    "danishIndefinite": "et universitet",
+    "tier": 2
   },
   "spelling.student": {
     "danish": "student",
     "german": "Student",
+    "english": "student",
     "gender": "der",
-    "danishDefinite": "den studerende",
-    "danishIndefinite": "en studerende"
+    "danishDefinite": "studenten",
+    "danishIndefinite": "en student",
+    "tier": 1
   },
   "spelling.professor": {
     "danish": "professor",
     "german": "Professor",
+    "english": "professor",
     "gender": "der",
     "danishDefinite": "professoren",
-    "danishIndefinite": "en professor"
+    "danishIndefinite": "en professor",
+    "tier": 2
   },
   "spelling.zoo": {
     "danish": "zoo",
     "german": "Zoo",
+    "english": "zoo",
     "gender": "der",
     "danishDefinite": "zooen",
-    "danishIndefinite": "en zoo"
+    "danishIndefinite": "en zoo",
+    "tier": 1
   },
   "spelling.theater": {
     "danish": "teater",
     "german": "Theater",
+    "english": "theater",
     "gender": "das",
     "danishDefinite": "teatret",
-    "danishIndefinite": "et teater"
+    "danishIndefinite": "et teater",
+    "tier": 2
   },
   "spelling.artist": {
     "danish": "artist",
     "german": "Artist",
+    "english": "circus performer",
     "gender": "der",
     "danishDefinite": "artisten",
-    "danishIndefinite": "en artist"
+    "danishIndefinite": "en artist",
+    "tier": 4
+  },
+  "spelling.information": {
+    "danish": "information",
+    "german": "Information",
+    "english": "information",
+    "gender": "die",
+    "danishDefinite": "informationen",
+    "danishIndefinite": "en information",
+    "tier": 2
+  },
+  "spelling.station": {
+    "danish": "station",
+    "german": "Station",
+    "english": "station",
+    "gender": "die",
+    "danishDefinite": "stationen",
+    "danishIndefinite": "en station",
+    "tier": 2
+  },
+  "spelling.control": {
+    "danish": "kontrol",
+    "german": "Kontrolle",
+    "english": "control",
+    "gender": "die",
+    "danishDefinite": "kontrollen",
+    "danishIndefinite": "en kontrol",
+    "tier": 2
+  },
+  "spelling.contact": {
+    "danish": "kontakt",
+    "german": "Kontakt",
+    "english": "contact",
+    "gender": "der",
+    "danishDefinite": "kontakten",
+    "danishIndefinite": "en kontakt",
+    "tier": 2
+  },
+  "spelling.medicine": {
+    "danish": "medicin",
+    "german": "Medizin",
+    "english": "medicine",
+    "gender": "die",
+    "danishDefinite": "medicinen",
+    "danishIndefinite": "en medicin",
+    "tier": 2
+  },
+  "spelling.cigarette": {
+    "danish": "cigaret",
+    "german": "Zigarette",
+    "english": "cigarette",
+    "gender": "die",
+    "danishDefinite": "cigaretten",
+    "danishIndefinite": "en cigaret",
+    "tier": 2
+  },
+  "spelling.centre": {
+    "danish": "center",
+    "german": "Zentrum",
+    "english": "centre",
+    "gender": "das",
+    "danishDefinite": "centeret",
+    "danishIndefinite": "et center",
+    "tier": 2
+  },
+  "spelling.conflict": {
+    "danish": "konflikt",
+    "german": "Konflikt",
+    "english": "conflict",
+    "gender": "der",
+    "danishDefinite": "konflikten",
+    "danishIndefinite": "en konflikt",
+    "tier": 3
+  },
+  "spelling.situation": {
+    "danish": "situation",
+    "german": "Situation",
+    "english": "situation",
+    "gender": "die",
+    "danishDefinite": "situationen",
+    "danishIndefinite": "en situation",
+    "tier": 3
+  },
+  "spelling.atmosphere": {
+    "danish": "atmosfære",
+    "german": "Atmosphäre",
+    "english": "atmosphere",
+    "gender": "die",
+    "danishDefinite": "atmosfæren",
+    "danishIndefinite": "en atmosfære",
+    "tier": 3
+  },
+  "spelling.philosophy": {
+    "danish": "filosofi",
+    "german": "Philosophie",
+    "english": "philosophy",
+    "gender": "die",
+    "danishDefinite": "filosofien",
+    "danishIndefinite": "en filosofi",
+    "tier": 3
+  },
+  "spelling.principle": {
+    "danish": "princip",
+    "german": "Prinzip",
+    "english": "principle",
+    "gender": "das",
+    "danishDefinite": "princippet",
+    "danishIndefinite": "et princip",
+    "tier": 3
+  },
+  "spelling.concept": {
+    "danish": "koncept",
+    "german": "Konzept",
+    "english": "concept",
+    "gender": "das",
+    "danishDefinite": "konceptet",
+    "danishIndefinite": "et koncept",
+    "tier": 3
+  },
+  "spelling.category": {
+    "danish": "kategori",
+    "german": "Kategorie",
+    "english": "category",
+    "gender": "die",
+    "danishDefinite": "kategorien",
+    "danishIndefinite": "en kategori",
+    "tier": 3
+  },
+  "spelling.competition": {
+    "danish": "konkurrence",
+    "german": "Konkurrenz",
+    "english": "competition",
+    "gender": "die",
+    "danishDefinite": "konkurrencen",
+    "danishIndefinite": "en konkurrence",
+    "tier": 3
+  },
+  "spelling.commission": {
+    "danish": "kommission",
+    "german": "Kommission",
+    "english": "commission",
+    "gender": "die",
+    "danishDefinite": "kommissionen",
+    "danishIndefinite": "en kommission",
+    "tier": 3
+  },
+  "spelling.function": {
+    "danish": "funktion",
+    "german": "Funktion",
+    "english": "function",
+    "gender": "die",
+    "danishDefinite": "funktionen",
+    "danishIndefinite": "en funktion",
+    "tier": 3
+  },
+  "spelling.compromise": {
+    "danish": "kompromis",
+    "german": "Kompromiss",
+    "english": "compromise",
+    "gender": "der",
+    "danishDefinite": "kompromiset",
+    "danishIndefinite": "et kompromis",
+    "tier": 3
+  },
+  "spelling.character": {
+    "danish": "karakter",
+    "german": "Charakter",
+    "english": "character",
+    "gender": "der",
+    "danishDefinite": "karakteren",
+    "danishIndefinite": "en karakter",
+    "tier": 3
+  },
+  "spelling.analysis": {
+    "danish": "analyse",
+    "german": "Analyse",
+    "english": "analysis",
+    "gender": "die",
+    "danishDefinite": "analysen",
+    "danishIndefinite": "en analyse",
+    "tier": 3
+  },
+  "spelling.existence": {
+    "danish": "eksistens",
+    "german": "Existenz",
+    "english": "existence",
+    "gender": "die",
+    "danishDefinite": "eksistensen",
+    "danishIndefinite": "en eksistens",
+    "tier": 3
+  },
+  "spelling.activity": {
+    "danish": "aktivitet",
+    "german": "Aktivität",
+    "english": "activity",
+    "gender": "die",
+    "danishDefinite": "aktiviteten",
+    "danishIndefinite": "en aktivitet",
+    "tier": 3
+  },
+  "spelling.identity": {
+    "danish": "identitet",
+    "german": "Identität",
+    "english": "identity",
+    "gender": "die",
+    "danishDefinite": "identiteten",
+    "danishIndefinite": "en identitet",
+    "tier": 3
+  },
+  "spelling.mentality": {
+    "danish": "mentalitet",
+    "german": "Mentalität",
+    "english": "mentality",
+    "gender": "die",
+    "danishDefinite": "mentaliteten",
+    "danishIndefinite": "en mentalitet",
+    "tier": 3
+  },
+  "spelling.creativity": {
+    "danish": "kreativitet",
+    "german": "Kreativität",
+    "english": "creativity",
+    "gender": "die",
+    "danishDefinite": "kreativiteten",
+    "danishIndefinite": "en kreativitet",
+    "tier": 3
+  },
+  "spelling.structure": {
+    "danish": "struktur",
+    "german": "Struktur",
+    "english": "structure",
+    "gender": "die",
+    "danishDefinite": "strukturen",
+    "danishIndefinite": "en struktur",
+    "tier": 3
+  },
+  "spelling.infrastructure": {
+    "danish": "infrastruktur",
+    "german": "Infrastruktur",
+    "english": "infrastructure",
+    "gender": "die",
+    "danishDefinite": "infrastrukturen",
+    "danishIndefinite": "en infrastruktur",
+    "tier": 4
+  },
+  "spelling.consequence": {
+    "danish": "konsekvens",
+    "german": "Konsequenz",
+    "english": "consequence",
+    "gender": "die",
+    "danishDefinite": "konsekvensen",
+    "danishIndefinite": "en konsekvens",
+    "tier": 4
+  },
+  "spelling.capacity": {
+    "danish": "kapacitet",
+    "german": "Kapazität",
+    "english": "capacity",
+    "gender": "die",
+    "danishDefinite": "kapaciteten",
+    "danishIndefinite": "en kapacitet",
+    "tier": 4
+  },
+  "spelling.authority": {
+    "danish": "autoritet",
+    "german": "Autorität",
+    "english": "authority",
+    "gender": "die",
+    "danishDefinite": "autoriteten",
+    "danishIndefinite": "en autoritet",
+    "tier": 4
+  },
+  "spelling.priority": {
+    "danish": "prioritet",
+    "german": "Priorität",
+    "english": "priority",
+    "gender": "die",
+    "danishDefinite": "prioriteten",
+    "danishIndefinite": "en prioritet",
+    "tier": 4
+  },
+  "spelling.majority": {
+    "danish": "majoritet",
+    "german": "Majorität",
+    "english": "majority",
+    "gender": "die",
+    "danishDefinite": "majoriteten",
+    "danishIndefinite": "en majoritet",
+    "tier": 4
+  },
+  "spelling.minority": {
+    "danish": "minoritet",
+    "german": "Minorität",
+    "english": "minority",
+    "gender": "die",
+    "danishDefinite": "minoriteten",
+    "danishIndefinite": "en minoritet",
+    "tier": 4
+  },
+  "spelling.competence": {
+    "danish": "kompetence",
+    "german": "Kompetenz",
+    "english": "competence",
+    "gender": "die",
+    "danishDefinite": "kompetencen",
+    "danishIndefinite": "en kompetence",
+    "tier": 4
+  },
+  "spelling.transparency": {
+    "danish": "transparens",
+    "german": "Transparenz",
+    "english": "transparency",
+    "gender": "die",
+    "danishDefinite": "transparensen",
+    "danishIndefinite": "en transparens",
+    "tier": 4
+  },
+  "spelling.intelligence": {
+    "danish": "intelligens",
+    "german": "Intelligenz",
+    "english": "intelligence",
+    "gender": "die",
+    "danishDefinite": "intelligensen",
+    "danishIndefinite": "en intelligens",
+    "tier": 4
+  },
+  "spelling.perspective": {
+    "danish": "perspektiv",
+    "german": "Perspektive",
+    "english": "perspective",
+    "gender": "die",
+    "danishDefinite": "perspektivet",
+    "danishIndefinite": "et perspektiv",
+    "tier": 4
+  },
+  "spelling.strategy": {
+    "danish": "strategi",
+    "german": "Strategie",
+    "english": "strategy",
+    "gender": "die",
+    "danishDefinite": "strategien",
+    "danishIndefinite": "en strategi",
+    "tier": 4
+  },
+  "spelling.ideology": {
+    "danish": "ideologi",
+    "german": "Ideologie",
+    "english": "ideology",
+    "gender": "die",
+    "danishDefinite": "ideologien",
+    "danishIndefinite": "en ideologi",
+    "tier": 4
+  },
+  "spelling.bureaucracy": {
+    "danish": "bureaukrati",
+    "german": "Bürokratie",
+    "english": "bureaucracy",
+    "gender": "die",
+    "danishDefinite": "bureaukratiet",
+    "danishIndefinite": "et bureaukrati",
+    "tier": 4
+  },
+  "spelling.psychology": {
+    "danish": "psykologi",
+    "german": "Psychologie",
+    "english": "psychology",
+    "gender": "die",
+    "danishDefinite": "psykologien",
+    "danishIndefinite": "en psykologi",
+    "tier": 4
+  },
+  "spelling.sociology": {
+    "danish": "sociologi",
+    "german": "Soziologie",
+    "english": "sociology",
+    "gender": "die",
+    "danishDefinite": "sociologien",
+    "danishIndefinite": "en sociologi",
+    "tier": 4
+  },
+  "spelling.hierarchy": {
+    "danish": "hierarki",
+    "german": "Hierarchie",
+    "english": "hierarchy",
+    "gender": "die",
+    "danishDefinite": "hierarkiet",
+    "danishIndefinite": "et hierarki",
+    "tier": 4
+  },
+  "spelling.legitimacy": {
+    "danish": "legitimitet",
+    "german": "Legitimität",
+    "english": "legitimacy",
+    "gender": "die",
+    "danishDefinite": "legitimiteten",
+    "danishIndefinite": "en legitimitet",
+    "tier": 4
+  },
+  "spelling.mechanism": {
+    "danish": "mekanisme",
+    "german": "Mechanismus",
+    "english": "mechanism",
+    "gender": "der",
+    "danishDefinite": "mekanismen",
+    "danishIndefinite": "en mekanisme",
+    "tier": 4
+  },
+  "spelling.phenomenon": {
+    "danish": "fænomen",
+    "german": "Phänomen",
+    "english": "phenomenon",
+    "gender": "das",
+    "danishDefinite": "fænomenet",
+    "danishIndefinite": "et fænomen",
+    "tier": 4
+  },
+  "spelling.phase": {
+    "danish": "fase",
+    "german": "Phase",
+    "english": "phase",
+    "gender": "die",
+    "danishDefinite": "fasen",
+    "danishIndefinite": "en fase",
+    "tier": 4
+  },
+  "spelling.paradox": {
+    "danish": "paradoks",
+    "german": "Paradox",
+    "english": "paradox",
+    "gender": "das",
+    "danishDefinite": "paradokset",
+    "danishIndefinite": "et paradoks",
+    "tier": 4
+  },
+  "spelling.dimension": {
+    "danish": "dimension",
+    "german": "Dimension",
+    "english": "dimension",
+    "gender": "die",
+    "danishDefinite": "dimensionen",
+    "danishIndefinite": "en dimension",
+    "tier": 4
+  },
+  "spelling.criterion": {
+    "danish": "kriterium",
+    "german": "Kriterium",
+    "english": "criterion",
+    "gender": "das",
+    "danishDefinite": "kriteriet",
+    "danishIndefinite": "et kriterium",
+    "tier": 4
+  },
+  "spelling.speculation": {
+    "danish": "spekulation",
+    "german": "Spekulation",
+    "english": "speculation",
+    "gender": "die",
+    "danishDefinite": "spekulationen",
+    "danishIndefinite": "en spekulation",
+    "tier": 4
+  },
+  "spelling.documentation": {
+    "danish": "dokumentation",
+    "german": "Dokumentation",
+    "english": "documentation",
+    "gender": "die",
+    "danishDefinite": "dokumentationen",
+    "danishIndefinite": "en dokumentation",
+    "tier": 4
+  },
+  "spelling.coalition": {
+    "danish": "koalition",
+    "german": "Koalition",
+    "english": "coalition",
+    "gender": "die",
+    "danishDefinite": "koalitionen",
+    "danishIndefinite": "en koalition",
+    "tier": 4
+  },
+  "spelling.argument": {
+    "danish": "argument",
+    "german": "Argument",
+    "english": "argument",
+    "gender": "das",
+    "danishDefinite": "argumentet",
+    "danishIndefinite": "et argument",
+    "tier": 4
+  },
+  "spelling.interest": {
+    "danish": "interesse",
+    "german": "Interesse",
+    "english": "interest",
+    "gender": "das",
+    "danishDefinite": "interessen",
+    "danishIndefinite": "en interesse",
+    "tier": 2
+  },
+  "spelling.pistol": {
+    "danish": "pistol",
+    "german": "Pistole",
+    "english": "pistol",
+    "gender": "die",
+    "danishDefinite": "pistolen",
+    "danishIndefinite": "en pistol",
+    "tier": 2
+  },
+  "spelling.secretary": {
+    "danish": "sekretær",
+    "german": "Sekretär",
+    "english": "secretary",
+    "gender": "der",
+    "danishDefinite": "sekretæren",
+    "danishIndefinite": "en sekretær",
+    "tier": 2
+  },
+  "spelling.circus": {
+    "danish": "cirkus",
+    "german": "Zirkus",
+    "english": "circus",
+    "gender": "der",
+    "danishDefinite": "cirkusset",
+    "danishIndefinite": "et cirkus",
+    "tier": 2
+  },
+  "spelling.comment": {
+    "danish": "kommentar",
+    "german": "Kommentar",
+    "english": "comment",
+    "gender": "der",
+    "danishDefinite": "kommentaren",
+    "danishIndefinite": "en kommentar",
+    "tier": 2
+  },
+  "spelling.curve": {
+    "danish": "kurve",
+    "german": "Kurve",
+    "english": "curve",
+    "gender": "die",
+    "danishDefinite": "kurven",
+    "danishIndefinite": "en kurve",
+    "tier": 2
+  },
+  "spelling.lemonade": {
+    "danish": "limonade",
+    "german": "Limonade",
+    "english": "lemonade",
+    "gender": "die",
+    "danishDefinite": "limonaden",
+    "danishIndefinite": "en limonade",
+    "tier": 2
+  },
+  "spelling.zone": {
+    "danish": "zone",
+    "german": "Zone",
+    "english": "zone",
+    "gender": "die",
+    "danishDefinite": "zonen",
+    "danishIndefinite": "en zone",
+    "tier": 2
+  },
+  "spelling.logic": {
+    "danish": "logik",
+    "german": "Logik",
+    "english": "logic",
+    "gender": "die",
+    "danishDefinite": "logikken",
+    "danishIndefinite": "en logik",
+    "tier": 2
+  },
+  "spelling.construction": {
+    "danish": "konstruktion",
+    "german": "Konstruktion",
+    "english": "construction",
+    "gender": "die",
+    "danishDefinite": "konstruktionen",
+    "danishIndefinite": "en konstruktion",
+    "tier": 3
+  },
+  "spelling.process": {
+    "danish": "proces",
+    "german": "Prozess",
+    "english": "process",
+    "gender": "der",
+    "danishDefinite": "processen",
+    "danishIndefinite": "en proces",
+    "tier": 3
+  },
+  "spelling.procedure": {
+    "danish": "procedure",
+    "german": "Prozedur",
+    "english": "procedure",
+    "gender": "die",
+    "danishDefinite": "proceduren",
+    "danishIndefinite": "en procedure",
+    "tier": 3
+  },
+  "spelling.aspect": {
+    "danish": "aspekt",
+    "german": "Aspekt",
+    "english": "aspect",
+    "gender": "der",
+    "danishDefinite": "aspekten",
+    "danishIndefinite": "en aspekt",
+    "tier": 3
+  },
+  "spelling.factor": {
+    "danish": "faktor",
+    "german": "Faktor",
+    "english": "factor",
+    "gender": "der",
+    "danishDefinite": "faktoren",
+    "danishIndefinite": "en faktor",
+    "tier": 3
+  },
+  "spelling.effect": {
+    "danish": "effekt",
+    "german": "Effekt",
+    "english": "effect",
+    "gender": "der",
+    "danishDefinite": "effekten",
+    "danishIndefinite": "en effekt",
+    "tier": 3
+  },
+  "spelling.expert": {
+    "danish": "ekspert",
+    "german": "Experte",
+    "english": "expert",
+    "gender": "der",
+    "danishDefinite": "eksperten",
+    "danishIndefinite": "en ekspert",
+    "tier": 3
+  },
+  "spelling.expedition": {
+    "danish": "ekspedition",
+    "german": "Expedition",
+    "english": "expedition",
+    "gender": "die",
+    "danishDefinite": "ekspeditionen",
+    "danishIndefinite": "en ekspedition",
+    "tier": 3
+  },
+  "spelling.specimen": {
+    "danish": "eksemplar",
+    "german": "Exemplar",
+    "english": "specimen",
+    "gender": "das",
+    "danishDefinite": "eksemplaret",
+    "danishIndefinite": "et eksemplar",
+    "tier": 3
+  },
+  "spelling.specialist": {
+    "danish": "specialist",
+    "german": "Spezialist",
+    "english": "specialist",
+    "gender": "der",
+    "danishDefinite": "specialisten",
+    "danishIndefinite": "en specialist",
+    "tier": 3
+  },
+  "spelling.definition": {
+    "danish": "definition",
+    "german": "Definition",
+    "english": "definition",
+    "gender": "die",
+    "danishDefinite": "definitionen",
+    "danishIndefinite": "en definition",
+    "tier": 3
+  },
+  "spelling.ambition": {
+    "danish": "ambition",
+    "german": "Ambition",
+    "english": "ambition",
+    "gender": "die",
+    "danishDefinite": "ambitionen",
+    "danishIndefinite": "en ambition",
+    "tier": 4
+  },
+  "spelling.initiative": {
+    "danish": "initiativ",
+    "german": "Initiative",
+    "english": "initiative",
+    "gender": "die",
+    "danishDefinite": "initiativet",
+    "danishIndefinite": "et initiativ",
+    "tier": 4
   }
 }

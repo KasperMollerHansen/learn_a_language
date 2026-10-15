@@ -1,0 +1,401 @@
+{
+  "media.news-item": {
+    "danish": "nyhed",
+    "german": "Nachricht",
+    "english": "news item",
+    "gender": "die",
+    "danishDefinite": "nyheden",
+    "danishIndefinite": "en nyhed",
+    "tier": 1
+  },
+  "media.subtitle": {
+    "danish": "undertekst",
+    "german": "Untertitel",
+    "english": "subtitle",
+    "gender": "der",
+    "danishDefinite": "underteksten",
+    "danishIndefinite": "en undertekst",
+    "tier": 4
+  },
+  "media.article": {
+    "danish": "artikel",
+    "german": "Artikel",
+    "english": "article",
+    "gender": "der",
+    "danishDefinite": "artiklen",
+    "danishIndefinite": "en artikel",
+    "tier": 3
+  },
+  "media.headline": {
+    "danish": "overskrift",
+    "german": "Schlagzeile",
+    "english": "headline",
+    "gender": "die",
+    "danishDefinite": "overskriften",
+    "danishIndefinite": "en overskrift",
+    "tier": 4
+  },
+  "media.reporter": {
+    "danish": "reporter",
+    "german": "Reporter",
+    "english": "reporter",
+    "gender": "der",
+    "danishDefinite": "reporteren",
+    "danishIndefinite": "en reporter",
+    "tier": 4
+  },
+  "media.editor": {
+    "danish": "redaktør",
+    "german": "Redakteur",
+    "english": "editor",
+    "gender": "der",
+    "danishDefinite": "redaktøren",
+    "danishIndefinite": "en redaktør",
+    "tier": 5
+  },
+  "media.report": {
+    "danish": "reportage",
+    "german": "Reportage",
+    "english": "report",
+    "gender": "die",
+    "danishDefinite": "reportagen",
+    "danishIndefinite": "en reportage",
+    "tier": 4
+  },
+  "media.interview": {
+    "danish": "interview",
+    "german": "Interview",
+    "english": "interview",
+    "gender": "das",
+    "danishDefinite": "interviewet",
+    "danishIndefinite": "et interview",
+    "tier": 3
+  },
+  "media.press": {
+    "danish": "presse",
+    "german": "Presse",
+    "english": "press",
+    "gender": "die",
+    "danishDefinite": "pressen",
+    "danishIndefinite": "en presse",
+    "tier": 4
+  },
+  "media.television": {
+    "danish": "fjernsyn",
+    "german": "Fernsehen",
+    "english": "television",
+    "gender": "das",
+    "danishDefinite": "fjernsynet",
+    "danishIndefinite": "et fjernsyn",
+    "tier": 1
+  },
+  "media.tv-set": {
+    "danish": "tv-apparat",
+    "german": "Fernseher",
+    "english": "television set",
+    "gender": "der",
+    "danishDefinite": "tv-apparatet",
+    "danishIndefinite": "et tv-apparat",
+    "tier": 1
+  },
+  "media.tv-programme": {
+    "danish": "tv-program",
+    "german": "Fernsehsendung",
+    "english": "TV programme",
+    "gender": "die",
+    "danishDefinite": "tv-programmet",
+    "danishIndefinite": "et tv-program",
+    "tier": 3
+  },
+  "media.tv-channel": {
+    "danish": "tv-kanal",
+    "german": "Fernsehsender",
+    "english": "TV channel",
+    "gender": "der",
+    "danishDefinite": "tv-kanalen",
+    "danishIndefinite": "en tv-kanal",
+    "tier": 4
+  },
+  "media.radio-station": {
+    "danish": "radiokanal",
+    "german": "Radiosender",
+    "english": "radio station",
+    "gender": "der",
+    "danishDefinite": "radiokanalen",
+    "danishIndefinite": "en radiokanal",
+    "tier": 4
+  },
+  "media.podcast": {
+    "danish": "podcast",
+    "german": "Podcast",
+    "english": "podcast",
+    "gender": "der",
+    "danishDefinite": "podcasten",
+    "danishIndefinite": "en podcast",
+    "tier": 4
+  },
+  "media.series": {
+    "danish": "serie",
+    "german": "Serie",
+    "english": "series",
+    "gender": "die",
+    "danishDefinite": "serien",
+    "danishIndefinite": "en serie",
+    "tier": 2
+  },
+  "media.episode": {
+    "danish": "afsnit",
+    "german": "Folge",
+    "english": "episode",
+    "gender": "die",
+    "danishDefinite": "afsnittet",
+    "danishIndefinite": "et afsnit",
+    "tier": 4
+  },
+  "media.film": {
+    "danish": "film",
+    "german": "Film",
+    "english": "film",
+    "gender": "der",
+    "danishDefinite": "filmen",
+    "danishIndefinite": "en film",
+    "tier": 1
+  },
+  "media.documentary": {
+    "danish": "dokumentarfilm",
+    "german": "Dokumentarfilm",
+    "english": "documentary",
+    "gender": "der",
+    "danishDefinite": "dokumentarfilmen",
+    "danishIndefinite": "en dokumentarfilm",
+    "tier": 4
+  },
+  "media.comedy": {
+    "danish": "komedie",
+    "german": "Komödie",
+    "english": "comedy",
+    "gender": "die",
+    "danishDefinite": "komedien",
+    "danishIndefinite": "en komedie",
+    "tier": 4
+  },
+  "media.thriller": {
+    "danish": "thriller",
+    "german": "Thriller",
+    "english": "thriller",
+    "gender": "der",
+    "danishDefinite": "thrilleren",
+    "danishIndefinite": "en thriller",
+    "tier": 4
+  },
+  "media.horror-film": {
+    "danish": "gyserfilm",
+    "german": "Horrorfilm",
+    "english": "horror film",
+    "gender": "der",
+    "danishDefinite": "gyserfilmen",
+    "danishIndefinite": "en gyserfilm",
+    "tier": 4
+  },
+  "media.cartoon": {
+    "danish": "tegnefilm",
+    "german": "Zeichentrickfilm",
+    "english": "cartoon",
+    "gender": "der",
+    "danishDefinite": "tegnefilmen",
+    "danishIndefinite": "en tegnefilm",
+    "tier": 4
+  },
+  "media.director": {
+    "danish": "instruktør",
+    "german": "Regisseur",
+    "english": "director",
+    "gender": "der",
+    "danishDefinite": "instruktøren",
+    "danishIndefinite": "en instruktør",
+    "tier": 4
+  },
+  "media.cinema-ticket": {
+    "danish": "biografbillet",
+    "german": "Kinokarte",
+    "english": "cinema ticket",
+    "gender": "die",
+    "danishDefinite": "biografbilletten",
+    "danishIndefinite": "en biografbillet",
+    "tier": 2
+  },
+  "media.trailer": {
+    "danish": "trailer",
+    "german": "Trailer",
+    "english": "trailer",
+    "gender": "der",
+    "danishDefinite": "traileren",
+    "danishIndefinite": "en trailer",
+    "tier": 4
+  },
+  "media.advert": {
+    "danish": "reklamefilm",
+    "german": "Werbespot",
+    "english": "advert",
+    "gender": "der",
+    "danishDefinite": "reklamefilmen",
+    "danishIndefinite": "en reklamefilm",
+    "tier": 4
+  },
+  "media.publisher": {
+    "danish": "forlag",
+    "german": "Verlag",
+    "english": "publisher",
+    "gender": "der",
+    "danishDefinite": "forlaget",
+    "danishIndefinite": "et forlag",
+    "tier": 4
+  },
+  "media.story": {
+    "danish": "fortælling",
+    "german": "Geschichte",
+    "english": "story",
+    "gender": "die",
+    "danishDefinite": "fortællingen",
+    "danishIndefinite": "en fortælling",
+    "tier": 2
+  },
+  "media.comic": {
+    "danish": "tegneserie",
+    "german": "Comic",
+    "english": "comic",
+    "gender": "der",
+    "danishDefinite": "tegneserien",
+    "danishIndefinite": "en tegneserie",
+    "tier": 3
+  },
+  "media.audiobook": {
+    "danish": "lydbog",
+    "german": "Hörbuch",
+    "english": "audiobook",
+    "gender": "das",
+    "danishDefinite": "lydbogen",
+    "danishIndefinite": "en lydbog",
+    "tier": 4
+  },
+  "media.page": {
+    "danish": "bogside",
+    "german": "Buchseite",
+    "english": "page",
+    "gender": "die",
+    "danishDefinite": "bogsiden",
+    "danishIndefinite": "en bogside",
+    "tier": 1
+  },
+  "media.title": {
+    "danish": "titel",
+    "german": "Titel",
+    "english": "title",
+    "gender": "der",
+    "danishDefinite": "titlen",
+    "danishIndefinite": "en titel",
+    "tier": 3
+  },
+  "media.bestseller": {
+    "danish": "bestseller",
+    "german": "Bestseller",
+    "english": "bestseller",
+    "gender": "der",
+    "danishDefinite": "bestselleren",
+    "danishIndefinite": "en bestseller",
+    "tier": 4
+  },
+  "media.website": {
+    "danish": "hjemmeside",
+    "german": "Webseite",
+    "english": "website",
+    "gender": "die",
+    "danishDefinite": "hjemmesiden",
+    "danishIndefinite": "en hjemmeside",
+    "tier": 2
+  },
+  "media.advertising-poster": {
+    "danish": "plakat",
+    "german": "Plakat",
+    "english": "poster",
+    "gender": "das",
+    "danishDefinite": "plakaten",
+    "danishIndefinite": "en plakat",
+    "tier": 3
+  },
+  "media.media": {
+    "danish": "medie",
+    "german": "Medium",
+    "english": "medium",
+    "gender": "das",
+    "danishDefinite": "mediet",
+    "danishIndefinite": "et medie",
+    "tier": 4
+  },
+  "media.opinion": {
+    "danish": "mening",
+    "german": "Meinung",
+    "english": "opinion",
+    "gender": "die",
+    "danishDefinite": "meningen",
+    "danishIndefinite": "en mening",
+    "tier": 2
+  },
+  "media.public": {
+    "danish": "offentlighed",
+    "german": "Öffentlichkeit",
+    "english": "public",
+    "gender": "die",
+    "danishDefinite": "offentligheden",
+    "danishIndefinite": "en offentlighed",
+    "tier": 4
+  },
+  "media.reader": {
+    "danish": "læser",
+    "german": "Leser",
+    "english": "reader",
+    "gender": "der",
+    "danishDefinite": "læseren",
+    "danishIndefinite": "en læser",
+    "tier": 3
+  },
+  "media.viewer": {
+    "danish": "seer",
+    "german": "Zuschauer",
+    "english": "viewer",
+    "gender": "der",
+    "danishDefinite": "seeren",
+    "danishIndefinite": "en seer",
+    "tier": 3
+  },
+  "media.listener": {
+    "danish": "lytter",
+    "german": "Hörer",
+    "english": "listener",
+    "gender": "der",
+    "danishDefinite": "lytteren",
+    "danishIndefinite": "en lytter",
+    "tier": 4
+  },
+  "media.subscribe": {
+    "danish": "at abonnere",
+    "german": "abonnieren",
+    "english": "to subscribe",
+    "tier": 4
+  },
+  "media.subscription": {
+    "danish": "abonnement",
+    "german": "Abonnement",
+    "english": "subscription",
+    "gender": "das",
+    "danishDefinite": "abonnementet",
+    "danishIndefinite": "et abonnement",
+    "tier": 4
+  },
+  "media.report-verb": {
+    "danish": "at rapportere",
+    "german": "berichten",
+    "english": "to report",
+    "tier": 3
+  }
+}

@@ -20,20 +20,27 @@ Chrome, use **Install app** or **Add to Home screen**. On iPhone, open the URL i
 then **Add to Home Screen**. The game must be served from HTTPS (or localhost) for installation
 and offline caching to work; opening `index.html` directly is only suitable for a quick look.
 
-## First levels
+## Levels
 
-### Chapter 1 - The basic
-- **1-1 People:** 30 words about family, friends, and everyday people.
-- **1-2 Tilægsord:** 30 adjectives for describing people and things.
-- **1-3 Forholdsord:** 30 common prepositions and place relationships.
-- **1-4 People with articles:** 30 people nouns practiced with German definite and indefinite forms.
-- **1-5 Animals:** 30 familiar animal names.
-- **1-6 Words that look alike:** Danish-German cognates and near-cognates, with attention to spelling changes.
+There are five chapters, one per word tier, following the CEFR steps: **1 · Basics** (A1),
+**2 · Everyday** (A2), **3 · Confident** (B1), **4 · Fluent** (B2) and **5 · Advanced** (C1). A
+chapter uses only words of its own tier, except the review. Every chapter has the same shape:
 
-### Chapter 2 - Verbs and sentences
-- **2-1 Modalverber:** sentence patterns for *können, müssen, wollen, dürfen, sollen,* and *mögen* across five subjects.
-- **2-2 Common verbs:** 30 useful infinitives that can follow modal verbs.
-- **2-3 Everyday things:** household, meal, and technology vocabulary.
+1. **Word levels**, one per theme: People, People with articles (German definite and indefinite
+   forms in all four cases), Describing words, Small words, Verbs, Food and drink, Home, Body and
+   clothes, Nature, Town and travel, Free time, and Work and school. A theme gets a level in a
+   chapter only when that tier has at least 15 words, and a chapter holds at most 15 levels, so
+   themes past the cap (Words that look alike) appear only in the review.
+2. **Sentences:** short Danish sentences to translate, including the modal verbs *können, müssen,
+   wollen, dürfen, sollen* and *mögen*.
+3. **Review:** mixed words from every theme, this chapter's tier and all earlier ones.
+4. **Sentence builder:** build a German sentence one chunk at a time.
+
+The level files are generated: edit `THEMES` or `CHAPTERS` in [`scripts/levels.py`](scripts/levels.py)
+and run `python scripts/levels.py`. A test fails if the level files drift from the generator.
+
+Levels are cleared from the top: a level opens once every level above it is cleared, and the menu
+starts on the first level not yet cleared.
 
 - Catch all 30 words before the clock runs out. The Danish prompt sits ahead of the stationary
   gates, and the runner advances toward them for each timed choice. A correct pass speeds up the
@@ -51,16 +58,18 @@ Pick the difficulty with the **Easy / Hard** toggle above the level list. New pl
 | Easy | 2½ minutes (150 s) | ÷ 1.085 | × 1.2 |
 | Hard | 2 minutes (120 s) | ÷ 1.1 | × 1.3 |
 
-Each difficulty keeps its own unlocked levels and cleared levels (marked ✓). Clearing a level on
-Easy counts only for Easy; clearing it on Hard counts for both Hard and Easy. Progress saved by an
-earlier version is copied into both difficulties the first time the new version loads.
+Each difficulty keeps its own cleared levels (marked ✓). Clearing a level on Easy counts only for
+Easy; clearing it on Hard counts for both Hard and Easy. The chaptered levels replaced the old level
+list, so progress from an earlier version keeps only its difficulty and answer counters.
 
 ## Game data
 
 Vocabulary lives in [`src/wordbank/`](src/wordbank) (one file per category plus `grammar.json`) and level lists in [`src/levels/`](src/levels) (one file per chapter), separate from the game code. Each folder has an `index.json` listing its files.
-Each lesson curates 30 stable, category-prefixed word IDs from the shared vocabulary map; entries
-may be words or practice sentences. This keeps a large vocabulary inventory reusable across short,
-focused lessons instead of duplicating translations. Noun entries contain German gender and Danish
+Every entry carries an `english` gloss as well as the Danish and German, and every word a difficulty `tier` from 1 to 5 (CEFR A1, A2, B1, B2, C1). A level does not list words:
+it names `categories` (the word ID prefix, e.g. `people`) and optionally `tiers`, and its pool is
+every matching word. A run deals 30 questions from that pool, reshuffling when the pool is smaller,
+so growing the word bank grows the levels without editing them. Entries may be words or practice
+sentences. Noun entries contain German gender and Danish
 article forms. The word bank also stores German article declensions and genitive noun forms.
 Pacing and scoring live in
 [`config.json`](src/config.json), so you can tune the round duration, speed multiplier, penalties, and

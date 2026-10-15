@@ -1,236 +1,277 @@
 [
   {
     "id": "1-1",
-    "chapter": "Chapter 1",
+    "chapter": "Chapter 1 · Basics",
     "name": "People",
     "mode": "word",
     "prompt": "Find the German word for",
-    "wordIds": [
-      "people.mother",
-      "people.father",
-      "people.child",
-      "people.baby",
-      "people.son",
-      "people.daughter",
-      "people.brother",
-      "people.sister",
-      "people.grandmother",
-      "people.grandfather",
-      "people.family",
-      "people.friend",
-      "people.female-friend",
-      "people.person",
-      "people.man",
-      "people.woman",
-      "people.girl",
-      "people.boy",
-      "people.uncle",
-      "people.aunt",
-      "people.male-cousin",
-      "people.female-cousin",
-      "people.neighbor",
-      "people.teacher",
-      "people.student",
-      "people.doctor",
-      "people.nurse",
-      "people.colleague",
-      "people.guest",
-      "people.boss"
+    "categories": [
+      "people",
+      "emotions",
+      "personality",
+      "life"
+    ],
+    "tiers": [
+      1
     ]
   },
   {
     "id": "1-2",
-    "chapter": "Chapter 1",
-    "name": "Adjectives",
-    "mode": "word",
-    "prompt": "Find the German word for",
-    "wordIds": [
-      "adjectives.happy",
-      "adjectives.sad",
-      "adjectives.big",
-      "adjectives.small",
-      "adjectives.new",
-      "adjectives.old",
-      "adjectives.fast",
-      "adjectives.slow",
-      "adjectives.strong",
-      "adjectives.weak",
-      "adjectives.clean",
-      "adjectives.dirty",
-      "adjectives.hot",
-      "adjectives.cold",
-      "adjectives.light",
-      "adjectives.heavy",
-      "adjectives.quiet",
-      "adjectives.loud",
-      "adjectives.beautiful",
-      "adjectives.ugly",
-      "adjectives.smart",
-      "adjectives.tall",
-      "adjectives.short",
-      "adjectives.young",
-      "adjectives.good",
-      "adjectives.bad",
-      "adjectives.easy",
-      "adjectives.difficult",
-      "adjectives.expensive",
-      "adjectives.cheap"
+    "chapter": "Chapter 1 · Basics",
+    "name": "People with articles",
+    "mode": "article",
+    "prompt": "Choose the German form",
+    "categories": [
+      "people"
+    ],
+    "tiers": [
+      1
     ]
   },
   {
     "id": "1-3",
-    "chapter": "Chapter 1",
-    "name": "Prepositions",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Describing words",
     "mode": "word",
     "prompt": "Find the German word for",
-    "wordIds": [
-      "prepositions.in",
-      "prepositions.on",
-      "prepositions.under",
-      "prepositions.over",
-      "prepositions.behind",
-      "prepositions.infrontof",
-      "prepositions.beside",
-      "prepositions.between",
-      "prepositions.with",
-      "prepositions.without",
-      "prepositions.from",
-      "prepositions.to",
-      "prepositions.before",
-      "prepositions.after",
-      "prepositions.around",
-      "prepositions.through",
-      "prepositions.across",
-      "prepositions.near",
-      "prepositions.farfrom",
-      "prepositions.inside",
-      "prepositions.outside",
-      "prepositions.above",
-      "prepositions.below",
-      "prepositions.into",
-      "prepositions.outof",
-      "prepositions.along",
-      "prepositions.against",
-      "prepositions.at",
-      "prepositions.nextto",
-      "prepositions.during"
+    "categories": [
+      "adjectives",
+      "colors",
+      "adverbs"
+    ],
+    "tiers": [
+      1
     ]
   },
   {
     "id": "1-4",
-    "chapter": "Chapter 1",
-    "name": "People with articles",
-    "mode": "article",
-    "prompt": "Choose the German form",
-    "wordIds": [
-      "people.mother",
-      "people.father",
-      "people.child",
-      "people.baby",
-      "people.son",
-      "people.daughter",
-      "people.brother",
-      "people.sister",
-      "people.grandmother",
-      "people.grandfather",
-      "people.family",
-      "people.friend",
-      "people.female-friend",
-      "people.person",
-      "people.man",
-      "people.woman",
-      "people.girl",
-      "people.boy",
-      "people.uncle",
-      "people.aunt",
-      "people.male-cousin",
-      "people.female-cousin",
-      "people.neighbor",
-      "people.teacher",
-      "people.student",
-      "people.doctor",
-      "people.nurse",
-      "people.colleague",
-      "people.guest",
-      "people.boss"
+    "chapter": "Chapter 1 · Basics",
+    "name": "Small words",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "prepositions",
+      "function",
+      "numbers",
+      "time"
+    ],
+    "tiers": [
+      1
     ]
   },
   {
     "id": "1-5",
-    "chapter": "Chapter 1",
-    "name": "Animals",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Verbs",
     "mode": "word",
     "prompt": "Find the German word for",
-    "wordIds": [
-      "animals.dog",
-      "animals.cat",
-      "animals.horse",
-      "animals.cow",
-      "animals.pig",
-      "animals.sheep",
-      "animals.goat",
-      "animals.hen",
-      "animals.duck",
-      "animals.goose",
-      "animals.bird",
-      "animals.fish",
-      "animals.mouse",
-      "animals.rat",
-      "animals.rabbit",
-      "animals.hare",
-      "animals.lion",
-      "animals.tiger",
-      "animals.elephant",
-      "animals.monkey",
-      "animals.bear",
-      "animals.wolf",
-      "animals.fox",
-      "animals.deer",
-      "animals.snake",
-      "animals.frog",
-      "animals.turtle",
-      "animals.bee",
-      "animals.butterfly",
-      "animals.spider"
+    "categories": [
+      "verbs"
+    ],
+    "tiers": [
+      1
     ]
   },
   {
     "id": "1-6",
-    "chapter": "Chapter 1",
-    "name": "Words that look alike",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Food and drink",
     "mode": "word",
-    "prompt": "Translate the Danish word into German",
-    "wordIds": [
-      "spelling.hotel",
-      "spelling.restaurant",
-      "spelling.radio",
-      "spelling.computer",
-      "spelling.bus",
-      "spelling.park",
-      "spelling.museum",
-      "spelling.problem",
-      "spelling.telephone",
-      "spelling.video",
-      "spelling.internet",
-      "spelling.bank",
-      "spelling.music",
-      "spelling.family",
-      "spelling.number",
-      "spelling.minute",
-      "spelling.meter",
-      "spelling.second",
-      "spelling.pizza",
-      "spelling.chocolate",
-      "spelling.salad",
-      "spelling.tomato",
-      "spelling.camera",
-      "spelling.taxi",
-      "spelling.university",
-      "spelling.student",
-      "spelling.professor",
-      "spelling.zoo",
-      "spelling.theater",
-      "spelling.artist"
+    "prompt": "Find the German word for",
+    "categories": [
+      "food",
+      "drinks",
+      "restaurant"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-7",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Home",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "home",
+      "kitchen",
+      "everyday",
+      "tools",
+      "materials",
+      "office"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-8",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Body and clothes",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "body",
+      "health",
+      "clothing"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-9",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Nature",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "animals",
+      "nature",
+      "garden",
+      "weather"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-10",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Town and travel",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "city",
+      "travel",
+      "transport",
+      "shopping",
+      "countries"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-11",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Free time",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "sport",
+      "music",
+      "hobbies"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-12",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Work and school",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "work",
+      "learning",
+      "technology",
+      "money",
+      "media",
+      "communication",
+      "society",
+      "science",
+      "culture"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-13",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Sentences",
+    "mode": "word",
+    "prompt": "Translate the Danish sentence into German",
+    "categories": [
+      "modals",
+      "sentences"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-14",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Review",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "people",
+      "animals",
+      "adjectives",
+      "prepositions",
+      "kitchen",
+      "garden",
+      "weather",
+      "everyday",
+      "technology",
+      "work",
+      "learning",
+      "music",
+      "sport",
+      "travel",
+      "city",
+      "spelling",
+      "verbs",
+      "body",
+      "health",
+      "clothing",
+      "emotions",
+      "home",
+      "tools",
+      "materials",
+      "food",
+      "drinks",
+      "restaurant",
+      "nature",
+      "hobbies",
+      "transport",
+      "shopping",
+      "media",
+      "money",
+      "society",
+      "time",
+      "numbers",
+      "colors",
+      "adverbs",
+      "function",
+      "countries",
+      "science",
+      "culture",
+      "personality",
+      "communication",
+      "life",
+      "office"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-15",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Sentence builder",
+    "mode": "sentence",
+    "prompt": "Build the German sentence one chunk at a time",
+    "categories": [
+      "sentence-builder"
+    ],
+    "tiers": [
+      1
     ]
   }
 ]

@@ -2,57 +2,1129 @@
   "learning.lesson": {
     "danish": "lektion",
     "german": "Lektion",
+    "english": "lesson",
     "gender": "die",
     "danishDefinite": "lektionen",
-    "danishIndefinite": "en lektion"
+    "danishIndefinite": "en lektion",
+    "tier": 1
   },
   "learning.exercise": {
     "danish": "øvelse",
     "german": "Übung",
+    "english": "exercise",
     "gender": "die",
     "danishDefinite": "øvelsen",
-    "danishIndefinite": "en øvelse"
+    "danishIndefinite": "en øvelse",
+    "tier": 2
   },
   "learning.homework": {
     "danish": "lektie",
     "german": "Hausaufgabe",
+    "english": "homework",
     "gender": "die",
     "danishDefinite": "lektien",
-    "danishIndefinite": "en lektie"
+    "danishIndefinite": "en lektie",
+    "tier": 2
   },
   "learning.textbook": {
     "danish": "lærebog",
     "german": "Lehrbuch",
+    "english": "textbook",
     "gender": "das",
     "danishDefinite": "lærebogen",
-    "danishIndefinite": "en lærebog"
+    "danishIndefinite": "en lærebog",
+    "tier": 3
   },
   "learning.dictionary": {
     "danish": "ordbog",
     "german": "Wörterbuch",
+    "english": "dictionary",
     "gender": "das",
     "danishDefinite": "ordbogen",
-    "danishIndefinite": "en ordbog"
+    "danishIndefinite": "en ordbog",
+    "tier": 3
   },
   "learning.language": {
     "danish": "sprog",
     "german": "Sprache",
+    "english": "language",
     "gender": "die",
     "danishDefinite": "sproget",
-    "danishIndefinite": "et sprog"
+    "danishIndefinite": "et sprog",
+    "tier": 1
   },
   "learning.word": {
     "danish": "ord",
     "german": "Wort",
+    "english": "word",
     "gender": "das",
     "danishDefinite": "ordet",
-    "danishIndefinite": "et ord"
+    "danishIndefinite": "et ord",
+    "tier": 1
   },
   "learning.sentence": {
     "danish": "sætning",
     "german": "Satz",
+    "english": "sentence",
     "gender": "der",
     "danishDefinite": "sætningen",
-    "danishIndefinite": "en sætning"
+    "danishIndefinite": "en sætning",
+    "tier": 2
+  },
+  "learning.school": {
+    "danish": "skole",
+    "german": "Schule",
+    "english": "school",
+    "gender": "die",
+    "danishDefinite": "skolen",
+    "danishIndefinite": "en skole",
+    "tier": 1
+  },
+  "learning.classroom": {
+    "danish": "klasseværelse",
+    "german": "Klassenzimmer",
+    "english": "classroom",
+    "gender": "das",
+    "danishDefinite": "klasseværelset",
+    "danishIndefinite": "et klasseværelse",
+    "tier": 2
+  },
+  "learning.class": {
+    "danish": "klasse",
+    "german": "Klasse",
+    "english": "class",
+    "gender": "die",
+    "danishDefinite": "klassen",
+    "danishIndefinite": "en klasse",
+    "tier": 2
+  },
+  "learning.university-student": {
+    "danish": "studerende",
+    "german": "Student",
+    "english": "university student",
+    "gender": "der",
+    "danishDefinite": "den studerende",
+    "danishIndefinite": "en studerende",
+    "tier": 2
+  },
+  "learning.university": {
+    "danish": "universitet",
+    "german": "Universität",
+    "english": "university",
+    "gender": "die",
+    "danishDefinite": "universitetet",
+    "danishIndefinite": "et universitet",
+    "tier": 2
+  },
+  "learning.lecture": {
+    "danish": "forelæsning",
+    "german": "Vorlesung",
+    "english": "lecture",
+    "gender": "die",
+    "danishDefinite": "forelæsningen",
+    "danishIndefinite": "en forelæsning",
+    "tier": 3
+  },
+  "learning.school-subject": {
+    "danish": "fag",
+    "german": "Fach",
+    "english": "school subject",
+    "gender": "das",
+    "danishDefinite": "faget",
+    "danishIndefinite": "et fag",
+    "tier": 3
+  },
+  "learning.exam": {
+    "danish": "eksamen",
+    "german": "Prüfung",
+    "english": "exam",
+    "gender": "die",
+    "danishDefinite": "eksamen",
+    "danishIndefinite": "en eksamen",
+    "tier": 2
+  },
+  "learning.test": {
+    "danish": "test",
+    "german": "Test",
+    "english": "test",
+    "gender": "der",
+    "danishDefinite": "testen",
+    "danishIndefinite": "en test",
+    "tier": 2
+  },
+  "learning.certificate": {
+    "danish": "eksamensbevis",
+    "german": "Zeugnis",
+    "english": "certificate",
+    "gender": "das",
+    "danishDefinite": "eksamensbeviset",
+    "danishIndefinite": "et eksamensbevis",
+    "tier": 3
+  },
+  "learning.bachelor-s-degree": {
+    "danish": "bachelor",
+    "german": "Bachelor",
+    "english": "bachelor's degree",
+    "gender": "der",
+    "danishDefinite": "bacheloren",
+    "danishIndefinite": "en bachelor",
+    "tier": 3
+  },
+  "learning.course": {
+    "danish": "kursus",
+    "german": "Kurs",
+    "english": "course",
+    "gender": "der",
+    "danishDefinite": "kurset",
+    "danishIndefinite": "et kursus",
+    "tier": 2
+  },
+  "learning.semester": {
+    "danish": "semester",
+    "german": "Semester",
+    "english": "semester",
+    "gender": "das",
+    "danishDefinite": "semestret",
+    "danishIndefinite": "et semester",
+    "tier": 3
+  },
+  "learning.school-timetable": {
+    "danish": "skoleskema",
+    "german": "Stundenplan",
+    "english": "school timetable",
+    "gender": "der",
+    "danishDefinite": "skoleskemaet",
+    "danishIndefinite": "et skoleskema",
+    "tier": 3
+  },
+  "learning.schoolyard": {
+    "danish": "skolegård",
+    "german": "Schulhof",
+    "english": "schoolyard",
+    "gender": "der",
+    "danishDefinite": "skolegården",
+    "danishIndefinite": "en skolegård",
+    "tier": 3
+  },
+  "learning.blackboard": {
+    "danish": "tavle",
+    "german": "Tafel",
+    "english": "blackboard",
+    "gender": "die",
+    "danishDefinite": "tavlen",
+    "danishIndefinite": "en tavle",
+    "tier": 2
+  },
+  "learning.chalk": {
+    "danish": "kridt",
+    "german": "Kreide",
+    "english": "chalk",
+    "gender": "die",
+    "danishDefinite": "kridtet",
+    "danishIndefinite": "et kridt",
+    "tier": 3
+  },
+  "learning.pencil": {
+    "danish": "blyant",
+    "german": "Bleistift",
+    "english": "pencil",
+    "gender": "der",
+    "danishDefinite": "blyanten",
+    "danishIndefinite": "en blyant",
+    "tier": 1
+  },
+  "learning.ballpoint-pen": {
+    "danish": "kuglepen",
+    "german": "Kugelschreiber",
+    "english": "ballpoint pen",
+    "gender": "der",
+    "danishDefinite": "kuglepennen",
+    "danishIndefinite": "en kuglepen",
+    "tier": 2
+  },
+  "learning.eraser": {
+    "danish": "viskelæder",
+    "german": "Radiergummi",
+    "english": "eraser",
+    "gender": "der",
+    "danishDefinite": "viskelæderet",
+    "danishIndefinite": "et viskelæder",
+    "tier": 2
+  },
+  "learning.ruler": {
+    "danish": "lineal",
+    "german": "Lineal",
+    "english": "ruler",
+    "gender": "das",
+    "danishDefinite": "linealen",
+    "danishIndefinite": "en lineal",
+    "tier": 2
+  },
+  "learning.school-bag": {
+    "danish": "skoletaske",
+    "german": "Schultasche",
+    "english": "school bag",
+    "gender": "die",
+    "danishDefinite": "skoletasken",
+    "danishIndefinite": "en skoletaske",
+    "tier": 2
+  },
+  "learning.notebook": {
+    "danish": "notesbog",
+    "german": "Notizbuch",
+    "english": "notebook",
+    "gender": "das",
+    "danishDefinite": "notesbogen",
+    "danishIndefinite": "en notesbog",
+    "tier": 2
+  },
+  "learning.exercise-book": {
+    "danish": "hæfte",
+    "german": "Heft",
+    "english": "exercise book",
+    "gender": "das",
+    "danishDefinite": "hæftet",
+    "danishIndefinite": "et hæfte",
+    "tier": 2
+  },
+  "learning.paper": {
+    "danish": "papir",
+    "german": "Papier",
+    "english": "paper",
+    "gender": "das",
+    "danishDefinite": "papiret",
+    "danishIndefinite": "et papir",
+    "tier": 1
+  },
+  "learning.book": {
+    "danish": "bog",
+    "german": "Buch",
+    "english": "book",
+    "gender": "das",
+    "danishDefinite": "bogen",
+    "danishIndefinite": "en bog",
+    "tier": 1
+  },
+  "learning.chapter": {
+    "danish": "kapitel",
+    "german": "Kapitel",
+    "english": "chapter",
+    "gender": "das",
+    "danishDefinite": "kapitlet",
+    "danishIndefinite": "et kapitel",
+    "tier": 3
+  },
+  "learning.text": {
+    "danish": "tekst",
+    "german": "Text",
+    "english": "text",
+    "gender": "der",
+    "danishDefinite": "teksten",
+    "danishIndefinite": "en tekst",
+    "tier": 2
+  },
+  "learning.question": {
+    "danish": "spørgsmål",
+    "german": "Frage",
+    "english": "question",
+    "gender": "die",
+    "danishDefinite": "spørgsmålet",
+    "danishIndefinite": "et spørgsmål",
+    "tier": 1
+  },
+  "learning.answer": {
+    "danish": "svar",
+    "german": "Antwort",
+    "english": "answer",
+    "gender": "die",
+    "danishDefinite": "svaret",
+    "danishIndefinite": "et svar",
+    "tier": 1
+  },
+  "learning.mistake": {
+    "danish": "fejl",
+    "german": "Fehler",
+    "english": "mistake",
+    "gender": "der",
+    "danishDefinite": "fejlen",
+    "danishIndefinite": "en fejl",
+    "tier": 1
+  },
+  "learning.example": {
+    "danish": "eksempel",
+    "german": "Beispiel",
+    "english": "example",
+    "gender": "das",
+    "danishDefinite": "eksemplet",
+    "danishIndefinite": "et eksempel",
+    "tier": 2
+  },
+  "learning.explanation": {
+    "danish": "forklaring",
+    "german": "Erklärung",
+    "english": "explanation",
+    "gender": "die",
+    "danishDefinite": "forklaringen",
+    "danishIndefinite": "en forklaring",
+    "tier": 3
+  },
+  "learning.meaning": {
+    "danish": "betydning",
+    "german": "Bedeutung",
+    "english": "meaning",
+    "gender": "die",
+    "danishDefinite": "betydningen",
+    "danishIndefinite": "en betydning",
+    "tier": 3
+  },
+  "learning.grammar": {
+    "danish": "grammatik",
+    "german": "Grammatik",
+    "english": "grammar",
+    "gender": "die",
+    "danishDefinite": "grammatikken",
+    "danishIndefinite": "en grammatik",
+    "tier": 2
+  },
+  "learning.vocabulary": {
+    "danish": "ordforråd",
+    "german": "Wortschatz",
+    "english": "vocabulary",
+    "gender": "der",
+    "danishDefinite": "ordforrådet",
+    "danishIndefinite": "et ordforråd",
+    "tier": 3
+  },
+  "learning.pronunciation": {
+    "danish": "udtale",
+    "german": "Aussprache",
+    "english": "pronunciation",
+    "gender": "die",
+    "danishDefinite": "udtalen",
+    "danishIndefinite": "en udtale",
+    "tier": 3
+  },
+  "learning.spelling": {
+    "danish": "stavning",
+    "german": "Rechtschreibung",
+    "english": "spelling",
+    "gender": "die",
+    "danishDefinite": "stavningen",
+    "danishIndefinite": "en stavning",
+    "tier": 3
+  },
+  "learning.letter-of-the-alphabet": {
+    "danish": "bogstav",
+    "german": "Buchstabe",
+    "english": "letter of the alphabet",
+    "gender": "der",
+    "danishDefinite": "bogstavet",
+    "danishIndefinite": "et bogstav",
+    "tier": 1
+  },
+  "learning.alphabet": {
+    "danish": "alfabet",
+    "german": "Alphabet",
+    "english": "alphabet",
+    "gender": "das",
+    "danishDefinite": "alfabetet",
+    "danishIndefinite": "et alfabet",
+    "tier": 2
+  },
+  "learning.syllable": {
+    "danish": "stavelse",
+    "german": "Silbe",
+    "english": "syllable",
+    "gender": "die",
+    "danishDefinite": "stavelsen",
+    "danishIndefinite": "en stavelse",
+    "tier": 4
+  },
+  "learning.translation": {
+    "danish": "oversættelse",
+    "german": "Übersetzung",
+    "english": "translation",
+    "gender": "die",
+    "danishDefinite": "oversættelsen",
+    "danishIndefinite": "en oversættelse",
+    "tier": 3
+  },
+  "learning.accent": {
+    "danish": "accent",
+    "german": "Akzent",
+    "english": "accent",
+    "gender": "der",
+    "danishDefinite": "accenten",
+    "danishIndefinite": "en accent",
+    "tier": 3
+  },
+  "learning.dialect": {
+    "danish": "dialekt",
+    "german": "Dialekt",
+    "english": "dialect",
+    "gender": "der",
+    "danishDefinite": "dialekten",
+    "danishIndefinite": "en dialekt",
+    "tier": 3
+  },
+  "learning.mother-tongue": {
+    "danish": "modersmål",
+    "german": "Muttersprache",
+    "english": "mother tongue",
+    "gender": "die",
+    "danishDefinite": "modersmålet",
+    "danishIndefinite": "et modersmål",
+    "tier": 2
+  },
+  "learning.foreign-language": {
+    "danish": "fremmedsprog",
+    "german": "Fremdsprache",
+    "english": "foreign language",
+    "gender": "die",
+    "danishDefinite": "fremmedsproget",
+    "danishIndefinite": "et fremmedsprog",
+    "tier": 2
+  },
+  "learning.conversation": {
+    "danish": "samtale",
+    "german": "Gespräch",
+    "english": "conversation",
+    "gender": "das",
+    "danishDefinite": "samtalen",
+    "danishIndefinite": "en samtale",
+    "tier": 2
+  },
+  "learning.discussion": {
+    "danish": "diskussion",
+    "german": "Diskussion",
+    "english": "discussion",
+    "gender": "die",
+    "danishDefinite": "diskussionen",
+    "danishIndefinite": "en diskussion",
+    "tier": 3
+  },
+  "learning.idea": {
+    "danish": "idé",
+    "german": "Idee",
+    "english": "idea",
+    "gender": "die",
+    "danishDefinite": "idéen",
+    "danishIndefinite": "en idé",
+    "tier": 2
+  },
+  "learning.topic": {
+    "danish": "emne",
+    "german": "Thema",
+    "english": "topic",
+    "gender": "das",
+    "danishDefinite": "emnet",
+    "danishIndefinite": "et emne",
+    "tier": 2
+  },
+  "learning.education": {
+    "danish": "uddannelse",
+    "german": "Ausbildung",
+    "english": "education",
+    "gender": "die",
+    "danishDefinite": "uddannelsen",
+    "danishIndefinite": "en uddannelse",
+    "tier": 3
+  },
+  "learning.research": {
+    "danish": "forskning",
+    "german": "Forschung",
+    "english": "research",
+    "gender": "die",
+    "danishDefinite": "forskningen",
+    "danishIndefinite": "en forskning",
+    "tier": 3
+  },
+  "learning.experiment": {
+    "danish": "eksperiment",
+    "german": "Experiment",
+    "english": "experiment",
+    "gender": "das",
+    "danishDefinite": "eksperimentet",
+    "danishIndefinite": "et eksperiment",
+    "tier": 3
+  },
+  "learning.theory": {
+    "danish": "teori",
+    "german": "Theorie",
+    "english": "theory",
+    "gender": "die",
+    "danishDefinite": "teorien",
+    "danishIndefinite": "en teori",
+    "tier": 3
+  },
+  "learning.method": {
+    "danish": "metode",
+    "german": "Methode",
+    "english": "method",
+    "gender": "die",
+    "danishDefinite": "metoden",
+    "danishIndefinite": "en metode",
+    "tier": 3
+  },
+  "learning.science": {
+    "danish": "videnskab",
+    "german": "Wissenschaft",
+    "english": "science",
+    "gender": "die",
+    "danishDefinite": "videnskaben",
+    "danishIndefinite": "en videnskab",
+    "tier": 3
+  },
+  "learning.mathematics": {
+    "danish": "matematik",
+    "german": "Mathematik",
+    "english": "mathematics",
+    "gender": "die",
+    "danishDefinite": "matematikken",
+    "danishIndefinite": "en matematik",
+    "tier": 2
+  },
+  "learning.physics": {
+    "danish": "fysik",
+    "german": "Physik",
+    "english": "physics",
+    "gender": "die",
+    "danishDefinite": "fysikken",
+    "danishIndefinite": "en fysik",
+    "tier": 2
+  },
+  "learning.chemistry": {
+    "danish": "kemi",
+    "german": "Chemie",
+    "english": "chemistry",
+    "gender": "die",
+    "danishDefinite": "kemien",
+    "danishIndefinite": "en kemi",
+    "tier": 2
+  },
+  "learning.biology": {
+    "danish": "biologi",
+    "german": "Biologie",
+    "english": "biology",
+    "gender": "die",
+    "danishDefinite": "biologien",
+    "danishIndefinite": "en biologi",
+    "tier": 2
+  },
+  "learning.geography": {
+    "danish": "geografi",
+    "german": "Geographie",
+    "english": "geography",
+    "gender": "die",
+    "danishDefinite": "geografien",
+    "danishIndefinite": "en geografi",
+    "tier": 2
+  },
+  "learning.literature": {
+    "danish": "litteratur",
+    "german": "Literatur",
+    "english": "literature",
+    "gender": "die",
+    "danishDefinite": "litteraturen",
+    "danishIndefinite": "en litteratur",
+    "tier": 3
+  },
+  "learning.library": {
+    "danish": "bibliotek",
+    "german": "Bibliothek",
+    "english": "library",
+    "gender": "die",
+    "danishDefinite": "biblioteket",
+    "danishIndefinite": "et bibliotek",
+    "tier": 2
+  },
+  "learning.kindergarten": {
+    "danish": "børnehave",
+    "german": "Kindergarten",
+    "english": "kindergarten",
+    "gender": "der",
+    "danishDefinite": "børnehaven",
+    "danishIndefinite": "en børnehave",
+    "tier": 2
+  },
+  "learning.upper-secondary-school": {
+    "danish": "gymnasium",
+    "german": "Gymnasium",
+    "english": "upper secondary school",
+    "gender": "das",
+    "danishDefinite": "gymnasiet",
+    "danishIndefinite": "et gymnasium",
+    "tier": 3
+  },
+  "learning.scholarship": {
+    "danish": "stipendium",
+    "german": "Stipendium",
+    "english": "scholarship",
+    "gender": "das",
+    "danishDefinite": "stipendiet",
+    "danishIndefinite": "et stipendium",
+    "tier": 3
+  },
+  "learning.school-year": {
+    "danish": "skoleår",
+    "german": "Schuljahr",
+    "english": "school year",
+    "gender": "das",
+    "danishDefinite": "skoleåret",
+    "danishIndefinite": "et skoleår",
+    "tier": 3
+  },
+  "learning.school-principal": {
+    "danish": "rektor",
+    "german": "Rektor",
+    "english": "school principal",
+    "gender": "der",
+    "danishDefinite": "rektoren",
+    "danishIndefinite": "en rektor",
+    "tier": 3
+  },
+  "learning.classmate": {
+    "danish": "klassekammerat",
+    "german": "Mitschüler",
+    "english": "classmate",
+    "gender": "der",
+    "danishDefinite": "klassekammeraten",
+    "danishIndefinite": "en klassekammerat",
+    "tier": 3
+  },
+  "learning.thesis": {
+    "danish": "afhandling",
+    "german": "Abschlussarbeit",
+    "english": "thesis",
+    "gender": "die",
+    "danishDefinite": "afhandlingen",
+    "danishIndefinite": "en afhandling",
+    "tier": 4
+  },
+  "learning.group-work": {
+    "danish": "gruppearbejde",
+    "german": "Gruppenarbeit",
+    "english": "group work",
+    "gender": "die",
+    "danishDefinite": "gruppearbejdet",
+    "danishIndefinite": "et gruppearbejde",
+    "tier": 3
+  },
+  "learning.attention": {
+    "danish": "opmærksomhed",
+    "german": "Aufmerksamkeit",
+    "english": "attention",
+    "gender": "die",
+    "danishDefinite": "opmærksomheden",
+    "danishIndefinite": "en opmærksomhed",
+    "tier": 4
+  },
+  "learning.memory": {
+    "danish": "hukommelse",
+    "german": "Gedächtnis",
+    "english": "memory",
+    "gender": "das",
+    "danishDefinite": "hukommelsen",
+    "danishIndefinite": "en hukommelse",
+    "tier": 3
+  },
+  "learning.curiosity": {
+    "danish": "nysgerrighed",
+    "german": "Neugier",
+    "english": "curiosity",
+    "gender": "die",
+    "danishDefinite": "nysgerrigheden",
+    "danishIndefinite": "en nysgerrighed",
+    "tier": 4
+  },
+  "learning.heading": {
+    "danish": "overskrift",
+    "german": "Überschrift",
+    "english": "heading",
+    "gender": "die",
+    "danishDefinite": "overskriften",
+    "danishIndefinite": "en overskrift",
+    "tier": 4
+  },
+  "learning.language-course": {
+    "danish": "sprogkursus",
+    "german": "Sprachkurs",
+    "english": "language course",
+    "gender": "der",
+    "danishDefinite": "sprogkurset",
+    "danishIndefinite": "et sprogkursus",
+    "tier": 2
+  },
+  "learning.teaching": {
+    "danish": "undervisning",
+    "german": "Unterricht",
+    "english": "teaching",
+    "gender": "der",
+    "danishDefinite": "undervisningen",
+    "danishIndefinite": "en undervisning",
+    "tier": 2
+  },
+  "learning.place-at-university": {
+    "danish": "studieplads",
+    "german": "Studienplatz",
+    "english": "place at university",
+    "gender": "der",
+    "danishDefinite": "studiepladsen",
+    "danishIndefinite": "en studieplads",
+    "tier": 4
+  },
+  "learning.university-studies": {
+    "danish": "studie",
+    "german": "Studium",
+    "english": "university studies",
+    "gender": "das",
+    "danishDefinite": "studiet",
+    "danishIndefinite": "et studie",
+    "tier": 3
+  },
+  "learning.comparison": {
+    "danish": "sammenligning",
+    "german": "Vergleich",
+    "english": "comparison",
+    "gender": "der",
+    "danishDefinite": "sammenligningen",
+    "danishIndefinite": "en sammenligning",
+    "tier": 3
+  },
+  "learning.description": {
+    "danish": "beskrivelse",
+    "german": "Beschreibung",
+    "english": "description",
+    "gender": "die",
+    "danishDefinite": "beskrivelsen",
+    "danishIndefinite": "en beskrivelse",
+    "tier": 3
+  },
+  "learning.invention": {
+    "danish": "opfindelse",
+    "german": "Erfindung",
+    "english": "invention",
+    "gender": "die",
+    "danishDefinite": "opfindelsen",
+    "danishIndefinite": "en opfindelse",
+    "tier": 3
+  },
+  "learning.discovery": {
+    "danish": "opdagelse",
+    "german": "Entdeckung",
+    "english": "discovery",
+    "gender": "die",
+    "danishDefinite": "opdagelsen",
+    "danishIndefinite": "en opdagelse",
+    "tier": 3
+  },
+  "learning.quotation": {
+    "danish": "citat",
+    "german": "Zitat",
+    "english": "quotation",
+    "gender": "das",
+    "danishDefinite": "citatet",
+    "danishIndefinite": "et citat",
+    "tier": 3
+  },
+  "learning.source": {
+    "danish": "kilde",
+    "german": "Quelle",
+    "english": "source",
+    "gender": "die",
+    "danishDefinite": "kilden",
+    "danishIndefinite": "en kilde",
+    "tier": 3
+  },
+  "learning.footnote": {
+    "danish": "fodnote",
+    "german": "Fußnote",
+    "english": "footnote",
+    "gender": "die",
+    "danishDefinite": "fodnoten",
+    "danishIndefinite": "en fodnote",
+    "tier": 5
+  },
+  "learning.proverb": {
+    "danish": "ordsprog",
+    "german": "Sprichwort",
+    "english": "proverb",
+    "gender": "das",
+    "danishDefinite": "ordsproget",
+    "danishIndefinite": "et ordsprog",
+    "tier": 4
+  },
+  "learning.synonym": {
+    "danish": "synonym",
+    "german": "Synonym",
+    "english": "synonym",
+    "gender": "das",
+    "danishDefinite": "synonymet",
+    "danishIndefinite": "et synonym",
+    "tier": 4
+  },
+  "learning.question-mark": {
+    "danish": "spørgsmålstegn",
+    "german": "Fragezeichen",
+    "english": "question mark",
+    "gender": "das",
+    "danishDefinite": "spørgsmålstegnet",
+    "danishIndefinite": "et spørgsmålstegn",
+    "tier": 3
+  },
+  "learning.comma": {
+    "danish": "komma",
+    "german": "Komma",
+    "english": "comma",
+    "gender": "das",
+    "danishDefinite": "kommaet",
+    "danishIndefinite": "et komma",
+    "tier": 3
+  },
+  "learning.full-stop": {
+    "danish": "punktum",
+    "german": "Punkt",
+    "english": "full stop",
+    "gender": "der",
+    "danishDefinite": "punktummet",
+    "danishIndefinite": "et punktum",
+    "tier": 2
+  },
+  "learning.paragraph": {
+    "danish": "afsnit",
+    "german": "Absatz",
+    "english": "paragraph",
+    "gender": "der",
+    "danishDefinite": "afsnittet",
+    "danishIndefinite": "et afsnit",
+    "tier": 3
+  },
+  "learning.learn": {
+    "danish": "at lære",
+    "german": "lernen",
+    "english": "to learn",
+    "tier": 1
+  },
+  "learning.study": {
+    "danish": "at studere",
+    "german": "studieren",
+    "english": "to study",
+    "tier": 2
+  },
+  "learning.teach": {
+    "danish": "at undervise",
+    "german": "unterrichten",
+    "english": "to teach",
+    "tier": 3
+  },
+  "learning.explain": {
+    "danish": "at forklare",
+    "german": "erklären",
+    "english": "to explain",
+    "tier": 2
+  },
+  "learning.practise": {
+    "danish": "at øve",
+    "german": "üben",
+    "english": "to practise",
+    "tier": 2
+  },
+  "learning.repeat": {
+    "danish": "at gentage",
+    "german": "wiederholen",
+    "english": "to repeat",
+    "tier": 2
+  },
+  "learning.learn-by-heart": {
+    "danish": "at lære udenad",
+    "german": "auswendig lernen",
+    "english": "to learn by heart",
+    "tier": 3
+  },
+  "learning.understand": {
+    "danish": "at forstå",
+    "german": "verstehen",
+    "english": "to understand",
+    "tier": 1
+  },
+  "learning.translate": {
+    "danish": "at oversætte",
+    "german": "übersetzen",
+    "english": "to translate",
+    "tier": 2
+  },
+  "learning.spell": {
+    "danish": "at stave",
+    "german": "buchstabieren",
+    "english": "to spell",
+    "tier": 2
+  },
+  "learning.pronounce": {
+    "danish": "at udtale",
+    "german": "aussprechen",
+    "english": "to pronounce",
+    "tier": 3
+  },
+  "learning.pass-an-exam": {
+    "danish": "at bestå",
+    "german": "bestehen",
+    "english": "to pass an exam",
+    "tier": 2
+  },
+  "learning.fail-an-exam": {
+    "danish": "at dumpe",
+    "german": "durchfallen",
+    "english": "to fail an exam",
+    "tier": 3
+  },
+  "learning.correct": {
+    "danish": "at rette",
+    "german": "korrigieren",
+    "english": "to correct",
+    "tier": 2
+  },
+  "learning.ask": {
+    "danish": "at spørge",
+    "german": "fragen",
+    "english": "to ask",
+    "tier": 1
+  },
+  "learning.answer-2": {
+    "danish": "at svare",
+    "german": "antworten",
+    "english": "to answer",
+    "tier": 1
+  },
+  "learning.copy": {
+    "danish": "at skrive af",
+    "german": "abschreiben",
+    "english": "to copy",
+    "tier": 3
+  },
+  "learning.draw": {
+    "danish": "at tegne",
+    "german": "zeichnen",
+    "english": "to draw",
+    "tier": 2
+  },
+  "learning.calculate": {
+    "danish": "at regne ud",
+    "german": "ausrechnen",
+    "english": "to calculate",
+    "tier": 2
+  },
+  "learning.count": {
+    "danish": "at tælle",
+    "german": "zählen",
+    "english": "to count",
+    "tier": 2
+  },
+  "learning.discuss": {
+    "danish": "at diskutere",
+    "german": "diskutieren",
+    "english": "to discuss",
+    "tier": 3
+  },
+  "learning.improve": {
+    "danish": "at forbedre",
+    "german": "verbessern",
+    "english": "to improve",
+    "tier": 3
+  },
+  "learning.guess": {
+    "danish": "at gætte",
+    "german": "raten",
+    "english": "to guess",
+    "tier": 3
+  },
+  "learning.look-up": {
+    "danish": "at slå op",
+    "german": "nachschlagen",
+    "english": "to look up",
+    "tier": 3
+  },
+  "learning.quote": {
+    "danish": "at citere",
+    "german": "zitieren",
+    "english": "to quote",
+    "tier": 3
+  },
+  "learning.compare": {
+    "danish": "at sammenligne",
+    "german": "vergleichen",
+    "english": "to compare",
+    "tier": 3
+  },
+  "learning.describe": {
+    "danish": "at beskrive",
+    "german": "beschreiben",
+    "english": "to describe",
+    "tier": 2
+  },
+  "learning.discover": {
+    "danish": "at opdage",
+    "german": "entdecken",
+    "english": "to discover",
+    "tier": 3
+  },
+  "learning.examine": {
+    "danish": "at undersøge",
+    "german": "untersuchen",
+    "english": "to examine",
+    "tier": 3
+  },
+  "learning.invent": {
+    "danish": "at opfinde",
+    "german": "erfinden",
+    "english": "to invent",
+    "tier": 3
+  },
+  "learning.clever": {
+    "danish": "klog",
+    "german": "klug",
+    "english": "clever",
+    "tier": 3
+  },
+  "learning.intelligent": {
+    "danish": "intelligent",
+    "german": "intelligent",
+    "english": "intelligent",
+    "tier": 2
+  },
+  "learning.difficult": {
+    "danish": "vanskelig",
+    "german": "schwierig",
+    "english": "difficult",
+    "tier": 2
+  },
+  "learning.easy": {
+    "danish": "nem",
+    "german": "einfach",
+    "english": "easy",
+    "tier": 2
+  },
+  "learning.bilingual": {
+    "danish": "tosproget",
+    "german": "zweisprachig",
+    "english": "bilingual",
+    "tier": 3
+  },
+  "learning.fluent": {
+    "danish": "flydende",
+    "german": "fließend",
+    "english": "fluent",
+    "tier": 3
+  },
+  "learning.written": {
+    "danish": "skriftlig",
+    "german": "schriftlich",
+    "english": "written",
+    "tier": 3
+  },
+  "learning.oral": {
+    "danish": "mundtlig",
+    "german": "mündlich",
+    "english": "oral",
+    "tier": 3
   }
 }

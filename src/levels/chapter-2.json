@@ -1,158 +1,278 @@
 [
   {
     "id": "2-1",
-    "chapter": "Chapter 2",
-    "name": "Modal verbs",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "People",
     "mode": "word",
-    "prompt": "Translate the Danish sentence into German",
-    "wordIds": [
-      "modals.koennen.ich",
-      "modals.koennen.du",
-      "modals.koennen.er",
-      "modals.koennen.wir",
-      "modals.koennen.sie",
-      "modals.muessen.ich",
-      "modals.muessen.du",
-      "modals.muessen.er",
-      "modals.muessen.wir",
-      "modals.muessen.sie",
-      "modals.wollen.ich",
-      "modals.wollen.du",
-      "modals.wollen.er",
-      "modals.wollen.wir",
-      "modals.wollen.sie",
-      "modals.duerfen.ich",
-      "modals.duerfen.du",
-      "modals.duerfen.er",
-      "modals.duerfen.wir",
-      "modals.duerfen.sie",
-      "modals.sollen.ich",
-      "modals.sollen.du",
-      "modals.sollen.er",
-      "modals.sollen.wir",
-      "modals.sollen.sie",
-      "modals.moegen.ich",
-      "modals.moegen.du",
-      "modals.moegen.er",
-      "modals.moegen.wir",
-      "modals.moegen.sie"
+    "prompt": "Find the German word for",
+    "categories": [
+      "people",
+      "emotions",
+      "personality",
+      "life"
+    ],
+    "tiers": [
+      2
     ]
   },
   {
     "id": "2-2",
-    "chapter": "Chapter 2",
-    "name": "Common verbs",
-    "mode": "word",
-    "prompt": "Find the German word for",
-    "wordIds": [
-      "verbs.be",
-      "verbs.have",
-      "verbs.do",
-      "verbs.go",
-      "verbs.come",
-      "verbs.see",
-      "verbs.hear",
-      "verbs.speak",
-      "verbs.say",
-      "verbs.eat",
-      "verbs.drink",
-      "verbs.sleep",
-      "verbs.read",
-      "verbs.write",
-      "verbs.learn",
-      "verbs.work",
-      "verbs.live",
-      "verbs.buy",
-      "verbs.pay",
-      "verbs.find",
-      "verbs.think",
-      "verbs.know",
-      "verbs.understand",
-      "verbs.help",
-      "verbs.ask",
-      "verbs.answer",
-      "verbs.open",
-      "verbs.close",
-      "verbs.wait",
-      "verbs.walk"
+    "chapter": "Chapter 2 · Everyday",
+    "name": "People with articles",
+    "mode": "article",
+    "prompt": "Choose the German form",
+    "categories": [
+      "people"
+    ],
+    "tiers": [
+      2
     ]
   },
   {
     "id": "2-3",
-    "chapter": "Chapter 2",
-    "name": "Everyday things",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Describing words",
     "mode": "word",
     "prompt": "Find the German word for",
-    "wordIds": [
-      "kitchen.pan",
-      "kitchen.pot",
-      "kitchen.cup",
-      "kitchen.plate",
-      "kitchen.spoon",
-      "kitchen.fork",
-      "kitchen.knife",
-      "kitchen.fridge",
-      "kitchen.tablecloth",
-      "kitchen.mirror",
-      "kitchen.blanket",
-      "kitchen.cushion",
-      "kitchen.bowl",
-      "everyday.breakfast",
-      "everyday.lunch",
-      "everyday.dinner",
-      "everyday.umbrella",
-      "everyday.wallet",
-      "everyday.watch",
-      "everyday.toothbrush",
-      "everyday.shampoo",
-      "everyday.soap",
-      "everyday.towel",
-      "technology.screen",
-      "technology.keyboard",
-      "technology.mouse",
-      "technology.wifi",
-      "technology.app",
-      "technology.email",
-      "technology.chat"
+    "categories": [
+      "adjectives",
+      "colors",
+      "adverbs"
+    ],
+    "tiers": [
+      2
     ]
   },
   {
     "id": "2-4",
-    "chapter": "Chapter 2",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Small words",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "prepositions",
+      "function",
+      "numbers",
+      "time"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-5",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Verbs",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "verbs"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-6",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Food and drink",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "food",
+      "drinks",
+      "restaurant"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-7",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Home",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "home",
+      "kitchen",
+      "everyday",
+      "tools",
+      "materials",
+      "office"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-8",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Body and clothes",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "body",
+      "health",
+      "clothing"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-9",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Nature",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "animals",
+      "nature",
+      "garden",
+      "weather"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-10",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Town and travel",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "city",
+      "travel",
+      "transport",
+      "shopping",
+      "countries"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-11",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Free time",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "sport",
+      "music",
+      "hobbies"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-12",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Work and school",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "work",
+      "learning",
+      "technology",
+      "money",
+      "media",
+      "communication",
+      "society",
+      "science",
+      "culture"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-13",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Sentences",
+    "mode": "word",
+    "prompt": "Translate the Danish sentence into German",
+    "categories": [
+      "modals",
+      "sentences"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-14",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Review",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "people",
+      "animals",
+      "adjectives",
+      "prepositions",
+      "kitchen",
+      "garden",
+      "weather",
+      "everyday",
+      "technology",
+      "work",
+      "learning",
+      "music",
+      "sport",
+      "travel",
+      "city",
+      "spelling",
+      "verbs",
+      "body",
+      "health",
+      "clothing",
+      "emotions",
+      "home",
+      "tools",
+      "materials",
+      "food",
+      "drinks",
+      "restaurant",
+      "nature",
+      "hobbies",
+      "transport",
+      "shopping",
+      "media",
+      "money",
+      "society",
+      "time",
+      "numbers",
+      "colors",
+      "adverbs",
+      "function",
+      "countries",
+      "science",
+      "culture",
+      "personality",
+      "communication",
+      "life",
+      "office"
+    ],
+    "tiers": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "2-15",
+    "chapter": "Chapter 2 · Everyday",
     "name": "Sentence builder",
     "mode": "sentence",
     "prompt": "Build the German sentence one chunk at a time",
-    "wordIds": [
-      "sentence-builder.mand.subject",
-      "sentence-builder.mand.verb",
-      "sentence-builder.mand.adjective",
-      "sentence-builder.kvinde.subject",
-      "sentence-builder.kvinde.verb",
-      "sentence-builder.kvinde.adjective",
-      "sentence-builder.barn.subject",
-      "sentence-builder.barn.verb",
-      "sentence-builder.barn.adjective",
-      "sentence-builder.hund.subject",
-      "sentence-builder.hund.verb",
-      "sentence-builder.hund.object",
-      "sentence-builder.pige.subject",
-      "sentence-builder.pige.verb",
-      "sentence-builder.pige.object",
-      "sentence-builder.bror.subject",
-      "sentence-builder.bror.verb",
-      "sentence-builder.bror.object",
-      "sentence-builder.vi.subject",
-      "sentence-builder.vi.verb",
-      "sentence-builder.vi.object",
-      "sentence-builder.hun.subject",
-      "sentence-builder.hun.verb",
-      "sentence-builder.hun.adverb",
-      "sentence-builder.laerer.subject",
-      "sentence-builder.laerer.verb",
-      "sentence-builder.laerer.object",
-      "sentence-builder.soster.subject",
-      "sentence-builder.soster.verb",
-      "sentence-builder.soster.place"
+    "categories": [
+      "sentence-builder"
+    ],
+    "tiers": [
+      2
     ]
   }
 ]

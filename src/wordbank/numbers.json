@@ -1,0 +1,590 @@
+{
+  "numbers.zero": {
+    "danish": "nul",
+    "german": "null",
+    "english": "zero",
+    "tier": 1
+  },
+  "numbers.one": {
+    "danish": "en",
+    "german": "eins",
+    "english": "one",
+    "tier": 1
+  },
+  "numbers.two": {
+    "danish": "to",
+    "german": "zwei",
+    "english": "two",
+    "tier": 1
+  },
+  "numbers.three": {
+    "danish": "tre",
+    "german": "drei",
+    "english": "three",
+    "tier": 1
+  },
+  "numbers.four": {
+    "danish": "fire",
+    "german": "vier",
+    "english": "four",
+    "tier": 1
+  },
+  "numbers.five": {
+    "danish": "fem",
+    "german": "fünf",
+    "english": "five",
+    "tier": 1
+  },
+  "numbers.six": {
+    "danish": "seks",
+    "german": "sechs",
+    "english": "six",
+    "tier": 1
+  },
+  "numbers.seven": {
+    "danish": "syv",
+    "german": "sieben",
+    "english": "seven",
+    "tier": 1
+  },
+  "numbers.eight": {
+    "danish": "otte",
+    "german": "acht",
+    "english": "eight",
+    "tier": 1
+  },
+  "numbers.nine": {
+    "danish": "ni",
+    "german": "neun",
+    "english": "nine",
+    "tier": 1
+  },
+  "numbers.ten": {
+    "danish": "ti",
+    "german": "zehn",
+    "english": "ten",
+    "tier": 1
+  },
+  "numbers.eleven": {
+    "danish": "elleve",
+    "german": "elf",
+    "english": "eleven",
+    "tier": 1
+  },
+  "numbers.twelve": {
+    "danish": "tolv",
+    "german": "zwölf",
+    "english": "twelve",
+    "tier": 1
+  },
+  "numbers.thirteen": {
+    "danish": "tretten",
+    "german": "dreizehn",
+    "english": "thirteen",
+    "tier": 1
+  },
+  "numbers.fourteen": {
+    "danish": "fjorten",
+    "german": "vierzehn",
+    "english": "fourteen",
+    "tier": 1
+  },
+  "numbers.fifteen": {
+    "danish": "femten",
+    "german": "fünfzehn",
+    "english": "fifteen",
+    "tier": 1
+  },
+  "numbers.sixteen": {
+    "danish": "seksten",
+    "german": "sechzehn",
+    "english": "sixteen",
+    "tier": 1
+  },
+  "numbers.seventeen": {
+    "danish": "sytten",
+    "german": "siebzehn",
+    "english": "seventeen",
+    "tier": 1
+  },
+  "numbers.eighteen": {
+    "danish": "atten",
+    "german": "achtzehn",
+    "english": "eighteen",
+    "tier": 1
+  },
+  "numbers.nineteen": {
+    "danish": "nitten",
+    "german": "neunzehn",
+    "english": "nineteen",
+    "tier": 1
+  },
+  "numbers.twenty": {
+    "danish": "tyve",
+    "german": "zwanzig",
+    "english": "twenty",
+    "tier": 1
+  },
+  "numbers.twenty-five": {
+    "danish": "femogtyve",
+    "german": "fünfundzwanzig",
+    "english": "twenty-five",
+    "tier": 1
+  },
+  "numbers.thirty": {
+    "danish": "tredive",
+    "german": "dreißig",
+    "english": "thirty",
+    "tier": 1
+  },
+  "numbers.forty": {
+    "danish": "fyrre",
+    "german": "vierzig",
+    "english": "forty",
+    "tier": 1
+  },
+  "numbers.fifty": {
+    "danish": "halvtreds",
+    "german": "fünfzig",
+    "english": "fifty",
+    "tier": 1
+  },
+  "numbers.sixty": {
+    "danish": "tres",
+    "german": "sechzig",
+    "english": "sixty",
+    "tier": 1
+  },
+  "numbers.seventy": {
+    "danish": "halvfjerds",
+    "german": "siebzig",
+    "english": "seventy",
+    "tier": 1
+  },
+  "numbers.eighty": {
+    "danish": "firs",
+    "german": "achtzig",
+    "english": "eighty",
+    "tier": 1
+  },
+  "numbers.ninety": {
+    "danish": "halvfems",
+    "german": "neunzig",
+    "english": "ninety",
+    "tier": 1
+  },
+  "numbers.hundred": {
+    "danish": "hundrede",
+    "german": "hundert",
+    "english": "hundred",
+    "tier": 1
+  },
+  "numbers.thousand": {
+    "danish": "tusind",
+    "german": "tausend",
+    "english": "thousand",
+    "tier": 1
+  },
+  "numbers.million": {
+    "danish": "million",
+    "german": "Million",
+    "english": "million",
+    "gender": "die",
+    "danishDefinite": "millionen",
+    "danishIndefinite": "en million",
+    "tier": 2
+  },
+  "numbers.billion": {
+    "danish": "milliard",
+    "german": "Milliarde",
+    "english": "billion",
+    "gender": "die",
+    "danishDefinite": "milliarden",
+    "danishIndefinite": "en milliard",
+    "tier": 3
+  },
+  "numbers.first": {
+    "danish": "første",
+    "german": "erste",
+    "english": "first",
+    "tier": 1
+  },
+  "numbers.second-ordinal": {
+    "danish": "anden",
+    "german": "zweite",
+    "english": "second (ordinal)",
+    "tier": 1
+  },
+  "numbers.third": {
+    "danish": "tredje",
+    "german": "dritte",
+    "english": "third",
+    "tier": 1
+  },
+  "numbers.fourth": {
+    "danish": "fjerde",
+    "german": "vierte",
+    "english": "fourth",
+    "tier": 1
+  },
+  "numbers.fifth": {
+    "danish": "femte",
+    "german": "fünfte",
+    "english": "fifth",
+    "tier": 1
+  },
+  "numbers.sixth": {
+    "danish": "sjette",
+    "german": "sechste",
+    "english": "sixth",
+    "tier": 1
+  },
+  "numbers.seventh": {
+    "danish": "syvende",
+    "german": "siebte",
+    "english": "seventh",
+    "tier": 1
+  },
+  "numbers.eighth": {
+    "danish": "ottende",
+    "german": "achte",
+    "english": "eighth",
+    "tier": 1
+  },
+  "numbers.ninth": {
+    "danish": "niende",
+    "german": "neunte",
+    "english": "ninth",
+    "tier": 1
+  },
+  "numbers.tenth": {
+    "danish": "tiende",
+    "german": "zehnte",
+    "english": "tenth",
+    "tier": 1
+  },
+  "numbers.eleventh": {
+    "danish": "ellevte",
+    "german": "elfte",
+    "english": "eleventh",
+    "tier": 2
+  },
+  "numbers.twelfth": {
+    "danish": "tolvte",
+    "german": "zwölfte",
+    "english": "twelfth",
+    "tier": 2
+  },
+  "numbers.twentieth": {
+    "danish": "tyvende",
+    "german": "zwanzigste",
+    "english": "twentieth",
+    "tier": 2
+  },
+  "numbers.half": {
+    "danish": "halv",
+    "german": "halb",
+    "english": "half",
+    "tier": 1
+  },
+  "numbers.half-part": {
+    "danish": "halvdel",
+    "german": "Hälfte",
+    "english": "half (part)",
+    "gender": "die",
+    "danishDefinite": "halvdelen",
+    "danishIndefinite": "en halvdel",
+    "tier": 2
+  },
+  "numbers.quarter": {
+    "danish": "fjerdedel",
+    "german": "Viertel",
+    "english": "quarter",
+    "gender": "das",
+    "danishDefinite": "fjerdedelen",
+    "danishIndefinite": "en fjerdedel",
+    "tier": 2
+  },
+  "numbers.third-part": {
+    "danish": "tredjedel",
+    "german": "Drittel",
+    "english": "third (part)",
+    "gender": "das",
+    "danishDefinite": "tredjedelen",
+    "danishIndefinite": "en tredjedel",
+    "tier": 3
+  },
+  "numbers.tenth-part": {
+    "danish": "tiendedel",
+    "german": "Zehntel",
+    "english": "tenth (part)",
+    "gender": "das",
+    "danishDefinite": "tiendedelen",
+    "danishIndefinite": "en tiendedel",
+    "tier": 4
+  },
+  "numbers.dozen": {
+    "danish": "dusin",
+    "german": "Dutzend",
+    "english": "dozen",
+    "gender": "das",
+    "danishDefinite": "dusinet",
+    "danishIndefinite": "et dusin",
+    "tier": 3
+  },
+  "numbers.pair": {
+    "danish": "par",
+    "german": "Paar",
+    "english": "pair",
+    "gender": "das",
+    "danishDefinite": "parret",
+    "danishIndefinite": "et par",
+    "tier": 2
+  },
+  "numbers.percent": {
+    "danish": "procent",
+    "german": "Prozent",
+    "english": "percent",
+    "gender": "das",
+    "danishDefinite": "procenten",
+    "danishIndefinite": "en procent",
+    "tier": 2
+  },
+  "numbers.number": {
+    "danish": "tal",
+    "german": "Zahl",
+    "english": "number",
+    "gender": "die",
+    "danishDefinite": "tallet",
+    "danishIndefinite": "et tal",
+    "tier": 1
+  },
+  "numbers.digit": {
+    "danish": "ciffer",
+    "german": "Ziffer",
+    "english": "digit",
+    "gender": "die",
+    "danishDefinite": "cifferet",
+    "danishIndefinite": "et ciffer",
+    "tier": 3
+  },
+  "numbers.sum": {
+    "danish": "sum",
+    "german": "Summe",
+    "english": "sum",
+    "gender": "die",
+    "danishDefinite": "summen",
+    "danishIndefinite": "en sum",
+    "tier": 3
+  },
+  "numbers.amount": {
+    "danish": "mængde",
+    "german": "Menge",
+    "english": "amount",
+    "gender": "die",
+    "danishDefinite": "mængden",
+    "danishIndefinite": "en mængde",
+    "tier": 3
+  },
+  "numbers.quantity": {
+    "danish": "antal",
+    "german": "Anzahl",
+    "english": "quantity",
+    "gender": "die",
+    "danishDefinite": "antallet",
+    "danishIndefinite": "et antal",
+    "tier": 3
+  },
+  "numbers.remainder": {
+    "danish": "rest",
+    "german": "Rest",
+    "english": "remainder",
+    "gender": "der",
+    "danishDefinite": "resten",
+    "danishIndefinite": "en rest",
+    "tier": 2
+  },
+  "numbers.majority": {
+    "danish": "flertal",
+    "german": "Mehrheit",
+    "english": "majority",
+    "gender": "die",
+    "danishDefinite": "flertallet",
+    "danishIndefinite": "et flertal",
+    "tier": 4
+  },
+  "numbers.minority": {
+    "danish": "mindretal",
+    "german": "Minderheit",
+    "english": "minority",
+    "gender": "die",
+    "danishDefinite": "mindretallet",
+    "danishIndefinite": "et mindretal",
+    "tier": 4
+  },
+  "numbers.double": {
+    "danish": "dobbelt",
+    "german": "doppelt",
+    "english": "double",
+    "tier": 3
+  },
+  "numbers.kilo": {
+    "danish": "kilo",
+    "german": "Kilo",
+    "english": "kilo",
+    "gender": "das",
+    "danishDefinite": "kiloet",
+    "danishIndefinite": "et kilo",
+    "tier": 1
+  },
+  "numbers.gram": {
+    "danish": "gram",
+    "german": "Gramm",
+    "english": "gram",
+    "gender": "das",
+    "danishDefinite": "grammet",
+    "danishIndefinite": "et gram",
+    "tier": 1
+  },
+  "numbers.litre": {
+    "danish": "liter",
+    "german": "Liter",
+    "english": "litre",
+    "gender": "der",
+    "danishDefinite": "literen",
+    "danishIndefinite": "en liter",
+    "tier": 1
+  },
+  "numbers.centimetre": {
+    "danish": "centimeter",
+    "german": "Zentimeter",
+    "english": "centimetre",
+    "gender": "der",
+    "danishDefinite": "centimeteren",
+    "danishIndefinite": "en centimeter",
+    "tier": 2
+  },
+  "numbers.cent": {
+    "danish": "cent",
+    "german": "Cent",
+    "english": "cent",
+    "gender": "der",
+    "danishDefinite": "centen",
+    "danishIndefinite": "en cent",
+    "tier": 1
+  },
+  "numbers.prozentsatz": {
+    "danish": "procentsats",
+    "german": "Prozentsatz",
+    "english": "percentage",
+    "gender": "der",
+    "danishDefinite": "procentsatsen",
+    "danishIndefinite": "en procentsats",
+    "tier": 4
+  },
+  "numbers.verhaeltnis": {
+    "danish": "forhold",
+    "german": "Verhältnis",
+    "english": "ratio",
+    "gender": "das",
+    "danishDefinite": "forholdet",
+    "danishIndefinite": "et forhold",
+    "tier": 4
+  },
+  "numbers.ungerade": {
+    "danish": "ulige",
+    "german": "ungerade",
+    "english": "odd (number)",
+    "tier": 4
+  },
+  "numbers.zahlreich": {
+    "danish": "talrig",
+    "german": "zahlreich",
+    "english": "numerous",
+    "tier": 4
+  },
+  "numbers.knapp": {
+    "danish": "knap",
+    "german": "knapp",
+    "english": "barely",
+    "tier": 4
+  },
+  "numbers.bruchteil": {
+    "danish": "brøkdel",
+    "german": "Bruchteil",
+    "english": "fraction",
+    "gender": "der",
+    "danishDefinite": "brøkdelen",
+    "danishIndefinite": "en brøkdel",
+    "tier": 5
+  },
+  "numbers.quote": {
+    "danish": "kvote",
+    "german": "Quote",
+    "english": "quota",
+    "gender": "die",
+    "danishDefinite": "kvoten",
+    "danishIndefinite": "en kvote",
+    "tier": 5
+  },
+  "numbers.hoechstwert": {
+    "danish": "maksimum",
+    "german": "Höchstwert",
+    "english": "maximum value",
+    "gender": "der",
+    "danishDefinite": "maksimummet",
+    "danishIndefinite": "et maksimum",
+    "tier": 5
+  },
+  "numbers.minimum": {
+    "danish": "minimum",
+    "german": "Minimum",
+    "english": "minimum",
+    "gender": "das",
+    "danishDefinite": "minimummet",
+    "danishIndefinite": "et minimum",
+    "tier": 5
+  },
+  "numbers.ueberschuss": {
+    "danish": "overskud",
+    "german": "Überschuss",
+    "english": "surplus",
+    "gender": "der",
+    "danishDefinite": "overskuddet",
+    "danishIndefinite": "et overskud",
+    "tier": 5
+  },
+  "numbers.gesamtheit": {
+    "danish": "helhed",
+    "german": "Gesamtheit",
+    "english": "totality",
+    "gender": "die",
+    "danishDefinite": "helheden",
+    "danishIndefinite": "en helhed",
+    "tier": 5
+  },
+  "numbers.mittelwert": {
+    "danish": "middelværdi",
+    "german": "Mittelwert",
+    "english": "mean value",
+    "gender": "der",
+    "danishDefinite": "middelværdien",
+    "danishIndefinite": "en middelværdi",
+    "tier": 5
+  },
+  "numbers.ueberzahl": {
+    "danish": "overtal",
+    "german": "Überzahl",
+    "english": "numerical superiority",
+    "gender": "die",
+    "danishDefinite": "overtallet",
+    "danishIndefinite": "et overtal",
+    "tier": 5
+  },
+  "numbers.dreifach": {
+    "danish": "tredobbelt",
+    "german": "dreifach",
+    "english": "threefold",
+    "tier": 5
+  }
+}

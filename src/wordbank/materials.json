@@ -1,0 +1,479 @@
+{
+  "materials.material": {
+    "danish": "materiale",
+    "german": "Material",
+    "english": "material",
+    "gender": "das",
+    "danishDefinite": "materialet",
+    "danishIndefinite": "et materiale",
+    "tier": 3
+  },
+  "materials.raw-material": {
+    "danish": "råstof",
+    "german": "Rohstoff",
+    "english": "raw material",
+    "gender": "der",
+    "danishDefinite": "råstoffet",
+    "danishIndefinite": "et råstof",
+    "tier": 4
+  },
+  "materials.metal": {
+    "danish": "metal",
+    "german": "Metall",
+    "english": "metal",
+    "gender": "das",
+    "danishDefinite": "metallet",
+    "danishIndefinite": "et metal",
+    "tier": 3
+  },
+  "materials.iron": {
+    "danish": "jern",
+    "german": "Eisen",
+    "english": "iron",
+    "gender": "das",
+    "danishDefinite": "jernet",
+    "danishIndefinite": "et jern",
+    "tier": 3
+  },
+  "materials.steel": {
+    "danish": "stål",
+    "german": "Stahl",
+    "english": "steel",
+    "gender": "der",
+    "danishDefinite": "stålet",
+    "danishIndefinite": "et stål",
+    "tier": 3
+  },
+  "materials.copper": {
+    "danish": "kobber",
+    "german": "Kupfer",
+    "english": "copper",
+    "gender": "das",
+    "danishDefinite": "kobberet",
+    "danishIndefinite": "et kobber",
+    "tier": 4
+  },
+  "materials.aluminium": {
+    "danish": "aluminium",
+    "german": "Aluminium",
+    "english": "aluminium",
+    "gender": "das",
+    "danishDefinite": "aluminiumet",
+    "danishIndefinite": "et aluminium",
+    "tier": 4
+  },
+  "materials.lead": {
+    "danish": "bly",
+    "german": "Blei",
+    "english": "lead",
+    "gender": "das",
+    "danishDefinite": "blyet",
+    "danishIndefinite": "et bly",
+    "tier": 5
+  },
+  "materials.gold": {
+    "danish": "guld",
+    "german": "Gold",
+    "english": "gold",
+    "gender": "das",
+    "danishDefinite": "guldet",
+    "danishIndefinite": "et guld",
+    "tier": 2
+  },
+  "materials.silver": {
+    "danish": "sølv",
+    "german": "Silber",
+    "english": "silver",
+    "gender": "das",
+    "danishDefinite": "sølvet",
+    "danishIndefinite": "et sølv",
+    "tier": 2
+  },
+  "materials.brass": {
+    "danish": "messing",
+    "german": "Messing",
+    "english": "brass",
+    "gender": "das",
+    "danishDefinite": "messinget",
+    "danishIndefinite": "et messing",
+    "tier": 5
+  },
+  "materials.bronze": {
+    "danish": "bronze",
+    "german": "Bronze",
+    "english": "bronze",
+    "gender": "die",
+    "danishDefinite": "bronzen",
+    "danishIndefinite": "en bronze",
+    "tier": 4
+  },
+  "materials.rust": {
+    "danish": "rust",
+    "german": "Rost",
+    "english": "rust",
+    "gender": "der",
+    "danishDefinite": "rusten",
+    "danishIndefinite": "en rust",
+    "tier": 4
+  },
+  "materials.glass": {
+    "danish": "glas",
+    "german": "Glas",
+    "english": "glass",
+    "gender": "das",
+    "danishDefinite": "glasset",
+    "danishIndefinite": "et glas",
+    "tier": 2
+  },
+  "materials.plastic": {
+    "danish": "plastik",
+    "german": "Plastik",
+    "english": "plastic",
+    "gender": "das",
+    "danishDefinite": "plastikken",
+    "danishIndefinite": "en plastik",
+    "tier": 2
+  },
+  "materials.rubber": {
+    "danish": "kautsjuk",
+    "german": "Kautschuk",
+    "english": "rubber",
+    "gender": "der",
+    "danishDefinite": "kautsjukken",
+    "danishIndefinite": "en kautsjuk",
+    "tier": 5
+  },
+  "materials.cardboard": {
+    "danish": "karton",
+    "german": "Karton",
+    "english": "cardboard",
+    "gender": "der",
+    "danishDefinite": "kartonen",
+    "danishIndefinite": "en karton",
+    "tier": 3
+  },
+  "materials.cloth": {
+    "danish": "stof",
+    "german": "Stoff",
+    "english": "cloth",
+    "gender": "der",
+    "danishDefinite": "stoffet",
+    "danishIndefinite": "et stof",
+    "tier": 3
+  },
+  "materials.fibre": {
+    "danish": "fiber",
+    "german": "Faser",
+    "english": "fibre",
+    "gender": "die",
+    "danishDefinite": "fiberen",
+    "danishIndefinite": "en fiber",
+    "tier": 5
+  },
+  "materials.stone": {
+    "danish": "sten",
+    "german": "Stein",
+    "english": "stone",
+    "gender": "der",
+    "danishDefinite": "stenen",
+    "danishIndefinite": "en sten",
+    "tier": 1
+  },
+  "materials.granite": {
+    "danish": "granit",
+    "german": "Granit",
+    "english": "granite",
+    "gender": "der",
+    "danishDefinite": "graniten",
+    "danishIndefinite": "en granit",
+    "tier": 5
+  },
+  "materials.slate": {
+    "danish": "skifer",
+    "german": "Schiefer",
+    "english": "slate",
+    "gender": "der",
+    "danishDefinite": "skiferen",
+    "danishIndefinite": "en skifer",
+    "tier": 5
+  },
+  "materials.gravel": {
+    "danish": "grus",
+    "german": "Kies",
+    "english": "gravel",
+    "gender": "der",
+    "danishDefinite": "gruset",
+    "danishIndefinite": "et grus",
+    "tier": 5
+  },
+  "materials.clay": {
+    "danish": "ler",
+    "german": "Lehm",
+    "english": "clay",
+    "gender": "der",
+    "danishDefinite": "leret",
+    "danishIndefinite": "et ler",
+    "tier": 5
+  },
+  "materials.ceramics": {
+    "danish": "keramik",
+    "german": "Keramik",
+    "english": "ceramics",
+    "gender": "die",
+    "danishDefinite": "keramikken",
+    "danishIndefinite": "en keramik",
+    "tier": 4
+  },
+  "materials.porcelain": {
+    "danish": "porcelæn",
+    "german": "Porzellan",
+    "english": "porcelain",
+    "gender": "das",
+    "danishDefinite": "porcelænet",
+    "danishIndefinite": "et porcelæn",
+    "tier": 4
+  },
+  "materials.brick": {
+    "danish": "mursten",
+    "german": "Ziegelstein",
+    "english": "brick",
+    "gender": "der",
+    "danishDefinite": "murstenen",
+    "danishIndefinite": "en mursten",
+    "tier": 4
+  },
+  "materials.concrete": {
+    "danish": "beton",
+    "german": "Beton",
+    "english": "concrete",
+    "gender": "der",
+    "danishDefinite": "betonen",
+    "danishIndefinite": "en beton",
+    "tier": 4
+  },
+  "materials.cement": {
+    "danish": "cement",
+    "german": "Zement",
+    "english": "cement",
+    "gender": "der",
+    "danishDefinite": "cementen",
+    "danishIndefinite": "en cement",
+    "tier": 4
+  },
+  "materials.plaster": {
+    "danish": "gips",
+    "german": "Gips",
+    "english": "plaster",
+    "gender": "der",
+    "danishDefinite": "gipsen",
+    "danishIndefinite": "en gips",
+    "tier": 5
+  },
+  "materials.lime": {
+    "danish": "kalk",
+    "german": "Kalk",
+    "english": "lime",
+    "gender": "der",
+    "danishDefinite": "kalken",
+    "danishIndefinite": "en kalk",
+    "tier": 5
+  },
+  "materials.tile": {
+    "danish": "flise",
+    "german": "Fliese",
+    "english": "tile",
+    "gender": "die",
+    "danishDefinite": "flisen",
+    "danishIndefinite": "en flise",
+    "tier": 4
+  },
+  "materials.asphalt": {
+    "danish": "asfalt",
+    "german": "Asphalt",
+    "english": "asphalt",
+    "gender": "der",
+    "danishDefinite": "asfalten",
+    "danishIndefinite": "en asfalt",
+    "tier": 4
+  },
+  "materials.coal": {
+    "danish": "kul",
+    "german": "Kohle",
+    "english": "coal",
+    "gender": "die",
+    "danishDefinite": "kullet",
+    "danishIndefinite": "et kul",
+    "tier": 3
+  },
+  "materials.oil": {
+    "danish": "olie",
+    "german": "Öl",
+    "english": "oil",
+    "gender": "das",
+    "danishDefinite": "olien",
+    "danishIndefinite": "en olie",
+    "tier": 2
+  },
+  "materials.gas": {
+    "danish": "gas",
+    "german": "Gas",
+    "english": "gas",
+    "gender": "das",
+    "danishDefinite": "gassen",
+    "danishIndefinite": "en gas",
+    "tier": 2
+  },
+  "materials.plank": {
+    "danish": "planke",
+    "german": "Brett",
+    "english": "plank",
+    "gender": "das",
+    "danishDefinite": "planken",
+    "danishIndefinite": "en planke",
+    "tier": 4
+  },
+  "materials.beam": {
+    "danish": "bjælke",
+    "german": "Balken",
+    "english": "beam",
+    "gender": "der",
+    "danishDefinite": "bjælken",
+    "danishIndefinite": "en bjælke",
+    "tier": 4
+  },
+  "materials.log": {
+    "danish": "træstamme",
+    "german": "Baumstamm",
+    "english": "log",
+    "gender": "der",
+    "danishDefinite": "træstammen",
+    "danishIndefinite": "en træstamme",
+    "tier": 4
+  },
+  "materials.firewood": {
+    "danish": "brænde",
+    "german": "Brennholz",
+    "english": "firewood",
+    "gender": "das",
+    "danishDefinite": "brændet",
+    "danishIndefinite": "et brænde",
+    "tier": 4
+  },
+  "materials.sawdust": {
+    "danish": "savsmuld",
+    "german": "Sägemehl",
+    "english": "sawdust",
+    "gender": "das",
+    "danishDefinite": "savsmuldet",
+    "danishIndefinite": "et savsmuld",
+    "tier": 5
+  },
+  "materials.cork": {
+    "danish": "kork",
+    "german": "Kork",
+    "english": "cork",
+    "gender": "der",
+    "danishDefinite": "korken",
+    "danishIndefinite": "en kork",
+    "tier": 5
+  },
+  "materials.straw": {
+    "danish": "halm",
+    "german": "Stroh",
+    "english": "straw",
+    "gender": "das",
+    "danishDefinite": "halmen",
+    "danishIndefinite": "en halm",
+    "tier": 4
+  },
+  "materials.wax": {
+    "danish": "voks",
+    "german": "Wachs",
+    "english": "wax",
+    "gender": "das",
+    "danishDefinite": "vokset",
+    "danishIndefinite": "et voks",
+    "tier": 4
+  },
+  "materials.resin": {
+    "danish": "harpiks",
+    "german": "Harz",
+    "english": "resin",
+    "gender": "das",
+    "danishDefinite": "harpiksen",
+    "danishIndefinite": "en harpiks",
+    "tier": 5
+  },
+  "materials.tar": {
+    "danish": "tjære",
+    "german": "Teer",
+    "english": "tar",
+    "gender": "der",
+    "danishDefinite": "tjæren",
+    "danishIndefinite": "en tjære",
+    "tier": 5
+  },
+  "materials.foam": {
+    "danish": "skum",
+    "german": "Schaum",
+    "english": "foam",
+    "gender": "der",
+    "danishDefinite": "skummet",
+    "danishIndefinite": "et skum",
+    "tier": 4
+  },
+  "materials.ash": {
+    "danish": "aske",
+    "german": "Asche",
+    "english": "ash",
+    "gender": "die",
+    "danishDefinite": "asken",
+    "danishIndefinite": "en aske",
+    "tier": 4
+  },
+  "materials.diamond": {
+    "danish": "diamant",
+    "german": "Diamant",
+    "english": "diamond",
+    "gender": "der",
+    "danishDefinite": "diamanten",
+    "danishIndefinite": "en diamant",
+    "tier": 4
+  },
+  "materials.pearl": {
+    "danish": "perle",
+    "german": "Perle",
+    "english": "pearl",
+    "gender": "die",
+    "danishDefinite": "perlen",
+    "danishIndefinite": "en perle",
+    "tier": 4
+  },
+  "materials.crystal": {
+    "danish": "krystal",
+    "german": "Kristall",
+    "english": "crystal",
+    "gender": "der",
+    "danishDefinite": "krystallen",
+    "danishIndefinite": "en krystal",
+    "tier": 4
+  },
+  "materials.mineral": {
+    "danish": "mineral",
+    "german": "Mineral",
+    "english": "mineral",
+    "gender": "das",
+    "danishDefinite": "mineralet",
+    "danishIndefinite": "et mineral",
+    "tier": 4
+  },
+  "materials.ore": {
+    "danish": "malm",
+    "german": "Erz",
+    "english": "ore",
+    "gender": "das",
+    "danishDefinite": "malmen",
+    "danishIndefinite": "en malm",
+    "tier": 5
+  }
+}
