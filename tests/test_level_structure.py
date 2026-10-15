@@ -59,11 +59,12 @@ def test_every_category_is_in_a_level_and_pools_are_playable() -> None:
 
 def test_level_prompts_name_languages_only_through_placeholders() -> None:
     bank = load_wordbank()
+    language_names = {language.capitalize() for language in LANGUAGES}
 
     for level in bank["levels"]:
         prompt = level["prompt"].replace("{source}", "").replace("{target}", "")
         assert "{" not in prompt and "}" not in prompt, level["id"]
-        assert not {"Danish", "German", "English"} & set(prompt.split()), level["id"]
+        assert not language_names & set(prompt.split()), level["id"]
 
 
 def test_every_word_has_a_tier() -> None:
@@ -168,13 +169,13 @@ def test_sentence_builder_chunks_have_ordered_answers_and_distractors() -> None:
             assert (chunk["danish"], chunk["german"]) == expected[word_id]
         sentences.setdefault(cast(str, chunk["sentenceId"]), []).append(chunk)
         assert "sentence" not in chunk and "options" not in chunk, word_id
+        # Every option in a sentence's final chunk ends it; no other chunk does.
+        last = chunk["step"] == chunk["steps"]
         for language in LANGUAGES:
             options = cast(list[str], chunk[f"{language}Options"])
             assert len(options) == 3, (word_id, language)
             assert len(set(options)) == 3, (word_id, language)
             assert chunk[language] in options, (word_id, language)
-            # Every option in a sentence's final chunk ends it; no other chunk does.
-            last = chunk["step"] == chunk["steps"]
             assert all(option.endswith(".") == last for option in options), (word_id, language)
 
     sentences_per_tier: dict[int, int] = {}

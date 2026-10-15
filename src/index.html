@@ -475,7 +475,8 @@
           const caseIndex = Math.min(grammar.cases.length - 1, Math.floor(questionIndex / questionsPerCase));
           const grammaticalCase = grammar.cases[caseIndex];
           // Danish shows the noun in that form; English has only the bare noun, so the label carries the form.
-          const shown = pair.source === "danish" ? (form === "definite" ? currentWord.danishDefinite : currentWord.danishIndefinite) : currentWord[pair.source];
+          let shown = currentWord[pair.source];
+          if (pair.source === "danish") shown = form === "definite" ? currentWord.danishDefinite : currentWord.danishIndefinite;
           $("#prompt-label").textContent = `${fillLanguages(level.prompt)} · ${grammar.caseLabels[grammaticalCase]} · ${form}`;
           $("#word").textContent = shown;
           const correct = article(currentWord, form, grammaticalCase);

@@ -3,7 +3,7 @@ from typing import Any
 
 import pytest
 
-from wordbank import MODE_PAIRS, level_word_ids, load_wordbank
+from wordbank import MODE_PAIRS, PAIRS, level_word_ids, load_wordbank
 
 
 BANK = load_wordbank()
@@ -17,7 +17,7 @@ def answers_by_prompt(source: str, target: str) -> defaultdict[str, set[str]]:
     return answers
 
 
-ANSWERS = {pair: answers_by_prompt(*pair) for pair in MODE_PAIRS["word"]}
+ANSWERS = {pair: answers_by_prompt(*pair) for pair in PAIRS}
 
 
 def accepted_answers(word: dict[str, Any], source: str, target: str) -> set[str]:
@@ -35,12 +35,11 @@ def article_answer(word_id: str, form: str, case: str) -> str:
 @pytest.mark.parametrize(
     ("level", "source", "target"),
     [
-        (level, source, target)
+        pytest.param(level, source, target, id=f"{level['id']}-{source}-{target}")
         for level in BANK["levels"]
         if level["mode"] in {"word", "article"}
         for source, target in MODE_PAIRS[level["mode"]]
     ],
-    ids=lambda value: value["id"] if isinstance(value, dict) else value,
 )
 def test_every_word_has_two_unambiguous_distractors(
     level: dict[str, Any], source: str, target: str
