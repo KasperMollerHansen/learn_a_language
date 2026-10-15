@@ -159,7 +159,7 @@
     "gender": "die",
     "danishDefinite": "Slovakiet",
     "danishIndefinite": "Slovakiet",
-    "tier": 2
+    "tier": 3
   },
   "countries.czechia": {
     "danish": "Tjekkiet",
@@ -186,7 +186,7 @@
     "gender": "das",
     "danishDefinite": "Rumænien",
     "danishIndefinite": "Rumænien",
-    "tier": 2
+    "tier": 3
   },
   "countries.bulgaria": {
     "danish": "Bulgarien",
@@ -195,7 +195,7 @@
     "gender": "das",
     "danishDefinite": "Bulgarien",
     "danishIndefinite": "Bulgarien",
-    "tier": 2
+    "tier": 3
   },
   "countries.croatia": {
     "danish": "Kroatien",
@@ -213,7 +213,7 @@
     "gender": "das",
     "danishDefinite": "Serbien",
     "danishIndefinite": "Serbien",
-    "tier": 2
+    "tier": 3
   },
   "countries.slovenia": {
     "danish": "Slovenien",
@@ -222,7 +222,7 @@
     "gender": "das",
     "danishDefinite": "Slovenien",
     "danishIndefinite": "Slovenien",
-    "tier": 2
+    "tier": 3
   },
   "countries.estonia": {
     "danish": "Estland",
@@ -231,7 +231,7 @@
     "gender": "das",
     "danishDefinite": "Estland",
     "danishIndefinite": "Estland",
-    "tier": 2
+    "tier": 3
   },
   "countries.latvia": {
     "danish": "Letland",
@@ -240,7 +240,7 @@
     "gender": "das",
     "danishDefinite": "Letland",
     "danishIndefinite": "Letland",
-    "tier": 2
+    "tier": 3
   },
   "countries.lithuania": {
     "danish": "Litauen",
@@ -249,7 +249,7 @@
     "gender": "das",
     "danishDefinite": "Litauen",
     "danishIndefinite": "Litauen",
-    "tier": 2
+    "tier": 3
   },
   "countries.ireland": {
     "danish": "Irland",
@@ -303,7 +303,7 @@
     "gender": "das",
     "danishDefinite": "Hviderusland",
     "danishIndefinite": "Hviderusland",
-    "tier": 3
+    "tier": 4
   },
   "countries.china": {
     "danish": "Kina",
@@ -348,7 +348,7 @@
     "gender": "das",
     "danishDefinite": "Nordkorea",
     "danishIndefinite": "Nordkorea",
-    "tier": 2
+    "tier": 3
   },
   "countries.thailand": {
     "danish": "Thailand",
@@ -375,7 +375,7 @@
     "gender": "das",
     "danishDefinite": "Indonesien",
     "danishIndefinite": "Indonesien",
-    "tier": 2
+    "tier": 3
   },
   "countries.malaysia": {
     "danish": "Malaysia",
@@ -384,7 +384,7 @@
     "gender": "das",
     "danishDefinite": "Malaysia",
     "danishIndefinite": "Malaysia",
-    "tier": 2
+    "tier": 3
   },
   "countries.singapore": {
     "danish": "Singapore",
@@ -393,7 +393,7 @@
     "gender": "das",
     "danishDefinite": "Singapore",
     "danishIndefinite": "Singapore",
-    "tier": 2
+    "tier": 3
   },
   "countries.pakistan": {
     "danish": "Pakistan",
@@ -402,7 +402,7 @@
     "gender": "das",
     "danishDefinite": "Pakistan",
     "danishIndefinite": "Pakistan",
-    "tier": 2
+    "tier": 3
   },
   "countries.bangladesh": {
     "danish": "Bangladesh",
@@ -411,7 +411,7 @@
     "gender": "das",
     "danishDefinite": "Bangladesh",
     "danishIndefinite": "Bangladesh",
-    "tier": 3
+    "tier": 4
   },
   "countries.afghanistan": {
     "danish": "Afghanistan",
@@ -420,7 +420,7 @@
     "gender": "das",
     "danishDefinite": "Afghanistan",
     "danishIndefinite": "Afghanistan",
-    "tier": 2
+    "tier": 3
   },
   "countries.israel": {
     "danish": "Israel",
@@ -438,7 +438,7 @@
     "gender": "das",
     "danishDefinite": "Syrien",
     "danishIndefinite": "Syrien",
-    "tier": 2
+    "tier": 3
   },
   "countries.jordan": {
     "danish": "Jordan",
@@ -447,7 +447,7 @@
     "gender": "das",
     "danishDefinite": "Jordan",
     "danishIndefinite": "Jordan",
-    "tier": 3
+    "tier": 4
   },
   "countries.saudi-arabia": {
     "danish": "Saudi-Arabien",
@@ -456,7 +456,7 @@
     "gender": "das",
     "danishDefinite": "Saudi-Arabien",
     "danishIndefinite": "Saudi-Arabien",
-    "tier": 2
+    "tier": 3
   },
   "countries.egypt": {
     "danish": "Egypten",
@@ -483,7 +483,7 @@
     "gender": "das",
     "danishDefinite": "Algeriet",
     "danishIndefinite": "Algeriet",
-    "tier": 3
+    "tier": 4
   },
   "countries.tunisia": {
     "danish": "Tunesien",
@@ -492,7 +492,7 @@
     "gender": "das",
     "danishDefinite": "Tunesien",
     "danishIndefinite": "Tunesien",
-    "tier": 2
+    "tier": 3
   },
   "countries.libya": {
     "danish": "Libyen",
@@ -501,7 +501,7 @@
     "gender": "das",
     "danishDefinite": "Libyen",
     "danishIndefinite": "Libyen",
-    "tier": 3
+    "tier": 4
   },
   "countries.ethiopia": {
     "danish": "Etiopien",
@@ -510,7 +510,7 @@
     "gender": "das",
     "danishDefinite": "Etiopien",
     "danishIndefinite": "Etiopien",
-    "tier": 3
+    "tier": 4
   },
   "countries.kenya": {
     "danish": "Kenya",
@@ -519,7 +519,7 @@
     "gender": "das",
     "danishDefinite": "Kenya",
     "danishIndefinite": "Kenya",
-    "tier": 2
+    "tier": 3
   },
   "countries.tanzania": {
     "danish": "Tanzania",
@@ -528,7 +528,7 @@
     "gender": "das",
     "danishDefinite": "Tanzania",
     "danishIndefinite": "Tanzania",
-    "tier": 3
+    "tier": 5
   },
   "countries.nigeria": {
     "danish": "Nigeria",
@@ -537,7 +537,7 @@
     "gender": "das",
     "danishDefinite": "Nigeria",
     "danishIndefinite": "Nigeria",
-    "tier": 2
+    "tier": 3
   },
   "countries.ghana": {
     "danish": "Ghana",
@@ -546,7 +546,7 @@
     "gender": "das",
     "danishDefinite": "Ghana",
     "danishIndefinite": "Ghana",
-    "tier": 3
+    "tier": 4
   },
   "countries.south-africa": {
     "danish": "Sydafrika",
@@ -564,7 +564,7 @@
     "gender": "das",
     "danishDefinite": "Uganda",
     "danishIndefinite": "Uganda",
-    "tier": 3
+    "tier": 5
   },
   "countries.somalia": {
     "danish": "Somalia",
@@ -573,7 +573,7 @@
     "gender": "das",
     "danishDefinite": "Somalia",
     "danishIndefinite": "Somalia",
-    "tier": 3
+    "tier": 4
   },
   "countries.senegal": {
     "danish": "Senegal",
@@ -582,7 +582,7 @@
     "gender": "der",
     "danishDefinite": "Senegal",
     "danishIndefinite": "Senegal",
-    "tier": 3
+    "tier": 5
   },
   "countries.mali": {
     "danish": "Mali",
@@ -591,7 +591,7 @@
     "gender": "das",
     "danishDefinite": "Mali",
     "danishIndefinite": "Mali",
-    "tier": 3
+    "tier": 5
   },
   "countries.madagascar": {
     "danish": "Madagaskar",
@@ -600,7 +600,7 @@
     "gender": "das",
     "danishDefinite": "Madagaskar",
     "danishIndefinite": "Madagaskar",
-    "tier": 3
+    "tier": 4
   },
   "countries.canada": {
     "danish": "Canada",
@@ -672,7 +672,7 @@
     "gender": "das",
     "danishDefinite": "Colombia",
     "danishIndefinite": "Colombia",
-    "tier": 2
+    "tier": 3
   },
   "countries.venezuela": {
     "danish": "Venezuela",
@@ -681,7 +681,7 @@
     "gender": "das",
     "danishDefinite": "Venezuela",
     "danishIndefinite": "Venezuela",
-    "tier": 3
+    "tier": 4
   },
   "countries.bolivia": {
     "danish": "Bolivia",
@@ -690,7 +690,7 @@
     "gender": "das",
     "danishDefinite": "Bolivia",
     "danishIndefinite": "Bolivia",
-    "tier": 3
+    "tier": 4
   },
   "countries.uruguay": {
     "danish": "Uruguay",
@@ -699,7 +699,7 @@
     "gender": "das",
     "danishDefinite": "Uruguay",
     "danishIndefinite": "Uruguay",
-    "tier": 3
+    "tier": 5
   },
   "countries.paraguay": {
     "danish": "Paraguay",
@@ -708,7 +708,7 @@
     "gender": "das",
     "danishDefinite": "Paraguay",
     "danishIndefinite": "Paraguay",
-    "tier": 3
+    "tier": 5
   },
   "countries.ecuador": {
     "danish": "Ecuador",
@@ -717,7 +717,7 @@
     "gender": "das",
     "danishDefinite": "Ecuador",
     "danishIndefinite": "Ecuador",
-    "tier": 3
+    "tier": 5
   },
   "countries.australia": {
     "danish": "Australien",
@@ -753,7 +753,7 @@
     "gender": "das",
     "danishDefinite": "Cypern",
     "danishIndefinite": "Cypern",
-    "tier": 3
+    "tier": 4
   },
   "countries.malta": {
     "danish": "Malta",
@@ -762,7 +762,7 @@
     "gender": "das",
     "danishDefinite": "Malta",
     "danishIndefinite": "Malta",
-    "tier": 2
+    "tier": 3
   },
   "countries.luxembourg": {
     "danish": "Luxembourg",
@@ -780,7 +780,7 @@
     "gender": "das",
     "danishDefinite": "Albanien",
     "danishIndefinite": "Albanien",
-    "tier": 3
+    "tier": 4
   },
   "countries.bosnia": {
     "danish": "Bosnien",
@@ -789,7 +789,7 @@
     "gender": "das",
     "danishDefinite": "Bosnien",
     "danishIndefinite": "Bosnien",
-    "tier": 3
+    "tier": 4
   },
   "countries.montenegro": {
     "danish": "Montenegro",
@@ -798,7 +798,7 @@
     "gender": "das",
     "danishDefinite": "Montenegro",
     "danishIndefinite": "Montenegro",
-    "tier": 3
+    "tier": 5
   },
   "countries.north-macedonia": {
     "danish": "Nordmakedonien",
@@ -807,7 +807,7 @@
     "gender": "das",
     "danishDefinite": "Nordmakedonien",
     "danishIndefinite": "Nordmakedonien",
-    "tier": 3
+    "tier": 5
   },
   "countries.georgia-country": {
     "danish": "Georgien",
@@ -816,7 +816,7 @@
     "gender": "das",
     "danishDefinite": "Georgien",
     "danishIndefinite": "Georgien",
-    "tier": 3
+    "tier": 4
   },
   "countries.armenia": {
     "danish": "Armenien",
@@ -825,7 +825,7 @@
     "gender": "das",
     "danishDefinite": "Armenien",
     "danishIndefinite": "Armenien",
-    "tier": 3
+    "tier": 5
   },
   "countries.azerbaijan": {
     "danish": "Aserbajdsjan",
@@ -834,7 +834,7 @@
     "gender": "das",
     "danishDefinite": "Aserbajdsjan",
     "danishIndefinite": "Aserbajdsjan",
-    "tier": 3
+    "tier": 5
   },
   "countries.kazakhstan": {
     "danish": "Kasakhstan",
@@ -843,7 +843,7 @@
     "gender": "das",
     "danishDefinite": "Kasakhstan",
     "danishIndefinite": "Kasakhstan",
-    "tier": 3
+    "tier": 5
   },
   "countries.uzbekistan": {
     "danish": "Usbekistan",
@@ -852,7 +852,7 @@
     "gender": "das",
     "danishDefinite": "Usbekistan",
     "danishIndefinite": "Usbekistan",
-    "tier": 3
+    "tier": 5
   },
   "countries.nepal": {
     "danish": "Nepal",
@@ -861,7 +861,7 @@
     "gender": "das",
     "danishDefinite": "Nepal",
     "danishIndefinite": "Nepal",
-    "tier": 3
+    "tier": 4
   },
   "countries.sri-lanka": {
     "danish": "Sri Lanka",
@@ -870,7 +870,7 @@
     "gender": "das",
     "danishDefinite": "Sri Lanka",
     "danishIndefinite": "Sri Lanka",
-    "tier": 3
+    "tier": 4
   },
   "countries.myanmar": {
     "danish": "Myanmar",
@@ -879,7 +879,7 @@
     "gender": "das",
     "danishDefinite": "Myanmar",
     "danishIndefinite": "Myanmar",
-    "tier": 3
+    "tier": 5
   },
   "countries.cambodia": {
     "danish": "Cambodja",
@@ -888,7 +888,7 @@
     "gender": "das",
     "danishDefinite": "Cambodja",
     "danishIndefinite": "Cambodja",
-    "tier": 3
+    "tier": 5
   },
   "countries.laos": {
     "danish": "Laos",
@@ -897,7 +897,7 @@
     "gender": "das",
     "danishDefinite": "Laos",
     "danishIndefinite": "Laos",
-    "tier": 3
+    "tier": 5
   },
   "countries.jamaica": {
     "danish": "Jamaica",
@@ -906,7 +906,7 @@
     "gender": "das",
     "danishDefinite": "Jamaica",
     "danishIndefinite": "Jamaica",
-    "tier": 3
+    "tier": 4
   },
   "countries.haiti": {
     "danish": "Haiti",
@@ -915,7 +915,7 @@
     "gender": "das",
     "danishDefinite": "Haiti",
     "danishIndefinite": "Haiti",
-    "tier": 3
+    "tier": 5
   },
   "countries.panama": {
     "danish": "Panama",
@@ -924,7 +924,7 @@
     "gender": "das",
     "danishDefinite": "Panama",
     "danishIndefinite": "Panama",
-    "tier": 3
+    "tier": 4
   },
   "countries.costa-rica": {
     "danish": "Costa Rica",
@@ -933,7 +933,7 @@
     "gender": "das",
     "danishDefinite": "Costa Rica",
     "danishIndefinite": "Costa Rica",
-    "tier": 3
+    "tier": 4
   },
   "countries.kuwait": {
     "danish": "Kuwait",
@@ -942,7 +942,7 @@
     "gender": "das",
     "danishDefinite": "Kuwait",
     "danishIndefinite": "Kuwait",
-    "tier": 3
+    "tier": 5
   },
   "countries.qatar": {
     "danish": "Qatar",
@@ -951,7 +951,7 @@
     "gender": "das",
     "danishDefinite": "Qatar",
     "danishIndefinite": "Qatar",
-    "tier": 3
+    "tier": 4
   },
   "countries.oman": {
     "danish": "Oman",
@@ -960,7 +960,7 @@
     "gender": "das",
     "danishDefinite": "Oman",
     "danishIndefinite": "Oman",
-    "tier": 3
+    "tier": 5
   },
   "countries.iran": {
     "danish": "Iran",
@@ -969,7 +969,7 @@
     "gender": "der",
     "danishDefinite": "Iran",
     "danishIndefinite": "Iran",
-    "tier": 2
+    "tier": 3
   },
   "countries.iraq": {
     "danish": "Irak",
@@ -978,7 +978,7 @@
     "gender": "der",
     "danishDefinite": "Irak",
     "danishIndefinite": "Irak",
-    "tier": 2
+    "tier": 3
   },
   "countries.lebanon": {
     "danish": "Libanon",
@@ -987,7 +987,7 @@
     "gender": "der",
     "danishDefinite": "Libanon",
     "danishIndefinite": "Libanon",
-    "tier": 3
+    "tier": 4
   },
   "countries.yemen": {
     "danish": "Yemen",
@@ -996,7 +996,7 @@
     "gender": "der",
     "danishDefinite": "Yemen",
     "danishIndefinite": "Yemen",
-    "tier": 3
+    "tier": 5
   },
   "countries.sudan": {
     "danish": "Sudan",
@@ -1005,7 +1005,7 @@
     "gender": "der",
     "danishDefinite": "Sudan",
     "danishIndefinite": "Sudan",
-    "tier": 3
+    "tier": 5
   },
   "countries.congo": {
     "danish": "Congo",
@@ -1014,7 +1014,7 @@
     "gender": "der",
     "danishDefinite": "Congo",
     "danishIndefinite": "Congo",
-    "tier": 3
+    "tier": 5
   },
   "countries.niger": {
     "danish": "Niger",
@@ -1023,7 +1023,7 @@
     "gender": "der",
     "danishDefinite": "Niger",
     "danishIndefinite": "Niger",
-    "tier": 3
+    "tier": 5
   },
   "countries.chad": {
     "danish": "Tchad",
@@ -1032,7 +1032,7 @@
     "gender": "der",
     "danishDefinite": "Tchad",
     "danishIndefinite": "Tchad",
-    "tier": 3
+    "tier": 5
   },
   "countries.mongolia": {
     "danish": "Mongoliet",
@@ -1041,7 +1041,7 @@
     "gender": "die",
     "danishDefinite": "Mongoliet",
     "danishIndefinite": "Mongoliet",
-    "tier": 3
+    "tier": 5
   },
   "countries.europe": {
     "danish": "Europa",
@@ -1095,7 +1095,7 @@
     "gender": "die",
     "danishDefinite": "Antarktis",
     "danishIndefinite": "Antarktis",
-    "tier": 2
+    "tier": 3
   },
   "countries.dane": {
     "danish": "dansker",
@@ -1257,7 +1257,7 @@
     "gender": "der",
     "danishDefinite": "inderen",
     "danishIndefinite": "en inder",
-    "tier": 2
+    "tier": 3
   },
   "countries.european-person": {
     "danish": "europæer",
@@ -1266,7 +1266,7 @@
     "gender": "der",
     "danishDefinite": "europæeren",
     "danishIndefinite": "en europæer",
-    "tier": 2
+    "tier": 3
   },
   "countries.african-person": {
     "danish": "afrikaner",
@@ -1284,7 +1284,7 @@
     "gender": "der",
     "danishDefinite": "asiaten",
     "danishIndefinite": "en asiat",
-    "tier": 3
+    "tier": 4
   },
   "countries.danish": {
     "danish": "dansk",
@@ -1320,7 +1320,7 @@
     "danish": "islandsk",
     "german": "isländisch",
     "english": "Icelandic",
-    "tier": 3
+    "tier": 4
   },
   "countries.english": {
     "danish": "engelsk",
@@ -1392,7 +1392,7 @@
     "danish": "arabisk",
     "german": "arabisch",
     "english": "Arabic",
-    "tier": 2
+    "tier": 3
   },
   "countries.greek": {
     "danish": "græsk",

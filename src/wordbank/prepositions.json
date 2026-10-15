@@ -33,7 +33,7 @@
     "danish": "foran",
     "german": "vor",
     "english": "in front of",
-    "tier": 2
+    "tier": 1
   },
   "prepositions.beside": {
     "danish": "ved siden af",
@@ -75,7 +75,7 @@
     "danish": "før",
     "german": "vor",
     "english": "before",
-    "tier": 2
+    "tier": 1
   },
   "prepositions.after": {
     "danish": "efter",
@@ -87,7 +87,7 @@
     "danish": "omkring",
     "german": "um",
     "english": "around",
-    "tier": 2
+    "tier": 1
   },
   "prepositions.through": {
     "danish": "gennem",
@@ -99,19 +99,19 @@
     "danish": "tværs over",
     "german": "über",
     "english": "across",
-    "tier": 3
+    "tier": 2
   },
   "prepositions.near": {
     "danish": "nær",
     "german": "nahe",
     "english": "near",
-    "tier": 2
+    "tier": 3
   },
   "prepositions.farfrom": {
     "danish": "langt fra",
     "german": "weit von",
     "english": "far from",
-    "tier": 3
+    "tier": 2
   },
   "prepositions.inside": {
     "danish": "inde i",
@@ -129,25 +129,25 @@
     "danish": "over",
     "german": "oberhalb",
     "english": "above",
-    "tier": 3
+    "tier": 4
   },
   "prepositions.below": {
     "danish": "under",
     "german": "unterhalb",
     "english": "below",
-    "tier": 3
+    "tier": 4
   },
   "prepositions.into": {
     "danish": "ind i",
     "german": "in",
     "english": "into",
-    "tier": 3
+    "tier": 1
   },
   "prepositions.outof": {
     "danish": "ud af",
     "german": "aus",
     "english": "out of",
-    "tier": 3
+    "tier": 1
   },
   "prepositions.along": {
     "danish": "langs med",
@@ -183,6 +183,132 @@
     "danish": "hos",
     "german": "bei",
     "english": "at",
+    "tier": 1
+  },
+  "prepositions.statt": {
+    "danish": "i stedet for",
+    "german": "statt",
+    "english": "instead of",
+    "tier": 4
+  },
+  "prepositions.bezueglich": {
+    "danish": "angående",
+    "german": "bezüglich",
+    "english": "regarding",
+    "tier": 4
+  },
+  "prepositions.aufgrund": {
+    "danish": "på grund af",
+    "german": "aufgrund",
+    "english": "due to",
+    "tier": 4
+  },
+  "prepositions.ausser": {
+    "danish": "undtagen",
+    "german": "außer",
+    "english": "except",
     "tier": 2
+  },
+  "prepositions.gemaess": {
+    "danish": "i henhold til",
+    "german": "gemäß",
+    "english": "in accordance with",
+    "tier": 5
+  },
+  "prepositions.hinsichtlich": {
+    "danish": "med hensyn til",
+    "german": "hinsichtlich",
+    "english": "with regard to",
+    "tier": 5
+  },
+  "prepositions.infolge": {
+    "danish": "som følge af",
+    "german": "infolge",
+    "english": "as a result of",
+    "tier": 5
+  },
+  "prepositions.mittels": {
+    "danish": "ved hjælp af",
+    "german": "mittels",
+    "english": "by means of",
+    "tier": 5
+  },
+  "prepositions.anlaesslich": {
+    "danish": "i anledning af",
+    "german": "anlässlich",
+    "english": "on the occasion of",
+    "tier": 5
+  },
+  "prepositions.zwecks": {
+    "danish": "med henblik på",
+    "german": "zwecks",
+    "english": "for the purpose of",
+    "tier": 5
+  },
+  "prepositions.angesichts": {
+    "danish": "i lyset af",
+    "german": "angesichts",
+    "english": "in view of",
+    "tier": 5
+  },
+  "prepositions.unweit": {
+    "danish": "ikke langt fra",
+    "german": "unweit",
+    "english": "not far from",
+    "tier": 5
+  },
+  "prepositions.diesseits": {
+    "danish": "på denne side af",
+    "german": "diesseits",
+    "english": "on this side of",
+    "tier": 5
+  },
+  "prepositions.jenseits": {
+    "danish": "hinsides",
+    "german": "jenseits",
+    "english": "beyond",
+    "tier": 5
+  },
+  "prepositions.entgegen": {
+    "danish": "i modstrid med",
+    "german": "entgegen",
+    "english": "contrary to",
+    "tier": 5
+  },
+  "prepositions.ungeachtet": {
+    "danish": "uanset",
+    "german": "ungeachtet",
+    "english": "regardless of",
+    "tier": 5
+  },
+  "prepositions.mangels": {
+    "danish": "i mangel af",
+    "german": "mangels",
+    "english": "for lack of",
+    "tier": 5
+  },
+  "prepositions.anhand": {
+    "danish": "ud fra",
+    "german": "anhand",
+    "english": "on the basis of (evidence)",
+    "tier": 5
+  },
+  "prepositions.zugunsten": {
+    "danish": "til fordel for",
+    "german": "zugunsten",
+    "english": "in favour of",
+    "tier": 5
+  },
+  "prepositions.zulasten": {
+    "danish": "på bekostning af",
+    "german": "zulasten",
+    "english": "at the expense of",
+    "tier": 5
+  },
+  "prepositions.entsprechend": {
+    "danish": "i overensstemmelse med",
+    "german": "entsprechend",
+    "english": "in line with",
+    "tier": 5
   }
 }

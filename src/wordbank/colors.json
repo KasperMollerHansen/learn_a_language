@@ -69,7 +69,7 @@
     "danish": "turkis",
     "german": "türkis",
     "english": "turquoise",
-    "tier": 2
+    "tier": 3
   },
   "colors.beige": {
     "danish": "beige",
@@ -87,7 +87,7 @@
     "danish": "violet",
     "german": "violett",
     "english": "violet",
-    "tier": 3
+    "tier": 4
   },
   "colors.light-blue": {
     "danish": "lyseblå",
@@ -111,13 +111,13 @@
     "danish": "lysegrøn",
     "german": "hellgrün",
     "english": "light green",
-    "tier": 3
+    "tier": 2
   },
   "colors.navy-blue": {
     "danish": "marineblå",
     "german": "marineblau",
     "english": "navy blue",
-    "tier": 3
+    "tier": 4
   },
   "colors.blond": {
     "danish": "blond",
@@ -129,19 +129,19 @@
     "danish": "bleg",
     "german": "bleich",
     "english": "pale",
-    "tier": 3
+    "tier": 4
   },
   "colors.colourless": {
     "danish": "farveløs",
     "german": "farblos",
     "english": "colourless",
-    "tier": 3
+    "tier": 4
   },
   "colors.multicoloured": {
     "danish": "broget",
     "german": "bunt",
     "english": "multicoloured",
-    "tier": 3
+    "tier": 2
   },
   "colors.colour": {
     "danish": "farve",

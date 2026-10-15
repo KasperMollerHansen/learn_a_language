@@ -60,7 +60,7 @@
     "gender": "die",
     "danishDefinite": "hindbæret",
     "danishIndefinite": "et hindbær",
-    "tier": 2
+    "tier": 3
   },
   "food.blueberry": {
     "danish": "blåbær",
@@ -69,7 +69,7 @@
     "gender": "die",
     "danishDefinite": "blåbæret",
     "danishIndefinite": "et blåbær",
-    "tier": 2
+    "tier": 3
   },
   "food.blackberry": {
     "danish": "brombær",
@@ -78,7 +78,7 @@
     "gender": "die",
     "danishDefinite": "brombæret",
     "danishIndefinite": "et brombær",
-    "tier": 3
+    "tier": 4
   },
   "food.gooseberry": {
     "danish": "stikkelsbær",
@@ -87,7 +87,7 @@
     "gender": "die",
     "danishDefinite": "stikkelsbæret",
     "danishIndefinite": "et stikkelsbær",
-    "tier": 3
+    "tier": 5
   },
   "food.cherry": {
     "danish": "kirsebær",
@@ -105,7 +105,7 @@
     "gender": "die",
     "danishDefinite": "blommen",
     "danishIndefinite": "en blomme",
-    "tier": 2
+    "tier": 3
   },
   "food.peach": {
     "danish": "fersken",
@@ -204,7 +204,7 @@
     "gender": "der",
     "danishDefinite": "granatæblet",
     "danishIndefinite": "et granatæble",
-    "tier": 3
+    "tier": 5
   },
   "food.date": {
     "danish": "daddel",
@@ -213,7 +213,7 @@
     "gender": "die",
     "danishDefinite": "dadlen",
     "danishIndefinite": "en daddel",
-    "tier": 3
+    "tier": 4
   },
   "food.raisin": {
     "danish": "rosin",
@@ -222,7 +222,7 @@
     "gender": "die",
     "danishDefinite": "rosinen",
     "danishIndefinite": "en rosin",
-    "tier": 3
+    "tier": 4
   },
   "food.avocado": {
     "danish": "avocado",
@@ -258,7 +258,7 @@
     "gender": "die",
     "danishDefinite": "hasselnødden",
     "danishIndefinite": "en hasselnød",
-    "tier": 3
+    "tier": 4
   },
   "food.walnut": {
     "danish": "valnød",
@@ -267,7 +267,7 @@
     "gender": "die",
     "danishDefinite": "valnødden",
     "danishIndefinite": "en valnød",
-    "tier": 3
+    "tier": 4
   },
   "food.peanut": {
     "danish": "jordnød",
@@ -276,7 +276,7 @@
     "gender": "die",
     "danishDefinite": "jordnødden",
     "danishIndefinite": "en jordnød",
-    "tier": 2
+    "tier": 3
   },
   "food.cashew-nut": {
     "danish": "cashewnød",
@@ -285,7 +285,7 @@
     "gender": "die",
     "danishDefinite": "cashewnødden",
     "danishIndefinite": "en cashewnød",
-    "tier": 3
+    "tier": 4
   },
   "food.almond": {
     "danish": "mandel",
@@ -294,7 +294,7 @@
     "gender": "die",
     "danishDefinite": "mandlen",
     "danishIndefinite": "en mandel",
-    "tier": 3
+    "tier": 4
   },
   "food.fruit": {
     "danish": "frugt",
@@ -312,7 +312,7 @@
     "gender": "der",
     "danishDefinite": "rabarberen",
     "danishIndefinite": "en rabarber",
-    "tier": 3
+    "tier": 4
   },
   "food.potato": {
     "danish": "kartoffel",
@@ -366,7 +366,7 @@
     "gender": "der",
     "danishDefinite": "hovedsalaten",
     "danishIndefinite": "en hovedsalat",
-    "tier": 3
+    "tier": 4
   },
   "food.bell-pepper": {
     "danish": "peberfrugt",
@@ -402,7 +402,7 @@
     "gender": "der",
     "danishDefinite": "blomkålen",
     "danishIndefinite": "en blomkål",
-    "tier": 2
+    "tier": 3
   },
   "food.cabbage": {
     "danish": "kål",
@@ -411,7 +411,7 @@
     "gender": "der",
     "danishDefinite": "kålen",
     "danishIndefinite": "en kål",
-    "tier": 2
+    "tier": 3
   },
   "food.red-cabbage": {
     "danish": "rødkål",
@@ -420,7 +420,7 @@
     "gender": "der",
     "danishDefinite": "rødkålen",
     "danishIndefinite": "en rødkål",
-    "tier": 3
+    "tier": 4
   },
   "food.white-cabbage": {
     "danish": "hvidkål",
@@ -429,7 +429,7 @@
     "gender": "der",
     "danishDefinite": "hvidkålen",
     "danishIndefinite": "en hvidkål",
-    "tier": 3
+    "tier": 4
   },
   "food.kale": {
     "danish": "grønkål",
@@ -438,7 +438,7 @@
     "gender": "der",
     "danishDefinite": "grønkålen",
     "danishIndefinite": "en grønkål",
-    "tier": 3
+    "tier": 4
   },
   "food.brussels-sprout": {
     "danish": "rosenkål",
@@ -447,7 +447,7 @@
     "gender": "der",
     "danishDefinite": "rosenkålen",
     "danishIndefinite": "en rosenkål",
-    "tier": 3
+    "tier": 4
   },
   "food.spinach": {
     "danish": "spinat",
@@ -456,7 +456,7 @@
     "gender": "der",
     "danishDefinite": "spinaten",
     "danishIndefinite": "en spinat",
-    "tier": 2
+    "tier": 3
   },
   "food.leek": {
     "danish": "porre",
@@ -465,7 +465,7 @@
     "gender": "der",
     "danishDefinite": "porren",
     "danishIndefinite": "en porre",
-    "tier": 3
+    "tier": 4
   },
   "food.celery": {
     "danish": "selleri",
@@ -474,7 +474,7 @@
     "gender": "der",
     "danishDefinite": "sellerien",
     "danishIndefinite": "en selleri",
-    "tier": 3
+    "tier": 4
   },
   "food.zucchini": {
     "danish": "squash",
@@ -492,7 +492,7 @@
     "gender": "die",
     "danishDefinite": "auberginen",
     "danishIndefinite": "en aubergine",
-    "tier": 3
+    "tier": 4
   },
   "food.pumpkin": {
     "danish": "græskar",
@@ -537,7 +537,7 @@
     "gender": "der",
     "danishDefinite": "aspargesen",
     "danishIndefinite": "en asparges",
-    "tier": 3
+    "tier": 4
   },
   "food.mushroom": {
     "danish": "champignon",
@@ -546,7 +546,7 @@
     "gender": "der",
     "danishDefinite": "champignonen",
     "danishIndefinite": "en champignon",
-    "tier": 2
+    "tier": 3
   },
   "food.radish": {
     "danish": "radise",
@@ -555,7 +555,7 @@
     "gender": "das",
     "danishDefinite": "radisen",
     "danishIndefinite": "en radise",
-    "tier": 3
+    "tier": 4
   },
   "food.beetroot": {
     "danish": "rødbede",
@@ -564,7 +564,7 @@
     "gender": "die",
     "danishDefinite": "rødbeden",
     "danishIndefinite": "en rødbede",
-    "tier": 3
+    "tier": 4
   },
   "food.ginger": {
     "danish": "ingefær",
@@ -573,7 +573,7 @@
     "gender": "der",
     "danishDefinite": "ingefæren",
     "danishIndefinite": "en ingefær",
-    "tier": 3
+    "tier": 4
   },
   "food.fennel": {
     "danish": "fennikel",
@@ -582,7 +582,7 @@
     "gender": "der",
     "danishDefinite": "fenniklen",
     "danishIndefinite": "en fennikel",
-    "tier": 3
+    "tier": 5
   },
   "food.artichoke": {
     "danish": "artiskok",
@@ -591,7 +591,7 @@
     "gender": "die",
     "danishDefinite": "artiskokken",
     "danishIndefinite": "en artiskok",
-    "tier": 3
+    "tier": 5
   },
   "food.spring-onion": {
     "danish": "forårsløg",
@@ -600,7 +600,7 @@
     "gender": "die",
     "danishDefinite": "forårsløget",
     "danishIndefinite": "et forårsløg",
-    "tier": 3
+    "tier": 4
   },
   "food.olive": {
     "danish": "oliven",
@@ -627,7 +627,7 @@
     "gender": "das",
     "danishDefinite": "kartoffelmosen",
     "danishIndefinite": "en kartoffelmos",
-    "tier": 2
+    "tier": 3
   },
   "food.salt": {
     "danish": "salt",
@@ -663,7 +663,7 @@
     "gender": "das",
     "danishDefinite": "krydderiet",
     "danishIndefinite": "et krydderi",
-    "tier": 2
+    "tier": 3
   },
   "food.herb": {
     "danish": "urt",
@@ -672,7 +672,7 @@
     "gender": "das",
     "danishDefinite": "urten",
     "danishIndefinite": "en urt",
-    "tier": 3
+    "tier": 4
   },
   "food.parsley": {
     "danish": "persille",
@@ -681,7 +681,7 @@
     "gender": "die",
     "danishDefinite": "persillen",
     "danishIndefinite": "en persille",
-    "tier": 3
+    "tier": 4
   },
   "food.dill": {
     "danish": "dild",
@@ -690,7 +690,7 @@
     "gender": "der",
     "danishDefinite": "dilden",
     "danishIndefinite": "en dild",
-    "tier": 3
+    "tier": 4
   },
   "food.basil": {
     "danish": "basilikum",
@@ -699,7 +699,7 @@
     "gender": "das",
     "danishDefinite": "basilikummen",
     "danishIndefinite": "en basilikum",
-    "tier": 3
+    "tier": 4
   },
   "food.thyme": {
     "danish": "timian",
@@ -708,7 +708,7 @@
     "gender": "der",
     "danishDefinite": "timianen",
     "danishIndefinite": "en timian",
-    "tier": 3
+    "tier": 4
   },
   "food.rosemary": {
     "danish": "rosmarin",
@@ -717,7 +717,7 @@
     "gender": "der",
     "danishDefinite": "rosmarinen",
     "danishIndefinite": "en rosmarin",
-    "tier": 3
+    "tier": 4
   },
   "food.oregano": {
     "danish": "oregano",
@@ -726,7 +726,7 @@
     "gender": "der",
     "danishDefinite": "oreganoen",
     "danishIndefinite": "en oregano",
-    "tier": 3
+    "tier": 4
   },
   "food.chives": {
     "danish": "purløg",
@@ -735,7 +735,7 @@
     "gender": "der",
     "danishDefinite": "purløget",
     "danishIndefinite": "et purløg",
-    "tier": 3
+    "tier": 4
   },
   "food.mint": {
     "danish": "mynte",
@@ -744,7 +744,7 @@
     "gender": "die",
     "danishDefinite": "mynten",
     "danishIndefinite": "en mynte",
-    "tier": 3
+    "tier": 4
   },
   "food.cinnamon": {
     "danish": "kanel",
@@ -753,7 +753,7 @@
     "gender": "der",
     "danishDefinite": "kanelen",
     "danishIndefinite": "en kanel",
-    "tier": 2
+    "tier": 3
   },
   "food.nutmeg": {
     "danish": "muskat",
@@ -762,7 +762,7 @@
     "gender": "der",
     "danishDefinite": "muskaten",
     "danishIndefinite": "en muskat",
-    "tier": 3
+    "tier": 5
   },
   "food.clove": {
     "danish": "nellike",
@@ -771,7 +771,7 @@
     "gender": "die",
     "danishDefinite": "nelliken",
     "danishIndefinite": "en nellike",
-    "tier": 3
+    "tier": 5
   },
   "food.vanilla": {
     "danish": "vanilje",
@@ -780,7 +780,7 @@
     "gender": "die",
     "danishDefinite": "vaniljen",
     "danishIndefinite": "en vanilje",
-    "tier": 2
+    "tier": 3
   },
   "food.saffron": {
     "danish": "safran",
@@ -789,7 +789,7 @@
     "gender": "der",
     "danishDefinite": "safranen",
     "danishIndefinite": "en safran",
-    "tier": 3
+    "tier": 5
   },
   "food.mustard": {
     "danish": "sennep",
@@ -825,7 +825,7 @@
     "gender": "der",
     "danishDefinite": "eddiken",
     "danishIndefinite": "en eddike",
-    "tier": 2
+    "tier": 3
   },
   "food.olive-oil": {
     "danish": "olivenolie",
@@ -852,7 +852,7 @@
     "gender": "das",
     "danishDefinite": "dressingen",
     "danishIndefinite": "en dressing",
-    "tier": 3
+    "tier": 4
   },
   "food.marinade": {
     "danish": "marinade",
@@ -861,7 +861,7 @@
     "gender": "die",
     "danishDefinite": "marinaden",
     "danishIndefinite": "en marinade",
-    "tier": 3
+    "tier": 4
   },
   "food.honey": {
     "danish": "honning",
@@ -879,7 +879,7 @@
     "gender": "der",
     "danishDefinite": "sirupen",
     "danishIndefinite": "en sirup",
-    "tier": 3
+    "tier": 4
   },
   "food.jam": {
     "danish": "syltetøj",
@@ -906,7 +906,7 @@
     "gender": "die",
     "danishDefinite": "gæren",
     "danishIndefinite": "en gær",
-    "tier": 3
+    "tier": 4
   },
   "food.baking-powder": {
     "danish": "bagepulver",
@@ -915,7 +915,7 @@
     "gender": "das",
     "danishDefinite": "bagepulveret",
     "danishIndefinite": "et bagepulver",
-    "tier": 3
+    "tier": 4
   },
   "food.cocoa": {
     "danish": "kakao",
@@ -933,7 +933,7 @@
     "gender": "das",
     "danishDefinite": "marcipanen",
     "danishIndefinite": "en marcipan",
-    "tier": 3
+    "tier": 4
   },
   "food.milk": {
     "danish": "mælk",
@@ -1005,7 +1005,7 @@
     "gender": "das",
     "danishDefinite": "æggeblommen",
     "danishIndefinite": "en æggeblomme",
-    "tier": 3
+    "tier": 4
   },
   "food.egg-white": {
     "danish": "æggehvide",
@@ -1014,7 +1014,7 @@
     "gender": "das",
     "danishDefinite": "æggehviden",
     "danishIndefinite": "en æggehvide",
-    "tier": 3
+    "tier": 4
   },
   "food.ice-cream": {
     "danish": "flødeis",
@@ -1050,7 +1050,7 @@
     "gender": "die",
     "danishDefinite": "kærnemælken",
     "danishIndefinite": "en kærnemælk",
-    "tier": 3
+    "tier": 4
   },
   "food.cottage-cheese": {
     "danish": "hytteost",
@@ -1059,7 +1059,7 @@
     "gender": "der",
     "danishDefinite": "hytteosten",
     "danishIndefinite": "en hytteost",
-    "tier": 3
+    "tier": 4
   },
   "food.pudding": {
     "danish": "budding",
@@ -1104,7 +1104,7 @@
     "gender": "das",
     "danishDefinite": "kalvekødet",
     "danishIndefinite": "et kalvekød",
-    "tier": 3
+    "tier": 4
   },
   "food.lamb-meat": {
     "danish": "lammekød",
@@ -1113,7 +1113,7 @@
     "gender": "das",
     "danishDefinite": "lammekødet",
     "danishIndefinite": "et lammekød",
-    "tier": 3
+    "tier": 4
   },
   "food.chicken": {
     "danish": "kylling",
@@ -1149,7 +1149,7 @@
     "gender": "der",
     "danishDefinite": "baconen",
     "danishIndefinite": "en bacon",
-    "tier": 2
+    "tier": 3
   },
   "food.ham": {
     "danish": "skinke",
@@ -1176,7 +1176,7 @@
     "gender": "die",
     "danishDefinite": "frikadellen",
     "danishIndefinite": "en frikadelle",
-    "tier": 2
+    "tier": 3
   },
   "food.minced-meat": {
     "danish": "hakkekød",
@@ -1185,7 +1185,7 @@
     "gender": "das",
     "danishDefinite": "hakkekødet",
     "danishIndefinite": "et hakkekød",
-    "tier": 2
+    "tier": 3
   },
   "food.chop": {
     "danish": "kotelet",
@@ -1194,7 +1194,7 @@
     "gender": "das",
     "danishDefinite": "koteletten",
     "danishIndefinite": "en kotelet",
-    "tier": 3
+    "tier": 4
   },
   "food.roast": {
     "danish": "steg",
@@ -1212,7 +1212,7 @@
     "gender": "der",
     "danishDefinite": "flæskestegen",
     "danishIndefinite": "en flæskesteg",
-    "tier": 3
+    "tier": 4
   },
   "food.schnitzel": {
     "danish": "schnitzel",
@@ -1230,7 +1230,7 @@
     "gender": "das",
     "danishDefinite": "fileten",
     "danishIndefinite": "en filet",
-    "tier": 3
+    "tier": 4
   },
   "food.liver-p-t": {
     "danish": "leverpostej",
@@ -1239,7 +1239,7 @@
     "gender": "die",
     "danishDefinite": "leverpostejen",
     "danishIndefinite": "en leverpostej",
-    "tier": 3
+    "tier": 5
   },
   "food.mackerel": {
     "danish": "makrel",
@@ -1248,7 +1248,7 @@
     "gender": "die",
     "danishDefinite": "makrellen",
     "danishIndefinite": "en makrel",
-    "tier": 3
+    "tier": 4
   },
   "food.tuna": {
     "danish": "tun",
@@ -1266,7 +1266,7 @@
     "gender": "die",
     "danishDefinite": "sardinen",
     "danishIndefinite": "en sardin",
-    "tier": 3
+    "tier": 4
   },
   "food.trout": {
     "danish": "forel",
@@ -1275,7 +1275,7 @@
     "gender": "die",
     "danishDefinite": "forellen",
     "danishIndefinite": "en forel",
-    "tier": 3
+    "tier": 4
   },
   "food.plaice": {
     "danish": "rødspætte",
@@ -1284,7 +1284,7 @@
     "gender": "die",
     "danishDefinite": "rødspætten",
     "danishIndefinite": "en rødspætte",
-    "tier": 3
+    "tier": 5
   },
   "food.shrimp": {
     "danish": "reje",
@@ -1293,7 +1293,7 @@
     "gender": "die",
     "danishDefinite": "rejen",
     "danishIndefinite": "en reje",
-    "tier": 2
+    "tier": 3
   },
   "food.squid": {
     "danish": "blæksprutte",
@@ -1302,7 +1302,7 @@
     "gender": "der",
     "danishDefinite": "blæksprutten",
     "danishIndefinite": "en blæksprutte",
-    "tier": 3
+    "tier": 4
   },
   "food.bread": {
     "danish": "brød",
@@ -1329,7 +1329,7 @@
     "gender": "das",
     "danishDefinite": "rugbrødet",
     "danishIndefinite": "et rugbrød",
-    "tier": 2
+    "tier": 3
   },
   "food.white-bread": {
     "danish": "hvedebrød",
@@ -1383,7 +1383,7 @@
     "gender": "die",
     "danishDefinite": "tærten",
     "danishIndefinite": "en tærte",
-    "tier": 3
+    "tier": 5
   },
   "food.apple-pie": {
     "danish": "æbletærte",
@@ -1401,7 +1401,7 @@
     "gender": "der",
     "danishDefinite": "ostekagen",
     "danishIndefinite": "en ostekage",
-    "tier": 3
+    "tier": 4
   },
   "food.biscuit": {
     "danish": "kiks",
@@ -1428,7 +1428,7 @@
     "gender": "das",
     "danishDefinite": "wienerbrødet",
     "danishIndefinite": "et wienerbrød",
-    "tier": 3
+    "tier": 5
   },
   "food.cinnamon-roll": {
     "danish": "kanelsnegl",
@@ -1437,7 +1437,7 @@
     "gender": "die",
     "danishDefinite": "kanelsneglen",
     "danishIndefinite": "en kanelsnegl",
-    "tier": 3
+    "tier": 4
   },
   "food.muffin": {
     "danish": "muffin",
@@ -1464,7 +1464,7 @@
     "gender": "die",
     "danishDefinite": "vaflen",
     "danishIndefinite": "en vaffel",
-    "tier": 2
+    "tier": 3
   },
   "food.pastry": {
     "danish": "bagværk",
@@ -1473,7 +1473,7 @@
     "gender": "das",
     "danishDefinite": "bagværket",
     "danishIndefinite": "et bagværk",
-    "tier": 3
+    "tier": 4
   },
   "food.dough": {
     "danish": "dej",
@@ -1554,7 +1554,7 @@
     "gender": "der",
     "danishDefinite": "gryderetten",
     "danishIndefinite": "en gryderet",
-    "tier": 3
+    "tier": 4
   },
   "food.potato-salad": {
     "danish": "kartoffelsalat",
@@ -1581,7 +1581,7 @@
     "gender": "das",
     "danishDefinite": "rørægget",
     "danishIndefinite": "et røræg",
-    "tier": 2
+    "tier": 3
   },
   "food.fried-egg": {
     "danish": "spejlæg",
@@ -1635,7 +1635,7 @@
     "gender": "der",
     "danishDefinite": "grøden",
     "danishIndefinite": "en grød",
-    "tier": 3
+    "tier": 4
   },
   "food.sandwich-topping": {
     "danish": "pålæg",
@@ -1644,7 +1644,7 @@
     "gender": "der",
     "danishDefinite": "pålægget",
     "danishIndefinite": "et pålæg",
-    "tier": 3
+    "tier": 4
   },
   "food.packed-lunch": {
     "danish": "madpakke",
@@ -1653,7 +1653,7 @@
     "gender": "das",
     "danishDefinite": "madpakken",
     "danishIndefinite": "en madpakke",
-    "tier": 3
+    "tier": 4
   },
   "food.sweets": {
     "danish": "slik",
@@ -1680,7 +1680,7 @@
     "gender": "die",
     "danishDefinite": "lakridsen",
     "danishIndefinite": "en lakrids",
-    "tier": 3
+    "tier": 4
   },
   "food.chewing-gum": {
     "danish": "tyggegummi",
@@ -1722,49 +1722,49 @@
     "danish": "at tø op",
     "german": "auftauen",
     "english": "to thaw",
-    "tier": 3
+    "tier": 4
   },
   "food.to-simmer": {
     "danish": "at simre",
     "german": "köcheln",
     "english": "to simmer",
-    "tier": 3
+    "tier": 5
   },
   "food.to-steam": {
     "danish": "at dampe",
     "german": "dämpfen",
     "english": "to steam",
-    "tier": 3
+    "tier": 5
   },
   "food.to-sear": {
     "danish": "at brase",
     "german": "anbraten",
     "english": "to sear",
-    "tier": 3
+    "tier": 5
   },
   "food.to-marinate": {
     "danish": "at marinere",
     "german": "marinieren",
     "english": "to marinate",
-    "tier": 3
+    "tier": 4
   },
   "food.to-salt": {
     "danish": "at salte",
     "german": "salzen",
     "english": "to salt",
-    "tier": 2
+    "tier": 3
   },
   "food.to-whisk": {
     "danish": "at piske",
     "german": "verquirlen",
     "english": "to whisk",
-    "tier": 3
+    "tier": 5
   },
   "food.salted": {
     "danish": "saltet",
     "german": "gesalzen",
     "english": "salted",
-    "tier": 2
+    "tier": 3
   },
   "food.spicy-hot": {
     "danish": "stærkt krydret",
@@ -1776,25 +1776,25 @@
     "danish": "stegt",
     "german": "gebraten",
     "english": "fried",
-    "tier": 2
+    "tier": 3
   },
   "food.baked": {
     "danish": "bagt",
     "german": "gebacken",
     "english": "baked",
-    "tier": 2
+    "tier": 3
   },
   "food.grilled": {
     "danish": "grillet",
     "german": "gegrillt",
     "english": "grilled",
-    "tier": 2
+    "tier": 3
   },
   "food.smoked": {
     "danish": "røget",
     "german": "geräuchert",
     "english": "smoked",
-    "tier": 3
+    "tier": 4
   },
   "food.juicy": {
     "danish": "saftig",
@@ -1806,7 +1806,7 @@
     "danish": "mør",
     "german": "zart",
     "english": "tender",
-    "tier": 3
+    "tier": 4
   },
   "food.crispy": {
     "danish": "sprød",
@@ -1830,31 +1830,31 @@
     "danish": "fed",
     "german": "fettig",
     "english": "greasy",
-    "tier": 3
+    "tier": 4
   },
   "food.homemade": {
     "danish": "hjemmelavet",
     "german": "selbstgemacht",
     "english": "homemade",
-    "tier": 2
+    "tier": 3
   },
   "food.frozen": {
     "danish": "dybfrossen",
     "german": "tiefgekühlt",
     "english": "frozen",
-    "tier": 3
+    "tier": 4
   },
   "food.gluten-free": {
     "danish": "glutenfri",
     "german": "glutenfrei",
     "english": "gluten-free",
-    "tier": 3
+    "tier": 4
   },
   "food.lactose-free": {
     "danish": "laktosefri",
     "german": "laktosefrei",
     "english": "lactose-free",
-    "tier": 3
+    "tier": 4
   },
   "food.portion": {
     "danish": "portion",
@@ -1881,7 +1881,7 @@
     "gender": "der",
     "danishDefinite": "smagen",
     "danishIndefinite": "en smag",
-    "tier": 2
+    "tier": 3
   },
   "food.calorie": {
     "danish": "kalorie",
@@ -1899,7 +1899,7 @@
     "gender": "das",
     "danishDefinite": "proteinet",
     "danishIndefinite": "et protein",
-    "tier": 3
+    "tier": 4
   },
   "food.fat": {
     "danish": "fedt",
@@ -1917,7 +1917,7 @@
     "gender": "das",
     "danishDefinite": "kulhydratet",
     "danishIndefinite": "et kulhydrat",
-    "tier": 3
+    "tier": 4
   },
   "food.foodstuff": {
     "danish": "fødevare",
@@ -1935,7 +1935,7 @@
     "gender": "die",
     "danishDefinite": "madspildet",
     "danishIndefinite": "et madspild",
-    "tier": 3
+    "tier": 4
   },
   "food.slice": {
     "danish": "skive",
@@ -1962,6 +1962,24 @@
     "gender": "die",
     "danishDefinite": "brødskorpen",
     "danishIndefinite": "en brødskorpe",
-    "tier": 3
+    "tier": 4
+  },
+  "food.horseradish": {
+    "danish": "peberrod",
+    "german": "Meerrettich",
+    "english": "horseradish",
+    "gender": "der",
+    "danishDefinite": "peberroden",
+    "danishIndefinite": "en peberrod",
+    "tier": 5
+  },
+  "food.legume": {
+    "danish": "bælgfrugt",
+    "german": "Hülsenfrucht",
+    "english": "legume",
+    "gender": "die",
+    "danishDefinite": "bælgfrugten",
+    "danishIndefinite": "en bælgfrugt",
+    "tier": 5
   }
 }

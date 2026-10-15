@@ -205,11 +205,12 @@
   {
     "id": "1-14",
     "chapter": "Chapter 1 · Basics",
-    "name": "Modal verbs",
+    "name": "Sentences",
     "mode": "word",
     "prompt": "Translate the Danish sentence into German",
     "categories": [
-      "modals"
+      "modals",
+      "sentences"
     ],
     "tiers": [
       1

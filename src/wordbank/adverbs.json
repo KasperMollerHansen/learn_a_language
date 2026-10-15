@@ -57,7 +57,7 @@
     "danish": "derovre",
     "german": "dort",
     "english": "over there",
-    "tier": 2
+    "tier": 1
   },
   "adverbs.everywhere": {
     "danish": "overalt",
@@ -69,7 +69,7 @@
     "danish": "ingen steder",
     "german": "nirgends",
     "english": "nowhere",
-    "tier": 2
+    "tier": 3
   },
   "adverbs.somewhere": {
     "danish": "et eller andet sted",
@@ -123,7 +123,7 @@
     "danish": "tilbage",
     "german": "zurück",
     "english": "back",
-    "tier": 2
+    "tier": 1
   },
   "adverbs.away": {
     "danish": "væk",
@@ -189,7 +189,7 @@
     "danish": "endda",
     "german": "sogar",
     "english": "even",
-    "tier": 2
+    "tier": 3
   },
   "adverbs.especially": {
     "danish": "især",
@@ -213,13 +213,13 @@
     "danish": "helt sikkert",
     "german": "bestimmt",
     "english": "definitely",
-    "tier": 3
+    "tier": 2
   },
   "adverbs.unfortunately": {
     "danish": "desværre",
     "german": "leider",
     "english": "unfortunately",
-    "tier": 2
+    "tier": 1
   },
   "adverbs.fortunately": {
     "danish": "heldigvis",
@@ -255,7 +255,7 @@
     "danish": "allerhelst",
     "german": "am liebsten",
     "english": "most of all",
-    "tier": 3
+    "tier": 2
   },
   "adverbs.more": {
     "danish": "mere",
@@ -381,7 +381,7 @@
     "danish": "til sidst",
     "german": "zuletzt",
     "english": "lastly",
-    "tier": 2
+    "tier": 3
   },
   "adverbs.finally": {
     "danish": "endelig",
@@ -399,7 +399,7 @@
     "danish": "endnu en gang",
     "german": "noch einmal",
     "english": "once more",
-    "tier": 2
+    "tier": 1
   },
   "adverbs.every-time": {
     "danish": "hver gang",
@@ -435,7 +435,7 @@
     "danish": "tre gange",
     "german": "dreimal",
     "english": "three times",
-    "tier": 3
+    "tier": 2
   },
   "adverbs.several-times": {
     "danish": "flere gange",
@@ -465,13 +465,13 @@
     "danish": "alligevel",
     "german": "trotzdem",
     "english": "nevertheless",
-    "tier": 2
+    "tier": 3
   },
   "adverbs.besides": {
     "danish": "desuden",
     "german": "außerdem",
     "english": "besides",
-    "tier": 2
+    "tier": 3
   },
   "adverbs.actually": {
     "danish": "egentlig",
@@ -489,19 +489,19 @@
     "danish": "ligeledes",
     "german": "ebenfalls",
     "english": "likewise",
-    "tier": 3
+    "tier": 4
   },
   "adverbs.otherwise": {
     "danish": "ellers",
     "german": "sonst",
     "english": "otherwise",
-    "tier": 2
+    "tier": 3
   },
   "adverbs.just-as": {
     "danish": "lige så",
     "german": "genauso",
     "english": "just as",
-    "tier": 2
+    "tier": 3
   },
   "adverbs.at-least": {
     "danish": "mindst",
@@ -561,7 +561,7 @@
     "danish": "vel",
     "german": "wohl",
     "english": "probably",
-    "tier": 3
+    "tier": 4
   },
   "adverbs.out": {
     "danish": "ud",
@@ -597,7 +597,7 @@
     "danish": "nogensinde",
     "german": "jemals",
     "english": "ever",
-    "tier": 2
+    "tier": 3
   },
   "adverbs.again-and-again": {
     "danish": "igen og igen",
@@ -675,13 +675,13 @@
     "danish": "åbenbart",
     "german": "offenbar",
     "english": "apparently",
-    "tier": 3
+    "tier": 4
   },
   "adverbs.surely": {
     "danish": "sikkert",
     "german": "sicherlich",
     "english": "surely",
-    "tier": 2
+    "tier": 3
   },
   "adverbs.now-and-then": {
     "danish": "af og til",
@@ -699,13 +699,13 @@
     "danish": "omvendt",
     "german": "umgekehrt",
     "english": "vice versa",
-    "tier": 3
+    "tier": 4
   },
   "adverbs.in-any-case": {
     "danish": "i hvert fald",
     "german": "jedenfalls",
     "english": "in any case",
-    "tier": 3
+    "tier": 4
   },
   "adverbs.by-the-way": {
     "danish": "i øvrigt",
@@ -729,13 +729,13 @@
     "danish": "hovedsageligt",
     "german": "hauptsächlich",
     "english": "mainly",
-    "tier": 3
+    "tier": 4
   },
   "adverbs.partly": {
     "danish": "delvist",
     "german": "teilweise",
     "english": "partly",
-    "tier": 3
+    "tier": 4
   },
   "adverbs.extremely": {
     "danish": "ekstremt",
@@ -753,18 +753,132 @@
     "danish": "dengang",
     "german": "damals",
     "english": "back then",
-    "tier": 2
+    "tier": 3
   },
   "adverbs.nowadays": {
     "danish": "nu om dage",
     "german": "heutzutage",
     "english": "nowadays",
-    "tier": 3
+    "tier": 4
   },
   "adverbs.so-far": {
     "danish": "hidtil",
     "german": "bisher",
     "english": "so far",
     "tier": 3
+  },
+  "adverbs.zunehmend": {
+    "danish": "i tiltagende grad",
+    "german": "zunehmend",
+    "english": "increasingly",
+    "tier": 4
+  },
+  "adverbs.ueberhaupt": {
+    "danish": "overhovedet",
+    "german": "überhaupt",
+    "english": "at all",
+    "tier": 4
+  },
+  "adverbs.immerhin": {
+    "danish": "trods alt",
+    "german": "immerhin",
+    "english": "after all",
+    "tier": 4
+  },
+  "adverbs.schlichtweg": {
+    "danish": "simpelthen",
+    "german": "schlichtweg",
+    "english": "simply",
+    "tier": 5
+  },
+  "adverbs.zweifelsohne": {
+    "danish": "uden tvivl",
+    "german": "zweifelsohne",
+    "english": "undoubtedly",
+    "tier": 5
+  },
+  "adverbs.mitunter": {
+    "danish": "indimellem",
+    "german": "mitunter",
+    "english": "at times",
+    "tier": 5
+  },
+  "adverbs.weitgehend": {
+    "danish": "i vid udstrækning",
+    "german": "weitgehend",
+    "english": "largely",
+    "tier": 5
+  },
+  "adverbs.ausschliesslich": {
+    "danish": "udelukkende",
+    "german": "ausschließlich",
+    "english": "exclusively",
+    "tier": 5
+  },
+  "adverbs.urspruenglich": {
+    "danish": "oprindeligt",
+    "german": "ursprünglich",
+    "english": "originally",
+    "tier": 5
+  },
+  "adverbs.keineswegs": {
+    "danish": "på ingen måde",
+    "german": "keineswegs",
+    "english": "by no means",
+    "tier": 5
+  },
+  "adverbs.allmaehlich": {
+    "danish": "efterhånden",
+    "german": "allmählich",
+    "english": "gradually",
+    "tier": 5
+  },
+  "adverbs.ohnehin": {
+    "danish": "i forvejen",
+    "german": "ohnehin",
+    "english": "anyway",
+    "tier": 5
+  },
+  "adverbs.zumindest": {
+    "danish": "i det mindste",
+    "german": "zumindest",
+    "english": "at least",
+    "tier": 5
+  },
+  "adverbs.lediglich": {
+    "danish": "blot",
+    "german": "lediglich",
+    "english": "merely",
+    "tier": 5
+  },
+  "adverbs.ueberwiegend": {
+    "danish": "overvejende",
+    "german": "überwiegend",
+    "english": "predominantly",
+    "tier": 5
+  },
+  "adverbs.offenkundig": {
+    "danish": "åbenlyst",
+    "german": "offenkundig",
+    "english": "evidently",
+    "tier": 5
+  },
+  "adverbs.ausdruecklich": {
+    "danish": "udtrykkeligt",
+    "german": "ausdrücklich",
+    "english": "expressly",
+    "tier": 5
+  },
+  "adverbs.bekanntlich": {
+    "danish": "som bekendt",
+    "german": "bekanntlich",
+    "english": "as is well known",
+    "tier": 5
+  },
+  "adverbs.gewissermassen": {
+    "danish": "så at sige",
+    "german": "gewissermaßen",
+    "english": "so to speak",
+    "tier": 5
   }
 }

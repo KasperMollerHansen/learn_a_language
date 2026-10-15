@@ -6,7 +6,7 @@
     "gender": "das",
     "danishDefinite": "følelsen",
     "danishIndefinite": "en følelse",
-    "tier": 1
+    "tier": 2
   },
   "emotions.joy": {
     "danish": "glæde",
@@ -33,7 +33,7 @@
     "gender": "die",
     "danishDefinite": "sorgen",
     "danishIndefinite": "en sorg",
-    "tier": 2
+    "tier": 3
   },
   "emotions.anger": {
     "danish": "vrede",
@@ -42,7 +42,7 @@
     "gender": "die",
     "danishDefinite": "vreden",
     "danishIndefinite": "en vrede",
-    "tier": 2
+    "tier": 3
   },
   "emotions.fear": {
     "danish": "angst",
@@ -60,7 +60,7 @@
     "gender": "die",
     "danishDefinite": "frygten",
     "danishIndefinite": "en frygt",
-    "tier": 3
+    "tier": 4
   },
   "emotions.worry": {
     "danish": "bekymring",
@@ -87,7 +87,7 @@
     "gender": "die",
     "danishDefinite": "skuffelsen",
     "danishIndefinite": "en skuffelse",
-    "tier": 2
+    "tier": 3
   },
   "emotions.jealousy": {
     "danish": "jalousi",
@@ -96,7 +96,7 @@
     "gender": "die",
     "danishDefinite": "jalousien",
     "danishIndefinite": "en jalousi",
-    "tier": 3
+    "tier": 4
   },
   "emotions.envy": {
     "danish": "misundelse",
@@ -105,7 +105,7 @@
     "gender": "der",
     "danishDefinite": "misundelsen",
     "danishIndefinite": "en misundelse",
-    "tier": 3
+    "tier": 4
   },
   "emotions.shame": {
     "danish": "skam",
@@ -114,7 +114,7 @@
     "gender": "die",
     "danishDefinite": "skammen",
     "danishIndefinite": "en skam",
-    "tier": 3
+    "tier": 5
   },
   "emotions.pride": {
     "danish": "stolthed",
@@ -123,7 +123,7 @@
     "gender": "der",
     "danishDefinite": "stoltheden",
     "danishIndefinite": "en stolthed",
-    "tier": 2
+    "tier": 3
   },
   "emotions.compassion": {
     "danish": "medfølelse",
@@ -132,7 +132,7 @@
     "gender": "das",
     "danishDefinite": "medfølelsen",
     "danishIndefinite": "en medfølelse",
-    "tier": 3
+    "tier": 4
   },
   "emotions.love": {
     "danish": "kærlighed",
@@ -150,7 +150,7 @@
     "gender": "der",
     "danishDefinite": "hadet",
     "danishIndefinite": "et had",
-    "tier": 2
+    "tier": 3
   },
   "emotions.hope": {
     "danish": "håb",
@@ -159,7 +159,7 @@
     "gender": "die",
     "danishDefinite": "håbet",
     "danishIndefinite": "et håb",
-    "tier": 2
+    "tier": 3
   },
   "emotions.loneliness": {
     "danish": "ensomhed",
@@ -168,7 +168,7 @@
     "gender": "die",
     "danishDefinite": "ensomheden",
     "danishIndefinite": "en ensomhed",
-    "tier": 3
+    "tier": 4
   },
   "emotions.boredom": {
     "danish": "kedsomhed",
@@ -186,7 +186,7 @@
     "gender": "die",
     "danishDefinite": "tålmodigheden",
     "danishIndefinite": "en tålmodighed",
-    "tier": 2
+    "tier": 3
   },
   "emotions.trust": {
     "danish": "tillid",
@@ -204,7 +204,7 @@
     "gender": "das",
     "danishDefinite": "mistilliden",
     "danishIndefinite": "en mistillid",
-    "tier": 3
+    "tier": 4
   },
   "emotions.gratitude": {
     "danish": "taknemmelighed",
@@ -213,7 +213,7 @@
     "gender": "die",
     "danishDefinite": "taknemmeligheden",
     "danishIndefinite": "en taknemmelighed",
-    "tier": 3
+    "tier": 4
   },
   "emotions.mood": {
     "danish": "humør",
@@ -222,7 +222,7 @@
     "gender": "die",
     "danishDefinite": "humøret",
     "danishIndefinite": "et humør",
-    "tier": 2
+    "tier": 3
   },
   "emotions.enthusiasm": {
     "danish": "begejstring",
@@ -231,7 +231,7 @@
     "gender": "die",
     "danishDefinite": "begejstringen",
     "danishIndefinite": "en begejstring",
-    "tier": 3
+    "tier": 4
   },
   "emotions.relief": {
     "danish": "lettelse",
@@ -240,7 +240,7 @@
     "gender": "die",
     "danishDefinite": "lettelsen",
     "danishIndefinite": "en lettelse",
-    "tier": 3
+    "tier": 4
   },
   "emotions.nervousness": {
     "danish": "nervøsitet",
@@ -258,7 +258,7 @@
     "gender": "die",
     "danishDefinite": "forlegenheden",
     "danishIndefinite": "en forlegenhed",
-    "tier": 3
+    "tier": 5
   },
   "emotions.self-confidence": {
     "danish": "selvtillid",
@@ -267,7 +267,7 @@
     "gender": "das",
     "danishDefinite": "selvtilliden",
     "danishIndefinite": "en selvtillid",
-    "tier": 3
+    "tier": 4
   },
   "emotions.glad": {
     "danish": "glad",
@@ -303,13 +303,13 @@
     "danish": "jaloux",
     "german": "eifersüchtig",
     "english": "jealous",
-    "tier": 2
+    "tier": 3
   },
   "emotions.embarrassed": {
     "danish": "flov",
     "german": "verlegen",
     "english": "embarrassed",
-    "tier": 3
+    "tier": 4
   },
   "emotions.relieved": {
     "danish": "lettet",
@@ -333,7 +333,7 @@
     "danish": "taknemmelig",
     "german": "dankbar",
     "english": "grateful",
-    "tier": 2
+    "tier": 3
   },
   "emotions.to-laugh": {
     "danish": "at grine",

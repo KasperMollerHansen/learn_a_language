@@ -15,7 +15,7 @@
     "gender": "der",
     "danishDefinite": "kedlen",
     "danishIndefinite": "en kedel",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.cup": {
     "danish": "kop",
@@ -78,7 +78,7 @@
     "gender": "das",
     "danishDefinite": "dugen",
     "danishIndefinite": "en dug",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.mirror": {
     "danish": "spejl",
@@ -114,7 +114,7 @@
     "gender": "die",
     "danishDefinite": "skålen",
     "danishIndefinite": "en skål",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.freezer": {
     "danish": "fryser",
@@ -123,7 +123,7 @@
     "gender": "der",
     "danishDefinite": "fryseren",
     "danishIndefinite": "en fryser",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.stove": {
     "danish": "komfur",
@@ -141,7 +141,7 @@
     "gender": "der",
     "danishDefinite": "ovnen",
     "danishIndefinite": "en ovn",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.microwave": {
     "danish": "mikroovn",
@@ -159,7 +159,7 @@
     "gender": "der",
     "danishDefinite": "opvaskemaskinen",
     "danishIndefinite": "en opvaskemaskine",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.sink": {
     "danish": "vask",
@@ -168,7 +168,7 @@
     "gender": "die",
     "danishDefinite": "vasken",
     "danishIndefinite": "en vask",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.tap": {
     "danish": "vandhane",
@@ -177,7 +177,7 @@
     "gender": "der",
     "danishDefinite": "vandhanen",
     "danishIndefinite": "en vandhane",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.drinking-glass": {
     "danish": "drikkeglas",
@@ -195,7 +195,7 @@
     "gender": "der",
     "danishDefinite": "kruset",
     "danishIndefinite": "et krus",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.teaspoon": {
     "danish": "teske",
@@ -222,7 +222,7 @@
     "gender": "die",
     "danishDefinite": "grydeskeen",
     "danishIndefinite": "en grydeske",
-    "tier": 3
+    "tier": 5
   },
   "kitchen.whisk": {
     "danish": "piskeris",
@@ -231,7 +231,7 @@
     "gender": "der",
     "danishDefinite": "piskeriset",
     "danishIndefinite": "et piskeris",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.spatula": {
     "danish": "paletkniv",
@@ -240,7 +240,7 @@
     "gender": "der",
     "danishDefinite": "paletkniven",
     "danishIndefinite": "en paletkniv",
-    "tier": 3
+    "tier": 5
   },
   "kitchen.colander": {
     "danish": "dørslag",
@@ -249,7 +249,7 @@
     "gender": "das",
     "danishDefinite": "dørslaget",
     "danishIndefinite": "et dørslag",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.grater": {
     "danish": "rivejern",
@@ -258,7 +258,7 @@
     "gender": "die",
     "danishDefinite": "rivejernet",
     "danishIndefinite": "et rivejern",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.peeler": {
     "danish": "skræller",
@@ -267,7 +267,7 @@
     "gender": "der",
     "danishDefinite": "skrælleren",
     "danishIndefinite": "en skræller",
-    "tier": 3
+    "tier": 5
   },
   "kitchen.can-opener": {
     "danish": "dåseåbner",
@@ -276,7 +276,7 @@
     "gender": "der",
     "danishDefinite": "dåseåbneren",
     "danishIndefinite": "en dåseåbner",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.bottle-opener": {
     "danish": "oplukker",
@@ -294,7 +294,7 @@
     "gender": "der",
     "danishDefinite": "proptrækkeren",
     "danishIndefinite": "en proptrækker",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.frying-pan": {
     "danish": "stegepande",
@@ -303,7 +303,7 @@
     "gender": "die",
     "danishDefinite": "stegepanden",
     "danishIndefinite": "en stegepande",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.baking-tray": {
     "danish": "bageplade",
@@ -312,7 +312,7 @@
     "gender": "das",
     "danishDefinite": "bagepladen",
     "danishIndefinite": "en bageplade",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.cake-tin": {
     "danish": "kageform",
@@ -321,7 +321,7 @@
     "gender": "die",
     "danishDefinite": "kageformen",
     "danishIndefinite": "en kageform",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.cutting-board": {
     "danish": "skærebræt",
@@ -330,7 +330,7 @@
     "gender": "das",
     "danishDefinite": "skærebrættet",
     "danishIndefinite": "et skærebræt",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.rolling-pin": {
     "danish": "kagerulle",
@@ -339,7 +339,7 @@
     "gender": "das",
     "danishDefinite": "kagerullen",
     "danishIndefinite": "en kagerulle",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.kitchen-scale": {
     "danish": "køkkenvægt",
@@ -348,7 +348,7 @@
     "gender": "die",
     "danishDefinite": "køkkenvægten",
     "danishIndefinite": "en køkkenvægt",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.measuring-jug": {
     "danish": "målebæger",
@@ -357,7 +357,7 @@
     "gender": "der",
     "danishDefinite": "målebægeret",
     "danishIndefinite": "et målebæger",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.toaster": {
     "danish": "brødrister",
@@ -384,7 +384,7 @@
     "gender": "der",
     "danishDefinite": "elkedlen",
     "danishIndefinite": "en elkedel",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.blender": {
     "danish": "blender",
@@ -402,7 +402,7 @@
     "gender": "die",
     "danishDefinite": "køkkenmaskinen",
     "danishIndefinite": "en køkkenmaskine",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.teapot": {
     "danish": "tekande",
@@ -429,7 +429,7 @@
     "gender": "der",
     "danishDefinite": "kanden",
     "danishIndefinite": "en kande",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.bottle": {
     "danish": "flaske",
@@ -447,7 +447,7 @@
     "gender": "der",
     "danishDefinite": "låget",
     "danishIndefinite": "et låg",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.tin": {
     "danish": "dåse",
@@ -465,7 +465,7 @@
     "gender": "das",
     "danishDefinite": "bakken",
     "danishIndefinite": "en bakke",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.napkin": {
     "danish": "serviet",
@@ -483,7 +483,7 @@
     "gender": "das",
     "danishDefinite": "viskestykket",
     "danishIndefinite": "et viskestykke",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.oven-glove": {
     "danish": "grydelap",
@@ -492,7 +492,7 @@
     "gender": "der",
     "danishDefinite": "grydelappen",
     "danishIndefinite": "en grydelap",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.apron": {
     "danish": "forklæde",
@@ -501,7 +501,7 @@
     "gender": "die",
     "danishDefinite": "forklædet",
     "danishIndefinite": "et forklæde",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.dishcloth": {
     "danish": "karklud",
@@ -510,7 +510,7 @@
     "gender": "der",
     "danishDefinite": "karkluden",
     "danishIndefinite": "en karklud",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.washing-up-liquid": {
     "danish": "opvaskemiddel",
@@ -519,7 +519,7 @@
     "gender": "das",
     "danishDefinite": "opvaskemidlet",
     "danishIndefinite": "et opvaskemiddel",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.wine-glass": {
     "danish": "vinglas",
@@ -537,7 +537,7 @@
     "gender": "der",
     "danishDefinite": "æggebægeret",
     "danishIndefinite": "et æggebæger",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.straw": {
     "danish": "sugerør",
@@ -573,7 +573,7 @@
     "gender": "die",
     "danishDefinite": "måltidet",
     "danishIndefinite": "et måltid",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.dish": {
     "danish": "madret",
@@ -600,7 +600,7 @@
     "gender": "der",
     "danishDefinite": "saltbøssen",
     "danishIndefinite": "en saltbøsse",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.pepper-mill": {
     "danish": "pebermølle",
@@ -609,7 +609,7 @@
     "gender": "die",
     "danishDefinite": "pebermøllen",
     "danishIndefinite": "en pebermølle",
-    "tier": 3
+    "tier": 5
   },
   "kitchen.sugar-bowl": {
     "danish": "sukkerskål",
@@ -618,7 +618,7 @@
     "gender": "die",
     "danishDefinite": "sukkerskålen",
     "danishIndefinite": "en sukkerskål",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.cutlery": {
     "danish": "bestik",
@@ -627,7 +627,7 @@
     "gender": "das",
     "danishDefinite": "bestikket",
     "danishIndefinite": "et bestik",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.crockery": {
     "danish": "service",
@@ -654,7 +654,7 @@
     "gender": "die",
     "danishDefinite": "bordpladen",
     "danishIndefinite": "en bordplade",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.extractor-hood": {
     "danish": "emhætte",
@@ -663,7 +663,7 @@
     "gender": "die",
     "danishDefinite": "emhætten",
     "danishIndefinite": "en emhætte",
-    "tier": 3
+    "tier": 5
   },
   "kitchen.hob": {
     "danish": "kogeplade",
@@ -672,7 +672,7 @@
     "gender": "das",
     "danishDefinite": "kogepladen",
     "danishIndefinite": "en kogeplade",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.pressure-cooker": {
     "danish": "trykkoger",
@@ -681,7 +681,7 @@
     "gender": "der",
     "danishDefinite": "trykkogeren",
     "danishIndefinite": "en trykkoger",
-    "tier": 3
+    "tier": 5
   },
   "kitchen.wok": {
     "danish": "wok",
@@ -690,7 +690,7 @@
     "gender": "der",
     "danishDefinite": "wokken",
     "danishIndefinite": "en wok",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.lunch-box": {
     "danish": "madkasse",
@@ -699,7 +699,7 @@
     "gender": "die",
     "danishDefinite": "madkassen",
     "danishIndefinite": "en madkasse",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.thermos": {
     "danish": "termokande",
@@ -708,7 +708,7 @@
     "gender": "die",
     "danishDefinite": "termokanden",
     "danishIndefinite": "en termokande",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.water-bottle": {
     "danish": "drikkedunk",
@@ -717,7 +717,7 @@
     "gender": "die",
     "danishDefinite": "drikkedunken",
     "danishIndefinite": "en drikkedunk",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.ice-cube": {
     "danish": "isterning",
@@ -726,7 +726,7 @@
     "gender": "der",
     "danishDefinite": "isterningen",
     "danishIndefinite": "en isterning",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.tea-bag": {
     "danish": "tepose",
@@ -735,7 +735,7 @@
     "gender": "der",
     "danishDefinite": "teposen",
     "danishIndefinite": "en tepose",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.coffee-filter": {
     "danish": "kaffefilter",
@@ -744,7 +744,7 @@
     "gender": "der",
     "danishDefinite": "kaffefilteret",
     "danishIndefinite": "et kaffefilter",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.bread-bin": {
     "danish": "brødkasse",
@@ -753,7 +753,7 @@
     "gender": "der",
     "danishDefinite": "brødkassen",
     "danishIndefinite": "en brødkasse",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.bread-knife": {
     "danish": "brødkniv",
@@ -762,7 +762,7 @@
     "gender": "das",
     "danishDefinite": "brødkniven",
     "danishIndefinite": "en brødkniv",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.kitchen-knife": {
     "danish": "køkkenkniv",
@@ -771,7 +771,7 @@
     "gender": "das",
     "danishDefinite": "køkkenkniven",
     "danishIndefinite": "en køkkenkniv",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.dough-scraper": {
     "danish": "dejskraber",
@@ -780,7 +780,7 @@
     "gender": "der",
     "danishDefinite": "dejskraberen",
     "danishIndefinite": "en dejskraber",
-    "tier": 3
+    "tier": 5
   },
   "kitchen.kitchen-timer": {
     "danish": "køkkenur",
@@ -789,7 +789,7 @@
     "gender": "der",
     "danishDefinite": "køkkenuret",
     "danishIndefinite": "et køkkenur",
-    "tier": 3
+    "tier": 5
   },
   "kitchen.kitchen-roll": {
     "danish": "køkkenrulle",
@@ -798,7 +798,7 @@
     "gender": "die",
     "danishDefinite": "køkkenrullen",
     "danishIndefinite": "en køkkenrulle",
-    "tier": 2
+    "tier": 3
   },
   "kitchen.cling-film": {
     "danish": "plastfolie",
@@ -807,7 +807,7 @@
     "gender": "die",
     "danishDefinite": "plastfolien",
     "danishIndefinite": "en plastfolie",
-    "tier": 3
+    "tier": 5
   },
   "kitchen.aluminium-foil": {
     "danish": "alufolie",
@@ -816,7 +816,7 @@
     "gender": "die",
     "danishDefinite": "alufolien",
     "danishIndefinite": "en alufolie",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.baking-paper": {
     "danish": "bagepapir",
@@ -825,7 +825,7 @@
     "gender": "das",
     "danishDefinite": "bagepapiret",
     "danishIndefinite": "et bagepapir",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.salad-bowl": {
     "danish": "salatskål",
@@ -834,7 +834,7 @@
     "gender": "die",
     "danishDefinite": "salatskålen",
     "danishIndefinite": "en salatskål",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.soup-plate": {
     "danish": "dyb tallerken",
@@ -843,7 +843,7 @@
     "gender": "der",
     "danishDefinite": "den dybe tallerken",
     "danishIndefinite": "en dyb tallerken",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.saucer": {
     "danish": "underkop",
@@ -852,7 +852,7 @@
     "gender": "die",
     "danishDefinite": "underkoppen",
     "danishIndefinite": "en underkop",
-    "tier": 3
+    "tier": 4
   },
   "kitchen.casserole-dish": {
     "danish": "ildfast fad",
@@ -861,6 +861,6 @@
     "gender": "die",
     "danishDefinite": "det ildfaste fad",
     "danishIndefinite": "et ildfast fad",
-    "tier": 3
+    "tier": 5
   }
 }

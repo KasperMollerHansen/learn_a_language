@@ -3,25 +3,25 @@
     "danish": "at klage",
     "german": "sich beschweren",
     "english": "to complain",
-    "tier": 2
+    "tier": 3
   },
   "communication.agree": {
     "danish": "at være enig",
     "german": "zustimmen",
     "english": "to agree",
-    "tier": 2
+    "tier": 3
   },
   "communication.mumble": {
     "danish": "at mumle",
     "german": "murmeln",
     "english": "to mumble",
-    "tier": 3
+    "tier": 4
   },
   "communication.hang-up": {
     "danish": "at lægge på",
     "german": "auflegen",
     "english": "to hang up",
-    "tier": 2
+    "tier": 3
   },
   "communication.call-back": {
     "danish": "at ringe tilbage",
@@ -51,13 +51,13 @@
     "danish": "at tie",
     "german": "schweigen",
     "english": "to be silent",
-    "tier": 3
+    "tier": 4
   },
   "communication.pass-on-a-message": {
     "danish": "at give besked",
     "german": "ausrichten",
     "english": "to pass on a message",
-    "tier": 3
+    "tier": 4
   },
   "communication.exchange": {
     "danish": "at udveksle",
@@ -90,7 +90,7 @@
     "gender": "die",
     "danishDefinite": "meddelelsen",
     "danishIndefinite": "en meddelelse",
-    "tier": 3
+    "tier": 4
   },
   "communication.statement": {
     "danish": "udsagn",
@@ -99,7 +99,7 @@
     "gender": "die",
     "danishDefinite": "udsagnet",
     "danishIndefinite": "et udsagn",
-    "tier": 3
+    "tier": 4
   },
   "communication.rumour": {
     "danish": "rygte",
@@ -108,7 +108,7 @@
     "gender": "das",
     "danishDefinite": "rygtet",
     "danishIndefinite": "et rygte",
-    "tier": 3
+    "tier": 4
   },
   "communication.quarrel": {
     "danish": "skænderi",
@@ -117,7 +117,7 @@
     "gender": "der",
     "danishDefinite": "skænderiet",
     "danishIndefinite": "et skænderi",
-    "tier": 2
+    "tier": 3
   },
   "communication.misunderstanding": {
     "danish": "misforståelse",
@@ -135,7 +135,7 @@
     "gender": "das",
     "danishDefinite": "komplimentet",
     "danishIndefinite": "et kompliment",
-    "tier": 2
+    "tier": 3
   },
   "communication.proposal": {
     "danish": "forslag",
@@ -144,7 +144,7 @@
     "gender": "der",
     "danishDefinite": "forslaget",
     "danishIndefinite": "et forslag",
-    "tier": 2
+    "tier": 3
   },
   "communication.criticism": {
     "danish": "kritik",
@@ -162,7 +162,7 @@
     "gender": "das",
     "danishDefinite": "rosen",
     "danishIndefinite": "en ros",
-    "tier": 3
+    "tier": 4
   },
   "communication.joke": {
     "danish": "vittighed",
@@ -171,7 +171,7 @@
     "gender": "der",
     "danishDefinite": "vittigheden",
     "danishIndefinite": "en vittighed",
-    "tier": 2
+    "tier": 3
   },
   "communication.conversation-partner": {
     "danish": "samtalepartner",
@@ -180,7 +180,7 @@
     "gender": "der",
     "danishDefinite": "samtalepartneren",
     "danishIndefinite": "en samtalepartner",
-    "tier": 3
+    "tier": 4
   },
   "communication.voice-message": {
     "danish": "talebesked",
@@ -198,7 +198,7 @@
     "gender": "der",
     "danishDefinite": "opfordringen",
     "danishIndefinite": "en opfordring",
-    "tier": 3
+    "tier": 4
   },
   "communication.objection": {
     "danish": "indvending",
@@ -207,7 +207,7 @@
     "gender": "der",
     "danishDefinite": "indvendingen",
     "danishIndefinite": "en indvending",
-    "tier": 3
+    "tier": 5
   },
   "communication.expression": {
     "danish": "udtryk",
@@ -225,7 +225,7 @@
     "gender": "die",
     "danishDefinite": "bemærkningen",
     "danishIndefinite": "en bemærkning",
-    "tier": 3
+    "tier": 4
   },
   "communication.agreement": {
     "danish": "enighed",
@@ -234,7 +234,7 @@
     "gender": "die",
     "danishDefinite": "enigheden",
     "danishIndefinite": "en enighed",
-    "tier": 3
+    "tier": 4
   },
   "communication.acceptance": {
     "danish": "tilsagn",
@@ -267,7 +267,7 @@
     "danish": "at indvende",
     "german": "einwenden",
     "english": "to object",
-    "tier": 3
+    "tier": 5
   },
   "communication.exaggerate": {
     "danish": "at overdrive",
@@ -279,43 +279,43 @@
     "danish": "at efterligne",
     "german": "nachahmen",
     "english": "to imitate",
-    "tier": 3
+    "tier": 4
   },
   "communication.betray": {
     "danish": "at forråde",
     "german": "verraten",
     "english": "to betray",
-    "tier": 3
+    "tier": 4
   },
   "communication.gossip": {
     "danish": "at sladre",
     "german": "tratschen",
     "english": "to gossip",
-    "tier": 3
+    "tier": 5
   },
   "communication.whine": {
     "danish": "at brokke sig",
     "german": "jammern",
     "english": "to whine",
-    "tier": 3
+    "tier": 4
   },
   "communication.yell-at": {
     "danish": "at råbe ad",
     "german": "anschreien",
     "english": "to yell at",
-    "tier": 3
+    "tier": 4
   },
   "communication.beg": {
     "danish": "at trygle",
     "german": "anflehen",
     "english": "to beg",
-    "tier": 3
+    "tier": 5
   },
   "communication.mediate": {
     "danish": "at mægle",
     "german": "vermitteln",
     "english": "to mediate",
-    "tier": 3
+    "tier": 4
   },
   "communication.read-aloud": {
     "danish": "at læse højt",
@@ -339,7 +339,7 @@
     "danish": "at tiltale",
     "german": "anreden",
     "english": "to address",
-    "tier": 3
+    "tier": 5
   },
   "communication.forward": {
     "danish": "at videresende",
@@ -357,25 +357,25 @@
     "danish": "at frankere",
     "german": "frankieren",
     "english": "to stamp a letter",
-    "tier": 3
+    "tier": 5
   },
   "communication.address-a-letter": {
     "danish": "at adressere",
     "german": "adressieren",
     "english": "to address a letter",
-    "tier": 3
+    "tier": 4
   },
   "communication.compose": {
     "danish": "at forfatte",
     "german": "verfassen",
     "english": "to compose",
-    "tier": 3
+    "tier": 5
   },
   "communication.deliver": {
     "danish": "at levere post",
     "german": "zustellen",
     "english": "to deliver",
-    "tier": 3
+    "tier": 4
   },
   "communication.colloquial-language": {
     "danish": "dagligsprog",
@@ -384,7 +384,7 @@
     "gender": "die",
     "danishDefinite": "dagligsproget",
     "danishIndefinite": "et dagligsprog",
-    "tier": 3
+    "tier": 4
   },
   "communication.idiom": {
     "danish": "talemåde",
@@ -393,7 +393,7 @@
     "gender": "die",
     "danishDefinite": "talemåden",
     "danishIndefinite": "en talemåde",
-    "tier": 3
+    "tier": 4
   },
   "communication.swear-word": {
     "danish": "skældsord",
@@ -402,7 +402,7 @@
     "gender": "das",
     "danishDefinite": "skældsordet",
     "danishIndefinite": "et skældsord",
-    "tier": 3
+    "tier": 4
   },
   "communication.choice-of-words": {
     "danish": "ordvalg",
@@ -411,7 +411,7 @@
     "gender": "die",
     "danishDefinite": "ordvalget",
     "danishIndefinite": "et ordvalg",
-    "tier": 3
+    "tier": 5
   },
   "communication.tone-of-voice": {
     "danish": "tonefald",
@@ -420,7 +420,7 @@
     "gender": "der",
     "danishDefinite": "tonefaldet",
     "danishIndefinite": "et tonefald",
-    "tier": 3
+    "tier": 5
   },
   "communication.form-of-address": {
     "danish": "tiltale",
@@ -438,7 +438,7 @@
     "gender": "die",
     "danishDefinite": "talen",
     "danishIndefinite": "en tale",
-    "tier": 2
+    "tier": 3
   },
   "communication.lecture": {
     "danish": "foredrag",
@@ -447,7 +447,7 @@
     "gender": "der",
     "danishDefinite": "foredraget",
     "danishIndefinite": "et foredrag",
-    "tier": 2
+    "tier": 3
   },
   "communication.opinion-poll": {
     "danish": "meningsmåling",
@@ -474,7 +474,7 @@
     "gender": "der",
     "danishDefinite": "ønsket",
     "danishIndefinite": "et ønske",
-    "tier": 1
+    "tier": 2
   },
   "communication.congratulation": {
     "danish": "lykønskning",
@@ -492,7 +492,7 @@
     "gender": "das",
     "danishDefinite": "kondolencen",
     "danishIndefinite": "en kondolence",
-    "tier": 3
+    "tier": 4
   },
   "communication.apology": {
     "danish": "undskyldning",
@@ -510,7 +510,7 @@
     "gender": "der",
     "danishDefinite": "påskuddet",
     "danishIndefinite": "et påskud",
-    "tier": 3
+    "tier": 5
   },
   "communication.lie-untruth": {
     "danish": "løgn",
@@ -519,7 +519,7 @@
     "gender": "die",
     "danishDefinite": "løgnen",
     "danishIndefinite": "en løgn",
-    "tier": 2
+    "tier": 3
   },
   "communication.truth": {
     "danish": "sandhed",
@@ -528,7 +528,7 @@
     "gender": "die",
     "danishDefinite": "sandheden",
     "danishIndefinite": "en sandhed",
-    "tier": 2
+    "tier": 3
   },
   "communication.secret": {
     "danish": "hemmelighed",
@@ -537,7 +537,7 @@
     "gender": "das",
     "danishDefinite": "hemmeligheden",
     "danishIndefinite": "en hemmelighed",
-    "tier": 2
+    "tier": 3
   },
   "communication.postal-address": {
     "danish": "postadresse",
@@ -555,7 +555,7 @@
     "gender": "der",
     "danishDefinite": "ekspresbrevet",
     "danishIndefinite": "et ekspresbrev",
-    "tier": 3
+    "tier": 5
   },
   "communication.post-office": {
     "danish": "posthus",
@@ -573,7 +573,7 @@
     "gender": "die",
     "danishDefinite": "postomdelingen",
     "danishIndefinite": "en postomdeling",
-    "tier": 3
+    "tier": 4
   },
   "communication.postmark": {
     "danish": "poststempel",
@@ -582,7 +582,7 @@
     "gender": "der",
     "danishDefinite": "poststemplet",
     "danishIndefinite": "et poststempel",
-    "tier": 3
+    "tier": 5
   },
   "communication.letter-to-the-editor": {
     "danish": "læserbrev",
@@ -591,7 +591,7 @@
     "gender": "der",
     "danishDefinite": "læserbrevet",
     "danishIndefinite": "et læserbrev",
-    "tier": 3
+    "tier": 4
   },
   "communication.circular": {
     "danish": "cirkulære",
@@ -600,7 +600,7 @@
     "gender": "das",
     "danishDefinite": "cirkulæret",
     "danishIndefinite": "et cirkulære",
-    "tier": 3
+    "tier": 5
   },
   "communication.chain-letter": {
     "danish": "kædebrev",
@@ -609,7 +609,7 @@
     "gender": "der",
     "danishDefinite": "kædebrevet",
     "danishIndefinite": "et kædebrev",
-    "tier": 3
+    "tier": 5
   },
   "communication.caller": {
     "danish": "opringer",
@@ -627,6 +627,6 @@
     "gender": "das",
     "danishDefinite": "samtaleemnet",
     "danishIndefinite": "et samtaleemne",
-    "tier": 2
+    "tier": 3
   }
 }

@@ -237,49 +237,49 @@
     "danish": "sjette",
     "german": "sechste",
     "english": "sixth",
-    "tier": 2
+    "tier": 1
   },
   "numbers.seventh": {
     "danish": "syvende",
     "german": "siebte",
     "english": "seventh",
-    "tier": 2
+    "tier": 1
   },
   "numbers.eighth": {
     "danish": "ottende",
     "german": "achte",
     "english": "eighth",
-    "tier": 2
+    "tier": 1
   },
   "numbers.ninth": {
     "danish": "niende",
     "german": "neunte",
     "english": "ninth",
-    "tier": 2
+    "tier": 1
   },
   "numbers.tenth": {
     "danish": "tiende",
     "german": "zehnte",
     "english": "tenth",
-    "tier": 2
+    "tier": 1
   },
   "numbers.eleventh": {
     "danish": "ellevte",
     "german": "elfte",
     "english": "eleventh",
-    "tier": 3
+    "tier": 2
   },
   "numbers.twelfth": {
     "danish": "tolvte",
     "german": "zwölfte",
     "english": "twelfth",
-    "tier": 3
+    "tier": 2
   },
   "numbers.twentieth": {
     "danish": "tyvende",
     "german": "zwanzigste",
     "english": "twentieth",
-    "tier": 3
+    "tier": 2
   },
   "numbers.half": {
     "danish": "halv",
@@ -312,7 +312,7 @@
     "gender": "das",
     "danishDefinite": "tredjedelen",
     "danishIndefinite": "en tredjedel",
-    "tier": 2
+    "tier": 3
   },
   "numbers.tenth-part": {
     "danish": "tiendedel",
@@ -321,7 +321,7 @@
     "gender": "das",
     "danishDefinite": "tiendedelen",
     "danishIndefinite": "en tiendedel",
-    "tier": 3
+    "tier": 4
   },
   "numbers.dozen": {
     "danish": "dusin",
@@ -330,7 +330,7 @@
     "gender": "das",
     "danishDefinite": "dusinet",
     "danishIndefinite": "et dusin",
-    "tier": 2
+    "tier": 3
   },
   "numbers.pair": {
     "danish": "par",
@@ -366,7 +366,7 @@
     "gender": "die",
     "danishDefinite": "cifferet",
     "danishIndefinite": "et ciffer",
-    "tier": 2
+    "tier": 3
   },
   "numbers.sum": {
     "danish": "sum",
@@ -375,7 +375,7 @@
     "gender": "die",
     "danishDefinite": "summen",
     "danishIndefinite": "en sum",
-    "tier": 2
+    "tier": 3
   },
   "numbers.amount": {
     "danish": "mængde",
@@ -384,7 +384,7 @@
     "gender": "die",
     "danishDefinite": "mængden",
     "danishIndefinite": "en mængde",
-    "tier": 2
+    "tier": 3
   },
   "numbers.quantity": {
     "danish": "antal",
@@ -393,7 +393,7 @@
     "gender": "die",
     "danishDefinite": "antallet",
     "danishIndefinite": "et antal",
-    "tier": 2
+    "tier": 3
   },
   "numbers.remainder": {
     "danish": "rest",
@@ -411,7 +411,7 @@
     "gender": "die",
     "danishDefinite": "flertallet",
     "danishIndefinite": "et flertal",
-    "tier": 3
+    "tier": 4
   },
   "numbers.minority": {
     "danish": "mindretal",
@@ -420,7 +420,7 @@
     "gender": "die",
     "danishDefinite": "mindretallet",
     "danishIndefinite": "et mindretal",
-    "tier": 3
+    "tier": 4
   },
   "numbers.double": {
     "danish": "dobbelt",
@@ -471,6 +471,120 @@
     "gender": "der",
     "danishDefinite": "centen",
     "danishIndefinite": "en cent",
-    "tier": 2
+    "tier": 1
+  },
+  "numbers.prozentsatz": {
+    "danish": "procentsats",
+    "german": "Prozentsatz",
+    "english": "percentage",
+    "gender": "der",
+    "danishDefinite": "procentsatsen",
+    "danishIndefinite": "en procentsats",
+    "tier": 4
+  },
+  "numbers.verhaeltnis": {
+    "danish": "forhold",
+    "german": "Verhältnis",
+    "english": "ratio",
+    "gender": "das",
+    "danishDefinite": "forholdet",
+    "danishIndefinite": "et forhold",
+    "tier": 4
+  },
+  "numbers.ungerade": {
+    "danish": "ulige",
+    "german": "ungerade",
+    "english": "odd (number)",
+    "tier": 4
+  },
+  "numbers.zahlreich": {
+    "danish": "talrig",
+    "german": "zahlreich",
+    "english": "numerous",
+    "tier": 4
+  },
+  "numbers.knapp": {
+    "danish": "knap",
+    "german": "knapp",
+    "english": "barely",
+    "tier": 4
+  },
+  "numbers.bruchteil": {
+    "danish": "brøkdel",
+    "german": "Bruchteil",
+    "english": "fraction",
+    "gender": "der",
+    "danishDefinite": "brøkdelen",
+    "danishIndefinite": "en brøkdel",
+    "tier": 5
+  },
+  "numbers.quote": {
+    "danish": "kvote",
+    "german": "Quote",
+    "english": "quota",
+    "gender": "die",
+    "danishDefinite": "kvoten",
+    "danishIndefinite": "en kvote",
+    "tier": 5
+  },
+  "numbers.hoechstwert": {
+    "danish": "maksimum",
+    "german": "Höchstwert",
+    "english": "maximum value",
+    "gender": "der",
+    "danishDefinite": "maksimummet",
+    "danishIndefinite": "et maksimum",
+    "tier": 5
+  },
+  "numbers.minimum": {
+    "danish": "minimum",
+    "german": "Minimum",
+    "english": "minimum",
+    "gender": "das",
+    "danishDefinite": "minimummet",
+    "danishIndefinite": "et minimum",
+    "tier": 5
+  },
+  "numbers.ueberschuss": {
+    "danish": "overskud",
+    "german": "Überschuss",
+    "english": "surplus",
+    "gender": "der",
+    "danishDefinite": "overskuddet",
+    "danishIndefinite": "et overskud",
+    "tier": 5
+  },
+  "numbers.gesamtheit": {
+    "danish": "helhed",
+    "german": "Gesamtheit",
+    "english": "totality",
+    "gender": "die",
+    "danishDefinite": "helheden",
+    "danishIndefinite": "en helhed",
+    "tier": 5
+  },
+  "numbers.mittelwert": {
+    "danish": "middelværdi",
+    "german": "Mittelwert",
+    "english": "mean value",
+    "gender": "der",
+    "danishDefinite": "middelværdien",
+    "danishIndefinite": "en middelværdi",
+    "tier": 5
+  },
+  "numbers.ueberzahl": {
+    "danish": "overtal",
+    "german": "Überzahl",
+    "english": "numerical superiority",
+    "gender": "die",
+    "danishDefinite": "overtallet",
+    "danishIndefinite": "et overtal",
+    "tier": 5
+  },
+  "numbers.dreifach": {
+    "danish": "tredobbelt",
+    "german": "dreifach",
+    "english": "threefold",
+    "tier": 5
   }
 }

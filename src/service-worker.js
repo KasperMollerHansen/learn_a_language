@@ -1,4 +1,4 @@
-const CACHE_NAME = "wortlauf-v0.0.29";
+const CACHE_NAME = "wortlauf-v0.0.30";
 const APP_FILES = [
   "./", "./index.html", "./manifest.webmanifest", "./icon.svg", "./config.json",
   "./wordbank/adjectives.json",
@@ -39,6 +39,7 @@ const APP_FILES = [
   "./wordbank/restaurant.json",
   "./wordbank/science.json",
   "./wordbank/sentence-builder.json",
+  "./wordbank/sentences.json",
   "./wordbank/shopping.json",
   "./wordbank/society.json",
   "./wordbank/spelling.json",
@@ -54,6 +55,8 @@ const APP_FILES = [
   "./levels/chapter-1.json",
   "./levels/chapter-2.json",
   "./levels/chapter-3.json",
+  "./levels/chapter-4.json",
+  "./levels/chapter-5.json",
   "./levels/index.json"
 ];
 

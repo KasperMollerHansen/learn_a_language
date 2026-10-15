@@ -6,7 +6,7 @@
     "gender": "der",
     "danishDefinite": "racketen",
     "danishIndefinite": "en racket",
-    "tier": 3
+    "tier": 4
   },
   "sport.goal": {
     "danish": "mål",
@@ -24,7 +24,7 @@
     "gender": "das",
     "danishDefinite": "stadionet",
     "danishIndefinite": "et stadion",
-    "tier": 2
+    "tier": 3
   },
   "sport.track": {
     "danish": "bane",
@@ -33,7 +33,7 @@
     "gender": "die",
     "danishDefinite": "banen",
     "danishIndefinite": "en bane",
-    "tier": 3
+    "tier": 4
   },
   "sport.player": {
     "danish": "spiller",
@@ -114,7 +114,7 @@
     "gender": "das",
     "danishDefinite": "badmintonen",
     "danishIndefinite": "en badminton",
-    "tier": 2
+    "tier": 3
   },
   "sport.table-tennis": {
     "danish": "bordtennis",
@@ -141,7 +141,7 @@
     "gender": "das",
     "danishDefinite": "ishockeyen",
     "danishIndefinite": "en ishockey",
-    "tier": 3
+    "tier": 4
   },
   "sport.rugby": {
     "danish": "rugby",
@@ -150,7 +150,7 @@
     "gender": "das",
     "danishDefinite": "rugbyen",
     "danishIndefinite": "en rugby",
-    "tier": 3
+    "tier": 4
   },
   "sport.swimming": {
     "danish": "svømning",
@@ -168,7 +168,7 @@
     "gender": "die",
     "danishDefinite": "atletikken",
     "danishIndefinite": "en atletik",
-    "tier": 3
+    "tier": 4
   },
   "sport.gymnastics": {
     "danish": "gymnastik",
@@ -177,7 +177,7 @@
     "gender": "die",
     "danishDefinite": "gymnastikken",
     "danishIndefinite": "en gymnastik",
-    "tier": 2
+    "tier": 3
   },
   "sport.boxing": {
     "danish": "boksning",
@@ -186,7 +186,7 @@
     "gender": "das",
     "danishDefinite": "boksningen",
     "danishIndefinite": "en boksning",
-    "tier": 3
+    "tier": 4
   },
   "sport.martial-arts": {
     "danish": "kampsport",
@@ -195,7 +195,7 @@
     "gender": "der",
     "danishDefinite": "kampsporten",
     "danishIndefinite": "en kampsport",
-    "tier": 3
+    "tier": 4
   },
   "sport.judo": {
     "danish": "judo",
@@ -204,7 +204,7 @@
     "gender": "das",
     "danishDefinite": "judoen",
     "danishIndefinite": "en judo",
-    "tier": 3
+    "tier": 4
   },
   "sport.horse-riding": {
     "danish": "ridning",
@@ -240,7 +240,7 @@
     "gender": "der",
     "danishDefinite": "skøjten",
     "danishIndefinite": "en skøjte",
-    "tier": 3
+    "tier": 4
   },
   "sport.diving": {
     "danish": "dykning",
@@ -267,7 +267,7 @@
     "gender": "das",
     "danishDefinite": "bjergbestigningen",
     "danishIndefinite": "en bjergbestigning",
-    "tier": 3
+    "tier": 4
   },
   "sport.yoga": {
     "danish": "yoga",
@@ -294,7 +294,7 @@
     "gender": "das",
     "danishDefinite": "styrketræningen",
     "danishIndefinite": "en styrketræning",
-    "tier": 3
+    "tier": 4
   },
   "sport.training": {
     "danish": "træning",
@@ -321,7 +321,7 @@
     "gender": "das",
     "danishDefinite": "turneringen",
     "danishIndefinite": "en turnering",
-    "tier": 3
+    "tier": 4
   },
   "sport.championship": {
     "danish": "mesterskab",
@@ -339,7 +339,7 @@
     "gender": "der",
     "danishDefinite": "mesteren",
     "danishIndefinite": "en mester",
-    "tier": 2
+    "tier": 3
   },
   "sport.winner": {
     "danish": "vinder",
@@ -348,7 +348,7 @@
     "gender": "der",
     "danishDefinite": "vinderen",
     "danishIndefinite": "en vinder",
-    "tier": 2
+    "tier": 3
   },
   "sport.victory": {
     "danish": "sejr",
@@ -357,7 +357,7 @@
     "gender": "der",
     "danishDefinite": "sejren",
     "danishIndefinite": "en sejr",
-    "tier": 2
+    "tier": 3
   },
   "sport.defeat": {
     "danish": "nederlag",
@@ -366,7 +366,7 @@
     "gender": "die",
     "danishDefinite": "nederlaget",
     "danishIndefinite": "et nederlag",
-    "tier": 2
+    "tier": 3
   },
   "sport.record": {
     "danish": "rekord",
@@ -375,7 +375,7 @@
     "gender": "der",
     "danishDefinite": "rekorden",
     "danishIndefinite": "en rekord",
-    "tier": 2
+    "tier": 3
   },
   "sport.medal": {
     "danish": "medalje",
@@ -384,7 +384,7 @@
     "gender": "die",
     "danishDefinite": "medaljen",
     "danishIndefinite": "en medalje",
-    "tier": 2
+    "tier": 3
   },
   "sport.trophy": {
     "danish": "pokal",
@@ -393,7 +393,7 @@
     "gender": "der",
     "danishDefinite": "pokalen",
     "danishIndefinite": "en pokal",
-    "tier": 3
+    "tier": 4
   },
   "sport.referee": {
     "danish": "dommer",
@@ -402,7 +402,7 @@
     "gender": "der",
     "danishDefinite": "dommeren",
     "danishIndefinite": "en dommer",
-    "tier": 2
+    "tier": 3
   },
   "sport.fan": {
     "danish": "fan",
@@ -420,7 +420,7 @@
     "gender": "der",
     "danishDefinite": "målmanden",
     "danishIndefinite": "en målmand",
-    "tier": 2
+    "tier": 3
   },
   "sport.striker": {
     "danish": "angriber",
@@ -429,7 +429,7 @@
     "gender": "der",
     "danishDefinite": "angriberen",
     "danishIndefinite": "en angriber",
-    "tier": 3
+    "tier": 4
   },
   "sport.defender": {
     "danish": "forsvarsspiller",
@@ -438,7 +438,7 @@
     "gender": "der",
     "danishDefinite": "forsvarsspilleren",
     "danishIndefinite": "en forsvarsspiller",
-    "tier": 3
+    "tier": 4
   },
   "sport.attack": {
     "danish": "angreb",
@@ -447,7 +447,7 @@
     "gender": "der",
     "danishDefinite": "angrebet",
     "danishIndefinite": "et angreb",
-    "tier": 3
+    "tier": 4
   },
   "sport.defence": {
     "danish": "forsvar",
@@ -456,7 +456,7 @@
     "gender": "die",
     "danishDefinite": "forsvaret",
     "danishIndefinite": "et forsvar",
-    "tier": 3
+    "tier": 4
   },
   "sport.penalty-kick": {
     "danish": "straffespark",
@@ -465,7 +465,7 @@
     "gender": "der",
     "danishDefinite": "straffesparket",
     "danishIndefinite": "et straffespark",
-    "tier": 3
+    "tier": 4
   },
   "sport.free-kick": {
     "danish": "frispark",
@@ -474,7 +474,7 @@
     "gender": "der",
     "danishDefinite": "frisparket",
     "danishIndefinite": "et frispark",
-    "tier": 3
+    "tier": 4
   },
   "sport.corner-kick": {
     "danish": "hjørnespark",
@@ -483,7 +483,7 @@
     "gender": "der",
     "danishDefinite": "hjørnesparket",
     "danishIndefinite": "et hjørnespark",
-    "tier": 3
+    "tier": 5
   },
   "sport.half": {
     "danish": "halvleg",
@@ -492,7 +492,7 @@
     "gender": "die",
     "danishDefinite": "halvlegen",
     "danishIndefinite": "en halvleg",
-    "tier": 3
+    "tier": 4
   },
   "sport.football-match": {
     "danish": "fodboldkamp",
@@ -528,7 +528,7 @@
     "gender": "der",
     "danishDefinite": "målscoreren",
     "danishIndefinite": "en målscorer",
-    "tier": 3
+    "tier": 5
   },
   "sport.sports-hall": {
     "danish": "idrætshal",
@@ -546,7 +546,7 @@
     "gender": "die",
     "danishDefinite": "svømmehalen",
     "danishIndefinite": "en svømmehal",
-    "tier": 2
+    "tier": 3
   },
   "sport.swimming-pool": {
     "danish": "svømmebassin",
@@ -555,7 +555,7 @@
     "gender": "das",
     "danishDefinite": "svømmebassinet",
     "danishIndefinite": "et svømmebassin",
-    "tier": 3
+    "tier": 4
   },
   "sport.changing-room": {
     "danish": "omklædningsrum",
@@ -564,7 +564,7 @@
     "gender": "die",
     "danishDefinite": "omklædningsrummet",
     "danishIndefinite": "et omklædningsrum",
-    "tier": 3
+    "tier": 4
   },
   "sport.gym": {
     "danish": "fitnesscenter",
@@ -600,7 +600,7 @@
     "gender": "der",
     "danishDefinite": "atleten",
     "danishIndefinite": "en atlet",
-    "tier": 3
+    "tier": 4
   },
   "sport.swimmer": {
     "danish": "svømmer",
@@ -618,7 +618,7 @@
     "gender": "der",
     "danishDefinite": "løberen",
     "danishIndefinite": "en løber",
-    "tier": 2
+    "tier": 3
   },
   "sport.cyclist": {
     "danish": "cyklist",
@@ -627,7 +627,7 @@
     "gender": "der",
     "danishDefinite": "cyklisten",
     "danishIndefinite": "en cyklist",
-    "tier": 2
+    "tier": 3
   },
   "sport.skier": {
     "danish": "skiløber",
@@ -636,7 +636,7 @@
     "gender": "der",
     "danishDefinite": "skiløberen",
     "danishIndefinite": "en skiløber",
-    "tier": 3
+    "tier": 4
   },
   "sport.marathon": {
     "danish": "maraton",
@@ -645,7 +645,7 @@
     "gender": "der",
     "danishDefinite": "maratonen",
     "danishIndefinite": "en maraton",
-    "tier": 3
+    "tier": 4
   },
   "sport.sprint": {
     "danish": "sprint",
@@ -654,7 +654,7 @@
     "gender": "der",
     "danishDefinite": "sprinten",
     "danishIndefinite": "en sprint",
-    "tier": 3
+    "tier": 4
   },
   "sport.relay": {
     "danish": "stafet",
@@ -663,7 +663,7 @@
     "gender": "die",
     "danishDefinite": "stafeten",
     "danishIndefinite": "en stafet",
-    "tier": 3
+    "tier": 5
   },
   "sport.world-cup": {
     "danish": "VM",
@@ -681,7 +681,7 @@
     "gender": "die",
     "danishDefinite": "EM'et",
     "danishIndefinite": "et EM",
-    "tier": 3
+    "tier": 4
   },
   "sport.warm-up": {
     "danish": "opvarmning",
@@ -690,7 +690,7 @@
     "gender": "das",
     "danishDefinite": "opvarmningen",
     "danishIndefinite": "en opvarmning",
-    "tier": 3
+    "tier": 4
   },
   "sport.fitness-level": {
     "danish": "kondition",
@@ -699,7 +699,7 @@
     "gender": "die",
     "danishDefinite": "konditionen",
     "danishIndefinite": "en kondition",
-    "tier": 3
+    "tier": 4
   },
   "sport.endurance": {
     "danish": "udholdenhed",
@@ -708,7 +708,7 @@
     "gender": "die",
     "danishDefinite": "udholdenheden",
     "danishIndefinite": "en udholdenhed",
-    "tier": 3
+    "tier": 4
   },
   "sport.muscle": {
     "danish": "muskel",
@@ -717,7 +717,7 @@
     "gender": "der",
     "danishDefinite": "musklen",
     "danishIndefinite": "en muskel",
-    "tier": 2
+    "tier": 3
   },
   "sport.injury": {
     "danish": "skade",
@@ -726,7 +726,7 @@
     "gender": "die",
     "danishDefinite": "skaden",
     "danishIndefinite": "en skade",
-    "tier": 2
+    "tier": 3
   },
   "sport.sports-equipment": {
     "danish": "sportsudstyr",
@@ -735,7 +735,7 @@
     "gender": "die",
     "danishDefinite": "sportsudstyret",
     "danishIndefinite": "et sportsudstyr",
-    "tier": 3
+    "tier": 4
   },
   "sport.helmet": {
     "danish": "hjelm",
@@ -744,7 +744,7 @@
     "gender": "der",
     "danishDefinite": "hjelmen",
     "danishIndefinite": "en hjelm",
-    "tier": 2
+    "tier": 3
   },
   "sport.swimming-goggles": {
     "danish": "svømmebriller",
@@ -753,7 +753,7 @@
     "gender": "die",
     "danishDefinite": "svømmebrillerne",
     "danishIndefinite": "et par svømmebriller",
-    "tier": 3
+    "tier": 4
   },
   "sport.sportswear": {
     "danish": "sportstøj",
@@ -762,7 +762,7 @@
     "gender": "die",
     "danishDefinite": "sportstøjet",
     "danishIndefinite": "et sportstøj",
-    "tier": 3
+    "tier": 4
   },
   "sport.football-boot": {
     "danish": "fodboldstøvle",
@@ -771,7 +771,7 @@
     "gender": "der",
     "danishDefinite": "fodboldstøvlen",
     "danishIndefinite": "en fodboldstøvle",
-    "tier": 3
+    "tier": 4
   },
   "sport.treadmill": {
     "danish": "løbebånd",
@@ -780,7 +780,7 @@
     "gender": "das",
     "danishDefinite": "løbebåndet",
     "danishIndefinite": "et løbebånd",
-    "tier": 3
+    "tier": 4
   },
   "sport.dumbbell": {
     "danish": "håndvægt",
@@ -789,7 +789,7 @@
     "gender": "die",
     "danishDefinite": "håndvægten",
     "danishIndefinite": "en håndvægt",
-    "tier": 3
+    "tier": 5
   },
   "sport.skateboard": {
     "danish": "skateboard",
@@ -798,7 +798,7 @@
     "gender": "das",
     "danishDefinite": "skateboardet",
     "danishIndefinite": "et skateboard",
-    "tier": 3
+    "tier": 4
   },
   "sport.snowboard": {
     "danish": "snowboard",
@@ -807,7 +807,7 @@
     "gender": "das",
     "danishDefinite": "snowboardet",
     "danishIndefinite": "et snowboard",
-    "tier": 3
+    "tier": 4
   },
   "sport.archery": {
     "danish": "bueskydning",
@@ -816,7 +816,7 @@
     "gender": "das",
     "danishDefinite": "bueskydningen",
     "danishIndefinite": "en bueskydning",
-    "tier": 3
+    "tier": 5
   },
   "sport.fencing": {
     "danish": "fægtning",
@@ -825,7 +825,7 @@
     "gender": "das",
     "danishDefinite": "fægtningen",
     "danishIndefinite": "en fægtning",
-    "tier": 3
+    "tier": 5
   },
   "sport.rowing": {
     "danish": "roning",
@@ -834,7 +834,7 @@
     "gender": "das",
     "danishDefinite": "roningen",
     "danishIndefinite": "en roning",
-    "tier": 3
+    "tier": 4
   },
   "sport.kayak": {
     "danish": "kajak",
@@ -843,7 +843,7 @@
     "gender": "der",
     "danishDefinite": "kajaken",
     "danishIndefinite": "en kajak",
-    "tier": 3
+    "tier": 4
   },
   "sport.triathlon": {
     "danish": "triatlon",
@@ -852,7 +852,7 @@
     "gender": "der",
     "danishDefinite": "triatlonen",
     "danishIndefinite": "en triatlon",
-    "tier": 3
+    "tier": 4
   },
   "sport.high-jump": {
     "danish": "højdespring",
@@ -861,7 +861,7 @@
     "gender": "der",
     "danishDefinite": "højdespringet",
     "danishIndefinite": "et højdespring",
-    "tier": 3
+    "tier": 4
   },
   "sport.long-jump": {
     "danish": "længdespring",
@@ -870,7 +870,7 @@
     "gender": "der",
     "danishDefinite": "længdespringet",
     "danishIndefinite": "et længdespring",
-    "tier": 3
+    "tier": 4
   },
   "sport.shot-put": {
     "danish": "kuglestød",
@@ -879,7 +879,7 @@
     "gender": "das",
     "danishDefinite": "kuglestødet",
     "danishIndefinite": "et kuglestød",
-    "tier": 3
+    "tier": 5
   },
   "sport.hike": {
     "danish": "vandretur",
@@ -923,23 +923,17 @@
     "english": "to swim",
     "tier": 1
   },
-  "sport.to-cycle": {
-    "danish": "at cykle",
-    "german": "Rad fahren",
-    "english": "to cycle",
-    "tier": 1
-  },
   "sport.to-throw": {
     "danish": "at kaste",
     "german": "werfen",
     "english": "to throw",
-    "tier": 2
+    "tier": 3
   },
   "sport.to-shoot": {
     "danish": "at skyde",
     "german": "schießen",
     "english": "to shoot",
-    "tier": 2
+    "tier": 3
   },
   "sport.to-sail": {
     "danish": "at sejle",
@@ -963,7 +957,7 @@
     "danish": "at dykke",
     "german": "tauchen",
     "english": "to dive",
-    "tier": 2
+    "tier": 3
   },
   "sport.to-hike": {
     "danish": "at vandre",
@@ -981,36 +975,60 @@
     "danish": "at løfte",
     "german": "heben",
     "english": "to lift",
-    "tier": 2
+    "tier": 3
   },
   "sport.to-cheer-on": {
     "danish": "at heppe",
     "german": "anfeuern",
     "english": "to cheer on",
-    "tier": 3
+    "tier": 4
   },
   "sport.to-dribble": {
     "danish": "at drible",
     "german": "dribbeln",
     "english": "to dribble",
-    "tier": 3
+    "tier": 5
   },
   "sport.to-stretch": {
     "danish": "at strække ud",
     "german": "dehnen",
     "english": "to stretch",
-    "tier": 3
+    "tier": 4
   },
   "sport.to-warm-up": {
     "danish": "at varme op",
     "german": "aufwärmen",
     "english": "to warm up",
-    "tier": 3
+    "tier": 4
   },
   "sport.to-score": {
     "danish": "at score",
     "german": "ein Tor erzielen",
     "english": "to score",
-    "tier": 3
+    "tier": 4
+  },
+  "sport.to-jog": {
+    "danish": "at jogge",
+    "german": "joggen",
+    "english": "to jog",
+    "tier": 1
+  },
+  "sport.sneaker": {
+    "danish": "gymnastiksko",
+    "german": "Turnschuh",
+    "english": "sneaker",
+    "gender": "der",
+    "danishDefinite": "gymnastikskoen",
+    "danishIndefinite": "en gymnastiksko",
+    "tier": 1
+  },
+  "sport.sled": {
+    "danish": "kælk",
+    "german": "Schlitten",
+    "english": "sled",
+    "gender": "der",
+    "danishDefinite": "kælken",
+    "danishIndefinite": "en kælk",
+    "tier": 1
   }
 }

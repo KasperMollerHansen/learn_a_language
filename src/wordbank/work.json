@@ -6,7 +6,7 @@
     "gender": "das",
     "danishDefinite": "lønnen",
     "danishIndefinite": "en løn",
-    "tier": 2
+    "tier": 3
   },
   "work.meeting": {
     "danish": "møde",
@@ -24,7 +24,7 @@
     "gender": "der",
     "danishDefinite": "kontrakten",
     "danishIndefinite": "en kontrakt",
-    "tier": 2
+    "tier": 3
   },
   "work.report": {
     "danish": "rapport",
@@ -33,7 +33,7 @@
     "gender": "der",
     "danishDefinite": "rapporten",
     "danishIndefinite": "en rapport",
-    "tier": 2
+    "tier": 3
   },
   "work.schedule": {
     "danish": "plan",
@@ -42,7 +42,7 @@
     "gender": "der",
     "danishDefinite": "planen",
     "danishIndefinite": "en plan",
-    "tier": 3
+    "tier": 4
   },
   "work.holiday": {
     "danish": "ferie",
@@ -60,7 +60,7 @@
     "gender": "die",
     "danishDefinite": "færdigheden",
     "danishIndefinite": "en færdighed",
-    "tier": 3
+    "tier": 5
   },
   "work.task": {
     "danish": "opgave",
@@ -105,7 +105,7 @@
     "gender": "die",
     "danishDefinite": "karrieren",
     "danishIndefinite": "en karriere",
-    "tier": 2
+    "tier": 3
   },
   "work.profession": {
     "danish": "erhverv",
@@ -123,7 +123,7 @@
     "gender": "die",
     "danishDefinite": "ansøgningen",
     "danishIndefinite": "en ansøgning",
-    "tier": 2
+    "tier": 3
   },
   "work.applicant": {
     "danish": "ansøger",
@@ -132,7 +132,7 @@
     "gender": "der",
     "danishDefinite": "ansøgeren",
     "danishIndefinite": "en ansøger",
-    "tier": 2
+    "tier": 3
   },
   "work.job-interview": {
     "danish": "jobsamtale",
@@ -150,7 +150,7 @@
     "gender": "der",
     "danishDefinite": "cv'et",
     "danishIndefinite": "et cv",
-    "tier": 2
+    "tier": 3
   },
   "work.workplace": {
     "danish": "arbejdsplads",
@@ -195,7 +195,7 @@
     "gender": "die",
     "danishDefinite": "deadlinen",
     "danishIndefinite": "en deadline",
-    "tier": 3
+    "tier": 4
   },
   "work.project": {
     "danish": "projekt",
@@ -222,7 +222,7 @@
     "gender": "die",
     "danishDefinite": "afdelingen",
     "danishIndefinite": "en afdeling",
-    "tier": 2
+    "tier": 3
   },
   "work.company": {
     "danish": "firma",
@@ -240,7 +240,7 @@
     "gender": "das",
     "danishDefinite": "virksomheden",
     "danishIndefinite": "en virksomhed",
-    "tier": 2
+    "tier": 3
   },
   "work.factory": {
     "danish": "fabrik",
@@ -258,7 +258,7 @@
     "gender": "der",
     "danishDefinite": "leverandøren",
     "danishIndefinite": "en leverandør",
-    "tier": 3
+    "tier": 4
   },
   "work.order": {
     "danish": "ordre",
@@ -267,7 +267,7 @@
     "gender": "der",
     "danishDefinite": "ordren",
     "danishIndefinite": "en ordre",
-    "tier": 3
+    "tier": 4
   },
   "work.pay-rise": {
     "danish": "lønforhøjelse",
@@ -276,7 +276,7 @@
     "gender": "die",
     "danishDefinite": "lønforhøjelsen",
     "danishIndefinite": "en lønforhøjelse",
-    "tier": 2
+    "tier": 3
   },
   "work.promotion": {
     "danish": "forfremmelse",
@@ -285,7 +285,7 @@
     "gender": "die",
     "danishDefinite": "forfremmelsen",
     "danishIndefinite": "en forfremmelse",
-    "tier": 2
+    "tier": 3
   },
   "work.unemployment": {
     "danish": "arbejdsløshed",
@@ -294,7 +294,7 @@
     "gender": "die",
     "danishDefinite": "arbejdsløsheden",
     "danishIndefinite": "en arbejdsløshed",
-    "tier": 3
+    "tier": 4
   },
   "work.retirement-pension": {
     "danish": "pension",
@@ -312,7 +312,7 @@
     "gender": "die",
     "danishDefinite": "fagforeningen",
     "danishIndefinite": "en fagforening",
-    "tier": 2
+    "tier": 3
   },
   "work.strike": {
     "danish": "strejke",
@@ -321,7 +321,7 @@
     "gender": "der",
     "danishDefinite": "strejken",
     "danishIndefinite": "en strejke",
-    "tier": 2
+    "tier": 3
   },
   "work.internship": {
     "danish": "praktikophold",
@@ -348,7 +348,7 @@
     "gender": "die",
     "danishDefinite": "erfaringen",
     "danishIndefinite": "en erfaring",
-    "tier": 2
+    "tier": 3
   },
   "work.qualification": {
     "danish": "kvalifikation",
@@ -357,7 +357,7 @@
     "gender": "die",
     "danishDefinite": "kvalifikationen",
     "danishIndefinite": "en kvalifikation",
-    "tier": 2
+    "tier": 3
   },
   "work.hourly-wage": {
     "danish": "timeløn",
@@ -366,7 +366,7 @@
     "gender": "der",
     "danishDefinite": "timelønnen",
     "danishIndefinite": "en timeløn",
-    "tier": 3
+    "tier": 4
   },
   "work.bonus": {
     "danish": "bonus",
@@ -375,7 +375,7 @@
     "gender": "der",
     "danishDefinite": "bonussen",
     "danishIndefinite": "en bonus",
-    "tier": 2
+    "tier": 3
   },
   "work.tool": {
     "danish": "værktøj",
@@ -384,7 +384,7 @@
     "gender": "das",
     "danishDefinite": "værktøjet",
     "danishIndefinite": "et værktøj",
-    "tier": 2
+    "tier": 3
   },
   "work.machine": {
     "danish": "maskine",
@@ -402,7 +402,7 @@
     "gender": "die",
     "danishDefinite": "udstyret",
     "danishIndefinite": "et udstyr",
-    "tier": 3
+    "tier": 4
   },
   "work.building-site": {
     "danish": "byggeplads",
@@ -411,7 +411,7 @@
     "gender": "die",
     "danishDefinite": "byggepladsen",
     "danishIndefinite": "en byggeplads",
-    "tier": 2
+    "tier": 3
   },
   "work.craftsman": {
     "danish": "håndværker",
@@ -420,7 +420,7 @@
     "gender": "der",
     "danishDefinite": "håndværkeren",
     "danishIndefinite": "en håndværker",
-    "tier": 2
+    "tier": 3
   },
   "work.craft": {
     "danish": "håndværk",
@@ -429,7 +429,7 @@
     "gender": "das",
     "danishDefinite": "håndværket",
     "danishIndefinite": "et håndværk",
-    "tier": 3
+    "tier": 4
   },
   "work.bookkeeper": {
     "danish": "bogholder",
@@ -438,7 +438,7 @@
     "gender": "der",
     "danishDefinite": "bogholderen",
     "danishIndefinite": "en bogholder",
-    "tier": 2
+    "tier": 3
   },
   "work.farmer": {
     "danish": "landmand",
@@ -447,7 +447,7 @@
     "gender": "der",
     "danishDefinite": "landmanden",
     "danishIndefinite": "en landmand",
-    "tier": 2
+    "tier": 3
   },
   "work.joiner": {
     "danish": "snedker",
@@ -456,7 +456,7 @@
     "gender": "der",
     "danishDefinite": "snedkeren",
     "danishIndefinite": "en snedker",
-    "tier": 2
+    "tier": 3
   },
   "work.programmer": {
     "danish": "programmør",
@@ -474,7 +474,7 @@
     "gender": "der",
     "danishDefinite": "konsulenten",
     "danishIndefinite": "en konsulent",
-    "tier": 2
+    "tier": 3
   },
   "work.entrepreneur": {
     "danish": "iværksætter",
@@ -483,7 +483,7 @@
     "gender": "der",
     "danishDefinite": "iværksætteren",
     "danishIndefinite": "en iværksætter",
-    "tier": 3
+    "tier": 4
   },
   "work.work-shift": {
     "danish": "arbejdsskift",
@@ -492,7 +492,7 @@
     "gender": "die",
     "danishDefinite": "arbejdsskiftet",
     "danishIndefinite": "et arbejdsskift",
-    "tier": 3
+    "tier": 4
   },
   "work.job-advertisement": {
     "danish": "jobopslag",
@@ -510,7 +510,7 @@
     "gender": "die",
     "danishDefinite": "opsigelsen",
     "danishIndefinite": "en opsigelse",
-    "tier": 2
+    "tier": 3
   },
   "work.agenda": {
     "danish": "dagsorden",
@@ -519,7 +519,7 @@
     "gender": "die",
     "danishDefinite": "dagsordenen",
     "danishIndefinite": "en dagsorden",
-    "tier": 3
+    "tier": 4
   },
   "work.minutes": {
     "danish": "referat",
@@ -528,7 +528,7 @@
     "gender": "das",
     "danishDefinite": "referatet",
     "danishIndefinite": "et referat",
-    "tier": 3
+    "tier": 4
   },
   "work.presentation": {
     "danish": "præsentation",
@@ -537,7 +537,7 @@
     "gender": "die",
     "danishDefinite": "præsentationen",
     "danishIndefinite": "en præsentation",
-    "tier": 2
+    "tier": 3
   },
   "work.conference": {
     "danish": "konference",
@@ -546,7 +546,7 @@
     "gender": "die",
     "danishDefinite": "konferencen",
     "danishIndefinite": "en konference",
-    "tier": 2
+    "tier": 3
   },
   "work.business-trip": {
     "danish": "forretningsrejse",
@@ -564,7 +564,7 @@
     "gender": "der",
     "danishDefinite": "handelen",
     "danishIndefinite": "en handel",
-    "tier": 3
+    "tier": 4
   },
   "work.industry": {
     "danish": "industri",
@@ -573,7 +573,7 @@
     "gender": "die",
     "danishDefinite": "industrien",
     "danishIndefinite": "en industri",
-    "tier": 2
+    "tier": 3
   },
   "work.service": {
     "danish": "tjenesteydelse",
@@ -582,7 +582,7 @@
     "gender": "die",
     "danishDefinite": "tjenesteydelsen",
     "danishIndefinite": "en tjenesteydelse",
-    "tier": 3
+    "tier": 4
   },
   "work.production": {
     "danish": "produktion",
@@ -591,7 +591,7 @@
     "gender": "die",
     "danishDefinite": "produktionen",
     "danishIndefinite": "en produktion",
-    "tier": 3
+    "tier": 4
   },
   "work.quality": {
     "danish": "kvalitet",
@@ -600,7 +600,7 @@
     "gender": "die",
     "danishDefinite": "kvaliteten",
     "danishIndefinite": "en kvalitet",
-    "tier": 2
+    "tier": 3
   },
   "work.customer-service": {
     "danish": "kundeservice",
@@ -609,7 +609,7 @@
     "gender": "der",
     "danishDefinite": "kundeservicen",
     "danishIndefinite": "en kundeservice",
-    "tier": 3
+    "tier": 4
   },
   "work.staff": {
     "danish": "personale",
@@ -618,7 +618,7 @@
     "gender": "das",
     "danishDefinite": "personalet",
     "danishIndefinite": "et personale",
-    "tier": 2
+    "tier": 3
   },
   "work.headquarters": {
     "danish": "hovedkontor",
@@ -627,7 +627,7 @@
     "gender": "die",
     "danishDefinite": "hovedkontoret",
     "danishIndefinite": "et hovedkontor",
-    "tier": 2
+    "tier": 3
   },
   "work.branch": {
     "danish": "filial",
@@ -636,7 +636,7 @@
     "gender": "die",
     "danishDefinite": "filialen",
     "danishIndefinite": "en filial",
-    "tier": 3
+    "tier": 4
   },
   "work.management": {
     "danish": "ledelse",
@@ -645,7 +645,7 @@
     "gender": "die",
     "danishDefinite": "ledelsen",
     "danishIndefinite": "en ledelse",
-    "tier": 2
+    "tier": 3
   },
   "work.result": {
     "danish": "resultat",
@@ -654,7 +654,7 @@
     "gender": "das",
     "danishDefinite": "resultatet",
     "danishIndefinite": "et resultat",
-    "tier": 2
+    "tier": 3
   },
   "work.success": {
     "danish": "succes",
@@ -663,7 +663,7 @@
     "gender": "der",
     "danishDefinite": "succesen",
     "danishIndefinite": "en succes",
-    "tier": 2
+    "tier": 3
   },
   "work.solution": {
     "danish": "løsning",
@@ -681,7 +681,7 @@
     "gender": "die",
     "danishDefinite": "beslutningen",
     "danishIndefinite": "en beslutning",
-    "tier": 2
+    "tier": 3
   },
   "work.responsibility": {
     "danish": "ansvar",
@@ -690,7 +690,7 @@
     "gender": "die",
     "danishDefinite": "ansvaret",
     "danishIndefinite": "et ansvar",
-    "tier": 2
+    "tier": 3
   },
   "work.payslip": {
     "danish": "lønseddel",
@@ -699,7 +699,7 @@
     "gender": "die",
     "danishDefinite": "lønsedlen",
     "danishIndefinite": "en lønseddel",
-    "tier": 3
+    "tier": 5
   },
   "work.sick-note": {
     "danish": "sygemelding",
@@ -708,7 +708,7 @@
     "gender": "die",
     "danishDefinite": "sygemeldingen",
     "danishIndefinite": "en sygemelding",
-    "tier": 3
+    "tier": 4
   },
   "work.parental-leave": {
     "danish": "barsel",
@@ -717,7 +717,7 @@
     "gender": "die",
     "danishDefinite": "barslen",
     "danishIndefinite": "en barsel",
-    "tier": 3
+    "tier": 4
   },
   "work.commuter": {
     "danish": "pendler",
@@ -726,7 +726,7 @@
     "gender": "der",
     "danishDefinite": "pendleren",
     "danishIndefinite": "en pendler",
-    "tier": 3
+    "tier": 4
   },
   "work.meeting-room": {
     "danish": "mødelokale",
@@ -735,7 +735,7 @@
     "gender": "der",
     "danishDefinite": "mødelokalet",
     "danishIndefinite": "et mødelokale",
-    "tier": 3
+    "tier": 4
   },
   "work.desk": {
     "danish": "skrivebord",
@@ -753,7 +753,7 @@
     "gender": "der",
     "danishDefinite": "kontorstolen",
     "danishIndefinite": "en kontorstol",
-    "tier": 3
+    "tier": 4
   },
   "work.stapler": {
     "danish": "hæftemaskine",
@@ -762,7 +762,7 @@
     "gender": "der",
     "danishDefinite": "hæftemaskinen",
     "danishIndefinite": "en hæftemaskine",
-    "tier": 3
+    "tier": 5
   },
   "work.paper-clip": {
     "danish": "papirclips",
@@ -771,7 +771,7 @@
     "gender": "die",
     "danishDefinite": "papirclipsen",
     "danishIndefinite": "en papirclips",
-    "tier": 3
+    "tier": 4
   },
   "work.folder": {
     "danish": "mappe",
@@ -780,7 +780,7 @@
     "gender": "die",
     "danishDefinite": "mappen",
     "danishIndefinite": "en mappe",
-    "tier": 3
+    "tier": 4
   },
   "work.calculator": {
     "danish": "lommeregner",
@@ -798,7 +798,7 @@
     "gender": "der",
     "danishDefinite": "kuverten",
     "danishIndefinite": "en kuvert",
-    "tier": 2
+    "tier": 3
   },
   "work.form": {
     "danish": "blanket",
@@ -825,7 +825,7 @@
     "gender": "das",
     "danishDefinite": "dokumentet",
     "danishIndefinite": "et dokument",
-    "tier": 2
+    "tier": 3
   },
   "work.copy": {
     "danish": "kopi",
@@ -843,7 +843,7 @@
     "gender": "der",
     "danishDefinite": "kopimaskinen",
     "danishIndefinite": "en kopimaskine",
-    "tier": 3
+    "tier": 4
   },
   "work.note": {
     "danish": "notat",
@@ -858,13 +858,13 @@
     "danish": "at ansætte",
     "german": "einstellen",
     "english": "to hire",
-    "tier": 3
+    "tier": 4
   },
   "work.dismiss": {
     "danish": "at fyre",
     "german": "entlassen",
     "english": "to dismiss",
-    "tier": 3
+    "tier": 4
   },
   "work.resign": {
     "danish": "at sige op",
@@ -882,7 +882,7 @@
     "danish": "at forhandle",
     "german": "verhandeln",
     "english": "to negotiate",
-    "tier": 2
+    "tier": 3
   },
   "work.plan-2": {
     "danish": "at planlægge",
@@ -894,25 +894,25 @@
     "danish": "at organisere",
     "german": "organisieren",
     "english": "to organise",
-    "tier": 2
+    "tier": 3
   },
   "work.manage": {
     "danish": "at lede",
     "german": "leiten",
     "english": "to manage",
-    "tier": 3
+    "tier": 4
   },
   "work.present": {
     "danish": "at præsentere",
     "german": "präsentieren",
     "english": "to present",
-    "tier": 2
+    "tier": 3
   },
   "work.cooperate": {
     "danish": "at samarbejde",
     "german": "zusammenarbeiten",
     "english": "to cooperate",
-    "tier": 2
+    "tier": 3
   },
   "work.apply-for-a-job": {
     "danish": "at ansøge",
@@ -924,13 +924,13 @@
     "danish": "at udføre",
     "german": "ausführen",
     "english": "to carry out",
-    "tier": 3
+    "tier": 4
   },
   "work.complete": {
     "danish": "at afslutte",
     "german": "abschließen",
     "english": "to complete",
-    "tier": 3
+    "tier": 4
   },
   "work.cancel": {
     "danish": "at aflyse",
@@ -960,25 +960,25 @@
     "danish": "at levere",
     "german": "liefern",
     "english": "to deliver",
-    "tier": 2
+    "tier": 3
   },
   "work.produce": {
     "danish": "at producere",
     "german": "produzieren",
     "english": "to produce",
-    "tier": 2
+    "tier": 3
   },
   "work.professional": {
     "danish": "professionel",
     "german": "professionell",
     "english": "professional",
-    "tier": 2
+    "tier": 3
   },
   "work.efficient": {
     "danish": "effektiv",
     "german": "effizient",
     "english": "efficient",
-    "tier": 3
+    "tier": 4
   },
   "work.unemployed": {
     "danish": "arbejdsløs",
@@ -990,12 +990,12 @@
     "danish": "kompetent",
     "german": "kompetent",
     "english": "competent",
-    "tier": 2
+    "tier": 3
   },
   "work.reliable": {
     "danish": "pålidelig",
     "german": "zuverlässig",
     "english": "reliable",
-    "tier": 2
+    "tier": 3
   }
 }

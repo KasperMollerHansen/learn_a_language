@@ -1,0 +1,293 @@
+[
+  {
+    "id": "4-1",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "People",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "people",
+      "emotions",
+      "personality",
+      "life"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-2",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "People with articles",
+    "mode": "article",
+    "prompt": "Choose the German form",
+    "categories": [
+      "people"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-3",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Describing words",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "adjectives",
+      "colors",
+      "adverbs"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-4",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Small words",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "prepositions",
+      "function",
+      "numbers",
+      "time"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-5",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Verbs",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "verbs"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-6",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Food and drink",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "food",
+      "drinks",
+      "restaurant"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-7",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Home",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "home",
+      "kitchen",
+      "everyday",
+      "tools",
+      "materials",
+      "office"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-8",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Body and clothes",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "body",
+      "health",
+      "clothing"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-9",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Nature",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "animals",
+      "nature",
+      "garden",
+      "weather"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-10",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Town and travel",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "city",
+      "travel",
+      "transport",
+      "shopping",
+      "countries"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-11",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Free time",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "sport",
+      "music",
+      "hobbies"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-12",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Work and school",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "work",
+      "learning",
+      "technology",
+      "money",
+      "media",
+      "communication",
+      "society",
+      "science",
+      "culture"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-13",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Words that look alike",
+    "mode": "word",
+    "prompt": "Translate the Danish word into German",
+    "categories": [
+      "spelling"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-14",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Sentences",
+    "mode": "word",
+    "prompt": "Translate the Danish sentence into German",
+    "categories": [
+      "modals",
+      "sentences"
+    ],
+    "tiers": [
+      4
+    ]
+  },
+  {
+    "id": "4-15",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Review",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "people",
+      "animals",
+      "adjectives",
+      "prepositions",
+      "kitchen",
+      "garden",
+      "weather",
+      "everyday",
+      "technology",
+      "work",
+      "learning",
+      "music",
+      "sport",
+      "travel",
+      "city",
+      "spelling",
+      "verbs",
+      "body",
+      "health",
+      "clothing",
+      "emotions",
+      "home",
+      "tools",
+      "materials",
+      "food",
+      "drinks",
+      "restaurant",
+      "nature",
+      "hobbies",
+      "transport",
+      "shopping",
+      "media",
+      "money",
+      "society",
+      "time",
+      "numbers",
+      "colors",
+      "adverbs",
+      "function",
+      "countries",
+      "science",
+      "culture",
+      "personality",
+      "communication",
+      "life",
+      "office"
+    ],
+    "tiers": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "4-16",
+    "chapter": "Chapter 4 · Fluent",
+    "name": "Sentence builder",
+    "mode": "sentence",
+    "prompt": "Build the German sentence one chunk at a time",
+    "categories": [
+      "sentence-builder"
+    ],
+    "tiers": [
+      4
+    ]
+  }
+]

@@ -33,7 +33,7 @@
     "gender": "der",
     "danishDefinite": "bassinet",
     "danishIndefinite": "et bassin",
-    "tier": 2
+    "tier": 3
   },
   "city.bridge": {
     "danish": "bro",
@@ -87,7 +87,7 @@
     "gender": "das",
     "danishDefinite": "bygningen",
     "danishIndefinite": "en bygning",
-    "tier": 2
+    "tier": 3
   },
   "city.skyscraper": {
     "danish": "skyskraber",
@@ -96,7 +96,7 @@
     "gender": "der",
     "danishDefinite": "skyskraberen",
     "danishIndefinite": "en skyskraber",
-    "tier": 3
+    "tier": 4
   },
   "city.town-hall": {
     "danish": "rådhus",
@@ -132,7 +132,7 @@
     "gender": "die",
     "danishDefinite": "fæstningen",
     "danishIndefinite": "en fæstning",
-    "tier": 3
+    "tier": 5
   },
   "city.tower": {
     "danish": "tårn",
@@ -195,7 +195,7 @@
     "gender": "die",
     "danishDefinite": "politistationen",
     "danishIndefinite": "en politistation",
-    "tier": 2
+    "tier": 3
   },
   "city.fire-station": {
     "danish": "brandstation",
@@ -204,7 +204,7 @@
     "gender": "die",
     "danishDefinite": "brandstationen",
     "danishIndefinite": "en brandstation",
-    "tier": 3
+    "tier": 4
   },
   "city.post-office": {
     "danish": "posthus",
@@ -339,7 +339,7 @@
     "gender": "der",
     "danishDefinite": "kirkegården",
     "danishIndefinite": "en kirkegård",
-    "tier": 3
+    "tier": 4
   },
   "city.train-station": {
     "danish": "banegård",
@@ -384,7 +384,7 @@
     "gender": "der",
     "danishDefinite": "fodgængerovergangen",
     "danishIndefinite": "en fodgængerovergang",
-    "tier": 3
+    "tier": 4
   },
   "city.traffic-light": {
     "danish": "trafiklys",
@@ -420,7 +420,7 @@
     "gender": "der",
     "danishDefinite": "fortovet",
     "danishIndefinite": "et fortov",
-    "tier": 3
+    "tier": 4
   },
   "city.road": {
     "danish": "vej",
@@ -447,7 +447,7 @@
     "gender": "die",
     "danishDefinite": "sidegaden",
     "danishIndefinite": "en sidegade",
-    "tier": 3
+    "tier": 4
   },
   "city.pedestrian-zone": {
     "danish": "gågade",
@@ -456,7 +456,7 @@
     "gender": "die",
     "danishDefinite": "gågaden",
     "danishIndefinite": "en gågade",
-    "tier": 2
+    "tier": 3
   },
   "city.alley": {
     "danish": "gyde",
@@ -465,7 +465,7 @@
     "gender": "die",
     "danishDefinite": "gyden",
     "danishIndefinite": "en gyde",
-    "tier": 3
+    "tier": 4
   },
   "city.tunnel": {
     "danish": "tunnel",
@@ -474,7 +474,7 @@
     "gender": "der",
     "danishDefinite": "tunnelen",
     "danishIndefinite": "en tunnel",
-    "tier": 2
+    "tier": 3
   },
   "city.motorway": {
     "danish": "motorvej",
@@ -492,7 +492,7 @@
     "gender": "die",
     "danishDefinite": "vejbanen",
     "danishIndefinite": "en vejbane",
-    "tier": 3
+    "tier": 4
   },
   "city.street-lamp": {
     "danish": "gadelygte",
@@ -501,7 +501,7 @@
     "gender": "die",
     "danishDefinite": "gadelygten",
     "danishIndefinite": "en gadelygte",
-    "tier": 3
+    "tier": 5
   },
   "city.fountain": {
     "danish": "springvand",
@@ -510,7 +510,7 @@
     "gender": "der",
     "danishDefinite": "springvandet",
     "danishIndefinite": "et springvand",
-    "tier": 2
+    "tier": 3
   },
   "city.monument": {
     "danish": "monument",
@@ -519,7 +519,7 @@
     "gender": "das",
     "danishDefinite": "monumentet",
     "danishIndefinite": "et monument",
-    "tier": 3
+    "tier": 4
   },
   "city.statue": {
     "danish": "statue",
@@ -528,7 +528,7 @@
     "gender": "die",
     "danishDefinite": "statuen",
     "danishIndefinite": "en statue",
-    "tier": 3
+    "tier": 4
   },
   "city.cathedral": {
     "danish": "domkirke",
@@ -537,7 +537,7 @@
     "gender": "der",
     "danishDefinite": "domkirken",
     "danishIndefinite": "en domkirke",
-    "tier": 3
+    "tier": 4
   },
   "city.old-town": {
     "danish": "gammel bydel",
@@ -564,7 +564,7 @@
     "gender": "der",
     "danishDefinite": "forstaden",
     "danishIndefinite": "en forstad",
-    "tier": 3
+    "tier": 4
   },
   "city.neighbourhood": {
     "danish": "kvarter",
@@ -573,7 +573,7 @@
     "gender": "das",
     "danishDefinite": "kvarteret",
     "danishIndefinite": "et kvarter",
-    "tier": 3
+    "tier": 4
   },
   "city.outskirts": {
     "danish": "udkant",
@@ -582,7 +582,7 @@
     "gender": "der",
     "danishDefinite": "udkanten",
     "danishIndefinite": "en udkant",
-    "tier": 3
+    "tier": 4
   },
   "city.landscape": {
     "danish": "landskab",
@@ -591,7 +591,7 @@
     "gender": "die",
     "danishDefinite": "landskabet",
     "danishIndefinite": "et landskab",
-    "tier": 2
+    "tier": 3
   },
   "city.capital": {
     "danish": "hovedstad",
@@ -627,7 +627,7 @@
     "gender": "der",
     "danishDefinite": "beboeren",
     "danishIndefinite": "en beboer",
-    "tier": 3
+    "tier": 5
   },
   "city.sight": {
     "danish": "seværdighed",
@@ -681,7 +681,7 @@
     "gender": "das",
     "danishDefinite": "vejskiltet",
     "danishIndefinite": "et vejskilt",
-    "tier": 3
+    "tier": 4
   },
   "city.mailbox": {
     "danish": "postkasse",
@@ -699,7 +699,7 @@
     "gender": "die",
     "danishDefinite": "parkbænken",
     "danishIndefinite": "en parkbænk",
-    "tier": 2
+    "tier": 3
   },
   "city.rubbish-bin": {
     "danish": "skraldespand",
@@ -708,7 +708,7 @@
     "gender": "der",
     "danishDefinite": "skraldespanden",
     "danishIndefinite": "en skraldespand",
-    "tier": 2
+    "tier": 3
   },
   "city.toilet": {
     "danish": "toilet",
@@ -735,7 +735,7 @@
     "gender": "die",
     "danishDefinite": "telefonboksen",
     "danishIndefinite": "en telefonboks",
-    "tier": 3
+    "tier": 4
   },
   "city.garage": {
     "danish": "garage",
@@ -771,7 +771,7 @@
     "gender": "die",
     "danishDefinite": "ambassaden",
     "danishIndefinite": "en ambassade",
-    "tier": 3
+    "tier": 4
   },
   "city.court": {
     "danish": "domstol",
@@ -780,7 +780,7 @@
     "gender": "das",
     "danishDefinite": "domstolen",
     "danishIndefinite": "en domstol",
-    "tier": 3
+    "tier": 4
   },
   "city.prison": {
     "danish": "fængsel",
@@ -789,7 +789,7 @@
     "gender": "das",
     "danishDefinite": "fængslet",
     "danishIndefinite": "et fængsel",
-    "tier": 3
+    "tier": 4
   },
   "city.authority": {
     "danish": "myndighed",
@@ -798,7 +798,7 @@
     "gender": "die",
     "danishDefinite": "myndigheden",
     "danishIndefinite": "en myndighed",
-    "tier": 3
+    "tier": 4
   },
   "city.city-council": {
     "danish": "byråd",
@@ -807,7 +807,7 @@
     "gender": "der",
     "danishDefinite": "byrådet",
     "danishIndefinite": "et byråd",
-    "tier": 3
+    "tier": 5
   },
   "city.office": {
     "danish": "kontorbygning",
@@ -816,7 +816,7 @@
     "gender": "das",
     "danishDefinite": "kontorbygningen",
     "danishIndefinite": "en kontorbygning",
-    "tier": 3
+    "tier": 4
   },
   "city.warehouse": {
     "danish": "lagerbygning",
@@ -825,7 +825,7 @@
     "gender": "das",
     "danishDefinite": "lagerbygningen",
     "danishIndefinite": "en lagerbygning",
-    "tier": 3
+    "tier": 5
   },
   "city.nursery": {
     "danish": "vuggestue",
@@ -834,7 +834,7 @@
     "gender": "die",
     "danishDefinite": "vuggestuen",
     "danishIndefinite": "en vuggestue",
-    "tier": 3
+    "tier": 4
   },
   "city.old-age-home": {
     "danish": "plejehjem",
@@ -843,7 +843,7 @@
     "gender": "das",
     "danishDefinite": "plejehjemet",
     "danishIndefinite": "et plejehjem",
-    "tier": 3
+    "tier": 4
   },
   "city.church-tower": {
     "danish": "kirketårn",
@@ -852,7 +852,7 @@
     "gender": "der",
     "danishDefinite": "kirketårnet",
     "danishIndefinite": "et kirketårn",
-    "tier": 3
+    "tier": 4
   },
   "city.market-square": {
     "danish": "markedsplads",
@@ -870,7 +870,7 @@
     "gender": "das",
     "danishDefinite": "butiksvinduet",
     "danishIndefinite": "et butiksvindue",
-    "tier": 3
+    "tier": 4
   },
   "city.lift": {
     "danish": "elevator",
@@ -888,7 +888,7 @@
     "gender": "die",
     "danishDefinite": "rulletrappen",
     "danishIndefinite": "en rulletrappe",
-    "tier": 3
+    "tier": 4
   },
   "city.staircase": {
     "danish": "trappe",
@@ -924,7 +924,7 @@
     "gender": "die",
     "danishDefinite": "bymuren",
     "danishIndefinite": "en bymur",
-    "tier": 3
+    "tier": 4
   },
   "city.ruin": {
     "danish": "ruin",
@@ -933,7 +933,7 @@
     "gender": "die",
     "danishDefinite": "ruinen",
     "danishIndefinite": "en ruin",
-    "tier": 3
+    "tier": 4
   },
   "city.palace": {
     "danish": "palads",
@@ -942,7 +942,7 @@
     "gender": "der",
     "danishDefinite": "paladset",
     "danishIndefinite": "et palads",
-    "tier": 3
+    "tier": 4
   },
   "city.art-gallery": {
     "danish": "kunstgalleri",
@@ -951,7 +951,7 @@
     "gender": "die",
     "danishDefinite": "kunstgalleriet",
     "danishIndefinite": "et kunstgalleri",
-    "tier": 3
+    "tier": 4
   },
   "city.concert-hall": {
     "danish": "koncertsal",
@@ -960,7 +960,7 @@
     "gender": "die",
     "danishDefinite": "koncertsalen",
     "danishIndefinite": "en koncertsal",
-    "tier": 3
+    "tier": 4
   },
   "city.opera": {
     "danish": "operahus",
@@ -969,7 +969,7 @@
     "gender": "das",
     "danishDefinite": "operahuset",
     "danishIndefinite": "et operahus",
-    "tier": 3
+    "tier": 4
   },
   "city.youth-club": {
     "danish": "ungdomsklub",
@@ -1005,7 +1005,7 @@
     "gender": "die",
     "danishDefinite": "boghandelen",
     "danishIndefinite": "en boghandel",
-    "tier": 2
+    "tier": 3
   },
   "city.laundrette": {
     "danish": "vaskeri",
@@ -1014,7 +1014,7 @@
     "gender": "die",
     "danishDefinite": "vaskeriet",
     "danishIndefinite": "et vaskeri",
-    "tier": 3
+    "tier": 4
   },
   "city.dry-cleaner": {
     "danish": "renseri",
@@ -1023,7 +1023,7 @@
     "gender": "die",
     "danishDefinite": "renseriet",
     "danishIndefinite": "et renseri",
-    "tier": 3
+    "tier": 4
   },
   "city.kiosk": {
     "danish": "kiosk",
@@ -1041,7 +1041,7 @@
     "gender": "die",
     "danishDefinite": "isbaren",
     "danishIndefinite": "en isbar",
-    "tier": 2
+    "tier": 3
   },
   "city.bike-path": {
     "danish": "cykelsti",
@@ -1050,7 +1050,7 @@
     "gender": "der",
     "danishDefinite": "cykelstien",
     "danishIndefinite": "en cykelsti",
-    "tier": 2
+    "tier": 3
   },
   "city.promenade": {
     "danish": "promenade",
@@ -1059,7 +1059,7 @@
     "gender": "die",
     "danishDefinite": "promenaden",
     "danishIndefinite": "en promenade",
-    "tier": 3
+    "tier": 5
   },
   "city.riverbank": {
     "danish": "flodbred",
@@ -1068,7 +1068,7 @@
     "gender": "das",
     "danishDefinite": "flodbreden",
     "danishIndefinite": "en flodbred",
-    "tier": 3
+    "tier": 4
   },
   "city.quay": {
     "danish": "kaj",
@@ -1077,7 +1077,7 @@
     "gender": "der",
     "danishDefinite": "kajen",
     "danishIndefinite": "en kaj",
-    "tier": 3
+    "tier": 5
   },
   "city.canal": {
     "danish": "kanal",
@@ -1086,7 +1086,7 @@
     "gender": "der",
     "danishDefinite": "kanalen",
     "danishIndefinite": "en kanal",
-    "tier": 3
+    "tier": 4
   },
   "city.lake": {
     "danish": "sø",

@@ -15,7 +15,7 @@
     "gender": "der",
     "danishDefinite": "kunstmaleren",
     "danishIndefinite": "en kunstmaler",
-    "tier": 3
+    "tier": 5
   },
   "culture.sculpture": {
     "danish": "skulptur",
@@ -24,7 +24,7 @@
     "gender": "die",
     "danishDefinite": "skulpturen",
     "danishIndefinite": "en skulptur",
-    "tier": 2
+    "tier": 3
   },
   "culture.sculptor": {
     "danish": "billedhugger",
@@ -33,7 +33,7 @@
     "gender": "der",
     "danishDefinite": "billedhuggeren",
     "danishIndefinite": "en billedhugger",
-    "tier": 3
+    "tier": 4
   },
   "culture.gallery": {
     "danish": "galleri",
@@ -42,7 +42,7 @@
     "gender": "die",
     "danishDefinite": "galleriet",
     "danishIndefinite": "et galleri",
-    "tier": 2
+    "tier": 3
   },
   "culture.stage": {
     "danish": "scene",
@@ -51,7 +51,7 @@
     "gender": "die",
     "danishDefinite": "scenen",
     "danishIndefinite": "en scene",
-    "tier": 2
+    "tier": 3
   },
   "culture.performance": {
     "danish": "forestilling",
@@ -60,7 +60,7 @@
     "gender": "die",
     "danishDefinite": "forestillingen",
     "danishIndefinite": "en forestilling",
-    "tier": 2
+    "tier": 3
   },
   "culture.ballet": {
     "danish": "ballet",
@@ -69,7 +69,7 @@
     "gender": "das",
     "danishDefinite": "balletten",
     "danishIndefinite": "en ballet",
-    "tier": 3
+    "tier": 4
   },
   "culture.script": {
     "danish": "manuskript",
@@ -78,7 +78,7 @@
     "gender": "das",
     "danishDefinite": "manuskriptet",
     "danishIndefinite": "et manuskript",
-    "tier": 3
+    "tier": 5
   },
   "culture.stage-set": {
     "danish": "kulisse",
@@ -87,7 +87,7 @@
     "gender": "die",
     "danishDefinite": "kulissen",
     "danishIndefinite": "en kulisse",
-    "tier": 3
+    "tier": 5
   },
   "culture.middle-ages": {
     "danish": "middelalder",
@@ -96,7 +96,7 @@
     "gender": "das",
     "danishDefinite": "middelalderen",
     "danishIndefinite": "en middelalder",
-    "tier": 2
+    "tier": 3
   },
   "culture.antiquity": {
     "danish": "oldtid",
@@ -105,7 +105,7 @@
     "gender": "die",
     "danishDefinite": "oldtiden",
     "danishIndefinite": "en oldtid",
-    "tier": 3
+    "tier": 5
   },
   "culture.era": {
     "danish": "tidsalder",
@@ -114,7 +114,7 @@
     "gender": "das",
     "danishDefinite": "tidsalderen",
     "danishIndefinite": "en tidsalder",
-    "tier": 3
+    "tier": 5
   },
   "culture.fortress": {
     "danish": "borg",
@@ -132,7 +132,7 @@
     "gender": "der",
     "danishDefinite": "ridderen",
     "danishIndefinite": "en ridder",
-    "tier": 2
+    "tier": 3
   },
   "culture.viking": {
     "danish": "viking",
@@ -141,7 +141,7 @@
     "gender": "der",
     "danishDefinite": "vikingen",
     "danishIndefinite": "en viking",
-    "tier": 2
+    "tier": 3
   },
   "culture.republic": {
     "danish": "republik",
@@ -150,7 +150,7 @@
     "gender": "die",
     "danishDefinite": "republikken",
     "danishIndefinite": "en republik",
-    "tier": 3
+    "tier": 4
   },
   "culture.archaeology": {
     "danish": "arkæologi",
@@ -159,7 +159,7 @@
     "gender": "die",
     "danishDefinite": "arkæologien",
     "danishIndefinite": "en arkæologi",
-    "tier": 3
+    "tier": 5
   },
   "culture.anniversary": {
     "danish": "jubilæum",
@@ -168,7 +168,7 @@
     "gender": "das",
     "danishDefinite": "jubilæet",
     "danishIndefinite": "et jubilæum",
-    "tier": 3
+    "tier": 4
   },
   "culture.bible": {
     "danish": "bibel",
@@ -177,7 +177,7 @@
     "gender": "die",
     "danishDefinite": "bibelen",
     "danishIndefinite": "en bibel",
-    "tier": 2
+    "tier": 3
   },
   "culture.priest": {
     "danish": "præst",
@@ -186,7 +186,7 @@
     "gender": "der",
     "danishDefinite": "præsten",
     "danishIndefinite": "en præst",
-    "tier": 2
+    "tier": 3
   },
   "culture.mosque": {
     "danish": "moské",
@@ -195,7 +195,7 @@
     "gender": "die",
     "danishDefinite": "moskeen",
     "danishIndefinite": "en moské",
-    "tier": 2
+    "tier": 3
   },
   "culture.synagogue": {
     "danish": "synagoge",
@@ -204,7 +204,7 @@
     "gender": "die",
     "danishDefinite": "synagogen",
     "danishIndefinite": "en synagoge",
-    "tier": 3
+    "tier": 4
   },
   "culture.temple": {
     "danish": "tempel",
@@ -213,7 +213,7 @@
     "gender": "der",
     "danishDefinite": "templet",
     "danishIndefinite": "et tempel",
-    "tier": 2
+    "tier": 3
   },
   "culture.christianity": {
     "danish": "kristendom",
@@ -222,7 +222,7 @@
     "gender": "das",
     "danishDefinite": "kristendommen",
     "danishIndefinite": "en kristendom",
-    "tier": 3
+    "tier": 4
   },
   "culture.islam": {
     "danish": "islam",
@@ -231,7 +231,7 @@
     "gender": "der",
     "danishDefinite": "islam",
     "danishIndefinite": "en islam",
-    "tier": 3
+    "tier": 4
   },
   "culture.judaism": {
     "danish": "jødedom",
@@ -240,7 +240,7 @@
     "gender": "das",
     "danishDefinite": "jødedommen",
     "danishIndefinite": "en jødedom",
-    "tier": 3
+    "tier": 4
   },
   "culture.buddhism": {
     "danish": "buddhisme",
@@ -249,7 +249,7 @@
     "gender": "der",
     "danishDefinite": "buddhismen",
     "danishIndefinite": "en buddhisme",
-    "tier": 3
+    "tier": 4
   },
   "culture.prayer": {
     "danish": "bøn",
@@ -258,7 +258,7 @@
     "gender": "das",
     "danishDefinite": "bønnen",
     "danishIndefinite": "en bøn",
-    "tier": 2
+    "tier": 3
   },
   "culture.angel": {
     "danish": "engel",
@@ -267,7 +267,7 @@
     "gender": "der",
     "danishDefinite": "englen",
     "danishIndefinite": "en engel",
-    "tier": 2
+    "tier": 3
   },
   "culture.devil": {
     "danish": "djævel",
@@ -276,7 +276,7 @@
     "gender": "der",
     "danishDefinite": "djævlen",
     "danishIndefinite": "en djævel",
-    "tier": 2
+    "tier": 3
   },
   "culture.hell": {
     "danish": "helvede",
@@ -285,7 +285,7 @@
     "gender": "die",
     "danishDefinite": "helvedet",
     "danishIndefinite": "et helvede",
-    "tier": 3
+    "tier": 4
   },
   "culture.soul": {
     "danish": "sjæl",
@@ -294,7 +294,7 @@
     "gender": "die",
     "danishDefinite": "sjælen",
     "danishIndefinite": "en sjæl",
-    "tier": 2
+    "tier": 3
   },
   "culture.carnival": {
     "danish": "karneval",
@@ -330,7 +330,7 @@
     "gender": "die",
     "danishDefinite": "dåben",
     "danishIndefinite": "en dåb",
-    "tier": 3
+    "tier": 4
   },
   "culture.fireworks": {
     "danish": "fyrværkeri",
@@ -339,7 +339,7 @@
     "gender": "das",
     "danishDefinite": "fyrværkeriet",
     "danishIndefinite": "et fyrværkeri",
-    "tier": 2
+    "tier": 3
   },
   "culture.parade": {
     "danish": "optog",
@@ -348,7 +348,7 @@
     "gender": "der",
     "danishDefinite": "optoget",
     "danishIndefinite": "et optog",
-    "tier": 3
+    "tier": 4
   },
   "culture.mask": {
     "danish": "maske",
@@ -357,7 +357,7 @@
     "gender": "die",
     "danishDefinite": "masken",
     "danishIndefinite": "en maske",
-    "tier": 2
+    "tier": 3
   },
   "culture.fairy-tale": {
     "danish": "eventyr",
@@ -375,7 +375,7 @@
     "gender": "die",
     "danishDefinite": "sagnet",
     "danishIndefinite": "et sagn",
-    "tier": 3
+    "tier": 5
   },
   "culture.myth": {
     "danish": "myte",
@@ -384,7 +384,7 @@
     "gender": "der",
     "danishDefinite": "myten",
     "danishIndefinite": "en myte",
-    "tier": 3
+    "tier": 5
   },
   "culture.cultural-heritage": {
     "danish": "kulturarv",
@@ -393,7 +393,7 @@
     "gender": "das",
     "danishDefinite": "kulturarven",
     "danishIndefinite": "en kulturarv",
-    "tier": 3
+    "tier": 5
   },
   "culture.flag": {
     "danish": "flag",
@@ -402,7 +402,7 @@
     "gender": "die",
     "danishDefinite": "flaget",
     "danishIndefinite": "et flag",
-    "tier": 1
+    "tier": 2
   },
   "culture.national-day": {
     "danish": "nationaldag",
@@ -411,7 +411,7 @@
     "gender": "der",
     "danishDefinite": "nationaldagen",
     "danishIndefinite": "en nationaldag",
-    "tier": 3
+    "tier": 4
   },
   "culture.pentecost": {
     "danish": "pinse",
@@ -429,7 +429,7 @@
     "gender": "die",
     "danishDefinite": "fastelavnen",
     "danishIndefinite": "en fastelavn",
-    "tier": 3
+    "tier": 4
   },
   "culture.halloween": {
     "danish": "halloween",
@@ -447,7 +447,7 @@
     "gender": "die",
     "danishDefinite": "sankthansaftenen",
     "danishIndefinite": "en sankthansaften",
-    "tier": 3
+    "tier": 5
   },
   "culture.oktoberfest": {
     "danish": "oktoberfest",
@@ -465,7 +465,7 @@
     "gender": "das",
     "danishDefinite": "portrættet",
     "danishIndefinite": "et portræt",
-    "tier": 2
+    "tier": 3
   },
   "culture.style": {
     "danish": "stil",
@@ -474,7 +474,7 @@
     "gender": "der",
     "danishDefinite": "stilen",
     "danishIndefinite": "en stil",
-    "tier": 2
+    "tier": 3
   },
   "culture.renaissance": {
     "danish": "renæssance",
@@ -483,7 +483,7 @@
     "gender": "die",
     "danishDefinite": "renæssancen",
     "danishIndefinite": "en renæssance",
-    "tier": 3
+    "tier": 5
   },
   "culture.enlightenment": {
     "danish": "oplysningstid",
@@ -492,7 +492,7 @@
     "gender": "die",
     "danishDefinite": "oplysningstiden",
     "danishIndefinite": "en oplysningstid",
-    "tier": 3
+    "tier": 5
   },
   "culture.colonization": {
     "danish": "kolonisering",
@@ -501,7 +501,7 @@
     "gender": "die",
     "danishDefinite": "koloniseringen",
     "danishIndefinite": "en kolonisering",
-    "tier": 3
+    "tier": 5
   },
   "culture.pilgrim": {
     "danish": "pilgrim",
@@ -510,7 +510,7 @@
     "gender": "der",
     "danishDefinite": "pilgrimmen",
     "danishIndefinite": "en pilgrim",
-    "tier": 3
+    "tier": 5
   },
   "culture.monastery": {
     "danish": "kloster",
@@ -519,7 +519,7 @@
     "gender": "das",
     "danishDefinite": "klostret",
     "danishIndefinite": "et kloster",
-    "tier": 3
+    "tier": 4
   },
   "culture.cathedral": {
     "danish": "katedral",
@@ -528,7 +528,7 @@
     "gender": "der",
     "danishDefinite": "katedralen",
     "danishIndefinite": "en katedral",
-    "tier": 3
+    "tier": 4
   },
   "culture.altar": {
     "danish": "alter",
@@ -537,7 +537,7 @@
     "gender": "der",
     "danishDefinite": "alteret",
     "danishIndefinite": "et alter",
-    "tier": 3
+    "tier": 5
   },
   "culture.treasure": {
     "danish": "skat",
@@ -546,7 +546,7 @@
     "gender": "der",
     "danishDefinite": "skatten",
     "danishIndefinite": "en skat",
-    "tier": 2
+    "tier": 3
   },
   "culture.heir-to-the-throne": {
     "danish": "tronfølger",
@@ -555,7 +555,7 @@
     "gender": "der",
     "danishDefinite": "tronfølgeren",
     "danishIndefinite": "en tronfølger",
-    "tier": 3
+    "tier": 5
   },
   "culture.throne": {
     "danish": "trone",
@@ -564,7 +564,7 @@
     "gender": "der",
     "danishDefinite": "tronen",
     "danishIndefinite": "en trone",
-    "tier": 2
+    "tier": 3
   },
   "culture.crown": {
     "danish": "krone",
@@ -573,7 +573,7 @@
     "gender": "die",
     "danishDefinite": "kronen",
     "danishIndefinite": "en krone",
-    "tier": 2
+    "tier": 3
   },
   "culture.coat-of-arms": {
     "danish": "våbenskjold",
@@ -582,7 +582,7 @@
     "gender": "das",
     "danishDefinite": "våbenskjoldet",
     "danishIndefinite": "et våbenskjold",
-    "tier": 3
+    "tier": 5
   },
   "culture.canvas": {
     "danish": "lærred",
@@ -591,7 +591,7 @@
     "gender": "die",
     "danishDefinite": "lærredet",
     "danishIndefinite": "et lærred",
-    "tier": 3
+    "tier": 4
   },
   "culture.motif": {
     "danish": "motiv",
@@ -600,7 +600,7 @@
     "gender": "das",
     "danishDefinite": "motivet",
     "danishIndefinite": "et motiv",
-    "tier": 3
+    "tier": 5
   },
   "culture.guided-tour": {
     "danish": "rundvisning",
@@ -609,7 +609,7 @@
     "gender": "die",
     "danishDefinite": "rundvisningen",
     "danishIndefinite": "en rundvisning",
-    "tier": 2
+    "tier": 3
   },
   "culture.premiere": {
     "danish": "premiere",
@@ -618,7 +618,7 @@
     "gender": "die",
     "danishDefinite": "premieren",
     "danishIndefinite": "en premiere",
-    "tier": 3
+    "tier": 4
   },
   "culture.role": {
     "danish": "rolle",
@@ -627,7 +627,7 @@
     "gender": "die",
     "danishDefinite": "rollen",
     "danishIndefinite": "en rolle",
-    "tier": 2
+    "tier": 3
   },
   "culture.tragedy": {
     "danish": "tragedie",
@@ -636,7 +636,7 @@
     "gender": "die",
     "danishDefinite": "tragedien",
     "danishIndefinite": "en tragedie",
-    "tier": 3
+    "tier": 4
   },
   "culture.playwright": {
     "danish": "dramatiker",
@@ -645,7 +645,7 @@
     "gender": "der",
     "danishDefinite": "dramatikeren",
     "danishIndefinite": "en dramatiker",
-    "tier": 3
+    "tier": 5
   },
   "culture.play-theatre": {
     "danish": "skuespil",
@@ -654,7 +654,7 @@
     "gender": "das",
     "danishDefinite": "skuespillet",
     "danishIndefinite": "et skuespil",
-    "tier": 3
+    "tier": 4
   },
   "culture.choreography": {
     "danish": "koreografi",
@@ -663,7 +663,7 @@
     "gender": "die",
     "danishDefinite": "koreografien",
     "danishIndefinite": "en koreografi",
-    "tier": 3
+    "tier": 5
   },
   "culture.puppet-theatre": {
     "danish": "dukketeater",
@@ -672,7 +672,7 @@
     "gender": "das",
     "danishDefinite": "dukketeatret",
     "danishIndefinite": "et dukketeater",
-    "tier": 3
+    "tier": 4
   },
   "culture.prop": {
     "danish": "rekvisit",
@@ -681,7 +681,7 @@
     "gender": "die",
     "danishDefinite": "rekvisitten",
     "danishIndefinite": "en rekvisit",
-    "tier": 3
+    "tier": 5
   },
   "culture.royal-house": {
     "danish": "kongehus",
@@ -690,7 +690,7 @@
     "gender": "das",
     "danishDefinite": "kongehuset",
     "danishIndefinite": "et kongehus",
-    "tier": 3
+    "tier": 4
   },
   "culture.nobility": {
     "danish": "adel",
@@ -699,7 +699,7 @@
     "gender": "der",
     "danishDefinite": "adelen",
     "danishIndefinite": "en adel",
-    "tier": 3
+    "tier": 5
   },
   "culture.count": {
     "danish": "greve",
@@ -708,7 +708,7 @@
     "gender": "der",
     "danishDefinite": "greven",
     "danishIndefinite": "en greve",
-    "tier": 3
+    "tier": 5
   },
   "culture.duke": {
     "danish": "hertug",
@@ -717,7 +717,7 @@
     "gender": "der",
     "danishDefinite": "hertugen",
     "danishIndefinite": "en hertug",
-    "tier": 3
+    "tier": 5
   },
   "culture.stone-age": {
     "danish": "stenalder",
@@ -726,7 +726,7 @@
     "gender": "die",
     "danishDefinite": "stenalderen",
     "danishIndefinite": "en stenalder",
-    "tier": 2
+    "tier": 3
   },
   "culture.bronze-age": {
     "danish": "bronzealder",
@@ -735,7 +735,7 @@
     "gender": "die",
     "danishDefinite": "bronzealderen",
     "danishIndefinite": "en bronzealder",
-    "tier": 3
+    "tier": 5
   },
   "culture.viking-age": {
     "danish": "vikingetid",
@@ -744,7 +744,7 @@
     "gender": "die",
     "danishDefinite": "vikingetiden",
     "danishIndefinite": "en vikingetid",
-    "tier": 3
+    "tier": 5
   },
   "culture.voyage-of-discovery": {
     "danish": "opdagelsesrejse",
@@ -753,7 +753,7 @@
     "gender": "die",
     "danishDefinite": "opdagelsesrejsen",
     "danishIndefinite": "en opdagelsesrejse",
-    "tier": 3
+    "tier": 4
   },
   "culture.empire": {
     "danish": "imperium",
@@ -762,7 +762,7 @@
     "gender": "das",
     "danishDefinite": "imperiet",
     "danishIndefinite": "et imperium",
-    "tier": 3
+    "tier": 5
   },
   "culture.burial-mound": {
     "danish": "gravhøj",
@@ -771,7 +771,7 @@
     "gender": "der",
     "danishDefinite": "gravhøjen",
     "danishIndefinite": "en gravhøj",
-    "tier": 3
+    "tier": 5
   },
   "culture.cross": {
     "danish": "kors",
@@ -780,7 +780,7 @@
     "gender": "das",
     "danishDefinite": "korset",
     "danishIndefinite": "et kors",
-    "tier": 2
+    "tier": 3
   },
   "culture.hymn": {
     "danish": "salme",
@@ -789,7 +789,7 @@
     "gender": "das",
     "danishDefinite": "salmen",
     "danishIndefinite": "en salme",
-    "tier": 3
+    "tier": 5
   },
   "culture.church-bell": {
     "danish": "kirkeklokke",
@@ -798,7 +798,7 @@
     "gender": "die",
     "danishDefinite": "kirkeklokken",
     "danishIndefinite": "en kirkeklokke",
-    "tier": 2
+    "tier": 3
   },
   "culture.bishop": {
     "danish": "biskop",
@@ -807,7 +807,7 @@
     "gender": "der",
     "danishDefinite": "biskoppen",
     "danishIndefinite": "en biskop",
-    "tier": 3
+    "tier": 5
   },
   "culture.pope": {
     "danish": "pave",
@@ -816,7 +816,7 @@
     "gender": "der",
     "danishDefinite": "paven",
     "danishIndefinite": "en pave",
-    "tier": 3
+    "tier": 4
   },
   "culture.miracle": {
     "danish": "mirakel",
@@ -834,7 +834,7 @@
     "gender": "der",
     "danishDefinite": "profeten",
     "danishIndefinite": "en profet",
-    "tier": 3
+    "tier": 5
   },
   "culture.paradise": {
     "danish": "paradis",
@@ -843,7 +843,7 @@
     "gender": "das",
     "danishDefinite": "paradiset",
     "danishIndefinite": "et paradis",
-    "tier": 3
+    "tier": 4
   },
   "culture.advent": {
     "danish": "advent",
@@ -870,7 +870,7 @@
     "gender": "die",
     "danishDefinite": "mindesmærket",
     "danishIndefinite": "et mindesmærke",
-    "tier": 3
+    "tier": 5
   },
   "culture.folk-dance": {
     "danish": "folkedans",
@@ -879,7 +879,7 @@
     "gender": "der",
     "danishDefinite": "folkedansen",
     "danishIndefinite": "en folkedans",
-    "tier": 3
+    "tier": 5
   },
   "culture.folk-song": {
     "danish": "folkevise",
@@ -888,7 +888,7 @@
     "gender": "das",
     "danishDefinite": "folkevisen",
     "danishIndefinite": "en folkevise",
-    "tier": 3
+    "tier": 4
   },
   "culture.traditional-costume": {
     "danish": "folkedragt",
@@ -897,7 +897,7 @@
     "gender": "die",
     "danishDefinite": "folkedragten",
     "danishIndefinite": "en folkedragt",
-    "tier": 3
+    "tier": 4
   },
   "culture.embroidery": {
     "danish": "broderi",
@@ -906,7 +906,7 @@
     "gender": "die",
     "danishDefinite": "broderiet",
     "danishIndefinite": "et broderi",
-    "tier": 3
+    "tier": 5
   },
   "culture.mosaic": {
     "danish": "mosaik",
@@ -915,7 +915,7 @@
     "gender": "das",
     "danishDefinite": "mosaikken",
     "danishIndefinite": "en mosaik",
-    "tier": 3
+    "tier": 5
   },
   "culture.mural": {
     "danish": "vægmaleri",
@@ -924,7 +924,7 @@
     "gender": "das",
     "danishDefinite": "vægmaleriet",
     "danishIndefinite": "et vægmaleri",
-    "tier": 3
+    "tier": 5
   },
   "culture.architecture": {
     "danish": "arkitektur",
@@ -933,7 +933,7 @@
     "gender": "die",
     "danishDefinite": "arkitekturen",
     "danishIndefinite": "en arkitektur",
-    "tier": 3
+    "tier": 4
   },
   "culture.baroque": {
     "danish": "barok",
@@ -942,7 +942,7 @@
     "gender": "das",
     "danishDefinite": "barokken",
     "danishIndefinite": "en barok",
-    "tier": 3
+    "tier": 5
   },
   "culture.gothic": {
     "danish": "gotik",
@@ -951,7 +951,7 @@
     "gender": "die",
     "danishDefinite": "gotikken",
     "danishIndefinite": "en gotik",
-    "tier": 3
+    "tier": 5
   },
   "culture.author": {
     "danish": "forfatter",
@@ -960,7 +960,7 @@
     "gender": "der",
     "danishDefinite": "forfatteren",
     "danishIndefinite": "en forfatter",
-    "tier": 2
+    "tier": 3
   },
   "culture.poetry-collection": {
     "danish": "digtsamling",
@@ -969,7 +969,7 @@
     "gender": "der",
     "danishDefinite": "digtsamlingen",
     "danishIndefinite": "en digtsamling",
-    "tier": 3
+    "tier": 5
   },
   "culture.art-museum": {
     "danish": "kunstmuseum",

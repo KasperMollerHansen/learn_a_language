@@ -114,7 +114,7 @@
     "gender": "der",
     "danishDefinite": "loftet",
     "danishIndefinite": "et loft",
-    "tier": 3
+    "tier": 4
   },
   "home.roof": {
     "danish": "tag",
@@ -123,7 +123,7 @@
     "gender": "das",
     "danishDefinite": "taget",
     "danishIndefinite": "et tag",
-    "tier": 2
+    "tier": 3
   },
   "home.storey": {
     "danish": "etage",
@@ -132,7 +132,7 @@
     "gender": "die",
     "danishDefinite": "etagen",
     "danishIndefinite": "en etage",
-    "tier": 2
+    "tier": 3
   },
   "home.wall": {
     "danish": "væg",
@@ -177,7 +177,7 @@
     "gender": "die",
     "danishDefinite": "bagdøren",
     "danishIndefinite": "en bagdør",
-    "tier": 3
+    "tier": 4
   },
   "home.window": {
     "danish": "vindue",
@@ -195,7 +195,7 @@
     "gender": "das",
     "danishDefinite": "vindueskarmen",
     "danishIndefinite": "en vindueskarm",
-    "tier": 3
+    "tier": 4
   },
   "home.window-pane": {
     "danish": "rude",
@@ -204,7 +204,7 @@
     "gender": "die",
     "danishDefinite": "ruden",
     "danishIndefinite": "en rude",
-    "tier": 3
+    "tier": 4
   },
   "home.lock": {
     "danish": "lås",
@@ -213,7 +213,7 @@
     "gender": "das",
     "danishDefinite": "låsen",
     "danishIndefinite": "en lås",
-    "tier": 2
+    "tier": 3
   },
   "home.padlock": {
     "danish": "hængelås",
@@ -222,7 +222,7 @@
     "gender": "das",
     "danishDefinite": "hængelåsen",
     "danishIndefinite": "en hængelås",
-    "tier": 3
+    "tier": 5
   },
   "home.keyhole": {
     "danish": "nøglehul",
@@ -231,7 +231,7 @@
     "gender": "das",
     "danishDefinite": "nøglehullet",
     "danishIndefinite": "et nøglehul",
-    "tier": 3
+    "tier": 4
   },
   "home.key-ring": {
     "danish": "nøglering",
@@ -240,7 +240,7 @@
     "gender": "der",
     "danishDefinite": "nøgleringen",
     "danishIndefinite": "en nøglering",
-    "tier": 3
+    "tier": 4
   },
   "home.doorbell": {
     "danish": "dørklokke",
@@ -249,7 +249,7 @@
     "gender": "die",
     "danishDefinite": "dørklokken",
     "danishIndefinite": "en dørklokke",
-    "tier": 2
+    "tier": 3
   },
   "home.door-handle": {
     "danish": "dørhåndtag",
@@ -258,7 +258,7 @@
     "gender": "der",
     "danishDefinite": "dørhåndtaget",
     "danishIndefinite": "et dørhåndtag",
-    "tier": 3
+    "tier": 4
   },
   "home.chimney": {
     "danish": "skorsten",
@@ -267,7 +267,7 @@
     "gender": "der",
     "danishDefinite": "skorstenen",
     "danishIndefinite": "en skorsten",
-    "tier": 3
+    "tier": 4
   },
   "home.fireplace": {
     "danish": "pejs",
@@ -276,7 +276,7 @@
     "gender": "der",
     "danishDefinite": "pejsen",
     "danishIndefinite": "en pejs",
-    "tier": 2
+    "tier": 3
   },
   "home.radiator": {
     "danish": "radiator",
@@ -285,7 +285,7 @@
     "gender": "der",
     "danishDefinite": "radiatoren",
     "danishIndefinite": "en radiator",
-    "tier": 2
+    "tier": 3
   },
   "home.central-heating": {
     "danish": "centralvarme",
@@ -294,7 +294,7 @@
     "gender": "die",
     "danishDefinite": "centralvarmen",
     "danishIndefinite": "en centralvarme",
-    "tier": 3
+    "tier": 4
   },
   "home.air-conditioning": {
     "danish": "klimaanlæg",
@@ -312,7 +312,7 @@
     "gender": "der",
     "danishDefinite": "ventilatoren",
     "danishIndefinite": "en ventilator",
-    "tier": 3
+    "tier": 4
   },
   "home.curtain": {
     "danish": "gardin",
@@ -321,7 +321,7 @@
     "gender": "der",
     "danishDefinite": "gardinet",
     "danishIndefinite": "et gardin",
-    "tier": 2
+    "tier": 3
   },
   "home.blinds": {
     "danish": "persienne",
@@ -330,7 +330,7 @@
     "gender": "die",
     "danishDefinite": "persiennen",
     "danishIndefinite": "en persienne",
-    "tier": 3
+    "tier": 4
   },
   "home.carpet": {
     "danish": "gulvtæppe",
@@ -348,7 +348,7 @@
     "gender": "die",
     "danishDefinite": "dørmåtten",
     "danishIndefinite": "en dørmåtte",
-    "tier": 3
+    "tier": 4
   },
   "home.railing": {
     "danish": "gelænder",
@@ -357,7 +357,7 @@
     "gender": "das",
     "danishDefinite": "gelænderet",
     "danishIndefinite": "et gelænder",
-    "tier": 3
+    "tier": 4
   },
   "home.step": {
     "danish": "trin",
@@ -366,7 +366,7 @@
     "gender": "die",
     "danishDefinite": "trinnet",
     "danishIndefinite": "et trin",
-    "tier": 2
+    "tier": 3
   },
   "home.roof-tile": {
     "danish": "tagsten",
@@ -375,7 +375,7 @@
     "gender": "der",
     "danishDefinite": "tagstenen",
     "danishIndefinite": "en tagsten",
-    "tier": 3
+    "tier": 5
   },
   "home.gutter": {
     "danish": "tagrende",
@@ -384,7 +384,7 @@
     "gender": "die",
     "danishDefinite": "tagrenden",
     "danishIndefinite": "en tagrende",
-    "tier": 3
+    "tier": 5
   },
   "home.foundation": {
     "danish": "fundament",
@@ -393,7 +393,7 @@
     "gender": "das",
     "danishDefinite": "fundamentet",
     "danishIndefinite": "et fundament",
-    "tier": 3
+    "tier": 4
   },
   "home.detached-house": {
     "danish": "parcelhus",
@@ -402,7 +402,7 @@
     "gender": "das",
     "danishDefinite": "parcelhuset",
     "danishIndefinite": "et parcelhus",
-    "tier": 3
+    "tier": 4
   },
   "home.terraced-house": {
     "danish": "rækkehus",
@@ -411,7 +411,7 @@
     "gender": "das",
     "danishDefinite": "rækkehuset",
     "danishIndefinite": "et rækkehus",
-    "tier": 3
+    "tier": 4
   },
   "home.storage-room": {
     "danish": "depotrum",
@@ -420,7 +420,7 @@
     "gender": "der",
     "danishDefinite": "depotrummet",
     "danishIndefinite": "et depotrum",
-    "tier": 3
+    "tier": 4
   },
   "home.utility-room": {
     "danish": "bryggers",
@@ -429,7 +429,7 @@
     "gender": "der",
     "danishDefinite": "bryggerset",
     "danishIndefinite": "et bryggers",
-    "tier": 3
+    "tier": 5
   },
   "home.rent": {
     "danish": "husleje",
@@ -501,7 +501,7 @@
     "gender": "das",
     "danishDefinite": "køjesengen",
     "danishIndefinite": "en køjeseng",
-    "tier": 3
+    "tier": 4
   },
   "home.mattress": {
     "danish": "madras",
@@ -510,7 +510,7 @@
     "gender": "die",
     "danishDefinite": "madrassen",
     "danishIndefinite": "en madras",
-    "tier": 2
+    "tier": 3
   },
   "home.pillow": {
     "danish": "hovedpude",
@@ -519,7 +519,7 @@
     "gender": "das",
     "danishDefinite": "hovedpuden",
     "danishIndefinite": "en hovedpude",
-    "tier": 2
+    "tier": 3
   },
   "home.duvet": {
     "danish": "dyne",
@@ -528,7 +528,7 @@
     "gender": "die",
     "danishDefinite": "dynen",
     "danishIndefinite": "en dyne",
-    "tier": 2
+    "tier": 3
   },
   "home.bed-sheet": {
     "danish": "lagen",
@@ -537,7 +537,7 @@
     "gender": "das",
     "danishDefinite": "lagenet",
     "danishIndefinite": "et lagen",
-    "tier": 3
+    "tier": 4
   },
   "home.duvet-cover": {
     "danish": "dynebetræk",
@@ -546,7 +546,7 @@
     "gender": "der",
     "danishDefinite": "dynebetrækket",
     "danishIndefinite": "et dynebetræk",
-    "tier": 3
+    "tier": 4
   },
   "home.bed-linen": {
     "danish": "sengetøj",
@@ -555,7 +555,7 @@
     "gender": "die",
     "danishDefinite": "sengetøjet",
     "danishIndefinite": "et sengetøj",
-    "tier": 3
+    "tier": 4
   },
   "home.cot": {
     "danish": "tremmeseng",
@@ -564,7 +564,7 @@
     "gender": "das",
     "danishDefinite": "tremmesengen",
     "danishIndefinite": "en tremmeseng",
-    "tier": 3
+    "tier": 4
   },
   "home.cradle": {
     "danish": "vugge",
@@ -573,7 +573,7 @@
     "gender": "die",
     "danishDefinite": "vuggen",
     "danishIndefinite": "en vugge",
-    "tier": 3
+    "tier": 5
   },
   "home.high-chair": {
     "danish": "højstol",
@@ -582,7 +582,7 @@
     "gender": "der",
     "danishDefinite": "højstolen",
     "danishIndefinite": "en højstol",
-    "tier": 3
+    "tier": 4
   },
   "home.wardrobe": {
     "danish": "garderobeskab",
@@ -627,7 +627,7 @@
     "gender": "die",
     "danishDefinite": "kommoden",
     "danishIndefinite": "en kommode",
-    "tier": 3
+    "tier": 4
   },
   "home.drawer": {
     "danish": "skuffe",
@@ -636,7 +636,7 @@
     "gender": "die",
     "danishDefinite": "skuffen",
     "danishIndefinite": "en skuffe",
-    "tier": 2
+    "tier": 3
   },
   "home.bedside-table": {
     "danish": "natbord",
@@ -645,7 +645,7 @@
     "gender": "der",
     "danishDefinite": "natbordet",
     "danishIndefinite": "et natbord",
-    "tier": 3
+    "tier": 4
   },
   "home.coffee-table": {
     "danish": "sofabord",
@@ -654,7 +654,7 @@
     "gender": "der",
     "danishDefinite": "sofabordet",
     "danishIndefinite": "et sofabord",
-    "tier": 3
+    "tier": 4
   },
   "home.dining-table": {
     "danish": "spisebord",
@@ -672,7 +672,7 @@
     "gender": "der",
     "danishDefinite": "skamlen",
     "danishIndefinite": "en skammel",
-    "tier": 3
+    "tier": 4
   },
   "home.lamp": {
     "danish": "lampe",
@@ -690,7 +690,7 @@
     "gender": "die",
     "danishDefinite": "standerlampen",
     "danishIndefinite": "en standerlampe",
-    "tier": 3
+    "tier": 4
   },
   "home.lampshade": {
     "danish": "lampeskærm",
@@ -699,7 +699,7 @@
     "gender": "der",
     "danishDefinite": "lampeskærmen",
     "danishIndefinite": "en lampeskærm",
-    "tier": 3
+    "tier": 4
   },
   "home.candle": {
     "danish": "stearinlys",
@@ -708,7 +708,7 @@
     "gender": "die",
     "danishDefinite": "stearinlyset",
     "danishIndefinite": "et stearinlys",
-    "tier": 2
+    "tier": 3
   },
   "home.candlestick": {
     "danish": "lysestage",
@@ -717,7 +717,7 @@
     "gender": "der",
     "danishDefinite": "lysestagen",
     "danishIndefinite": "en lysestage",
-    "tier": 3
+    "tier": 4
   },
   "home.matches": {
     "danish": "tændstik",
@@ -726,7 +726,7 @@
     "gender": "das",
     "danishDefinite": "tændstikken",
     "danishIndefinite": "en tændstik",
-    "tier": 3
+    "tier": 4
   },
   "home.lighter": {
     "danish": "lighter",
@@ -744,7 +744,7 @@
     "gender": "der",
     "danishDefinite": "lysafbryderen",
     "danishIndefinite": "en lysafbryder",
-    "tier": 3
+    "tier": 4
   },
   "home.extension-lead": {
     "danish": "forlængerledning",
@@ -753,7 +753,7 @@
     "gender": "das",
     "danishDefinite": "forlængerledningen",
     "danishIndefinite": "en forlængerledning",
-    "tier": 3
+    "tier": 5
   },
   "home.television": {
     "danish": "fjernsyn",
@@ -771,7 +771,7 @@
     "gender": "die",
     "danishDefinite": "væguret",
     "danishIndefinite": "et vægur",
-    "tier": 2
+    "tier": 3
   },
   "home.alarm-clock": {
     "danish": "vækkeur",
@@ -798,7 +798,7 @@
     "gender": "das",
     "danishDefinite": "maleriet",
     "danishIndefinite": "et maleri",
-    "tier": 3
+    "tier": 4
   },
   "home.picture-frame": {
     "danish": "billedramme",
@@ -807,7 +807,7 @@
     "gender": "der",
     "danishDefinite": "billedrammen",
     "danishIndefinite": "en billedramme",
-    "tier": 3
+    "tier": 4
   },
   "home.vase": {
     "danish": "vase",
@@ -816,7 +816,7 @@
     "gender": "die",
     "danishDefinite": "vasen",
     "danishIndefinite": "en vase",
-    "tier": 2
+    "tier": 3
   },
   "home.flowerpot": {
     "danish": "blomsterpotte",
@@ -825,7 +825,7 @@
     "gender": "der",
     "danishDefinite": "blomsterpotten",
     "danishIndefinite": "en blomsterpotte",
-    "tier": 2
+    "tier": 3
   },
   "home.houseplant": {
     "danish": "potteplante",
@@ -834,7 +834,7 @@
     "gender": "die",
     "danishDefinite": "potteplanten",
     "danishIndefinite": "en potteplante",
-    "tier": 2
+    "tier": 3
   },
   "home.hook": {
     "danish": "knage",
@@ -843,7 +843,7 @@
     "gender": "der",
     "danishDefinite": "knagen",
     "danishIndefinite": "en knage",
-    "tier": 3
+    "tier": 4
   },
   "home.coat-rack": {
     "danish": "knagerække",
@@ -861,7 +861,7 @@
     "gender": "das",
     "danishDefinite": "skostativet",
     "danishIndefinite": "et skostativ",
-    "tier": 3
+    "tier": 4
   },
   "home.umbrella-stand": {
     "danish": "paraplystativ",
@@ -870,7 +870,7 @@
     "gender": "der",
     "danishDefinite": "paraplystativet",
     "danishIndefinite": "et paraplystativ",
-    "tier": 3
+    "tier": 5
   },
   "home.basket": {
     "danish": "kurv",
@@ -879,7 +879,7 @@
     "gender": "der",
     "danishDefinite": "kurven",
     "danishIndefinite": "en kurv",
-    "tier": 2
+    "tier": 3
   },
   "home.box": {
     "danish": "kasse",
@@ -888,7 +888,7 @@
     "gender": "die",
     "danishDefinite": "kassen",
     "danishIndefinite": "en kasse",
-    "tier": 2
+    "tier": 3
   },
   "home.bag": {
     "danish": "pose",
@@ -906,7 +906,7 @@
     "gender": "das",
     "danishDefinite": "strygebrættet",
     "danishIndefinite": "et strygebræt",
-    "tier": 3
+    "tier": 4
   },
   "home.washing-line": {
     "danish": "tørresnor",
@@ -915,7 +915,7 @@
     "gender": "die",
     "danishDefinite": "tørresnoren",
     "danishIndefinite": "en tørresnor",
-    "tier": 3
+    "tier": 4
   },
   "home.drying-rack": {
     "danish": "tørrestativ",
@@ -924,7 +924,7 @@
     "gender": "der",
     "danishDefinite": "tørrestativet",
     "danishIndefinite": "et tørrestativ",
-    "tier": 3
+    "tier": 4
   },
   "home.laundry-basket": {
     "danish": "vasketøjskurv",
@@ -933,7 +933,7 @@
     "gender": "der",
     "danishDefinite": "vasketøjskurven",
     "danishIndefinite": "en vasketøjskurv",
-    "tier": 3
+    "tier": 4
   },
   "home.detergent": {
     "danish": "vaskepulver",
@@ -951,7 +951,7 @@
     "gender": "der",
     "danishDefinite": "støvsugeren",
     "danishIndefinite": "en støvsuger",
-    "tier": 2
+    "tier": 3
   },
   "home.broom": {
     "danish": "kost",
@@ -960,7 +960,7 @@
     "gender": "der",
     "danishDefinite": "kosten",
     "danishIndefinite": "en kost",
-    "tier": 2
+    "tier": 3
   },
   "home.dustpan": {
     "danish": "fejebakke",
@@ -969,7 +969,7 @@
     "gender": "die",
     "danishDefinite": "fejebakken",
     "danishIndefinite": "en fejebakke",
-    "tier": 3
+    "tier": 5
   },
   "home.mop": {
     "danish": "gulvmoppe",
@@ -978,7 +978,7 @@
     "gender": "der",
     "danishDefinite": "gulvmoppen",
     "danishIndefinite": "en gulvmoppe",
-    "tier": 3
+    "tier": 5
   },
   "home.bucket": {
     "danish": "spand",
@@ -987,7 +987,7 @@
     "gender": "der",
     "danishDefinite": "spanden",
     "danishIndefinite": "en spand",
-    "tier": 2
+    "tier": 3
   },
   "home.sponge": {
     "danish": "svamp",
@@ -996,7 +996,7 @@
     "gender": "der",
     "danishDefinite": "svampen",
     "danishIndefinite": "en svamp",
-    "tier": 2
+    "tier": 3
   },
   "home.cleaning-cloth": {
     "danish": "klud",
@@ -1005,7 +1005,7 @@
     "gender": "der",
     "danishDefinite": "kluden",
     "danishIndefinite": "en klud",
-    "tier": 2
+    "tier": 3
   },
   "home.cleaning-product": {
     "danish": "rengøringsmiddel",
@@ -1014,7 +1014,7 @@
     "gender": "das",
     "danishDefinite": "rengøringsmidlet",
     "danishIndefinite": "et rengøringsmiddel",
-    "tier": 3
+    "tier": 4
   },
   "home.housework": {
     "danish": "husarbejde",
@@ -1023,7 +1023,7 @@
     "gender": "die",
     "danishDefinite": "husarbejdet",
     "danishIndefinite": "et husarbejde",
-    "tier": 2
+    "tier": 3
   },
   "home.washing-up": {
     "danish": "opvask",
@@ -1032,7 +1032,7 @@
     "gender": "der",
     "danishDefinite": "opvasken",
     "danishIndefinite": "en opvask",
-    "tier": 2
+    "tier": 3
   },
   "home.rubbish": {
     "danish": "affald",
@@ -1050,7 +1050,7 @@
     "gender": "der",
     "danishDefinite": "affaldsposen",
     "danishIndefinite": "en affaldspose",
-    "tier": 3
+    "tier": 4
   },
   "home.dust": {
     "danish": "støv",
@@ -1059,7 +1059,7 @@
     "gender": "der",
     "danishDefinite": "støvet",
     "danishIndefinite": "et støv",
-    "tier": 2
+    "tier": 3
   },
   "home.dirt": {
     "danish": "snavs",
@@ -1068,7 +1068,7 @@
     "gender": "der",
     "danishDefinite": "snavset",
     "danishIndefinite": "et snavs",
-    "tier": 2
+    "tier": 3
   },
   "home.bathtub": {
     "danish": "badekar",
@@ -1095,7 +1095,7 @@
     "gender": "das",
     "danishDefinite": "håndvasken",
     "danishIndefinite": "en håndvask",
-    "tier": 2
+    "tier": 3
   },
   "home.toilet-paper": {
     "danish": "toiletpapir",
@@ -1113,7 +1113,7 @@
     "gender": "der",
     "danishDefinite": "elmåleren",
     "danishIndefinite": "en elmåler",
-    "tier": 3
+    "tier": 5
   },
   "home.fuse": {
     "danish": "sikring",
@@ -1122,7 +1122,7 @@
     "gender": "die",
     "danishDefinite": "sikringen",
     "danishIndefinite": "en sikring",
-    "tier": 3
+    "tier": 4
   },
   "home.power-cut": {
     "danish": "strømafbrydelse",
@@ -1131,7 +1131,7 @@
     "gender": "der",
     "danishDefinite": "strømafbrydelsen",
     "danishIndefinite": "en strømafbrydelse",
-    "tier": 3
+    "tier": 4
   },
   "home.smoke-detector": {
     "danish": "røgalarm",
@@ -1140,7 +1140,7 @@
     "gender": "der",
     "danishDefinite": "røgalarmen",
     "danishIndefinite": "en røgalarm",
-    "tier": 3
+    "tier": 4
   },
   "home.fire-extinguisher": {
     "danish": "ildslukker",
@@ -1149,7 +1149,7 @@
     "gender": "der",
     "danishDefinite": "ildslukkeren",
     "danishIndefinite": "en ildslukker",
-    "tier": 3
+    "tier": 4
   },
   "home.first-aid-kit": {
     "danish": "førstehjælpskasse",
@@ -1158,6 +1158,6 @@
     "gender": "der",
     "danishDefinite": "førstehjælpskassen",
     "danishIndefinite": "en førstehjælpskasse",
-    "tier": 3
+    "tier": 4
   }
 }

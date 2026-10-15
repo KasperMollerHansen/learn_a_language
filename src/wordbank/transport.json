@@ -42,7 +42,7 @@
     "gender": "das",
     "danishDefinite": "knallerten",
     "danishIndefinite": "en knallert",
-    "tier": 3
+    "tier": 4
   },
   "transport.scooter": {
     "danish": "løbehjul",
@@ -51,7 +51,7 @@
     "gender": "der",
     "danishDefinite": "løbehjulet",
     "danishIndefinite": "et løbehjul",
-    "tier": 3
+    "tier": 4
   },
   "transport.lorry": {
     "danish": "lastbil",
@@ -60,7 +60,7 @@
     "gender": "der",
     "danishDefinite": "lastbilen",
     "danishIndefinite": "en lastbil",
-    "tier": 2
+    "tier": 3
   },
   "transport.van": {
     "danish": "varevogn",
@@ -69,7 +69,7 @@
     "gender": "der",
     "danishDefinite": "varevognen",
     "danishIndefinite": "en varevogn",
-    "tier": 3
+    "tier": 4
   },
   "transport.tram": {
     "danish": "sporvogn",
@@ -132,7 +132,7 @@
     "gender": "der",
     "danishDefinite": "helikopteren",
     "danishIndefinite": "en helikopter",
-    "tier": 3
+    "tier": 4
   },
   "transport.tractor": {
     "danish": "traktor",
@@ -141,7 +141,7 @@
     "gender": "der",
     "danishDefinite": "traktoren",
     "danishIndefinite": "en traktor",
-    "tier": 3
+    "tier": 4
   },
   "transport.fire-engine": {
     "danish": "brandbil",
@@ -168,7 +168,7 @@
     "gender": "der",
     "danishDefinite": "anhængeren",
     "danishIndefinite": "en anhænger",
-    "tier": 3
+    "tier": 4
   },
   "transport.vehicle": {
     "danish": "køretøj",
@@ -177,7 +177,7 @@
     "gender": "das",
     "danishDefinite": "køretøjet",
     "danishIndefinite": "et køretøj",
-    "tier": 3
+    "tier": 4
   },
   "transport.traffic": {
     "danish": "trafik",
@@ -204,7 +204,7 @@
     "gender": "der",
     "danishDefinite": "myldretiden",
     "danishIndefinite": "en myldretid",
-    "tier": 3
+    "tier": 4
   },
   "transport.accident": {
     "danish": "ulykke",
@@ -222,7 +222,7 @@
     "gender": "die",
     "danishDefinite": "farten",
     "danishIndefinite": "en fart",
-    "tier": 2
+    "tier": 3
   },
   "transport.speed-limit": {
     "danish": "hastighedsgrænse",
@@ -231,7 +231,7 @@
     "gender": "das",
     "danishDefinite": "hastighedsgrænsen",
     "danishIndefinite": "en hastighedsgrænse",
-    "tier": 3
+    "tier": 4
   },
   "transport.speed-camera": {
     "danish": "fartkamera",
@@ -240,7 +240,7 @@
     "gender": "der",
     "danishDefinite": "fartkameraet",
     "danishIndefinite": "et fartkamera",
-    "tier": 3
+    "tier": 5
   },
   "transport.fine": {
     "danish": "bøde",
@@ -249,7 +249,7 @@
     "gender": "das",
     "danishDefinite": "bøden",
     "danishIndefinite": "en bøde",
-    "tier": 3
+    "tier": 5
   },
   "transport.registration-plate": {
     "danish": "nummerplade",
@@ -258,7 +258,7 @@
     "gender": "das",
     "danishDefinite": "nummerpladen",
     "danishIndefinite": "en nummerplade",
-    "tier": 3
+    "tier": 4
   },
   "transport.pedestrian": {
     "danish": "fodgænger",
@@ -267,7 +267,7 @@
     "gender": "der",
     "danishDefinite": "fodgængeren",
     "danishIndefinite": "en fodgænger",
-    "tier": 2
+    "tier": 3
   },
   "transport.bus-driver": {
     "danish": "buschauffør",
@@ -285,7 +285,7 @@
     "gender": "der",
     "danishDefinite": "kontrolløren",
     "danishIndefinite": "en kontrollør",
-    "tier": 3
+    "tier": 4
   },
   "transport.steering-wheel": {
     "danish": "rat",
@@ -294,7 +294,7 @@
     "gender": "das",
     "danishDefinite": "rattet",
     "danishIndefinite": "et rat",
-    "tier": 3
+    "tier": 4
   },
   "transport.wheel": {
     "danish": "hjul",
@@ -312,7 +312,7 @@
     "gender": "der",
     "danishDefinite": "dækket",
     "danishIndefinite": "et dæk",
-    "tier": 2
+    "tier": 3
   },
   "transport.brake": {
     "danish": "bremse",
@@ -321,7 +321,7 @@
     "gender": "die",
     "danishDefinite": "bremsen",
     "danishIndefinite": "en bremse",
-    "tier": 2
+    "tier": 3
   },
   "transport.car-horn": {
     "danish": "bilhorn",
@@ -330,7 +330,7 @@
     "gender": "die",
     "danishDefinite": "bilhornet",
     "danishIndefinite": "et bilhorn",
-    "tier": 3
+    "tier": 4
   },
   "transport.headlight": {
     "danish": "forlygte",
@@ -339,7 +339,7 @@
     "gender": "der",
     "danishDefinite": "forlygten",
     "danishIndefinite": "en forlygte",
-    "tier": 3
+    "tier": 4
   },
   "transport.indicator": {
     "danish": "blinklys",
@@ -348,7 +348,7 @@
     "gender": "der",
     "danishDefinite": "blinklyset",
     "danishIndefinite": "et blinklys",
-    "tier": 3
+    "tier": 5
   },
   "transport.windscreen": {
     "danish": "forrude",
@@ -357,7 +357,7 @@
     "gender": "die",
     "danishDefinite": "forruden",
     "danishIndefinite": "en forrude",
-    "tier": 3
+    "tier": 5
   },
   "transport.windscreen-wiper": {
     "danish": "vinduesvisker",
@@ -366,7 +366,7 @@
     "gender": "der",
     "danishDefinite": "vinduesviskeren",
     "danishIndefinite": "en vinduesvisker",
-    "tier": 3
+    "tier": 5
   },
   "transport.seat-belt": {
     "danish": "sikkerhedssele",
@@ -375,7 +375,7 @@
     "gender": "der",
     "danishDefinite": "sikkerhedsselen",
     "danishIndefinite": "en sikkerhedssele",
-    "tier": 3
+    "tier": 4
   },
   "transport.boot": {
     "danish": "bagagerum",
@@ -384,7 +384,7 @@
     "gender": "der",
     "danishDefinite": "bagagerummet",
     "danishIndefinite": "et bagagerum",
-    "tier": 3
+    "tier": 4
   },
   "transport.car-door": {
     "danish": "bildør",
@@ -411,7 +411,7 @@
     "gender": "der",
     "danishDefinite": "dieselen",
     "danishIndefinite": "en diesel",
-    "tier": 3
+    "tier": 4
   },
   "transport.electric-car": {
     "danish": "elbil",
@@ -429,7 +429,7 @@
     "gender": "die",
     "danishDefinite": "ladestanderen",
     "danishIndefinite": "en ladestander",
-    "tier": 3
+    "tier": 5
   },
   "transport.breakdown": {
     "danish": "motorstop",
@@ -438,7 +438,7 @@
     "gender": "die",
     "danishDefinite": "motorstoppet",
     "danishIndefinite": "et motorstop",
-    "tier": 3
+    "tier": 4
   },
   "transport.puncture": {
     "danish": "punktering",
@@ -447,7 +447,7 @@
     "gender": "die",
     "danishDefinite": "punkteringen",
     "danishIndefinite": "en punktering",
-    "tier": 3
+    "tier": 4
   },
   "transport.bike-lock": {
     "danish": "cykellås",
@@ -456,7 +456,7 @@
     "gender": "das",
     "danishDefinite": "cykellåsen",
     "danishIndefinite": "en cykellås",
-    "tier": 3
+    "tier": 4
   },
   "transport.helmet": {
     "danish": "cykelhjelm",
@@ -465,7 +465,7 @@
     "gender": "der",
     "danishDefinite": "cykelhjelmen",
     "danishIndefinite": "en cykelhjelm",
-    "tier": 3
+    "tier": 4
   },
   "transport.saddle": {
     "danish": "sadel",
@@ -474,7 +474,7 @@
     "gender": "der",
     "danishDefinite": "sadlen",
     "danishIndefinite": "en sadel",
-    "tier": 3
+    "tier": 5
   },
   "transport.pedal": {
     "danish": "pedal",
@@ -483,7 +483,7 @@
     "gender": "das",
     "danishDefinite": "pedalen",
     "danishIndefinite": "en pedal",
-    "tier": 3
+    "tier": 5
   },
   "transport.handlebars": {
     "danish": "styr",
@@ -492,37 +492,37 @@
     "gender": "der",
     "danishDefinite": "styret",
     "danishIndefinite": "et styr",
-    "tier": 3
+    "tier": 5
   },
   "transport.brake-verb": {
     "danish": "at bremse",
     "german": "bremsen",
     "english": "to brake",
-    "tier": 2
+    "tier": 3
   },
   "transport.reverse": {
     "danish": "at bakke",
     "german": "rückwärtsfahren",
     "english": "to reverse",
-    "tier": 3
+    "tier": 4
   },
   "transport.board": {
     "danish": "at stige ombord",
     "german": "an Bord gehen",
     "english": "to board",
-    "tier": 3
+    "tier": 4
   },
   "transport.speed-up": {
     "danish": "at accelerere",
     "german": "beschleunigen",
     "english": "to accelerate",
-    "tier": 3
+    "tier": 5
   },
   "transport.slow-down": {
     "danish": "at sænke farten",
     "german": "verlangsamen",
     "english": "to slow down",
-    "tier": 3
+    "tier": 5
   },
   "transport.road-sign": {
     "danish": "færdselstegn",
@@ -531,7 +531,7 @@
     "gender": "das",
     "danishDefinite": "færdselstegnet",
     "danishIndefinite": "et færdselstegn",
-    "tier": 3
+    "tier": 4
   },
   "transport.roundabout": {
     "danish": "rundkørsel",
@@ -540,7 +540,7 @@
     "gender": "der",
     "danishDefinite": "rundkørslen",
     "danishIndefinite": "en rundkørsel",
-    "tier": 3
+    "tier": 4
   },
   "transport.one-way-street": {
     "danish": "ensrettet vej",
@@ -549,7 +549,7 @@
     "gender": "die",
     "danishDefinite": "den ensrettede vej",
     "danishIndefinite": "en ensrettet vej",
-    "tier": 3
+    "tier": 4
   },
   "transport.dead-end": {
     "danish": "blind vej",
@@ -558,7 +558,7 @@
     "gender": "die",
     "danishDefinite": "den blinde vej",
     "danishIndefinite": "en blind vej",
-    "tier": 3
+    "tier": 4
   },
   "transport.diversion": {
     "danish": "omkørsel",
@@ -567,7 +567,7 @@
     "gender": "die",
     "danishDefinite": "omkørslen",
     "danishIndefinite": "en omkørsel",
-    "tier": 3
+    "tier": 4
   },
   "transport.toll": {
     "danish": "vejafgift",
@@ -576,7 +576,7 @@
     "gender": "die",
     "danishDefinite": "vejafgiften",
     "danishIndefinite": "en vejafgift",
-    "tier": 3
+    "tier": 5
   },
   "transport.public-transport": {
     "danish": "kollektiv trafik",
@@ -585,7 +585,7 @@
     "gender": "der",
     "danishDefinite": "den kollektive trafik",
     "danishIndefinite": "en kollektiv trafik",
-    "tier": 3
+    "tier": 4
   },
   "transport.hard-shoulder": {
     "danish": "nødspor",
@@ -594,7 +594,7 @@
     "gender": "der",
     "danishDefinite": "nødsporet",
     "danishIndefinite": "et nødspor",
-    "tier": 3
+    "tier": 5
   },
   "transport.motorway-junction": {
     "danish": "frakørsel",
@@ -612,7 +612,7 @@
     "gender": "die",
     "danishDefinite": "tilkørslen",
     "danishIndefinite": "en tilkørsel",
-    "tier": 3
+    "tier": 5
   },
   "transport.petrol-price": {
     "danish": "benzinpris",
@@ -621,7 +621,7 @@
     "gender": "der",
     "danishDefinite": "benzinprisen",
     "danishIndefinite": "en benzinpris",
-    "tier": 3
+    "tier": 4
   },
   "transport.car-wash": {
     "danish": "bilvask",
@@ -630,7 +630,7 @@
     "gender": "die",
     "danishDefinite": "bilvasken",
     "danishIndefinite": "en bilvask",
-    "tier": 3
+    "tier": 4
   },
   "transport.bus-ticket": {
     "danish": "busbillet",
@@ -675,7 +675,7 @@
     "gender": "der",
     "danishDefinite": "billetprisen",
     "danishIndefinite": "en billetpris",
-    "tier": 3
+    "tier": 4
   },
   "transport.ticket-machine": {
     "danish": "billetautomat",
@@ -693,7 +693,7 @@
     "gender": "die",
     "danishDefinite": "billetkontrollen",
     "danishIndefinite": "en billetkontrol",
-    "tier": 3
+    "tier": 4
   },
   "transport.railway-track": {
     "danish": "spor",
@@ -711,7 +711,7 @@
     "gender": "die",
     "danishDefinite": "jernbanen",
     "danishIndefinite": "en jernbane",
-    "tier": 2
+    "tier": 3
   },
   "transport.rail": {
     "danish": "skinne",
@@ -720,7 +720,7 @@
     "gender": "die",
     "danishDefinite": "skinnen",
     "danishIndefinite": "en skinne",
-    "tier": 3
+    "tier": 4
   },
   "transport.locomotive": {
     "danish": "lokomotiv",
@@ -729,7 +729,7 @@
     "gender": "die",
     "danishDefinite": "lokomotivet",
     "danishIndefinite": "et lokomotiv",
-    "tier": 3
+    "tier": 5
   },
   "transport.carriage": {
     "danish": "togvogn",
@@ -738,7 +738,7 @@
     "gender": "der",
     "danishDefinite": "togvognen",
     "danishIndefinite": "en togvogn",
-    "tier": 3
+    "tier": 5
   },
   "transport.express-train": {
     "danish": "lyntog",
@@ -747,7 +747,7 @@
     "gender": "der",
     "danishDefinite": "lyntoget",
     "danishIndefinite": "et lyntog",
-    "tier": 3
+    "tier": 4
   },
   "transport.night-train": {
     "danish": "nattog",
@@ -756,7 +756,7 @@
     "gender": "der",
     "danishDefinite": "nattoget",
     "danishIndefinite": "et nattog",
-    "tier": 3
+    "tier": 4
   },
   "transport.high-speed-train": {
     "danish": "højhastighedstog",
@@ -765,7 +765,7 @@
     "gender": "der",
     "danishDefinite": "højhastighedstoget",
     "danishIndefinite": "et højhastighedstog",
-    "tier": 3
+    "tier": 5
   },
   "transport.compartment": {
     "danish": "kupé",
@@ -774,7 +774,7 @@
     "gender": "das",
     "danishDefinite": "kupéen",
     "danishIndefinite": "en kupé",
-    "tier": 3
+    "tier": 4
   },
   "transport.dining-car": {
     "danish": "spisevogn",
@@ -783,7 +783,7 @@
     "gender": "der",
     "danishDefinite": "spisevognen",
     "danishIndefinite": "en spisevogn",
-    "tier": 3
+    "tier": 4
   },
   "transport.seat-reservation": {
     "danish": "pladsreservation",
@@ -792,7 +792,7 @@
     "gender": "die",
     "danishDefinite": "pladsreservationen",
     "danishIndefinite": "en pladsreservation",
-    "tier": 3
+    "tier": 4
   },
   "transport.bus-station": {
     "danish": "rutebilstation",
@@ -801,7 +801,7 @@
     "gender": "der",
     "danishDefinite": "rutebilstationen",
     "danishIndefinite": "en rutebilstation",
-    "tier": 3
+    "tier": 4
   },
   "transport.bus-lane": {
     "danish": "busbane",
@@ -810,7 +810,7 @@
     "gender": "die",
     "danishDefinite": "busbanen",
     "danishIndefinite": "en busbane",
-    "tier": 3
+    "tier": 5
   },
   "transport.taxi-driver": {
     "danish": "taxachauffør",
@@ -828,7 +828,7 @@
     "gender": "der",
     "danishDefinite": "taxaholdepladsen",
     "danishIndefinite": "en taxaholdeplads",
-    "tier": 3
+    "tier": 4
   },
   "transport.rental-car": {
     "danish": "lejebil",
@@ -837,7 +837,7 @@
     "gender": "der",
     "danishDefinite": "lejebilen",
     "danishIndefinite": "en lejebil",
-    "tier": 3
+    "tier": 4
   },
   "transport.carsharing": {
     "danish": "bildeling",
@@ -846,7 +846,7 @@
     "gender": "das",
     "danishDefinite": "bildelingen",
     "danishIndefinite": "en bildeling",
-    "tier": 3
+    "tier": 4
   },
   "transport.city-bike": {
     "danish": "bycykel",
@@ -855,7 +855,7 @@
     "gender": "das",
     "danishDefinite": "bycyklen",
     "danishIndefinite": "en bycykel",
-    "tier": 3
+    "tier": 5
   },
   "transport.cargo-ship": {
     "danish": "fragtskib",
@@ -864,7 +864,7 @@
     "gender": "das",
     "danishDefinite": "fragtskibet",
     "danishIndefinite": "et fragtskib",
-    "tier": 3
+    "tier": 5
   },
   "transport.sailing-boat": {
     "danish": "sejlbåd",
@@ -873,7 +873,7 @@
     "gender": "das",
     "danishDefinite": "sejlbåden",
     "danishIndefinite": "en sejlbåd",
-    "tier": 2
+    "tier": 3
   },
   "transport.rowing-boat": {
     "danish": "robåd",
@@ -882,7 +882,7 @@
     "gender": "das",
     "danishDefinite": "robåden",
     "danishIndefinite": "en robåd",
-    "tier": 3
+    "tier": 4
   },
   "transport.anchor": {
     "danish": "anker",
@@ -891,7 +891,7 @@
     "gender": "der",
     "danishDefinite": "ankeret",
     "danishIndefinite": "et anker",
-    "tier": 3
+    "tier": 5
   },
   "transport.lifejacket": {
     "danish": "redningsvest",
@@ -900,6 +900,6 @@
     "gender": "die",
     "danishDefinite": "redningsvesten",
     "danishIndefinite": "en redningsvest",
-    "tier": 3
+    "tier": 5
   }
 }

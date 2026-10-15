@@ -15,7 +15,7 @@
     "danish": "at bytte",
     "german": "umtauschen",
     "english": "to exchange",
-    "tier": 2
+    "tier": 3
   },
   "shopping.price": {
     "danish": "pris",
@@ -42,7 +42,7 @@
     "gender": "die",
     "danishDefinite": "tegnebogen",
     "danishIndefinite": "en tegnebog",
-    "tier": 2
+    "tier": 3
   },
   "shopping.receipt": {
     "danish": "kvittering",
@@ -51,7 +51,7 @@
     "gender": "der",
     "danishDefinite": "kvitteringen",
     "danishIndefinite": "en kvittering",
-    "tier": 2
+    "tier": 3
   },
   "shopping.checkout": {
     "danish": "kasseapparat",
@@ -69,7 +69,7 @@
     "gender": "der",
     "danishDefinite": "kassereren",
     "danishIndefinite": "en kasserer",
-    "tier": 3
+    "tier": 4
   },
   "shopping.offer": {
     "danish": "tilbud",
@@ -87,7 +87,7 @@
     "gender": "der",
     "danishDefinite": "udsalget",
     "danishIndefinite": "et udsalg",
-    "tier": 3
+    "tier": 4
   },
   "shopping.discount": {
     "danish": "rabat",
@@ -96,7 +96,7 @@
     "gender": "der",
     "danishDefinite": "rabatten",
     "danishIndefinite": "en rabat",
-    "tier": 2
+    "tier": 3
   },
   "shopping.bargain": {
     "danish": "kup",
@@ -105,7 +105,7 @@
     "gender": "das",
     "danishDefinite": "kuppet",
     "danishIndefinite": "et kup",
-    "tier": 3
+    "tier": 4
   },
   "shopping.voucher": {
     "danish": "gavekort",
@@ -123,7 +123,7 @@
     "gender": "der",
     "danishDefinite": "rabatkuponen",
     "danishIndefinite": "en rabatkupon",
-    "tier": 3
+    "tier": 4
   },
   "shopping.affordable": {
     "danish": "prisvenlig",
@@ -135,7 +135,7 @@
     "danish": "på lager",
     "german": "vorrätig",
     "english": "in stock",
-    "tier": 3
+    "tier": 5
   },
   "shopping.open-adj": {
     "danish": "åben",
@@ -168,7 +168,7 @@
     "gender": "der",
     "danishDefinite": "shoppingturen",
     "danishIndefinite": "en shoppingtur",
-    "tier": 3
+    "tier": 4
   },
   "shopping.delivery": {
     "danish": "levering",
@@ -177,7 +177,7 @@
     "gender": "die",
     "danishDefinite": "leveringen",
     "danishIndefinite": "en levering",
-    "tier": 2
+    "tier": 3
   },
   "shopping.packaging": {
     "danish": "emballage",
@@ -186,7 +186,7 @@
     "gender": "die",
     "danishDefinite": "emballagen",
     "danishIndefinite": "en emballage",
-    "tier": 3
+    "tier": 4
   },
   "shopping.brand": {
     "danish": "varemærke",
@@ -204,7 +204,7 @@
     "gender": "das",
     "danishDefinite": "produktet",
     "danishIndefinite": "et produkt",
-    "tier": 2
+    "tier": 3
   },
   "shopping.goods": {
     "danish": "vare",
@@ -213,7 +213,7 @@
     "gender": "die",
     "danishDefinite": "varen",
     "danishIndefinite": "en vare",
-    "tier": 2
+    "tier": 3
   },
   "shopping.too-big": {
     "danish": "for stor",
@@ -252,7 +252,7 @@
     "gender": "der",
     "danishDefinite": "købmanden",
     "danishIndefinite": "en købmand",
-    "tier": 3
+    "tier": 4
   },
   "shopping.corner-shop": {
     "danish": "nærbutik",
@@ -261,7 +261,7 @@
     "gender": "der",
     "danishDefinite": "nærbutikken",
     "danishIndefinite": "en nærbutik",
-    "tier": 3
+    "tier": 5
   },
   "shopping.toy-shop": {
     "danish": "legetøjsbutik",
@@ -270,7 +270,7 @@
     "gender": "das",
     "danishDefinite": "legetøjsbutikken",
     "danishIndefinite": "en legetøjsbutik",
-    "tier": 3
+    "tier": 4
   },
   "shopping.electronics-shop": {
     "danish": "elektronikbutik",
@@ -279,7 +279,7 @@
     "gender": "das",
     "danishDefinite": "elektronikbutikken",
     "danishIndefinite": "en elektronikbutik",
-    "tier": 3
+    "tier": 4
   },
   "shopping.jeweller": {
     "danish": "guldsmed",
@@ -288,7 +288,7 @@
     "gender": "der",
     "danishDefinite": "guldsmeden",
     "danishIndefinite": "en guldsmed",
-    "tier": 3
+    "tier": 4
   },
   "shopping.optician": {
     "danish": "optiker",
@@ -297,7 +297,7 @@
     "gender": "der",
     "danishDefinite": "optikeren",
     "danishIndefinite": "en optiker",
-    "tier": 3
+    "tier": 4
   },
   "shopping.fishmonger": {
     "danish": "fiskeforretning",
@@ -306,7 +306,7 @@
     "gender": "das",
     "danishDefinite": "fiskeforretningen",
     "danishIndefinite": "en fiskeforretning",
-    "tier": 3
+    "tier": 4
   },
   "shopping.greengrocer": {
     "danish": "grønthandler",
@@ -315,7 +315,7 @@
     "gender": "der",
     "danishDefinite": "grønthandleren",
     "danishIndefinite": "en grønthandler",
-    "tier": 3
+    "tier": 4
   },
   "shopping.pet-shop": {
     "danish": "dyrehandel",
@@ -324,7 +324,7 @@
     "gender": "die",
     "danishDefinite": "dyrehandelen",
     "danishIndefinite": "en dyrehandel",
-    "tier": 3
+    "tier": 4
   },
   "shopping.stall": {
     "danish": "salgsstand",
@@ -333,7 +333,7 @@
     "gender": "der",
     "danishDefinite": "salgsstanden",
     "danishIndefinite": "en salgsstand",
-    "tier": 3
+    "tier": 4
   },
   "shopping.flea-market": {
     "danish": "loppemarked",
@@ -348,7 +348,7 @@
     "danish": "brugt",
     "german": "gebraucht",
     "english": "second-hand",
-    "tier": 2
+    "tier": 3
   },
   "shopping.queue": {
     "danish": "kø",
@@ -357,7 +357,7 @@
     "gender": "die",
     "danishDefinite": "køen",
     "danishIndefinite": "en kø",
-    "tier": 2
+    "tier": 3
   },
   "shopping.birthday-present": {
     "danish": "fødselsdagsgave",
@@ -375,7 +375,7 @@
     "gender": "die",
     "danishDefinite": "reklamen",
     "danishIndefinite": "en reklame",
-    "tier": 2
+    "tier": 3
   },
   "shopping.instalment": {
     "danish": "afdrag",
@@ -384,7 +384,7 @@
     "gender": "die",
     "danishDefinite": "afdraget",
     "danishIndefinite": "et afdrag",
-    "tier": 3
+    "tier": 4
   },
   "shopping.payment": {
     "danish": "betaling",
@@ -393,7 +393,7 @@
     "gender": "die",
     "danishDefinite": "betalingen",
     "danishIndefinite": "en betaling",
-    "tier": 2
+    "tier": 3
   },
   "shopping.card-payment": {
     "danish": "kortbetaling",
@@ -402,7 +402,7 @@
     "gender": "die",
     "danishDefinite": "kortbetalingen",
     "danishIndefinite": "en kortbetaling",
-    "tier": 3
+    "tier": 4
   },
   "shopping.by-card": {
     "danish": "med kort",
@@ -423,7 +423,7 @@
     "gender": "die",
     "danishDefinite": "momsen",
     "danishIndefinite": "en moms",
-    "tier": 3
+    "tier": 5
   },
   "shopping.guarantee": {
     "danish": "garanti",
@@ -441,7 +441,7 @@
     "gender": "die",
     "danishDefinite": "reklamationen",
     "danishIndefinite": "en reklamation",
-    "tier": 3
+    "tier": 4
   },
   "shopping.refund": {
     "danish": "tilbagebetaling",
@@ -450,6 +450,6 @@
     "gender": "die",
     "danishDefinite": "tilbagebetalingen",
     "danishIndefinite": "en tilbagebetaling",
-    "tier": 3
+    "tier": 5
   }
 }

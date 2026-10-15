@@ -33,7 +33,7 @@
     "gender": "die",
     "danishDefinite": "udgiften",
     "danishIndefinite": "en udgift",
-    "tier": 3
+    "tier": 4
   },
   "money.revenue": {
     "danish": "indtægt",
@@ -42,7 +42,7 @@
     "gender": "die",
     "danishDefinite": "indtægten",
     "danishIndefinite": "en indtægt",
-    "tier": 3
+    "tier": 4
   },
   "money.income": {
     "danish": "indkomst",
@@ -51,7 +51,7 @@
     "gender": "das",
     "danishDefinite": "indkomsten",
     "danishIndefinite": "en indkomst",
-    "tier": 2
+    "tier": 3
   },
   "money.profit": {
     "danish": "fortjeneste",
@@ -60,7 +60,7 @@
     "gender": "der",
     "danishDefinite": "fortjenesten",
     "danishIndefinite": "en fortjeneste",
-    "tier": 2
+    "tier": 3
   },
   "money.loss": {
     "danish": "tab",
@@ -69,7 +69,7 @@
     "gender": "der",
     "danishDefinite": "tabet",
     "danishIndefinite": "et tab",
-    "tier": 2
+    "tier": 3
   },
   "money.loan": {
     "danish": "lån",
@@ -78,7 +78,7 @@
     "gender": "der",
     "danishDefinite": "lånet",
     "danishIndefinite": "et lån",
-    "tier": 2
+    "tier": 3
   },
   "money.interest": {
     "danish": "rente",
@@ -87,7 +87,7 @@
     "gender": "der",
     "danishDefinite": "renten",
     "danishIndefinite": "en rente",
-    "tier": 2
+    "tier": 3
   },
   "money.budget": {
     "danish": "budget",
@@ -96,7 +96,7 @@
     "gender": "das",
     "danishDefinite": "budgettet",
     "danishIndefinite": "et budget",
-    "tier": 2
+    "tier": 3
   },
   "money.income-tax": {
     "danish": "indkomstskat",
@@ -105,7 +105,7 @@
     "gender": "die",
     "danishDefinite": "indkomstskatten",
     "danishIndefinite": "en indkomstskat",
-    "tier": 3
+    "tier": 5
   },
   "money.till-receipt": {
     "danish": "kassebon",
@@ -114,7 +114,7 @@
     "gender": "der",
     "danishDefinite": "kassebonnen",
     "danishIndefinite": "en kassebon",
-    "tier": 2
+    "tier": 3
   },
   "money.bank-transfer": {
     "danish": "overførsel",
@@ -123,7 +123,7 @@
     "gender": "die",
     "danishDefinite": "overførslen",
     "danishIndefinite": "en overførsel",
-    "tier": 2
+    "tier": 3
   },
   "money.deposit": {
     "danish": "depositum",
@@ -132,7 +132,7 @@
     "gender": "die",
     "danishDefinite": "depositummet",
     "danishIndefinite": "et depositum",
-    "tier": 2
+    "tier": 3
   },
   "money.fee": {
     "danish": "gebyr",
@@ -141,7 +141,7 @@
     "gender": "die",
     "danishDefinite": "gebyret",
     "danishIndefinite": "et gebyr",
-    "tier": 2
+    "tier": 3
   },
   "money.insurance": {
     "danish": "forsikring",
@@ -150,7 +150,7 @@
     "gender": "die",
     "danishDefinite": "forsikringen",
     "danishIndefinite": "en forsikring",
-    "tier": 2
+    "tier": 3
   },
   "money.share": {
     "danish": "aktie",
@@ -159,7 +159,7 @@
     "gender": "die",
     "danishDefinite": "aktien",
     "danishIndefinite": "en aktie",
-    "tier": 2
+    "tier": 3
   },
   "money.stock-exchange": {
     "danish": "børs",
@@ -168,7 +168,7 @@
     "gender": "die",
     "danishDefinite": "børsen",
     "danishIndefinite": "en børs",
-    "tier": 3
+    "tier": 4
   },
   "money.investment": {
     "danish": "investering",
@@ -177,7 +177,7 @@
     "gender": "die",
     "danishDefinite": "investeringen",
     "danishIndefinite": "en investering",
-    "tier": 3
+    "tier": 5
   },
   "money.investor": {
     "danish": "investor",
@@ -186,7 +186,7 @@
     "gender": "der",
     "danishDefinite": "investoren",
     "danishIndefinite": "en investor",
-    "tier": 3
+    "tier": 5
   },
   "money.economy": {
     "danish": "økonomi",
@@ -195,7 +195,7 @@
     "gender": "die",
     "danishDefinite": "økonomien",
     "danishIndefinite": "en økonomi",
-    "tier": 2
+    "tier": 3
   },
   "money.crisis": {
     "danish": "krise",
@@ -204,7 +204,7 @@
     "gender": "die",
     "danishDefinite": "krisen",
     "danishIndefinite": "en krise",
-    "tier": 2
+    "tier": 3
   },
   "money.inflation": {
     "danish": "inflation",
@@ -213,7 +213,7 @@
     "gender": "die",
     "danishDefinite": "inflationen",
     "danishIndefinite": "en inflation",
-    "tier": 3
+    "tier": 4
   },
   "money.euro": {
     "danish": "euro",
@@ -231,7 +231,7 @@
     "gender": "der",
     "danishDefinite": "valutakursen",
     "danishIndefinite": "en valutakurs",
-    "tier": 3
+    "tier": 4
   },
   "money.wealth": {
     "danish": "rigdom",
@@ -240,7 +240,7 @@
     "gender": "der",
     "danishDefinite": "rigdommen",
     "danishIndefinite": "en rigdom",
-    "tier": 3
+    "tier": 4
   },
   "money.poverty": {
     "danish": "fattigdom",
@@ -249,7 +249,7 @@
     "gender": "die",
     "danishDefinite": "fattigdommen",
     "danishIndefinite": "en fattigdom",
-    "tier": 3
+    "tier": 4
   },
   "money.bankruptcy": {
     "danish": "konkurs",
@@ -258,7 +258,7 @@
     "gender": "die",
     "danishDefinite": "konkursen",
     "danishIndefinite": "en konkurs",
-    "tier": 3
+    "tier": 5
   },
   "money.price-tag": {
     "danish": "prisskilt",
@@ -267,7 +267,7 @@
     "gender": "das",
     "danishDefinite": "prisskiltet",
     "danishIndefinite": "et prisskilt",
-    "tier": 3
+    "tier": 4
   },
   "money.bargain": {
     "danish": "godt køb",
@@ -276,7 +276,7 @@
     "gender": "das",
     "danishDefinite": "det gode køb",
     "danishIndefinite": "et godt køb",
-    "tier": 3
+    "tier": 4
   },
   "money.cheque": {
     "danish": "check",
@@ -285,7 +285,7 @@
     "gender": "der",
     "danishDefinite": "checken",
     "danishIndefinite": "en check",
-    "tier": 3
+    "tier": 4
   },
   "money.mortgage": {
     "danish": "boliglån",
@@ -294,7 +294,7 @@
     "gender": "die",
     "danishDefinite": "boliglånet",
     "danishIndefinite": "et boliglån",
-    "tier": 3
+    "tier": 5
   },
   "money.millionaire": {
     "danish": "millionær",
@@ -303,7 +303,7 @@
     "gender": "der",
     "danishDefinite": "millionæren",
     "danishIndefinite": "en millionær",
-    "tier": 3
+    "tier": 4
   },
   "money.capital": {
     "danish": "kapital",
@@ -312,7 +312,7 @@
     "gender": "das",
     "danishDefinite": "kapitalen",
     "danishIndefinite": "en kapital",
-    "tier": 3
+    "tier": 5
   },
   "money.turnover": {
     "danish": "omsætning",
@@ -321,7 +321,7 @@
     "gender": "der",
     "danishDefinite": "omsætningen",
     "danishIndefinite": "en omsætning",
-    "tier": 2
+    "tier": 3
   },
   "money.account-balance": {
     "danish": "saldo",
@@ -330,7 +330,7 @@
     "gender": "der",
     "danishDefinite": "saldoen",
     "danishIndefinite": "en saldo",
-    "tier": 3
+    "tier": 4
   },
   "money.subsidy": {
     "danish": "tilskud",
@@ -339,7 +339,7 @@
     "gender": "der",
     "danishDefinite": "tilskuddet",
     "danishIndefinite": "et tilskud",
-    "tier": 3
+    "tier": 5
   },
   "money.pay": {
     "danish": "at betale",
@@ -351,13 +351,13 @@
     "danish": "at skylde",
     "german": "schulden",
     "english": "to owe",
-    "tier": 3
+    "tier": 4
   },
   "money.withdraw-money": {
     "danish": "at hæve",
     "german": "abheben",
     "english": "to withdraw money",
-    "tier": 2
+    "tier": 3
   },
   "money.afford": {
     "danish": "at have råd til",

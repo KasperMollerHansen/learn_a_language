@@ -51,7 +51,7 @@
     "gender": "das",
     "danishDefinite": "destinationen",
     "danishIndefinite": "en destination",
-    "tier": 2
+    "tier": 3
   },
   "travel.journey": {
     "danish": "rejse",
@@ -69,7 +69,7 @@
     "gender": "die",
     "danishDefinite": "ferierejsen",
     "danishIndefinite": "en ferierejse",
-    "tier": 2
+    "tier": 3
   },
   "travel.travel": {
     "danish": "at rejse",
@@ -93,7 +93,7 @@
     "gender": "die",
     "danishDefinite": "rundrejsen",
     "danishIndefinite": "en rundrejse",
-    "tier": 3
+    "tier": 4
   },
   "travel.city-break": {
     "danish": "storbyferie",
@@ -102,7 +102,7 @@
     "gender": "der",
     "danishDefinite": "storbyferien",
     "danishIndefinite": "en storbyferie",
-    "tier": 3
+    "tier": 4
   },
   "travel.excursion": {
     "danish": "udflugt",
@@ -156,7 +156,7 @@
     "gender": "die",
     "danishDefinite": "kysten",
     "danishIndefinite": "en kyst",
-    "tier": 2
+    "tier": 3
   },
   "travel.island": {
     "danish": "ø",
@@ -219,7 +219,7 @@
     "gender": "der",
     "danishDefinite": "campingvognen",
     "danishIndefinite": "en campingvogn",
-    "tier": 3
+    "tier": 4
   },
   "travel.cruise": {
     "danish": "krydstogt",
@@ -228,7 +228,7 @@
     "gender": "die",
     "danishDefinite": "krydstogtet",
     "danishIndefinite": "et krydstogt",
-    "tier": 3
+    "tier": 4
   },
   "travel.ferry": {
     "danish": "færge",
@@ -237,7 +237,7 @@
     "gender": "die",
     "danishDefinite": "færgen",
     "danishIndefinite": "en færge",
-    "tier": 2
+    "tier": 3
   },
   "travel.hostel": {
     "danish": "vandrerhjem",
@@ -336,7 +336,7 @@
     "gender": "die",
     "danishDefinite": "nøglekortet",
     "danishIndefinite": "et nøglekort",
-    "tier": 3
+    "tier": 4
   },
   "travel.reservation": {
     "danish": "reservation",
@@ -345,7 +345,7 @@
     "gender": "die",
     "danishDefinite": "reservationen",
     "danishIndefinite": "en reservation",
-    "tier": 2
+    "tier": 3
   },
   "travel.booking": {
     "danish": "booking",
@@ -354,7 +354,7 @@
     "gender": "die",
     "danishDefinite": "bookingen",
     "danishIndefinite": "en booking",
-    "tier": 2
+    "tier": 3
   },
   "travel.book": {
     "danish": "at booke",
@@ -372,7 +372,7 @@
     "danish": "at annullere",
     "german": "stornieren",
     "english": "to cancel",
-    "tier": 3
+    "tier": 4
   },
   "travel.cancellation": {
     "danish": "annullering",
@@ -381,7 +381,7 @@
     "gender": "die",
     "danishDefinite": "annulleringen",
     "danishIndefinite": "en annullering",
-    "tier": 3
+    "tier": 4
   },
   "travel.check-in": {
     "danish": "indtjekning",
@@ -390,7 +390,7 @@
     "gender": "der",
     "danishDefinite": "indtjekningen",
     "danishIndefinite": "en indtjekning",
-    "tier": 3
+    "tier": 4
   },
   "travel.check-out": {
     "danish": "udtjekning",
@@ -399,7 +399,7 @@
     "gender": "der",
     "danishDefinite": "udtjekningen",
     "danishIndefinite": "en udtjekning",
-    "tier": 3
+    "tier": 4
   },
   "travel.half-board": {
     "danish": "halvpension",
@@ -435,7 +435,7 @@
     "gender": "der",
     "danishDefinite": "havudsigten",
     "danishIndefinite": "en havudsigt",
-    "tier": 3
+    "tier": 4
   },
   "travel.view": {
     "danish": "udsigt",
@@ -444,7 +444,7 @@
     "gender": "die",
     "danishDefinite": "udsigten",
     "danishIndefinite": "en udsigt",
-    "tier": 2
+    "tier": 3
   },
   "travel.overnight-stay": {
     "danish": "overnatning",
@@ -462,7 +462,7 @@
     "gender": "der",
     "danishDefinite": "receptionisten",
     "danishIndefinite": "en receptionist",
-    "tier": 3
+    "tier": 4
   },
   "travel.porter": {
     "danish": "dørmand",
@@ -471,7 +471,7 @@
     "gender": "der",
     "danishDefinite": "dørmanden",
     "danishIndefinite": "en dørmand",
-    "tier": 3
+    "tier": 5
   },
   "travel.travel-bag": {
     "danish": "rejsetaske",
@@ -498,7 +498,7 @@
     "gender": "der",
     "danishDefinite": "bagagemærket",
     "danishIndefinite": "et bagagemærke",
-    "tier": 3
+    "tier": 5
   },
   "travel.luggage-trolley": {
     "danish": "bagagevogn",
@@ -507,7 +507,7 @@
     "gender": "der",
     "danishDefinite": "bagagevognen",
     "danishIndefinite": "en bagagevogn",
-    "tier": 3
+    "tier": 4
   },
   "travel.pack": {
     "danish": "at pakke",
@@ -519,7 +519,7 @@
     "danish": "at pakke ud",
     "german": "auspacken",
     "english": "to unpack",
-    "tier": 2
+    "tier": 3
   },
   "travel.visa": {
     "danish": "visum",
@@ -528,7 +528,7 @@
     "gender": "das",
     "danishDefinite": "visummet",
     "danishIndefinite": "et visum",
-    "tier": 3
+    "tier": 4
   },
   "travel.ticket": {
     "danish": "billet",
@@ -546,7 +546,7 @@
     "gender": "die",
     "danishDefinite": "boardingkortet",
     "danishIndefinite": "et boardingkort",
-    "tier": 3
+    "tier": 4
   },
   "travel.timetable": {
     "danish": "køreplan",
@@ -582,7 +582,7 @@
     "gender": "die",
     "danishDefinite": "afrejsen",
     "danishIndefinite": "en afrejse",
-    "tier": 2
+    "tier": 3
   },
   "travel.arrive": {
     "danish": "at ankomme",
@@ -639,7 +639,7 @@
     "gender": "das",
     "danishDefinite": "terminalen",
     "danishIndefinite": "en terminal",
-    "tier": 3
+    "tier": 4
   },
   "travel.gate": {
     "danish": "afgangsgate",
@@ -648,7 +648,7 @@
     "gender": "das",
     "danishDefinite": "afgangsgaten",
     "danishIndefinite": "en afgangsgate",
-    "tier": 3
+    "tier": 4
   },
   "travel.flight": {
     "danish": "flyvning",
@@ -675,7 +675,7 @@
     "gender": "die",
     "danishDefinite": "stewardessen",
     "danishIndefinite": "en stewardesse",
-    "tier": 3
+    "tier": 4
   },
   "travel.seat": {
     "danish": "sæde",
@@ -684,7 +684,7 @@
     "gender": "der",
     "danishDefinite": "sædet",
     "danishIndefinite": "et sæde",
-    "tier": 2
+    "tier": 3
   },
   "travel.window-seat": {
     "danish": "vinduesplads",
@@ -702,7 +702,7 @@
     "gender": "der",
     "danishDefinite": "midtergangen",
     "danishIndefinite": "en midtergang",
-    "tier": 3
+    "tier": 4
   },
   "travel.take-off": {
     "danish": "start",
@@ -711,7 +711,7 @@
     "gender": "der",
     "danishDefinite": "starten",
     "danishIndefinite": "en start",
-    "tier": 3
+    "tier": 4
   },
   "travel.landing": {
     "danish": "landing",
@@ -720,7 +720,7 @@
     "gender": "die",
     "danishDefinite": "landingen",
     "danishIndefinite": "en landing",
-    "tier": 3
+    "tier": 4
   },
   "travel.customs": {
     "danish": "told",
@@ -729,7 +729,7 @@
     "gender": "der",
     "danishDefinite": "tolden",
     "danishIndefinite": "en told",
-    "tier": 2
+    "tier": 3
   },
   "travel.border": {
     "danish": "grænse",
@@ -738,7 +738,7 @@
     "gender": "die",
     "danishDefinite": "grænsen",
     "danishIndefinite": "en grænse",
-    "tier": 2
+    "tier": 3
   },
   "travel.security-check": {
     "danish": "sikkerhedskontrol",
@@ -747,7 +747,7 @@
     "gender": "die",
     "danishDefinite": "sikkerhedskontrollen",
     "danishIndefinite": "en sikkerhedskontrol",
-    "tier": 3
+    "tier": 4
   },
   "travel.passport-control": {
     "danish": "paskontrol",
@@ -756,13 +756,13 @@
     "gender": "die",
     "danishDefinite": "paskontrollen",
     "danishIndefinite": "en paskontrol",
-    "tier": 3
+    "tier": 4
   },
   "travel.duty-free": {
     "danish": "toldfri",
     "german": "zollfrei",
     "english": "duty-free",
-    "tier": 3
+    "tier": 5
   },
   "travel.currency": {
     "danish": "valuta",
@@ -771,7 +771,7 @@
     "gender": "die",
     "danishDefinite": "valutaen",
     "danishIndefinite": "en valuta",
-    "tier": 3
+    "tier": 4
   },
   "travel.exchange": {
     "danish": "at veksle",
@@ -786,7 +786,7 @@
     "gender": "die",
     "danishDefinite": "vekselkontoret",
     "danishIndefinite": "et vekselkontor",
-    "tier": 3
+    "tier": 5
   },
   "travel.information": {
     "danish": "information",
@@ -813,7 +813,7 @@
     "gender": "die",
     "danishDefinite": "landkortet",
     "danishIndefinite": "et landkort",
-    "tier": 2
+    "tier": 3
   },
   "travel.compass": {
     "danish": "kompas",
@@ -822,7 +822,7 @@
     "gender": "der",
     "danishDefinite": "kompasset",
     "danishIndefinite": "et kompas",
-    "tier": 3
+    "tier": 4
   },
   "travel.direction": {
     "danish": "retning",
@@ -840,7 +840,7 @@
     "gender": "die",
     "danishDefinite": "ruten",
     "danishIndefinite": "en rute",
-    "tier": 3
+    "tier": 4
   },
   "travel.distance": {
     "danish": "afstand",
@@ -849,7 +849,7 @@
     "gender": "die",
     "danishDefinite": "afstanden",
     "danishIndefinite": "en afstand",
-    "tier": 2
+    "tier": 3
   },
   "travel.kilometre": {
     "danish": "kilometer",
@@ -882,13 +882,13 @@
     "danish": "at dreje",
     "german": "abbiegen",
     "english": "to turn",
-    "tier": 2
+    "tier": 3
   },
   "travel.turn-around": {
     "danish": "at vende om",
     "german": "umkehren",
     "english": "to turn around",
-    "tier": 3
+    "tier": 4
   },
   "travel.get-lost": {
     "danish": "at fare vild",
@@ -900,7 +900,7 @@
     "danish": "at finde vej",
     "german": "sich zurechtfinden",
     "english": "to find one's way",
-    "tier": 3
+    "tier": 4
   },
   "travel.ask-way": {
     "danish": "at spørge om vej",
@@ -936,7 +936,7 @@
     "danish": "bagved",
     "german": "dahinter",
     "english": "behind it",
-    "tier": 2
+    "tier": 3
   },
   "travel.at-the-end": {
     "danish": "for enden af",
@@ -951,7 +951,7 @@
     "gender": "das",
     "danishDefinite": "souveniren",
     "danishIndefinite": "en souvenir",
-    "tier": 2
+    "tier": 3
   },
   "travel.sunglasses": {
     "danish": "solbrille",
@@ -987,7 +987,7 @@
     "gender": "die",
     "danishDefinite": "bølgen",
     "danishIndefinite": "en bølge",
-    "tier": 2
+    "tier": 3
   },
   "travel.sunbed": {
     "danish": "liggestol",
@@ -996,7 +996,7 @@
     "gender": "der",
     "danishDefinite": "liggestolen",
     "danishIndefinite": "en liggestol",
-    "tier": 3
+    "tier": 4
   },
   "travel.parasol": {
     "danish": "parasol",
@@ -1005,7 +1005,7 @@
     "gender": "der",
     "danishDefinite": "parasolen",
     "danishIndefinite": "en parasol",
-    "tier": 3
+    "tier": 4
   },
   "travel.hiking-trail": {
     "danish": "vandrerute",
@@ -1014,7 +1014,7 @@
     "gender": "der",
     "danishDefinite": "vandreruten",
     "danishIndefinite": "en vandrerute",
-    "tier": 3
+    "tier": 4
   },
   "travel.summit": {
     "danish": "bjergtop",
@@ -1023,7 +1023,7 @@
     "gender": "der",
     "danishDefinite": "bjergtoppen",
     "danishIndefinite": "en bjergtop",
-    "tier": 3
+    "tier": 4
   },
   "travel.valley": {
     "danish": "dal",
@@ -1032,7 +1032,7 @@
     "gender": "das",
     "danishDefinite": "dalen",
     "danishIndefinite": "en dal",
-    "tier": 2
+    "tier": 3
   },
   "travel.forest": {
     "danish": "skov",
@@ -1059,7 +1059,7 @@
     "gender": "der",
     "danishDefinite": "den rejsende",
     "danishIndefinite": "en rejsende",
-    "tier": 3
+    "tier": 4
   },
   "travel.attraction": {
     "danish": "attraktion",
@@ -1068,7 +1068,7 @@
     "gender": "die",
     "danishDefinite": "attraktionen",
     "danishIndefinite": "en attraktion",
-    "tier": 3
+    "tier": 4
   },
   "travel.admission-fee": {
     "danish": "entré",
@@ -1086,7 +1086,7 @@
     "gender": "die",
     "danishDefinite": "rejseforsikringen",
     "danishIndefinite": "en rejseforsikring",
-    "tier": 3
+    "tier": 4
   },
   "travel.emergency": {
     "danish": "nødsituation",

@@ -6,7 +6,7 @@
     "gender": "die",
     "danishDefinite": "additionen",
     "danishIndefinite": "en addition",
-    "tier": 2
+    "tier": 3
   },
   "science.subtraction": {
     "danish": "subtraktion",
@@ -15,7 +15,7 @@
     "gender": "die",
     "danishDefinite": "subtraktionen",
     "danishIndefinite": "en subtraktion",
-    "tier": 2
+    "tier": 3
   },
   "science.multiplication": {
     "danish": "multiplikation",
@@ -24,7 +24,7 @@
     "gender": "die",
     "danishDefinite": "multiplikationen",
     "danishIndefinite": "en multiplikation",
-    "tier": 2
+    "tier": 3
   },
   "science.division": {
     "danish": "division",
@@ -33,7 +33,7 @@
     "gender": "die",
     "danishDefinite": "divisionen",
     "danishIndefinite": "en division",
-    "tier": 2
+    "tier": 3
   },
   "science.fraction": {
     "danish": "brøk",
@@ -42,7 +42,7 @@
     "gender": "der",
     "danishDefinite": "brøken",
     "danishIndefinite": "en brøk",
-    "tier": 2
+    "tier": 3
   },
   "science.decimal-number": {
     "danish": "decimaltal",
@@ -51,7 +51,7 @@
     "gender": "die",
     "danishDefinite": "decimaltallet",
     "danishIndefinite": "et decimaltal",
-    "tier": 3
+    "tier": 4
   },
   "science.equation": {
     "danish": "ligning",
@@ -60,7 +60,7 @@
     "gender": "die",
     "danishDefinite": "ligningen",
     "danishIndefinite": "en ligning",
-    "tier": 3
+    "tier": 4
   },
   "science.formula": {
     "danish": "formel",
@@ -69,7 +69,7 @@
     "gender": "die",
     "danishDefinite": "formlen",
     "danishIndefinite": "en formel",
-    "tier": 2
+    "tier": 3
   },
   "science.average": {
     "danish": "gennemsnit",
@@ -78,7 +78,7 @@
     "gender": "der",
     "danishDefinite": "gennemsnittet",
     "danishIndefinite": "et gennemsnit",
-    "tier": 2
+    "tier": 3
   },
   "science.probability": {
     "danish": "sandsynlighed",
@@ -87,7 +87,7 @@
     "gender": "die",
     "danishDefinite": "sandsynligheden",
     "danishIndefinite": "en sandsynlighed",
-    "tier": 3
+    "tier": 4
   },
   "science.statistics": {
     "danish": "statistik",
@@ -96,7 +96,7 @@
     "gender": "die",
     "danishDefinite": "statistikken",
     "danishIndefinite": "en statistik",
-    "tier": 3
+    "tier": 4
   },
   "science.square": {
     "danish": "kvadrat",
@@ -105,7 +105,7 @@
     "gender": "das",
     "danishDefinite": "kvadratet",
     "danishIndefinite": "et kvadrat",
-    "tier": 2
+    "tier": 3
   },
   "science.rectangle": {
     "danish": "rektangel",
@@ -114,7 +114,7 @@
     "gender": "das",
     "danishDefinite": "rektanglet",
     "danishIndefinite": "et rektangel",
-    "tier": 2
+    "tier": 3
   },
   "science.triangle": {
     "danish": "trekant",
@@ -123,7 +123,7 @@
     "gender": "das",
     "danishDefinite": "trekanten",
     "danishIndefinite": "en trekant",
-    "tier": 2
+    "tier": 3
   },
   "science.circle": {
     "danish": "cirkel",
@@ -141,7 +141,7 @@
     "gender": "die",
     "danishDefinite": "kuglen",
     "danishIndefinite": "en kugle",
-    "tier": 2
+    "tier": 3
   },
   "science.cone": {
     "danish": "kegle",
@@ -150,7 +150,7 @@
     "gender": "der",
     "danishDefinite": "keglen",
     "danishIndefinite": "en kegle",
-    "tier": 3
+    "tier": 5
   },
   "science.cylinder": {
     "danish": "cylinder",
@@ -159,7 +159,7 @@
     "gender": "der",
     "danishDefinite": "cylinderen",
     "danishIndefinite": "en cylinder",
-    "tier": 3
+    "tier": 5
   },
   "science.pyramid": {
     "danish": "pyramide",
@@ -168,7 +168,7 @@
     "gender": "die",
     "danishDefinite": "pyramiden",
     "danishIndefinite": "en pyramide",
-    "tier": 2
+    "tier": 3
   },
   "science.angle": {
     "danish": "vinkel",
@@ -177,7 +177,7 @@
     "gender": "der",
     "danishDefinite": "vinklen",
     "danishIndefinite": "en vinkel",
-    "tier": 2
+    "tier": 3
   },
   "science.line": {
     "danish": "linje",
@@ -195,7 +195,7 @@
     "gender": "der",
     "danishDefinite": "radien",
     "danishIndefinite": "en radius",
-    "tier": 3
+    "tier": 4
   },
   "science.diameter": {
     "danish": "diameter",
@@ -204,7 +204,7 @@
     "gender": "der",
     "danishDefinite": "diameteren",
     "danishIndefinite": "en diameter",
-    "tier": 3
+    "tier": 4
   },
   "science.area": {
     "danish": "areal",
@@ -213,7 +213,7 @@
     "gender": "die",
     "danishDefinite": "arealet",
     "danishIndefinite": "et areal",
-    "tier": 3
+    "tier": 4
   },
   "science.volume": {
     "danish": "volumen",
@@ -222,7 +222,7 @@
     "gender": "das",
     "danishDefinite": "volumenet",
     "danishIndefinite": "et volumen",
-    "tier": 3
+    "tier": 4
   },
   "science.circumference": {
     "danish": "omkreds",
@@ -231,7 +231,7 @@
     "gender": "der",
     "danishDefinite": "omkredsen",
     "danishIndefinite": "en omkreds",
-    "tier": 3
+    "tier": 4
   },
   "science.millimeter": {
     "danish": "millimeter",
@@ -258,7 +258,7 @@
     "gender": "die",
     "danishDefinite": "tonnet",
     "danishIndefinite": "et ton",
-    "tier": 2
+    "tier": 3
   },
   "science.unit": {
     "danish": "enhed",
@@ -267,7 +267,7 @@
     "gender": "die",
     "danishDefinite": "enheden",
     "danishIndefinite": "en enhed",
-    "tier": 2
+    "tier": 3
   },
   "science.measurement": {
     "danish": "måling",
@@ -276,7 +276,7 @@
     "gender": "die",
     "danishDefinite": "målingen",
     "danishIndefinite": "en måling",
-    "tier": 3
+    "tier": 4
   },
   "science.speed": {
     "danish": "hastighed",
@@ -285,7 +285,7 @@
     "gender": "die",
     "danishDefinite": "hastigheden",
     "danishIndefinite": "en hastighed",
-    "tier": 2
+    "tier": 3
   },
   "science.force": {
     "danish": "kraft",
@@ -294,7 +294,7 @@
     "gender": "die",
     "danishDefinite": "kraften",
     "danishIndefinite": "en kraft",
-    "tier": 2
+    "tier": 3
   },
   "science.mass": {
     "danish": "masse",
@@ -303,7 +303,7 @@
     "gender": "die",
     "danishDefinite": "massen",
     "danishIndefinite": "en masse",
-    "tier": 3
+    "tier": 4
   },
   "science.pressure": {
     "danish": "tryk",
@@ -312,7 +312,7 @@
     "gender": "der",
     "danishDefinite": "trykket",
     "danishIndefinite": "et tryk",
-    "tier": 2
+    "tier": 3
   },
   "science.light": {
     "danish": "lys",
@@ -330,7 +330,7 @@
     "gender": "das",
     "danishDefinite": "atomet",
     "danishIndefinite": "et atom",
-    "tier": 3
+    "tier": 4
   },
   "science.molecule": {
     "danish": "molekyle",
@@ -339,7 +339,7 @@
     "gender": "das",
     "danishDefinite": "molekylet",
     "danishIndefinite": "et molekyle",
-    "tier": 3
+    "tier": 5
   },
   "science.chemical-element": {
     "danish": "grundstof",
@@ -348,7 +348,7 @@
     "gender": "das",
     "danishDefinite": "grundstoffet",
     "danishIndefinite": "et grundstof",
-    "tier": 3
+    "tier": 4
   },
   "science.oxygen": {
     "danish": "ilt",
@@ -357,7 +357,7 @@
     "gender": "der",
     "danishDefinite": "ilten",
     "danishIndefinite": "en ilt",
-    "tier": 2
+    "tier": 3
   },
   "science.hydrogen": {
     "danish": "brint",
@@ -366,7 +366,7 @@
     "gender": "der",
     "danishDefinite": "brinten",
     "danishIndefinite": "en brint",
-    "tier": 3
+    "tier": 4
   },
   "science.carbon": {
     "danish": "kulstof",
@@ -375,7 +375,7 @@
     "gender": "der",
     "danishDefinite": "kulstoffet",
     "danishIndefinite": "et kulstof",
-    "tier": 3
+    "tier": 5
   },
   "science.nitrogen": {
     "danish": "kvælstof",
@@ -384,7 +384,7 @@
     "gender": "der",
     "danishDefinite": "kvælstoffet",
     "danishIndefinite": "et kvælstof",
-    "tier": 3
+    "tier": 5
   },
   "science.acid": {
     "danish": "syre",
@@ -393,7 +393,7 @@
     "gender": "die",
     "danishDefinite": "syren",
     "danishIndefinite": "en syre",
-    "tier": 3
+    "tier": 4
   },
   "science.gene": {
     "danish": "gen",
@@ -402,7 +402,7 @@
     "gender": "das",
     "danishDefinite": "genet",
     "danishIndefinite": "et gen",
-    "tier": 3
+    "tier": 4
   },
   "science.evolution": {
     "danish": "evolution",
@@ -411,7 +411,7 @@
     "gender": "die",
     "danishDefinite": "evolutionen",
     "danishIndefinite": "en evolution",
-    "tier": 3
+    "tier": 4
   },
   "science.photosynthesis": {
     "danish": "fotosyntese",
@@ -420,7 +420,7 @@
     "gender": "die",
     "danishDefinite": "fotosyntesen",
     "danishIndefinite": "en fotosyntese",
-    "tier": 3
+    "tier": 5
   },
   "science.laboratory": {
     "danish": "laboratorium",
@@ -429,7 +429,7 @@
     "gender": "das",
     "danishDefinite": "laboratoriet",
     "danishIndefinite": "et laboratorium",
-    "tier": 2
+    "tier": 3
   },
   "science.microscope": {
     "danish": "mikroskop",
@@ -438,7 +438,7 @@
     "gender": "das",
     "danishDefinite": "mikroskopet",
     "danishIndefinite": "et mikroskop",
-    "tier": 2
+    "tier": 3
   },
   "science.asteroid": {
     "danish": "asteroide",
@@ -447,7 +447,7 @@
     "gender": "der",
     "danishDefinite": "asteroiden",
     "danishIndefinite": "en asteroide",
-    "tier": 3
+    "tier": 5
   },
   "science.orbit": {
     "danish": "kredsløb",
@@ -456,7 +456,7 @@
     "gender": "die",
     "danishDefinite": "kredsløbet",
     "danishIndefinite": "et kredsløb",
-    "tier": 3
+    "tier": 5
   },
   "science.calculation": {
     "danish": "beregning",
@@ -465,7 +465,7 @@
     "gender": "die",
     "danishDefinite": "beregningen",
     "danishIndefinite": "en beregning",
-    "tier": 3
+    "tier": 4
   },
   "science.hypothesis": {
     "danish": "hypotese",
@@ -474,7 +474,7 @@
     "gender": "die",
     "danishDefinite": "hypotesen",
     "danishIndefinite": "en hypotese",
-    "tier": 3
+    "tier": 5
   },
   "science.pendulum": {
     "danish": "pendul",
@@ -483,7 +483,7 @@
     "gender": "das",
     "danishDefinite": "pendulet",
     "danishIndefinite": "et pendul",
-    "tier": 3
+    "tier": 5
   },
   "science.electron": {
     "danish": "elektron",
@@ -492,7 +492,7 @@
     "gender": "das",
     "danishDefinite": "elektronen",
     "danishIndefinite": "en elektron",
-    "tier": 3
+    "tier": 5
   },
   "science.microbe": {
     "danish": "mikrobe",
@@ -501,7 +501,7 @@
     "gender": "die",
     "danishDefinite": "mikroben",
     "danishIndefinite": "en mikrobe",
-    "tier": 3
+    "tier": 5
   },
   "science.law-of-gravity": {
     "danish": "tyngdelov",
@@ -510,7 +510,7 @@
     "gender": "das",
     "danishDefinite": "tyngdeloven",
     "danishIndefinite": "en tyngdelov",
-    "tier": 3
+    "tier": 5
   },
   "science.magnifying-glass": {
     "danish": "lup",
@@ -519,7 +519,7 @@
     "gender": "die",
     "danishDefinite": "lupen",
     "danishIndefinite": "en lup",
-    "tier": 2
+    "tier": 3
   },
   "science.numerator": {
     "danish": "tæller",
@@ -528,7 +528,7 @@
     "gender": "der",
     "danishDefinite": "tælleren",
     "danishIndefinite": "en tæller",
-    "tier": 3
+    "tier": 5
   },
   "science.denominator": {
     "danish": "nævner",
@@ -537,7 +537,7 @@
     "gender": "der",
     "danishDefinite": "nævneren",
     "danishIndefinite": "en nævner",
-    "tier": 3
+    "tier": 5
   },
   "science.power-exponent": {
     "danish": "potens",
@@ -546,7 +546,7 @@
     "gender": "die",
     "danishDefinite": "potensen",
     "danishIndefinite": "en potens",
-    "tier": 3
+    "tier": 5
   },
   "science.prime-number": {
     "danish": "primtal",
@@ -555,7 +555,7 @@
     "gender": "die",
     "danishDefinite": "primtallet",
     "danishIndefinite": "et primtal",
-    "tier": 3
+    "tier": 5
   },
   "science.parallel-line": {
     "danish": "parallel",
@@ -564,7 +564,7 @@
     "gender": "die",
     "danishDefinite": "parallellen",
     "danishIndefinite": "en parallel",
-    "tier": 3
+    "tier": 5
   },
   "science.diagonal": {
     "danish": "diagonal",
@@ -573,7 +573,7 @@
     "gender": "die",
     "danishDefinite": "diagonalen",
     "danishIndefinite": "en diagonal",
-    "tier": 3
+    "tier": 5
   },
   "science.ellipse": {
     "danish": "ellipse",
@@ -582,7 +582,7 @@
     "gender": "die",
     "danishDefinite": "ellipsen",
     "danishIndefinite": "en ellipse",
-    "tier": 3
+    "tier": 5
   },
   "science.pentagon": {
     "danish": "femkant",
@@ -591,7 +591,7 @@
     "gender": "das",
     "danishDefinite": "femkanten",
     "danishIndefinite": "en femkant",
-    "tier": 3
+    "tier": 5
   },
   "science.hexagon": {
     "danish": "sekskant",
@@ -600,7 +600,7 @@
     "gender": "das",
     "danishDefinite": "sekskanten",
     "danishIndefinite": "en sekskant",
-    "tier": 3
+    "tier": 5
   },
   "science.coordinate-system": {
     "danish": "koordinatsystem",
@@ -609,7 +609,7 @@
     "gender": "das",
     "danishDefinite": "koordinatsystemet",
     "danishIndefinite": "et koordinatsystem",
-    "tier": 3
+    "tier": 5
   },
   "science.diagram": {
     "danish": "diagram",
@@ -618,7 +618,7 @@
     "gender": "das",
     "danishDefinite": "diagrammet",
     "danishIndefinite": "et diagram",
-    "tier": 2
+    "tier": 3
   },
   "science.table-data": {
     "danish": "tabel",
@@ -627,7 +627,7 @@
     "gender": "die",
     "danishDefinite": "tabellen",
     "danishIndefinite": "en tabel",
-    "tier": 2
+    "tier": 3
   },
   "science.width": {
     "danish": "bredde",
@@ -636,7 +636,7 @@
     "gender": "die",
     "danishDefinite": "bredden",
     "danishIndefinite": "en bredde",
-    "tier": 2
+    "tier": 3
   },
   "science.square-meter": {
     "danish": "kvadratmeter",
@@ -654,7 +654,7 @@
     "gender": "der",
     "danishDefinite": "kubikmeteren",
     "danishIndefinite": "en kubikmeter",
-    "tier": 3
+    "tier": 4
   },
   "science.ampere": {
     "danish": "ampere",
@@ -663,7 +663,7 @@
     "gender": "das",
     "danishDefinite": "amperet",
     "danishIndefinite": "et ampere",
-    "tier": 3
+    "tier": 5
   },
   "science.volt": {
     "danish": "volt",
@@ -672,7 +672,7 @@
     "gender": "das",
     "danishDefinite": "volten",
     "danishIndefinite": "en volt",
-    "tier": 3
+    "tier": 4
   },
   "science.watt": {
     "danish": "watt",
@@ -681,7 +681,7 @@
     "gender": "das",
     "danishDefinite": "watten",
     "danishIndefinite": "en watt",
-    "tier": 3
+    "tier": 4
   },
   "science.friction": {
     "danish": "friktion",
@@ -690,7 +690,7 @@
     "gender": "die",
     "danishDefinite": "friktionen",
     "danishIndefinite": "en friktion",
-    "tier": 3
+    "tier": 5
   },
   "science.acceleration": {
     "danish": "acceleration",
@@ -699,7 +699,7 @@
     "gender": "die",
     "danishDefinite": "accelerationen",
     "danishIndefinite": "en acceleration",
-    "tier": 3
+    "tier": 5
   },
   "science.light-year": {
     "danish": "lysår",
@@ -708,7 +708,7 @@
     "gender": "das",
     "danishDefinite": "lysåret",
     "danishIndefinite": "et lysår",
-    "tier": 3
+    "tier": 5
   },
   "science.light-ray": {
     "danish": "lysstråle",
@@ -717,7 +717,7 @@
     "gender": "der",
     "danishDefinite": "lysstrålen",
     "danishIndefinite": "en lysstråle",
-    "tier": 3
+    "tier": 5
   },
   "science.radiation": {
     "danish": "stråling",
@@ -726,7 +726,7 @@
     "gender": "die",
     "danishDefinite": "strålingen",
     "danishIndefinite": "en stråling",
-    "tier": 3
+    "tier": 4
   },
   "science.heat": {
     "danish": "varme",
@@ -735,7 +735,7 @@
     "gender": "die",
     "danishDefinite": "varmen",
     "danishIndefinite": "en varme",
-    "tier": 2
+    "tier": 3
   },
   "science.melting-point": {
     "danish": "smeltepunkt",
@@ -744,7 +744,7 @@
     "gender": "der",
     "danishDefinite": "smeltepunktet",
     "danishIndefinite": "et smeltepunkt",
-    "tier": 3
+    "tier": 5
   },
   "science.boiling-point": {
     "danish": "kogepunkt",
@@ -753,7 +753,7 @@
     "gender": "der",
     "danishDefinite": "kogepunktet",
     "danishIndefinite": "et kogepunkt",
-    "tier": 3
+    "tier": 5
   },
   "science.liquid": {
     "danish": "væske",
@@ -762,7 +762,7 @@
     "gender": "die",
     "danishDefinite": "væsken",
     "danishIndefinite": "en væske",
-    "tier": 2
+    "tier": 3
   },
   "science.solid": {
     "danish": "faststof",
@@ -771,7 +771,7 @@
     "gender": "der",
     "danishDefinite": "faststoffet",
     "danishIndefinite": "et faststof",
-    "tier": 3
+    "tier": 5
   },
   "science.mixture": {
     "danish": "blanding",
@@ -780,7 +780,7 @@
     "gender": "die",
     "danishDefinite": "blandingen",
     "danishIndefinite": "en blanding",
-    "tier": 2
+    "tier": 3
   },
   "science.reaction": {
     "danish": "reaktion",
@@ -789,7 +789,7 @@
     "gender": "die",
     "danishDefinite": "reaktionen",
     "danishIndefinite": "en reaktion",
-    "tier": 3
+    "tier": 4
   },
   "science.carbon-dioxide": {
     "danish": "kuldioxid",
@@ -798,7 +798,7 @@
     "gender": "das",
     "danishDefinite": "kuldioxiden",
     "danishIndefinite": "en kuldioxid",
-    "tier": 3
+    "tier": 4
   },
   "science.proton": {
     "danish": "proton",
@@ -807,7 +807,7 @@
     "gender": "das",
     "danishDefinite": "protonen",
     "danishIndefinite": "en proton",
-    "tier": 3
+    "tier": 5
   },
   "science.neutron": {
     "danish": "neutron",
@@ -816,7 +816,7 @@
     "gender": "das",
     "danishDefinite": "neutronen",
     "danishIndefinite": "en neutron",
-    "tier": 3
+    "tier": 5
   },
   "science.periodic-table": {
     "danish": "periodesystem",
@@ -825,7 +825,7 @@
     "gender": "das",
     "danishDefinite": "periodesystemet",
     "danishIndefinite": "et periodesystem",
-    "tier": 3
+    "tier": 5
   },
   "science.organism": {
     "danish": "organisme",
@@ -834,7 +834,7 @@
     "gender": "der",
     "danishDefinite": "organismen",
     "danishIndefinite": "en organisme",
-    "tier": 3
+    "tier": 5
   },
   "science.chromosome": {
     "danish": "kromosom",
@@ -843,7 +843,7 @@
     "gender": "das",
     "danishDefinite": "kromosomet",
     "danishIndefinite": "et kromosom",
-    "tier": 3
+    "tier": 5
   },
   "science.heredity": {
     "danish": "arvelighed",
@@ -852,7 +852,7 @@
     "gender": "die",
     "danishDefinite": "arveligheden",
     "danishIndefinite": "en arvelighed",
-    "tier": 3
+    "tier": 5
   },
   "science.observation": {
     "danish": "observation",
@@ -861,7 +861,7 @@
     "gender": "die",
     "danishDefinite": "observationen",
     "danishIndefinite": "en observation",
-    "tier": 3
+    "tier": 4
   },
   "science.conclusion": {
     "danish": "konklusion",
@@ -870,7 +870,7 @@
     "gender": "die",
     "danishDefinite": "konklusionen",
     "danishIndefinite": "en konklusion",
-    "tier": 3
+    "tier": 4
   },
   "science.unit-of-measurement": {
     "danish": "måleenhed",
@@ -879,7 +879,7 @@
     "gender": "die",
     "danishDefinite": "måleenheden",
     "danishIndefinite": "en måleenhed",
-    "tier": 3
+    "tier": 5
   },
   "science.compass-drawing": {
     "danish": "passer",
@@ -888,7 +888,7 @@
     "gender": "der",
     "danishDefinite": "passeren",
     "danishIndefinite": "en passer",
-    "tier": 3
+    "tier": 5
   },
   "science.protractor": {
     "danish": "vinkelmåler",
@@ -897,7 +897,7 @@
     "gender": "der",
     "danishDefinite": "vinkelmåleren",
     "danishIndefinite": "en vinkelmåler",
-    "tier": 3
+    "tier": 5
   },
   "science.calculator": {
     "danish": "regnemaskine",
@@ -915,7 +915,7 @@
     "gender": "der",
     "danishDefinite": "solvinden",
     "danishIndefinite": "en solvind",
-    "tier": 3
+    "tier": 5
   },
   "science.tides": {
     "danish": "tidevand",
@@ -924,7 +924,7 @@
     "gender": "die",
     "danishDefinite": "tidevandet",
     "danishIndefinite": "et tidevand",
-    "tier": 3
+    "tier": 5
   },
   "science.northern-lights": {
     "danish": "nordlys",
@@ -933,7 +933,7 @@
     "gender": "das",
     "danishDefinite": "nordlyset",
     "danishIndefinite": "et nordlys",
-    "tier": 3
+    "tier": 5
   },
   "science.milky-way": {
     "danish": "mælkevej",
@@ -942,7 +942,7 @@
     "gender": "die",
     "danishDefinite": "mælkevejen",
     "danishIndefinite": "en mælkevej",
-    "tier": 3
+    "tier": 4
   },
   "science.earth-axis": {
     "danish": "jordakse",
@@ -951,7 +951,7 @@
     "gender": "die",
     "danishDefinite": "jordaksen",
     "danishIndefinite": "en jordakse",
-    "tier": 3
+    "tier": 5
   },
   "science.space-station": {
     "danish": "rumstation",
@@ -960,7 +960,7 @@
     "gender": "die",
     "danishDefinite": "rumstationen",
     "danishIndefinite": "en rumstation",
-    "tier": 3
+    "tier": 4
   },
   "science.space-shuttle": {
     "danish": "rumfærge",
@@ -969,7 +969,7 @@
     "gender": "die",
     "danishDefinite": "rumfærgen",
     "danishIndefinite": "en rumfærge",
-    "tier": 3
+    "tier": 5
   },
   "science.spaceship": {
     "danish": "rumskib",
@@ -978,6 +978,6 @@
     "gender": "das",
     "danishDefinite": "rumskibet",
     "danishIndefinite": "et rumskib",
-    "tier": 2
+    "tier": 3
   }
 }

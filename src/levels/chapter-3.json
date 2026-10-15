@@ -1,7 +1,7 @@
 [
   {
     "id": "3-1",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
     "name": "People",
     "mode": "word",
     "prompt": "Find the German word for",
@@ -17,7 +17,7 @@
   },
   {
     "id": "3-2",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
     "name": "People with articles",
     "mode": "article",
     "prompt": "Choose the German form",
@@ -30,7 +30,7 @@
   },
   {
     "id": "3-3",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
     "name": "Describing words",
     "mode": "word",
     "prompt": "Find the German word for",
@@ -45,7 +45,7 @@
   },
   {
     "id": "3-4",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
     "name": "Small words",
     "mode": "word",
     "prompt": "Find the German word for",
@@ -61,7 +61,7 @@
   },
   {
     "id": "3-5",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
     "name": "Verbs",
     "mode": "word",
     "prompt": "Find the German word for",
@@ -74,7 +74,7 @@
   },
   {
     "id": "3-6",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
     "name": "Food and drink",
     "mode": "word",
     "prompt": "Find the German word for",
@@ -89,7 +89,7 @@
   },
   {
     "id": "3-7",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
     "name": "Home",
     "mode": "word",
     "prompt": "Find the German word for",
@@ -107,7 +107,7 @@
   },
   {
     "id": "3-8",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
     "name": "Body and clothes",
     "mode": "word",
     "prompt": "Find the German word for",
@@ -122,7 +122,7 @@
   },
   {
     "id": "3-9",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
     "name": "Nature",
     "mode": "word",
     "prompt": "Find the German word for",
@@ -138,7 +138,7 @@
   },
   {
     "id": "3-10",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
     "name": "Town and travel",
     "mode": "word",
     "prompt": "Find the German word for",
@@ -155,7 +155,7 @@
   },
   {
     "id": "3-11",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
     "name": "Free time",
     "mode": "word",
     "prompt": "Find the German word for",
@@ -170,7 +170,7 @@
   },
   {
     "id": "3-12",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
     "name": "Work and school",
     "mode": "word",
     "prompt": "Find the German word for",
@@ -191,12 +191,12 @@
   },
   {
     "id": "3-13",
-    "chapter": "Chapter 3 · Advanced",
-    "name": "Modal verbs",
+    "chapter": "Chapter 3 · Confident",
+    "name": "Words that look alike",
     "mode": "word",
-    "prompt": "Translate the Danish sentence into German",
+    "prompt": "Translate the Danish word into German",
     "categories": [
-      "modals"
+      "spelling"
     ],
     "tiers": [
       3
@@ -204,7 +204,21 @@
   },
   {
     "id": "3-14",
-    "chapter": "Chapter 3 · Advanced",
+    "chapter": "Chapter 3 · Confident",
+    "name": "Sentences",
+    "mode": "word",
+    "prompt": "Translate the Danish sentence into German",
+    "categories": [
+      "modals",
+      "sentences"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-15",
+    "chapter": "Chapter 3 · Confident",
     "name": "Review",
     "mode": "word",
     "prompt": "Find the German word for",
@@ -263,8 +277,8 @@
     ]
   },
   {
-    "id": "3-15",
-    "chapter": "Chapter 3 · Advanced",
+    "id": "3-16",
+    "chapter": "Chapter 3 · Confident",
     "name": "Sentence builder",
     "mode": "sentence",
     "prompt": "Build the German sentence one chunk at a time",

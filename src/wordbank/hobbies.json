@@ -42,7 +42,7 @@
     "gender": "das",
     "danishDefinite": "skakspillet",
     "danishIndefinite": "et skakspil",
-    "tier": 2
+    "tier": 3
   },
   "hobbies.drawing": {
     "danish": "tegning",
@@ -51,7 +51,7 @@
     "gender": "die",
     "danishDefinite": "tegningen",
     "danishIndefinite": "en tegning",
-    "tier": 2
+    "tier": 3
   },
   "hobbies.novel": {
     "danish": "roman",
@@ -60,7 +60,7 @@
     "gender": "der",
     "danishDefinite": "romanen",
     "danishIndefinite": "en roman",
-    "tier": 2
+    "tier": 3
   },
   "hobbies.collection": {
     "danish": "samling",
@@ -69,7 +69,7 @@
     "gender": "die",
     "danishDefinite": "samlingen",
     "danishIndefinite": "en samling",
-    "tier": 2
+    "tier": 3
   },
   "hobbies.walk": {
     "danish": "spadseretur",
@@ -87,7 +87,7 @@
     "gender": "das",
     "danishDefinite": "bålet",
     "danishIndefinite": "et bål",
-    "tier": 2
+    "tier": 3
   },
   "hobbies.fishing-rod": {
     "danish": "fiskestang",
@@ -96,7 +96,7 @@
     "gender": "die",
     "danishDefinite": "fiskestangen",
     "danishIndefinite": "en fiskestang",
-    "tier": 2
+    "tier": 3
   },
   "hobbies.picnic": {
     "danish": "picnic",
@@ -132,19 +132,19 @@
     "gender": "der",
     "danishDefinite": "limen",
     "danishIndefinite": "en lim",
-    "tier": 2
+    "tier": 3
   },
   "hobbies.to-sunbathe": {
     "danish": "at sole sig",
     "german": "sich sonnen",
     "english": "to sunbathe",
-    "tier": 2
+    "tier": 3
   },
   "hobbies.creative": {
     "danish": "kreativ",
     "german": "kreativ",
     "english": "creative",
-    "tier": 2
+    "tier": 3
   },
   "hobbies.interested": {
     "danish": "interesseret",
@@ -165,7 +165,7 @@
     "gender": "die",
     "danishDefinite": "staffeliet",
     "danishIndefinite": "et staffeli",
-    "tier": 3
+    "tier": 5
   },
   "hobbies.artwork": {
     "danish": "kunstværk",
@@ -174,7 +174,7 @@
     "gender": "das",
     "danishDefinite": "kunstværket",
     "danishIndefinite": "et kunstværk",
-    "tier": 3
+    "tier": 4
   },
   "hobbies.sketch": {
     "danish": "skitse",
@@ -183,7 +183,7 @@
     "gender": "die",
     "danishDefinite": "skitsen",
     "danishIndefinite": "en skitse",
-    "tier": 3
+    "tier": 4
   },
   "hobbies.poem": {
     "danish": "digt",
@@ -198,13 +198,13 @@
     "danish": "at brodere",
     "german": "sticken",
     "english": "to embroider",
-    "tier": 3
+    "tier": 5
   },
   "hobbies.to-weave": {
     "danish": "at væve",
     "german": "weben",
     "english": "to weave",
-    "tier": 3
+    "tier": 5
   },
   "hobbies.knitting-needle": {
     "danish": "strikkepind",
@@ -213,7 +213,7 @@
     "gender": "die",
     "danishDefinite": "strikkepinden",
     "danishIndefinite": "en strikkepind",
-    "tier": 3
+    "tier": 5
   },
   "hobbies.yarn": {
     "danish": "garn",
@@ -222,7 +222,7 @@
     "gender": "das",
     "danishDefinite": "garnet",
     "danishIndefinite": "et garn",
-    "tier": 3
+    "tier": 5
   },
   "hobbies.binoculars": {
     "danish": "kikkert",
@@ -231,13 +231,13 @@
     "gender": "das",
     "danishDefinite": "kikkerten",
     "danishIndefinite": "en kikkert",
-    "tier": 3
+    "tier": 4
   },
   "hobbies.to-pick": {
     "danish": "at plukke",
     "german": "pflücken",
     "english": "to pick",
-    "tier": 3
+    "tier": 4
   },
   "hobbies.riddle": {
     "danish": "gåde",
@@ -255,7 +255,7 @@
     "gender": "das",
     "danishDefinite": "krydsordet",
     "danishIndefinite": "et krydsord",
-    "tier": 3
+    "tier": 4
   },
   "hobbies.role-playing-game": {
     "danish": "rollespil",
@@ -264,7 +264,7 @@
     "gender": "das",
     "danishDefinite": "rollespillet",
     "danishIndefinite": "et rollespil",
-    "tier": 3
+    "tier": 4
   },
   "hobbies.magic-trick": {
     "danish": "trylletrick",
@@ -273,7 +273,7 @@
     "gender": "der",
     "danishDefinite": "trylletricket",
     "danishIndefinite": "et trylletrick",
-    "tier": 3
+    "tier": 4
   },
   "hobbies.magician": {
     "danish": "tryllekunstner",
@@ -282,7 +282,7 @@
     "gender": "der",
     "danishDefinite": "tryllekunstneren",
     "danishIndefinite": "en tryllekunstner",
-    "tier": 3
+    "tier": 4
   },
   "hobbies.model-railway": {
     "danish": "modeljernbane",
@@ -291,7 +291,7 @@
     "gender": "die",
     "danishDefinite": "modeljernbanen",
     "danishIndefinite": "en modeljernbane",
-    "tier": 3
+    "tier": 5
   },
   "hobbies.treasure-hunt": {
     "danish": "skattejagt",
@@ -300,7 +300,7 @@
     "gender": "die",
     "danishDefinite": "skattejagten",
     "danishIndefinite": "en skattejagt",
-    "tier": 3
+    "tier": 4
   },
   "hobbies.skipping-rope": {
     "danish": "sjippetov",
@@ -309,13 +309,13 @@
     "gender": "das",
     "danishDefinite": "sjippetovet",
     "danishIndefinite": "et sjippetov",
-    "tier": 3
+    "tier": 5
   },
   "hobbies.to-carve-wood": {
     "danish": "at skære i træ",
     "german": "schnitzen",
     "english": "to carve wood",
-    "tier": 3
+    "tier": 5
   },
   "hobbies.to-stroll": {
     "danish": "at slentre",
@@ -339,12 +339,48 @@
     "gender": "der",
     "danishDefinite": "klodsen",
     "danishIndefinite": "en klods",
-    "tier": 3
+    "tier": 4
   },
   "hobbies.relaxing": {
     "danish": "afslappende",
     "german": "entspannend",
     "english": "relaxing",
-    "tier": 3
+    "tier": 4
+  },
+  "hobbies.slide": {
+    "danish": "rutsjebane",
+    "german": "Rutsche",
+    "english": "slide",
+    "gender": "die",
+    "danishDefinite": "rutsjebanen",
+    "danishIndefinite": "en rutsjebane",
+    "tier": 1
+  },
+  "hobbies.colouring-book": {
+    "danish": "malebog",
+    "german": "Malbuch",
+    "english": "colouring book",
+    "gender": "das",
+    "danishDefinite": "malebogen",
+    "danishIndefinite": "en malebog",
+    "tier": 1
+  },
+  "hobbies.soap-bubble": {
+    "danish": "sæbeboble",
+    "german": "Seifenblase",
+    "english": "soap bubble",
+    "gender": "die",
+    "danishDefinite": "sæbeboblen",
+    "danishIndefinite": "en sæbeboble",
+    "tier": 1
+  },
+  "hobbies.kite": {
+    "danish": "drage",
+    "german": "Drachen",
+    "english": "kite",
+    "gender": "der",
+    "danishDefinite": "dragen",
+    "danishIndefinite": "en drage",
+    "tier": 1
   }
 }

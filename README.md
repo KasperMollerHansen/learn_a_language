@@ -22,14 +22,16 @@ and offline caching to work; opening `index.html` directly is only suitable for 
 
 ## Levels
 
-There are three chapters, one per word tier: **Chapter 1 · Basics** uses only tier-1 words,
-**Chapter 2 · Everyday** tier 2 and **Chapter 3 · Advanced** tier 3. Every chapter has the same shape:
+There are five chapters, one per word tier, following the CEFR steps: **1 · Basics** (A1),
+**2 · Everyday** (A2), **3 · Confident** (B1), **4 · Fluent** (B2) and **5 · Advanced** (C1). A
+chapter uses only words of its own tier, except the review. Every chapter has the same shape:
 
 1. **Word levels**, one per theme: People, People with articles (German definite and indefinite
    forms in all four cases), Describing words, Small words, Verbs, Food and drink, Home, Body and
-   clothes, Nature, Town and travel, Free time, Work and school, and (chapters 1-2) Words that look
-   alike.
-2. **Modal verbs:** short sentences with *können, müssen, wollen, dürfen, sollen* and *mögen*.
+   clothes, Nature, Town and travel, Free time, Work and school, and Words that look alike. A
+   theme gets a level in a chapter only when that tier has at least 15 words.
+2. **Sentences:** short Danish sentences to translate, including the modal verbs *können, müssen,
+   wollen, dürfen, sollen* and *mögen*.
 3. **Review:** mixed words from every theme, this chapter's tier and all earlier ones.
 4. **Sentence builder:** build a German sentence one chunk at a time.
 
@@ -59,7 +61,7 @@ list, so progress from an earlier version keeps only its difficulty and answer c
 ## Game data
 
 Vocabulary lives in [`src/wordbank/`](src/wordbank) (one file per category plus `grammar.json`) and level lists in [`src/levels/`](src/levels) (one file per chapter), separate from the game code. Each folder has an `index.json` listing its files.
-Every entry carries an `english` gloss as well as the Danish and German, and every word a difficulty `tier` (1 basic, 2 common, 3 harder). A level does not list words:
+Every entry carries an `english` gloss as well as the Danish and German, and every word a difficulty `tier` from 1 to 5 (CEFR A1, A2, B1, B2, C1). A level does not list words:
 it names `categories` (the word ID prefix, e.g. `people`) and optionally `tiers`, and its pool is
 every matching word. A run deals 30 questions from that pool, reshuffling when the pool is smaller,
 so growing the word bank grows the levels without editing them. Entries may be words or practice

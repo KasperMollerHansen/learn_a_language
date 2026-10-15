@@ -6,7 +6,7 @@
     "gender": "die",
     "danishDefinite": "hæfteklammen",
     "danishIndefinite": "en hæfteklamme",
-    "tier": 2
+    "tier": 3
   },
   "office.hole-punch": {
     "danish": "hulapparat",
@@ -15,7 +15,7 @@
     "gender": "der",
     "danishDefinite": "hulapparatet",
     "danishIndefinite": "et hulapparat",
-    "tier": 2
+    "tier": 3
   },
   "office.fountain-pen": {
     "danish": "fyldepen",
@@ -24,7 +24,7 @@
     "gender": "der",
     "danishDefinite": "fyldepennen",
     "danishIndefinite": "en fyldepen",
-    "tier": 2
+    "tier": 3
   },
   "office.felt-tip-pen": {
     "danish": "tusch",
@@ -33,7 +33,7 @@
     "gender": "der",
     "danishDefinite": "tuschen",
     "danishIndefinite": "en tusch",
-    "tier": 2
+    "tier": 3
   },
   "office.highlighter": {
     "danish": "overstregningspen",
@@ -42,7 +42,7 @@
     "gender": "der",
     "danishDefinite": "overstregningspennen",
     "danishIndefinite": "en overstregningspen",
-    "tier": 3
+    "tier": 4
   },
   "office.pencil-sharpener": {
     "danish": "blyantsspidser",
@@ -51,7 +51,7 @@
     "gender": "der",
     "danishDefinite": "blyantsspidseren",
     "danishIndefinite": "en blyantsspidser",
-    "tier": 2
+    "tier": 3
   },
   "office.notepad": {
     "danish": "notesblok",
@@ -60,7 +60,7 @@
     "gender": "der",
     "danishDefinite": "notesblokken",
     "danishIndefinite": "en notesblok",
-    "tier": 2
+    "tier": 3
   },
   "office.sticky-note": {
     "danish": "post-it",
@@ -69,7 +69,7 @@
     "gender": "die",
     "danishDefinite": "post-itet",
     "danishIndefinite": "et post-it",
-    "tier": 3
+    "tier": 4
   },
   "office.ring-binder": {
     "danish": "ringbind",
@@ -78,7 +78,7 @@
     "gender": "der",
     "danishDefinite": "ringbindet",
     "danishIndefinite": "et ringbind",
-    "tier": 2
+    "tier": 3
   },
   "office.hanging-file": {
     "danish": "hængemappe",
@@ -87,7 +87,7 @@
     "gender": "das",
     "danishDefinite": "hængemappen",
     "danishIndefinite": "en hængemappe",
-    "tier": 3
+    "tier": 5
   },
   "office.letter-paper": {
     "danish": "brevpapir",
@@ -96,7 +96,7 @@
     "gender": "das",
     "danishDefinite": "brevpapiret",
     "danishIndefinite": "et brevpapir",
-    "tier": 2
+    "tier": 3
   },
   "office.desk-lamp": {
     "danish": "skrivebordslampe",
@@ -114,7 +114,7 @@
     "gender": "der",
     "danishDefinite": "arkivskabet",
     "danishIndefinite": "et arkivskab",
-    "tier": 3
+    "tier": 4
   },
   "office.wastepaper-basket": {
     "danish": "papirkurv",
@@ -123,7 +123,7 @@
     "gender": "der",
     "danishDefinite": "papirkurven",
     "danishIndefinite": "en papirkurv",
-    "tier": 2
+    "tier": 3
   },
   "office.rubber-stamp": {
     "danish": "stempel",
@@ -141,7 +141,7 @@
     "gender": "das",
     "danishDefinite": "whiteboardet",
     "danishIndefinite": "et whiteboard",
-    "tier": 2
+    "tier": 3
   },
   "office.flip-chart": {
     "danish": "flipover",
@@ -150,7 +150,7 @@
     "gender": "das",
     "danishDefinite": "flipoveret",
     "danishIndefinite": "et flipover",
-    "tier": 3
+    "tier": 4
   },
   "office.projector": {
     "danish": "projektor",
@@ -168,7 +168,7 @@
     "gender": "die",
     "danishDefinite": "opslagstavlen",
     "danishIndefinite": "en opslagstavle",
-    "tier": 2
+    "tier": 3
   },
   "office.drawing-pin": {
     "danish": "tegnestift",
@@ -177,7 +177,7 @@
     "gender": "die",
     "danishDefinite": "tegnestiften",
     "danishIndefinite": "en tegnestift",
-    "tier": 3
+    "tier": 5
   },
   "office.business-card": {
     "danish": "visitkort",
@@ -186,7 +186,7 @@
     "gender": "die",
     "danishDefinite": "visitkortet",
     "danishIndefinite": "et visitkort",
-    "tier": 2
+    "tier": 3
   },
   "office.office-kitchenette": {
     "danish": "tekøkken",
@@ -195,7 +195,7 @@
     "gender": "die",
     "danishDefinite": "tekøkkenet",
     "danishIndefinite": "et tekøkken",
-    "tier": 3
+    "tier": 4
   },
   "office.reception-desk": {
     "danish": "reception",
@@ -222,7 +222,7 @@
     "gender": "die",
     "danishDefinite": "blækpatronen",
     "danishIndefinite": "en blækpatron",
-    "tier": 3
+    "tier": 4
   },
   "office.toner": {
     "danish": "toner",
@@ -231,7 +231,7 @@
     "gender": "der",
     "danishDefinite": "toneren",
     "danishIndefinite": "en toner",
-    "tier": 3
+    "tier": 4
   },
   "office.paper-jam": {
     "danish": "papirstop",
@@ -240,7 +240,7 @@
     "gender": "der",
     "danishDefinite": "papirstoppet",
     "danishIndefinite": "et papirstop",
-    "tier": 3
+    "tier": 4
   },
   "office.label": {
     "danish": "etiket",
@@ -249,7 +249,7 @@
     "gender": "das",
     "danishDefinite": "etiketten",
     "danishIndefinite": "en etiket",
-    "tier": 3
+    "tier": 4
   },
   "office.letter-scales": {
     "danish": "brevvægt",
@@ -258,7 +258,7 @@
     "gender": "die",
     "danishDefinite": "brevvægten",
     "danishIndefinite": "en brevvægt",
-    "tier": 3
+    "tier": 5
   },
   "office.plastic-sleeve": {
     "danish": "plastlomme",
@@ -267,7 +267,7 @@
     "gender": "die",
     "danishDefinite": "plastlommen",
     "danishIndefinite": "en plastlomme",
-    "tier": 3
+    "tier": 5
   },
   "office.mouse-pad": {
     "danish": "musemåtte",
@@ -276,7 +276,7 @@
     "gender": "das",
     "danishDefinite": "musemåtten",
     "danishIndefinite": "en musemåtte",
-    "tier": 3
+    "tier": 4
   },
   "office.document-bag": {
     "danish": "dokumenttaske",
@@ -285,7 +285,7 @@
     "gender": "die",
     "danishDefinite": "dokumenttasken",
     "danishIndefinite": "en dokumenttaske",
-    "tier": 3
+    "tier": 5
   },
   "office.pen-holder": {
     "danish": "pennebæger",
@@ -294,7 +294,7 @@
     "gender": "der",
     "danishDefinite": "pennebægeret",
     "danishIndefinite": "et pennebæger",
-    "tier": 3
+    "tier": 5
   },
   "office.desk-pad": {
     "danish": "skriveunderlag",
@@ -303,7 +303,7 @@
     "gender": "die",
     "danishDefinite": "skriveunderlaget",
     "danishIndefinite": "et skriveunderlag",
-    "tier": 3
+    "tier": 5
   },
   "office.clipboard": {
     "danish": "clipboard",
@@ -312,7 +312,7 @@
     "gender": "das",
     "danishDefinite": "clipboardet",
     "danishIndefinite": "et clipboard",
-    "tier": 3
+    "tier": 5
   },
   "office.correction-pen": {
     "danish": "korrekturpen",
@@ -321,7 +321,7 @@
     "gender": "der",
     "danishDefinite": "korrekturpennen",
     "danishIndefinite": "en korrekturpen",
-    "tier": 3
+    "tier": 4
   },
   "office.in-tray": {
     "danish": "bakke",
@@ -330,7 +330,7 @@
     "gender": "die",
     "danishDefinite": "bakken",
     "danishIndefinite": "en bakke",
-    "tier": 3
+    "tier": 4
   },
   "office.shredder": {
     "danish": "makulator",
@@ -339,7 +339,7 @@
     "gender": "der",
     "danishDefinite": "makulatoren",
     "danishIndefinite": "en makulator",
-    "tier": 3
+    "tier": 4
   },
   "office.coloured-pencil": {
     "danish": "farveblyant",
@@ -357,7 +357,7 @@
     "gender": "der",
     "danishDefinite": "markeren",
     "danishIndefinite": "en marker",
-    "tier": 3
+    "tier": 4
   },
   "office.fineliner": {
     "danish": "fineliner",
@@ -366,7 +366,7 @@
     "gender": "der",
     "danishDefinite": "finelineren",
     "danishIndefinite": "en fineliner",
-    "tier": 3
+    "tier": 5
   },
   "office.rollerball-pen": {
     "danish": "rollerball",
@@ -375,7 +375,7 @@
     "gender": "der",
     "danishDefinite": "rollerballen",
     "danishIndefinite": "en rollerball",
-    "tier": 3
+    "tier": 5
   },
   "office.ink": {
     "danish": "blæk",
@@ -384,7 +384,7 @@
     "gender": "die",
     "danishDefinite": "blækket",
     "danishIndefinite": "et blæk",
-    "tier": 2
+    "tier": 3
   },
   "office.glue-stick": {
     "danish": "limstift",
@@ -393,7 +393,7 @@
     "gender": "der",
     "danishDefinite": "limstiften",
     "danishIndefinite": "en limstift",
-    "tier": 2
+    "tier": 3
   },
   "office.office-scissors": {
     "danish": "kontorsaks",
@@ -402,7 +402,7 @@
     "gender": "die",
     "danishDefinite": "kontorsaksen",
     "danishIndefinite": "en kontorsaks",
-    "tier": 3
+    "tier": 4
   },
   "office.utility-knife": {
     "danish": "hobbykniv",
@@ -411,7 +411,7 @@
     "gender": "der",
     "danishDefinite": "hobbykniven",
     "danishIndefinite": "en hobbykniv",
-    "tier": 3
+    "tier": 4
   },
   "office.letter-opener": {
     "danish": "brevåbner",
@@ -420,7 +420,7 @@
     "gender": "der",
     "danishDefinite": "brevåbneren",
     "danishIndefinite": "en brevåbner",
-    "tier": 3
+    "tier": 4
   },
   "office.folder-with-fastener": {
     "danish": "snorehæfte",
@@ -429,7 +429,7 @@
     "gender": "der",
     "danishDefinite": "snorehæftet",
     "danishIndefinite": "et snorehæfte",
-    "tier": 3
+    "tier": 4
   },
   "office.ring-book": {
     "danish": "ringbog",
@@ -438,7 +438,7 @@
     "gender": "das",
     "danishDefinite": "ringbogen",
     "danishIndefinite": "en ringbog",
-    "tier": 3
+    "tier": 4
   },
   "office.divider-sheet": {
     "danish": "skilleblad",
@@ -447,7 +447,7 @@
     "gender": "das",
     "danishDefinite": "skillebladet",
     "danishIndefinite": "et skilleblad",
-    "tier": 3
+    "tier": 5
   },
   "office.index-card": {
     "danish": "kartotekskort",
@@ -456,7 +456,7 @@
     "gender": "die",
     "danishDefinite": "kartotekskortet",
     "danishIndefinite": "et kartotekskort",
-    "tier": 3
+    "tier": 4
   },
   "office.card-index-box": {
     "danish": "kartotekskasse",
@@ -465,7 +465,7 @@
     "gender": "der",
     "danishDefinite": "kartotekskassen",
     "danishIndefinite": "en kartotekskasse",
-    "tier": 3
+    "tier": 5
   },
   "office.note-slip": {
     "danish": "notesseddel",
@@ -474,7 +474,7 @@
     "gender": "der",
     "danishDefinite": "notessedlen",
     "danishIndefinite": "en notesseddel",
-    "tier": 2
+    "tier": 3
   },
   "office.planner": {
     "danish": "tidsplanlægger",
@@ -483,7 +483,7 @@
     "gender": "der",
     "danishDefinite": "tidsplanlæggeren",
     "danishIndefinite": "en tidsplanlægger",
-    "tier": 3
+    "tier": 4
   },
   "office.wall-calendar": {
     "danish": "vægkalender",
@@ -492,7 +492,7 @@
     "gender": "der",
     "danishDefinite": "vægkalenderen",
     "danishIndefinite": "en vægkalender",
-    "tier": 2
+    "tier": 3
   },
   "office.desk-calendar": {
     "danish": "bordkalender",
@@ -501,7 +501,7 @@
     "gender": "der",
     "danishDefinite": "bordkalenderen",
     "danishIndefinite": "en bordkalender",
-    "tier": 3
+    "tier": 4
   },
   "office.office-lamp": {
     "danish": "kontorlampe",
@@ -510,7 +510,7 @@
     "gender": "die",
     "danishDefinite": "kontorlampen",
     "danishIndefinite": "en kontorlampe",
-    "tier": 3
+    "tier": 4
   },
   "office.standing-desk": {
     "danish": "ståpult",
@@ -519,7 +519,7 @@
     "gender": "das",
     "danishDefinite": "ståpulten",
     "danishIndefinite": "en ståpult",
-    "tier": 3
+    "tier": 5
   },
   "office.visitor-chair": {
     "danish": "gæstestol",
@@ -528,7 +528,7 @@
     "gender": "der",
     "danishDefinite": "gæstestolen",
     "danishIndefinite": "en gæstestol",
-    "tier": 3
+    "tier": 5
   },
   "office.coffee-machine": {
     "danish": "kaffeautomat",
@@ -537,7 +537,7 @@
     "gender": "der",
     "danishDefinite": "kaffeautomaten",
     "danishIndefinite": "en kaffeautomat",
-    "tier": 3
+    "tier": 4
   },
   "office.water-dispenser": {
     "danish": "vandautomat",
@@ -546,7 +546,7 @@
     "gender": "der",
     "danishDefinite": "vandautomaten",
     "danishIndefinite": "en vandautomat",
-    "tier": 3
+    "tier": 4
   },
   "office.conference-room": {
     "danish": "konferencelokale",
@@ -564,7 +564,7 @@
     "gender": "das",
     "danishDefinite": "storrumskontoret",
     "danishIndefinite": "et storrumskontor",
-    "tier": 3
+    "tier": 4
   },
   "office.secretariat": {
     "danish": "sekretariat",
@@ -573,7 +573,7 @@
     "gender": "das",
     "danishDefinite": "sekretariatet",
     "danishIndefinite": "et sekretariat",
-    "tier": 3
+    "tier": 4
   },
   "office.mailroom": {
     "danish": "postrum",
@@ -582,7 +582,7 @@
     "gender": "die",
     "danishDefinite": "postrummet",
     "danishIndefinite": "et postrum",
-    "tier": 3
+    "tier": 5
   },
   "office.briefcase": {
     "danish": "dokumentkuffert",
@@ -591,7 +591,7 @@
     "gender": "der",
     "danishDefinite": "dokumentkufferten",
     "danishIndefinite": "en dokumentkuffert",
-    "tier": 3
+    "tier": 4
   },
   "office.laminator": {
     "danish": "lamineringsmaskine",
@@ -600,7 +600,7 @@
     "gender": "das",
     "danishDefinite": "lamineringsmaskinen",
     "danishIndefinite": "en lamineringsmaskine",
-    "tier": 3
+    "tier": 5
   },
   "office.paper-cutter": {
     "danish": "skæremaskine",
@@ -609,7 +609,7 @@
     "gender": "die",
     "danishDefinite": "skæremaskinen",
     "danishIndefinite": "en skæremaskine",
-    "tier": 3
+    "tier": 5
   },
   "office.fax-machine": {
     "danish": "faxmaskine",
@@ -618,7 +618,7 @@
     "gender": "das",
     "danishDefinite": "faxmaskinen",
     "danishIndefinite": "en faxmaskine",
-    "tier": 3
+    "tier": 4
   },
   "office.wrist-rest": {
     "danish": "håndledsstøtte",
@@ -627,7 +627,7 @@
     "gender": "die",
     "danishDefinite": "håndledsstøtten",
     "danishIndefinite": "en håndledsstøtte",
-    "tier": 3
+    "tier": 5
   },
   "office.footrest": {
     "danish": "fodstøtte",
@@ -636,7 +636,7 @@
     "gender": "die",
     "danishDefinite": "fodstøtten",
     "danishIndefinite": "en fodstøtte",
-    "tier": 3
+    "tier": 5
   },
   "office.monitor-stand": {
     "danish": "skærmstativ",
@@ -645,7 +645,7 @@
     "gender": "der",
     "danishDefinite": "skærmstativet",
     "danishIndefinite": "et skærmstativ",
-    "tier": 3
+    "tier": 5
   },
   "office.cable-tie": {
     "danish": "kabelstrips",
@@ -654,7 +654,7 @@
     "gender": "der",
     "danishDefinite": "kabelstripsen",
     "danishIndefinite": "en kabelstrips",
-    "tier": 3
+    "tier": 5
   },
   "office.office-plant": {
     "danish": "kontorplante",
@@ -663,7 +663,7 @@
     "gender": "die",
     "danishDefinite": "kontorplanten",
     "danishIndefinite": "en kontorplante",
-    "tier": 3
+    "tier": 4
   },
   "office.name-tag": {
     "danish": "navneskilt",
@@ -672,7 +672,7 @@
     "gender": "das",
     "danishDefinite": "navneskiltet",
     "danishIndefinite": "et navneskilt",
-    "tier": 2
+    "tier": 3
   },
   "office.door-sign": {
     "danish": "dørskilt",
@@ -681,7 +681,7 @@
     "gender": "das",
     "danishDefinite": "dørskiltet",
     "danishIndefinite": "et dørskilt",
-    "tier": 3
+    "tier": 4
   },
   "office.ink-pad": {
     "danish": "stempelpude",
@@ -690,6 +690,6 @@
     "gender": "das",
     "danishDefinite": "stempelpuden",
     "danishIndefinite": "en stempelpude",
-    "tier": 3
+    "tier": 5
   }
 }

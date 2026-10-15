@@ -87,7 +87,7 @@
     "gender": "der",
     "danishDefinite": "bakken",
     "danishIndefinite": "en bakke",
-    "tier": 2
+    "tier": 3
   },
   "nature.field": {
     "danish": "mark",
@@ -114,7 +114,7 @@
     "gender": "die",
     "danishDefinite": "ørkenen",
     "danishIndefinite": "en ørken",
-    "tier": 2
+    "tier": 3
   },
   "nature.jungle": {
     "danish": "jungle",
@@ -123,7 +123,7 @@
     "gender": "der",
     "danishDefinite": "junglen",
     "danishIndefinite": "en jungle",
-    "tier": 2
+    "tier": 3
   },
   "nature.brook": {
     "danish": "bæk",
@@ -132,7 +132,7 @@
     "gender": "der",
     "danishDefinite": "bæken",
     "danishIndefinite": "en bæk",
-    "tier": 2
+    "tier": 3
   },
   "nature.waterfall": {
     "danish": "vandfald",
@@ -141,7 +141,7 @@
     "gender": "der",
     "danishDefinite": "vandfaldet",
     "danishIndefinite": "et vandfald",
-    "tier": 2
+    "tier": 3
   },
   "nature.cave": {
     "danish": "grotte",
@@ -150,7 +150,7 @@
     "gender": "die",
     "danishDefinite": "grotten",
     "danishIndefinite": "en grotte",
-    "tier": 2
+    "tier": 3
   },
   "nature.volcano": {
     "danish": "vulkan",
@@ -159,7 +159,7 @@
     "gender": "der",
     "danishDefinite": "vulkanen",
     "danishIndefinite": "en vulkan",
-    "tier": 2
+    "tier": 3
   },
   "nature.earthquake": {
     "danish": "jordskælv",
@@ -168,7 +168,7 @@
     "gender": "das",
     "danishDefinite": "jordskælvet",
     "danishIndefinite": "et jordskælv",
-    "tier": 2
+    "tier": 3
   },
   "nature.summit": {
     "danish": "top",
@@ -177,7 +177,7 @@
     "gender": "der",
     "danishDefinite": "toppen",
     "danishIndefinite": "en top",
-    "tier": 2
+    "tier": 3
   },
   "nature.path": {
     "danish": "sti",
@@ -186,7 +186,7 @@
     "gender": "der",
     "danishDefinite": "stien",
     "danishIndefinite": "en sti",
-    "tier": 2
+    "tier": 3
   },
   "nature.planet": {
     "danish": "planet",
@@ -195,7 +195,7 @@
     "gender": "der",
     "danishDefinite": "planeten",
     "danishIndefinite": "en planet",
-    "tier": 2
+    "tier": 3
   },
   "nature.ocean": {
     "danish": "ocean",
@@ -204,7 +204,7 @@
     "gender": "der",
     "danishDefinite": "oceanet",
     "danishIndefinite": "et ocean",
-    "tier": 2
+    "tier": 3
   },
   "nature.continent": {
     "danish": "kontinent",
@@ -213,7 +213,7 @@
     "gender": "der",
     "danishDefinite": "kontinentet",
     "danishIndefinite": "et kontinent",
-    "tier": 2
+    "tier": 3
   },
   "nature.drop": {
     "danish": "dråbe",
@@ -222,7 +222,7 @@
     "gender": "der",
     "danishDefinite": "dråben",
     "danishIndefinite": "en dråbe",
-    "tier": 2
+    "tier": 3
   },
   "nature.smoke": {
     "danish": "røg",
@@ -231,7 +231,7 @@
     "gender": "der",
     "danishDefinite": "røgen",
     "danishIndefinite": "en røg",
-    "tier": 2
+    "tier": 3
   },
   "nature.environment": {
     "danish": "miljø",
@@ -240,7 +240,7 @@
     "gender": "die",
     "danishDefinite": "miljøet",
     "danishIndefinite": "et miljø",
-    "tier": 2
+    "tier": 3
   },
   "nature.national-park": {
     "danish": "nationalpark",
@@ -249,7 +249,7 @@
     "gender": "der",
     "danishDefinite": "nationalparken",
     "danishIndefinite": "en nationalpark",
-    "tier": 2
+    "tier": 3
   },
   "nature.windmill": {
     "danish": "vindmølle",
@@ -258,7 +258,7 @@
     "gender": "die",
     "danishDefinite": "vindmøllen",
     "danishIndefinite": "en vindmølle",
-    "tier": 2
+    "tier": 3
   },
   "nature.farm": {
     "danish": "bondegård",
@@ -276,7 +276,7 @@
     "gender": "der",
     "danishDefinite": "fyrtårnet",
     "danishIndefinite": "et fyrtårn",
-    "tier": 2
+    "tier": 3
   },
   "nature.sandy-beach": {
     "danish": "sandstrand",
@@ -285,7 +285,7 @@
     "gender": "der",
     "danishDefinite": "sandstranden",
     "danishIndefinite": "en sandstrand",
-    "tier": 2
+    "tier": 3
   },
   "nature.height": {
     "danish": "højde",
@@ -294,13 +294,13 @@
     "gender": "die",
     "danishDefinite": "højden",
     "danishIndefinite": "en højde",
-    "tier": 2
+    "tier": 3
   },
   "nature.wild": {
     "danish": "vild",
     "german": "wild",
     "english": "wild",
-    "tier": 2
+    "tier": 3
   },
   "nature.plain": {
     "danish": "slette",
@@ -309,7 +309,7 @@
     "gender": "die",
     "danishDefinite": "sletten",
     "danishIndefinite": "en slette",
-    "tier": 3
+    "tier": 4
   },
   "nature.rainforest": {
     "danish": "regnskov",
@@ -318,7 +318,7 @@
     "gender": "der",
     "danishDefinite": "regnskoven",
     "danishIndefinite": "en regnskov",
-    "tier": 3
+    "tier": 4
   },
   "nature.peninsula": {
     "danish": "halvø",
@@ -327,7 +327,7 @@
     "gender": "die",
     "danishDefinite": "halvøen",
     "danishIndefinite": "en halvø",
-    "tier": 3
+    "tier": 4
   },
   "nature.dune": {
     "danish": "klit",
@@ -336,7 +336,7 @@
     "gender": "die",
     "danishDefinite": "klitten",
     "danishIndefinite": "en klit",
-    "tier": 3
+    "tier": 4
   },
   "nature.swamp": {
     "danish": "sump",
@@ -345,7 +345,7 @@
     "gender": "der",
     "danishDefinite": "sumpen",
     "danishIndefinite": "en sump",
-    "tier": 3
+    "tier": 5
   },
   "nature.bog": {
     "danish": "mose",
@@ -354,7 +354,7 @@
     "gender": "das",
     "danishDefinite": "mosen",
     "danishIndefinite": "en mose",
-    "tier": 3
+    "tier": 5
   },
   "nature.cliff": {
     "danish": "klint",
@@ -363,7 +363,7 @@
     "gender": "die",
     "danishDefinite": "klinten",
     "danishIndefinite": "en klint",
-    "tier": 3
+    "tier": 4
   },
   "nature.glacier": {
     "danish": "gletsjer",
@@ -372,7 +372,7 @@
     "gender": "der",
     "danishDefinite": "gletsjeren",
     "danishIndefinite": "en gletsjer",
-    "tier": 3
+    "tier": 4
   },
   "nature.ice-cap": {
     "danish": "iskappe",
@@ -381,7 +381,7 @@
     "gender": "die",
     "danishDefinite": "iskappen",
     "danishIndefinite": "en iskappe",
-    "tier": 3
+    "tier": 5
   },
   "nature.iceberg": {
     "danish": "isbjerg",
@@ -390,7 +390,7 @@
     "gender": "der",
     "danishDefinite": "isbjerget",
     "danishIndefinite": "et isbjerg",
-    "tier": 3
+    "tier": 4
   },
   "nature.mountain-range": {
     "danish": "bjergkæde",
@@ -399,7 +399,7 @@
     "gender": "die",
     "danishDefinite": "bjergkæden",
     "danishIndefinite": "en bjergkæde",
-    "tier": 3
+    "tier": 4
   },
   "nature.slope": {
     "danish": "skråning",
@@ -408,7 +408,7 @@
     "gender": "der",
     "danishDefinite": "skråningen",
     "danishIndefinite": "en skråning",
-    "tier": 3
+    "tier": 4
   },
   "nature.gorge": {
     "danish": "kløft",
@@ -417,7 +417,7 @@
     "gender": "die",
     "danishDefinite": "kløften",
     "danishIndefinite": "en kløft",
-    "tier": 3
+    "tier": 5
   },
   "nature.plateau": {
     "danish": "plateau",
@@ -426,7 +426,7 @@
     "gender": "das",
     "danishDefinite": "plateauet",
     "danishIndefinite": "et plateau",
-    "tier": 3
+    "tier": 5
   },
   "nature.steppe": {
     "danish": "steppe",
@@ -435,7 +435,7 @@
     "gender": "die",
     "danishDefinite": "steppen",
     "danishIndefinite": "en steppe",
-    "tier": 3
+    "tier": 5
   },
   "nature.savanna": {
     "danish": "savanne",
@@ -444,7 +444,7 @@
     "gender": "die",
     "danishDefinite": "savannen",
     "danishIndefinite": "en savanne",
-    "tier": 3
+    "tier": 5
   },
   "nature.tundra": {
     "danish": "tundra",
@@ -453,7 +453,7 @@
     "gender": "die",
     "danishDefinite": "tundraen",
     "danishIndefinite": "en tundra",
-    "tier": 3
+    "tier": 5
   },
   "nature.oasis": {
     "danish": "oase",
@@ -462,7 +462,7 @@
     "gender": "die",
     "danishDefinite": "oasen",
     "danishIndefinite": "en oase",
-    "tier": 3
+    "tier": 4
   },
   "nature.lagoon": {
     "danish": "lagune",
@@ -471,7 +471,7 @@
     "gender": "die",
     "danishDefinite": "lagunen",
     "danishIndefinite": "en lagune",
-    "tier": 3
+    "tier": 5
   },
   "nature.bay": {
     "danish": "bugt",
@@ -480,7 +480,7 @@
     "gender": "die",
     "danishDefinite": "bugten",
     "danishIndefinite": "en bugt",
-    "tier": 3
+    "tier": 4
   },
   "nature.fjord": {
     "danish": "fjord",
@@ -489,7 +489,7 @@
     "gender": "der",
     "danishDefinite": "fjorden",
     "danishIndefinite": "en fjord",
-    "tier": 3
+    "tier": 4
   },
   "nature.coral-reef": {
     "danish": "koralrev",
@@ -498,7 +498,7 @@
     "gender": "das",
     "danishDefinite": "koralrevet",
     "danishIndefinite": "et koralrev",
-    "tier": 3
+    "tier": 4
   },
   "nature.low-tide": {
     "danish": "ebbe",
@@ -507,7 +507,7 @@
     "gender": "die",
     "danishDefinite": "ebben",
     "danishIndefinite": "en ebbe",
-    "tier": 3
+    "tier": 4
   },
   "nature.high-tide": {
     "danish": "højvande",
@@ -516,7 +516,7 @@
     "gender": "die",
     "danishDefinite": "højvandet",
     "danishIndefinite": "et højvande",
-    "tier": 3
+    "tier": 4
   },
   "nature.mud": {
     "danish": "mudder",
@@ -525,7 +525,7 @@
     "gender": "der",
     "danishDefinite": "mudderet",
     "danishIndefinite": "et mudder",
-    "tier": 3
+    "tier": 4
   },
   "nature.seashell": {
     "danish": "muslingeskal",
@@ -534,7 +534,7 @@
     "gender": "die",
     "danishDefinite": "muslingeskalen",
     "danishIndefinite": "en muslingeskal",
-    "tier": 3
+    "tier": 5
   },
   "nature.puddle": {
     "danish": "vandpyt",
@@ -543,7 +543,7 @@
     "gender": "die",
     "danishDefinite": "vandpyten",
     "danishIndefinite": "en vandpyt",
-    "tier": 3
+    "tier": 4
   },
   "nature.fresh-water": {
     "danish": "ferskvand",
@@ -552,7 +552,7 @@
     "gender": "das",
     "danishDefinite": "ferskvandet",
     "danishIndefinite": "et ferskvand",
-    "tier": 3
+    "tier": 4
   },
   "nature.salt-water": {
     "danish": "saltvand",
@@ -561,7 +561,7 @@
     "gender": "das",
     "danishDefinite": "saltvandet",
     "danishIndefinite": "et saltvand",
-    "tier": 3
+    "tier": 4
   },
   "nature.delta": {
     "danish": "delta",
@@ -570,7 +570,7 @@
     "gender": "das",
     "danishDefinite": "deltaet",
     "danishIndefinite": "et delta",
-    "tier": 3
+    "tier": 5
   },
   "nature.river-mouth": {
     "danish": "flodmunding",
@@ -579,7 +579,7 @@
     "gender": "die",
     "danishDefinite": "flodmundingen",
     "danishIndefinite": "en flodmunding",
-    "tier": 3
+    "tier": 5
   },
   "nature.riverbank": {
     "danish": "bred",
@@ -597,7 +597,7 @@
     "gender": "der",
     "danishDefinite": "brønden",
     "danishIndefinite": "en brønd",
-    "tier": 3
+    "tier": 4
   },
   "nature.watercourse": {
     "danish": "vandløb",
@@ -606,7 +606,7 @@
     "gender": "der",
     "danishDefinite": "vandløbet",
     "danishIndefinite": "et vandløb",
-    "tier": 3
+    "tier": 5
   },
   "nature.seabed": {
     "danish": "havbund",
@@ -615,7 +615,7 @@
     "gender": "der",
     "danishDefinite": "havbunden",
     "danishIndefinite": "en havbund",
-    "tier": 3
+    "tier": 4
   },
   "nature.surface": {
     "danish": "overflade",
@@ -633,7 +633,7 @@
     "gender": "die",
     "danishDefinite": "dybden",
     "danishIndefinite": "en dybde",
-    "tier": 3
+    "tier": 4
   },
   "nature.grove": {
     "danish": "lund",
@@ -642,7 +642,7 @@
     "gender": "der",
     "danishDefinite": "lunden",
     "danishIndefinite": "en lund",
-    "tier": 3
+    "tier": 5
   },
   "nature.clearing": {
     "danish": "lysning",
@@ -651,7 +651,7 @@
     "gender": "die",
     "danishDefinite": "lysningen",
     "danishIndefinite": "en lysning",
-    "tier": 3
+    "tier": 5
   },
   "nature.foliage": {
     "danish": "løv",
@@ -660,7 +660,7 @@
     "gender": "das",
     "danishDefinite": "løvet",
     "danishIndefinite": "et løv",
-    "tier": 3
+    "tier": 4
   },
   "nature.wilderness": {
     "danish": "vildmark",
@@ -669,7 +669,7 @@
     "gender": "die",
     "danishDefinite": "vildmarken",
     "danishIndefinite": "en vildmark",
-    "tier": 3
+    "tier": 4
   },
   "nature.coniferous-forest": {
     "danish": "nåleskov",
@@ -678,7 +678,7 @@
     "gender": "der",
     "danishDefinite": "nåleskoven",
     "danishIndefinite": "en nåleskov",
-    "tier": 3
+    "tier": 5
   },
   "nature.deciduous-forest": {
     "danish": "løvskov",
@@ -687,7 +687,7 @@
     "gender": "der",
     "danishDefinite": "løvskoven",
     "danishIndefinite": "en løvskov",
-    "tier": 3
+    "tier": 5
   },
   "nature.thicket": {
     "danish": "krat",
@@ -696,7 +696,7 @@
     "gender": "das",
     "danishDefinite": "krattet",
     "danishIndefinite": "et krat",
-    "tier": 3
+    "tier": 5
   },
   "nature.arable-field": {
     "danish": "ager",
@@ -705,7 +705,7 @@
     "gender": "der",
     "danishDefinite": "ageren",
     "danishIndefinite": "en ager",
-    "tier": 3
+    "tier": 5
   },
   "nature.forest-fire": {
     "danish": "skovbrand",
@@ -714,7 +714,7 @@
     "gender": "der",
     "danishDefinite": "skovbranden",
     "danishIndefinite": "en skovbrand",
-    "tier": 3
+    "tier": 4
   },
   "nature.landslide": {
     "danish": "jordskred",
@@ -723,7 +723,7 @@
     "gender": "der",
     "danishDefinite": "jordskredet",
     "danishIndefinite": "et jordskred",
-    "tier": 3
+    "tier": 5
   },
   "nature.avalanche": {
     "danish": "lavine",
@@ -732,7 +732,7 @@
     "gender": "die",
     "danishDefinite": "lavinen",
     "danishIndefinite": "en lavine",
-    "tier": 3
+    "tier": 4
   },
   "nature.tsunami": {
     "danish": "tsunami",
@@ -741,7 +741,7 @@
     "gender": "der",
     "danishDefinite": "tsunamien",
     "danishIndefinite": "en tsunami",
-    "tier": 3
+    "tier": 4
   },
   "nature.natural-disaster": {
     "danish": "naturkatastrofe",
@@ -750,7 +750,7 @@
     "gender": "die",
     "danishDefinite": "naturkatastrofen",
     "danishIndefinite": "en naturkatastrofe",
-    "tier": 3
+    "tier": 4
   },
   "nature.volcanic-eruption": {
     "danish": "vulkanudbrud",
@@ -759,7 +759,7 @@
     "gender": "der",
     "danishDefinite": "vulkanudbruddet",
     "danishIndefinite": "et vulkanudbrud",
-    "tier": 3
+    "tier": 4
   },
   "nature.universe": {
     "danish": "univers",
@@ -768,7 +768,7 @@
     "gender": "das",
     "danishDefinite": "universet",
     "danishIndefinite": "et univers",
-    "tier": 3
+    "tier": 4
   },
   "nature.outer-space": {
     "danish": "verdensrum",
@@ -777,7 +777,7 @@
     "gender": "der",
     "danishDefinite": "verdensrummet",
     "danishIndefinite": "et verdensrum",
-    "tier": 3
+    "tier": 4
   },
   "nature.constellation": {
     "danish": "stjernebillede",
@@ -786,7 +786,7 @@
     "gender": "das",
     "danishDefinite": "stjernebilledet",
     "danishIndefinite": "et stjernebillede",
-    "tier": 3
+    "tier": 5
   },
   "nature.comet": {
     "danish": "komet",
@@ -795,7 +795,7 @@
     "gender": "der",
     "danishDefinite": "kometen",
     "danishIndefinite": "en komet",
-    "tier": 3
+    "tier": 4
   },
   "nature.solar-system": {
     "danish": "solsystem",
@@ -804,7 +804,7 @@
     "gender": "das",
     "danishDefinite": "solsystemet",
     "danishIndefinite": "et solsystem",
-    "tier": 3
+    "tier": 4
   },
   "nature.galaxy": {
     "danish": "galakse",
@@ -813,7 +813,7 @@
     "gender": "die",
     "danishDefinite": "galaksen",
     "danishIndefinite": "en galakse",
-    "tier": 3
+    "tier": 4
   },
   "nature.horizon": {
     "danish": "horisont",
@@ -822,7 +822,7 @@
     "gender": "der",
     "danishDefinite": "horisonten",
     "danishIndefinite": "en horisont",
-    "tier": 3
+    "tier": 4
   },
   "nature.twilight": {
     "danish": "skumring",
@@ -831,7 +831,7 @@
     "gender": "die",
     "danishDefinite": "skumringen",
     "danishIndefinite": "en skumring",
-    "tier": 3
+    "tier": 5
   },
   "nature.dawn": {
     "danish": "daggry",
@@ -840,7 +840,7 @@
     "gender": "die",
     "danishDefinite": "daggryet",
     "danishIndefinite": "et daggry",
-    "tier": 3
+    "tier": 5
   },
   "nature.northern-lights": {
     "danish": "nordlys",
@@ -849,7 +849,7 @@
     "gender": "das",
     "danishDefinite": "nordlyset",
     "danishIndefinite": "et nordlys",
-    "tier": 3
+    "tier": 4
   },
   "nature.meteor": {
     "danish": "meteor",
@@ -858,7 +858,7 @@
     "gender": "der",
     "danishDefinite": "meteoren",
     "danishIndefinite": "en meteor",
-    "tier": 3
+    "tier": 5
   },
   "nature.shooting-star": {
     "danish": "stjerneskud",
@@ -867,7 +867,7 @@
     "gender": "die",
     "danishDefinite": "stjerneskuddet",
     "danishIndefinite": "et stjerneskud",
-    "tier": 3
+    "tier": 4
   },
   "nature.full-moon": {
     "danish": "fuldmåne",
@@ -876,7 +876,7 @@
     "gender": "der",
     "danishDefinite": "fuldmånen",
     "danishIndefinite": "en fuldmåne",
-    "tier": 3
+    "tier": 4
   },
   "nature.new-moon": {
     "danish": "nymåne",
@@ -885,7 +885,7 @@
     "gender": "der",
     "danishDefinite": "nymånen",
     "danishIndefinite": "en nymåne",
-    "tier": 3
+    "tier": 5
   },
   "nature.astronaut": {
     "danish": "astronaut",
@@ -894,7 +894,7 @@
     "gender": "der",
     "danishDefinite": "astronauten",
     "danishIndefinite": "en astronaut",
-    "tier": 3
+    "tier": 4
   },
   "nature.telescope": {
     "danish": "teleskop",
@@ -903,7 +903,7 @@
     "gender": "das",
     "danishDefinite": "teleskopet",
     "danishIndefinite": "et teleskop",
-    "tier": 3
+    "tier": 4
   },
   "nature.gravity": {
     "danish": "tyngdekraft",
@@ -912,7 +912,7 @@
     "gender": "die",
     "danishDefinite": "tyngdekraften",
     "danishIndefinite": "en tyngdekraft",
-    "tier": 3
+    "tier": 5
   },
   "nature.pole": {
     "danish": "pol",
@@ -921,7 +921,7 @@
     "gender": "der",
     "danishDefinite": "polen",
     "danishIndefinite": "en pol",
-    "tier": 3
+    "tier": 4
   },
   "nature.equator": {
     "danish": "ækvator",
@@ -930,7 +930,7 @@
     "gender": "der",
     "danishDefinite": "ækvatoren",
     "danishIndefinite": "en ækvator",
-    "tier": 3
+    "tier": 4
   },
   "nature.globe": {
     "danish": "globus",
@@ -939,7 +939,7 @@
     "gender": "der",
     "danishDefinite": "globussen",
     "danishIndefinite": "en globus",
-    "tier": 3
+    "tier": 4
   },
   "nature.latitude": {
     "danish": "breddegrad",
@@ -948,7 +948,7 @@
     "gender": "der",
     "danishDefinite": "breddegraden",
     "danishIndefinite": "en breddegrad",
-    "tier": 3
+    "tier": 5
   },
   "nature.longitude": {
     "danish": "længdegrad",
@@ -957,7 +957,7 @@
     "gender": "der",
     "danishDefinite": "længdegraden",
     "danishIndefinite": "en længdegrad",
-    "tier": 3
+    "tier": 5
   },
   "nature.region": {
     "danish": "region",
@@ -993,7 +993,7 @@
     "gender": "das",
     "danishDefinite": "fastlandet",
     "danishIndefinite": "et fastland",
-    "tier": 3
+    "tier": 4
   },
   "nature.pollution": {
     "danish": "forurening",
@@ -1002,7 +1002,7 @@
     "gender": "die",
     "danishDefinite": "forureningen",
     "danishIndefinite": "en forurening",
-    "tier": 3
+    "tier": 4
   },
   "nature.air-pollution": {
     "danish": "luftforurening",
@@ -1011,7 +1011,7 @@
     "gender": "die",
     "danishDefinite": "luftforureningen",
     "danishIndefinite": "en luftforurening",
-    "tier": 3
+    "tier": 4
   },
   "nature.solar-cell": {
     "danish": "solcelle",
@@ -1020,7 +1020,7 @@
     "gender": "die",
     "danishDefinite": "solcellen",
     "danishIndefinite": "en solcelle",
-    "tier": 3
+    "tier": 5
   },
   "nature.resource": {
     "danish": "ressource",
@@ -1029,7 +1029,7 @@
     "gender": "die",
     "danishDefinite": "ressourcen",
     "danishIndefinite": "en ressource",
-    "tier": 3
+    "tier": 4
   },
   "nature.threat": {
     "danish": "trussel",
@@ -1038,7 +1038,7 @@
     "gender": "die",
     "danishDefinite": "truslen",
     "danishIndefinite": "en trussel",
-    "tier": 3
+    "tier": 4
   },
   "nature.wildlife": {
     "danish": "dyreliv",
@@ -1047,7 +1047,7 @@
     "gender": "die",
     "danishDefinite": "dyrelivet",
     "danishIndefinite": "et dyreliv",
-    "tier": 3
+    "tier": 5
   },
   "nature.nature-reserve": {
     "danish": "naturreservat",
@@ -1056,7 +1056,7 @@
     "gender": "das",
     "danishDefinite": "naturreservatet",
     "danishIndefinite": "et naturreservat",
-    "tier": 3
+    "tier": 4
   },
   "nature.ecosystem": {
     "danish": "økosystem",
@@ -1065,7 +1065,7 @@
     "gender": "das",
     "danishDefinite": "økosystemet",
     "danishIndefinite": "et økosystem",
-    "tier": 3
+    "tier": 4
   },
   "nature.element": {
     "danish": "element",
@@ -1074,7 +1074,7 @@
     "gender": "das",
     "danishDefinite": "elementet",
     "danishIndefinite": "et element",
-    "tier": 3
+    "tier": 4
   },
   "nature.spark": {
     "danish": "gnist",
@@ -1083,7 +1083,7 @@
     "gender": "der",
     "danishDefinite": "gnisten",
     "danishIndefinite": "en gnist",
-    "tier": 3
+    "tier": 4
   },
   "nature.flame": {
     "danish": "flamme",
@@ -1092,7 +1092,7 @@
     "gender": "die",
     "danishDefinite": "flammen",
     "danishIndefinite": "en flamme",
-    "tier": 3
+    "tier": 4
   },
   "nature.lava": {
     "danish": "lava",
@@ -1101,13 +1101,13 @@
     "gender": "die",
     "danishDefinite": "lavaen",
     "danishIndefinite": "en lava",
-    "tier": 3
+    "tier": 4
   },
   "nature.sustainable": {
     "danish": "bæredygtig",
     "german": "nachhaltig",
     "english": "sustainable",
-    "tier": 3
+    "tier": 4
   },
   "nature.environmentally-friendly": {
     "danish": "miljøvenlig",
@@ -1119,25 +1119,25 @@
     "danish": "forurenet",
     "german": "verschmutzt",
     "english": "polluted",
-    "tier": 3
+    "tier": 4
   },
   "nature.protected": {
     "danish": "beskyttet",
     "german": "geschützt",
     "english": "protected",
-    "tier": 3
+    "tier": 4
   },
   "nature.mountainous": {
     "danish": "bjergrig",
     "german": "bergig",
     "english": "mountainous",
-    "tier": 3
+    "tier": 5
   },
   "nature.hilly": {
     "danish": "kuperet",
     "german": "hügelig",
     "english": "hilly",
-    "tier": 3
+    "tier": 5
   },
   "nature.steep": {
     "danish": "stejl",
@@ -1149,24 +1149,24 @@
     "danish": "øde",
     "german": "öde",
     "english": "deserted",
-    "tier": 3
+    "tier": 5
   },
   "nature.lush": {
     "danish": "frodig",
     "german": "üppig",
     "english": "lush",
-    "tier": 3
+    "tier": 5
   },
   "nature.dense": {
     "danish": "tæt",
     "german": "dicht",
     "english": "dense",
-    "tier": 3
+    "tier": 4
   },
   "nature.snow-covered": {
     "danish": "snedækket",
     "german": "schneebedeckt",
     "english": "snow-covered",
-    "tier": 3
+    "tier": 4
   }
 }

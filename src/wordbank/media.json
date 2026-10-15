@@ -15,7 +15,7 @@
     "gender": "der",
     "danishDefinite": "underteksten",
     "danishIndefinite": "en undertekst",
-    "tier": 3
+    "tier": 4
   },
   "media.article": {
     "danish": "artikel",
@@ -24,7 +24,7 @@
     "gender": "der",
     "danishDefinite": "artiklen",
     "danishIndefinite": "en artikel",
-    "tier": 2
+    "tier": 3
   },
   "media.headline": {
     "danish": "overskrift",
@@ -33,7 +33,7 @@
     "gender": "die",
     "danishDefinite": "overskriften",
     "danishIndefinite": "en overskrift",
-    "tier": 3
+    "tier": 4
   },
   "media.reporter": {
     "danish": "reporter",
@@ -42,7 +42,7 @@
     "gender": "der",
     "danishDefinite": "reporteren",
     "danishIndefinite": "en reporter",
-    "tier": 3
+    "tier": 4
   },
   "media.editor": {
     "danish": "redaktør",
@@ -51,7 +51,7 @@
     "gender": "der",
     "danishDefinite": "redaktøren",
     "danishIndefinite": "en redaktør",
-    "tier": 3
+    "tier": 5
   },
   "media.report": {
     "danish": "reportage",
@@ -60,7 +60,7 @@
     "gender": "die",
     "danishDefinite": "reportagen",
     "danishIndefinite": "en reportage",
-    "tier": 3
+    "tier": 4
   },
   "media.interview": {
     "danish": "interview",
@@ -69,7 +69,7 @@
     "gender": "das",
     "danishDefinite": "interviewet",
     "danishIndefinite": "et interview",
-    "tier": 2
+    "tier": 3
   },
   "media.press": {
     "danish": "presse",
@@ -78,7 +78,7 @@
     "gender": "die",
     "danishDefinite": "pressen",
     "danishIndefinite": "en presse",
-    "tier": 3
+    "tier": 4
   },
   "media.television": {
     "danish": "fjernsyn",
@@ -105,7 +105,7 @@
     "gender": "die",
     "danishDefinite": "tv-programmet",
     "danishIndefinite": "et tv-program",
-    "tier": 2
+    "tier": 3
   },
   "media.tv-channel": {
     "danish": "tv-kanal",
@@ -114,7 +114,7 @@
     "gender": "der",
     "danishDefinite": "tv-kanalen",
     "danishIndefinite": "en tv-kanal",
-    "tier": 3
+    "tier": 4
   },
   "media.radio-station": {
     "danish": "radiokanal",
@@ -123,7 +123,7 @@
     "gender": "der",
     "danishDefinite": "radiokanalen",
     "danishIndefinite": "en radiokanal",
-    "tier": 3
+    "tier": 4
   },
   "media.podcast": {
     "danish": "podcast",
@@ -132,7 +132,7 @@
     "gender": "der",
     "danishDefinite": "podcasten",
     "danishIndefinite": "en podcast",
-    "tier": 3
+    "tier": 4
   },
   "media.series": {
     "danish": "serie",
@@ -150,7 +150,7 @@
     "gender": "die",
     "danishDefinite": "afsnittet",
     "danishIndefinite": "et afsnit",
-    "tier": 3
+    "tier": 4
   },
   "media.film": {
     "danish": "film",
@@ -168,7 +168,7 @@
     "gender": "der",
     "danishDefinite": "dokumentarfilmen",
     "danishIndefinite": "en dokumentarfilm",
-    "tier": 3
+    "tier": 4
   },
   "media.comedy": {
     "danish": "komedie",
@@ -177,7 +177,7 @@
     "gender": "die",
     "danishDefinite": "komedien",
     "danishIndefinite": "en komedie",
-    "tier": 3
+    "tier": 4
   },
   "media.thriller": {
     "danish": "thriller",
@@ -186,7 +186,7 @@
     "gender": "der",
     "danishDefinite": "thrilleren",
     "danishIndefinite": "en thriller",
-    "tier": 3
+    "tier": 4
   },
   "media.horror-film": {
     "danish": "gyserfilm",
@@ -195,7 +195,7 @@
     "gender": "der",
     "danishDefinite": "gyserfilmen",
     "danishIndefinite": "en gyserfilm",
-    "tier": 3
+    "tier": 4
   },
   "media.cartoon": {
     "danish": "tegnefilm",
@@ -204,7 +204,7 @@
     "gender": "der",
     "danishDefinite": "tegnefilmen",
     "danishIndefinite": "en tegnefilm",
-    "tier": 3
+    "tier": 4
   },
   "media.director": {
     "danish": "instruktør",
@@ -213,7 +213,7 @@
     "gender": "der",
     "danishDefinite": "instruktøren",
     "danishIndefinite": "en instruktør",
-    "tier": 3
+    "tier": 4
   },
   "media.cinema-ticket": {
     "danish": "biografbillet",
@@ -231,7 +231,7 @@
     "gender": "der",
     "danishDefinite": "traileren",
     "danishIndefinite": "en trailer",
-    "tier": 3
+    "tier": 4
   },
   "media.advert": {
     "danish": "reklamefilm",
@@ -240,7 +240,7 @@
     "gender": "der",
     "danishDefinite": "reklamefilmen",
     "danishIndefinite": "en reklamefilm",
-    "tier": 3
+    "tier": 4
   },
   "media.publisher": {
     "danish": "forlag",
@@ -249,7 +249,7 @@
     "gender": "der",
     "danishDefinite": "forlaget",
     "danishIndefinite": "et forlag",
-    "tier": 3
+    "tier": 4
   },
   "media.story": {
     "danish": "fortælling",
@@ -276,7 +276,7 @@
     "gender": "das",
     "danishDefinite": "lydbogen",
     "danishIndefinite": "en lydbog",
-    "tier": 3
+    "tier": 4
   },
   "media.page": {
     "danish": "bogside",
@@ -294,7 +294,7 @@
     "gender": "der",
     "danishDefinite": "titlen",
     "danishIndefinite": "en titel",
-    "tier": 2
+    "tier": 3
   },
   "media.bestseller": {
     "danish": "bestseller",
@@ -303,7 +303,7 @@
     "gender": "der",
     "danishDefinite": "bestselleren",
     "danishIndefinite": "en bestseller",
-    "tier": 3
+    "tier": 4
   },
   "media.website": {
     "danish": "hjemmeside",
@@ -330,7 +330,7 @@
     "gender": "das",
     "danishDefinite": "mediet",
     "danishIndefinite": "et medie",
-    "tier": 3
+    "tier": 4
   },
   "media.opinion": {
     "danish": "mening",
@@ -348,7 +348,7 @@
     "gender": "die",
     "danishDefinite": "offentligheden",
     "danishIndefinite": "en offentlighed",
-    "tier": 3
+    "tier": 4
   },
   "media.reader": {
     "danish": "læser",
@@ -357,7 +357,7 @@
     "gender": "der",
     "danishDefinite": "læseren",
     "danishIndefinite": "en læser",
-    "tier": 2
+    "tier": 3
   },
   "media.viewer": {
     "danish": "seer",
@@ -375,13 +375,13 @@
     "gender": "der",
     "danishDefinite": "lytteren",
     "danishIndefinite": "en lytter",
-    "tier": 3
+    "tier": 4
   },
   "media.subscribe": {
     "danish": "at abonnere",
     "german": "abonnieren",
     "english": "to subscribe",
-    "tier": 3
+    "tier": 4
   },
   "media.subscription": {
     "danish": "abonnement",
@@ -390,7 +390,7 @@
     "gender": "das",
     "danishDefinite": "abonnementet",
     "danishIndefinite": "et abonnement",
-    "tier": 3
+    "tier": 4
   },
   "media.report-verb": {
     "danish": "at rapportere",

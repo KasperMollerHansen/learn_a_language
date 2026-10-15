@@ -15,7 +15,7 @@
     "gender": "der",
     "danishDefinite": "skruetrækkeren",
     "danishIndefinite": "en skruetrækker",
-    "tier": 2
+    "tier": 3
   },
   "tools.pliers": {
     "danish": "tang",
@@ -24,7 +24,7 @@
     "gender": "die",
     "danishDefinite": "tangen",
     "danishIndefinite": "en tang",
-    "tier": 3
+    "tier": 4
   },
   "tools.spanner": {
     "danish": "skruenøgle",
@@ -33,7 +33,7 @@
     "gender": "der",
     "danishDefinite": "skruenøglen",
     "danishIndefinite": "en skruenøgle",
-    "tier": 3
+    "tier": 4
   },
   "tools.saw": {
     "danish": "sav",
@@ -42,7 +42,7 @@
     "gender": "die",
     "danishDefinite": "saven",
     "danishIndefinite": "en sav",
-    "tier": 2
+    "tier": 3
   },
   "tools.drill": {
     "danish": "boremaskine",
@@ -51,7 +51,7 @@
     "gender": "die",
     "danishDefinite": "boremaskinen",
     "danishIndefinite": "en boremaskine",
-    "tier": 3
+    "tier": 4
   },
   "tools.drill-bit": {
     "danish": "bor",
@@ -60,7 +60,7 @@
     "gender": "der",
     "danishDefinite": "boret",
     "danishIndefinite": "et bor",
-    "tier": 3
+    "tier": 4
   },
   "tools.cordless-screwdriver": {
     "danish": "akkuskruetrækker",
@@ -69,7 +69,7 @@
     "gender": "der",
     "danishDefinite": "akkuskruetrækkeren",
     "danishIndefinite": "en akkuskruetrækker",
-    "tier": 3
+    "tier": 5
   },
   "tools.nail": {
     "danish": "søm",
@@ -78,7 +78,7 @@
     "gender": "der",
     "danishDefinite": "sømmet",
     "danishIndefinite": "et søm",
-    "tier": 2
+    "tier": 3
   },
   "tools.screw": {
     "danish": "skrue",
@@ -87,7 +87,7 @@
     "gender": "die",
     "danishDefinite": "skruen",
     "danishIndefinite": "en skrue",
-    "tier": 2
+    "tier": 3
   },
   "tools.bolt": {
     "danish": "bolt",
@@ -96,7 +96,7 @@
     "gender": "der",
     "danishDefinite": "bolten",
     "danishIndefinite": "en bolt",
-    "tier": 3
+    "tier": 5
   },
   "tools.nut": {
     "danish": "møtrik",
@@ -105,7 +105,7 @@
     "gender": "die",
     "danishDefinite": "møtrikken",
     "danishIndefinite": "en møtrik",
-    "tier": 3
+    "tier": 5
   },
   "tools.washer": {
     "danish": "spændeskive",
@@ -114,7 +114,7 @@
     "gender": "die",
     "danishDefinite": "spændeskiven",
     "danishIndefinite": "en spændeskive",
-    "tier": 3
+    "tier": 5
   },
   "tools.hinge": {
     "danish": "hængsel",
@@ -123,7 +123,7 @@
     "gender": "das",
     "danishDefinite": "hængslet",
     "danishIndefinite": "et hængsel",
-    "tier": 3
+    "tier": 5
   },
   "tools.handle": {
     "danish": "håndtag",
@@ -132,7 +132,7 @@
     "gender": "der",
     "danishDefinite": "håndtaget",
     "danishIndefinite": "et håndtag",
-    "tier": 2
+    "tier": 3
   },
   "tools.spirit-level": {
     "danish": "vaterpas",
@@ -141,7 +141,7 @@
     "gender": "die",
     "danishDefinite": "vaterpasset",
     "danishIndefinite": "et vaterpas",
-    "tier": 3
+    "tier": 5
   },
   "tools.axe": {
     "danish": "økse",
@@ -150,7 +150,7 @@
     "gender": "die",
     "danishDefinite": "øksen",
     "danishIndefinite": "en økse",
-    "tier": 2
+    "tier": 3
   },
   "tools.rake": {
     "danish": "rive",
@@ -159,7 +159,7 @@
     "gender": "die",
     "danishDefinite": "riven",
     "danishIndefinite": "en rive",
-    "tier": 2
+    "tier": 3
   },
   "tools.ladder": {
     "danish": "stige",
@@ -168,7 +168,7 @@
     "gender": "die",
     "danishDefinite": "stigen",
     "danishIndefinite": "en stige",
-    "tier": 2
+    "tier": 3
   },
   "tools.toolbox": {
     "danish": "værktøjskasse",
@@ -177,7 +177,7 @@
     "gender": "der",
     "danishDefinite": "værktøjskassen",
     "danishIndefinite": "en værktøjskasse",
-    "tier": 3
+    "tier": 4
   },
   "tools.workshop": {
     "danish": "værksted",
@@ -195,7 +195,7 @@
     "gender": "die",
     "danishDefinite": "arbejdsbænken",
     "danishIndefinite": "en arbejdsbænk",
-    "tier": 3
+    "tier": 5
   },
   "tools.vice": {
     "danish": "skruestik",
@@ -204,7 +204,7 @@
     "gender": "der",
     "danishDefinite": "skruestikken",
     "danishIndefinite": "en skruestik",
-    "tier": 3
+    "tier": 5
   },
   "tools.clamp": {
     "danish": "skruetvinge",
@@ -213,7 +213,7 @@
     "gender": "die",
     "danishDefinite": "skruetvingen",
     "danishIndefinite": "en skruetvinge",
-    "tier": 3
+    "tier": 5
   },
   "tools.sandpaper": {
     "danish": "sandpapir",
@@ -222,7 +222,7 @@
     "gender": "das",
     "danishDefinite": "sandpapiret",
     "danishIndefinite": "et sandpapir",
-    "tier": 3
+    "tier": 5
   },
   "tools.plane": {
     "danish": "høvl",
@@ -231,7 +231,7 @@
     "gender": "der",
     "danishDefinite": "høvlen",
     "danishIndefinite": "en høvl",
-    "tier": 3
+    "tier": 5
   },
   "tools.chisel": {
     "danish": "mejsel",
@@ -240,7 +240,7 @@
     "gender": "der",
     "danishDefinite": "mejslen",
     "danishIndefinite": "en mejsel",
-    "tier": 3
+    "tier": 5
   },
   "tools.jigsaw": {
     "danish": "stiksav",
@@ -249,7 +249,7 @@
     "gender": "die",
     "danishDefinite": "stiksaven",
     "danishIndefinite": "en stiksav",
-    "tier": 3
+    "tier": 5
   },
   "tools.chainsaw": {
     "danish": "motorsav",
@@ -258,7 +258,7 @@
     "gender": "die",
     "danishDefinite": "motorsaven",
     "danishIndefinite": "en motorsav",
-    "tier": 3
+    "tier": 4
   },
   "tools.angle-grinder": {
     "danish": "vinkelsliber",
@@ -267,7 +267,7 @@
     "gender": "der",
     "danishDefinite": "vinkelsliberen",
     "danishIndefinite": "en vinkelsliber",
-    "tier": 3
+    "tier": 5
   },
   "tools.crowbar": {
     "danish": "brækjern",
@@ -276,7 +276,7 @@
     "gender": "das",
     "danishDefinite": "brækjernet",
     "danishIndefinite": "et brækjern",
-    "tier": 3
+    "tier": 5
   },
   "tools.pickaxe": {
     "danish": "hakke",
@@ -285,7 +285,7 @@
     "gender": "die",
     "danishDefinite": "hakken",
     "danishIndefinite": "en hakke",
-    "tier": 3
+    "tier": 5
   },
   "tools.mallet": {
     "danish": "træhammer",
@@ -294,7 +294,7 @@
     "gender": "der",
     "danishDefinite": "træhammeren",
     "danishIndefinite": "en træhammer",
-    "tier": 3
+    "tier": 5
   },
   "tools.soldering-iron": {
     "danish": "loddekolbe",
@@ -303,7 +303,7 @@
     "gender": "der",
     "danishDefinite": "loddekolben",
     "danishIndefinite": "en loddekolbe",
-    "tier": 3
+    "tier": 5
   },
   "tools.box-cutter": {
     "danish": "hobbykniv",
@@ -312,7 +312,7 @@
     "gender": "das",
     "danishDefinite": "hobbykniven",
     "danishIndefinite": "en hobbykniv",
-    "tier": 3
+    "tier": 4
   },
   "tools.glue": {
     "danish": "lim",
@@ -321,7 +321,7 @@
     "gender": "der",
     "danishDefinite": "limen",
     "danishIndefinite": "en lim",
-    "tier": 2
+    "tier": 3
   },
   "tools.glue-gun": {
     "danish": "limpistol",
@@ -330,7 +330,7 @@
     "gender": "die",
     "danishDefinite": "limpistolen",
     "danishIndefinite": "en limpistol",
-    "tier": 3
+    "tier": 5
   },
   "tools.tape": {
     "danish": "tape",
@@ -339,7 +339,7 @@
     "gender": "das",
     "danishDefinite": "tapen",
     "danishIndefinite": "en tape",
-    "tier": 2
+    "tier": 3
   },
   "tools.scissors": {
     "danish": "saks",
@@ -357,7 +357,7 @@
     "gender": "das",
     "danishDefinite": "rebet",
     "danishIndefinite": "et reb",
-    "tier": 2
+    "tier": 3
   },
   "tools.string": {
     "danish": "snor",
@@ -366,7 +366,7 @@
     "gender": "die",
     "danishDefinite": "snoren",
     "danishIndefinite": "en snor",
-    "tier": 2
+    "tier": 3
   },
   "tools.wire": {
     "danish": "metaltråd",
@@ -375,7 +375,7 @@
     "gender": "der",
     "danishDefinite": "metaltråden",
     "danishIndefinite": "en metaltråd",
-    "tier": 3
+    "tier": 4
   },
   "tools.chain": {
     "danish": "kæde",
@@ -384,7 +384,7 @@
     "gender": "die",
     "danishDefinite": "kæden",
     "danishIndefinite": "en kæde",
-    "tier": 2
+    "tier": 3
   },
   "tools.paint": {
     "danish": "maling",
@@ -402,7 +402,7 @@
     "gender": "der",
     "danishDefinite": "penslen",
     "danishIndefinite": "en pensel",
-    "tier": 2
+    "tier": 3
   },
   "tools.paint-roller": {
     "danish": "malerrulle",
@@ -411,7 +411,7 @@
     "gender": "der",
     "danishDefinite": "malerrullen",
     "danishIndefinite": "en malerrulle",
-    "tier": 3
+    "tier": 4
   },
   "tools.varnish": {
     "danish": "lak",
@@ -420,7 +420,7 @@
     "gender": "der",
     "danishDefinite": "lakken",
     "danishIndefinite": "en lak",
-    "tier": 3
+    "tier": 4
   },
   "tools.trowel": {
     "danish": "murske",
@@ -429,7 +429,7 @@
     "gender": "die",
     "danishDefinite": "mursken",
     "danishIndefinite": "en murske",
-    "tier": 3
+    "tier": 5
   },
   "tools.shed": {
     "danish": "redskabsskur",
@@ -438,7 +438,7 @@
     "gender": "der",
     "danishDefinite": "redskabsskuret",
     "danishIndefinite": "et redskabsskur",
-    "tier": 3
+    "tier": 5
   },
   "tools.funnel": {
     "danish": "tragt",
@@ -447,7 +447,7 @@
     "gender": "der",
     "danishDefinite": "tragten",
     "danishIndefinite": "en tragt",
-    "tier": 3
+    "tier": 4
   },
   "tools.magnifying-glass": {
     "danish": "forstørrelsesglas",
@@ -456,7 +456,7 @@
     "gender": "die",
     "danishDefinite": "forstørrelsesglasset",
     "danishIndefinite": "et forstørrelsesglas",
-    "tier": 3
+    "tier": 4
   },
   "tools.magnet": {
     "danish": "magnet",
@@ -465,7 +465,7 @@
     "gender": "der",
     "danishDefinite": "magneten",
     "danishIndefinite": "en magnet",
-    "tier": 3
+    "tier": 4
   },
   "tools.pump": {
     "danish": "pumpe",
@@ -474,7 +474,7 @@
     "gender": "die",
     "danishDefinite": "pumpen",
     "danishIndefinite": "en pumpe",
-    "tier": 3
+    "tier": 4
   },
   "tools.bicycle-pump": {
     "danish": "cykelpumpe",
@@ -483,7 +483,7 @@
     "gender": "die",
     "danishDefinite": "cykelpumpen",
     "danishIndefinite": "en cykelpumpe",
-    "tier": 3
+    "tier": 4
   },
   "tools.jack": {
     "danish": "donkraft",
@@ -492,7 +492,7 @@
     "gender": "der",
     "danishDefinite": "donkraften",
     "danishIndefinite": "en donkraft",
-    "tier": 3
+    "tier": 5
   },
   "tools.scaffolding": {
     "danish": "stillads",
@@ -501,7 +501,7 @@
     "gender": "das",
     "danishDefinite": "stilladset",
     "danishIndefinite": "et stillads",
-    "tier": 3
+    "tier": 4
   },
   "tools.hole": {
     "danish": "hul",
@@ -510,7 +510,7 @@
     "gender": "das",
     "danishDefinite": "hullet",
     "danishIndefinite": "et hul",
-    "tier": 2
+    "tier": 3
   },
   "tools.work-gloves": {
     "danish": "arbejdshandske",
@@ -519,7 +519,7 @@
     "gender": "der",
     "danishDefinite": "arbejdshandsken",
     "danishIndefinite": "en arbejdshandske",
-    "tier": 3
+    "tier": 4
   },
   "tools.pin": {
     "danish": "knappenål",
@@ -528,7 +528,7 @@
     "gender": "die",
     "danishDefinite": "knappenålen",
     "danishIndefinite": "en knappenål",
-    "tier": 3
+    "tier": 4
   },
   "tools.safety-pin": {
     "danish": "sikkerhedsnål",
@@ -537,7 +537,7 @@
     "gender": "die",
     "danishDefinite": "sikkerhedsnålen",
     "danishIndefinite": "en sikkerhedsnål",
-    "tier": 3
+    "tier": 4
   },
   "tools.thimble": {
     "danish": "fingerbøl",
@@ -546,7 +546,7 @@
     "gender": "der",
     "danishDefinite": "fingerbøllet",
     "danishIndefinite": "et fingerbøl",
-    "tier": 3
+    "tier": 5
   },
   "tools.rubber-band": {
     "danish": "elastik",
@@ -555,6 +555,6 @@
     "gender": "das",
     "danishDefinite": "elastikken",
     "danishIndefinite": "en elastik",
-    "tier": 3
+    "tier": 4
   }
 }

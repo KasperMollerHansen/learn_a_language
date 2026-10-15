@@ -24,7 +24,7 @@
     "gender": "das",
     "danishDefinite": "postevandet",
     "danishIndefinite": "et postevand",
-    "tier": 3
+    "tier": 4
   },
   "drinks.spring-water": {
     "danish": "kildevand",
@@ -33,7 +33,7 @@
     "gender": "das",
     "danishDefinite": "kildevandet",
     "danishIndefinite": "et kildevand",
-    "tier": 3
+    "tier": 5
   },
   "drinks.soft-drink": {
     "danish": "sodavand",
@@ -87,7 +87,7 @@
     "gender": "der",
     "danishDefinite": "druesaften",
     "danishIndefinite": "en druesaft",
-    "tier": 3
+    "tier": 4
   },
   "drinks.tomato-juice": {
     "danish": "tomatjuice",
@@ -96,7 +96,7 @@
     "gender": "der",
     "danishDefinite": "tomatjuicen",
     "danishIndefinite": "en tomatjuice",
-    "tier": 3
+    "tier": 4
   },
   "drinks.coffee": {
     "danish": "kaffe",
@@ -132,7 +132,7 @@
     "gender": "die",
     "danishDefinite": "kaffebønnen",
     "danishIndefinite": "en kaffebønne",
-    "tier": 3
+    "tier": 4
   },
   "drinks.tea": {
     "danish": "te",
@@ -150,7 +150,7 @@
     "gender": "der",
     "danishDefinite": "smoothien",
     "danishIndefinite": "en smoothie",
-    "tier": 3
+    "tier": 4
   },
   "drinks.milkshake": {
     "danish": "milkshake",
@@ -159,7 +159,7 @@
     "gender": "der",
     "danishDefinite": "milkshaken",
     "danishIndefinite": "en milkshake",
-    "tier": 3
+    "tier": 4
   },
   "drinks.energy-drink": {
     "danish": "energidrik",
@@ -168,7 +168,7 @@
     "gender": "der",
     "danishDefinite": "energidrikken",
     "danishIndefinite": "en energidrik",
-    "tier": 3
+    "tier": 4
   },
   "drinks.beer": {
     "danish": "øl",
@@ -186,7 +186,7 @@
     "gender": "das",
     "danishDefinite": "fadøllen",
     "danishIndefinite": "en fadøl",
-    "tier": 3
+    "tier": 5
   },
   "drinks.wheat-beer": {
     "danish": "hvedeøl",
@@ -195,7 +195,7 @@
     "gender": "das",
     "danishDefinite": "hvedeøllen",
     "danishIndefinite": "en hvedeøl",
-    "tier": 3
+    "tier": 4
   },
   "drinks.wine": {
     "danish": "vin",
@@ -231,7 +231,7 @@
     "gender": "der",
     "danishDefinite": "champagnen",
     "danishIndefinite": "en champagne",
-    "tier": 3
+    "tier": 4
   },
   "drinks.port-wine": {
     "danish": "portvin",
@@ -240,7 +240,7 @@
     "gender": "der",
     "danishDefinite": "portvinen",
     "danishIndefinite": "en portvin",
-    "tier": 3
+    "tier": 5
   },
   "drinks.cider": {
     "danish": "cider",
@@ -249,7 +249,7 @@
     "gender": "der",
     "danishDefinite": "cideren",
     "danishIndefinite": "en cider",
-    "tier": 3
+    "tier": 4
   },
   "drinks.whisky": {
     "danish": "whisky",
@@ -258,7 +258,7 @@
     "gender": "der",
     "danishDefinite": "whiskyen",
     "danishIndefinite": "en whisky",
-    "tier": 3
+    "tier": 4
   },
   "drinks.vodka": {
     "danish": "vodka",
@@ -267,7 +267,7 @@
     "gender": "der",
     "danishDefinite": "vodkaen",
     "danishIndefinite": "en vodka",
-    "tier": 3
+    "tier": 4
   },
   "drinks.rum": {
     "danish": "rom",
@@ -276,7 +276,7 @@
     "gender": "der",
     "danishDefinite": "rommen",
     "danishIndefinite": "en rom",
-    "tier": 3
+    "tier": 4
   },
   "drinks.gin": {
     "danish": "gin",
@@ -285,7 +285,7 @@
     "gender": "der",
     "danishDefinite": "ginen",
     "danishIndefinite": "en gin",
-    "tier": 3
+    "tier": 4
   },
   "drinks.cognac": {
     "danish": "cognac",
@@ -294,7 +294,7 @@
     "gender": "der",
     "danishDefinite": "cognacen",
     "danishIndefinite": "en cognac",
-    "tier": 3
+    "tier": 5
   },
   "drinks.liqueur": {
     "danish": "likør",
@@ -303,7 +303,7 @@
     "gender": "der",
     "danishDefinite": "likøren",
     "danishIndefinite": "en likør",
-    "tier": 3
+    "tier": 5
   },
   "drinks.schnapps": {
     "danish": "snaps",
@@ -312,7 +312,7 @@
     "gender": "der",
     "danishDefinite": "snapsen",
     "danishIndefinite": "en snaps",
-    "tier": 3
+    "tier": 4
   },
   "drinks.cocktail": {
     "danish": "cocktail",
@@ -321,7 +321,7 @@
     "gender": "der",
     "danishDefinite": "cocktailen",
     "danishIndefinite": "en cocktail",
-    "tier": 2
+    "tier": 3
   },
   "drinks.mixed-drink": {
     "danish": "drink",
@@ -330,7 +330,7 @@
     "gender": "der",
     "danishDefinite": "drinken",
     "danishIndefinite": "en drink",
-    "tier": 2
+    "tier": 3
   },
   "drinks.alcohol": {
     "danish": "alkohol",
@@ -339,7 +339,7 @@
     "gender": "der",
     "danishDefinite": "alkoholen",
     "danishIndefinite": "en alkohol",
-    "tier": 2
+    "tier": 3
   },
   "drinks.carbonation": {
     "danish": "kulsyre",
@@ -348,7 +348,7 @@
     "gender": "die",
     "danishDefinite": "kulsyren",
     "danishIndefinite": "en kulsyre",
-    "tier": 3
+    "tier": 4
   },
   "drinks.beverage": {
     "danish": "drikkevare",
@@ -384,7 +384,7 @@
     "gender": "der",
     "danishDefinite": "bartenderen",
     "danishIndefinite": "en bartender",
-    "tier": 3
+    "tier": 4
   },
   "drinks.alcohol-free": {
     "danish": "alkoholfri",
@@ -396,12 +396,21 @@
     "danish": "kulsyreholdig",
     "german": "kohlensäurehaltig",
     "english": "fizzy",
-    "tier": 3
+    "tier": 5
   },
   "drinks.to-pour-a-drink": {
     "danish": "at skænke",
     "german": "einschenken",
     "english": "to pour a drink",
-    "tier": 3
+    "tier": 5
+  },
+  "drinks.aperitif": {
+    "danish": "aperitif",
+    "german": "Aperitif",
+    "english": "aperitif",
+    "gender": "der",
+    "danishDefinite": "aperitifen",
+    "danishIndefinite": "en aperitif",
+    "tier": 5
   }
 }

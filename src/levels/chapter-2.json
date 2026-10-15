@@ -205,11 +205,12 @@
   {
     "id": "2-14",
     "chapter": "Chapter 2 · Everyday",
-    "name": "Modal verbs",
+    "name": "Sentences",
     "mode": "word",
     "prompt": "Translate the Danish sentence into German",
     "categories": [
-      "modals"
+      "modals",
+      "sentences"
     ],
     "tiers": [
       2

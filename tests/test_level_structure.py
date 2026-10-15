@@ -9,14 +9,14 @@ def test_chapters_are_tiers_ending_with_review_then_sentence_builder() -> None:
     for level in bank["levels"]:
         chapters.setdefault(int(level["id"].split("-")[0]), []).append(level)
 
-    assert list(chapters) == [1, 2, 3]
+    assert list(chapters) == [1, 2, 3, 4, 5]
     for number, levels in chapters.items():
         assert [level["id"] for level in levels] == [
             f"{number}-{index}" for index in range(1, len(levels) + 1)
         ]
         assert len({level["chapter"] for level in levels}) == 1
         *words, sentences, review, builder = levels
-        assert sentences["name"] == "Modal verbs"
+        assert sentences["name"] == "Sentences"
         assert review["name"] == "Review"
         assert builder["mode"] == "sentence"
         assert all(level["mode"] in {"word", "article"} for level in words)
@@ -34,8 +34,9 @@ def test_every_category_is_in_a_theme_level_and_pools_are_playable() -> None:
     modal_ids = [
         word_id
         for level in bank["levels"]
-        if level["name"] == "Modal verbs"
+        if level["name"] == "Sentences"
         for word_id in level_word_ids(bank, level)
+        if word_id.startswith("modals.")
     ]
     assert {word_id.split(".")[1] for word_id in modal_ids} == {
         "koennen",
@@ -56,7 +57,7 @@ def test_every_category_is_in_a_theme_level_and_pools_are_playable() -> None:
 def test_every_word_has_a_tier() -> None:
     bank = load_wordbank()
 
-    assert all(word.get("tier") in {1, 2, 3} for word in bank["words"].values())
+    assert all(word.get("tier") in {1, 2, 3, 4, 5} for word in bank["words"].values())
 
 
 def test_every_word_has_danish_german_and_english_translations() -> None:
@@ -159,15 +160,19 @@ def test_sentence_builder_chunks_have_ordered_answers_and_distractors() -> None:
     }
     sentences: dict[str, list[dict[str, object]]] = {}
     for word_id, chunk in zip(word_ids, chunks):
-        assert (chunk["danish"], chunk["german"], chunk["sentence"]) == expected[word_id]
+        if word_id in expected:
+            assert (chunk["danish"], chunk["german"], chunk["sentence"]) == expected[word_id]
         sentences.setdefault(cast(str, chunk["sentenceId"]), []).append(chunk)
         options = chunk["options"]
         assert len(options) == 3
         assert len(set(options)) == 3
         assert chunk["german"] in options
 
-    assert len(chunks) == 30
-    assert len(sentences) == 10
+    sentences_per_tier: dict[int, int] = {}
+    for parts in sentences.values():
+        tier = cast(int, parts[0]["tier"])
+        sentences_per_tier[tier] = sentences_per_tier.get(tier, 0) + 1
+    assert sentences_per_tier == dict.fromkeys(range(1, 6), 10)
     assert all(
         sorted(cast(int, chunk["step"]) for chunk in parts) == [1, 2, 3]
         for parts in sentences.values()

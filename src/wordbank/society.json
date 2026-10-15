@@ -6,7 +6,7 @@
     "gender": "die",
     "danishDefinite": "samfundet",
     "danishIndefinite": "et samfund",
-    "tier": 2
+    "tier": 3
   },
   "society.politics": {
     "danish": "politik",
@@ -15,7 +15,7 @@
     "gender": "die",
     "danishDefinite": "politikken",
     "danishIndefinite": "en politik",
-    "tier": 2
+    "tier": 3
   },
   "society.government": {
     "danish": "regering",
@@ -24,7 +24,7 @@
     "gender": "die",
     "danishDefinite": "regeringen",
     "danishIndefinite": "en regering",
-    "tier": 2
+    "tier": 3
   },
   "society.prime-minister": {
     "danish": "premierminister",
@@ -33,7 +33,7 @@
     "gender": "der",
     "danishDefinite": "premierministeren",
     "danishIndefinite": "en premierminister",
-    "tier": 3
+    "tier": 4
   },
   "society.parliament": {
     "danish": "parlament",
@@ -42,7 +42,7 @@
     "gender": "das",
     "danishDefinite": "parlamentet",
     "danishIndefinite": "et parlament",
-    "tier": 3
+    "tier": 4
   },
   "society.parliamentary-election": {
     "danish": "parlamentsvalg",
@@ -51,7 +51,7 @@
     "gender": "die",
     "danishDefinite": "parlamentsvalget",
     "danishIndefinite": "et parlamentsvalg",
-    "tier": 3
+    "tier": 4
   },
   "society.vote": {
     "danish": "afstemning",
@@ -60,7 +60,7 @@
     "gender": "die",
     "danishDefinite": "afstemningen",
     "danishIndefinite": "en afstemning",
-    "tier": 3
+    "tier": 4
   },
   "society.political-party": {
     "danish": "parti",
@@ -69,7 +69,7 @@
     "gender": "die",
     "danishDefinite": "partiet",
     "danishIndefinite": "et parti",
-    "tier": 2
+    "tier": 3
   },
   "society.candidate": {
     "danish": "kandidat",
@@ -78,7 +78,7 @@
     "gender": "der",
     "danishDefinite": "kandidaten",
     "danishIndefinite": "en kandidat",
-    "tier": 3
+    "tier": 4
   },
   "society.campaign": {
     "danish": "kampagne",
@@ -87,7 +87,7 @@
     "gender": "die",
     "danishDefinite": "kampagnen",
     "danishIndefinite": "en kampagne",
-    "tier": 3
+    "tier": 4
   },
   "society.democracy": {
     "danish": "demokrati",
@@ -105,7 +105,7 @@
     "gender": "die",
     "danishDefinite": "diktaturet",
     "danishIndefinite": "et diktatur",
-    "tier": 3
+    "tier": 4
   },
   "society.freedom": {
     "danish": "frihed",
@@ -114,7 +114,7 @@
     "gender": "die",
     "danishDefinite": "friheden",
     "danishIndefinite": "en frihed",
-    "tier": 1
+    "tier": 2
   },
   "society.peace": {
     "danish": "fred",
@@ -123,7 +123,7 @@
     "gender": "der",
     "danishDefinite": "freden",
     "danishIndefinite": "en fred",
-    "tier": 1
+    "tier": 2
   },
   "society.war": {
     "danish": "krig",
@@ -132,7 +132,7 @@
     "gender": "der",
     "danishDefinite": "krigen",
     "danishIndefinite": "en krig",
-    "tier": 1
+    "tier": 2
   },
   "society.army": {
     "danish": "hær",
@@ -141,7 +141,7 @@
     "gender": "die",
     "danishDefinite": "hæren",
     "danishIndefinite": "en hær",
-    "tier": 3
+    "tier": 4
   },
   "society.weapon": {
     "danish": "våben",
@@ -150,7 +150,7 @@
     "gender": "die",
     "danishDefinite": "våbnet",
     "danishIndefinite": "et våben",
-    "tier": 3
+    "tier": 4
   },
   "society.nation": {
     "danish": "nation",
@@ -159,7 +159,7 @@
     "gender": "die",
     "danishDefinite": "nationen",
     "danishIndefinite": "en nation",
-    "tier": 3
+    "tier": 4
   },
   "society.citizenship": {
     "danish": "statsborgerskab",
@@ -168,7 +168,7 @@
     "gender": "die",
     "danishDefinite": "statsborgerskabet",
     "danishIndefinite": "et statsborgerskab",
-    "tier": 3
+    "tier": 4
   },
   "society.immigrant": {
     "danish": "indvandrer",
@@ -177,7 +177,7 @@
     "gender": "der",
     "danishDefinite": "indvandreren",
     "danishIndefinite": "en indvandrer",
-    "tier": 3
+    "tier": 4
   },
   "society.refugee": {
     "danish": "flygtning",
@@ -186,7 +186,7 @@
     "gender": "der",
     "danishDefinite": "flygtningen",
     "danishIndefinite": "en flygtning",
-    "tier": 2
+    "tier": 3
   },
   "society.integration": {
     "danish": "integration",
@@ -195,7 +195,7 @@
     "gender": "die",
     "danishDefinite": "integrationen",
     "danishIndefinite": "en integration",
-    "tier": 3
+    "tier": 4
   },
   "society.municipality": {
     "danish": "kommune",
@@ -204,7 +204,7 @@
     "gender": "die",
     "danishDefinite": "kommunen",
     "danishIndefinite": "en kommune",
-    "tier": 3
+    "tier": 4
   },
   "society.law": {
     "danish": "lov",
@@ -213,7 +213,7 @@
     "gender": "das",
     "danishDefinite": "loven",
     "danishIndefinite": "en lov",
-    "tier": 2
+    "tier": 3
   },
   "society.trial": {
     "danish": "retssag",
@@ -222,7 +222,7 @@
     "gender": "der",
     "danishDefinite": "retssagen",
     "danishIndefinite": "en retssag",
-    "tier": 3
+    "tier": 4
   },
   "society.witness": {
     "danish": "vidne",
@@ -231,7 +231,7 @@
     "gender": "der",
     "danishDefinite": "vidnet",
     "danishIndefinite": "et vidne",
-    "tier": 3
+    "tier": 4
   },
   "society.crime": {
     "danish": "forbrydelse",
@@ -240,7 +240,7 @@
     "gender": "das",
     "danishDefinite": "forbrydelsen",
     "danishIndefinite": "en forbrydelse",
-    "tier": 2
+    "tier": 3
   },
   "society.criminal": {
     "danish": "forbryder",
@@ -249,7 +249,7 @@
     "gender": "der",
     "danishDefinite": "forbryderen",
     "danishIndefinite": "en forbryder",
-    "tier": 3
+    "tier": 4
   },
   "society.murder": {
     "danish": "mord",
@@ -258,7 +258,7 @@
     "gender": "der",
     "danishDefinite": "mordet",
     "danishIndefinite": "et mord",
-    "tier": 2
+    "tier": 3
   },
   "society.theft": {
     "danish": "tyveri",
@@ -267,7 +267,7 @@
     "gender": "der",
     "danishDefinite": "tyveriet",
     "danishIndefinite": "et tyveri",
-    "tier": 3
+    "tier": 4
   },
   "society.punishment": {
     "danish": "straf",
@@ -276,7 +276,7 @@
     "gender": "die",
     "danishDefinite": "straffen",
     "danishIndefinite": "en straf",
-    "tier": 2
+    "tier": 3
   },
   "society.piece-of-evidence": {
     "danish": "bevis",
@@ -285,7 +285,7 @@
     "gender": "der",
     "danishDefinite": "beviset",
     "danishIndefinite": "et bevis",
-    "tier": 3
+    "tier": 4
   },
   "society.verdict": {
     "danish": "dom",
@@ -294,7 +294,7 @@
     "gender": "das",
     "danishDefinite": "dommen",
     "danishIndefinite": "en dom",
-    "tier": 3
+    "tier": 4
   },
   "society.rule": {
     "danish": "regel",
@@ -312,7 +312,7 @@
     "gender": "die",
     "danishDefinite": "tilladelsen",
     "danishIndefinite": "en tilladelse",
-    "tier": 2
+    "tier": 3
   },
   "society.ban": {
     "danish": "forbud",
@@ -321,7 +321,7 @@
     "gender": "das",
     "danishDefinite": "forbuddet",
     "danishIndefinite": "et forbud",
-    "tier": 2
+    "tier": 3
   },
   "society.state": {
     "danish": "stat",
@@ -330,7 +330,7 @@
     "gender": "der",
     "danishDefinite": "staten",
     "danishIndefinite": "en stat",
-    "tier": 2
+    "tier": 3
   },
   "society.healthcare-system": {
     "danish": "sundhedsvæsen",
@@ -339,7 +339,7 @@
     "gender": "das",
     "danishDefinite": "sundhedsvæsenet",
     "danishIndefinite": "et sundhedsvæsen",
-    "tier": 3
+    "tier": 5
   },
   "society.community": {
     "danish": "fællesskab",
@@ -348,7 +348,7 @@
     "gender": "die",
     "danishDefinite": "fællesskabet",
     "danishIndefinite": "et fællesskab",
-    "tier": 2
+    "tier": 3
   },
   "society.neighbourhood": {
     "danish": "nabolag",
@@ -366,7 +366,7 @@
     "gender": "die",
     "danishDefinite": "organisationen",
     "danishIndefinite": "en organisation",
-    "tier": 2
+    "tier": 3
   },
   "society.charity": {
     "danish": "velgørenhed",
@@ -375,7 +375,7 @@
     "gender": "die",
     "danishDefinite": "velgørenheden",
     "danishIndefinite": "en velgørenhed",
-    "tier": 3
+    "tier": 5
   },
   "society.donation": {
     "danish": "donation",
@@ -384,7 +384,7 @@
     "gender": "die",
     "danishDefinite": "donationen",
     "danishIndefinite": "en donation",
-    "tier": 2
+    "tier": 3
   },
   "society.demonstration": {
     "danish": "demonstration",
@@ -393,7 +393,7 @@
     "gender": "die",
     "danishDefinite": "demonstrationen",
     "danishIndefinite": "en demonstration",
-    "tier": 2
+    "tier": 3
   },
   "society.protest": {
     "danish": "protest",
@@ -402,7 +402,7 @@
     "gender": "der",
     "danishDefinite": "protesten",
     "danishIndefinite": "en protest",
-    "tier": 3
+    "tier": 4
   },
   "society.revolution": {
     "danish": "revolution",
@@ -411,7 +411,7 @@
     "gender": "die",
     "danishDefinite": "revolutionen",
     "danishIndefinite": "en revolution",
-    "tier": 3
+    "tier": 4
   },
   "society.reform": {
     "danish": "reform",
@@ -420,7 +420,7 @@
     "gender": "die",
     "danishDefinite": "reformen",
     "danishIndefinite": "en reform",
-    "tier": 3
+    "tier": 4
   },
   "society.debate": {
     "danish": "debat",
@@ -429,7 +429,7 @@
     "gender": "die",
     "danishDefinite": "debatten",
     "danishIndefinite": "en debat",
-    "tier": 2
+    "tier": 3
   },
   "society.religion": {
     "danish": "religion",
@@ -438,7 +438,7 @@
     "gender": "die",
     "danishDefinite": "religionen",
     "danishIndefinite": "en religion",
-    "tier": 2
+    "tier": 3
   },
   "society.god": {
     "danish": "gud",
@@ -456,7 +456,7 @@
     "gender": "die",
     "danishDefinite": "traditionen",
     "danishIndefinite": "en tradition",
-    "tier": 2
+    "tier": 3
   },
   "society.culture": {
     "danish": "kultur",
@@ -474,7 +474,7 @@
     "gender": "der",
     "danishDefinite": "skikken",
     "danishIndefinite": "en skik",
-    "tier": 3
+    "tier": 4
   },
   "society.public-holiday": {
     "danish": "helligdag",
@@ -501,7 +501,7 @@
     "gender": "die",
     "danishDefinite": "begravelsen",
     "danishIndefinite": "en begravelse",
-    "tier": 2
+    "tier": 3
   },
   "society.marriage": {
     "danish": "ægteskab",
@@ -510,7 +510,7 @@
     "gender": "die",
     "danishDefinite": "ægteskabet",
     "danishIndefinite": "et ægteskab",
-    "tier": 2
+    "tier": 3
   },
   "society.divorce": {
     "danish": "skilsmisse",
@@ -519,7 +519,7 @@
     "gender": "die",
     "danishDefinite": "skilsmissen",
     "danishIndefinite": "en skilsmisse",
-    "tier": 2
+    "tier": 3
   },
   "society.generation": {
     "danish": "generation",
@@ -528,7 +528,7 @@
     "gender": "die",
     "danishDefinite": "generationen",
     "danishIndefinite": "en generation",
-    "tier": 3
+    "tier": 4
   },
   "society.youth": {
     "danish": "ungdom",
@@ -537,7 +537,7 @@
     "gender": "die",
     "danishDefinite": "ungdommen",
     "danishIndefinite": "en ungdom",
-    "tier": 2
+    "tier": 3
   },
   "society.equality": {
     "danish": "ligestilling",
@@ -546,7 +546,7 @@
     "gender": "die",
     "danishDefinite": "ligestillingen",
     "danishIndefinite": "en ligestilling",
-    "tier": 3
+    "tier": 4
   },
   "society.discrimination": {
     "danish": "diskrimination",
@@ -555,7 +555,7 @@
     "gender": "die",
     "danishDefinite": "diskriminationen",
     "danishIndefinite": "en diskrimination",
-    "tier": 3
+    "tier": 4
   },
   "society.tolerance": {
     "danish": "tolerance",
@@ -564,7 +564,7 @@
     "gender": "die",
     "danishDefinite": "tolerancen",
     "danishIndefinite": "en tolerance",
-    "tier": 3
+    "tier": 4
   },
   "society.recycling": {
     "danish": "genbrug",
@@ -573,7 +573,7 @@
     "gender": "das",
     "danishDefinite": "genbruget",
     "danishIndefinite": "et genbrug",
-    "tier": 3
+    "tier": 4
   },
   "society.energy": {
     "danish": "energi",
@@ -582,7 +582,7 @@
     "gender": "die",
     "danishDefinite": "energien",
     "danishIndefinite": "en energi",
-    "tier": 2
+    "tier": 3
   },
   "society.safety": {
     "danish": "sikkerhed",
@@ -591,7 +591,7 @@
     "gender": "die",
     "danishDefinite": "sikkerheden",
     "danishIndefinite": "en sikkerhed",
-    "tier": 2
+    "tier": 3
   },
   "society.fire-brigade": {
     "danish": "brandvæsen",
@@ -609,7 +609,7 @@
     "gender": "die",
     "danishDefinite": "redningen",
     "danishIndefinite": "en redning",
-    "tier": 3
+    "tier": 4
   },
   "society.danger": {
     "danish": "fare",
@@ -618,7 +618,7 @@
     "gender": "die",
     "danishDefinite": "faren",
     "danishIndefinite": "en fare",
-    "tier": 2
+    "tier": 3
   },
   "society.risk": {
     "danish": "risiko",
@@ -627,7 +627,7 @@
     "gender": "das",
     "danishDefinite": "risikoen",
     "danishIndefinite": "en risiko",
-    "tier": 2
+    "tier": 3
   },
   "society.disaster": {
     "danish": "katastrofe",
@@ -636,84 +636,84 @@
     "gender": "die",
     "danishDefinite": "katastrofen",
     "danishIndefinite": "en katastrofe",
-    "tier": 2
+    "tier": 3
   },
   "society.convict": {
     "danish": "at dømme",
     "german": "verurteilen",
     "english": "to convict",
-    "tier": 3
+    "tier": 4
   },
   "society.arrest": {
     "danish": "at arrestere",
     "german": "verhaften",
     "english": "to arrest",
-    "tier": 2
+    "tier": 3
   },
   "society.murder-2": {
     "danish": "at myrde",
     "german": "ermorden",
     "english": "to murder",
-    "tier": 3
+    "tier": 4
   },
   "society.accuse": {
     "danish": "at anklage",
     "german": "anklagen",
     "english": "to accuse",
-    "tier": 3
+    "tier": 5
   },
   "society.found": {
     "danish": "at stifte",
     "german": "gründen",
     "english": "to found",
-    "tier": 3
+    "tier": 4
   },
   "society.contribute": {
     "danish": "at bidrage",
     "german": "beitragen",
     "english": "to contribute",
-    "tier": 3
+    "tier": 4
   },
   "society.legal": {
     "danish": "lovlig",
     "german": "legal",
     "english": "legal",
-    "tier": 3
+    "tier": 4
   },
   "society.illegal": {
     "danish": "ulovlig",
     "german": "illegal",
     "english": "illegal",
-    "tier": 3
+    "tier": 4
   },
   "society.democratic": {
     "danish": "demokratisk",
     "german": "demokratisch",
     "english": "democratic",
-    "tier": 3
+    "tier": 4
   },
   "society.christian": {
     "danish": "kristen",
     "german": "christlich",
     "english": "Christian",
-    "tier": 3
+    "tier": 4
   },
   "society.cultural": {
     "danish": "kulturel",
     "german": "kulturell",
     "english": "cultural",
-    "tier": 3
+    "tier": 4
   },
   "society.guilty": {
     "danish": "skyldig",
     "german": "schuldig",
     "english": "guilty",
-    "tier": 3
+    "tier": 4
   },
   "society.innocent": {
     "danish": "uskyldig",
     "german": "unschuldig",
     "english": "innocent",
-    "tier": 3
+    "tier": 4
   }
 }

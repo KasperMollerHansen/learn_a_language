@@ -6,7 +6,7 @@
     "gender": "die",
     "danishDefinite": "kantinen",
     "danishIndefinite": "en kantine",
-    "tier": 2
+    "tier": 3
   },
   "restaurant.pizzeria": {
     "danish": "pizzeria",
@@ -51,7 +51,7 @@
     "gender": "die",
     "danishDefinite": "vinkortet",
     "danishIndefinite": "et vinkort",
-    "tier": 3
+    "tier": 4
   },
   "restaurant.drinks-menu": {
     "danish": "drikkekort",
@@ -69,7 +69,7 @@
     "gender": "das",
     "danishDefinite": "børnemenuen",
     "danishIndefinite": "en børnemenu",
-    "tier": 3
+    "tier": 4
   },
   "restaurant.buffet": {
     "danish": "buffet",
@@ -78,7 +78,7 @@
     "gender": "das",
     "danishDefinite": "buffeten",
     "danishIndefinite": "en buffet",
-    "tier": 3
+    "tier": 4
   },
   "restaurant.dish": {
     "danish": "ret",
@@ -87,7 +87,7 @@
     "gender": "das",
     "danishDefinite": "retten",
     "danishIndefinite": "en ret",
-    "tier": 2
+    "tier": 3
   },
   "restaurant.starter": {
     "danish": "forret",
@@ -114,7 +114,7 @@
     "gender": "die",
     "danishDefinite": "tilbehøret",
     "danishIndefinite": "et tilbehør",
-    "tier": 3
+    "tier": 4
   },
   "restaurant.speciality": {
     "danish": "specialitet",
@@ -132,7 +132,7 @@
     "gender": "die",
     "danishDefinite": "bordreservationen",
     "danishIndefinite": "en bordreservation",
-    "tier": 3
+    "tier": 4
   },
   "restaurant.waiting-list": {
     "danish": "venteliste",
@@ -141,7 +141,7 @@
     "gender": "die",
     "danishDefinite": "ventelisten",
     "danishIndefinite": "en venteliste",
-    "tier": 3
+    "tier": 4
   },
   "restaurant.order": {
     "danish": "bestilling",
@@ -150,7 +150,7 @@
     "gender": "die",
     "danishDefinite": "bestillingen",
     "danishIndefinite": "en bestilling",
-    "tier": 2
+    "tier": 3
   },
   "restaurant.service": {
     "danish": "betjening",
@@ -168,7 +168,7 @@
     "gender": "die",
     "danishDefinite": "selvbetjeningen",
     "danishIndefinite": "en selvbetjening",
-    "tier": 3
+    "tier": 4
   },
   "restaurant.bill": {
     "danish": "regning",
@@ -195,7 +195,7 @@
     "gender": "die",
     "danishDefinite": "peberkværnen",
     "danishIndefinite": "en peberkværn",
-    "tier": 3
+    "tier": 5
   },
   "restaurant.salt-shaker": {
     "danish": "saltkar",
@@ -204,16 +204,7 @@
     "gender": "der",
     "danishDefinite": "saltkarret",
     "danishIndefinite": "et saltkar",
-    "tier": 3
-  },
-  "restaurant.toothpick": {
-    "danish": "tandstik",
-    "german": "Zahnstocher",
-    "english": "toothpick",
-    "gender": "der",
-    "danishDefinite": "tandstikken",
-    "danishIndefinite": "en tandstik",
-    "tier": 3
+    "tier": 4
   },
   "restaurant.sample": {
     "danish": "smagsprøve",
@@ -222,7 +213,7 @@
     "gender": "die",
     "danishDefinite": "smagsprøven",
     "danishIndefinite": "en smagsprøve",
-    "tier": 3
+    "tier": 5
   },
   "restaurant.complaint": {
     "danish": "klage",
@@ -246,12 +237,30 @@
     "danish": "at spise ude",
     "german": "auswärts essen",
     "english": "to eat out",
-    "tier": 3
+    "tier": 4
   },
   "restaurant.sold-out": {
     "danish": "udsolgt",
     "german": "ausverkauft",
     "english": "sold out",
     "tier": 3
+  },
+  "restaurant.sommelier": {
+    "danish": "sommelier",
+    "german": "Sommelier",
+    "english": "sommelier",
+    "gender": "der",
+    "danishDefinite": "sommelieren",
+    "danishIndefinite": "en sommelier",
+    "tier": 5
+  },
+  "restaurant.tasting-menu": {
+    "danish": "smagemenu",
+    "german": "Degustationsmenü",
+    "english": "tasting menu",
+    "gender": "das",
+    "danishDefinite": "smagemenuen",
+    "danishIndefinite": "en smagemenu",
+    "tier": 5
   }
 }
