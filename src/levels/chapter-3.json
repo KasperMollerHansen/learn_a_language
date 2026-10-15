@@ -192,19 +192,6 @@
   {
     "id": "3-13",
     "chapter": "Chapter 3 · Confident",
-    "name": "Words that look alike",
-    "mode": "word",
-    "prompt": "Translate the Danish word into German",
-    "categories": [
-      "spelling"
-    ],
-    "tiers": [
-      3
-    ]
-  },
-  {
-    "id": "3-14",
-    "chapter": "Chapter 3 · Confident",
     "name": "Sentences",
     "mode": "word",
     "prompt": "Translate the Danish sentence into German",
@@ -217,7 +204,7 @@
     ]
   },
   {
-    "id": "3-15",
+    "id": "3-14",
     "chapter": "Chapter 3 · Confident",
     "name": "Review",
     "mode": "word",
@@ -277,7 +264,7 @@
     ]
   },
   {
-    "id": "3-16",
+    "id": "3-15",
     "chapter": "Chapter 3 · Confident",
     "name": "Sentence builder",
     "mode": "sentence",

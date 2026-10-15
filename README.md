@@ -28,8 +28,9 @@ chapter uses only words of its own tier, except the review. Every chapter has th
 
 1. **Word levels**, one per theme: People, People with articles (German definite and indefinite
    forms in all four cases), Describing words, Small words, Verbs, Food and drink, Home, Body and
-   clothes, Nature, Town and travel, Free time, Work and school, and Words that look alike. A
-   theme gets a level in a chapter only when that tier has at least 15 words.
+   clothes, Nature, Town and travel, Free time, and Work and school. A theme gets a level in a
+   chapter only when that tier has at least 15 words, and a chapter holds at most 15 levels, so
+   themes past the cap (Words that look alike) appear only in the review.
 2. **Sentences:** short Danish sentences to translate, including the modal verbs *können, müssen,
    wollen, dürfen, sollen* and *mögen*.
 3. **Review:** mixed words from every theme, this chapter's tier and all earlier ones.

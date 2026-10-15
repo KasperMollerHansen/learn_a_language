@@ -192,19 +192,6 @@
   {
     "id": "1-13",
     "chapter": "Chapter 1 · Basics",
-    "name": "Words that look alike",
-    "mode": "word",
-    "prompt": "Translate the Danish word into German",
-    "categories": [
-      "spelling"
-    ],
-    "tiers": [
-      1
-    ]
-  },
-  {
-    "id": "1-14",
-    "chapter": "Chapter 1 · Basics",
     "name": "Sentences",
     "mode": "word",
     "prompt": "Translate the Danish sentence into German",
@@ -217,7 +204,7 @@
     ]
   },
   {
-    "id": "1-15",
+    "id": "1-14",
     "chapter": "Chapter 1 · Basics",
     "name": "Review",
     "mode": "word",
@@ -275,7 +262,7 @@
     ]
   },
   {
-    "id": "1-16",
+    "id": "1-15",
     "chapter": "Chapter 1 · Basics",
     "name": "Sentence builder",
     "mode": "sentence",

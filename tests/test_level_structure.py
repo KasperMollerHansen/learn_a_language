@@ -24,12 +24,15 @@ def test_chapters_are_tiers_ending_with_review_then_sentence_builder() -> None:
         assert all(level["tiers"] == [number] for level in [*words, sentences, builder])
 
 
-def test_every_category_is_in_a_theme_level_and_pools_are_playable() -> None:
+def test_every_category_is_in_a_level_and_pools_are_playable() -> None:
     bank = load_wordbank()
-    themes = [level for level in bank["levels"] if level["name"] != "Review"]
     categories = {word_id.split(".")[0] for word_id in bank["words"]}
 
-    assert categories == {category for level in themes for category in level["categories"]}
+    assert categories == {category for level in bank["levels"] for category in level["categories"]}
+    assert all(
+        sum(level["id"].startswith(f"{chapter}-") for level in bank["levels"]) <= 15
+        for chapter in range(1, 6)
+    )
     assert all(len(level_word_ids(bank, level)) >= 9 for level in bank["levels"])
     modal_ids = [
         word_id

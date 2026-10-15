@@ -14,8 +14,11 @@ SRC = ROOT / "src"
 
 # A theme gets a level in a chapter only when that chapter's tier has at least this many words.
 MIN_POOL = 15
+# At most this many levels per chapter; themes past the cap (in THEMES order) are left out.
+MAX_LEVELS = 15
 WORD_PROMPT = "Find the German word for"
 # (name, mode, prompt, categories), in the order the word levels appear in every chapter.
+# Order is priority too: when a chapter has more themes than MAX_LEVELS allows, the last go.
 THEMES: list[tuple[str, str, str, list[str]]] = [
     ("People", "word", WORD_PROMPT, ["people", "emotions", "personality", "life"]),
     ("People with articles", "article", "Choose the German form", ["people"]),
@@ -126,7 +129,7 @@ def build_chapters(src: Path) -> dict[str, list[dict[str, Any]]]:
             level(theme, [tier])
             for theme in THEMES
             if pool_size(words, theme[3], [tier]) >= MIN_POOL
-        ]
+        ][: MAX_LEVELS - 3]
         levels.append(level(SENTENCES, [tier]))
         levels.append(level(("Review", "word", WORD_PROMPT, review), list(range(1, tier + 1))))
         levels.append(level(BUILDER, [tier]))

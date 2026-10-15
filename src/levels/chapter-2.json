@@ -192,19 +192,6 @@
   {
     "id": "2-13",
     "chapter": "Chapter 2 · Everyday",
-    "name": "Words that look alike",
-    "mode": "word",
-    "prompt": "Translate the Danish word into German",
-    "categories": [
-      "spelling"
-    ],
-    "tiers": [
-      2
-    ]
-  },
-  {
-    "id": "2-14",
-    "chapter": "Chapter 2 · Everyday",
     "name": "Sentences",
     "mode": "word",
     "prompt": "Translate the Danish sentence into German",
@@ -217,7 +204,7 @@
     ]
   },
   {
-    "id": "2-15",
+    "id": "2-14",
     "chapter": "Chapter 2 · Everyday",
     "name": "Review",
     "mode": "word",
@@ -276,7 +263,7 @@
     ]
   },
   {
-    "id": "2-16",
+    "id": "2-15",
     "chapter": "Chapter 2 · Everyday",
     "name": "Sentence builder",
     "mode": "sentence",
