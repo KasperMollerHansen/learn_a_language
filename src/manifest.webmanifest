@@ -1,7 +1,7 @@
 {
-  "name": "Wortlauf: Danish to German",
+  "name": "Wortlauf: vocabulary runner",
   "short_name": "Wortlauf",
-  "description": "Learn German vocabulary while running through three lanes.",
+  "description": "Learn vocabulary in Danish, German, English, Spanish or French while running through three lanes.",
   "lang": "en",
   "start_url": "./",
   "scope": "./",

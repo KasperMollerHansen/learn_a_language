@@ -3,180 +3,240 @@
     "danish": "Jeg kan svømme.",
     "german": "Ich kann schwimmen.",
     "english": "I can swim.",
+    "spanish": "Yo puedo nadar.",
+    "french": "Je peux nager.",
     "tier": 1
   },
   "modals.koennen.du": {
     "danish": "Du kan svømme.",
     "german": "Du kannst schwimmen.",
     "english": "You can swim.",
+    "spanish": "Tú puedes nadar.",
+    "french": "Tu peux nager.",
     "tier": 1
   },
   "modals.koennen.er": {
     "danish": "Han kan svømme.",
     "german": "Er kann schwimmen.",
     "english": "He can swim.",
+    "spanish": "Él puede nadar.",
+    "french": "Il peut nager.",
     "tier": 1
   },
   "modals.koennen.wir": {
     "danish": "Vi kan svømme.",
     "german": "Wir können schwimmen.",
     "english": "We can swim.",
+    "spanish": "Nosotros podemos nadar.",
+    "french": "Nous pouvons nager.",
     "tier": 1
   },
   "modals.koennen.sie": {
     "danish": "De kan svømme.",
     "german": "Sie können schwimmen.",
     "english": "They can swim.",
+    "spanish": "Ellos pueden nadar.",
+    "french": "Ils peuvent nager.",
     "tier": 1
   },
   "modals.muessen.ich": {
     "danish": "Jeg skal arbejde.",
     "german": "Ich muss arbeiten.",
     "english": "I have to work.",
+    "spanish": "Yo tengo que trabajar.",
+    "french": "Je dois travailler.",
     "tier": 1
   },
   "modals.muessen.du": {
     "danish": "Du skal arbejde.",
     "german": "Du musst arbeiten.",
     "english": "You have to work.",
+    "spanish": "Tú tienes que trabajar.",
+    "french": "Tu dois travailler.",
     "tier": 1
   },
   "modals.muessen.er": {
     "danish": "Han skal arbejde.",
     "german": "Er muss arbeiten.",
     "english": "He has to work.",
+    "spanish": "Él tiene que trabajar.",
+    "french": "Il doit travailler.",
     "tier": 1
   },
   "modals.muessen.wir": {
     "danish": "Vi skal arbejde.",
     "german": "Wir müssen arbeiten.",
     "english": "We have to work.",
+    "spanish": "Nosotros tenemos que trabajar.",
+    "french": "Nous devons travailler.",
     "tier": 1
   },
   "modals.muessen.sie": {
     "danish": "De skal arbejde.",
     "german": "Sie müssen arbeiten.",
     "english": "They have to work.",
+    "spanish": "Ellos tienen que trabajar.",
+    "french": "Ils doivent travailler.",
     "tier": 1
   },
   "modals.wollen.ich": {
     "danish": "Jeg vil rejse.",
     "german": "Ich will reisen.",
     "english": "I want to travel.",
+    "spanish": "Yo quiero viajar.",
+    "french": "Je veux voyager.",
     "tier": 2
   },
   "modals.wollen.du": {
     "danish": "Du vil rejse.",
     "german": "Du willst reisen.",
     "english": "You want to travel.",
+    "spanish": "Tú quieres viajar.",
+    "french": "Tu veux voyager.",
     "tier": 2
   },
   "modals.wollen.er": {
     "danish": "Han vil rejse.",
     "german": "Er will reisen.",
     "english": "He wants to travel.",
+    "spanish": "Él quiere viajar.",
+    "french": "Il veut voyager.",
     "tier": 2
   },
   "modals.wollen.wir": {
     "danish": "Vi vil rejse.",
     "german": "Wir wollen reisen.",
     "english": "We want to travel.",
+    "spanish": "Nosotros queremos viajar.",
+    "french": "Nous voulons voyager.",
     "tier": 2
   },
   "modals.wollen.sie": {
     "danish": "De vil rejse.",
     "german": "Sie wollen reisen.",
     "english": "They want to travel.",
+    "spanish": "Ellos quieren viajar.",
+    "french": "Ils veulent voyager.",
     "tier": 2
   },
   "modals.duerfen.ich": {
     "danish": "Jeg må blive her.",
     "german": "Ich darf hier bleiben.",
     "english": "I may stay here.",
+    "spanish": "Yo puedo quedarme aquí.",
+    "french": "J'ai le droit de rester ici.",
     "tier": 3
   },
   "modals.duerfen.du": {
     "danish": "Du må blive her.",
     "german": "Du darfst hier bleiben.",
     "english": "You may stay here.",
+    "spanish": "Tú puedes quedarte aquí.",
+    "french": "Tu as le droit de rester ici.",
     "tier": 3
   },
   "modals.duerfen.er": {
     "danish": "Han må blive her.",
     "german": "Er darf hier bleiben.",
     "english": "He may stay here.",
+    "spanish": "Él puede quedarse aquí.",
+    "french": "Il a le droit de rester ici.",
     "tier": 3
   },
   "modals.duerfen.wir": {
     "danish": "Vi må blive her.",
     "german": "Wir dürfen hier bleiben.",
     "english": "We may stay here.",
+    "spanish": "Nosotros podemos quedarnos aquí.",
+    "french": "Nous avons le droit de rester ici.",
     "tier": 3
   },
   "modals.duerfen.sie": {
     "danish": "De må blive her.",
     "german": "Sie dürfen hier bleiben.",
     "english": "They may stay here.",
+    "spanish": "Ellos pueden quedarse aquí.",
+    "french": "Ils ont le droit de rester ici.",
     "tier": 3
   },
   "modals.sollen.ich": {
     "danish": "Jeg bør læse.",
     "german": "Ich sollte lesen.",
     "english": "I should read.",
+    "spanish": "Yo debería leer.",
+    "french": "Je devrais lire.",
     "tier": 3
   },
   "modals.sollen.du": {
     "danish": "Du bør læse.",
     "german": "Du solltest lesen.",
     "english": "You should read.",
+    "spanish": "Tú deberías leer.",
+    "french": "Tu devrais lire.",
     "tier": 3
   },
   "modals.sollen.er": {
     "danish": "Han bør læse.",
     "german": "Er sollte lesen.",
     "english": "He should read.",
+    "spanish": "Él debería leer.",
+    "french": "Il devrait lire.",
     "tier": 3
   },
   "modals.sollen.wir": {
     "danish": "Vi bør læse.",
     "german": "Wir sollten lesen.",
     "english": "We should read.",
+    "spanish": "Nosotros deberíamos leer.",
+    "french": "Nous devrions lire.",
     "tier": 3
   },
   "modals.sollen.sie": {
     "danish": "De bør læse.",
     "german": "Sie sollten lesen.",
     "english": "They should read.",
+    "spanish": "Ellos deberían leer.",
+    "french": "Ils devraient lire.",
     "tier": 3
   },
   "modals.moegen.ich": {
     "danish": "Jeg kan lide kaffe.",
     "german": "Ich mag Kaffee.",
     "english": "I like coffee.",
+    "spanish": "A mí me gusta el café.",
+    "french": "J'aime le café.",
     "tier": 2
   },
   "modals.moegen.du": {
     "danish": "Du kan lide kaffe.",
     "german": "Du magst Kaffee.",
     "english": "You like coffee.",
+    "spanish": "A ti te gusta el café.",
+    "french": "Tu aimes le café.",
     "tier": 2
   },
   "modals.moegen.er": {
     "danish": "Han kan lide kaffe.",
     "german": "Er mag Kaffee.",
     "english": "He likes coffee.",
+    "spanish": "A él le gusta el café.",
+    "french": "Il aime le café.",
     "tier": 2
   },
   "modals.moegen.wir": {
     "danish": "Vi kan lide kaffe.",
     "german": "Wir mögen Kaffee.",
     "english": "We like coffee.",
+    "spanish": "A nosotros nos gusta el café.",
+    "french": "Nous aimons le café.",
     "tier": 2
   },
   "modals.moegen.sie": {
     "danish": "De kan lide kaffe.",
     "german": "Sie mögen Kaffee.",
     "english": "They like coffee.",
+    "spanish": "A ellos les gusta el café.",
+    "french": "Ils aiment le café.",
     "tier": 2
   }
 }

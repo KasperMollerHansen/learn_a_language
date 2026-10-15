@@ -29,7 +29,6 @@
       .brand-mark { display: grid; width: 31px; height: 31px; place-items: center; border-radius: 50%; background: var(--lime); font-family: Georgia, serif; font-size: 19px; }
       .build-version { color: #a9c5b9; font-size: 9px; font-weight: 700; letter-spacing: 0; }
       .header-right { display: flex; align-items: center; gap: 16px; }
-      .language { color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
       .install { display: inline-flex; min-height: 34px; align-items: center; padding: 0 11px; border: 1px solid var(--line); border-radius: 3px; background: transparent; color: var(--ink); cursor: pointer; font-size: 11px; font-weight: 800; }
       .install[hidden] { display: none; }
       .install-dialog { width: min(360px, calc(100vw - 32px)); border: 1px solid var(--line); border-radius: 5px; padding: 24px; background: var(--paper); color: var(--ink); }
@@ -37,6 +36,11 @@
       .install-dialog h2 { margin: 0; font-family: Georgia, serif; font-size: 25px; font-weight: 500; }
       .install-dialog p { margin: 12px 0 20px; color: var(--muted); font-size: 13px; line-height: 1.5; }
       .install-dialog button { min-height: 40px; padding: 0 14px; border: 0; border-radius: 3px; background: var(--ink); color: white; cursor: pointer; font-size: 12px; font-weight: 800; }
+      .install-dialog .pair-label { margin: 18px 0 8px; color: var(--ink); font-size: 11px; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }
+      .pair-options { display: flex; flex-wrap: wrap; gap: 8px; }
+      .install-dialog .pair-options button { border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--ink); }
+      .install-dialog .pair-options button[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: white; }
+      .install-dialog #pair-start { margin-top: 24px; background: var(--coral); color: #172f28; }
       main { display: grid; grid-template-columns: minmax(250px, .8fr) minmax(390px, 1.2fr); align-items: center; gap: clamp(32px, 6vw, 90px); padding: 38px 0; }
       .intro { align-self: center; }
       .eyebrow { display: flex; align-items: center; gap: 9px; margin: 0 0 15px; color: #55766b; font-size: 10px; font-weight: 900; letter-spacing: .15em; text-transform: uppercase; }
@@ -84,9 +88,7 @@
       .game.sentence-mode .word { width: 100%; min-height: 64px; font-size: 24px; line-height: 1.3; text-wrap: balance; }
       .sentence-chunk.active { color: var(--lime); text-decoration: underline; text-decoration-color: var(--coral); text-underline-offset: 3px; }
       .sentence-chunk.complete { color: var(--lime); }
-      .feedback { min-height: 18px; margin-top: 2px; color: var(--lime); font-size: 11px; font-weight: 800; }
-      .feedback.wrong { color: #ffab92; }
-      .road { position: absolute; z-index: 3; inset: 130px 0 0; overflow: hidden; background: #244b3b; touch-action: none; }
+      .road { position: absolute; z-index: 3; inset: 56px 0 0; overflow: hidden; background: #244b3b; touch-action: none; }
       .surface { position: absolute; inset: 0; background: repeating-linear-gradient(180deg, rgba(213, 243, 106, .055) 0 2px, transparent 2px 110px), linear-gradient(90deg, #294d3d 0 33.333%, #315844 33.333% 66.666%, #294d3d 66.666% 100%); animation: road-flow 650ms linear infinite; animation-play-state: paused; }
       .surface.moving { animation-play-state: running; animation-duration: var(--run-speed, 650ms); }
       .lane-lines { position: absolute; inset: 0; }
@@ -103,19 +105,18 @@
       .runner.hit { animation: hit var(--bounce-duration, 420ms) cubic-bezier(.18, .68, .32, 1.2); }
       .runner.correct { animation: dash var(--pass-duration, 280ms) cubic-bezier(.22, .61, .36, 1); }
       .lanes { position: absolute; z-index: 5; inset: 0; pointer-events: none; }
-      .lane { position: absolute; top: 95px; width: 31%; height: 168px; padding: 0; border: 0; border-radius: 0; background: transparent; color: white; cursor: pointer; opacity: 1; pointer-events: auto; text-align: center; transform: translateX(-50%); }
+      .lane { position: absolute; top: 64px; width: 31%; height: 168px; padding: 0; border: 0; border-radius: 0; background: transparent; color: white; cursor: pointer; opacity: 1; pointer-events: auto; text-align: center; transform: translateX(-50%); }
       .lane::before { position: absolute; inset: 0 8px 8px; border: 3px solid rgba(213, 243, 106, .72); border-bottom: 0; border-radius: 18px 18px 0 0; box-shadow: inset 0 0 0 5px rgba(213, 243, 106, .08), 0 0 14px rgba(213, 243, 106, .08); content: ""; }
       .lane:nth-child(1) { left: 16.666%; }
       .lane:nth-child(2) { left: 50%; }
       .lane:nth-child(3) { left: 83.333%; }
-      .game.sentence-mode .lane { top: 138px; }
+      .game.sentence-mode .lane { top: 110px; }
       .game.sentence-mode .prompt-label { font-size: 10px; letter-spacing: 0; line-height: 1.2; text-transform: none; }
       .lane:hover::before, .lane.selected::before { border-color: var(--lime); box-shadow: inset 0 0 0 5px rgba(213, 243, 106, .14), 0 0 19px rgba(213, 243, 106, .22); }
       .lane.good::before { border-color: var(--lime); box-shadow: 0 0 25px rgba(213, 243, 106, .4); animation: gate-frame-pass var(--pass-duration, 280ms) cubic-bezier(.22, .61, .36, 1) forwards; }
-      .lane.good small, .lane.good strong { animation: gate-sign-pass var(--pass-duration, 280ms) cubic-bezier(.22, .61, .36, 1) forwards; }
+      .lane.good strong { animation: gate-sign-pass var(--pass-duration, 280ms) cubic-bezier(.22, .61, .36, 1) forwards; }
       .lane.bad::before { border-color: var(--coral); box-shadow: 0 0 22px rgba(241, 125, 98, .38); }
-      .lane small { position: absolute; z-index: 1; top: 20px; left: 50%; color: #d5f36a; font-size: 8px; font-weight: 900; letter-spacing: .1em; transform: translateX(-50%); }
-      .lane strong { position: absolute; z-index: 1; top: 38px; left: 50%; display: grid; width: calc(100% - 18px); min-height: 34px; place-items: center; padding: 5px 4px; border: 1px solid rgba(255, 255, 255, .35); border-radius: 3px; background: #173c32; box-shadow: 0 3px 8px rgba(0, 0, 0, .24); font-size: 13px; line-height: 1.15; overflow-wrap: anywhere; transform: translateX(-50%); }
+      .lane strong { position: absolute; z-index: 1; top: 24px; left: 50%; display: grid; width: calc(100% - 18px); min-height: 34px; place-items: center; padding: 5px 4px; border: 1px solid rgba(255, 255, 255, .35); border-radius: 3px; background: #173c32; box-shadow: 0 3px 8px rgba(0, 0, 0, .24); font-size: 13px; line-height: 1.15; hyphens: auto; hyphenate-limit-chars: 8 4 4; transform: translateX(-50%); }
       .game-footer { position: absolute; z-index: 5; right: 20px; bottom: 23px; left: 20px; display: flex; justify-content: space-between; color: #bdd0c2; font-size: 9px; pointer-events: none; }
       .speed-track { width: 80px; height: 4px; margin-top: 5px; overflow: hidden; border-radius: 4px; background: rgba(255, 255, 255, .18); }
       .speed-fill { width: 42%; height: 100%; border-radius: inherit; background: var(--lime); transition: width 220ms ease; }
@@ -144,7 +145,6 @@
         header { flex: 0 0 55px; min-height: 55px; padding: 0 18px; border-color: rgba(255, 255, 255, .15); background: var(--ink); color: white; }
         .brand-mark { width: 28px; height: 28px; }
         .header-right { gap: 8px; }
-        .language { display: none; }
         .install { min-height: 31px; padding: 0 9px; font-size: 10px; }
         .install { border-color: rgba(255, 255, 255, .3); color: white; }
         main { display: flex; flex: 1; flex-direction: column; gap: 0; padding: 0; }
@@ -160,14 +160,14 @@
         .hud-value { font-size: 14px; }
         .prompt { padding: 8px 12px 0; }
         .word { font-size: 32px; }
-        .road { inset-block-start: 114px; }
+        .road { inset-block-start: 50px; }
         .runner { bottom: 38px; }
         .lane { min-height: 58px; }
         .lane strong { font-size: clamp(11px, 3.5vw, 14px); }
         .game-footer { right: 16px; bottom: 10px; left: 16px; }
         footer { display: none; }
       }
-      @media (max-height: 700px) and (max-width: 680px) { .game { min-height: 515px; } .road { inset-block-start: 105px; } .prompt { padding-top: 6px; } }
+      @media (max-height: 700px) and (max-width: 680px) { .game { min-height: 515px; } .road { inset-block-start: 50px; } .prompt { padding-top: 6px; } }
       body.playing { height: 100vh; height: 100dvh; overflow: hidden; background: #173c32; }
       body.playing .app { display: grid; grid-template-rows: 44px minmax(0, 1fr); width: 100%; height: 100vh; height: 100dvh; min-height: 0; max-width: none; margin: 0; padding: 0; }
       body.playing header { min-height: 44px; padding: 0 14px; border: 0; background: var(--ink); color: white; }
@@ -193,14 +193,14 @@
   <body class="menu-mode">
     <div class="app">
       <header>
-        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.1.0</span></button>
-        <div class="header-right"><span class="language">Danish / German</span><button class="install" id="install-button" type="button">Install app</button></div>
+        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.3.0</span></button>
+        <div class="header-right"><button class="install" id="pair-button" type="button" title="Change languages">Danish → German</button><button class="install" id="install-button" type="button">Install app</button></div>
       </header>
       <main>
         <section class="intro" aria-labelledby="title">
-          <p class="eyebrow">A little German, at full speed</p>
+          <p class="eyebrow" id="eyebrow">A little German, at full speed</p>
           <h1 id="title">Learn on<br />the <span>run.</span></h1>
-          <p class="description">Catch the right German word. Three lanes, one Danish clue, and a new way to get words moving.</p>
+          <p class="description" id="description">Catch the right German word. Three lanes, one Danish clue, and a new way to get words moving.</p>
           <button class="start" id="start-button" type="button">Start running <span class="arrow" aria-hidden="true">↗</span></button>
           <div class="difficulty" role="group" aria-label="Difficulty">
             <button type="button" data-difficulty="easy" aria-pressed="true">Easy</button>
@@ -219,14 +219,13 @@
           <div class="road"><div class="surface" aria-hidden="true"></div><div class="lane-lines" aria-hidden="true"></div>
             <div class="prompt" aria-live="polite">
               <p class="prompt-label" id="prompt-label">Find the German word for</p>
-              <div class="word" id="word">mor</div>
+              <div class="word" id="word" lang="da">mor</div>
               <div class="translation-added" id="translation-added" hidden></div>
-              <div class="feedback" id="feedback">Move into a lane</div>
             </div>
             <div class="lanes" id="lanes" role="group" aria-label="Choose a lane before the answer gates arrive">
-              <button class="lane" data-lane="0" type="button"><small>LANE 1</small><strong>Katze</strong></button>
-              <button class="lane selected" data-lane="1" type="button"><small>LANE 2</small><strong>Hund</strong></button>
-              <button class="lane" data-lane="2" type="button"><small>LANE 3</small><strong>Pferd</strong></button>
+              <button class="lane" data-lane="0" type="button"><strong lang="de">Katze</strong></button>
+              <button class="lane selected" data-lane="1" type="button"><strong lang="de">Hund</strong></button>
+              <button class="lane" data-lane="2" type="button"><strong lang="de">Pferd</strong></button>
             </div>
           </div>
           <div class="runner" id="runner" aria-hidden="true">
@@ -254,6 +253,14 @@
         </section>
       </main>
       <footer><span><strong>30 words</strong> to finish each run</span><span id="round-length">Beat the clock</span></footer>
+      <dialog class="install-dialog" id="pair-dialog" aria-labelledby="pair-title">
+        <h2 id="pair-title">Choose your languages</h2>
+        <p class="pair-label" id="source-label">I speak</p>
+        <div class="pair-options" id="source-options" role="group" aria-labelledby="source-label"></div>
+        <p class="pair-label" id="target-label">I learn</p>
+        <div class="pair-options" id="target-options" role="group" aria-labelledby="target-label"></div>
+        <button id="pair-start" type="button">Start</button>
+      </dialog>
       <dialog class="install-dialog" id="install-dialog" aria-labelledby="install-title">
         <h2 id="install-title">Install Wortlauf</h2>
         <p id="install-instructions"></p>
@@ -268,7 +275,27 @@
       const $ = (selector) => document.querySelector(selector);
       let tabs = [...document.querySelectorAll(".level")];
       const lanes = [...document.querySelectorAll(".lane")];
-      const progressStorageKey = "wortlauf-progress-v3";
+      const progressStorageKey = "wortlauf-progress-v4";
+      // Each language is named in English in the UI, including on the pair screen.
+      const languages = {
+        danish: { code: "da", name: "Danish", wellDone: "Godt klaret!" },
+        german: { code: "de", name: "German", wellDone: "Sehr gut!" },
+        english: { code: "en", name: "English", wellDone: "Well done!" },
+        spanish: { code: "es", name: "Spanish", wellDone: "¡Muy bien!" },
+        french: { code: "fr", name: "French", wellDone: "Très bien !" }
+      };
+      const languageKeys = Object.keys(languages);
+      // Which pairs a level mode can be played in: article mode drills German articles from Danish or English (Spanish and French nouns carry their own article); word and sentence levels work in every pair.
+      const modePlayable = {
+        word: () => true,
+        article: (pair) => pair.target === "german" && ["danish", "english"].includes(pair.source),
+        sentence: () => true
+      };
+      const pairId = (pair) => `${languages[pair.source].code}-${languages[pair.target].code}`;
+      function pairFromId(id) {
+        const [source, target] = String(id).split("-").map((code) => languageKeys.find((key) => languages[key].code === code));
+        return source && target && source !== target ? { source, target } : null;
+      }
       const difficultyNames = ["easy", "hard"];
       function readStoredJson(key) {
         try { return JSON.parse(localStorage.getItem(key) || "null"); } catch { return null; }
@@ -278,39 +305,53 @@
           completedLevelIds: Array.isArray(saved?.completedLevelIds) ? saved.completedLevelIds.filter((id) => typeof id === "string") : []
         };
       }
-      function loadProgress() {
-        const v3 = readStoredJson(progressStorageKey);
-        // The v3 levels replaced the old ones, so older progress keeps only its difficulty and counters; the old keys stay untouched.
-        const saved = v3?.version === 3 ? v3 : readStoredJson("wortlauf-progress-v2") || readStoredJson("wortlauf-progress-v1") || {};
+      function readPairProgress(saved) {
         return {
-          version: 3,
-          difficulty: difficultyNames.includes(saved.difficulty) ? saved.difficulty : "easy",
-          tracks: saved === v3
-            ? { easy: readTrack(saved.tracks?.easy), hard: readTrack(saved.tracks?.hard) }
-            : { easy: readTrack(null), hard: readTrack(null) },
-          correctAnswers: saved.correctAnswers ?? 0,
-          wrongAnswers: saved.wrongAnswers ?? 0,
-          completedRuns: saved.completedRuns ?? 0,
-          lastPlayedAt: saved.lastPlayedAt
+          tracks: { easy: readTrack(saved?.tracks?.easy), hard: readTrack(saved?.tracks?.hard) },
+          correctAnswers: saved?.correctAnswers ?? 0,
+          wrongAnswers: saved?.wrongAnswers ?? 0,
+          completedRuns: saved?.completedRuns ?? 0
         };
       }
+      // Difficulty is shared; cleared levels and counters are kept per language pair.
+      function loadProgress() {
+        const v4 = readStoredJson(progressStorageKey);
+        const difficultyOf = (saved) => difficultyNames.includes(saved?.difficulty) ? saved.difficulty : "easy";
+        if (v4?.version === 4) {
+          const pairs = Object.fromEntries(Object.entries(v4.pairs || {})
+            .filter(([id]) => pairFromId(id)).map(([id, saved]) => [id, readPairProgress(saved)]));
+          return { version: 4, pair: pairFromId(v4.pair) ? v4.pair : null, difficulty: difficultyOf(v4), pairs, lastPlayedAt: v4.lastPlayedAt };
+        }
+        // Older progress is Danish to German. The v3 levels replaced the v1/v2 ones, so those keep only difficulty and counters; the old keys stay untouched.
+        const v3 = readStoredJson("wortlauf-progress-v3");
+        const saved = v3?.version === 3 ? v3 : readStoredJson("wortlauf-progress-v2") || readStoredJson("wortlauf-progress-v1");
+        if (!saved) return { version: 4, pair: null, difficulty: "easy", pairs: {} };
+        const daDe = readPairProgress(saved === v3 ? saved : { ...saved, tracks: null });
+        return { version: 4, pair: "da-de", difficulty: difficultyOf(saved), pairs: { "da-de": daDe }, lastPlayedAt: saved.lastPlayedAt };
+      }
       let progress = loadProgress();
-      const currentTrack = () => progress.tracks[progress.difficulty];
+      // No saved pair means a first visit: the pair screen opens once the game data is loaded.
+      const firstVisit = !progress.pair;
+      progress.pair ??= "da-de";
+      let pair = pairFromId(progress.pair);
+      const pairProgress = () => (progress.pairs[progress.pair] ??= readPairProgress(null));
+      const currentTrack = () => pairProgress().tracks[progress.difficulty];
+      const fillLanguages = (text) => text.replaceAll("{source}", languages[pair.source].name).replaceAll("{target}", languages[pair.target].name);
       const isCleared = (level) => currentTrack().completedLevelIds.includes(level.id);
       // Levels are cleared from the top: a level opens once every level above it is cleared.
       const isUnlocked = (level) => levels.slice(0, levels.indexOf(level)).every(isCleared);
       // Start from the top: the first open level not yet cleared, or the first level when all are cleared.
       const firstOpenLevelIndex = () => Math.max(0, levels.findIndex((level) => isUnlocked(level) && !isCleared(level)));
       let levelIndex = 0, currentWord, correctLane = 0, selectedLane = 1, runDifficulty = progress.difficulty;
-      let wordDeck = [], wordBankLoaded = false, loadingGameData = false, gateIntervalSeconds = 0, germanByDanish = new Map();
-      let score = 0, speed = 0, timeLeft = 0, running = false, answerLocked = false, timerId, gateTimerId, gateIntervalId, transitionTimerId;
+      let wordDeck = [], wordBankLoaded = false, loadingGameData = false, gateIntervalSeconds = 0, allLevels = [], allWords = [], answersByPrompt = new Map();
+      let score = 0, speed = 0, timeLeft = 0, running = false, answerLocked = false, timerId, gateTimerId, transitionTimerId;
       let installPrompt, activePointerId = null, activeSentenceId = null, sentenceProgress = [];
 
       function shuffle(items) { return [...items].sort(() => Math.random() - .5); }
-      const danishKey = (word) => word.danish.trim().toLowerCase();
-      // Every German that is a correct answer for this word's Danish prompt; such words never appear as wrong gates.
-      function acceptedGerman(word) {
-        return new Set([...(germanByDanish.get(danishKey(word)) || []), ...(word.germanAlternatives || [])]);
+      const promptKey = (word) => word[pair.source].trim().toLowerCase().replaceAll("’", "'");
+      // Every target word that is a correct answer for this word's prompt; such words never appear as wrong gates.
+      function acceptedAnswers(word) {
+        return new Set([...(answersByPrompt.get(promptKey(word)) || []), ...(word[`${pair.target}Alternatives`] || [])]);
       }
       function formatDuration(seconds) {
         const minutes = Math.floor(seconds / 60), rest = seconds % 60;
@@ -340,23 +381,25 @@
         }
         return deck;
       }
-      function renderSentence(sentence, chunks, activeStep) {
+      // Chunks are separated by a space, except after an apostrophe (French elision: "J'" + "ai").
+      function chunkGap(text) {
+        return /['’]$/.test(text) ? "" : " ";
+      }
+      function joinChunks(parts) {
+        return parts.reduce((text, part, index) => (index ? text + chunkGap(text) + part : part), "");
+      }
+      function renderSentence(chunks, activeStep) {
         const display = $("#word");
         display.replaceChildren();
-        let offset = 0;
-        for (const chunk of chunks) {
-          const start = sentence.indexOf(chunk.danish, offset);
-          if (start < offset) { display.textContent = sentence; return; }
-          if (start > offset) display.append(document.createTextNode(sentence.slice(offset, start)));
+        chunks.forEach((chunk, index) => {
+          if (index > 0) display.append(document.createTextNode(chunkGap(chunks[index - 1][pair.source])));
           const part = document.createElement("span");
           part.className = "sentence-chunk";
           if (chunk.step === activeStep) part.classList.add("active");
           else if (chunk.step < activeStep) part.classList.add("complete");
-          part.textContent = chunk.danish;
+          part.textContent = chunk[pair.source];
           display.append(part);
-          offset = start + chunk.danish.length;
-        }
-        display.append(document.createTextNode(sentence.slice(offset)));
+        });
       }
       function article(word, form, grammaticalCase) {
         const articleForm = grammar.articles[form][grammaticalCase][word.gender];
@@ -371,7 +414,7 @@
         $("#runner").style.setProperty("--shift", `${(selectedLane - 1) * laneWidth}px`);
       }
       function updateHud() {
-        $("#hud-level").textContent = levels[levelIndex].id;
+        $("#hud-level").textContent = levels[levelIndex].label;
         $("#score").textContent = String(score);
         $("#timer").textContent = `${Math.floor(timeLeft / 60)}:${String(timeLeft % 60).padStart(2, "0")}`;
         $("#speed").style.width = `${speed}%`;
@@ -388,7 +431,7 @@
           const completed = currentTrack().completedLevelIds.length;
           const difficultyLabel = progress.difficulty === "hard" ? "Hard" : "Easy";
           const status = $("#progress-status");
-          if (status) status.textContent = `${difficultyLabel}: ${completed} of ${levels.length} levels completed · ${progress.correctAnswers} correct answers · saved on this phone`;
+          if (status) status.textContent = `${difficultyLabel}: ${completed} of ${levels.length} levels completed · ${pairProgress().correctAnswers} correct answers · saved on this phone`;
         } catch {
           const status = $("#progress-status");
           if (status) status.textContent = "Progress could not be saved in this browser.";
@@ -409,15 +452,7 @@
         runner.style.setProperty("--gate-duration", `${gateDuration}ms`);
         runner.classList.add("approaching");
         answerLocked = false;
-        $("#feedback").classList.remove("wrong");
-        const gateDeadline = performance.now() + gateDuration;
-        $("#feedback").textContent = `Move into a lane · ${gateIntervalSeconds.toFixed(1)}s`;
         clearTimeout(gateTimerId);
-        clearInterval(gateIntervalId);
-        gateIntervalId = setInterval(() => {
-          const remaining = Math.max(0, (gateDeadline - performance.now()) / 1000);
-          if (remaining > 0 && running) $("#feedback").textContent = `Move into a lane · ${remaining.toFixed(1)}s`;
-        }, config.countdownRefreshMilliseconds);
         gateTimerId = setTimeout(resolveEncounter, gateDuration);
       }
       function chooseQuestion() {
@@ -430,15 +465,15 @@
             activeSentenceId = currentWord.sentenceId;
             sentenceProgress = [];
           }
-          $("#prompt-label").textContent = `German chunk · ${currentWord.step}/${currentWord.steps}`;
+          $("#prompt-label").textContent = `${languages[pair.target].name} chunk · ${currentWord.step}/${currentWord.steps}`;
           const sentenceChunks = level.words
             .filter((chunk) => chunk.sentenceId === currentWord.sentenceId)
             .sort((left, right) => left.step - right.step);
-          renderSentence(currentWord.sentence, sentenceChunks, currentWord.step);
-          $("#translation-added").textContent = sentenceProgress.join(" ");
+          renderSentence(sentenceChunks, currentWord.step);
+          $("#translation-added").textContent = joinChunks(sentenceProgress);
           $("#translation-added").hidden = sentenceProgress.length === 0;
-          options = shuffle(currentWord.options);
-          correctLane = options.indexOf(currentWord.german);
+          options = shuffle(currentWord[`${pair.target}Options`]);
+          correctLane = options.indexOf(currentWord[pair.target]);
         } else if (level.mode === "article") {
           $("#translation-added").textContent = "";
           $("#translation-added").hidden = true;
@@ -447,11 +482,13 @@
           const questionsPerCase = Math.ceil(target / grammar.cases.length);
           const caseIndex = Math.min(grammar.cases.length - 1, Math.floor(questionIndex / questionsPerCase));
           const grammaticalCase = grammar.cases[caseIndex];
-          const danish = form === "definite" ? currentWord.danishDefinite : currentWord.danishIndefinite;
-          $("#prompt-label").textContent = `Choose the German form · ${grammar.caseLabels[grammaticalCase]} · ${form}`;
-          $("#word").textContent = danish;
+          // Danish shows the noun in that form; English has only the bare noun, so the label carries the form.
+          let shown = currentWord[pair.source];
+          if (pair.source === "danish") shown = form === "definite" ? currentWord.danishDefinite : currentWord.danishIndefinite;
+          $("#prompt-label").textContent = `${fillLanguages(level.prompt)} · ${grammar.caseLabels[grammaticalCase]} · ${form}`;
+          $("#word").textContent = shown;
           const correct = article(currentWord, form, grammaticalCase);
-          const accepted = acceptedGerman(currentWord);
+          const accepted = acceptedAnswers(currentWord);
           const distractors = [...new Set(shuffle(level.words.filter((word) => !accepted.has(word.german))
             .map((word) => article(word, form, grammaticalCase))
             .filter((answer) => answer !== correct)))].slice(0, 2);
@@ -460,16 +497,25 @@
         } else {
           $("#translation-added").textContent = "";
           $("#translation-added").hidden = true;
-          $("#prompt-label").textContent = level.prompt;
-          $("#word").textContent = currentWord.danish;
-          const accepted = acceptedGerman(currentWord);
-          const distractors = [...new Map(shuffle(level.words.filter((word) => !accepted.has(word.german)))
-            .map((word) => [word.german, word])).values()].slice(0, 2);
-          options = shuffle([currentWord, ...distractors]).map((word) => word.german);
-          correctLane = options.indexOf(currentWord.german);
+          $("#prompt-label").textContent = fillLanguages(level.prompt);
+          $("#word").textContent = currentWord[pair.source];
+          const accepted = acceptedAnswers(currentWord);
+          // Same kind first (noun vs non-noun), so an article or capital never gives the answer away.
+          const eligible = level.words.filter((word) => !accepted.has(word[pair.target]));
+          const sameKind = (word) => ("gender" in word) === ("gender" in currentWord);
+          const unique = (words) => [...new Map(words.map((word) => [word[pair.target], word])).values()];
+          const preferred = unique(shuffle(eligible.filter(sameKind)));
+          const distractors = preferred.length >= 2 ? preferred.slice(0, 2)
+            : unique([...preferred, ...shuffle(eligible.filter((word) => !sameKind(word)))]).slice(0, 2);
+          options = shuffle([currentWord, ...distractors]).map((word) => word[pair.target]);
+          correctLane = options.indexOf(currentWord[pair.target]);
         }
         lanes.forEach((button, index) => {
-          button.querySelector("strong").textContent = options[index];
+          const sign = button.querySelector("strong");
+          sign.textContent = options[index];
+          // Shrink the sign until no word overflows it, so a word is never split mid-letter.
+          sign.style.fontSize = "";
+          for (let size = parseFloat(getComputedStyle(sign).fontSize); sign.scrollWidth > sign.clientWidth && size > 9; size -= 0.5) sign.style.fontSize = `${size - 0.5}px`;
           button.setAttribute("aria-label", `Lane ${index + 1}: ${options[index]}`);
         });
         approachGates();
@@ -479,7 +525,6 @@
         $(".surface").classList.remove("moving");
         clearInterval(timerId);
         clearTimeout(gateTimerId);
-        clearInterval(gateIntervalId);
         clearTimeout(transitionTimerId);
         $("#overlay-title").textContent = title;
         $("#overlay-copy").textContent = copy;
@@ -491,7 +536,6 @@
         running = false;
         clearInterval(timerId);
         clearTimeout(gateTimerId);
-        clearInterval(gateIntervalId);
         clearTimeout(transitionTimerId);
         $(".surface").classList.remove("moving");
         $(".game").classList.remove("sentence-mode");
@@ -503,7 +547,6 @@
         if (!wordBankLoaded || !config) { loadGameData(); return; }
         clearInterval(timerId);
         clearTimeout(gateTimerId);
-        clearInterval(gateIntervalId);
         clearTimeout(transitionTimerId);
         document.body.classList.remove("menu-mode");
         document.body.classList.add("playing");
@@ -520,8 +563,6 @@
         wordDeck = buildWordDeck(levels[levelIndex]);
         $("#overlay").hidden = true;
         $(".surface").classList.add("moving");
-        $("#feedback").textContent = "Get into the right lane before impact";
-        $("#feedback").classList.remove("wrong");
         updateHud(); chooseQuestion();
         timerId = setInterval(() => {
           if (!running) return;
@@ -530,11 +571,11 @@
         }, config.roundClockTickMilliseconds);
       }
       function finishRun(won) {
-        progress.completedRuns += 1;
+        pairProgress().completedRuns += 1;
         if (won) {
           // A hard win also counts on easy, so easy never trails hard.
           for (const name of runDifficulty === "hard" ? ["hard", "easy"] : ["easy"]) {
-            const track = progress.tracks[name];
+            const track = pairProgress().tracks[name];
             if (!track.completedLevelIds.includes(levels[levelIndex].id)) track.completedLevelIds.push(levels[levelIndex].id);
           }
         }
@@ -545,38 +586,35 @@
           saveProgress();
           renderLevelTabs();
           const nextLevel = levels[nextIndex];
-          showOverlay("Level complete!", `${target} words caught. Next up: ${nextLevel.name}.`, `Run level ${nextLevel.id}`, () => { selectLevel(nextIndex); startLevel(); });
+          showOverlay("Level complete!", `${target} words caught. Next up: ${nextLevel.name}.`, `Run level ${nextLevel.label}`, () => { selectLevel(nextIndex); startLevel(); });
         } else if (won) {
           saveProgress();
-          showOverlay("Sehr gut!", "You finished all levels. Keep going to make those German words stick.", "Run again", startLevel);
+          showOverlay(languages[pair.target].wellDone, `You finished all levels. Keep going to make those ${languages[pair.target].name} words stick.`, "Run again", startLevel);
         } else {
           saveProgress();
-          showOverlay("Run over", `${score} of ${target} words caught in level ${levels[levelIndex].id}. Catch ${target} to finish this run.`, "Try again", startLevel);
+          showOverlay("Run over", `${score} of ${target} words caught in level ${levels[levelIndex].label}. Catch ${target} to finish this run.`, "Try again", startLevel);
         }
       }
       function resolveEncounter() {
         if (!running || answerLocked) return;
         answerLocked = true;
-        clearInterval(gateIntervalId);
         const correct = selectedLane === correctLane;
         lanes[selectedLane].classList.add(correct ? "good" : "bad");
         if (correct && levels[levelIndex].mode === "sentence") {
-          sentenceProgress.push(currentWord.german);
-          $("#translation-added").textContent = sentenceProgress.join(" ");
+          sentenceProgress.push(currentWord[pair.target]);
+          $("#translation-added").textContent = joinChunks(sentenceProgress);
           $("#translation-added").hidden = false;
         }
-        $("#feedback").classList.toggle("wrong", !correct);
-        $("#feedback").textContent = correct ? "" : "Keep running.";
         const runner = $("#runner");
         runner.classList.remove("approaching", "hit", "correct"); void runner.offsetWidth;
         runner.classList.add(correct ? "correct" : "hit");
         if (correct) {
           score += 1;
-          progress.correctAnswers += 1;
+          pairProgress().correctAnswers += 1;
           speed = Math.min(config.maximumRunSpeedPercent, speed + config.correctRunSpeedGainPercent);
           gateIntervalSeconds = Math.max(config.minimumGateIntervalSeconds, gateIntervalSeconds / config.difficulties[runDifficulty].gateSpeedMultiplierPerCorrect);
         } else {
-          progress.wrongAnswers += 1;
+          pairProgress().wrongAnswers += 1;
           speed = Math.max(config.minimumRunSpeedPercent, speed - config.wrongRunSpeedLossPercent);
           gateIntervalSeconds = Math.min(config.maximumGateIntervalSeconds, gateIntervalSeconds * config.difficulties[runDifficulty].gateSpeedMultiplierOnWrong);
         }
@@ -626,7 +664,7 @@
             const cleared = isCleared(level);
             button.innerHTML = `
               <span class="level-badge">${index + 1}</span>
-              <span class="level-text">${level.id} · ${level.name}</span>
+              <span class="level-text">${level.label} · ${level.name}</span>
               ${cleared ? '<span class="level-check" role="img" aria-label="cleared">✓</span>' : ""}
             `;
             button.addEventListener("click", () => selectLevel(index));
@@ -644,14 +682,67 @@
         levelIndex = index;
         saveProgress();
         tabs.forEach((tab, i) => tab.setAttribute("aria-selected", String(i === index)));
-        $("#start-button").innerHTML = `Start level ${levels[index].id} <span class="arrow" aria-hidden="true">↗</span>`;
+        $("#start-button").innerHTML = `Start level ${levels[index].label} <span class="arrow" aria-hidden="true">↗</span>`;
         $("#overlay-title").textContent = levels[index].mode === "article" ? "Ready for der, die, das?" : `Ready for ${levels[index].name}?`;
         $("#overlay-copy").textContent = levels[index].mode === "article"
           ? `Practice nominative, accusative, dative, and genitive. Catch ${target} words before your ${roundLength()} are up.`
           : levels[index].mode === "sentence"
-            ? `Build German sentences one chunk at a time. Catch ${target} chunks before your ${roundLength()} are up.`
-            : `Choose the German translation in one of the three lanes. Catch ${target} words before your ${roundLength()} are up.`;
+            ? `Build ${languages[pair.target].name} sentences one chunk at a time. Catch ${target} chunks before your ${roundLength()} are up.`
+            : `Choose the ${languages[pair.target].name} translation in one of the three lanes. Catch ${target} words before your ${roundLength()} are up.`;
         updateHud();
+      }
+      // Switch the language pair: its playable levels, its answer index, its progress and the copy that names the languages.
+      function setPair(next) {
+        pair = next;
+        progress.pair = pairId(pair);
+        // Progress stays keyed by level id; the shown number counts only this pair's levels, so a hidden level leaves no gap.
+        const shownPerChapter = new Map();
+        levels = allLevels.filter((level) => modePlayable[level.mode](pair)).map((level) => {
+          const chapter = level.id.split("-")[0];
+          shownPerChapter.set(chapter, (shownPerChapter.get(chapter) || 0) + 1);
+          return { ...level, label: `${chapter}-${shownPerChapter.get(chapter)}` };
+        });
+        answersByPrompt = new Map();
+        for (const word of allWords) {
+          if (!answersByPrompt.has(promptKey(word))) answersByPrompt.set(promptKey(word), new Set());
+          answersByPrompt.get(promptKey(word)).add(word[pair.target]);
+        }
+        const source = languages[pair.source], learned = languages[pair.target];
+        document.title = `Wortlauf | ${source.name} to ${learned.name}`;
+        $("#pair-button").textContent = `${source.name} → ${learned.name}`;
+        $("#eyebrow").textContent = `A little ${learned.name}, at full speed`;
+        $("#description").textContent = `Catch the right ${learned.name} word. Three lanes, one ${source.name} clue, and a new way to get words moving.`;
+        $(".game").setAttribute("aria-label", `${learned.name} vocabulary lane game`);
+        $("#word").lang = source.code;
+        lanes.forEach((button) => { button.querySelector("strong").lang = learned.code; });
+        levelIndex = firstOpenLevelIndex();
+        selectDifficulty(progress.difficulty);
+      }
+      let pendingPair;
+      function renderPairOptions() {
+        const render = (container, keys, role) => {
+          container.replaceChildren(...keys.map((key) => {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.textContent = languages[key].name;
+            button.setAttribute("aria-pressed", String(pendingPair[role] === key));
+            button.addEventListener("click", () => {
+              pendingPair = { ...pendingPair, [role]: key };
+              // The learned language can never be the spoken one.
+              if (pendingPair.source === pendingPair.target) pendingPair.target = languageKeys.find((other) => other !== pendingPair.source);
+              renderPairOptions();
+            });
+            return button;
+          }));
+        };
+        render($("#source-options"), languageKeys, "source");
+        render($("#target-options"), languageKeys.filter((key) => key !== pendingPair.source), "target");
+      }
+      function openPairDialog() {
+        if (!wordBankLoaded) return;
+        pendingPair = { ...pair };
+        renderPairOptions();
+        $("#pair-dialog").showModal();
       }
       function selectDifficulty(difficulty) {
         if (!wordBankLoaded || !difficultyNames.includes(difficulty)) return;
@@ -725,11 +816,6 @@
               config.initialGateIntervalSeconds > config.maximumGateIntervalSeconds) {
             throw new Error("Invalid gate speed settings");
           }
-          const danishIndex = new Map();
-          for (const word of Object.values(bank.words)) {
-            if (!danishIndex.has(danishKey(word))) danishIndex.set(danishKey(word), new Set());
-            danishIndex.get(danishKey(word)).add(word.german);
-          }
           // A level's pool is every word in its categories, narrowed to its tiers when it lists any.
           const loadedLevels = bank.levels.map((level) => ({
             ...level,
@@ -741,13 +827,13 @@
           if (loadedLevels.some((level) => level.words.length < 3)) {
             throw new Error("Each level needs at least 3 words in its pool");
           }
-          levels = loadedLevels;
-          germanByDanish = danishIndex;
+          allLevels = loadedLevels;
+          allWords = Object.values(bank.words);
           target = config.wordsPerLevel;
-          levelIndex = firstOpenLevelIndex();
           wordBankLoaded = true;
           loadingGameData = false;
-          selectDifficulty(progress.difficulty);
+          setPair(pair);
+          if (firstVisit) openPairDialog();
           document.documentElement.style.setProperty("--bounce-duration", `${config.wrongBounceAnimationMilliseconds}ms`);
           document.documentElement.style.setProperty("--pass-duration", `${config.correctPassAnimationMilliseconds}ms`);
           updateHud();
@@ -811,6 +897,12 @@
           ? "Open your browser's Share menu, then choose Add to Home Screen."
           : "Open your browser menu and choose Install app or Add to Home screen.";
         $("#install-dialog").showModal();
+      });
+      $("#pair-button").addEventListener("click", openPairDialog);
+      $("#pair-start").addEventListener("click", () => {
+        $("#pair-dialog").close();
+        if (pairId(pendingPair) !== pairId(pair)) setPair(pendingPair);
+        saveProgress();
       });
       $("#close-install-dialog").addEventListener("click", () => $("#install-dialog").close());
       window.addEventListener("appinstalled", () => { $("#install-button").hidden = true; });

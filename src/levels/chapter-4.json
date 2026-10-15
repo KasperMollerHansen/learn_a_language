@@ -2,9 +2,9 @@
   {
     "id": "4-1",
     "chapter": "Chapter 4 · Fluent",
-    "name": "People",
+    "name": "People and feelings",
     "mode": "word",
-    "prompt": "Find the German word for",
+    "prompt": "Find the {target} word for",
     "categories": [
       "people",
       "emotions",
@@ -20,7 +20,7 @@
     "chapter": "Chapter 4 · Fluent",
     "name": "People with articles",
     "mode": "article",
-    "prompt": "Choose the German form",
+    "prompt": "Choose the {target} form",
     "categories": [
       "people"
     ],
@@ -33,7 +33,7 @@
     "chapter": "Chapter 4 · Fluent",
     "name": "Describing words",
     "mode": "word",
-    "prompt": "Find the German word for",
+    "prompt": "Find the {target} word for",
     "categories": [
       "adjectives",
       "colors",
@@ -46,9 +46,9 @@
   {
     "id": "4-4",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Small words",
+    "name": "Small words, numbers and time",
     "mode": "word",
-    "prompt": "Find the German word for",
+    "prompt": "Find the {target} word for",
     "categories": [
       "prepositions",
       "function",
@@ -64,7 +64,7 @@
     "chapter": "Chapter 4 · Fluent",
     "name": "Verbs",
     "mode": "word",
-    "prompt": "Find the German word for",
+    "prompt": "Find the {target} word for",
     "categories": [
       "verbs"
     ],
@@ -77,7 +77,7 @@
     "chapter": "Chapter 4 · Fluent",
     "name": "Food and drink",
     "mode": "word",
-    "prompt": "Find the German word for",
+    "prompt": "Find the {target} word for",
     "categories": [
       "food",
       "drinks",
@@ -90,9 +90,9 @@
   {
     "id": "4-7",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Home",
+    "name": "Home and everyday things",
     "mode": "word",
-    "prompt": "Find the German word for",
+    "prompt": "Find the {target} word for",
     "categories": [
       "home",
       "kitchen",
@@ -108,9 +108,9 @@
   {
     "id": "4-8",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Body and clothes",
+    "name": "Body, health and clothes",
     "mode": "word",
-    "prompt": "Find the German word for",
+    "prompt": "Find the {target} word for",
     "categories": [
       "body",
       "health",
@@ -123,9 +123,9 @@
   {
     "id": "4-9",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Nature",
+    "name": "Animals, nature and weather",
     "mode": "word",
-    "prompt": "Find the German word for",
+    "prompt": "Find the {target} word for",
     "categories": [
       "animals",
       "nature",
@@ -139,9 +139,9 @@
   {
     "id": "4-10",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Town and travel",
+    "name": "Town, travel and shopping",
     "mode": "word",
-    "prompt": "Find the German word for",
+    "prompt": "Find the {target} word for",
     "categories": [
       "city",
       "travel",
@@ -156,9 +156,9 @@
   {
     "id": "4-11",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Free time",
+    "name": "Sport, music and hobbies",
     "mode": "word",
-    "prompt": "Find the German word for",
+    "prompt": "Find the {target} word for",
     "categories": [
       "sport",
       "music",
@@ -171,9 +171,9 @@
   {
     "id": "4-12",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Work and school",
+    "name": "Work, school and society",
     "mode": "word",
-    "prompt": "Find the German word for",
+    "prompt": "Find the {target} word for",
     "categories": [
       "work",
       "learning",
@@ -194,7 +194,7 @@
     "chapter": "Chapter 4 · Fluent",
     "name": "Sentences",
     "mode": "word",
-    "prompt": "Translate the Danish sentence into German",
+    "prompt": "Translate the {source} sentence into {target}",
     "categories": [
       "modals",
       "sentences"
@@ -208,7 +208,7 @@
     "chapter": "Chapter 4 · Fluent",
     "name": "Review",
     "mode": "word",
-    "prompt": "Find the German word for",
+    "prompt": "Find the {target} word for",
     "categories": [
       "people",
       "animals",
@@ -269,7 +269,7 @@
     "chapter": "Chapter 4 · Fluent",
     "name": "Sentence builder",
     "mode": "sentence",
-    "prompt": "Build the German sentence one chunk at a time",
+    "prompt": "Build the {target} sentence one chunk at a time",
     "categories": [
       "sentence-builder"
     ],

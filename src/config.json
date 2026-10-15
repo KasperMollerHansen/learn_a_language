@@ -16,7 +16,6 @@
   "initialGateIntervalSeconds": 4.2,
   "minimumGateIntervalSeconds": 0.5,
   "maximumGateIntervalSeconds": 5,
-  "countdownRefreshMilliseconds": 100,
   "articleIndefiniteChance": 0.5,
   "initialRunSpeedPercent": 42,
   "correctRunSpeedGainPercent": 5,

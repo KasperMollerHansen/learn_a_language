@@ -1,4 +1,4 @@
-const CACHE_NAME = "wortlauf-v0.1.0";
+const CACHE_NAME = "wortlauf-v0.3.0";
 const APP_FILES = [
   "./", "./index.html", "./manifest.webmanifest", "./icon.svg", "./config.json",
   "./wordbank/adjectives.json",

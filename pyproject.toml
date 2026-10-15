@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "init-repo"
-version = "0.1.0"
+version = "0.3.0"
 description = "Starter layout for a Python project."
 authors = ["KMH"]
 readme = "README.md"

@@ -16,33 +16,43 @@ SRC = ROOT / "src"
 MIN_POOL = 15
 # At most this many levels per chapter; themes past the cap (in THEMES order) are left out.
 MAX_LEVELS = 15
-WORD_PROMPT = "Find the German word for"
+WORD_PROMPT = "Find the {target} word for"
 # (name, mode, prompt, categories), in the order the word levels appear in every chapter.
 # Order is priority too: when a chapter has more themes than MAX_LEVELS allows, the last go.
 THEMES: list[tuple[str, str, str, list[str]]] = [
-    ("People", "word", WORD_PROMPT, ["people", "emotions", "personality", "life"]),
-    ("People with articles", "article", "Choose the German form", ["people"]),
+    ("People and feelings", "word", WORD_PROMPT, ["people", "emotions", "personality", "life"]),
+    ("People with articles", "article", "Choose the {target} form", ["people"]),
     ("Describing words", "word", WORD_PROMPT, ["adjectives", "colors", "adverbs"]),
-    ("Small words", "word", WORD_PROMPT, ["prepositions", "function", "numbers", "time"]),
+    (
+        "Small words, numbers and time",
+        "word",
+        WORD_PROMPT,
+        ["prepositions", "function", "numbers", "time"],
+    ),
     ("Verbs", "word", WORD_PROMPT, ["verbs"]),
     ("Food and drink", "word", WORD_PROMPT, ["food", "drinks", "restaurant"]),
     (
-        "Home",
+        "Home and everyday things",
         "word",
         WORD_PROMPT,
         ["home", "kitchen", "everyday", "tools", "materials", "office"],
     ),
-    ("Body and clothes", "word", WORD_PROMPT, ["body", "health", "clothing"]),
-    ("Nature", "word", WORD_PROMPT, ["animals", "nature", "garden", "weather"]),
+    ("Body, health and clothes", "word", WORD_PROMPT, ["body", "health", "clothing"]),
     (
-        "Town and travel",
+        "Animals, nature and weather",
+        "word",
+        WORD_PROMPT,
+        ["animals", "nature", "garden", "weather"],
+    ),
+    (
+        "Town, travel and shopping",
         "word",
         WORD_PROMPT,
         ["city", "travel", "transport", "shopping", "countries"],
     ),
-    ("Free time", "word", WORD_PROMPT, ["sport", "music", "hobbies"]),
+    ("Sport, music and hobbies", "word", WORD_PROMPT, ["sport", "music", "hobbies"]),
     (
-        "Work and school",
+        "Work, school and society",
         "word",
         WORD_PROMPT,
         [
@@ -57,18 +67,18 @@ THEMES: list[tuple[str, str, str, list[str]]] = [
             "culture",
         ],
     ),
-    ("Words that look alike", "word", "Translate the Danish word into German", ["spelling"]),
+    ("Words that look alike", "word", "Translate the {source} word into {target}", ["spelling"]),
 ]
 SENTENCES = (
     "Sentences",
     "word",
-    "Translate the Danish sentence into German",
+    "Translate the {source} sentence into {target}",
     ["modals", "sentences"],
 )
 BUILDER = (
     "Sentence builder",
     "sentence",
-    "Build the German sentence one chunk at a time",
+    "Build the {target} sentence one chunk at a time",
     ["sentence-builder"],
 )
 # Chapter N uses tier N words.

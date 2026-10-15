@@ -3,882 +3,1176 @@
     "danish": "ofte",
     "german": "oft",
     "english": "often",
+    "spanish": "a menudo",
+    "french": "souvent",
     "tier": 1
   },
   "adverbs.always": {
     "danish": "altid",
     "german": "immer",
     "english": "always",
+    "spanish": "siempre",
+    "french": "toujours",
     "tier": 1
   },
   "adverbs.never": {
     "danish": "aldrig",
     "german": "nie",
     "english": "never",
+    "spanish": "nunca",
+    "french": "jamais",
     "tier": 1
   },
   "adverbs.sometimes": {
     "danish": "nogle gange",
     "german": "manchmal",
     "english": "sometimes",
+    "spanish": "a veces",
+    "french": "parfois",
     "tier": 1
   },
   "adverbs.seldom": {
     "danish": "sjældent",
     "german": "selten",
     "english": "seldom",
+    "spanish": "raramente",
+    "french": "rarement",
     "tier": 2
   },
   "adverbs.usually": {
     "danish": "normalt",
     "german": "normalerweise",
     "english": "usually",
+    "spanish": "normalmente",
+    "french": "normalement",
     "tier": 2
   },
   "adverbs.mostly": {
     "danish": "for det meste",
     "german": "meistens",
     "english": "mostly",
+    "spanish": "casi siempre",
+    "french": "la plupart du temps",
     "tier": 2
   },
   "adverbs.here": {
     "danish": "her",
     "german": "hier",
     "english": "here",
+    "spanish": "aquí",
+    "french": "ici",
     "tier": 1
   },
   "adverbs.there": {
     "danish": "der",
     "german": "da",
     "english": "there",
+    "spanish": "allí",
+    "french": "là",
     "tier": 1
   },
   "adverbs.over-there": {
     "danish": "derovre",
     "german": "dort drüben",
     "english": "over there",
+    "spanish": "allá",
+    "french": "là-bas",
     "tier": 1
   },
   "adverbs.everywhere": {
     "danish": "overalt",
     "german": "überall",
     "english": "everywhere",
+    "spanish": "en todas partes",
+    "french": "partout",
     "tier": 2
   },
   "adverbs.nowhere": {
     "danish": "ingen steder",
     "german": "nirgends",
     "english": "nowhere",
+    "spanish": "en ninguna parte",
+    "french": "nulle part",
     "tier": 3
   },
   "adverbs.somewhere": {
     "danish": "et eller andet sted",
     "german": "irgendwo",
     "english": "somewhere",
+    "spanish": "en alguna parte",
+    "french": "quelque part",
     "tier": 3
   },
   "adverbs.outside": {
     "danish": "ude",
     "german": "draußen",
     "english": "outside",
+    "spanish": "fuera",
+    "french": "dehors",
     "tier": 1
   },
   "adverbs.inside": {
     "danish": "inde",
     "german": "drinnen",
     "english": "inside",
+    "spanish": "dentro",
+    "french": "dedans",
     "tier": 2
   },
   "adverbs.up-above": {
     "danish": "oppe",
     "german": "oben",
     "english": "up above",
+    "spanish": "arriba",
+    "french": "en haut",
     "tier": 1
   },
   "adverbs.down-below": {
     "danish": "nede",
     "german": "unten",
     "english": "down below",
+    "spanish": "abajo",
+    "french": "en bas",
     "tier": 1
   },
   "adverbs.in-front": {
     "danish": "foran",
     "german": "vorne",
     "english": "in front",
+    "spanish": "delante",
+    "french": "devant",
     "tier": 2
   },
   "adverbs.at-the-back": {
     "danish": "bagved",
     "german": "hinten",
     "english": "at the back",
+    "spanish": "detrás",
+    "french": "derrière",
     "tier": 2
   },
   "adverbs.straight-ahead": {
     "danish": "lige ud",
     "german": "geradeaus",
     "english": "straight ahead",
+    "spanish": "todo recto",
+    "french": "tout droit",
     "tier": 1
   },
   "adverbs.back": {
     "danish": "tilbage",
     "german": "zurück",
     "english": "back",
+    "spanish": "de vuelta",
+    "french": "de retour",
     "tier": 1
   },
   "adverbs.away": {
     "danish": "væk",
     "german": "weg",
     "english": "away",
+    "spanish": "lejos",
+    "french": "ailleurs",
     "tier": 2
   },
   "adverbs.far": {
     "danish": "langt",
     "german": "weit",
     "english": "far",
+    "spanish": "lejos",
+    "french": "loin",
     "tier": 1
   },
   "adverbs.very": {
     "danish": "meget",
     "german": "sehr",
     "english": "very",
+    "spanish": "muy",
+    "french": "très",
     "tier": 1
   },
   "adverbs.too": {
     "danish": "for",
     "german": "zu",
     "english": "too",
+    "spanish": "demasiado",
+    "french": "trop",
     "tier": 1
   },
   "adverbs.quite": {
     "danish": "ret",
     "german": "ziemlich",
     "english": "quite",
+    "spanish": "bastante",
+    "french": "assez",
     "tier": 2
   },
   "adverbs.almost": {
     "danish": "næsten",
     "german": "fast",
     "english": "almost",
+    "spanish": "casi",
+    "french": "presque",
     "tier": 1
   },
   "adverbs.only": {
     "danish": "kun",
     "german": "nur",
     "english": "only",
+    "spanish": "solo",
+    "french": "seulement",
     "tier": 1
   },
   "adverbs.also": {
     "danish": "også",
     "german": "auch",
     "english": "also",
+    "spanish": "también",
+    "french": "aussi",
     "tier": 1
   },
   "adverbs.still": {
     "danish": "stadig",
     "german": "noch",
     "english": "still",
+    "spanish": "todavía",
+    "french": "encore",
     "tier": 1
   },
   "adverbs.already": {
     "danish": "allerede",
     "german": "schon",
     "english": "already",
+    "spanish": "ya",
+    "french": "déjà",
     "tier": 1
   },
   "adverbs.even": {
     "danish": "endda",
     "german": "sogar",
     "english": "even",
+    "spanish": "incluso",
+    "french": "même",
     "tier": 3
   },
   "adverbs.especially": {
     "danish": "især",
     "german": "besonders",
     "english": "especially",
+    "spanish": "especialmente",
+    "french": "surtout",
     "tier": 2
   },
   "adverbs.really": {
     "danish": "virkelig",
     "german": "wirklich",
     "english": "really",
+    "spanish": "de verdad",
+    "french": "vraiment",
     "tier": 1
   },
   "adverbs.perhaps": {
     "danish": "måske",
     "german": "vielleicht",
     "english": "perhaps",
+    "spanish": "quizás",
+    "french": "peut-être",
     "tier": 1
   },
   "adverbs.definitely": {
     "danish": "helt sikkert",
     "german": "bestimmt",
     "english": "definitely",
+    "spanish": "sin duda",
+    "french": "certainement",
     "tier": 2
   },
   "adverbs.unfortunately": {
     "danish": "desværre",
     "german": "leider",
     "english": "unfortunately",
+    "spanish": "desafortunadamente",
+    "french": "malheureusement",
     "tier": 1
   },
   "adverbs.fortunately": {
     "danish": "heldigvis",
     "german": "zum Glück",
     "english": "fortunately",
+    "spanish": "afortunadamente",
+    "french": "heureusement",
     "tier": 2
   },
   "adverbs.hopefully": {
     "danish": "forhåbentlig",
     "german": "hoffentlich",
     "english": "hopefully",
+    "spanish": "ojalá",
+    "french": "espérons",
     "tier": 2
   },
   "adverbs.of-course": {
     "danish": "naturligvis",
     "german": "natürlich",
     "english": "of course",
+    "spanish": "por supuesto",
+    "french": "bien sûr",
     "tier": 1
   },
   "adverbs.gladly": {
     "danish": "gerne",
     "german": "gern",
     "english": "gladly",
+    "spanish": "con gusto",
+    "french": "volontiers",
     "tier": 1
   },
   "adverbs.rather": {
     "danish": "hellere",
     "german": "lieber",
     "english": "rather",
+    "spanish": "más bien",
+    "french": "plutôt",
     "tier": 2
   },
   "adverbs.most-of-all": {
     "danish": "allerhelst",
     "german": "am liebsten",
     "english": "most of all",
+    "spanish": "sobre todo",
+    "french": "de préférence",
     "tier": 2
   },
   "adverbs.more": {
     "danish": "mere",
     "german": "mehr",
     "english": "more",
+    "spanish": "más",
+    "french": "plus",
     "tier": 1
   },
   "adverbs.less": {
     "danish": "mindre",
     "german": "weniger",
     "english": "less",
+    "spanish": "menos",
+    "french": "moins",
     "tier": 1
   },
   "adverbs.enough": {
     "danish": "nok",
     "german": "genug",
     "english": "enough",
+    "spanish": "suficiente",
+    "french": "suffisamment",
     "tier": 1
   },
   "adverbs.a-little": {
     "danish": "lidt",
     "german": "ein bisschen",
     "english": "a little",
+    "spanish": "un poco",
+    "french": "un peu",
     "tier": 1
   },
   "adverbs.hardly": {
     "danish": "knap",
     "german": "kaum",
     "english": "hardly",
+    "spanish": "apenas",
+    "french": "à peine",
     "tier": 3
   },
   "adverbs.approximately": {
     "danish": "omkring",
     "german": "ungefähr",
     "english": "approximately",
+    "spanish": "aproximadamente",
+    "french": "environ",
     "tier": 2
   },
   "adverbs.exactly": {
     "danish": "præcis",
     "german": "genau",
     "english": "exactly",
+    "spanish": "exactamente",
+    "french": "exactement",
     "tier": 2
   },
   "adverbs.entirely": {
     "danish": "helt",
     "german": "ganz",
     "english": "entirely",
+    "spanish": "enteramente",
+    "french": "entièrement",
     "tier": 1
   },
   "adverbs.totally": {
     "danish": "fuldstændig",
     "german": "völlig",
     "english": "totally",
+    "spanish": "totalmente",
+    "french": "totalement",
     "tier": 3
   },
   "adverbs.not-at-all": {
     "danish": "slet ikke",
     "german": "gar nicht",
     "english": "not at all",
+    "spanish": "para nada",
+    "french": "pas du tout",
     "tier": 2
   },
   "adverbs.together": {
     "danish": "sammen",
     "german": "zusammen",
     "english": "together",
+    "spanish": "juntos",
+    "french": "ensemble",
     "tier": 1
   },
   "adverbs.immediately": {
     "danish": "straks",
     "german": "sofort",
     "english": "immediately",
+    "spanish": "enseguida",
+    "french": "tout de suite",
     "tier": 1
   },
   "adverbs.soon": {
     "danish": "snart",
     "german": "bald",
     "english": "soon",
+    "spanish": "pronto",
+    "french": "bientôt",
     "tier": 1
   },
   "adverbs.later": {
     "danish": "senere",
     "german": "später",
     "english": "later",
+    "spanish": "más tarde",
+    "french": "plus tard",
     "tier": 1
   },
   "adverbs.formerly": {
     "danish": "tidligere",
     "german": "früher",
     "english": "formerly",
+    "spanish": "antiguamente",
+    "french": "autrefois",
     "tier": 2
   },
   "adverbs.beforehand": {
     "danish": "før",
     "german": "vorher",
     "english": "beforehand",
+    "spanish": "antes",
+    "french": "auparavant",
     "tier": 2
   },
   "adverbs.afterwards": {
     "danish": "bagefter",
     "german": "nachher",
     "english": "afterwards",
+    "spanish": "después",
+    "french": "après",
     "tier": 2
   },
   "adverbs.after-that": {
     "danish": "derefter",
     "german": "danach",
     "english": "after that",
+    "spanish": "luego",
+    "french": "ensuite",
     "tier": 2
   },
   "adverbs.then": {
     "danish": "så",
     "german": "dann",
     "english": "then",
+    "spanish": "entonces",
+    "french": "alors",
     "tier": 1
   },
   "adverbs.at-first": {
     "danish": "først",
     "german": "zuerst",
     "english": "at first",
+    "spanish": "al principio",
+    "french": "d'abord",
     "tier": 1
   },
   "adverbs.lastly": {
     "danish": "til sidst",
     "german": "zuletzt",
     "english": "lastly",
+    "spanish": "por último",
+    "french": "en dernier lieu",
     "tier": 3
   },
   "adverbs.finally": {
     "danish": "endelig",
     "german": "endlich",
     "english": "finally",
+    "spanish": "finalmente",
+    "french": "enfin",
     "tier": 2
   },
   "adverbs.again": {
     "danish": "igen",
     "german": "wieder",
     "english": "again",
+    "spanish": "de nuevo",
+    "french": "de nouveau",
     "tier": 1
   },
   "adverbs.once-more": {
     "danish": "endnu en gang",
     "german": "noch einmal",
     "english": "once more",
+    "spanish": "una vez más",
+    "french": "encore une fois",
     "tier": 1
   },
   "adverbs.every-time": {
     "danish": "hver gang",
     "german": "jedes Mal",
     "english": "every time",
+    "spanish": "cada vez",
+    "french": "chaque fois",
     "tier": 2
   },
   "adverbs.not-yet": {
     "danish": "endnu ikke",
     "german": "noch nicht",
     "english": "not yet",
+    "spanish": "todavía no",
+    "french": "pas encore",
     "tier": 1
   },
   "adverbs.no-longer": {
     "danish": "ikke længere",
     "german": "nicht mehr",
     "english": "no longer",
+    "spanish": "ya no",
+    "french": "ne plus",
     "tier": 2
   },
   "adverbs.once": {
     "danish": "en gang",
     "german": "einmal",
     "english": "once",
+    "spanish": "una vez",
+    "french": "une fois",
     "tier": 1
   },
   "adverbs.twice": {
     "danish": "to gange",
     "german": "zweimal",
     "english": "twice",
+    "spanish": "dos veces",
+    "french": "deux fois",
     "tier": 2
   },
   "adverbs.three-times": {
     "danish": "tre gange",
     "german": "dreimal",
     "english": "three times",
+    "spanish": "tres veces",
+    "french": "trois fois",
     "tier": 2
   },
   "adverbs.several-times": {
     "danish": "flere gange",
     "german": "mehrmals",
     "english": "several times",
+    "spanish": "varias veces",
+    "french": "plusieurs fois",
     "tier": 3
   },
   "adverbs.past": {
     "danish": "forbi",
     "german": "vorbei",
     "english": "past",
+    "spanish": "terminado",
+    "french": "fini",
     "tier": 2
   },
   "adverbs.thus": {
     "danish": "altså",
     "german": "also",
     "english": "thus",
+    "spanish": "así",
+    "french": "ainsi",
     "tier": 2
   },
   "adverbs.therefore": {
     "danish": "derfor",
     "german": "deshalb",
     "english": "therefore",
+    "spanish": "por lo tanto",
+    "french": "donc",
     "tier": 2
   },
   "adverbs.nevertheless": {
     "danish": "alligevel",
     "german": "trotzdem",
     "english": "nevertheless",
+    "spanish": "sin embargo",
+    "french": "pourtant",
     "tier": 3
   },
   "adverbs.besides": {
     "danish": "desuden",
     "german": "außerdem",
     "english": "besides",
+    "spanish": "además",
+    "french": "en outre",
     "tier": 3
   },
   "adverbs.actually": {
     "danish": "egentlig",
     "german": "eigentlich",
     "english": "actually",
+    "spanish": "en realidad",
+    "french": "en fait",
     "tier": 2
   },
   "adverbs.in-fact": {
     "danish": "faktisk",
     "german": "tatsächlich",
     "english": "in fact",
+    "spanish": "de hecho",
+    "french": "en effet",
     "tier": 3
   },
   "adverbs.likewise": {
     "danish": "ligeledes",
     "german": "ebenfalls",
     "english": "likewise",
+    "spanish": "asimismo",
+    "french": "également",
     "tier": 4
   },
   "adverbs.otherwise": {
     "danish": "ellers",
     "german": "sonst",
     "english": "otherwise",
+    "spanish": "si no",
+    "french": "sinon",
     "tier": 3
   },
   "adverbs.just-as": {
     "danish": "lige så",
     "german": "genauso",
     "english": "just as",
+    "spanish": "igualmente",
+    "french": "tout aussi",
     "tier": 3
   },
   "adverbs.at-least": {
     "danish": "mindst",
     "german": "mindestens",
     "english": "at least",
+    "spanish": "al menos",
+    "french": "au moins",
     "tier": 3
   },
   "adverbs.at-most": {
     "danish": "højst",
     "german": "höchstens",
     "english": "at most",
+    "spanish": "como máximo",
+    "french": "au maximum",
     "tier": 3
   },
   "adverbs.recently": {
     "danish": "forleden",
     "german": "neulich",
     "english": "recently",
+    "spanish": "el otro día",
+    "french": "l'autre jour",
     "tier": 3
   },
   "adverbs.a-moment-ago": {
     "danish": "for lidt siden",
     "german": "vorhin",
     "english": "a moment ago",
+    "spanish": "hace un momento",
+    "french": "il y a un instant",
     "tier": 3
   },
   "adverbs.meanwhile": {
     "danish": "imens",
     "german": "inzwischen",
     "english": "meanwhile",
+    "spanish": "mientras tanto",
+    "french": "entre-temps",
     "tier": 3
   },
   "adverbs.since-then": {
     "danish": "siden da",
     "german": "seitdem",
     "english": "since then",
+    "spanish": "desde entonces",
+    "french": "depuis lors",
     "tier": 3
   },
   "adverbs.constantly": {
     "danish": "hele tiden",
     "german": "ständig",
     "english": "constantly",
+    "spanish": "constantemente",
+    "french": "constamment",
     "tier": 3
   },
   "adverbs.in-vain": {
     "danish": "forgæves",
     "german": "umsonst",
     "english": "in vain",
+    "spanish": "en vano",
+    "french": "en vain",
     "tier": 3
   },
   "adverbs.on-purpose": {
     "danish": "med vilje",
     "german": "absichtlich",
     "english": "on purpose",
+    "spanish": "a propósito",
+    "french": "exprès",
     "tier": 3
   },
   "adverbs.probably": {
     "danish": "vel",
     "german": "wohl",
     "english": "probably",
+    "spanish": "probablemente",
+    "french": "probablement",
     "tier": 4
   },
   "adverbs.out": {
     "danish": "ud",
     "german": "hinaus",
     "english": "out",
+    "spanish": "hacia fuera",
+    "french": "vers l'extérieur",
     "tier": 3
   },
   "adverbs.downwards": {
     "danish": "nedad",
     "german": "nach unten",
     "english": "downwards",
+    "spanish": "hacia abajo",
+    "french": "vers le bas",
     "tier": 2
   },
   "adverbs.backwards": {
     "danish": "baglæns",
     "german": "rückwärts",
     "english": "backwards",
+    "spanish": "hacia atrás",
+    "french": "en arrière",
     "tier": 3
   },
   "adverbs.forwards": {
     "danish": "fremad",
     "german": "vorwärts",
     "english": "forwards",
+    "spanish": "hacia delante",
+    "french": "en avant",
     "tier": 3
   },
   "adverbs.somehow": {
     "danish": "på en eller anden måde",
     "german": "irgendwie",
     "english": "somehow",
+    "spanish": "de alguna manera",
+    "french": "d'une façon ou d'une autre",
     "tier": 3
   },
   "adverbs.ever": {
     "danish": "nogensinde",
     "german": "jemals",
     "english": "ever",
+    "spanish": "alguna vez",
+    "french": "jamais",
     "tier": 3
   },
   "adverbs.again-and-again": {
     "danish": "igen og igen",
     "german": "immer wieder",
     "english": "again and again",
+    "spanish": "una y otra vez",
+    "french": "encore et encore",
     "tier": 3
   },
   "adverbs.too-much": {
     "danish": "for meget",
     "german": "zu viel",
     "english": "too much",
+    "spanish": "en exceso",
+    "french": "trop",
     "tier": 2
   },
   "adverbs.too-little": {
     "danish": "for lidt",
     "german": "zu wenig",
     "english": "too little",
+    "spanish": "muy poco",
+    "french": "trop peu",
     "tier": 2
   },
   "adverbs.at-home": {
     "danish": "hjemme",
     "german": "zu Hause",
     "english": "at home",
+    "spanish": "en casa",
+    "french": "à la maison",
     "tier": 1
   },
   "adverbs.homewards": {
     "danish": "hjem",
     "german": "nach Hause",
     "english": "homewards",
+    "spanish": "a casa",
+    "french": "chez soi",
     "tier": 1
   },
   "adverbs.elsewhere": {
     "danish": "et andet sted",
     "german": "woanders",
     "english": "elsewhere",
+    "spanish": "en otro lugar",
+    "french": "ailleurs",
     "tier": 3
   },
   "adverbs.on-the-way": {
     "danish": "undervejs",
     "german": "unterwegs",
     "english": "on the way",
+    "spanish": "en camino",
+    "french": "en chemin",
     "tier": 2
   },
   "adverbs.side-by-side": {
     "danish": "ved siden af hinanden",
     "german": "nebeneinander",
     "english": "side by side",
+    "spanish": "uno al lado del otro",
+    "french": "côte à côte",
     "tier": 3
   },
   "adverbs.on-the-inside": {
     "danish": "indvendig",
     "german": "innen",
     "english": "on the inside",
+    "spanish": "por dentro",
+    "french": "à l'intérieur",
     "tier": 3
   },
   "adverbs.at-some-point": {
     "danish": "en eller anden gang",
     "german": "irgendwann",
     "english": "at some point",
+    "spanish": "en algún momento",
+    "french": "à un moment donné",
     "tier": 3
   },
   "adverbs.at-any-time": {
     "danish": "når som helst",
     "german": "jederzeit",
     "english": "at any time",
+    "spanish": "en cualquier momento",
+    "french": "à tout moment",
     "tier": 3
   },
   "adverbs.presumably": {
     "danish": "formodentlig",
     "german": "vermutlich",
     "english": "presumably",
+    "spanish": "presumiblemente",
+    "french": "vraisemblablement",
     "tier": 3
   },
   "adverbs.apparently": {
     "danish": "åbenbart",
     "german": "offenbar",
     "english": "apparently",
+    "spanish": "aparentemente",
+    "french": "apparemment",
     "tier": 4
   },
   "adverbs.surely": {
     "danish": "sikkert",
     "german": "sicherlich",
     "english": "surely",
+    "spanish": "seguramente",
+    "french": "sûrement",
     "tier": 3
   },
   "adverbs.now-and-then": {
     "danish": "af og til",
     "german": "ab und zu",
     "english": "now and then",
+    "spanish": "de vez en cuando",
+    "french": "de temps en temps",
     "tier": 2
   },
   "adverbs.for-example": {
     "danish": "for eksempel",
     "german": "zum Beispiel",
     "english": "for example",
+    "spanish": "por ejemplo",
+    "french": "par exemple",
     "tier": 2
   },
   "adverbs.vice-versa": {
     "danish": "omvendt",
     "german": "umgekehrt",
     "english": "vice versa",
+    "spanish": "viceversa",
+    "french": "vice versa",
     "tier": 4
   },
   "adverbs.in-any-case": {
     "danish": "i hvert fald",
     "german": "jedenfalls",
     "english": "in any case",
+    "spanish": "en cualquier caso",
+    "french": "en tout cas",
     "tier": 4
   },
   "adverbs.by-the-way": {
     "danish": "i øvrigt",
     "german": "übrigens",
     "english": "by the way",
+    "spanish": "por cierto",
+    "french": "au fait",
     "tier": 3
   },
   "adverbs.at-the-same-time": {
     "danish": "samtidig",
     "german": "gleichzeitig",
     "english": "at the same time",
+    "spanish": "al mismo tiempo",
+    "french": "en même temps",
     "tier": 3
   },
   "adverbs.in-time": {
     "danish": "i tide",
     "german": "rechtzeitig",
     "english": "in time",
+    "spanish": "a tiempo",
+    "french": "à temps",
     "tier": 3
   },
   "adverbs.mainly": {
     "danish": "hovedsageligt",
     "german": "hauptsächlich",
     "english": "mainly",
+    "spanish": "principalmente",
+    "french": "principalement",
     "tier": 4
   },
   "adverbs.partly": {
     "danish": "delvist",
     "german": "teilweise",
     "english": "partly",
+    "spanish": "en parte",
+    "french": "en partie",
     "tier": 4
   },
   "adverbs.extremely": {
     "danish": "ekstremt",
     "german": "extrem",
     "english": "extremely",
+    "spanish": "extremadamente",
+    "french": "extrêmement",
     "tier": 3
   },
   "adverbs.relatively": {
     "danish": "relativt",
     "german": "relativ",
     "english": "relatively",
+    "spanish": "relativamente",
+    "french": "relativement",
     "tier": 3
   },
   "adverbs.back-then": {
     "danish": "dengang",
     "german": "damals",
     "english": "back then",
+    "spanish": "en aquel entonces",
+    "french": "à l'époque",
     "tier": 3
   },
   "adverbs.nowadays": {
     "danish": "nu om dage",
     "german": "heutzutage",
     "english": "nowadays",
+    "spanish": "hoy en día",
+    "french": "de nos jours",
     "tier": 4
   },
   "adverbs.so-far": {
     "danish": "hidtil",
     "german": "bisher",
     "english": "so far",
+    "spanish": "hasta ahora",
+    "french": "jusqu'ici",
     "tier": 3
   },
   "adverbs.zunehmend": {
     "danish": "i tiltagende grad",
     "german": "zunehmend",
     "english": "increasingly",
+    "spanish": "cada vez más",
+    "french": "de plus en plus",
     "tier": 4
   },
   "adverbs.ueberhaupt": {
     "danish": "overhovedet",
     "german": "überhaupt",
     "english": "at all",
+    "spanish": "en absoluto",
+    "french": "du tout",
     "tier": 4
   },
   "adverbs.immerhin": {
     "danish": "trods alt",
     "german": "immerhin",
     "english": "after all",
+    "spanish": "después de todo",
+    "french": "après tout",
     "tier": 4
   },
   "adverbs.schlichtweg": {
     "danish": "simpelthen",
     "german": "schlichtweg",
     "english": "simply",
+    "spanish": "simplemente",
+    "french": "tout simplement",
     "tier": 5
   },
   "adverbs.zweifelsohne": {
     "danish": "uden tvivl",
     "german": "zweifelsohne",
     "english": "undoubtedly",
+    "spanish": "indudablemente",
+    "french": "sans aucun doute",
     "tier": 5
   },
   "adverbs.mitunter": {
     "danish": "indimellem",
     "german": "mitunter",
     "english": "at times",
+    "spanish": "en ocasiones",
+    "french": "par moments",
     "tier": 5
   },
   "adverbs.weitgehend": {
     "danish": "i vid udstrækning",
     "german": "weitgehend",
     "english": "largely",
+    "spanish": "en gran parte",
+    "french": "en grande partie",
     "tier": 5
   },
   "adverbs.ausschliesslich": {
     "danish": "udelukkende",
     "german": "ausschließlich",
     "english": "exclusively",
+    "spanish": "exclusivamente",
+    "french": "exclusivement",
     "tier": 5
   },
   "adverbs.urspruenglich": {
     "danish": "oprindeligt",
     "german": "ursprünglich",
     "english": "originally",
+    "spanish": "originalmente",
+    "french": "à l'origine",
     "tier": 5
   },
   "adverbs.keineswegs": {
     "danish": "på ingen måde",
     "german": "keineswegs",
     "english": "by no means",
+    "spanish": "de ningún modo",
+    "french": "nullement",
     "tier": 5
   },
   "adverbs.allmaehlich": {
     "danish": "efterhånden",
     "german": "allmählich",
     "english": "gradually",
+    "spanish": "gradualmente",
+    "french": "peu à peu",
     "tier": 5
   },
   "adverbs.ohnehin": {
     "danish": "i forvejen",
     "german": "ohnehin",
     "english": "anyway",
+    "spanish": "de todos modos",
+    "french": "de toute façon",
     "tier": 5
   },
   "adverbs.zumindest": {
     "danish": "i det mindste",
     "german": "zumindest",
     "english": "at least",
+    "spanish": "por lo menos",
+    "french": "du moins",
     "tier": 5
   },
   "adverbs.lediglich": {
     "danish": "blot",
     "german": "lediglich",
     "english": "merely",
+    "spanish": "meramente",
+    "french": "simplement",
     "tier": 5
   },
   "adverbs.ueberwiegend": {
     "danish": "overvejende",
     "german": "überwiegend",
     "english": "predominantly",
+    "spanish": "predominantemente",
+    "french": "majoritairement",
     "tier": 5
   },
   "adverbs.offenkundig": {
     "danish": "åbenlyst",
     "german": "offenkundig",
     "english": "evidently",
+    "spanish": "evidentemente",
+    "french": "manifestement",
     "tier": 5
   },
   "adverbs.ausdruecklich": {
     "danish": "udtrykkeligt",
     "german": "ausdrücklich",
     "english": "expressly",
+    "spanish": "expresamente",
+    "french": "expressément",
     "tier": 5
   },
   "adverbs.bekanntlich": {
     "danish": "som bekendt",
     "german": "bekanntlich",
     "english": "as is well known",
+    "spanish": "como es sabido",
+    "french": "comme chacun sait",
     "tier": 5
   },
   "adverbs.gewissermassen": {
     "danish": "så at sige",
     "german": "gewissermaßen",
     "english": "so to speak",
+    "spanish": "por así decirlo",
+    "french": "pour ainsi dire",
     "tier": 5
   }
 }

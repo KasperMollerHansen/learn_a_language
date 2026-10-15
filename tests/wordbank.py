@@ -38,3 +38,15 @@ def level_word_ids(bank: dict[str, Any], level: dict[str, Any]) -> list[str]:
         if word_id.split(".")[0] in level["categories"]
         and (tiers is None or word["tier"] in tiers)
     ]
+
+
+LANGUAGES = ["danish", "german", "english", "spanish", "french"]
+# (source, target) pairs; mirrors modePlayable in src/index.html.
+PAIRS = [(source, target) for source in LANGUAGES for target in LANGUAGES if source != target]
+MODE_PAIRS = {
+    "word": PAIRS,
+    "article": [
+        pair for pair in PAIRS if pair[1] == "german" and pair[0] in {"danish", "english"}
+    ],
+    "sentence": PAIRS,
+}
