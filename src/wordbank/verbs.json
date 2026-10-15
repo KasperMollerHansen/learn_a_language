@@ -3,4242 +3,5656 @@
     "danish": "at være",
     "german": "sein",
     "english": "to be",
+    "spanish": "ser",
+    "french": "être",
     "tier": 1
   },
   "verbs.have": {
     "danish": "at have",
     "german": "haben",
     "english": "to have",
+    "spanish": "tener",
+    "french": "avoir",
     "tier": 1
   },
   "verbs.do": {
     "danish": "at gøre",
     "german": "machen",
     "english": "to do",
+    "spanish": "hacer",
+    "french": "faire",
     "tier": 1
   },
   "verbs.go": {
     "danish": "at gå",
     "german": "gehen",
     "english": "to go",
+    "spanish": "ir",
+    "french": "aller",
     "tier": 1
   },
   "verbs.come": {
     "danish": "at komme",
     "german": "kommen",
     "english": "to come",
+    "spanish": "venir",
+    "french": "venir",
     "tier": 1
   },
   "verbs.see": {
     "danish": "at se",
     "german": "sehen",
     "english": "to see",
+    "spanish": "ver",
+    "french": "voir",
     "tier": 1
   },
   "verbs.hear": {
     "danish": "at høre",
     "german": "hören",
     "english": "to hear",
+    "spanish": "oír",
+    "french": "entendre",
     "tier": 1
   },
   "verbs.speak": {
     "danish": "at tale",
     "german": "sprechen",
     "english": "to speak",
+    "spanish": "hablar",
+    "french": "parler",
     "tier": 1
   },
   "verbs.say": {
     "danish": "at sige",
     "german": "sagen",
     "english": "to say",
+    "spanish": "decir",
+    "french": "dire",
     "tier": 1
   },
   "verbs.eat": {
     "danish": "at spise",
     "german": "essen",
     "english": "to eat",
+    "spanish": "comer",
+    "french": "manger",
     "tier": 1
   },
   "verbs.drink": {
     "danish": "at drikke",
     "german": "trinken",
     "english": "to drink",
+    "spanish": "beber",
+    "french": "boire",
     "tier": 1
   },
   "verbs.sleep": {
     "danish": "at sove",
     "german": "schlafen",
     "english": "to sleep",
+    "spanish": "dormir",
+    "french": "dormir",
     "tier": 1
   },
   "verbs.read": {
     "danish": "at læse",
     "german": "lesen",
     "english": "to read",
+    "spanish": "leer",
+    "french": "lire",
     "tier": 1
   },
   "verbs.write": {
     "danish": "at skrive",
     "german": "schreiben",
     "english": "to write",
+    "spanish": "escribir",
+    "french": "écrire",
     "tier": 1
   },
   "verbs.learn": {
     "danish": "at lære",
     "german": "lernen",
     "english": "to learn",
+    "spanish": "aprender",
+    "french": "apprendre",
     "tier": 1
   },
   "verbs.work": {
     "danish": "at arbejde",
     "german": "arbeiten",
     "english": "to work",
+    "spanish": "trabajar",
+    "french": "travailler",
     "tier": 1
   },
   "verbs.live": {
     "danish": "at bo",
     "german": "wohnen",
     "english": "to live",
+    "spanish": "vivir",
+    "french": "habiter",
     "tier": 1
   },
   "verbs.buy": {
     "danish": "at købe",
     "german": "kaufen",
     "english": "to buy",
+    "spanish": "comprar",
+    "french": "acheter",
     "tier": 1
   },
   "verbs.pay": {
     "danish": "at betale",
     "german": "bezahlen",
     "english": "to pay",
+    "spanish": "pagar",
+    "french": "payer",
     "tier": 1
   },
   "verbs.find": {
     "danish": "at finde",
     "german": "finden",
     "english": "to find",
+    "spanish": "encontrar",
+    "french": "trouver",
     "tier": 1
   },
   "verbs.think": {
     "danish": "at tænke",
     "german": "denken",
     "english": "to think",
+    "spanish": "pensar",
+    "french": "penser",
     "tier": 2
   },
   "verbs.know": {
     "danish": "at vide",
     "german": "wissen",
     "english": "to know",
+    "spanish": "saber",
+    "french": "savoir",
     "tier": 1
   },
   "verbs.understand": {
     "danish": "at forstå",
     "german": "verstehen",
     "english": "to understand",
+    "spanish": "entender",
+    "french": "comprendre",
     "tier": 1
   },
   "verbs.help": {
     "danish": "at hjælpe",
     "german": "helfen",
     "english": "to help",
+    "spanish": "ayudar",
+    "french": "aider",
     "tier": 1
   },
   "verbs.ask": {
     "danish": "at spørge",
     "german": "fragen",
     "english": "to ask",
+    "spanish": "preguntar",
+    "french": "demander",
     "tier": 1
   },
   "verbs.answer": {
     "danish": "at svare",
     "german": "antworten",
     "english": "to answer",
+    "spanish": "responder",
+    "french": "répondre",
     "tier": 1
   },
   "verbs.open": {
     "danish": "at åbne",
     "german": "öffnen",
     "english": "to open",
+    "spanish": "abrir",
+    "french": "ouvrir",
     "tier": 1
   },
   "verbs.close": {
     "danish": "at lukke",
     "german": "schließen",
     "english": "to close",
+    "spanish": "cerrar",
+    "french": "fermer",
     "tier": 2
   },
   "verbs.wait": {
     "danish": "at vente",
     "german": "warten",
     "english": "to wait",
+    "spanish": "esperar",
+    "french": "attendre",
     "tier": 1
   },
   "verbs.walk": {
     "danish": "at gå til fods",
     "german": "zu Fuß gehen",
     "english": "to walk",
+    "spanish": "caminar",
+    "french": "marcher",
     "tier": 1
   },
   "verbs.drive": {
     "danish": "at køre",
     "german": "fahren",
     "english": "to drive",
+    "spanish": "conducir",
+    "french": "conduire",
     "tier": 1
   },
   "verbs.get-up": {
     "danish": "at stå op",
     "german": "aufstehen",
     "english": "to get up",
+    "spanish": "levantarse",
+    "french": "se lever",
     "tier": 1
   },
   "verbs.call": {
     "danish": "at ringe til",
     "german": "anrufen",
     "english": "to call",
+    "spanish": "llamar",
+    "french": "appeler",
     "tier": 1
   },
   "verbs.shop": {
     "danish": "at handle",
     "german": "einkaufen",
     "english": "to shop",
+    "spanish": "ir de compras",
+    "french": "faire les courses",
     "tier": 1
   },
   "verbs.give": {
     "danish": "at give",
     "german": "geben",
     "english": "to give",
+    "spanish": "dar",
+    "french": "donner",
     "tier": 1
   },
   "verbs.take": {
     "danish": "at tage",
     "german": "nehmen",
     "english": "to take",
+    "spanish": "tomar",
+    "french": "prendre",
     "tier": 1
   },
   "verbs.get": {
     "danish": "at få",
     "german": "bekommen",
     "english": "to get",
+    "spanish": "conseguir",
+    "french": "obtenir",
     "tier": 1
   },
   "verbs.become": {
     "danish": "at blive",
     "german": "werden",
     "english": "to become",
+    "spanish": "convertirse",
+    "french": "devenir",
     "tier": 1
   },
   "verbs.stay": {
     "danish": "at forblive",
     "german": "bleiben",
     "english": "to stay",
+    "spanish": "quedarse",
+    "french": "rester",
     "tier": 1
   },
   "verbs.run": {
     "danish": "at løbe",
     "german": "laufen",
     "english": "to run",
+    "spanish": "correr",
+    "french": "courir",
     "tier": 1
   },
   "verbs.stand": {
     "danish": "at stå",
     "german": "stehen",
     "english": "to stand",
+    "spanish": "estar de pie",
+    "french": "se tenir debout",
     "tier": 1
   },
   "verbs.sit": {
     "danish": "at sidde",
     "german": "sitzen",
     "english": "to sit",
+    "spanish": "estar sentado",
+    "french": "être assis",
     "tier": 1
   },
   "verbs.lie": {
     "danish": "at ligge",
     "german": "liegen",
     "english": "to lie",
+    "spanish": "estar tumbado",
+    "french": "être allongé",
     "tier": 1
   },
   "verbs.stay-overnight": {
     "danish": "at overnatte",
     "german": "übernachten",
     "english": "to stay overnight",
+    "spanish": "pasar la noche",
+    "french": "passer la nuit",
     "tier": 2
   },
   "verbs.love": {
     "danish": "at elske",
     "german": "lieben",
     "english": "to love",
+    "spanish": "amar",
+    "french": "aimer",
     "tier": 1
   },
   "verbs.like": {
     "danish": "at kunne lide",
     "german": "mögen",
     "english": "to like",
+    "spanish": "gustar",
+    "french": "aimer bien",
     "tier": 1
   },
   "verbs.want": {
     "danish": "at ville",
     "german": "wollen",
     "english": "to want",
+    "spanish": "querer",
+    "french": "vouloir",
     "tier": 1
   },
   "verbs.be-allowed-to": {
     "danish": "at måtte",
     "german": "dürfen",
     "english": "to be allowed to",
+    "spanish": "poder",
+    "french": "avoir le droit",
     "tier": 1
   },
   "verbs.be-able-to": {
     "danish": "at kunne",
     "german": "können",
     "english": "to be able to",
+    "spanish": "poder",
+    "french": "pouvoir",
     "tier": 1
   },
   "verbs.have-to": {
     "danish": "at skulle",
     "german": "müssen",
     "english": "to have to",
+    "spanish": "tener que",
+    "french": "devoir",
     "tier": 1
   },
   "verbs.be-called": {
     "danish": "at hedde",
     "german": "heißen",
     "english": "to be called",
+    "spanish": "llamarse",
+    "french": "s'appeler",
     "tier": 1
   },
   "verbs.come-along": {
     "danish": "at komme med",
     "german": "mitkommen",
     "english": "to come along",
+    "spanish": "venir con",
+    "french": "venir avec",
     "tier": 1
   },
   "verbs.cook": {
     "danish": "at lave mad",
     "german": "kochen",
     "english": "to cook",
+    "spanish": "cocinar",
+    "french": "cuisiner",
     "tier": 1
   },
   "verbs.bake": {
     "danish": "at bage",
     "german": "backen",
     "english": "to bake",
+    "spanish": "hornear",
+    "french": "cuire au four",
     "tier": 2
   },
   "verbs.play": {
     "danish": "at spille",
     "german": "spielen",
     "english": "to play",
+    "spanish": "jugar",
+    "french": "jouer",
     "tier": 1
   },
   "verbs.fly": {
     "danish": "at flyve",
     "german": "fliegen",
     "english": "to fly",
+    "spanish": "volar",
+    "french": "voler",
     "tier": 1
   },
   "verbs.cycle": {
     "danish": "at cykle",
     "german": "Rad fahren",
     "english": "to cycle",
+    "spanish": "montar en bicicleta",
+    "french": "faire du vélo",
     "tier": 1
   },
   "verbs.depart": {
     "danish": "at tage afsted",
     "german": "abfahren",
     "english": "to depart",
+    "spanish": "partir",
+    "french": "partir",
     "tier": 1
   },
   "verbs.take-along": {
     "danish": "at tage med",
     "german": "mitnehmen",
     "english": "to take along",
+    "spanish": "llevar consigo",
+    "french": "emporter",
     "tier": 1
   },
   "verbs.bring": {
     "danish": "at bringe",
     "german": "bringen",
     "english": "to bring",
+    "spanish": "traer",
+    "french": "apporter",
     "tier": 1
   },
   "verbs.fetch": {
     "danish": "at hente",
     "german": "holen",
     "english": "to fetch",
+    "spanish": "ir a buscar",
+    "french": "aller chercher",
     "tier": 2
   },
   "verbs.put-upright": {
     "danish": "at stille",
     "german": "stellen",
     "english": "to put upright",
+    "spanish": "poner de pie",
+    "french": "mettre debout",
     "tier": 2
   },
   "verbs.lay": {
     "danish": "at lægge",
     "german": "legen",
     "english": "to lay",
+    "spanish": "colocar",
+    "french": "poser",
     "tier": 2
   },
   "verbs.hang": {
     "danish": "at hænge",
     "german": "hängen",
     "english": "to hang",
+    "spanish": "colgar",
+    "french": "pendre",
     "tier": 2
   },
   "verbs.show": {
     "danish": "at vise",
     "german": "zeigen",
     "english": "to show",
+    "spanish": "mostrar",
+    "french": "montrer",
     "tier": 1
   },
   "verbs.look-like": {
     "danish": "at se ud",
     "german": "aussehen",
     "english": "to look like",
+    "spanish": "parecer",
+    "french": "avoir l'air",
     "tier": 2
   },
   "verbs.look-at": {
     "danish": "at se på",
     "german": "ansehen",
     "english": "to look at",
+    "spanish": "mirar",
+    "french": "regarder",
     "tier": 2
   },
   "verbs.look": {
     "danish": "at kigge",
     "german": "schauen",
     "english": "to look",
+    "spanish": "echar un vistazo",
+    "french": "jeter un coup d'œil",
     "tier": 2
   },
   "verbs.watch-television": {
     "danish": "at se fjernsyn",
     "german": "fernsehen",
     "english": "to watch television",
+    "spanish": "ver la televisión",
+    "french": "regarder la télévision",
     "tier": 1
   },
   "verbs.listen": {
     "danish": "at lytte",
     "german": "zuhören",
     "english": "to listen",
+    "spanish": "escuchar",
+    "french": "écouter",
     "tier": 2
   },
   "verbs.name": {
     "danish": "at kalde",
     "german": "nennen",
     "english": "to name",
+    "spanish": "denominar",
+    "french": "nommer",
     "tier": 2
   },
   "verbs.talk": {
     "danish": "at snakke",
     "german": "reden",
     "english": "to talk",
+    "spanish": "conversar",
+    "french": "discuter",
     "tier": 2
   },
   "verbs.tell": {
     "danish": "at fortælle",
     "german": "erzählen",
     "english": "to tell",
+    "spanish": "contar",
+    "french": "raconter",
     "tier": 2
   },
   "verbs.inquire": {
     "danish": "at forhøre sig",
     "german": "nachfragen",
     "english": "to inquire",
+    "spanish": "informarse",
+    "french": "se renseigner",
     "tier": 3
   },
   "verbs.thank": {
     "danish": "at takke",
     "german": "danken",
     "english": "to thank",
+    "spanish": "agradecer",
+    "french": "remercier",
     "tier": 1
   },
   "verbs.greet": {
     "danish": "at hilse",
     "german": "grüßen",
     "english": "to greet",
+    "spanish": "saludar",
+    "french": "saluer",
     "tier": 2
   },
   "verbs.wish": {
     "danish": "at ønske",
     "german": "wünschen",
     "english": "to wish",
+    "spanish": "desear",
+    "french": "souhaiter",
     "tier": 2
   },
   "verbs.hope": {
     "danish": "at håbe",
     "german": "hoffen",
     "english": "to hope",
+    "spanish": "esperar",
+    "french": "espérer",
     "tier": 2
   },
   "verbs.believe": {
     "danish": "at tro",
     "german": "glauben",
     "english": "to believe",
+    "spanish": "creer",
+    "french": "croire",
     "tier": 2
   },
   "verbs.mean": {
     "danish": "at mene",
     "german": "meinen",
     "english": "to mean",
+    "spanish": "opinar",
+    "french": "être d'avis",
     "tier": 2
   },
   "verbs.remember": {
     "danish": "at huske",
     "german": "sich erinnern",
     "english": "to remember",
+    "spanish": "recordar",
+    "french": "se souvenir",
     "tier": 2
   },
   "verbs.forget": {
     "danish": "at glemme",
     "german": "vergessen",
     "english": "to forget",
+    "spanish": "olvidar",
+    "french": "oublier",
     "tier": 1
   },
   "verbs.know-a-person": {
     "danish": "at kende",
     "german": "kennen",
     "english": "to know a person",
+    "spanish": "conocer",
+    "french": "connaître",
     "tier": 1
   },
   "verbs.laugh": {
     "danish": "at le",
     "german": "lachen",
     "english": "to laugh",
+    "spanish": "reír",
+    "french": "rire",
     "tier": 2
   },
   "verbs.cry": {
     "danish": "at græde",
     "german": "weinen",
     "english": "to cry",
+    "spanish": "llorar",
+    "french": "pleurer",
     "tier": 2
   },
   "verbs.smile": {
     "danish": "at smile",
     "german": "lächeln",
     "english": "to smile",
+    "spanish": "sonreír",
+    "french": "sourire",
     "tier": 2
   },
   "verbs.be-glad": {
     "danish": "at glæde sig",
     "german": "sich freuen",
     "english": "to be glad",
+    "spanish": "alegrarse",
+    "french": "se réjouir",
     "tier": 2
   },
   "verbs.take-a-shower": {
     "danish": "at tage brusebad",
     "german": "sich duschen",
     "english": "to take a shower",
+    "spanish": "ducharse",
+    "french": "se doucher",
     "tier": 1
   },
   "verbs.get-dressed": {
     "danish": "at klæde sig på",
     "german": "sich anziehen",
     "english": "to get dressed",
+    "spanish": "vestirse",
+    "french": "s'habiller",
     "tier": 2
   },
   "verbs.get-undressed": {
     "danish": "at klæde sig af",
     "german": "sich ausziehen",
     "english": "to get undressed",
+    "spanish": "desvestirse",
+    "french": "se déshabiller",
     "tier": 2
   },
   "verbs.wash": {
     "danish": "at vaske",
     "german": "waschen",
     "english": "to wash",
+    "spanish": "lavar",
+    "french": "laver",
     "tier": 1
   },
   "verbs.wash-oneself": {
     "danish": "at vaske sig",
     "german": "sich waschen",
     "english": "to wash oneself",
+    "spanish": "lavarse",
+    "french": "se laver",
     "tier": 1
   },
   "verbs.clean": {
     "danish": "at pudse",
     "german": "putzen",
     "english": "to clean",
+    "spanish": "limpiar",
+    "french": "nettoyer",
     "tier": 2
   },
   "verbs.clean-up": {
     "danish": "at gøre rent",
     "german": "saubermachen",
     "english": "to clean up",
+    "spanish": "limpiar a fondo",
+    "french": "faire le ménage",
     "tier": 2
   },
   "verbs.tidy-up": {
     "danish": "at rydde op",
     "german": "aufräumen",
     "english": "to tidy up",
+    "spanish": "ordenar",
+    "french": "ranger",
     "tier": 2
   },
   "verbs.dry-off": {
     "danish": "at tørre af",
     "german": "abtrocknen",
     "english": "to dry off",
+    "spanish": "secar",
+    "french": "essuyer",
     "tier": 2
   },
   "verbs.wash-the-dishes": {
     "danish": "at vaske op",
     "german": "abwaschen",
     "english": "to wash the dishes",
+    "spanish": "fregar los platos",
+    "french": "faire la vaisselle",
     "tier": 2
   },
   "verbs.lock": {
     "danish": "at låse",
     "german": "abschließen",
     "english": "to lock",
+    "spanish": "cerrar con llave",
+    "french": "verrouiller",
     "tier": 2
   },
   "verbs.use": {
     "danish": "at bruge",
     "german": "benutzen",
     "english": "to use",
+    "spanish": "usar",
+    "french": "utiliser",
     "tier": 2
   },
   "verbs.put-on": {
     "danish": "at tage tøj på",
     "german": "anziehen",
     "english": "to put on",
+    "spanish": "ponerse",
+    "french": "mettre",
     "tier": 2
   },
   "verbs.need": {
     "danish": "at have brug for",
     "german": "brauchen",
     "english": "to need",
+    "spanish": "necesitar",
+    "french": "avoir besoin de",
     "tier": 1
   },
   "verbs.cost": {
     "danish": "at koste",
     "german": "kosten",
     "english": "to cost",
+    "spanish": "costar",
+    "french": "coûter",
     "tier": 1
   },
   "verbs.sell": {
     "danish": "at sælge",
     "german": "verkaufen",
     "english": "to sell",
+    "spanish": "vender",
+    "french": "vendre",
     "tier": 1
   },
   "verbs.rent": {
     "danish": "at leje",
     "german": "mieten",
     "english": "to rent",
+    "spanish": "alquilar",
+    "french": "louer",
     "tier": 1
   },
   "verbs.rent-out": {
     "danish": "at udleje",
     "german": "vermieten",
     "english": "to rent out",
+    "spanish": "arrendar",
+    "french": "donner en location",
     "tier": 1
   },
   "verbs.borrow": {
     "danish": "at låne",
     "german": "leihen",
     "english": "to borrow",
+    "spanish": "pedir prestado",
+    "french": "emprunter",
     "tier": 2
   },
   "verbs.save": {
     "danish": "at spare",
     "german": "sparen",
     "english": "to save",
+    "spanish": "ahorrar",
+    "french": "économiser",
     "tier": 2
   },
   "verbs.pay-back": {
     "danish": "at betale tilbage",
     "german": "zurückzahlen",
     "english": "to pay back",
+    "spanish": "devolver el dinero",
+    "french": "rembourser",
     "tier": 3
   },
   "verbs.lie-down": {
     "danish": "at lægge sig ned",
     "german": "sich hinlegen",
     "english": "to lie down",
+    "spanish": "acostarse",
+    "french": "s'allonger",
     "tier": 2
   },
   "verbs.sit-down": {
     "danish": "at sætte sig",
     "german": "sich setzen",
     "english": "to sit down",
+    "spanish": "sentarse",
+    "french": "s'asseoir",
     "tier": 2
   },
   "verbs.begin": {
     "danish": "at starte",
     "german": "anfangen",
     "english": "to begin",
+    "spanish": "empezar",
+    "french": "commencer",
     "tier": 1
   },
   "verbs.stop": {
     "danish": "at holde op",
     "german": "aufhören",
     "english": "to stop",
+    "spanish": "parar",
+    "french": "arrêter",
     "tier": 2
   },
   "verbs.try": {
     "danish": "at prøve",
     "german": "versuchen",
     "english": "to try",
+    "spanish": "intentar",
+    "french": "essayer",
     "tier": 2
   },
   "verbs.paint": {
     "danish": "at male",
     "german": "malen",
     "english": "to paint",
+    "spanish": "pintar",
+    "french": "peindre",
     "tier": 2
   },
   "verbs.write-down": {
     "danish": "at skrive ned",
     "german": "aufschreiben",
     "english": "to write down",
+    "spanish": "anotar",
+    "french": "noter",
     "tier": 2
   },
   "verbs.phone": {
     "danish": "at ringe",
     "german": "telefonieren",
     "english": "to phone",
+    "spanish": "telefonear",
+    "french": "téléphoner",
     "tier": 1
   },
   "verbs.visit": {
     "danish": "at besøge",
     "german": "besuchen",
     "english": "to visit",
+    "spanish": "visitar",
+    "french": "rendre visite",
     "tier": 1
   },
   "verbs.meet": {
     "danish": "at møde",
     "german": "treffen",
     "english": "to meet",
+    "spanish": "encontrarse",
+    "french": "rencontrer",
     "tier": 1
   },
   "verbs.invite": {
     "danish": "at invitere",
     "german": "einladen",
     "english": "to invite",
+    "spanish": "invitar",
+    "french": "inviter",
     "tier": 1
   },
   "verbs.celebrate": {
     "danish": "at fejre",
     "german": "feiern",
     "english": "to celebrate",
+    "spanish": "celebrar",
+    "french": "fêter",
     "tier": 1
   },
   "verbs.go-out": {
     "danish": "at gå ud",
     "german": "ausgehen",
     "english": "to go out",
+    "spanish": "salir",
+    "french": "sortir",
     "tier": 2
   },
   "verbs.go-in": {
     "danish": "at gå ind",
     "german": "hineingehen",
     "english": "to go in",
+    "spanish": "entrar",
+    "french": "pénétrer",
     "tier": 2
   },
   "verbs.go-home": {
     "danish": "at gå hjem",
     "german": "nach Hause gehen",
     "english": "to go home",
+    "spanish": "ir a casa",
+    "french": "rentrer chez soi",
     "tier": 2
   },
   "verbs.follow": {
     "danish": "at følge",
     "german": "folgen",
     "english": "to follow",
+    "spanish": "seguir",
+    "french": "suivre",
     "tier": 2
   },
   "verbs.come-back": {
     "danish": "at vende tilbage",
     "german": "zurückkommen",
     "english": "to come back",
+    "spanish": "volver",
+    "french": "revenir",
     "tier": 2
   },
   "verbs.expect": {
     "danish": "at forvente",
     "german": "erwarten",
     "english": "to expect",
+    "spanish": "contar con",
+    "french": "s'attendre à",
     "tier": 3
   },
   "verbs.fall": {
     "danish": "at falde",
     "german": "fallen",
     "english": "to fall",
+    "spanish": "caer",
+    "french": "tomber",
     "tier": 2
   },
   "verbs.wake-up": {
     "danish": "at vågne",
     "german": "aufwachen",
     "english": "to wake up",
+    "spanish": "despertarse",
+    "french": "se réveiller",
     "tier": 2
   },
   "verbs.wake-someone": {
     "danish": "at vække",
     "german": "wecken",
     "english": "to wake someone",
+    "spanish": "despertar",
+    "french": "réveiller",
     "tier": 2
   },
   "verbs.sleep-in": {
     "danish": "at sove længe",
     "german": "ausschlafen",
     "english": "to sleep in",
+    "spanish": "dormir hasta tarde",
+    "french": "faire la grasse matinée",
     "tier": 2
   },
   "verbs.fall-asleep": {
     "danish": "at falde i søvn",
     "german": "einschlafen",
     "english": "to fall asleep",
+    "spanish": "dormirse",
+    "french": "s'endormir",
     "tier": 2
   },
   "verbs.relax": {
     "danish": "at slappe af",
     "german": "sich entspannen",
     "english": "to relax",
+    "spanish": "relajarse",
+    "french": "se détendre",
     "tier": 3
   },
   "verbs.rest": {
     "danish": "at hvile sig",
     "german": "sich ausruhen",
     "english": "to rest",
+    "spanish": "descansar",
+    "french": "se reposer",
     "tier": 2
   },
   "verbs.be-bored": {
     "danish": "at kede sig",
     "german": "sich langweilen",
     "english": "to be bored",
+    "spanish": "aburrirse",
+    "french": "s'ennuyer",
     "tier": 2
   },
   "verbs.hurry": {
     "danish": "at skynde sig",
     "german": "sich beeilen",
     "english": "to hurry",
+    "spanish": "darse prisa",
+    "french": "se dépêcher",
     "tier": 2
   },
   "verbs.shave": {
     "danish": "at barbere sig",
     "german": "sich rasieren",
     "english": "to shave",
+    "spanish": "afeitarse",
+    "french": "se raser",
     "tier": 2
   },
   "verbs.comb-one-s-hair": {
     "danish": "at rede sit hår",
     "german": "sich kämmen",
     "english": "to comb one's hair",
+    "spanish": "peinarse",
+    "french": "se peigner",
     "tier": 2
   },
   "verbs.cut": {
     "danish": "at skære",
     "german": "schneiden",
     "english": "to cut",
+    "spanish": "cortar",
+    "french": "couper",
     "tier": 2
   },
   "verbs.pour": {
     "danish": "at hælde",
     "german": "gießen",
     "english": "to pour",
+    "spanish": "verter",
+    "french": "verser",
     "tier": 3
   },
   "verbs.fill": {
     "danish": "at fylde",
     "german": "füllen",
     "english": "to fill",
+    "spanish": "llenar",
+    "french": "remplir",
     "tier": 3
   },
   "verbs.empty": {
     "danish": "at tømme",
     "german": "leeren",
     "english": "to empty",
+    "spanish": "vaciar",
+    "french": "vider",
     "tier": 4
   },
   "verbs.stir": {
     "danish": "at røre",
     "german": "rühren",
     "english": "to stir",
+    "spanish": "remover",
+    "french": "remuer",
     "tier": 4
   },
   "verbs.fry": {
     "danish": "at stege",
     "german": "braten",
     "english": "to fry",
+    "spanish": "freír",
+    "french": "faire revenir",
     "tier": 2
   },
   "verbs.taste": {
     "danish": "at smage",
     "german": "schmecken",
     "english": "to taste",
+    "spanish": "tener sabor",
+    "french": "goûter",
     "tier": 1
   },
   "verbs.smell": {
     "danish": "at lugte",
     "german": "riechen",
     "english": "to smell",
+    "spanish": "oler",
+    "french": "sentir",
     "tier": 2
   },
   "verbs.touch": {
     "danish": "at røre ved",
     "german": "berühren",
     "english": "to touch",
+    "spanish": "tocar",
+    "french": "toucher",
     "tier": 3
   },
   "verbs.feel": {
     "danish": "at føle",
     "german": "fühlen",
     "english": "to feel",
+    "spanish": "sentir",
+    "french": "ressentir",
     "tier": 2
   },
   "verbs.sense": {
     "danish": "at mærke",
     "german": "spüren",
     "english": "to sense",
+    "spanish": "notar",
+    "french": "éprouver",
     "tier": 3
   },
   "verbs.prefer": {
     "danish": "at foretrække",
     "german": "bevorzugen",
     "english": "to prefer",
+    "spanish": "preferir",
+    "french": "préférer",
     "tier": 3
   },
   "verbs.decide": {
     "danish": "at beslutte",
     "german": "beschließen",
     "english": "to decide",
+    "spanish": "decidir",
+    "french": "décider",
     "tier": 3
   },
   "verbs.choose": {
     "danish": "at vælge",
     "german": "wählen",
     "english": "to choose",
+    "spanish": "elegir",
+    "french": "choisir",
     "tier": 2
   },
   "verbs.select": {
     "danish": "at udvælge",
     "german": "auswählen",
     "english": "to select",
+    "spanish": "seleccionar",
+    "french": "sélectionner",
     "tier": 3
   },
   "verbs.prepare": {
     "danish": "at forberede",
     "german": "vorbereiten",
     "english": "to prepare",
+    "spanish": "preparar",
+    "french": "préparer",
     "tier": 2
   },
   "verbs.arrange": {
     "danish": "at aftale",
     "german": "vereinbaren",
     "english": "to arrange",
+    "spanish": "acordar",
+    "french": "convenir de",
     "tier": 2
   },
   "verbs.register": {
     "danish": "at melde sig til",
     "german": "anmelden",
     "english": "to register",
+    "spanish": "inscribirse",
+    "french": "s'inscrire",
     "tier": 2
   },
   "verbs.deregister": {
     "danish": "at melde sig fra",
     "german": "abmelden",
     "english": "to deregister",
+    "spanish": "darse de baja",
+    "french": "se désinscrire",
     "tier": 2
   },
   "verbs.fill-in": {
     "danish": "at udfylde",
     "german": "ausfüllen",
     "english": "to fill in",
+    "spanish": "rellenar",
+    "french": "remplir",
     "tier": 1
   },
   "verbs.sign": {
     "danish": "at underskrive",
     "german": "unterschreiben",
     "english": "to sign",
+    "spanish": "firmar",
+    "french": "signer",
     "tier": 2
   },
   "verbs.send": {
     "danish": "at sende",
     "german": "schicken",
     "english": "to send",
+    "spanish": "enviar",
+    "french": "envoyer",
     "tier": 1
   },
   "verbs.receive": {
     "danish": "at modtage",
     "german": "empfangen",
     "english": "to receive",
+    "spanish": "recibir",
+    "french": "recevoir",
     "tier": 3
   },
   "verbs.write-back": {
     "danish": "at skrive tilbage",
     "german": "zurückschreiben",
     "english": "to write back",
+    "spanish": "contestar por escrito",
+    "french": "répondre par écrit",
     "tier": 2
   },
   "verbs.write-to": {
     "danish": "at skrive til",
     "german": "anschreiben",
     "english": "to write to",
+    "spanish": "escribir a",
+    "french": "écrire à",
     "tier": 4
   },
   "verbs.dispatch": {
     "danish": "at sende afsted",
     "german": "absenden",
     "english": "to dispatch",
+    "spanish": "despachar",
+    "french": "expédier",
     "tier": 3
   },
   "verbs.wrap": {
     "danish": "at pakke ind",
     "german": "einpacken",
     "english": "to wrap",
+    "spanish": "envolver",
+    "french": "emballer",
     "tier": 2
   },
   "verbs.move-house": {
     "danish": "at flytte",
     "german": "umziehen",
     "english": "to move house",
+    "spanish": "mudarse",
+    "french": "déménager",
     "tier": 2
   },
   "verbs.move-in": {
     "danish": "at flytte ind",
     "german": "einziehen",
     "english": "to move in",
+    "spanish": "instalarse",
+    "french": "emménager",
     "tier": 2
   },
   "verbs.move-out": {
     "danish": "at flytte ud",
     "german": "ausziehen",
     "english": "to move out",
+    "spanish": "dejar la vivienda",
+    "french": "quitter son logement",
     "tier": 2
   },
   "verbs.build": {
     "danish": "at bygge",
     "german": "bauen",
     "english": "to build",
+    "spanish": "construir",
+    "french": "construire",
     "tier": 2
   },
   "verbs.repair": {
     "danish": "at reparere",
     "german": "reparieren",
     "english": "to repair",
+    "spanish": "reparar",
+    "french": "réparer",
     "tier": 2
   },
   "verbs.destroy": {
     "danish": "at ødelægge",
     "german": "zerstören",
     "english": "to destroy",
+    "spanish": "destruir",
+    "french": "détruire",
     "tier": 3
   },
   "verbs.break-down": {
     "danish": "at gå i stykker",
     "german": "kaputtgehen",
     "english": "to break down",
+    "spanish": "estropearse",
+    "french": "tomber en panne",
     "tier": 2
   },
   "verbs.break": {
     "danish": "at bryde",
     "german": "brechen",
     "english": "to break",
+    "spanish": "romper",
+    "french": "casser",
     "tier": 3
   },
   "verbs.throw": {
     "danish": "at smide",
     "german": "werfen",
     "english": "to throw",
+    "spanish": "lanzar",
+    "french": "lancer",
     "tier": 3
   },
   "verbs.catch": {
     "danish": "at fange",
     "german": "fangen",
     "english": "to catch",
+    "spanish": "atrapar",
+    "french": "attraper",
     "tier": 3
   },
   "verbs.hold": {
     "danish": "at holde",
     "german": "halten",
     "english": "to hold",
+    "spanish": "sostener",
+    "french": "tenir",
     "tier": 2
   },
   "verbs.carry": {
     "danish": "at bære",
     "german": "tragen",
     "english": "to carry",
+    "spanish": "cargar",
+    "french": "porter",
     "tier": 2
   },
   "verbs.pull": {
     "danish": "at trække",
     "german": "ziehen",
     "english": "to pull",
+    "spanish": "tirar de",
+    "french": "tirer",
     "tier": 3
   },
   "verbs.push": {
     "danish": "at skubbe",
     "german": "schieben",
     "english": "to push",
+    "spanish": "empujar",
+    "french": "pousser",
     "tier": 3
   },
   "verbs.turn": {
     "danish": "at dreje",
     "german": "drehen",
     "english": "to turn",
+    "spanish": "girar",
+    "french": "tourner",
     "tier": 3
   },
   "verbs.flip": {
     "danish": "at vende",
     "german": "wenden",
     "english": "to flip",
+    "spanish": "dar la vuelta",
+    "french": "retourner",
     "tier": 4
   },
   "verbs.move": {
     "danish": "at bevæge",
     "german": "bewegen",
     "english": "to move",
+    "spanish": "mover",
+    "french": "bouger",
     "tier": 3
   },
   "verbs.halt": {
     "danish": "at standse",
     "german": "anhalten",
     "english": "to halt",
+    "spanish": "detener",
+    "french": "s'arrêter",
     "tier": 3
   },
   "verbs.park": {
     "danish": "at parkere",
     "german": "parken",
     "english": "to park",
+    "spanish": "aparcar",
+    "french": "garer",
     "tier": 2
   },
   "verbs.refuel": {
     "danish": "at tanke",
     "german": "tanken",
     "english": "to refuel",
+    "spanish": "repostar",
+    "french": "faire le plein",
     "tier": 2
   },
   "verbs.change": {
     "danish": "at skifte",
     "german": "wechseln",
     "english": "to change",
+    "spanish": "cambiar",
+    "french": "changer",
     "tier": 2
   },
   "verbs.board": {
     "danish": "at stige på",
     "german": "einsteigen",
     "english": "to board",
+    "spanish": "montarse",
+    "french": "monter dans",
     "tier": 1
   },
   "verbs.get-off": {
     "danish": "at stige af",
     "german": "aussteigen",
     "english": "to get off",
+    "spanish": "bajarse",
+    "french": "descendre",
     "tier": 1
   },
   "verbs.ascend": {
     "danish": "at stige op",
     "german": "aufsteigen",
     "english": "to ascend",
+    "spanish": "ascender",
+    "french": "gravir",
     "tier": 4
   },
   "verbs.go-down": {
     "danish": "at gå ned",
     "german": "hinuntergehen",
     "english": "to go down",
+    "spanish": "bajar",
+    "french": "aller en bas",
     "tier": 3
   },
   "verbs.go-up": {
     "danish": "at gå op",
     "german": "hinaufgehen",
     "english": "to go up",
+    "spanish": "subir",
+    "french": "monter",
     "tier": 3
   },
   "verbs.walk-past": {
     "danish": "at gå forbi",
     "german": "vorbeigehen",
     "english": "to walk past",
+    "spanish": "pasar por delante",
+    "french": "passer devant",
     "tier": 3
   },
   "verbs.go-away": {
     "danish": "at gå væk",
     "german": "weggehen",
     "english": "to go away",
+    "spanish": "irse",
+    "french": "s'en aller",
     "tier": 2
   },
   "verbs.come-again": {
     "danish": "at komme igen",
     "german": "wiederkommen",
     "english": "to come again",
+    "spanish": "volver otra vez",
+    "french": "revenir une autre fois",
     "tier": 2
   },
   "verbs.drop-by": {
     "danish": "at komme forbi",
     "german": "vorbeikommen",
     "english": "to drop by",
+    "spanish": "pasarse",
+    "french": "passer voir",
     "tier": 2
   },
   "verbs.come-in": {
     "danish": "at komme ind",
     "german": "hereinkommen",
     "english": "to come in",
+    "spanish": "pasar",
+    "french": "entrer",
     "tier": 2
   },
   "verbs.come-out": {
     "danish": "at komme ud",
     "german": "herauskommen",
     "english": "to come out",
+    "spanish": "salir",
+    "french": "sortir",
     "tier": 3
   },
   "verbs.enter-a-country": {
     "danish": "at rejse ind",
     "german": "einreisen",
     "english": "to enter a country",
+    "spanish": "entrar en el país",
+    "french": "entrer dans le pays",
     "tier": 3
   },
   "verbs.leave-a-country": {
     "danish": "at rejse ud",
     "german": "ausreisen",
     "english": "to leave a country",
+    "spanish": "salir del país",
+    "french": "quitter le pays",
     "tier": 3
   },
   "verbs.leave": {
     "danish": "at forlade",
     "german": "verlassen",
     "english": "to leave",
+    "spanish": "abandonar",
+    "french": "quitter",
     "tier": 3
   },
   "verbs.run-away": {
     "danish": "at løbe væk",
     "german": "weglaufen",
     "english": "to run away",
+    "spanish": "escaparse",
+    "french": "s'enfuir",
     "tier": 3
   },
   "verbs.flee": {
     "danish": "at flygte",
     "german": "fliehen",
     "english": "to flee",
+    "spanish": "huir",
+    "french": "fuir",
     "tier": 4
   },
   "verbs.jump": {
     "danish": "at springe",
     "german": "springen",
     "english": "to jump",
+    "spanish": "saltar",
+    "french": "sauter",
     "tier": 3
   },
   "verbs.stroll": {
     "danish": "at spadsere",
     "german": "spazieren",
     "english": "to stroll",
+    "spanish": "pasear",
+    "french": "se promener",
     "tier": 2
   },
   "verbs.drown": {
     "danish": "at drukne",
     "german": "ertrinken",
     "english": "to drown",
+    "spanish": "ahogarse",
+    "french": "se noyer",
     "tier": 4
   },
   "verbs.sink": {
     "danish": "at synke",
     "german": "sinken",
     "english": "to sink",
+    "spanish": "hundirse",
+    "french": "couler",
     "tier": 4
   },
   "verbs.land": {
     "danish": "at lande",
     "german": "landen",
     "english": "to land",
+    "spanish": "aterrizar",
+    "french": "atterrir",
     "tier": 2
   },
   "verbs.take-off": {
     "danish": "at lette",
     "german": "abheben",
     "english": "to take off",
+    "spanish": "despegar",
+    "french": "décoller",
     "tier": 3
   },
   "verbs.lack": {
     "danish": "at mangle",
     "german": "fehlen",
     "english": "to lack",
+    "spanish": "faltar",
+    "french": "manquer",
     "tier": 2
   },
   "verbs.fit": {
     "danish": "at passe",
     "german": "passen",
     "english": "to fit",
+    "spanish": "encajar",
+    "french": "convenir",
     "tier": 2
   },
   "verbs.suffice": {
     "danish": "at være nok",
     "german": "genügen",
     "english": "to suffice",
+    "spanish": "bastar",
+    "french": "suffire",
     "tier": 4
   },
   "verbs.happen": {
     "danish": "at ske",
     "german": "geschehen",
     "english": "to happen",
+    "spanish": "suceder",
+    "french": "arriver",
     "tier": 3
   },
   "verbs.occur": {
     "danish": "at hænde",
     "german": "passieren",
     "english": "to occur",
+    "spanish": "ocurrir",
+    "french": "se produire",
     "tier": 2
   },
   "verbs.take-place": {
     "danish": "at foregå",
     "german": "stattfinden",
     "english": "to take place",
+    "spanish": "tener lugar",
+    "french": "avoir lieu",
     "tier": 2
   },
   "verbs.appear": {
     "danish": "at vise sig",
     "german": "sich zeigen",
     "english": "to appear",
+    "spanish": "mostrarse",
+    "french": "se montrer",
     "tier": 4
   },
   "verbs.turn-up": {
     "danish": "at dukke op",
     "german": "auftauchen",
     "english": "to turn up",
+    "spanish": "aparecer",
+    "french": "apparaître",
     "tier": 4
   },
   "verbs.disappear": {
     "danish": "at forsvinde",
     "german": "verschwinden",
     "english": "to disappear",
+    "spanish": "desaparecer",
+    "french": "disparaître",
     "tier": 3
   },
   "verbs.fail-to-appear": {
     "danish": "at blive væk",
     "german": "ausbleiben",
     "english": "to fail to appear",
+    "spanish": "no aparecer",
+    "french": "ne pas se présenter",
     "tier": 4
   },
   "verbs.cultivate": {
     "danish": "at dyrke",
     "german": "anbauen",
     "english": "to cultivate",
+    "spanish": "cultivar",
+    "french": "cultiver",
     "tier": 4
   },
   "verbs.wilt": {
     "danish": "at visne",
     "german": "verwelken",
     "english": "to wilt",
+    "spanish": "marchitarse",
+    "french": "se faner",
     "tier": 4
   },
   "verbs.mow": {
     "danish": "at slå græs",
     "german": "mähen",
     "english": "to mow",
+    "spanish": "segar",
+    "french": "tondre",
     "tier": 4
   },
   "verbs.sweep": {
     "danish": "at feje",
     "german": "fegen",
     "english": "to sweep",
+    "spanish": "barrer",
+    "french": "balayer",
     "tier": 4
   },
   "verbs.vacuum": {
     "danish": "at støvsuge",
     "german": "staubsaugen",
     "english": "to vacuum",
+    "spanish": "pasar la aspiradora",
+    "french": "passer l'aspirateur",
     "tier": 2
   },
   "verbs.dust": {
     "danish": "at tørre støv af",
     "german": "abstauben",
     "english": "to dust",
+    "spanish": "quitar el polvo",
+    "french": "épousseter",
     "tier": 4
   },
   "verbs.hang-up": {
     "danish": "at hænge op",
     "german": "aufhängen",
     "english": "to hang up",
+    "spanish": "colgar",
+    "french": "accrocher",
     "tier": 2
   },
   "verbs.throw-away": {
     "danish": "at smide ud",
     "german": "wegwerfen",
     "english": "to throw away",
+    "spanish": "tirar a la basura",
+    "french": "jeter",
     "tier": 2
   },
   "verbs.sort": {
     "danish": "at sortere",
     "german": "sortieren",
     "english": "to sort",
+    "spanish": "clasificar",
+    "french": "trier",
     "tier": 3
   },
   "verbs.recycle": {
     "danish": "at genbruge",
     "german": "recyceln",
     "english": "to recycle",
+    "spanish": "reciclar",
+    "french": "recycler",
     "tier": 3
   },
   "verbs.save-up": {
     "danish": "at spare op",
     "german": "ansparen",
     "english": "to save up",
+    "spanish": "ahorrar poco a poco",
+    "french": "épargner",
     "tier": 4
   },
   "verbs.invest": {
     "danish": "at investere",
     "german": "investieren",
     "english": "to invest",
+    "spanish": "invertir",
+    "french": "investir",
     "tier": 4
   },
   "verbs.spend": {
     "danish": "at bruge penge",
     "german": "ausgeben",
     "english": "to spend",
+    "spanish": "gastar",
+    "french": "dépenser",
     "tier": 2
   },
   "verbs.exchange": {
     "danish": "at veksle penge",
     "german": "Geld wechseln",
     "english": "to exchange money",
+    "spanish": "cambiar dinero",
+    "french": "changer de l'argent",
     "tier": 2
   },
   "verbs.deposit": {
     "danish": "at indbetale",
     "german": "einzahlen",
     "english": "to deposit",
+    "spanish": "ingresar",
+    "french": "déposer",
     "tier": 3
   },
   "verbs.transfer": {
     "danish": "at overføre",
     "german": "überweisen",
     "english": "to transfer",
+    "spanish": "transferir",
+    "french": "virer",
     "tier": 2
   },
   "verbs.work-out": {
     "danish": "at regne ud",
     "german": "ausrechnen",
     "english": "to work out",
+    "spanish": "calcular",
+    "french": "calculer",
     "tier": 3
   },
   "verbs.measure": {
     "danish": "at måle",
     "german": "messen",
     "english": "to measure",
+    "spanish": "medir",
+    "french": "mesurer",
     "tier": 3
   },
   "verbs.weigh": {
     "danish": "at veje",
     "german": "wiegen",
     "english": "to weigh",
+    "spanish": "pesar",
+    "french": "peser",
     "tier": 2
   },
   "verbs.check": {
     "danish": "at kontrollere",
     "german": "kontrollieren",
     "english": "to check",
+    "spanish": "revisar",
+    "french": "contrôler",
     "tier": 2
   },
   "verbs.verify": {
     "danish": "at tjekke",
     "german": "überprüfen",
     "english": "to verify",
+    "spanish": "comprobar",
+    "french": "vérifier",
     "tier": 3
   },
   "verbs.search": {
     "danish": "at lede efter",
     "german": "suchen",
     "english": "to search",
+    "spanish": "buscar",
+    "french": "chercher",
     "tier": 1
   },
   "verbs.develop": {
     "danish": "at udvikle",
     "german": "entwickeln",
     "english": "to develop",
+    "spanish": "desarrollar",
+    "french": "développer",
     "tier": 3
   },
   "verbs.make": {
     "danish": "at skabe",
     "german": "schaffen",
     "english": "to create",
+    "spanish": "crear",
+    "french": "créer",
     "tier": 2
   },
   "verbs.produce": {
     "danish": "at fremstille",
     "german": "herstellen",
     "english": "to produce",
+    "spanish": "fabricar",
+    "french": "fabriquer",
     "tier": 3
   },
   "verbs.replace": {
     "danish": "at erstatte",
     "german": "ersetzen",
     "english": "to replace",
+    "spanish": "sustituir",
+    "french": "remplacer",
     "tier": 4
   },
   "verbs.add": {
     "danish": "at tilføje",
     "german": "hinzufügen",
     "english": "to add",
+    "spanish": "añadir",
+    "french": "ajouter",
     "tier": 3
   },
   "verbs.remove": {
     "danish": "at fjerne",
     "german": "entfernen",
     "english": "to remove",
+    "spanish": "quitar",
+    "french": "enlever",
     "tier": 3
   },
   "verbs.download": {
     "danish": "at hente ned",
     "german": "herunterladen",
     "english": "to download",
+    "spanish": "descargar",
+    "french": "télécharger",
     "tier": 2
   },
   "verbs.print": {
     "danish": "at skrive ud",
     "german": "ausdrucken",
     "english": "to print",
+    "spanish": "imprimir",
+    "french": "imprimer",
     "tier": 2
   },
   "verbs.log-in": {
     "danish": "at logge ind",
     "german": "einloggen",
     "english": "to log in",
+    "spanish": "iniciar sesión",
+    "french": "se connecter",
     "tier": 2
   },
   "verbs.restart": {
     "danish": "at genstarte",
     "german": "neustarten",
     "english": "to restart",
+    "spanish": "reiniciar",
+    "french": "redémarrer",
     "tier": 3
   },
   "verbs.plug-in": {
     "danish": "at tilslutte",
     "german": "anschließen",
     "english": "to plug in",
+    "spanish": "conectar",
+    "french": "brancher",
     "tier": 3
   },
   "verbs.email": {
     "danish": "at maile",
     "german": "mailen",
     "english": "to email",
+    "spanish": "enviar un correo",
+    "french": "envoyer un mail",
     "tier": 2
   },
   "verbs.text": {
     "danish": "at skrive sms",
     "german": "simsen",
     "english": "to text",
+    "spanish": "enviar un mensaje",
+    "french": "envoyer un texto",
     "tier": 4
   },
   "verbs.post": {
     "danish": "at poste",
     "german": "posten",
     "english": "to post",
+    "spanish": "publicar",
+    "french": "poster",
     "tier": 3
   },
   "verbs.report": {
     "danish": "at berette",
     "german": "berichten",
     "english": "to report",
+    "spanish": "dar cuenta de",
+    "french": "relater",
     "tier": 3
   },
   "verbs.mention": {
     "danish": "at nævne",
     "german": "erwähnen",
     "english": "to mention",
+    "spanish": "mencionar",
+    "french": "mentionner",
     "tier": 4
   },
   "verbs.suggest": {
     "danish": "at foreslå",
     "german": "vorschlagen",
     "english": "to suggest",
+    "spanish": "sugerir",
+    "french": "suggérer",
     "tier": 3
   },
   "verbs.recommend": {
     "danish": "at anbefale",
     "german": "empfehlen",
     "english": "to recommend",
+    "spanish": "recomendar",
+    "french": "recommander",
     "tier": 2
   },
   "verbs.advise": {
     "danish": "at råde",
     "german": "raten",
     "english": "to advise",
+    "spanish": "aconsejar",
+    "french": "conseiller",
     "tier": 3
   },
   "verbs.warn": {
     "danish": "at advare",
     "german": "warnen",
     "english": "to warn",
+    "spanish": "advertir",
+    "french": "avertir",
     "tier": 3
   },
   "verbs.promise": {
     "danish": "at love",
     "german": "versprechen",
     "english": "to promise",
+    "spanish": "prometer",
+    "french": "promettre",
     "tier": 3
   },
   "verbs.threaten": {
     "danish": "at true",
     "german": "drohen",
     "english": "to threaten",
+    "spanish": "amenazar",
+    "french": "menacer",
     "tier": 4
   },
   "verbs.claim": {
     "danish": "at påstå",
     "german": "behaupten",
     "english": "to claim",
+    "spanish": "afirmar",
+    "french": "prétendre",
     "tier": 4
   },
   "verbs.argue": {
     "danish": "at skændes",
     "german": "streiten",
     "english": "to argue",
+    "spanish": "discutir",
+    "french": "se disputer",
     "tier": 3
   },
   "verbs.shout": {
     "danish": "at råbe",
     "german": "rufen",
     "english": "to shout",
+    "spanish": "gritar",
+    "french": "crier",
     "tier": 2
   },
   "verbs.scream": {
     "danish": "at skrige",
     "german": "schreien",
     "english": "to scream",
+    "spanish": "chillar",
+    "french": "hurler",
     "tier": 3
   },
   "verbs.whisper": {
     "danish": "at hviske",
     "german": "flüstern",
     "english": "to whisper",
+    "spanish": "susurrar",
+    "french": "chuchoter",
     "tier": 4
   },
   "verbs.chat": {
     "danish": "at sludre",
     "german": "plaudern",
     "english": "to chat",
+    "spanish": "charlar",
+    "french": "bavarder",
     "tier": 4
   },
   "verbs.criticise": {
     "danish": "at kritisere",
     "german": "kritisieren",
     "english": "to criticise",
+    "spanish": "criticar",
+    "french": "critiquer",
     "tier": 3
   },
   "verbs.praise": {
     "danish": "at rose",
     "german": "loben",
     "english": "to praise",
+    "spanish": "elogiar",
+    "french": "complimenter",
     "tier": 3
   },
   "verbs.reproach": {
     "danish": "at bebrejde",
     "german": "vorwerfen",
     "english": "to reproach",
+    "spanish": "reprochar",
+    "french": "reprocher",
     "tier": 4
   },
   "verbs.accuse": {
     "danish": "at beskylde",
     "german": "beschuldigen",
     "english": "to accuse",
+    "spanish": "acusar",
+    "french": "accuser",
     "tier": 4
   },
   "verbs.forgive": {
     "danish": "at tilgive",
     "german": "verzeihen",
     "english": "to forgive",
+    "spanish": "perdonar",
+    "french": "pardonner",
     "tier": 3
   },
   "verbs.regret": {
     "danish": "at beklage",
     "german": "bedauern",
     "english": "to regret",
+    "spanish": "lamentar",
+    "french": "regretter",
     "tier": 4
   },
   "verbs.admit": {
     "danish": "at indrømme",
     "german": "zugeben",
     "english": "to admit",
+    "spanish": "admitir",
+    "french": "admettre",
     "tier": 4
   },
   "verbs.deny": {
     "danish": "at benægte",
     "german": "leugnen",
     "english": "to deny",
+    "spanish": "negar",
+    "french": "nier",
     "tier": 4
   },
   "verbs.cheat": {
     "danish": "at bedrage",
     "german": "betrügen",
     "english": "to cheat",
+    "spanish": "engañar",
+    "french": "tromper",
     "tier": 4
   },
   "verbs.steal": {
     "danish": "at stjæle",
     "german": "stehlen",
     "english": "to steal",
+    "spanish": "robar",
+    "french": "voler",
     "tier": 3
   },
   "verbs.rob": {
     "danish": "at røve",
     "german": "rauben",
     "english": "to rob",
+    "spanish": "atracar",
+    "french": "dévaliser",
     "tier": 4
   },
   "verbs.punish": {
     "danish": "at straffe",
     "german": "bestrafen",
     "english": "to punish",
+    "spanish": "castigar",
+    "french": "punir",
     "tier": 4
   },
   "verbs.allow": {
     "danish": "at tillade",
     "german": "erlauben",
     "english": "to allow",
+    "spanish": "permitir",
+    "french": "permettre",
     "tier": 2
   },
   "verbs.forbid": {
     "danish": "at forbyde",
     "german": "verbieten",
     "english": "to forbid",
+    "spanish": "prohibir",
+    "french": "interdire",
     "tier": 2
   },
   "verbs.prevent": {
     "danish": "at hindre",
     "german": "verhindern",
     "english": "to prevent",
+    "spanish": "impedir",
+    "french": "empêcher",
     "tier": 3
   },
   "verbs.force": {
     "danish": "at tvinge",
     "german": "zwingen",
     "english": "to force",
+    "spanish": "obligar",
+    "french": "forcer",
     "tier": 4
   },
   "verbs.ask-for": {
     "danish": "at bede",
     "german": "bitten",
     "english": "to ask for",
+    "spanish": "pedir",
+    "french": "demander",
     "tier": 2
   },
   "verbs.demand": {
     "danish": "at kræve",
     "german": "verlangen",
     "english": "to demand",
+    "spanish": "exigir",
+    "french": "exiger",
     "tier": 3
   },
   "verbs.offer": {
     "danish": "at tilbyde",
     "german": "anbieten",
     "english": "to offer",
+    "spanish": "ofrecer",
+    "french": "proposer",
     "tier": 2
   },
   "verbs.accept": {
     "danish": "at acceptere",
     "german": "akzeptieren",
     "english": "to accept",
+    "spanish": "aceptar",
+    "french": "accepter",
     "tier": 3
   },
   "verbs.accept-an-invitation": {
     "danish": "at takke ja",
     "german": "zusagen",
     "english": "to accept an invitation",
+    "spanish": "aceptar la invitación",
+    "french": "accepter l'invitation",
     "tier": 3
   },
   "verbs.reject": {
     "danish": "at afvise",
     "german": "ablehnen",
     "english": "to reject",
+    "spanish": "rechazar",
+    "french": "refuser",
     "tier": 3
   },
   "verbs.agree": {
     "danish": "at samtykke",
     "german": "zustimmen",
     "english": "to agree",
+    "spanish": "estar de acuerdo",
+    "french": "être d'accord",
     "tier": 3
   },
   "verbs.contradict": {
     "danish": "at modsige",
     "german": "widersprechen",
     "english": "to contradict",
+    "spanish": "contradecir",
+    "french": "contredire",
     "tier": 3
   },
   "verbs.doubt": {
     "danish": "at tvivle",
     "german": "zweifeln",
     "english": "to doubt",
+    "spanish": "dudar",
+    "french": "douter",
     "tier": 4
   },
   "verbs.suppose": {
     "danish": "at formode",
     "german": "vermuten",
     "english": "to suppose",
+    "spanish": "suponer",
+    "french": "supposer",
     "tier": 3
   },
   "verbs.assume": {
     "danish": "at antage",
     "german": "annehmen",
     "english": "to assume",
+    "spanish": "asumir",
+    "french": "présumer",
     "tier": 3
   },
   "verbs.imagine": {
     "danish": "at forestille sig",
     "german": "sich vorstellen",
     "english": "to imagine",
+    "spanish": "imaginarse",
+    "french": "s'imaginer",
     "tier": 3
   },
   "verbs.dream": {
     "danish": "at drømme",
     "german": "träumen",
     "english": "to dream",
+    "spanish": "soñar",
+    "french": "rêver",
     "tier": 2
   },
   "verbs.consider": {
     "danish": "at overveje",
     "german": "überlegen",
     "english": "to consider",
+    "spanish": "considerar",
+    "french": "envisager",
     "tier": 3
   },
   "verbs.reflect": {
     "danish": "at tænke over",
     "german": "nachdenken",
     "english": "to reflect",
+    "spanish": "reflexionar",
+    "french": "réfléchir",
     "tier": 3
   },
   "verbs.concentrate": {
     "danish": "at koncentrere sig",
     "german": "sich konzentrieren",
     "english": "to concentrate",
+    "spanish": "concentrarse",
+    "french": "se concentrer",
     "tier": 3
   },
   "verbs.get-to-know": {
     "danish": "at lære at kende",
     "german": "kennenlernen",
     "english": "to get to know",
+    "spanish": "llegar a conocer",
+    "french": "faire la connaissance de",
     "tier": 1
   },
   "verbs.recognise": {
     "danish": "at genkende",
     "german": "erkennen",
     "english": "to recognise",
+    "spanish": "reconocer",
+    "french": "reconnaître",
     "tier": 3
   },
   "verbs.experience": {
     "danish": "at opleve",
     "german": "erleben",
     "english": "to experience",
+    "spanish": "vivir una experiencia",
+    "french": "vivre une expérience",
     "tier": 3
   },
   "verbs.notice": {
     "danish": "at bemærke",
     "german": "bemerken",
     "english": "to notice",
+    "spanish": "darse cuenta",
+    "french": "remarquer",
     "tier": 3
   },
   "verbs.stand-out": {
     "danish": "at falde i øjnene",
     "german": "auffallen",
     "english": "to stand out",
+    "spanish": "destacar",
+    "french": "se faire remarquer",
     "tier": 4
   },
   "verbs.surprise": {
     "danish": "at overraske",
     "german": "überraschen",
     "english": "to surprise",
+    "spanish": "sorprender",
+    "french": "surprendre",
     "tier": 3
   },
   "verbs.succeed": {
     "danish": "at lykkes",
     "german": "gelingen",
     "english": "to succeed",
+    "spanish": "lograr",
+    "french": "réussir",
     "tier": 4
   },
   "verbs.fail": {
     "danish": "at mislykkes",
     "german": "misslingen",
     "english": "to fail",
+    "spanish": "fracasar",
+    "french": "échouer",
     "tier": 4
   },
   "verbs.dare": {
     "danish": "at turde",
     "german": "wagen",
     "english": "to dare",
+    "spanish": "atreverse",
+    "french": "oser",
     "tier": 4
   },
   "verbs.fear": {
     "danish": "at frygte",
     "german": "fürchten",
     "english": "to fear",
+    "spanish": "temer",
+    "french": "redouter",
     "tier": 4
   },
   "verbs.be-afraid": {
     "danish": "at være bange",
     "german": "sich fürchten",
     "english": "to be afraid",
+    "spanish": "tener miedo",
+    "french": "avoir peur",
     "tier": 3
   },
   "verbs.be-anxious": {
     "danish": "at ængstes",
     "german": "sich ängstigen",
     "english": "to be anxious",
+    "spanish": "angustiarse",
+    "french": "s'angoisser",
     "tier": 4
   },
   "verbs.worry": {
     "danish": "at bekymre sig",
     "german": "sich sorgen",
     "english": "to worry",
+    "spanish": "preocuparse",
+    "french": "s'inquiéter",
     "tier": 3
   },
   "verbs.delight": {
     "danish": "at glæde",
     "german": "erfreuen",
     "english": "to delight",
+    "spanish": "deleitar",
+    "french": "ravir",
     "tier": 4
   },
   "verbs.enjoy-oneself": {
     "danish": "at more sig",
     "german": "sich amüsieren",
     "english": "to enjoy oneself",
+    "spanish": "divertirse",
+    "french": "s'amuser",
     "tier": 3
   },
   "verbs.entertain": {
     "danish": "at more",
     "german": "unterhalten",
     "english": "to entertain",
+    "spanish": "entretener",
+    "french": "divertir",
     "tier": 3
   },
   "verbs.bore": {
     "danish": "at kede",
     "german": "langweilen",
     "english": "to bore",
+    "spanish": "aburrir",
+    "french": "ennuyer",
     "tier": 2
   },
   "verbs.annoy": {
     "danish": "at irritere",
     "german": "ärgern",
     "english": "to annoy",
+    "spanish": "molestar",
+    "french": "agacer",
     "tier": 3
   },
   "verbs.get-annoyed": {
     "danish": "at ærgre sig",
     "german": "sich ärgern",
     "english": "to get annoyed",
+    "spanish": "enfadarse",
+    "french": "se fâcher",
     "tier": 2
   },
   "verbs.be-ashamed": {
     "danish": "at skamme sig",
     "german": "sich schämen",
     "english": "to be ashamed",
+    "spanish": "avergonzarse",
+    "french": "avoir honte",
     "tier": 3
   },
   "verbs.miss": {
     "danish": "at savne",
     "german": "vermissen",
     "english": "to miss",
+    "spanish": "echar de menos",
+    "french": "manquer à",
     "tier": 2
   },
   "verbs.long": {
     "danish": "at længes",
     "german": "sich sehnen",
     "english": "to long",
+    "spanish": "anhelar",
+    "french": "se languir de",
     "tier": 4
   },
   "verbs.appreciate": {
     "danish": "at sætte pris på",
     "german": "schätzen",
     "english": "to appreciate",
+    "spanish": "apreciar",
+    "french": "apprécier",
     "tier": 3
   },
   "verbs.admire": {
     "danish": "at beundre",
     "german": "bewundern",
     "english": "to admire",
+    "spanish": "admirar",
+    "french": "admirer",
     "tier": 4
   },
   "verbs.hate": {
     "danish": "at hade",
     "german": "hassen",
     "english": "to hate",
+    "spanish": "odiar",
+    "french": "détester",
     "tier": 2
   },
   "verbs.despise": {
     "danish": "at foragte",
     "german": "verachten",
     "english": "to despise",
+    "spanish": "despreciar",
+    "french": "mépriser",
     "tier": 4
   },
   "verbs.envy": {
     "danish": "at misunde",
     "german": "beneiden",
     "english": "to envy",
+    "spanish": "envidiar",
+    "french": "envier",
     "tier": 4
   },
   "verbs.pity": {
     "danish": "at have ondt af",
     "german": "bemitleiden",
     "english": "to pity",
+    "spanish": "compadecer",
+    "french": "plaindre",
     "tier": 4
   },
   "verbs.comfort": {
     "danish": "at trøste",
     "german": "trösten",
     "english": "to comfort",
+    "spanish": "consolar",
+    "french": "consoler",
     "tier": 4
   },
   "verbs.support": {
     "danish": "at støtte",
     "german": "unterstützen",
     "english": "to support",
+    "spanish": "apoyar",
+    "french": "soutenir",
     "tier": 3
   },
   "verbs.protect": {
     "danish": "at beskytte",
     "german": "schützen",
     "english": "to protect",
+    "spanish": "proteger",
+    "french": "protéger",
     "tier": 3
   },
   "verbs.rescue": {
     "danish": "at redde",
     "german": "retten",
     "english": "to rescue",
+    "spanish": "salvar",
+    "french": "sauver",
     "tier": 3
   },
   "verbs.watch-out": {
     "danish": "at passe på",
     "german": "aufpassen",
     "english": "to watch out",
+    "spanish": "tener cuidado",
+    "french": "faire attention",
     "tier": 2
   },
   "verbs.take-care": {
     "danish": "at sørge for",
     "german": "sorgen für",
     "english": "to take care",
+    "spanish": "velar por",
+    "french": "veiller à",
     "tier": 3
   },
   "verbs.take-care-of": {
     "danish": "at tage sig af",
     "german": "sich kümmern",
     "english": "to take care of",
+    "spanish": "ocuparse",
+    "french": "s'occuper",
     "tier": 3
   },
   "verbs.trust": {
     "danish": "at stole på",
     "german": "vertrauen",
     "english": "to trust",
+    "spanish": "confiar",
+    "french": "faire confiance",
     "tier": 3
   },
   "verbs.fall-in-love": {
     "danish": "at forelske sig",
     "german": "sich verlieben",
     "english": "to fall in love",
+    "spanish": "enamorarse",
+    "french": "tomber amoureux",
     "tier": 2
   },
   "verbs.kiss": {
     "danish": "at kysse",
     "german": "küssen",
     "english": "to kiss",
+    "spanish": "besar",
+    "french": "embrasser",
     "tier": 2
   },
   "verbs.hug": {
     "danish": "at kramme",
     "german": "umarmen",
     "english": "to hug",
+    "spanish": "abrazar",
+    "french": "serrer dans ses bras",
     "tier": 3
   },
   "verbs.marry": {
     "danish": "at gifte sig",
     "german": "heiraten",
     "english": "to marry",
+    "spanish": "casarse",
+    "french": "se marier",
     "tier": 2
   },
   "verbs.get-divorced": {
     "danish": "at blive skilt",
     "german": "sich scheiden lassen",
     "english": "to get divorced",
+    "spanish": "divorciarse",
+    "french": "divorcer",
     "tier": 3
   },
   "verbs.get-engaged": {
     "danish": "at forlove sig",
     "german": "sich verloben",
     "english": "to get engaged",
+    "spanish": "comprometerse",
+    "french": "se fiancer",
     "tier": 3
   },
   "verbs.be-born": {
     "danish": "at blive født",
     "german": "geboren werden",
     "english": "to be born",
+    "spanish": "nacer",
+    "french": "naître",
     "tier": 2
   },
   "verbs.die": {
     "danish": "at dø",
     "german": "sterben",
     "english": "to die",
+    "spanish": "morir",
+    "french": "mourir",
     "tier": 2
   },
   "verbs.bury": {
     "danish": "at begrave",
     "german": "begraben",
     "english": "to bury",
+    "spanish": "enterrar",
+    "french": "enterrer",
     "tier": 4
   },
   "verbs.survive": {
     "danish": "at overleve",
     "german": "überleben",
     "english": "to survive",
+    "spanish": "sobrevivir",
+    "french": "survivre",
     "tier": 3
   },
   "verbs.bring-up": {
     "danish": "at opdrage",
     "german": "erziehen",
     "english": "to bring up",
+    "spanish": "educar",
+    "french": "élever",
     "tier": 3
   },
   "verbs.grow-up": {
     "danish": "at vokse op",
     "german": "aufwachsen",
     "english": "to grow up",
+    "spanish": "crecer",
+    "french": "grandir",
     "tier": 3
   },
   "verbs.resemble": {
     "danish": "at ligne",
     "german": "ähneln",
     "english": "to resemble",
+    "spanish": "parecerse",
+    "french": "ressembler",
     "tier": 4
   },
   "verbs.belong": {
     "danish": "at tilhøre",
     "german": "gehören",
     "english": "to belong",
+    "spanish": "pertenecer",
+    "french": "appartenir",
     "tier": 2
   },
   "verbs.own": {
     "danish": "at eje",
     "german": "besitzen",
     "english": "to own",
+    "spanish": "poseer",
+    "french": "posséder",
     "tier": 3
   },
   "verbs.contain": {
     "danish": "at indeholde",
     "german": "enthalten",
     "english": "to contain",
+    "spanish": "contener",
+    "french": "contenir",
     "tier": 3
   },
   "verbs.consist": {
     "danish": "at bestå af",
     "german": "bestehen aus",
     "english": "to consist",
+    "spanish": "consistir en",
+    "french": "consister en",
     "tier": 3
   },
   "verbs.read-as": {
     "danish": "at lyde",
     "german": "lauten",
     "english": "to read as",
+    "spanish": "rezar",
+    "french": "s'énoncer",
     "tier": 4
   },
   "verbs.apply": {
     "danish": "at gælde",
     "german": "gelten",
     "english": "to apply",
+    "spanish": "valer",
+    "french": "s'appliquer",
     "tier": 3
   },
   "verbs.belong-to": {
     "danish": "at høre til",
     "german": "dazugehören",
     "english": "to belong to",
+    "spanish": "formar parte",
+    "french": "faire partie",
     "tier": 3
   },
   "verbs.be-about": {
     "danish": "at handle om",
     "german": "handeln von",
     "english": "to be about",
+    "spanish": "tratar de",
+    "french": "traiter de",
     "tier": 3
   },
   "verbs.depend": {
     "danish": "at afhænge",
     "german": "abhängen",
     "english": "to depend",
+    "spanish": "depender",
+    "french": "dépendre",
     "tier": 3
   },
   "verbs.cause": {
     "danish": "at forårsage",
     "german": "verursachen",
     "english": "to cause",
+    "spanish": "causar",
+    "french": "causer",
     "tier": 4
   },
   "verbs.influence": {
     "danish": "at påvirke",
     "german": "beeinflussen",
     "english": "to influence",
+    "spanish": "influir",
+    "french": "influencer",
     "tier": 4
   },
   "verbs.change-oneself": {
     "danish": "at ændre sig",
     "german": "sich verändern",
     "english": "to change oneself",
+    "spanish": "transformarse",
+    "french": "changer",
     "tier": 3
   },
   "verbs.worsen": {
     "danish": "at forværre",
     "german": "verschlechtern",
     "english": "to worsen",
+    "spanish": "empeorar",
+    "french": "empirer",
     "tier": 4
   },
   "verbs.increase": {
     "danish": "at øge",
     "german": "erhöhen",
     "english": "to increase",
+    "spanish": "aumentar",
+    "french": "augmenter",
     "tier": 3
   },
   "verbs.rise": {
     "danish": "at stige",
     "german": "steigen",
     "english": "to rise",
+    "spanish": "elevarse",
+    "french": "s'élever",
     "tier": 3
   },
   "verbs.reduce": {
     "danish": "at mindske",
     "german": "verringern",
     "english": "to reduce",
+    "spanish": "disminuir",
+    "french": "diminuer",
     "tier": 4
   },
   "verbs.expand": {
     "danish": "at udvide",
     "german": "erweitern",
     "english": "to expand",
+    "spanish": "ampliar",
+    "french": "élargir",
     "tier": 4
   },
   "verbs.extend": {
     "danish": "at forlænge",
     "german": "verlängern",
     "english": "to extend",
+    "spanish": "prolongar",
+    "french": "prolonger",
     "tier": 3
   },
   "verbs.shorten": {
     "danish": "at forkorte",
     "german": "verkürzen",
     "english": "to shorten",
+    "spanish": "acortar",
+    "french": "raccourcir",
     "tier": 4
   },
   "verbs.collect": {
     "danish": "at samle",
     "german": "sammeln",
     "english": "to collect",
+    "spanish": "juntar",
+    "french": "collectionner",
     "tier": 2
   },
   "verbs.gather": {
     "danish": "at samles",
     "german": "sich versammeln",
     "english": "to gather",
+    "spanish": "reunirse",
+    "french": "se rassembler",
     "tier": 4
   },
   "verbs.mix": {
     "danish": "at blande",
     "german": "mischen",
     "english": "to mix",
+    "spanish": "mezclar",
+    "french": "mélanger",
     "tier": 3
   },
   "verbs.tie": {
     "danish": "at binde",
     "german": "binden",
     "english": "to tie",
+    "spanish": "atar",
+    "french": "attacher",
     "tier": 4
   },
   "verbs.pack-up": {
     "danish": "at pakke sammen",
     "german": "zusammenpacken",
     "english": "to pack up",
+    "spanish": "recoger las cosas",
+    "french": "ranger ses affaires",
     "tier": 3
   },
   "verbs.fold": {
     "danish": "at folde",
     "german": "falten",
     "english": "to fold",
+    "spanish": "doblar",
+    "french": "plier",
     "tier": 4
   },
   "verbs.roll": {
     "danish": "at rulle",
     "german": "rollen",
     "english": "to roll",
+    "spanish": "rodar",
+    "french": "rouler",
     "tier": 3
   },
   "verbs.sew": {
     "danish": "at sy",
     "german": "nähen",
     "english": "to sew",
+    "spanish": "coser",
+    "french": "coudre",
     "tier": 4
   },
   "verbs.knit": {
     "danish": "at strikke",
     "german": "stricken",
     "english": "to knit",
+    "spanish": "tejer",
+    "french": "tricoter",
     "tier": 4
   },
   "verbs.crochet": {
     "danish": "at hækle",
     "german": "häkeln",
     "english": "to crochet",
+    "spanish": "hacer ganchillo",
+    "french": "faire du crochet",
     "tier": 5
   },
   "verbs.burn": {
     "danish": "at brænde",
     "german": "brennen",
     "english": "to burn",
+    "spanish": "arder",
+    "french": "brûler",
     "tier": 3
   },
   "verbs.light": {
     "danish": "at tænde op",
     "german": "anzünden",
     "english": "to light",
+    "spanish": "encender",
+    "french": "allumer",
     "tier": 4
   },
   "verbs.warm": {
     "danish": "at varme",
     "german": "wärmen",
     "english": "to warm",
+    "spanish": "templar",
+    "french": "réchauffer",
     "tier": 4
   },
   "verbs.heat": {
     "danish": "at opvarme",
     "german": "erwärmen",
     "english": "to heat",
+    "spanish": "calentar",
+    "french": "chauffer",
     "tier": 4
   },
   "verbs.cool": {
     "danish": "at køle",
     "german": "kühlen",
     "english": "to cool",
+    "spanish": "enfriar",
+    "french": "refroidir",
     "tier": 4
   },
   "verbs.blow": {
     "danish": "at blæse",
     "german": "wehen",
     "english": "to blow",
+    "spanish": "soplar",
+    "french": "souffler",
     "tier": 4
   },
   "verbs.drip": {
     "danish": "at dryppe",
     "german": "tropfen",
     "english": "to drip",
+    "spanish": "gotear",
+    "french": "goutter",
     "tier": 4
   },
   "verbs.stream": {
     "danish": "at strømme",
     "german": "strömen",
     "english": "to stream",
+    "spanish": "fluir",
+    "french": "ruisseler",
     "tier": 4
   },
   "verbs.leak": {
     "danish": "at lække",
     "german": "lecken",
     "english": "to leak",
+    "spanish": "tener una fuga",
+    "french": "avoir une fuite",
     "tier": 4
   },
   "verbs.sweat": {
     "danish": "at svede",
     "german": "schwitzen",
     "english": "to sweat",
+    "spanish": "sudar",
+    "french": "transpirer",
     "tier": 3
   },
   "verbs.breathe": {
     "danish": "at ånde",
     "german": "atmen",
     "english": "to breathe",
+    "spanish": "respirar",
+    "french": "respirer",
     "tier": 3
   },
   "verbs.cough": {
     "danish": "at hoste",
     "german": "husten",
     "english": "to cough",
+    "spanish": "toser",
+    "french": "tousser",
     "tier": 2
   },
   "verbs.sneeze": {
     "danish": "at nyse",
     "german": "niesen",
     "english": "to sneeze",
+    "spanish": "estornudar",
+    "french": "éternuer",
     "tier": 4
   },
   "verbs.yawn": {
     "danish": "at gabe",
     "german": "gähnen",
     "english": "to yawn",
+    "spanish": "bostezar",
+    "french": "bâiller",
     "tier": 4
   },
   "verbs.snore": {
     "danish": "at snorke",
     "german": "schnarchen",
     "english": "to snore",
+    "spanish": "roncar",
+    "french": "ronfler",
     "tier": 4
   },
   "verbs.fall-ill": {
     "danish": "at blive syg",
     "german": "erkranken",
     "english": "to fall ill",
+    "spanish": "enfermar",
+    "french": "tomber malade",
     "tier": 4
   },
   "verbs.hurt": {
     "danish": "at gøre ondt",
     "german": "wehtun",
     "english": "to hurt",
+    "spanish": "doler",
+    "french": "faire mal",
     "tier": 2
   },
   "verbs.recover": {
     "danish": "at blive rask",
     "german": "genesen",
     "english": "to recover",
+    "spanish": "recuperarse",
+    "french": "guérir",
     "tier": 4
   },
   "verbs.heal": {
     "danish": "at helbrede",
     "german": "heilen",
     "english": "to heal",
+    "spanish": "sanar",
+    "french": "guérir",
     "tier": 4
   },
   "verbs.treat": {
     "danish": "at behandle",
     "german": "behandeln",
     "english": "to treat",
+    "spanish": "tratar",
+    "french": "traiter",
     "tier": 3
   },
   "verbs.harm": {
     "danish": "at skade",
     "german": "schaden",
     "english": "to harm",
+    "spanish": "perjudicar",
+    "french": "nuire",
     "tier": 4
   },
   "verbs.injure": {
     "danish": "at såre",
     "german": "verletzen",
     "english": "to injure",
+    "spanish": "herir",
+    "french": "blesser",
     "tier": 2
   },
   "verbs.hit": {
     "danish": "at slå",
     "german": "schlagen",
     "english": "to hit",
+    "spanish": "golpear",
+    "french": "frapper",
     "tier": 3
   },
   "verbs.kick": {
     "danish": "at sparke",
     "german": "treten",
     "english": "to kick",
+    "spanish": "patear",
+    "french": "donner un coup de pied",
     "tier": 3
   },
   "verbs.vomit": {
     "danish": "at kaste op",
     "german": "erbrechen",
     "english": "to vomit",
+    "spanish": "vomitar",
+    "french": "vomir",
     "tier": 4
   },
   "verbs.bleed": {
     "danish": "at bløde",
     "german": "bluten",
     "english": "to bleed",
+    "spanish": "sangrar",
+    "french": "saigner",
     "tier": 3
   },
   "verbs.bite": {
     "danish": "at bide",
     "german": "beißen",
     "english": "to bite",
+    "spanish": "morder",
+    "french": "mordre",
     "tier": 4
   },
   "verbs.chew": {
     "danish": "at tygge",
     "german": "kauen",
     "english": "to chew",
+    "spanish": "masticar",
+    "french": "mâcher",
     "tier": 4
   },
   "verbs.swallow": {
     "danish": "at sluge",
     "german": "schlucken",
     "english": "to swallow",
+    "spanish": "tragar",
+    "french": "avaler",
     "tier": 4
   },
   "verbs.eat-up": {
     "danish": "at spise op",
     "german": "aufessen",
     "english": "to eat up",
+    "spanish": "comerse todo",
+    "french": "finir son assiette",
     "tier": 2
   },
   "verbs.finish-drinking": {
     "danish": "at drikke ud",
     "german": "austrinken",
     "english": "to finish drinking",
+    "spanish": "terminar de beber",
+    "french": "finir son verre",
     "tier": 2
   },
   "verbs.starve": {
     "danish": "at sulte",
     "german": "hungern",
     "english": "to starve",
+    "spanish": "pasar hambre",
+    "french": "mourir de faim",
     "tier": 4
   },
   "verbs.have-breakfast": {
     "danish": "at spise morgenmad",
     "german": "frühstücken",
     "english": "to have breakfast",
+    "spanish": "desayunar",
+    "french": "prendre le petit-déjeuner",
     "tier": 1
   },
   "verbs.feed": {
     "danish": "at fodre",
     "german": "füttern",
     "english": "to feed",
+    "spanish": "dar de comer",
+    "french": "nourrir",
     "tier": 4
   },
   "verbs.breastfeed": {
     "danish": "at amme",
     "german": "stillen",
     "english": "to breastfeed",
+    "spanish": "amamantar",
+    "french": "allaiter",
     "tier": 4
   },
   "verbs.lose-weight": {
     "danish": "at tabe sig",
     "german": "abnehmen",
     "english": "to lose weight",
+    "spanish": "adelgazar",
+    "french": "maigrir",
     "tier": 2
   },
   "verbs.exercise": {
     "danish": "at bevæge sig",
     "german": "sich bewegen",
     "english": "to exercise",
+    "spanish": "hacer ejercicio",
+    "french": "faire de l'exercice",
     "tier": 2
   },
   "verbs.take-a-break": {
     "danish": "at holde pause",
     "german": "pausieren",
     "english": "to take a break",
+    "spanish": "hacer una pausa",
+    "french": "faire une pause",
     "tier": 4
   },
   "verbs.fish": {
     "danish": "at fiske",
     "german": "angeln",
     "english": "to fish",
+    "spanish": "pescar",
+    "french": "pêcher",
     "tier": 3
   },
   "verbs.hunt": {
     "danish": "at jage",
     "german": "jagen",
     "english": "to hunt",
+    "spanish": "cazar",
+    "french": "chasser",
     "tier": 4
   },
   "verbs.camp": {
     "danish": "at campere",
     "german": "zelten",
     "english": "to camp",
+    "spanish": "acampar",
+    "french": "camper",
     "tier": 2
   },
   "verbs.climb-up": {
     "danish": "at bestige",
     "german": "besteigen",
     "english": "to climb up",
+    "spanish": "escalar",
+    "french": "escalader",
     "tier": 4
   },
   "verbs.cheat-at-a-game": {
     "danish": "at snyde",
     "german": "mogeln",
     "english": "to cheat at a game",
+    "spanish": "hacer trampas",
+    "french": "tricher",
     "tier": 4
   },
   "verbs.give-up": {
     "danish": "at give op",
     "german": "aufgeben",
     "english": "to give up",
+    "spanish": "rendirse",
+    "french": "abandonner",
     "tier": 3
   },
   "verbs.continue": {
     "danish": "at blive ved",
     "german": "weitermachen",
     "english": "to continue",
+    "spanish": "continuar",
+    "french": "continuer",
     "tier": 3
   },
   "verbs.carry-on": {
     "danish": "at fortsætte",
     "german": "fortsetzen",
     "english": "to carry on",
+    "spanish": "proseguir",
+    "french": "poursuivre",
     "tier": 4
   },
   "verbs.recur": {
     "danish": "at gentage sig",
     "german": "sich wiederholen",
     "english": "to recur",
+    "spanish": "repetirse",
+    "french": "se répéter",
     "tier": 3
   },
   "verbs.interrupt": {
     "danish": "at afbryde",
     "german": "unterbrechen",
     "english": "to interrupt",
+    "spanish": "interrumpir",
+    "french": "interrompre",
     "tier": 3
   },
   "verbs.be-late": {
     "danish": "at komme for sent",
     "german": "sich verspäten",
     "english": "to be late",
+    "spanish": "llegar tarde",
+    "french": "être en retard",
     "tier": 2
   },
   "verbs.reach": {
     "danish": "at nå",
     "german": "erreichen",
     "english": "to reach",
+    "spanish": "llegar a",
+    "french": "atteindre",
     "tier": 3
   },
   "verbs.get-stuck-in": {
     "danish": "at tage fat",
     "german": "anpacken",
     "english": "to get stuck in",
+    "spanish": "ponerse manos a la obra",
+    "french": "s'atteler à",
     "tier": 4
   },
   "verbs.make-an-effort": {
     "danish": "at bestræbe sig",
     "german": "sich bemühen",
     "english": "to make an effort",
+    "spanish": "esforzarse",
+    "french": "s'efforcer",
     "tier": 4
   },
   "verbs.exert-oneself": {
     "danish": "at anstrenge sig",
     "german": "sich anstrengen",
     "english": "to exert oneself",
+    "spanish": "hacer un esfuerzo",
+    "french": "se démener",
     "tier": 3
   },
   "verbs.implement": {
     "danish": "at gennemføre",
     "german": "durchführen",
     "english": "to implement",
+    "spanish": "llevar a cabo",
+    "french": "mettre en œuvre",
     "tier": 4
   },
   "verbs.achieve": {
     "danish": "at opnå",
     "german": "erzielen",
     "english": "to achieve",
+    "spanish": "alcanzar",
+    "french": "accomplir",
     "tier": 4
   },
   "verbs.get-to": {
     "danish": "at nå frem",
     "german": "gelangen",
     "english": "to get to",
+    "spanish": "llegar",
+    "french": "parvenir",
     "tier": 4
   },
   "verbs.participate": {
     "danish": "at deltage",
     "german": "teilnehmen",
     "english": "to participate",
+    "spanish": "participar",
+    "french": "participer",
     "tier": 2
   },
   "verbs.join-in": {
     "danish": "at være med",
     "german": "mitmachen",
     "english": "to join in",
+    "spanish": "sumarse",
+    "french": "se joindre",
     "tier": 2
   },
   "verbs.unite": {
     "danish": "at forene",
     "german": "vereinen",
     "english": "to unite",
+    "spanish": "unificar",
+    "french": "unifier",
     "tier": 4
   },
   "verbs.compete": {
     "danish": "at konkurrere",
     "german": "konkurrieren",
     "english": "to compete",
+    "spanish": "competir",
+    "french": "rivaliser",
     "tier": 4
   },
   "verbs.steer": {
     "danish": "at styre",
     "german": "steuern",
     "english": "to steer",
+    "spanish": "dirigir",
+    "french": "piloter",
     "tier": 4
   },
   "verbs.master": {
     "danish": "at beherske",
     "german": "beherrschen",
     "english": "to master",
+    "spanish": "dominar",
+    "french": "maîtriser",
     "tier": 4
   },
   "verbs.rule": {
     "danish": "at herske",
     "german": "herrschen",
     "english": "to rule",
+    "spanish": "reinar",
+    "french": "régner",
     "tier": 4
   },
   "verbs.govern": {
     "danish": "at regere",
     "german": "regieren",
     "english": "to govern",
+    "spanish": "gobernar",
+    "french": "gouverner",
     "tier": 4
   },
   "verbs.vote": {
     "danish": "at stemme",
     "german": "abstimmen",
     "english": "to vote",
+    "spanish": "votar",
+    "french": "voter",
     "tier": 4
   },
   "verbs.make-up-one-s-mind": {
     "danish": "at beslutte sig",
     "german": "sich entscheiden",
     "english": "to make up one's mind",
+    "spanish": "decidirse",
+    "french": "se décider",
     "tier": 3
   },
   "verbs.give-notice": {
     "danish": "at opsige",
     "german": "kündigen",
     "english": "to give notice",
+    "spanish": "dimitir",
+    "french": "démissionner",
     "tier": 2
   },
   "verbs.be-off-work": {
     "danish": "at have fri",
     "german": "freihaben",
     "english": "to be off work",
+    "spanish": "tener libre",
+    "french": "être en congé",
     "tier": 2
   },
   "verbs.hold-a-meeting": {
     "danish": "at holde møde",
     "german": "tagen",
     "english": "to hold a meeting",
+    "spanish": "reunirse en sesión",
+    "french": "tenir une réunion",
     "tier": 4
   },
   "verbs.introduce": {
     "danish": "at introducere",
     "german": "vorstellen",
     "english": "to introduce",
+    "spanish": "presentar",
+    "french": "présenter",
     "tier": 1
   },
   "verbs.give-a-talk": {
     "danish": "at holde foredrag",
     "german": "vortragen",
     "english": "to give a talk",
+    "spanish": "dar una charla",
+    "french": "faire un exposé",
     "tier": 4
   },
   "verbs.pick-up": {
     "danish": "at afhente",
     "german": "abholen",
     "english": "to pick up",
+    "spanish": "recoger",
+    "french": "venir chercher",
     "tier": 1
   },
   "verbs.hand-in": {
     "danish": "at aflevere",
     "german": "abgeben",
     "english": "to hand in",
+    "spanish": "entregar",
+    "french": "rendre",
     "tier": 2
   },
   "verbs.hand-over": {
     "danish": "at overdrage",
     "german": "übergeben",
     "english": "to hand over",
+    "spanish": "traspasar",
+    "french": "remettre",
     "tier": 4
   },
   "verbs.submit": {
     "danish": "at indlevere",
     "german": "einreichen",
     "english": "to submit",
+    "spanish": "remitir",
+    "french": "soumettre",
     "tier": 4
   },
   "verbs.serve": {
     "danish": "at betjene",
     "german": "bedienen",
     "english": "to serve",
+    "spanish": "atender",
+    "french": "servir un client",
     "tier": 3
   },
   "verbs.serve-food": {
     "danish": "at servere",
     "german": "servieren",
     "english": "to serve food",
+    "spanish": "servir la comida",
+    "french": "servir un plat",
     "tier": 3
   },
   "verbs.advise-professionally": {
     "danish": "at rådgive",
     "german": "beraten",
     "english": "to advise professionally",
+    "spanish": "asesorar",
+    "french": "donner des conseils",
     "tier": 3
   },
   "verbs.inform": {
     "danish": "at informere",
     "german": "informieren",
     "english": "to inform",
+    "spanish": "informar",
+    "french": "informer",
     "tier": 2
   },
   "verbs.notify": {
     "danish": "at meddele",
     "german": "mitteilen",
     "english": "to notify",
+    "spanish": "comunicar",
+    "french": "communiquer",
     "tier": 3
   },
   "verbs.enlighten": {
     "danish": "at oplyse",
     "german": "aufklären",
     "english": "to enlighten",
+    "spanish": "ilustrar",
+    "french": "éclairer",
     "tier": 4
   },
   "verbs.point-out": {
     "danish": "at gøre opmærksom på",
     "german": "hinweisen",
     "english": "to point out",
+    "spanish": "señalar",
+    "french": "signaler",
     "tier": 4
   },
   "verbs.emphasise": {
     "danish": "at understrege",
     "german": "betonen",
     "english": "to emphasise",
+    "spanish": "subrayar",
+    "french": "souligner",
     "tier": 4
   },
   "verbs.guess": {
     "danish": "at gætte",
     "german": "erraten",
     "english": "to guess",
+    "spanish": "adivinar",
+    "french": "deviner",
     "tier": 3
   },
   "verbs.solve": {
     "danish": "at løse",
     "german": "lösen",
     "english": "to solve",
+    "spanish": "resolver",
+    "french": "résoudre",
     "tier": 3
   },
   "verbs.prove": {
     "danish": "at bevise",
     "german": "beweisen",
     "english": "to prove",
+    "spanish": "demostrar",
+    "french": "prouver",
     "tier": 4
   },
   "verbs.test": {
     "danish": "at teste",
     "german": "testen",
     "english": "to test",
+    "spanish": "probar",
+    "french": "tester",
     "tier": 2
   },
   "verbs.try-out": {
     "danish": "at prøve af",
     "german": "ausprobieren",
     "english": "to try out",
+    "spanish": "ensayar",
+    "french": "mettre à l'essai",
     "tier": 2
   },
   "verbs.experiment": {
     "danish": "at eksperimentere",
     "german": "experimentieren",
     "english": "to experiment",
+    "spanish": "experimentar",
+    "french": "expérimenter",
     "tier": 4
   },
   "verbs.analyse": {
     "danish": "at analysere",
     "german": "analysieren",
     "english": "to analyse",
+    "spanish": "analizar",
+    "french": "analyser",
     "tier": 4
   },
   "verbs.conclude": {
     "danish": "at konkludere",
     "german": "schlussfolgern",
     "english": "to conclude",
+    "spanish": "concluir",
+    "french": "conclure",
     "tier": 4
   },
   "verbs.establish": {
     "danish": "at fastslå",
     "german": "feststellen",
     "english": "to establish",
+    "spanish": "constatar",
+    "french": "constater",
     "tier": 3
   },
   "verbs.distinguish": {
     "danish": "at skelne",
     "german": "unterscheiden",
     "english": "to distinguish",
+    "spanish": "distinguir",
+    "french": "distinguer",
     "tier": 3
   },
   "verbs.separate": {
     "danish": "at adskille",
     "german": "trennen",
     "english": "to separate",
+    "spanish": "separar",
+    "french": "séparer",
     "tier": 3
   },
   "verbs.split": {
     "danish": "at deles",
     "german": "sich teilen",
     "english": "to split",
+    "spanish": "dividirse",
+    "french": "se partager",
     "tier": 3
   },
   "verbs.read-through": {
     "danish": "at læse igennem",
     "german": "durchlesen",
     "english": "to read through",
+    "spanish": "leer de principio a fin",
+    "french": "lire en entier",
     "tier": 2
   },
   "verbs.publish": {
     "danish": "at udgive",
     "german": "veröffentlichen",
     "english": "to publish",
+    "spanish": "publicar",
+    "french": "publier",
     "tier": 4
   },
   "verbs.record": {
     "danish": "at optage",
     "german": "aufnehmen",
     "english": "to record",
+    "spanish": "grabar",
+    "french": "enregistrer",
     "tier": 3
   },
   "verbs.play-back": {
     "danish": "at afspille",
     "german": "abspielen",
     "english": "to play back",
+    "spanish": "reproducir",
+    "french": "lire",
     "tier": 4
   },
   "verbs.broadcast": {
     "danish": "at udsende",
     "german": "senden",
     "english": "to broadcast",
+    "spanish": "emitir",
+    "french": "diffuser",
     "tier": 3
   },
   "verbs.screen": {
     "danish": "at fremvise",
     "german": "vorführen",
     "english": "to screen",
+    "spanish": "proyectar",
+    "french": "projeter",
     "tier": 4
   },
   "verbs.set-up": {
     "danish": "at stille op",
     "german": "aufstellen",
     "english": "to set up",
+    "spanish": "montar",
+    "french": "installer",
     "tier": 3
   },
   "verbs.furnish": {
     "danish": "at indrette",
     "german": "einrichten",
     "english": "to furnish",
+    "spanish": "amueblar",
+    "french": "meubler",
     "tier": 3
   },
   "verbs.equip": {
     "danish": "at udstyre",
     "german": "ausstatten",
     "english": "to equip",
+    "spanish": "equipar",
+    "french": "équiper",
     "tier": 4
   },
   "verbs.wallpaper": {
     "danish": "at tapetsere",
     "german": "tapezieren",
     "english": "to wallpaper",
+    "spanish": "empapelar",
+    "french": "poser du papier peint",
     "tier": 4
   },
   "verbs.drill": {
     "danish": "at bore",
     "german": "bohren",
     "english": "to drill",
+    "spanish": "taladrar",
+    "french": "percer",
     "tier": 4
   },
   "verbs.saw": {
     "danish": "at save",
     "german": "sägen",
     "english": "to saw",
+    "spanish": "serrar",
+    "french": "scier",
     "tier": 4
   },
   "verbs.hammer": {
     "danish": "at hamre",
     "german": "hämmern",
     "english": "to hammer",
+    "spanish": "martillear",
+    "french": "marteler",
     "tier": 4
   },
   "verbs.screw": {
     "danish": "at skrue",
     "german": "schrauben",
     "english": "to screw",
+    "spanish": "atornillar",
+    "french": "visser",
     "tier": 4
   },
   "verbs.glue": {
     "danish": "at lime",
     "german": "kleben",
     "english": "to glue",
+    "spanish": "pegar",
+    "french": "coller",
     "tier": 2
   },
   "verbs.stick-on": {
     "danish": "at klistre",
     "german": "aufkleben",
     "english": "to stick on",
+    "spanish": "pegar encima",
+    "french": "coller dessus",
     "tier": 3
   },
   "verbs.fasten": {
     "danish": "at binde fast",
     "german": "befestigen",
     "english": "to fasten",
+    "spanish": "sujetar",
+    "french": "fixer",
     "tier": 4
   },
   "verbs.subtract": {
     "danish": "at tage fra",
     "german": "abziehen",
     "english": "to subtract",
+    "spanish": "restar",
+    "french": "soustraire",
     "tier": 4
   },
   "verbs.add-up": {
     "danish": "at lægge til",
     "german": "addieren",
     "english": "to add up",
+    "spanish": "sumar",
+    "french": "additionner",
     "tier": 3
   },
   "verbs.multiply": {
     "danish": "at gange",
     "german": "multiplizieren",
     "english": "to multiply",
+    "spanish": "multiplicar",
+    "french": "multiplier",
     "tier": 3
   },
   "verbs.divide": {
     "danish": "at dividere",
     "german": "dividieren",
     "english": "to divide",
+    "spanish": "dividir",
+    "french": "diviser",
     "tier": 3
   },
   "verbs.round": {
     "danish": "at runde af",
     "german": "runden",
     "english": "to round",
+    "spanish": "redondear",
+    "french": "arrondir",
     "tier": 4
   },
   "verbs.regret-deeply": {
     "danish": "at fortryde",
     "german": "bereuen",
     "english": "to regret deeply",
+    "spanish": "arrepentirse",
+    "french": "se repentir",
     "tier": 4
   },
   "verbs.acknowledge": {
     "danish": "at anerkende",
     "german": "anerkennen",
     "english": "to acknowledge",
+    "spanish": "reconocer oficialmente",
+    "french": "reconnaître officiellement",
     "tier": 4
   },
   "verbs.condemn": {
     "danish": "at fordømme",
     "german": "verurteilen",
     "english": "to condemn",
+    "spanish": "condenar",
+    "french": "condamner",
     "tier": 4
   },
   "verbs.judge": {
     "danish": "at dømme",
     "german": "urteilen",
     "english": "to judge",
+    "spanish": "juzgar",
+    "french": "juger",
     "tier": 4
   },
   "verbs.testify": {
     "danish": "at vidne",
     "german": "bezeugen",
     "english": "to testify",
+    "spanish": "testificar",
+    "french": "témoigner",
     "tier": 5
   },
   "verbs.arrest": {
     "danish": "at anholde",
     "german": "verhaften",
     "english": "to arrest",
+    "spanish": "detener",
+    "french": "arrêter",
     "tier": 4
   },
   "verbs.acquit": {
     "danish": "at frikende",
     "german": "freisprechen",
     "english": "to acquit",
+    "spanish": "absolver",
+    "french": "acquitter",
     "tier": 5
   },
   "verbs.enforce": {
     "danish": "at gennemtvinge",
     "german": "durchsetzen",
     "english": "to enforce",
+    "spanish": "imponer",
+    "french": "faire appliquer",
     "tier": 4
   },
   "verbs.convince": {
     "danish": "at overbevise",
     "german": "überzeugen",
     "english": "to convince",
+    "spanish": "convencer",
+    "french": "convaincre",
     "tier": 3
   },
   "verbs.persuade": {
     "danish": "at overtale",
     "german": "überreden",
     "english": "to persuade",
+    "spanish": "persuadir",
+    "french": "persuader",
     "tier": 4
   },
   "verbs.inspire": {
     "danish": "at inspirere",
     "german": "inspirieren",
     "english": "to inspire",
+    "spanish": "inspirar",
+    "french": "inspirer",
     "tier": 4
   },
   "verbs.motivate": {
     "danish": "at motivere",
     "german": "motivieren",
     "english": "to motivate",
+    "spanish": "motivar",
+    "french": "motiver",
     "tier": 3
   },
   "verbs.encourage": {
     "danish": "at opmuntre",
     "german": "ermutigen",
     "english": "to encourage",
+    "spanish": "animar",
+    "french": "encourager",
     "tier": 4
   },
   "verbs.counteract": {
     "danish": "at modvirke",
     "german": "entgegenwirken",
     "english": "to counteract",
+    "spanish": "contrarrestar",
+    "french": "contrecarrer",
     "tier": 5
   },
   "verbs.refute": {
     "danish": "at gendrive",
     "german": "widerlegen",
     "english": "to refute",
+    "spanish": "refutar",
+    "french": "réfuter",
     "tier": 5
   },
   "verbs.justify": {
     "danish": "at begrunde",
     "german": "begründen",
     "english": "to justify",
+    "spanish": "fundamentar",
+    "french": "justifier",
     "tier": 3
   },
   "verbs.justify-oneself": {
     "danish": "at retfærdiggøre sig",
     "german": "sich rechtfertigen",
     "english": "to justify oneself",
+    "spanish": "justificarse",
+    "french": "se justifier",
     "tier": 5
   },
   "verbs.apologise": {
     "danish": "at undskylde",
     "german": "sich entschuldigen",
     "english": "to apologise",
+    "spanish": "disculparse",
+    "french": "s'excuser",
     "tier": 2
   },
   "verbs.defend": {
     "danish": "at forsvare",
     "german": "verteidigen",
     "english": "to defend",
+    "spanish": "defender",
+    "french": "défendre",
     "tier": 4
   },
   "verbs.attack": {
     "danish": "at angribe",
     "german": "angreifen",
     "english": "to attack",
+    "spanish": "atacar",
+    "french": "attaquer",
     "tier": 4
   },
   "verbs.fight": {
     "danish": "at kæmpe",
     "german": "kämpfen",
     "english": "to fight",
+    "spanish": "luchar",
+    "french": "lutter",
     "tier": 3
   },
   "verbs.defeat": {
     "danish": "at besejre",
     "german": "besiegen",
     "english": "to defeat",
+    "spanish": "derrotar",
+    "french": "vaincre",
     "tier": 4
   },
   "verbs.conquer": {
     "danish": "at erobre",
     "german": "erobern",
     "english": "to conquer",
+    "spanish": "conquistar",
+    "french": "conquérir",
     "tier": 4
   },
   "verbs.annihilate": {
     "danish": "at tilintetgøre",
     "german": "vernichten",
     "english": "to annihilate",
+    "spanish": "aniquilar",
+    "french": "anéantir",
     "tier": 5
   },
   "verbs.suppress": {
     "danish": "at undertrykke",
     "german": "unterdrücken",
     "english": "to suppress",
+    "spanish": "reprimir",
+    "french": "réprimer",
     "tier": 4
   },
   "verbs.liberate": {
     "danish": "at befri",
     "german": "befreien",
     "english": "to liberate",
+    "spanish": "liberar",
+    "french": "libérer",
     "tier": 4
   },
   "verbs.release": {
     "danish": "at frigive",
     "german": "freigeben",
     "english": "to release",
+    "spanish": "autorizar",
+    "french": "autoriser",
     "tier": 4
   },
   "verbs.capture": {
     "danish": "at fange ind",
     "german": "einfangen",
     "english": "to capture",
+    "spanish": "capturar",
+    "french": "capturer",
     "tier": 4
   },
   "verbs.hold-on": {
     "danish": "at fastholde",
     "german": "festhalten",
     "english": "to hold on",
+    "spanish": "agarrar",
+    "french": "tenir fermement",
     "tier": 3
   },
   "verbs.define": {
     "danish": "at fastsætte",
     "german": "festlegen",
     "english": "to define",
+    "spanish": "establecer",
+    "french": "définir",
     "tier": 4
   },
   "verbs.determine": {
     "danish": "at bestemme",
     "german": "bestimmen",
     "english": "to determine",
+    "spanish": "determinar",
+    "french": "déterminer",
     "tier": 3
   },
   "verbs.adapt": {
     "danish": "at tilpasse",
     "german": "anpassen",
     "english": "to adapt",
+    "spanish": "adaptar",
+    "french": "adapter",
     "tier": 3
   },
   "verbs.get-used-to": {
     "danish": "at vænne sig til",
     "german": "sich gewöhnen",
     "english": "to get used to",
+    "spanish": "acostumbrarse",
+    "french": "s'habituer",
     "tier": 3
   },
   "verbs.integrate": {
     "danish": "at integrere",
     "german": "integrieren",
     "english": "to integrate",
+    "spanish": "integrar",
+    "french": "intégrer",
     "tier": 4
   },
   "verbs.join": {
     "danish": "at tilslutte sig",
     "german": "sich anschließen",
     "english": "to join",
+    "spanish": "unirse",
+    "french": "rejoindre",
     "tier": 4
   },
   "verbs.be-committed": {
     "danish": "at engagere sig",
     "german": "sich engagieren",
     "english": "to be committed",
+    "spanish": "implicarse",
+    "french": "s'investir",
     "tier": 3
   },
   "verbs.occupy-oneself": {
     "danish": "at beskæftige sig",
     "german": "sich beschäftigen",
     "english": "to occupy oneself",
+    "spanish": "dedicarse",
+    "french": "se consacrer",
     "tier": 3
   },
   "verbs.be-interested": {
     "danish": "at interessere sig",
     "german": "sich interessieren",
     "english": "to be interested",
+    "spanish": "interesarse",
+    "french": "s'intéresser",
     "tier": 2
   },
   "verbs.limit": {
     "danish": "at begrænse",
     "german": "begrenzen",
     "english": "to limit",
+    "spanish": "limitar",
+    "french": "limiter",
     "tier": 4
   },
   "verbs.exclude": {
     "danish": "at udelukke",
     "german": "ausschließen",
     "english": "to exclude",
+    "spanish": "excluir",
+    "french": "exclure",
     "tier": 3
   },
   "verbs.include": {
     "danish": "at inkludere",
     "german": "einschließen",
     "english": "to include",
+    "spanish": "incluir",
+    "french": "inclure",
     "tier": 4
   },
   "verbs.comprise": {
     "danish": "at omfatte",
     "german": "umfassen",
     "english": "to comprise",
+    "spanish": "abarcar",
+    "french": "englober",
     "tier": 5
   },
   "verbs.represent": {
     "danish": "at repræsentere",
     "german": "vertreten",
     "english": "to represent",
+    "spanish": "representar",
+    "french": "représenter",
     "tier": 4
   },
   "verbs.highlight": {
     "danish": "at fremhæve",
     "german": "hervorheben",
     "english": "to highlight",
+    "spanish": "resaltar",
+    "french": "mettre en évidence",
     "tier": 5
   },
   "verbs.express": {
     "danish": "at udtrykke",
     "german": "ausdrücken",
     "english": "to express",
+    "spanish": "expresar",
+    "french": "exprimer",
     "tier": 3
   },
   "verbs.hint": {
     "danish": "at antyde",
     "german": "andeuten",
     "english": "to hint",
+    "spanish": "insinuar",
+    "french": "insinuer",
     "tier": 5
   },
   "verbs.confirm": {
     "danish": "at bekræfte",
     "german": "bestätigen",
     "english": "to confirm",
+    "spanish": "confirmar",
+    "french": "confirmer",
     "tier": 3
   },
   "verbs.invalidate": {
     "danish": "at afkræfte",
     "german": "entkräften",
     "english": "to invalidate",
+    "spanish": "invalidar",
+    "french": "invalider",
     "tier": 5
   },
   "verbs.specify": {
     "danish": "at præcisere",
     "german": "präzisieren",
     "english": "to specify",
+    "spanish": "precisar",
+    "french": "préciser",
     "tier": 5
   },
   "verbs.clarify": {
     "danish": "at tydeliggøre",
     "german": "verdeutlichen",
     "english": "to clarify",
+    "spanish": "aclarar",
+    "french": "clarifier",
     "tier": 5
   },
   "verbs.make-clear": {
     "danish": "at gøre klart",
     "german": "klarstellen",
     "english": "to make clear",
+    "spanish": "dejar claro",
+    "french": "mettre au clair",
     "tier": 5
   },
   "verbs.settle": {
     "danish": "at afklare",
     "german": "klären",
     "english": "to settle",
+    "spanish": "esclarecer",
+    "french": "régler",
     "tier": 3
   },
   "verbs.avoid": {
     "danish": "at undgå",
     "german": "vermeiden",
     "english": "to avoid",
+    "spanish": "evitar",
+    "french": "éviter",
     "tier": 3
   },
   "verbs.foresee": {
     "danish": "at forudse",
     "german": "voraussehen",
     "english": "to foresee",
+    "spanish": "prever",
+    "french": "prévoir",
     "tier": 5
   },
   "verbs.predict": {
     "danish": "at forudsige",
     "german": "vorhersagen",
     "english": "to predict",
+    "spanish": "pronosticar",
+    "french": "prédire",
     "tier": 4
   },
   "verbs.take-into-account": {
     "danish": "at tage højde for",
     "german": "berücksichtigen",
     "english": "to take into account",
+    "spanish": "tener en cuenta",
+    "french": "tenir compte de",
     "tier": 4
   },
   "verbs.contemplate": {
     "danish": "at overveje nøje",
     "german": "erwägen",
     "english": "to contemplate",
+    "spanish": "sopesar",
+    "french": "songer à",
     "tier": 5
   },
   "verbs.think-through": {
     "danish": "at gennemtænke",
     "german": "durchdenken",
     "english": "to think through",
+    "spanish": "pensar a fondo",
+    "french": "réfléchir à fond",
     "tier": 5
   },
   "verbs.grasp": {
     "danish": "at begribe",
     "german": "begreifen",
     "english": "to grasp",
+    "spanish": "captar",
+    "french": "saisir",
     "tier": 4
   },
   "verbs.get-it": {
     "danish": "at fatte",
     "german": "kapieren",
     "english": "to get it",
+    "spanish": "pillar",
+    "french": "piger",
     "tier": 3
   },
   "verbs.see-through": {
     "danish": "at gennemskue",
     "german": "durchschauen",
     "english": "to see through",
+    "spanish": "calar",
+    "french": "percer à jour",
     "tier": 5
   },
   "verbs.perceive": {
     "danish": "at opfatte",
     "german": "auffassen",
     "english": "to perceive",
+    "spanish": "entender",
+    "french": "appréhender",
     "tier": 5
   },
   "verbs.perceive-with-senses": {
     "danish": "at sanse",
     "german": "wahrnehmen",
     "english": "to perceive with senses",
+    "spanish": "percibir",
+    "french": "percevoir",
     "tier": 4
   },
   "verbs.view": {
     "danish": "at betragte",
     "german": "betrachten",
     "english": "to view",
+    "spanish": "contemplar",
+    "french": "considérer",
     "tier": 4
   },
   "verbs.observe": {
     "danish": "at iagttage",
     "german": "beobachten",
     "english": "to observe",
+    "spanish": "observar",
+    "french": "observer",
     "tier": 3
   },
   "verbs.monitor": {
     "danish": "at overvåge",
     "german": "überwachen",
     "english": "to monitor",
+    "spanish": "vigilar",
+    "french": "surveiller",
     "tier": 4
   },
   "verbs.explore": {
     "danish": "at udforske",
     "german": "erforschen",
     "english": "to explore",
+    "spanish": "explorar",
+    "french": "explorer",
     "tier": 4
   },
   "verbs.infer": {
     "danish": "at drage en slutning",
     "german": "folgern",
     "english": "to infer",
+    "spanish": "inferir",
+    "french": "déduire",
     "tier": 5
   },
   "verbs.assess": {
     "danish": "at vurdere",
     "german": "beurteilen",
     "english": "to assess",
+    "spanish": "valorar",
+    "french": "estimer",
     "tier": 4
   },
   "verbs.evaluate": {
     "danish": "at evaluere",
     "german": "bewerten",
     "english": "to evaluate",
+    "spanish": "evaluar",
+    "french": "évaluer",
     "tier": 4
   },
   "verbs.compute": {
     "danish": "at beregne",
     "german": "berechnen",
     "english": "to compute",
+    "spanish": "calcular",
+    "french": "calculer",
     "tier": 3
   },
   "verbs.interpret": {
     "danish": "at fortolke",
     "german": "interpretieren",
     "english": "to interpret",
+    "spanish": "interpretar",
+    "french": "interpréter",
     "tier": 3
   },
   "verbs.interpret-a-text": {
     "danish": "at udlægge",
     "german": "auslegen",
     "english": "to interpret a text",
+    "spanish": "dar una interpretación",
+    "french": "donner une interprétation",
     "tier": 5
   },
   "verbs.confuse": {
     "danish": "at forvirre",
     "german": "verwirren",
     "english": "to confuse",
+    "spanish": "desconcertar",
+    "french": "embrouiller",
     "tier": 4
   },
   "verbs.mix-up": {
     "danish": "at forveksle",
     "german": "verwechseln",
     "english": "to mix up",
+    "spanish": "confundir",
+    "french": "confondre",
     "tier": 3
   },
   "verbs.be-mistaken": {
     "danish": "at tage fejl",
     "german": "sich irren",
     "english": "to be mistaken",
+    "spanish": "equivocarse",
+    "french": "se tromper",
     "tier": 3
   },
   "verbs.overlook": {
     "danish": "at overse",
     "german": "übersehen",
     "english": "to overlook",
+    "spanish": "pasar por alto",
+    "french": "ne pas remarquer",
     "tier": 3
   },
   "verbs.neglect": {
     "danish": "at forsømme",
     "german": "vernachlässigen",
     "english": "to neglect",
+    "spanish": "descuidar",
+    "french": "négliger",
     "tier": 5
   },
   "verbs.refrain": {
     "danish": "at undlade",
     "german": "unterlassen",
     "english": "to refrain",
+    "spanish": "abstenerse",
+    "french": "se garder de",
     "tier": 5
   },
   "verbs.abstain": {
     "danish": "at afholde sig",
     "german": "sich enthalten",
     "english": "to abstain",
+    "spanish": "abstenerse",
+    "french": "s'abstenir",
     "tier": 5
   },
   "verbs.renounce": {
     "danish": "at afstå",
     "german": "verzichten",
     "english": "to renounce",
+    "spanish": "renunciar",
+    "french": "renoncer",
     "tier": 3
   },
   "verbs.sacrifice": {
     "danish": "at ofre",
     "german": "opfern",
     "english": "to sacrifice",
+    "spanish": "sacrificar",
+    "french": "sacrifier",
     "tier": 4
   },
   "verbs.acquire": {
     "danish": "at tilegne sig",
     "german": "sich aneignen",
     "english": "to acquire",
+    "spanish": "adquirir",
+    "french": "s'approprier",
     "tier": 5
   },
   "verbs.obtain": {
     "danish": "at erhverve",
     "german": "erwerben",
     "english": "to obtain",
+    "spanish": "obtener",
+    "french": "acquérir",
     "tier": 5
   },
   "verbs.purchase": {
     "danish": "at anskaffe",
     "german": "anschaffen",
     "english": "to purchase",
+    "spanish": "comprar",
+    "french": "faire l'acquisition de",
     "tier": 4
   },
   "verbs.store": {
     "danish": "at opbevare",
     "german": "aufbewahren",
     "english": "to store",
+    "spanish": "guardar",
+    "french": "conserver",
     "tier": 3
   },
   "verbs.stock": {
     "danish": "at lagre",
     "german": "lagern",
     "english": "to stock",
+    "spanish": "almacenar",
+    "french": "stocker",
     "tier": 4
   },
   "verbs.keep": {
     "danish": "at beholde",
     "german": "behalten",
     "english": "to keep",
+    "spanish": "quedarse con",
+    "french": "garder",
     "tier": 3
   },
   "verbs.preserve": {
     "danish": "at bevare",
     "german": "bewahren",
     "english": "to preserve",
+    "spanish": "preservar",
+    "french": "préserver",
     "tier": 4
   },
   "verbs.renovate": {
     "danish": "at renovere",
     "german": "renovieren",
     "english": "to renovate",
+    "spanish": "reformar",
+    "french": "rénover",
     "tier": 3
   },
   "verbs.modernise": {
     "danish": "at modernisere",
     "german": "modernisieren",
     "english": "to modernise",
+    "spanish": "modernizar",
+    "french": "moderniser",
     "tier": 4
   },
   "verbs.demolish": {
     "danish": "at nedrive",
     "german": "abreißen",
     "english": "to demolish",
+    "spanish": "derribar",
+    "french": "démolir",
     "tier": 4
   },
   "verbs.dismantle": {
     "danish": "at afmontere",
     "german": "abbauen",
     "english": "to dismantle",
+    "spanish": "desmontar",
+    "french": "démonter",
     "tier": 4
   },
   "verbs.adjust-oneself": {
     "danish": "at tilpasse sig",
     "german": "sich anpassen",
     "english": "to adjust oneself",
+    "spanish": "adaptarse",
+    "french": "s'adapter",
     "tier": 3
   },
   "verbs.spread": {
     "danish": "at spredes",
     "german": "sich verbreiten",
     "english": "to spread",
+    "spanish": "extenderse",
+    "french": "se répandre",
     "tier": 4
   },
   "verbs.disseminate": {
     "danish": "at udbrede",
     "german": "verbreiten",
     "english": "to disseminate",
+    "spanish": "difundir",
+    "french": "propager",
     "tier": 4
   },
   "verbs.break-out": {
     "danish": "at udbryde",
     "german": "ausbrechen",
     "english": "to break out",
+    "spanish": "estallar",
+    "french": "éclater",
     "tier": 4
   },
   "verbs.arise": {
     "danish": "at opstå",
     "german": "entstehen",
     "english": "to arise",
+    "spanish": "surgir",
+    "french": "se former",
     "tier": 3
   },
   "verbs.trigger": {
     "danish": "at udløse",
     "german": "auslösen",
     "english": "to trigger",
+    "spanish": "desencadenar",
+    "french": "déclencher",
     "tier": 4
   },
   "verbs.evoke": {
     "danish": "at fremkalde",
     "german": "hervorrufen",
     "english": "to evoke",
+    "spanish": "provocar",
+    "french": "provoquer",
     "tier": 5
   },
   "verbs.lead-to": {
     "danish": "at føre",
     "german": "führen",
     "english": "to lead to",
+    "spanish": "conducir a",
+    "french": "mener à",
     "tier": 3
   },
   "verbs.result": {
     "danish": "at resultere",
     "german": "resultieren",
     "english": "to result",
+    "spanish": "resultar",
+    "french": "résulter",
     "tier": 5
   },
   "verbs.originate": {
     "danish": "at stamme fra",
     "german": "stammen",
     "english": "to originate",
+    "spanish": "proceder",
+    "french": "provenir",
     "tier": 3
   },
   "verbs.spring-from": {
     "danish": "at udspringe",
     "german": "entspringen",
     "english": "to spring from",
+    "spanish": "brotar",
+    "french": "jaillir",
     "tier": 5
   },
   "verbs.deviate": {
     "danish": "at afvige",
     "german": "abweichen",
     "english": "to deviate",
+    "spanish": "desviarse",
+    "french": "dévier",
     "tier": 5
   },
   "verbs.lag-behind": {
     "danish": "at sakke bagud",
     "german": "zurückbleiben",
     "english": "to lag behind",
+    "spanish": "quedarse atrás",
+    "french": "rester en arrière",
     "tier": 4
   },
   "verbs.overtake": {
     "danish": "at overhale",
     "german": "überholen",
     "english": "to overtake",
+    "spanish": "adelantar",
+    "french": "dépasser",
     "tier": 3
   },
   "verbs.surpass": {
     "danish": "at overgå",
     "german": "übertreffen",
     "english": "to surpass",
+    "spanish": "superar",
+    "french": "surpasser",
     "tier": 5
   },
   "verbs.exceed": {
     "danish": "at overstige",
     "german": "übersteigen",
     "english": "to exceed",
+    "spanish": "exceder",
+    "french": "excéder",
     "tier": 5
   },
   "verbs.cross": {
     "danish": "at overskride",
     "german": "überschreiten",
     "english": "to cross",
+    "spanish": "atravesar",
+    "french": "franchir",
     "tier": 4
   },
   "verbs.cross-over": {
     "danish": "at krydse",
     "german": "überqueren",
     "english": "to cross over",
+    "spanish": "cruzar",
+    "french": "traverser",
     "tier": 3
   },
   "verbs.go-through": {
     "danish": "at gennemgå",
     "german": "durchgehen",
     "english": "to go through",
+    "spanish": "repasar",
+    "french": "parcourir",
     "tier": 4
   },
   "verbs.search-through": {
     "danish": "at gennemsøge",
     "german": "durchsuchen",
     "english": "to search through",
+    "spanish": "registrar",
+    "french": "fouiller",
     "tier": 3
   },
   "verbs.reveal": {
     "danish": "at afsløre",
     "german": "enthüllen",
     "english": "to reveal",
+    "spanish": "revelar",
+    "french": "dévoiler",
     "tier": 5
   },
   "verbs.hide": {
     "danish": "at skjule",
     "german": "verbergen",
     "english": "to hide",
+    "spanish": "esconder",
+    "french": "cacher",
     "tier": 4
   },
   "verbs.hide-oneself": {
     "danish": "at gemme sig",
     "german": "sich verstecken",
     "english": "to hide oneself",
+    "spanish": "esconderse",
+    "french": "se cacher",
     "tier": 2
   },
   "verbs.cover": {
     "danish": "at dække",
     "german": "bedecken",
     "english": "to cover",
+    "spanish": "cubrir",
+    "french": "couvrir",
     "tier": 4
   },
   "verbs.stow": {
     "danish": "at pakke væk",
     "german": "verstauen",
     "english": "to stow",
+    "spanish": "meter",
+    "french": "caser",
     "tier": 5
   },
   "verbs.pour-a-drink": {
     "danish": "at hælde op",
     "german": "einschenken",
     "english": "to pour a drink",
+    "spanish": "servir una bebida",
+    "french": "servir à boire",
     "tier": 4
   },
   "verbs.season": {
     "danish": "at krydre",
     "german": "würzen",
     "english": "to season",
+    "spanish": "sazonar",
+    "french": "assaisonner",
     "tier": 3
   },
   "verbs.carve": {
     "danish": "at snitte",
     "german": "schnitzen",
     "english": "to carve",
+    "spanish": "tallar",
+    "french": "sculpter",
     "tier": 5
   },
   "verbs.chop": {
     "danish": "at hakke",
     "german": "hacken",
     "english": "to chop",
+    "spanish": "picar",
+    "french": "hacher",
     "tier": 4
   },
   "verbs.peel": {
     "danish": "at skrælle",
     "german": "schälen",
     "english": "to peel",
+    "spanish": "pelar",
+    "french": "éplucher",
     "tier": 3
   },
   "verbs.knead": {
     "danish": "at ælte",
     "german": "kneten",
     "english": "to knead",
+    "spanish": "amasar",
+    "french": "pétrir",
     "tier": 4
   },
   "verbs.ferment": {
     "danish": "at gære",
     "german": "gären",
     "english": "to ferment",
+    "spanish": "fermentar",
+    "french": "fermenter",
     "tier": 5
   },
   "verbs.boil-over": {
     "danish": "at koge over",
     "german": "überkochen",
     "english": "to boil over",
+    "spanish": "rebosar",
+    "french": "déborder",
     "tier": 4
   },
   "verbs.roast": {
     "danish": "at riste",
     "german": "rösten",
     "english": "to roast",
+    "spanish": "tostar",
+    "french": "rôtir",
     "tier": 4
   },
   "verbs.grill": {
     "danish": "at grille",
     "german": "grillen",
     "english": "to grill",
+    "spanish": "asar a la parrilla",
+    "french": "griller",
     "tier": 2
   },
   "verbs.steam": {
     "danish": "at dampe",
     "german": "dünsten",
     "english": "to steam",
+    "spanish": "cocer al vapor",
+    "french": "cuire à la vapeur",
     "tier": 5
   },
   "verbs.prepare-food": {
     "danish": "at tilberede",
     "german": "zubereiten",
     "english": "to prepare food",
+    "spanish": "elaborar",
+    "french": "confectionner",
     "tier": 3
   },
   "verbs.enjoy": {
     "danish": "at nyde",
     "german": "genießen",
     "english": "to enjoy",
+    "spanish": "disfrutar",
+    "french": "savourer",
     "tier": 3
   },
   "verbs.eat-along": {
     "danish": "at spise med",
     "german": "mitessen",
     "english": "to eat along",
+    "spanish": "comer con alguien",
+    "french": "manger avec quelqu'un",
     "tier": 3
   },
   "verbs.get-drunk": {
     "danish": "at drikke sig fuld",
     "german": "sich betrinken",
     "english": "to get drunk",
+    "spanish": "emborracharse",
+    "french": "se saouler",
     "tier": 4
   },
   "verbs.digest": {
     "danish": "at fordøje",
     "german": "verdauen",
     "english": "to digest",
+    "spanish": "digerir",
+    "french": "digérer",
     "tier": 4
   },
   "verbs.stare": {
     "danish": "at stirre",
     "german": "starren",
     "english": "to stare",
+    "spanish": "mirar fijamente",
+    "french": "dévisager",
     "tier": 4
   },
   "verbs.gawk": {
     "danish": "at glo",
     "german": "glotzen",
     "english": "to gawk",
+    "spanish": "mirar boquiabierto",
+    "french": "regarder bouche bée",
     "tier": 5
   },
   "verbs.blink": {
     "danish": "at blinke",
     "german": "blinzeln",
     "english": "to blink",
+    "spanish": "parpadear",
+    "french": "cligner des yeux",
     "tier": 5
   },
   "verbs.nod": {
     "danish": "at nikke",
     "german": "nicken",
     "english": "to nod",
+    "spanish": "asentir",
+    "french": "hocher la tête",
     "tier": 3
   },
   "verbs.shake": {
     "danish": "at ryste",
     "german": "schütteln",
     "english": "to shake",
+    "spanish": "sacudir",
+    "french": "secouer",
     "tier": 3
   },
   "verbs.tremble": {
     "danish": "at skælve",
     "german": "zittern",
     "english": "to tremble",
+    "spanish": "temblar",
+    "french": "trembler",
     "tier": 3
   },
   "verbs.flinch": {
     "danish": "at krympe sig",
     "german": "zucken",
     "english": "to flinch",
+    "spanish": "sobresaltarse",
+    "french": "tressaillir",
     "tier": 5
   },
   "verbs.groan": {
     "danish": "at støne",
     "german": "stöhnen",
     "english": "to groan",
+    "spanish": "gemir",
+    "french": "gémir",
     "tier": 5
   },
   "verbs.sigh": {
     "danish": "at sukke",
     "german": "seufzen",
     "english": "to sigh",
+    "spanish": "suspirar",
+    "french": "soupirer",
     "tier": 5
   },
   "verbs.complain": {
     "danish": "at klage",
     "german": "klagen",
     "english": "to complain",
+    "spanish": "quejarse",
+    "french": "se plaindre",
     "tier": 4
   },
   "verbs.grumble": {
     "danish": "at brokke sig",
     "german": "meckern",
     "english": "to grumble",
+    "spanish": "refunfuñar",
+    "french": "râler",
     "tier": 4
   },
   "verbs.joke": {
     "danish": "at spøge",
     "german": "scherzen",
     "english": "to joke",
+    "spanish": "bromear",
+    "french": "plaisanter",
     "tier": 5
   },
   "verbs.tease": {
     "danish": "at drille",
     "german": "necken",
     "english": "to tease",
+    "spanish": "tomar el pelo",
+    "french": "taquiner",
     "tier": 5
   },
   "verbs.mock": {
     "danish": "at håne",
     "german": "verspotten",
     "english": "to mock",
+    "spanish": "burlarse de",
+    "french": "se moquer de",
     "tier": 5
   },
   "verbs.offend": {
     "danish": "at krænke",
     "german": "kränken",
     "english": "to offend",
+    "spanish": "ofender",
+    "french": "offenser",
     "tier": 5
   },
   "verbs.insult": {
     "danish": "at fornærme",
     "german": "beleidigen",
     "english": "to insult",
+    "spanish": "insultar",
+    "french": "insulter",
     "tier": 4
   },
   "verbs.shock": {
     "danish": "at chokere",
     "german": "schockieren",
     "english": "to shock",
+    "spanish": "conmocionar",
+    "french": "choquer",
     "tier": 4
   },
   "verbs.frighten": {
     "danish": "at forskrække",
     "german": "erschrecken",
     "english": "to frighten",
+    "spanish": "asustar",
+    "french": "effrayer",
     "tier": 3
   },
   "verbs.calm": {
     "danish": "at berolige",
     "german": "beruhigen",
     "english": "to calm",
+    "spanish": "calmar",
+    "french": "calmer",
     "tier": 3
   },
   "verbs.reconcile": {
     "danish": "at forsone",
     "german": "versöhnen",
     "english": "to reconcile",
+    "spanish": "reconciliar",
+    "french": "réconcilier",
     "tier": 4
   },
   "verbs.be-content": {
     "danish": "at nøjes",
     "german": "sich begnügen",
     "english": "to be content",
+    "spanish": "conformarse",
+    "french": "se contenter",
     "tier": 5
   },
   "verbs.cling": {
     "danish": "at klamre sig",
     "german": "sich klammern",
     "english": "to cling",
+    "spanish": "aferrarse",
+    "french": "s'accrocher",
     "tier": 5
   },
   "verbs.worship": {
     "danish": "at tilbede",
     "german": "anbeten",
     "english": "to worship",
+    "spanish": "adorar",
+    "french": "vénérer",
     "tier": 5
   },
   "verbs.pray": {
     "danish": "at bede til",
     "german": "beten",
     "english": "to pray",
+    "spanish": "rezar",
+    "french": "prier",
     "tier": 3
   },
   "verbs.bless": {
     "danish": "at velsigne",
     "german": "segnen",
     "english": "to bless",
+    "spanish": "bendecir",
+    "french": "bénir",
     "tier": 5
   },
   "verbs.curse": {
     "danish": "at forbande",
     "german": "verfluchen",
     "english": "to curse",
+    "spanish": "maldecir",
+    "french": "maudire",
     "tier": 5
   },
   "verbs.swear": {
     "danish": "at banne",
     "german": "fluchen",
     "english": "to swear",
+    "spanish": "decir palabrotas",
+    "french": "jurer",
     "tier": 4
   },
   "verbs.swear-an-oath": {
     "danish": "at sværge",
     "german": "schwören",
     "english": "to swear an oath",
+    "spanish": "jurar",
+    "french": "prêter serment",
     "tier": 4
   },
   "verbs.protest": {
     "danish": "at protestere",
     "german": "protestieren",
     "english": "to protest",
+    "spanish": "protestar",
+    "french": "protester",
     "tier": 3
   },
   "verbs.demonstrate": {
     "danish": "at demonstrere",
     "german": "demonstrieren",
     "english": "to demonstrate",
+    "spanish": "manifestarse",
+    "french": "manifester",
     "tier": 3
   },
   "verbs.complain-formally": {
     "danish": "at klage over",
     "german": "sich beschweren",
     "english": "to complain formally",
+    "spanish": "presentar una queja",
+    "french": "déposer une réclamation",
     "tier": 3
   },
   "verbs.appeal": {
     "danish": "at appellere",
     "german": "appellieren",
     "english": "to appeal",
+    "spanish": "apelar",
+    "french": "faire appel",
     "tier": 5
   },
   "verbs.turn-to": {
     "danish": "at henvende sig",
     "german": "sich wenden",
     "english": "to turn to",
+    "spanish": "dirigirse a",
+    "french": "s'adresser à",
     "tier": 4
   },
   "verbs.concern": {
     "danish": "at vedrøre",
     "german": "betreffen",
     "english": "to concern",
+    "spanish": "afectar",
+    "french": "concerner",
     "tier": 3
   },
   "verbs.concern-someone": {
     "danish": "at angå",
     "german": "angehen",
     "english": "to concern someone",
+    "spanish": "incumbir",
+    "french": "regarder",
     "tier": 4
   },
   "verbs.correspond": {
     "danish": "at svare til",
     "german": "entsprechen",
     "english": "to correspond",
+    "spanish": "corresponder",
+    "french": "correspondre",
     "tier": 3
   },
   "verbs.agree-with": {
     "danish": "at stemme overens",
     "german": "übereinstimmen",
     "english": "to agree with",
+    "spanish": "coincidir",
+    "french": "concorder",
     "tier": 4
   },
   "verbs.contradict-oneself": {
     "danish": "at modsige sig",
     "german": "sich widersprechen",
     "english": "to contradict oneself",
+    "spanish": "contradecirse",
+    "french": "se contredire",
     "tier": 4
   },
   "verbs.excel": {
     "danish": "at udmærke sig",
     "german": "sich auszeichnen",
     "english": "to excel",
+    "spanish": "sobresalir",
+    "french": "se distinguer",
     "tier": 5
   },
   "verbs.honour": {
     "danish": "at hædre",
     "german": "ehren",
     "english": "to honour",
+    "spanish": "honrar",
+    "french": "honorer",
     "tier": 4
   },
   "verbs.reward": {
     "danish": "at belønne",
     "german": "belohnen",
     "english": "to reward",
+    "spanish": "recompensar",
+    "french": "récompenser",
     "tier": 4
   },
   "verbs.say-goodbye": {
     "danish": "at sige farvel til",
     "german": "verabschieden",
     "english": "to say goodbye to",
+    "spanish": "despedir",
+    "french": "dire au revoir",
     "tier": 3
   },
   "verbs.take-leave": {
     "danish": "at tage afsked",
     "german": "sich verabschieden",
     "english": "to take leave",
+    "spanish": "despedirse",
+    "french": "prendre congé",
     "tier": 2
   },
   "verbs.part": {
     "danish": "at skilles",
     "german": "sich trennen",
     "english": "to part",
+    "spanish": "separarse",
+    "french": "se séparer",
     "tier": 3
   },
   "verbs.come-to-terms": {
     "danish": "at blive enige",
     "german": "sich einigen",
     "english": "to reach an agreement",
+    "spanish": "ponerse de acuerdo",
+    "french": "se mettre d'accord",
     "tier": 3
   },
   "verbs.confess": {
     "danish": "at tilstå",
     "german": "gestehen",
     "english": "to confess",
+    "spanish": "confesar",
+    "french": "avouer",
     "tier": 4
   },
   "verbs.entrust": {
     "danish": "at betro",
     "german": "anvertrauen",
     "english": "to entrust",
+    "spanish": "encomendar",
+    "french": "confier",
     "tier": 5
   },
   "verbs.leave-to": {
     "danish": "at overlade",
     "german": "überlassen",
     "english": "to leave to",
+    "spanish": "dejar en manos de",
+    "french": "laisser à",
     "tier": 4
   },
   "verbs.allocate": {
     "danish": "at tildele",
     "german": "zuteilen",
     "english": "to allocate",
+    "spanish": "asignar",
+    "french": "attribuer",
     "tier": 5
   },
   "verbs.distribute": {
     "danish": "at fordele",
     "german": "verteilen",
     "english": "to distribute",
+    "spanish": "distribuir",
+    "french": "répartir",
     "tier": 3
   },
   "verbs.hand-out": {
     "danish": "at uddele",
     "german": "austeilen",
     "english": "to hand out",
+    "spanish": "repartir",
+    "french": "distribuer",
     "tier": 4
   },
   "verbs.hand-out-officially": {
     "danish": "at udlevere",
     "german": "aushändigen",
     "english": "to hand out officially",
+    "spanish": "entregar oficialmente",
+    "french": "remettre officiellement",
     "tier": 5
   },
   "verbs.issue": {
     "danish": "at udstede",
     "german": "ausstellen",
     "english": "to issue",
+    "spanish": "expedir",
+    "french": "délivrer",
     "tier": 3
   },
   "verbs.renew": {
     "danish": "at forny",
     "german": "erneuern",
     "english": "to renew",
+    "spanish": "renovar",
+    "french": "renouveler",
     "tier": 3
   },
   "verbs.announce": {
     "danish": "at annoncere",
     "german": "ankündigen",
     "english": "to announce",
+    "spanish": "anunciar",
+    "french": "annoncer",
     "tier": 4
   },
   "verbs.make-public": {
     "danish": "at bekendtgøre",
     "german": "bekanntgeben",
     "english": "to make public",
+    "spanish": "hacer público",
+    "french": "rendre public",
     "tier": 4
   },
   "verbs.express-an-opinion": {
     "danish": "at udtale sig",
     "german": "sich äußern",
     "english": "to express an opinion",
+    "spanish": "pronunciarse",
+    "french": "se prononcer",
     "tier": 4
   },
   "verbs.comment": {
     "danish": "at kommentere",
     "german": "kommentieren",
     "english": "to comment",
+    "spanish": "comentar",
+    "french": "commenter",
     "tier": 3
   },
   "verbs.vouch": {
     "danish": "at stå inde for",
     "german": "bürgen",
     "english": "to vouch",
+    "spanish": "avalar",
+    "french": "se porter garant",
     "tier": 5
   },
   "verbs.commit-oneself": {
     "danish": "at forpligte sig",
     "german": "sich verpflichten",
     "english": "to commit oneself",
+    "spanish": "comprometerse",
+    "french": "s'engager",
     "tier": 4
   },
   "verbs.take-on": {
     "danish": "at påtage sig",
     "german": "übernehmen",
     "english": "to take on",
+    "spanish": "encargarse de",
+    "french": "se charger de",
     "tier": 3
   },
   "verbs.relieve": {
     "danish": "at afløse",
     "german": "ablösen",
     "english": "to relieve",
+    "spanish": "relevar",
+    "french": "relayer",
     "tier": 5
   },
   "verbs.depose": {
     "danish": "at afsætte",
     "german": "absetzen",
     "english": "to depose",
+    "spanish": "destituir",
+    "french": "destituer",
     "tier": 4
   },
   "verbs.appoint": {
     "danish": "at udnævne",
     "german": "ernennen",
     "english": "to appoint",
+    "spanish": "nombrar",
+    "french": "nommer à un poste",
     "tier": 5
   },
   "verbs.go-bankrupt": {
     "danish": "at gå konkurs",
     "german": "pleitegehen",
     "english": "to go bankrupt",
+    "spanish": "quebrar",
+    "french": "faire faillite",
     "tier": 4
   },
   "verbs.lend": {
     "danish": "at låne ud",
     "german": "verleihen",
     "english": "to lend",
+    "spanish": "prestar",
+    "french": "prêter",
     "tier": 4
   },
   "verbs.tax": {
     "danish": "at beskatte",
     "german": "besteuern",
     "english": "to tax",
+    "spanish": "gravar",
+    "french": "imposer",
     "tier": 5
   },
   "verbs.insure": {
     "danish": "at forsikre",
     "german": "versichern",
     "english": "to insure",
+    "spanish": "asegurar",
+    "french": "assurer",
     "tier": 3
   },
   "verbs.settle-accounts": {
     "danish": "at afregne",
     "german": "abrechnen",
     "english": "to settle accounts",
+    "spanish": "liquidar cuentas",
+    "french": "faire les comptes",
     "tier": 4
   },
   "verbs.collect-debts": {
     "danish": "at inddrive",
     "german": "eintreiben",
     "english": "to collect debts",
+    "spanish": "cobrar deudas",
+    "french": "recouvrer",
     "tier": 5
   },
   "verbs.drift": {
     "danish": "at drive",
     "german": "treiben",
     "english": "to drift",
+    "spanish": "ir a la deriva",
+    "french": "dériver",
     "tier": 4
   },
   "verbs.irrigate": {
     "danish": "at vande",
     "german": "bewässern",
     "english": "to irrigate",
+    "spanish": "regar",
+    "french": "irriguer",
     "tier": 5
   },
   "verbs.tell-lies": {
     "danish": "at lyve",
     "german": "lügen",
     "english": "to tell lies",
+    "spanish": "mentir",
+    "french": "mentir",
     "tier": 2
   },
   "verbs.be-alive": {
     "danish": "at leve",
     "german": "leben",
     "english": "to be alive",
+    "spanish": "estar vivo",
+    "french": "être en vie",
     "tier": 1
   },
   "verbs.signify": {
     "danish": "at betyde",
     "german": "bedeuten",
     "english": "to signify",
+    "spanish": "significar",
+    "french": "signifier",
     "tier": 2
   },
   "verbs.modify": {
     "danish": "at ændre",
     "german": "ändern",
     "english": "to modify",
+    "spanish": "modificar",
+    "french": "modifier",
     "tier": 2
   },
   "verbs.apply-for-a-job": {
     "danish": "at søge job",
     "german": "sich bewerben",
     "english": "to apply for a job",
+    "spanish": "solicitar empleo",
+    "french": "postuler",
     "tier": 3
   },
   "verbs.indict": {
     "danish": "at sigte",
     "german": "anklagen",
     "english": "to indict",
+    "spanish": "procesar",
+    "french": "inculper",
     "tier": 5
   },
   "verbs.forestall": {
     "danish": "at forebygge",
     "german": "vorbeugen",
     "english": "to forestall",
+    "spanish": "prevenir",
+    "french": "prévenir",
     "tier": 5
   }
 }

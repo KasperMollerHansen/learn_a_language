@@ -3,150 +3,200 @@
     "danish": "rød",
     "german": "rot",
     "english": "red",
+    "spanish": "rojo",
+    "french": "rouge",
     "tier": 1
   },
   "colors.blue": {
     "danish": "blå",
     "german": "blau",
     "english": "blue",
+    "spanish": "azul",
+    "french": "bleu",
     "tier": 1
   },
   "colors.green": {
     "danish": "grøn",
     "german": "grün",
     "english": "green",
+    "spanish": "verde",
+    "french": "vert",
     "tier": 1
   },
   "colors.yellow": {
     "danish": "gul",
     "german": "gelb",
     "english": "yellow",
+    "spanish": "amarillo",
+    "french": "jaune",
     "tier": 1
   },
   "colors.black": {
     "danish": "sort",
     "german": "schwarz",
     "english": "black",
+    "spanish": "negro",
+    "french": "noir",
     "tier": 1
   },
   "colors.white": {
     "danish": "hvid",
     "german": "weiß",
     "english": "white",
+    "spanish": "blanco",
+    "french": "blanc",
     "tier": 1
   },
   "colors.grey": {
     "danish": "grå",
     "german": "grau",
     "english": "grey",
+    "spanish": "gris",
+    "french": "gris",
     "tier": 1
   },
   "colors.brown": {
     "danish": "brun",
     "german": "braun",
     "english": "brown",
+    "spanish": "marrón",
+    "french": "marron",
     "tier": 1
   },
   "colors.orange": {
     "danish": "orange",
     "german": "orange",
     "english": "orange",
+    "spanish": "naranja",
+    "french": "orange",
     "tier": 1
   },
   "colors.pink": {
     "danish": "lyserød",
     "german": "rosa",
     "english": "pink",
+    "spanish": "rosa",
+    "french": "rose",
     "tier": 1
   },
   "colors.purple": {
     "danish": "lilla",
     "german": "lila",
     "english": "purple",
+    "spanish": "morado",
+    "french": "mauve",
     "tier": 1
   },
   "colors.turquoise": {
     "danish": "turkis",
     "german": "türkis",
     "english": "turquoise",
+    "spanish": "turquesa",
+    "french": "turquoise",
     "tier": 3
   },
   "colors.beige": {
     "danish": "beige",
     "german": "beige",
     "english": "beige",
+    "spanish": "beige",
+    "french": "beige",
     "tier": 2
   },
   "colors.silver": {
     "danish": "sølv",
     "german": "silber",
     "english": "silver",
+    "spanish": "plateado",
+    "french": "argenté",
     "tier": 2
   },
   "colors.violet": {
     "danish": "violet",
     "german": "violett",
     "english": "violet",
+    "spanish": "violeta",
+    "french": "violet",
     "tier": 4
   },
   "colors.light-blue": {
     "danish": "lyseblå",
     "german": "hellblau",
     "english": "light blue",
+    "spanish": "azul claro",
+    "french": "bleu clair",
     "tier": 2
   },
   "colors.dark-blue": {
     "danish": "mørkeblå",
     "german": "dunkelblau",
     "english": "dark blue",
+    "spanish": "azul oscuro",
+    "french": "bleu foncé",
     "tier": 2
   },
   "colors.dark-green": {
     "danish": "mørkegrøn",
     "german": "dunkelgrün",
     "english": "dark green",
+    "spanish": "verde oscuro",
+    "french": "vert foncé",
     "tier": 2
   },
   "colors.light-green": {
     "danish": "lysegrøn",
     "german": "hellgrün",
     "english": "light green",
+    "spanish": "verde claro",
+    "french": "vert clair",
     "tier": 2
   },
   "colors.navy-blue": {
     "danish": "marineblå",
     "german": "marineblau",
     "english": "navy blue",
+    "spanish": "azul marino",
+    "french": "bleu marine",
     "tier": 4
   },
   "colors.blond": {
     "danish": "blond",
     "german": "blond",
     "english": "blond",
+    "spanish": "rubio",
+    "french": "blond",
     "tier": 2
   },
   "colors.pale": {
     "danish": "bleg",
     "german": "bleich",
     "english": "pale",
+    "spanish": "pálido",
+    "french": "pâle",
     "tier": 4
   },
   "colors.colourless": {
     "danish": "farveløs",
     "german": "farblos",
     "english": "colourless",
+    "spanish": "incoloro",
+    "french": "incolore",
     "tier": 4
   },
   "colors.multicoloured": {
     "danish": "broget",
     "german": "bunt",
     "english": "multicoloured",
+    "spanish": "multicolor",
+    "french": "multicolore",
     "tier": 2
   },
   "colors.colour": {
     "danish": "farve",
     "german": "Farbe",
     "english": "colour",
+    "spanish": "el color",
+    "french": "la couleur",
     "gender": "die",
     "danishDefinite": "farven",
     "danishIndefinite": "en farve",

@@ -193,7 +193,7 @@
   <body class="menu-mode">
     <div class="app">
       <header>
-        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.2.0</span></button>
+        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.3.0</span></button>
         <div class="header-right"><button class="install" id="pair-button" type="button" title="Change languages">Danish → German</button><button class="install" id="install-button" type="button">Install app</button></div>
       </header>
       <main>
@@ -276,17 +276,19 @@
       let tabs = [...document.querySelectorAll(".level")];
       const lanes = [...document.querySelectorAll(".lane")];
       const progressStorageKey = "wortlauf-progress-v4";
-      // Each language is named in English in the UI and in its own language on the pair screen, so a reader finds theirs.
+      // Each language is named in English in the UI, including on the pair screen.
       const languages = {
-        danish: { code: "da", name: "Danish", ownName: "Dansk", wellDone: "Godt klaret!" },
-        german: { code: "de", name: "German", ownName: "Deutsch", wellDone: "Sehr gut!" },
-        english: { code: "en", name: "English", ownName: "English", wellDone: "Well done!" }
+        danish: { code: "da", name: "Danish", wellDone: "Godt klaret!" },
+        german: { code: "de", name: "German", wellDone: "Sehr gut!" },
+        english: { code: "en", name: "English", wellDone: "Well done!" },
+        spanish: { code: "es", name: "Spanish", wellDone: "¡Muy bien!" },
+        french: { code: "fr", name: "French", wellDone: "Très bien !" }
       };
       const languageKeys = Object.keys(languages);
-      // Which pairs a level mode can be played in: article mode drills German articles; word and sentence levels work in every pair.
+      // Which pairs a level mode can be played in: article mode drills German articles from Danish or English (Spanish and French nouns carry their own article); word and sentence levels work in every pair.
       const modePlayable = {
         word: () => true,
-        article: (pair) => pair.target === "german",
+        article: (pair) => pair.target === "german" && ["danish", "english"].includes(pair.source),
         sentence: () => true
       };
       const pairId = (pair) => `${languages[pair.source].code}-${languages[pair.target].code}`;
@@ -346,7 +348,7 @@
       let installPrompt, activePointerId = null, activeSentenceId = null, sentenceProgress = [];
 
       function shuffle(items) { return [...items].sort(() => Math.random() - .5); }
-      const promptKey = (word) => word[pair.source].trim().toLowerCase();
+      const promptKey = (word) => word[pair.source].trim().toLowerCase().replaceAll("’", "'");
       // Every target word that is a correct answer for this word's prompt; such words never appear as wrong gates.
       function acceptedAnswers(word) {
         return new Set([...(answersByPrompt.get(promptKey(word)) || []), ...(word[`${pair.target}Alternatives`] || [])]);
@@ -379,12 +381,18 @@
         }
         return deck;
       }
-      // The prompt sentence is its chunks in the source language, joined by spaces, with the active chunk marked.
+      // Chunks are separated by a space, except after an apostrophe (French elision: "J'" + "ai").
+      function chunkGap(text) {
+        return /['’]$/.test(text) ? "" : " ";
+      }
+      function joinChunks(parts) {
+        return parts.reduce((text, part, index) => (index ? text + chunkGap(text) + part : part), "");
+      }
       function renderSentence(chunks, activeStep) {
         const display = $("#word");
         display.replaceChildren();
         chunks.forEach((chunk, index) => {
-          if (index > 0) display.append(document.createTextNode(" "));
+          if (index > 0) display.append(document.createTextNode(chunkGap(chunks[index - 1][pair.source])));
           const part = document.createElement("span");
           part.className = "sentence-chunk";
           if (chunk.step === activeStep) part.classList.add("active");
@@ -462,7 +470,7 @@
             .filter((chunk) => chunk.sentenceId === currentWord.sentenceId)
             .sort((left, right) => left.step - right.step);
           renderSentence(sentenceChunks, currentWord.step);
-          $("#translation-added").textContent = sentenceProgress.join(" ");
+          $("#translation-added").textContent = joinChunks(sentenceProgress);
           $("#translation-added").hidden = sentenceProgress.length === 0;
           options = shuffle(currentWord[`${pair.target}Options`]);
           correctLane = options.indexOf(currentWord[pair.target]);
@@ -492,8 +500,13 @@
           $("#prompt-label").textContent = fillLanguages(level.prompt);
           $("#word").textContent = currentWord[pair.source];
           const accepted = acceptedAnswers(currentWord);
-          const distractors = [...new Map(shuffle(level.words.filter((word) => !accepted.has(word[pair.target])))
-            .map((word) => [word[pair.target], word])).values()].slice(0, 2);
+          // Same kind first (noun vs non-noun), so an article or capital never gives the answer away.
+          const eligible = level.words.filter((word) => !accepted.has(word[pair.target]));
+          const sameKind = (word) => ("gender" in word) === ("gender" in currentWord);
+          const unique = (words) => [...new Map(words.map((word) => [word[pair.target], word])).values()];
+          const preferred = unique(shuffle(eligible.filter(sameKind)));
+          const distractors = preferred.length >= 2 ? preferred.slice(0, 2)
+            : unique([...preferred, ...shuffle(eligible.filter((word) => !sameKind(word)))]).slice(0, 2);
           options = shuffle([currentWord, ...distractors]).map((word) => word[pair.target]);
           correctLane = options.indexOf(currentWord[pair.target]);
         }
@@ -589,7 +602,7 @@
         lanes[selectedLane].classList.add(correct ? "good" : "bad");
         if (correct && levels[levelIndex].mode === "sentence") {
           sentenceProgress.push(currentWord[pair.target]);
-          $("#translation-added").textContent = sentenceProgress.join(" ");
+          $("#translation-added").textContent = joinChunks(sentenceProgress);
           $("#translation-added").hidden = false;
         }
         const runner = $("#runner");
@@ -711,8 +724,7 @@
           container.replaceChildren(...keys.map((key) => {
             const button = document.createElement("button");
             button.type = "button";
-            button.lang = languages[key].code;
-            button.textContent = languages[key].ownName;
+            button.textContent = languages[key].name;
             button.setAttribute("aria-pressed", String(pendingPair[role] === key));
             button.addEventListener("click", () => {
               pendingPair = { ...pendingPair, [role]: key };

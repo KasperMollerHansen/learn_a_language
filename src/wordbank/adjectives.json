@@ -3,1818 +3,2424 @@
     "danish": "glad",
     "german": "glücklich",
     "english": "happy",
+    "spanish": "feliz",
+    "french": "heureux",
     "tier": 1
   },
   "adjectives.sad": {
     "danish": "ked af det",
     "german": "traurig",
     "english": "sad",
+    "spanish": "triste",
+    "french": "triste",
     "tier": 2
   },
   "adjectives.big": {
     "danish": "stor",
     "german": "groß",
     "english": "big",
+    "spanish": "grande",
+    "french": "grand",
     "tier": 1
   },
   "adjectives.small": {
     "danish": "lille",
     "german": "klein",
     "english": "small",
+    "spanish": "pequeño",
+    "french": "petit",
     "tier": 1
   },
   "adjectives.new": {
     "danish": "ny",
     "german": "neu",
     "english": "new",
+    "spanish": "nuevo",
+    "french": "nouveau",
     "tier": 1
   },
   "adjectives.old": {
     "danish": "gammel",
     "german": "alt",
     "english": "old",
+    "spanish": "viejo",
+    "french": "vieux",
     "tier": 1
   },
   "adjectives.fast": {
     "danish": "hurtig",
     "german": "schnell",
     "english": "fast",
+    "spanish": "rápido",
+    "french": "rapide",
     "tier": 1
   },
   "adjectives.slow": {
     "danish": "langsom",
     "german": "langsam",
     "english": "slow",
+    "spanish": "lento",
+    "french": "lent",
     "tier": 1
   },
   "adjectives.strong": {
     "danish": "stærk",
     "german": "stark",
     "english": "strong",
+    "spanish": "fuerte",
+    "french": "fort",
     "tier": 2
   },
   "adjectives.weak": {
     "danish": "svag",
     "german": "schwach",
     "english": "weak",
+    "spanish": "débil",
+    "french": "faible",
     "tier": 2
   },
   "adjectives.clean": {
     "danish": "ren",
     "german": "sauber",
     "english": "clean",
+    "spanish": "limpio",
+    "french": "propre",
     "tier": 1
   },
   "adjectives.dirty": {
     "danish": "beskidt",
     "german": "schmutzig",
     "english": "dirty",
+    "spanish": "sucio",
+    "french": "sale",
     "tier": 3
   },
   "adjectives.hot": {
     "danish": "hed",
     "german": "heiß",
     "english": "hot",
+    "spanish": "caliente",
+    "french": "brûlant",
     "tier": 1
   },
   "adjectives.cold": {
     "danish": "kold",
     "german": "kalt",
     "english": "cold",
+    "spanish": "frío",
+    "french": "froid",
     "tier": 1
   },
   "adjectives.light": {
     "danish": "let",
     "german": "leicht",
     "english": "light",
+    "spanish": "ligero",
+    "french": "léger",
     "tier": 2
   },
   "adjectives.heavy": {
     "danish": "tung",
     "german": "schwer",
     "english": "heavy",
+    "spanish": "pesado",
+    "french": "lourd",
     "tier": 2
   },
   "adjectives.quiet": {
     "danish": "stille",
     "german": "ruhig",
     "english": "quiet",
+    "spanish": "tranquilo",
+    "french": "calme",
     "tier": 1
   },
   "adjectives.loud": {
     "danish": "højlydt",
     "german": "laut",
     "english": "loud",
+    "spanish": "ruidoso",
+    "french": "bruyant",
     "tier": 1
   },
   "adjectives.beautiful": {
     "danish": "smuk",
     "german": "schön",
     "english": "beautiful",
+    "spanish": "hermoso",
+    "french": "beau",
     "tier": 2
   },
   "adjectives.ugly": {
     "danish": "grim",
     "german": "hässlich",
     "english": "ugly",
+    "spanish": "feo",
+    "french": "laid",
     "tier": 3
   },
   "adjectives.smart": {
     "danish": "klog",
     "german": "klug",
     "english": "smart",
+    "spanish": "inteligente",
+    "french": "intelligent",
     "tier": 3
   },
   "adjectives.tall": {
     "danish": "høj",
     "german": "hoch",
     "english": "high",
+    "spanish": "alto",
+    "french": "haut",
     "tier": 2
   },
   "adjectives.short": {
     "danish": "kort",
     "german": "kurz",
     "english": "short",
+    "spanish": "corto",
+    "french": "court",
     "tier": 2
   },
   "adjectives.young": {
     "danish": "ung",
     "german": "jung",
     "english": "young",
+    "spanish": "joven",
+    "french": "jeune",
     "tier": 1
   },
   "adjectives.good": {
     "danish": "god",
     "german": "gut",
     "english": "good",
+    "spanish": "bueno",
+    "french": "bon",
     "tier": 1
   },
   "adjectives.bad": {
     "danish": "dårlig",
     "german": "schlecht",
     "english": "bad",
+    "spanish": "malo",
+    "french": "mauvais",
     "tier": 1
   },
   "adjectives.easy": {
     "danish": "nem",
     "german": "einfach",
     "english": "easy",
+    "spanish": "fácil",
+    "french": "facile",
     "tier": 1
   },
   "adjectives.difficult": {
     "danish": "svær",
     "german": "schwierig",
     "english": "difficult",
+    "spanish": "difícil",
+    "french": "difficile",
     "tier": 3
   },
   "adjectives.expensive": {
     "danish": "dyr",
     "german": "teuer",
     "english": "expensive",
+    "spanish": "caro",
+    "french": "cher",
     "tier": 2
   },
   "adjectives.cheap": {
     "danish": "billig",
     "german": "billig",
     "english": "cheap",
+    "spanish": "barato",
+    "french": "bon marché",
     "tier": 2
   },
   "adjectives.warm": {
     "danish": "varm",
     "german": "warm",
     "english": "warm",
+    "spanish": "cálido",
+    "french": "chaud",
     "tier": 1
   },
   "adjectives.cool": {
     "danish": "kølig",
     "german": "kühl",
     "english": "cool",
+    "spanish": "fresco",
+    "french": "frisquet",
     "tier": 2
   },
   "adjectives.tired": {
     "danish": "træt",
     "german": "müde",
     "english": "tired",
+    "spanish": "cansado",
+    "french": "fatigué",
     "tier": 1
   },
   "adjectives.awake": {
     "danish": "vågen",
     "german": "wach",
     "english": "awake",
+    "spanish": "despierto",
+    "french": "éveillé",
     "tier": 3
   },
   "adjectives.hungry": {
     "danish": "sulten",
     "german": "hungrig",
     "english": "hungry",
+    "spanish": "hambriento",
+    "french": "affamé",
     "tier": 1
   },
   "adjectives.thirsty": {
     "danish": "tørstig",
     "german": "durstig",
     "english": "thirsty",
+    "spanish": "sediento",
+    "french": "assoiffé",
     "tier": 1
   },
   "adjectives.full-of-food": {
     "danish": "mæt",
     "german": "satt",
     "english": "full (of food)",
+    "spanish": "lleno",
+    "french": "rassasié",
     "tier": 2
   },
   "adjectives.sick": {
     "danish": "syg",
     "german": "krank",
     "english": "sick",
+    "spanish": "enfermo",
+    "french": "malade",
     "tier": 1
   },
   "adjectives.healthy": {
     "danish": "sund",
     "german": "gesund",
     "english": "healthy",
+    "spanish": "sano",
+    "french": "sain",
     "tier": 1
   },
   "adjectives.full": {
     "danish": "fuld",
     "german": "voll",
     "english": "full",
+    "spanish": "lleno",
+    "french": "plein",
     "tier": 1
   },
   "adjectives.empty": {
     "danish": "tom",
     "german": "leer",
     "english": "empty",
+    "spanish": "vacío",
+    "french": "vide",
     "tier": 1
   },
   "adjectives.open": {
     "danish": "åben",
     "german": "offen",
     "english": "open",
+    "spanish": "abierto",
+    "french": "ouvert",
     "tier": 1
   },
   "adjectives.closed": {
     "danish": "lukket",
     "german": "geschlossen",
     "english": "closed",
+    "spanish": "cerrado",
+    "french": "fermé",
     "tier": 1
   },
   "adjectives.right": {
     "danish": "rigtig",
     "german": "richtig",
     "english": "right",
+    "spanish": "correcto",
+    "french": "juste",
     "tier": 1
   },
   "adjectives.wrong": {
     "danish": "forkert",
     "german": "falsch",
     "english": "wrong",
+    "spanish": "incorrecto",
+    "french": "faux",
     "tier": 1
   },
   "adjectives.true": {
     "danish": "sand",
     "german": "wahr",
     "english": "true",
+    "spanish": "verdadero",
+    "french": "vrai",
     "tier": 2
   },
   "adjectives.free": {
     "danish": "fri",
     "german": "frei",
     "english": "free",
+    "spanish": "libre",
+    "french": "libre",
     "tier": 1
   },
   "adjectives.occupied": {
     "danish": "optaget",
     "german": "besetzt",
     "english": "occupied",
+    "spanish": "ocupado",
+    "french": "occupé",
     "tier": 2
   },
   "adjectives.wide": {
     "danish": "bred",
     "german": "breit",
     "english": "wide",
+    "spanish": "ancho",
+    "french": "large",
     "tier": 3
   },
   "adjectives.narrow": {
     "danish": "smal",
     "german": "schmal",
     "english": "narrow",
+    "spanish": "estrecho",
+    "french": "étroit",
     "tier": 3
   },
   "adjectives.thick": {
     "danish": "tyk",
     "german": "dick",
     "english": "thick",
+    "spanish": "grueso",
+    "french": "épais",
     "tier": 2
   },
   "adjectives.thin": {
     "danish": "tynd",
     "german": "dünn",
     "english": "thin",
+    "spanish": "delgado",
+    "french": "mince",
     "tier": 2
   },
   "adjectives.long": {
     "danish": "lang",
     "german": "lang",
     "english": "long",
+    "spanish": "largo",
+    "french": "long",
     "tier": 1
   },
   "adjectives.deep": {
     "danish": "dyb",
     "german": "tief",
     "english": "deep",
+    "spanish": "profundo",
+    "french": "profond",
     "tier": 3
   },
   "adjectives.flat": {
     "danish": "flad",
     "german": "flach",
     "english": "flat",
+    "spanish": "plano",
+    "french": "plat",
     "tier": 3
   },
   "adjectives.bright": {
     "danish": "lys",
     "german": "hell",
     "english": "bright",
+    "spanish": "luminoso",
+    "french": "lumineux",
     "tier": 2
   },
   "adjectives.dark": {
     "danish": "mørk",
     "german": "dunkel",
     "english": "dark",
+    "spanish": "oscuro",
+    "french": "sombre",
     "tier": 1
   },
   "adjectives.wet": {
     "danish": "våd",
     "german": "nass",
     "english": "wet",
+    "spanish": "mojado",
+    "french": "mouillé",
     "tier": 2
   },
   "adjectives.dry": {
     "danish": "tør",
     "german": "trocken",
     "english": "dry",
+    "spanish": "seco",
+    "french": "sec",
     "tier": 2
   },
   "adjectives.soft": {
     "danish": "blød",
     "german": "weich",
     "english": "soft",
+    "spanish": "blando",
+    "french": "mou",
     "tier": 3
   },
   "adjectives.hard": {
     "danish": "hård",
     "german": "hart",
     "english": "hard",
+    "spanish": "duro",
+    "french": "dur",
     "tier": 3
   },
   "adjectives.sharp": {
     "danish": "skarp",
     "german": "scharf",
     "english": "sharp",
+    "spanish": "afilado",
+    "french": "tranchant",
     "tier": 2
   },
   "adjectives.blunt": {
     "danish": "sløv",
     "german": "stumpf",
     "english": "blunt",
+    "spanish": "desafilado",
+    "french": "émoussé",
     "tier": 4
   },
   "adjectives.smooth": {
     "danish": "glat",
     "german": "glatt",
     "english": "smooth",
+    "spanish": "liso",
+    "french": "lisse",
     "tier": 4
   },
   "adjectives.rough": {
     "danish": "ru",
     "german": "rau",
     "english": "rough",
+    "spanish": "áspero",
+    "french": "rugueux",
     "tier": 4
   },
   "adjectives.round": {
     "danish": "rund",
     "german": "rund",
     "english": "round",
+    "spanish": "redondo",
+    "french": "rond",
     "tier": 2
   },
   "adjectives.angular": {
     "danish": "kantet",
     "german": "eckig",
     "english": "angular",
+    "spanish": "anguloso",
+    "french": "anguleux",
     "tier": 4
   },
   "adjectives.straight": {
     "danish": "lige",
     "german": "gerade",
     "english": "straight",
+    "spanish": "recto",
+    "french": "droit",
     "tier": 2
   },
   "adjectives.crooked": {
     "danish": "krum",
     "german": "krumm",
     "english": "crooked",
+    "spanish": "torcido",
+    "french": "tordu",
     "tier": 4
   },
   "adjectives.lopsided": {
     "danish": "skæv",
     "german": "schief",
     "english": "lopsided",
+    "spanish": "ladeado",
+    "french": "penché",
     "tier": 4
   },
   "adjectives.sweet": {
     "danish": "sød",
     "german": "süß",
     "english": "sweet",
+    "spanish": "dulce",
+    "french": "sucré",
     "tier": 1
   },
   "adjectives.sour": {
     "danish": "sur",
     "german": "sauer",
     "english": "sour",
+    "spanish": "ácido",
+    "french": "aigre",
     "tier": 2
   },
   "adjectives.bitter": {
     "danish": "bitter",
     "german": "bitter",
     "english": "bitter",
+    "spanish": "amargo",
+    "french": "amer",
     "tier": 3
   },
   "adjectives.salty": {
     "danish": "salt",
     "german": "salzig",
     "english": "salty",
+    "spanish": "salado",
+    "french": "salé",
     "tier": 2
   },
   "adjectives.delicious": {
     "danish": "lækker",
     "german": "lecker",
     "english": "delicious",
+    "spanish": "delicioso",
+    "french": "délicieux",
     "tier": 1
   },
   "adjectives.fresh": {
     "danish": "frisk",
     "german": "frisch",
     "english": "fresh",
+    "spanish": "fresco",
+    "french": "frais",
     "tier": 2
   },
   "adjectives.ripe": {
     "danish": "moden",
     "german": "reif",
     "english": "ripe",
+    "spanish": "maduro",
+    "french": "mûr",
     "tier": 3
   },
   "adjectives.raw": {
     "danish": "rå",
     "german": "roh",
     "english": "raw",
+    "spanish": "crudo",
+    "french": "cru",
     "tier": 3
   },
   "adjectives.cooked": {
     "danish": "kogt",
     "german": "gekocht",
     "english": "cooked",
+    "spanish": "cocido",
+    "french": "cuit",
     "tier": 3
   },
   "adjectives.greasy": {
     "danish": "fedtet",
     "german": "fettig",
     "english": "greasy",
+    "spanish": "graso",
+    "french": "gras",
     "tier": 3
   },
   "adjectives.spicy": {
     "danish": "krydret",
     "german": "würzig",
     "english": "spicy",
+    "spanish": "picante",
+    "french": "épicé",
     "tier": 4
   },
   "adjectives.friendly": {
     "danish": "venlig",
     "german": "freundlich",
     "english": "friendly",
+    "spanish": "amable",
+    "french": "aimable",
     "tier": 1
   },
   "adjectives.unfriendly": {
     "danish": "uvenlig",
     "german": "unfreundlich",
     "english": "unfriendly",
+    "spanish": "antipático",
+    "french": "désagréable",
     "tier": 2
   },
   "adjectives.nice": {
     "danish": "flink",
     "german": "nett",
     "english": "nice",
+    "spanish": "simpático",
+    "french": "gentil",
     "tier": 1
   },
   "adjectives.polite": {
     "danish": "høflig",
     "german": "höflich",
     "english": "polite",
+    "spanish": "educado",
+    "french": "poli",
     "tier": 3
   },
   "adjectives.rude": {
     "danish": "uhøflig",
     "german": "unhöflich",
     "english": "rude",
+    "spanish": "maleducado",
+    "french": "impoli",
     "tier": 3
   },
   "adjectives.honest": {
     "danish": "ærlig",
     "german": "ehrlich",
     "english": "honest",
+    "spanish": "honesto",
+    "french": "honnête",
     "tier": 3
   },
   "adjectives.diligent": {
     "danish": "flittig",
     "german": "fleißig",
     "english": "diligent",
+    "spanish": "diligente",
+    "french": "travailleur",
     "tier": 2
   },
   "adjectives.lazy": {
     "danish": "doven",
     "german": "faul",
     "english": "lazy",
+    "spanish": "perezoso",
+    "french": "paresseux",
     "tier": 2
   },
   "adjectives.brave": {
     "danish": "modig",
     "german": "mutig",
     "english": "brave",
+    "spanish": "valiente",
+    "french": "courageux",
     "tier": 3
   },
   "adjectives.fearful": {
     "danish": "bange",
     "german": "ängstlich",
     "english": "fearful",
+    "spanish": "temeroso",
+    "french": "craintif",
     "tier": 3
   },
   "adjectives.shy": {
     "danish": "genert",
     "german": "schüchtern",
     "english": "shy",
+    "spanish": "tímido",
+    "french": "timide",
     "tier": 3
   },
   "adjectives.curious": {
     "danish": "nysgerrig",
     "german": "neugierig",
     "english": "curious",
+    "spanish": "curioso",
+    "french": "curieux",
     "tier": 3
   },
   "adjectives.patient": {
     "danish": "tålmodig",
     "german": "geduldig",
     "english": "patient",
+    "spanish": "paciente",
+    "french": "patient",
     "tier": 3
   },
   "adjectives.impatient": {
     "danish": "utålmodig",
     "german": "ungeduldig",
     "english": "impatient",
+    "spanish": "impaciente",
+    "french": "impatient",
     "tier": 3
   },
   "adjectives.stupid": {
     "danish": "dum",
     "german": "dumm",
     "english": "stupid",
+    "spanish": "tonto",
+    "french": "stupide",
     "tier": 1
   },
   "adjectives.wise": {
     "danish": "vis",
     "german": "weise",
     "english": "wise",
+    "spanish": "sabio",
+    "french": "sage",
     "tier": 4
   },
   "adjectives.funny": {
     "danish": "sjov",
     "german": "lustig",
     "english": "funny",
+    "spanish": "gracioso",
+    "french": "drôle",
     "tier": 1
   },
   "adjectives.witty": {
     "danish": "vittig",
     "german": "witzig",
     "english": "witty",
+    "spanish": "ingenioso",
+    "french": "spirituel",
     "tier": 3
   },
   "adjectives.serious": {
     "danish": "alvorlig",
     "german": "ernst",
     "english": "serious",
+    "spanish": "serio",
+    "french": "sérieux",
     "tier": 3
   },
   "adjectives.angry": {
     "danish": "vred",
     "german": "wütend",
     "english": "angry",
+    "spanish": "enfadado",
+    "french": "fâché",
     "tier": 3
   },
   "adjectives.evil": {
     "danish": "ond",
     "german": "böse",
     "english": "evil",
+    "spanish": "malvado",
+    "french": "méchant",
     "tier": 2
   },
   "adjectives.jealous": {
     "danish": "skinsyg",
     "german": "eifersüchtig",
     "english": "jealous",
+    "spanish": "celoso",
+    "french": "jaloux",
     "tier": 3
   },
   "adjectives.proud": {
     "danish": "stolt",
     "german": "stolz",
     "english": "proud",
+    "spanish": "orgulloso",
+    "french": "fier",
     "tier": 3
   },
   "adjectives.satisfied": {
     "danish": "tilfreds",
     "german": "zufrieden",
     "english": "satisfied",
+    "spanish": "satisfecho",
+    "french": "satisfait",
     "tier": 2
   },
   "adjectives.surprised": {
     "danish": "overrasket",
     "german": "überrascht",
     "english": "surprised",
+    "spanish": "sorprendido",
+    "french": "surpris",
     "tier": 3
   },
   "adjectives.in-love": {
     "danish": "forelsket",
     "german": "verliebt",
     "english": "in love",
+    "spanish": "enamorado",
+    "french": "amoureux",
     "tier": 2
   },
   "adjectives.lonely": {
     "danish": "ensom",
     "german": "einsam",
     "english": "lonely",
+    "spanish": "solitario",
+    "french": "esseulé",
     "tier": 3
   },
   "adjectives.nervous": {
     "danish": "nervøs",
     "german": "nervös",
     "english": "nervous",
+    "spanish": "nervioso",
+    "french": "nerveux",
     "tier": 2
   },
   "adjectives.excited": {
     "danish": "spændt",
     "german": "aufgeregt",
     "english": "excited",
+    "spanish": "emocionado",
+    "french": "excité",
     "tier": 3
   },
   "adjectives.relaxed": {
     "danish": "afslappet",
     "german": "entspannt",
     "english": "relaxed",
+    "spanish": "relajado",
+    "french": "détendu",
     "tier": 3
   },
   "adjectives.stressed": {
     "danish": "stresset",
     "german": "gestresst",
     "english": "stressed",
+    "spanish": "estresado",
+    "french": "stressé",
     "tier": 2
   },
   "adjectives.worried": {
     "danish": "bekymret",
     "german": "besorgt",
     "english": "worried",
+    "spanish": "preocupado",
+    "french": "inquiet",
     "tier": 3
   },
   "adjectives.safe": {
     "danish": "sikker",
     "german": "sicher",
     "english": "safe",
+    "spanish": "seguro",
+    "french": "sûr",
     "tier": 2
   },
   "adjectives.dangerous": {
     "danish": "farlig",
     "german": "gefährlich",
     "english": "dangerous",
+    "spanish": "peligroso",
+    "french": "dangereux",
     "tier": 2
   },
   "adjectives.cautious": {
     "danish": "forsigtig",
     "german": "vorsichtig",
     "english": "cautious",
+    "spanish": "cauteloso",
+    "french": "prudent",
     "tier": 2
   },
   "adjectives.important": {
     "danish": "vigtig",
     "german": "wichtig",
     "english": "important",
+    "spanish": "importante",
+    "french": "important",
     "tier": 1
   },
   "adjectives.interesting": {
     "danish": "interessant",
     "german": "interessant",
     "english": "interesting",
+    "spanish": "interesante",
+    "french": "intéressant",
     "tier": 1
   },
   "adjectives.boring": {
     "danish": "kedelig",
     "german": "langweilig",
     "english": "boring",
+    "spanish": "aburrido",
+    "french": "ennuyeux",
     "tier": 1
   },
   "adjectives.exciting": {
     "danish": "spændende",
     "german": "spannend",
     "english": "exciting",
+    "spanish": "emocionante",
+    "french": "passionnant",
     "tier": 2
   },
   "adjectives.terrible": {
     "danish": "forfærdelig",
     "german": "schrecklich",
     "english": "terrible",
+    "spanish": "horrible",
+    "french": "affreux",
     "tier": 2
   },
   "adjectives.wonderful": {
     "danish": "vidunderlig",
     "german": "wunderbar",
     "english": "wonderful",
+    "spanish": "maravilloso",
+    "french": "merveilleux",
     "tier": 2
   },
   "adjectives.great": {
     "danish": "fantastisk",
     "german": "toll",
     "english": "great",
+    "spanish": "fantástico",
+    "french": "fantastique",
     "tier": 1
   },
   "adjectives.perfect": {
     "danish": "perfekt",
     "german": "perfekt",
     "english": "perfect",
+    "spanish": "perfecto",
+    "french": "parfait",
     "tier": 2
   },
   "adjectives.possible": {
     "danish": "mulig",
     "german": "möglich",
     "english": "possible",
+    "spanish": "posible",
+    "french": "possible",
     "tier": 2
   },
   "adjectives.impossible": {
     "danish": "umulig",
     "german": "unmöglich",
     "english": "impossible",
+    "spanish": "imposible",
+    "french": "impossible",
     "tier": 2
   },
   "adjectives.necessary": {
     "danish": "nødvendig",
     "german": "nötig",
     "english": "necessary",
+    "spanish": "necesario",
+    "french": "nécessaire",
     "tier": 2
   },
   "adjectives.useful": {
     "danish": "nyttig",
     "german": "nützlich",
     "english": "useful",
+    "spanish": "útil",
+    "french": "utile",
     "tier": 3
   },
   "adjectives.practical": {
     "danish": "praktisk",
     "german": "praktisch",
     "english": "practical",
+    "spanish": "práctico",
+    "french": "pratique",
     "tier": 3
   },
   "adjectives.normal": {
     "danish": "normal",
     "german": "normal",
     "english": "normal",
+    "spanish": "normal",
+    "french": "normal",
     "tier": 2
   },
   "adjectives.strange": {
     "danish": "mærkelig",
     "german": "seltsam",
     "english": "strange",
+    "spanish": "extraño",
+    "french": "étrange",
     "tier": 3
   },
   "adjectives.different": {
     "danish": "forskellig",
     "german": "verschieden",
     "english": "different",
+    "spanish": "diferente",
+    "french": "différent",
     "tier": 2
   },
   "adjectives.alike": {
     "danish": "ens",
     "german": "gleich",
     "english": "alike",
+    "spanish": "igual",
+    "french": "pareil",
     "tier": 2
   },
   "adjectives.similar": {
     "danish": "lignende",
     "german": "ähnlich",
     "english": "similar",
+    "spanish": "similar",
+    "french": "semblable",
     "tier": 3
   },
   "adjectives.whole": {
     "danish": "hel",
     "german": "ganz",
     "english": "whole",
+    "spanish": "entero",
+    "french": "entier",
     "tier": 2
   },
   "adjectives.finished": {
     "danish": "færdig",
     "german": "fertig",
     "english": "finished",
+    "spanish": "terminado",
+    "french": "fini",
     "tier": 1
   },
   "adjectives.ready": {
     "danish": "parat",
     "german": "bereit",
     "english": "ready",
+    "spanish": "listo",
+    "french": "prêt",
     "tier": 2
   },
   "adjectives.clear": {
     "danish": "tydelig",
     "german": "klar",
     "english": "clear",
+    "spanish": "claro",
+    "french": "clair",
     "tier": 2
   },
   "adjectives.firm": {
     "danish": "fast",
     "german": "fest",
     "english": "firm",
+    "spanish": "firme",
+    "french": "ferme",
     "tier": 3
   },
   "adjectives.loose": {
     "danish": "løs",
     "german": "lose",
     "english": "loose",
+    "spanish": "suelto",
+    "french": "lâche",
     "tier": 4
   },
   "adjectives.broken": {
     "danish": "ødelagt",
     "german": "kaputt",
     "english": "broken",
+    "spanish": "roto",
+    "french": "cassé",
     "tier": 1
   },
   "adjectives.foreign": {
     "danish": "fremmed",
     "german": "fremd",
     "english": "foreign",
+    "spanish": "extranjero",
+    "french": "étranger",
     "tier": 2
   },
   "adjectives.own": {
     "danish": "egen",
     "german": "eigen",
     "english": "own",
+    "spanish": "propio",
+    "french": "propre",
     "tier": 3
   },
   "adjectives.private": {
     "danish": "privat",
     "german": "privat",
     "english": "private",
+    "spanish": "privado",
+    "french": "privé",
     "tier": 2
   },
   "adjectives.public": {
     "danish": "offentlig",
     "german": "öffentlich",
     "english": "public",
+    "spanish": "público",
+    "french": "public",
     "tier": 3
   },
   "adjectives.genuine": {
     "danish": "ægte",
     "german": "echt",
     "english": "genuine",
+    "spanish": "genuino",
+    "french": "authentique",
     "tier": 2
   },
   "adjectives.artificial": {
     "danish": "kunstig",
     "german": "künstlich",
     "english": "artificial",
+    "spanish": "artificial",
+    "french": "artificiel",
     "tier": 3
   },
   "adjectives.natural": {
     "danish": "naturlig",
     "german": "natürlich",
     "english": "natural",
+    "spanish": "natural",
+    "french": "naturel",
     "tier": 2
   },
   "adjectives.modern": {
     "danish": "moderne",
     "german": "modern",
     "english": "modern",
+    "spanish": "moderno",
+    "french": "moderne",
     "tier": 2
   },
   "adjectives.old-fashioned": {
     "danish": "gammeldags",
     "german": "altmodisch",
     "english": "old-fashioned",
+    "spanish": "anticuado",
+    "french": "démodé",
     "tier": 3
   },
   "adjectives.pretty": {
     "danish": "køn",
     "german": "hübsch",
     "english": "pretty",
+    "spanish": "bonito",
+    "french": "joli",
     "tier": 2
   },
   "adjectives.elegant": {
     "danish": "elegant",
     "german": "elegant",
     "english": "elegant",
+    "spanish": "elegante",
+    "french": "élégant",
     "tier": 3
   },
   "adjectives.comfortable": {
     "danish": "behagelig",
     "german": "bequem",
     "english": "comfortable",
+    "spanish": "cómodo",
+    "french": "confortable",
     "tier": 2
   },
   "adjectives.cosy": {
     "danish": "hyggelig",
     "german": "gemütlich",
     "english": "cosy",
+    "spanish": "acogedor",
+    "french": "chaleureux",
     "tier": 2
   },
   "adjectives.uncomfortable": {
     "danish": "ubekvem",
     "german": "unbequem",
     "english": "uncomfortable",
+    "spanish": "incómodo",
+    "french": "inconfortable",
     "tier": 3
   },
   "adjectives.rich": {
     "danish": "rig",
     "german": "reich",
     "english": "rich",
+    "spanish": "rico",
+    "french": "riche",
     "tier": 2
   },
   "adjectives.poor": {
     "danish": "fattig",
     "german": "arm",
     "english": "poor",
+    "spanish": "pobre",
+    "french": "pauvre",
     "tier": 2
   },
   "adjectives.free-of-charge": {
     "danish": "gratis",
     "german": "kostenlos",
     "english": "free of charge",
+    "spanish": "gratis",
+    "french": "gratuit",
     "tier": 2
   },
   "adjectives.valuable": {
     "danish": "værdifuld",
     "german": "wertvoll",
     "english": "valuable",
+    "spanish": "valioso",
+    "french": "précieux",
     "tier": 3
   },
   "adjectives.sunny": {
     "danish": "solrig",
     "german": "sonnig",
     "english": "sunny",
+    "spanish": "soleado",
+    "french": "ensoleillé",
     "tier": 1
   },
   "adjectives.cloudy": {
     "danish": "skyet",
     "german": "wolkig",
     "english": "cloudy",
+    "spanish": "nublado",
+    "french": "nuageux",
     "tier": 2
   },
   "adjectives.huge": {
     "danish": "kæmpestor",
     "german": "riesig",
     "english": "huge",
+    "spanish": "inmenso",
+    "french": "immense",
     "tier": 3
   },
   "adjectives.tiny": {
     "danish": "lillebitte",
     "german": "winzig",
     "english": "tiny",
+    "spanish": "diminuto",
+    "french": "minuscule",
     "tier": 3
   },
   "adjectives.enormous": {
     "danish": "enorm",
     "german": "enorm",
     "english": "enormous",
+    "spanish": "enorme",
+    "french": "énorme",
     "tier": 4
   },
   "adjectives.low": {
     "danish": "lav",
     "german": "niedrig",
     "english": "low",
+    "spanish": "bajo",
+    "french": "bas",
     "tier": 3
   },
   "adjectives.near": {
     "danish": "nær",
     "german": "nah",
     "english": "near",
+    "spanish": "cercano",
+    "french": "proche",
     "tier": 2
   },
   "adjectives.distant": {
     "danish": "fjern",
     "german": "fern",
     "english": "distant",
+    "spanish": "lejano",
+    "french": "lointain",
     "tier": 3
   },
   "adjectives.last": {
     "danish": "sidste",
     "german": "letzte",
     "english": "last",
+    "spanish": "último",
+    "french": "dernier",
     "tier": 1
   },
   "adjectives.next": {
     "danish": "næste",
     "german": "nächste",
     "english": "next",
+    "spanish": "próximo",
+    "french": "prochain",
     "tier": 1
   },
   "adjectives.early": {
     "danish": "tidlig",
     "german": "früh",
     "english": "early",
+    "spanish": "temprano",
+    "french": "tôt",
     "tier": 1
   },
   "adjectives.late": {
     "danish": "sen",
     "german": "spät",
     "english": "late",
+    "spanish": "tarde",
+    "french": "tard",
     "tier": 1
   },
   "adjectives.alone": {
     "danish": "alene",
     "german": "allein",
     "english": "alone",
+    "spanish": "solo",
+    "french": "seul",
     "tier": 1
   },
   "adjectives.shared": {
     "danish": "fælles",
     "german": "gemeinsam",
     "english": "shared",
+    "spanish": "compartido",
+    "french": "commun",
     "tier": 3
   },
   "adjectives.dead": {
     "danish": "død",
     "german": "tot",
     "english": "dead",
+    "spanish": "muerto",
+    "french": "mort",
     "tier": 2
   },
   "adjectives.alive": {
     "danish": "levende",
     "german": "lebendig",
     "english": "alive",
+    "spanish": "vivo",
+    "french": "vivant",
     "tier": 3
   },
   "adjectives.pregnant": {
     "danish": "gravid",
     "german": "schwanger",
     "english": "pregnant",
+    "spanish": "embarazada",
+    "french": "enceinte",
     "tier": 3
   },
   "adjectives.naked": {
     "danish": "nøgen",
     "german": "nackt",
     "english": "naked",
+    "spanish": "desnudo",
+    "french": "nu",
     "tier": 3
   },
   "adjectives.blind": {
     "danish": "blind",
     "german": "blind",
     "english": "blind",
+    "spanish": "ciego",
+    "french": "aveugle",
     "tier": 3
   },
   "adjectives.deaf": {
     "danish": "døv",
     "german": "taub",
     "english": "deaf",
+    "spanish": "sordo",
+    "french": "sourd",
     "tier": 4
   },
   "adjectives.mute": {
     "danish": "stum",
     "german": "stumm",
     "english": "mute",
+    "spanish": "mudo",
+    "french": "muet",
     "tier": 4
   },
   "adjectives.logical": {
     "danish": "logisk",
     "german": "logisch",
     "english": "logical",
+    "spanish": "lógico",
+    "french": "logique",
     "tier": 3
   },
   "adjectives.golden": {
     "danish": "gylden",
     "german": "golden",
     "english": "golden",
+    "spanish": "dorado",
+    "french": "doré",
     "tier": 4
   },
   "adjectives.proper": {
     "danish": "ordentlig",
     "german": "ordentlich",
     "english": "proper",
+    "spanish": "apropiado",
+    "french": "convenable",
     "tier": 3
   },
   "adjectives.exact": {
     "danish": "nøjagtig",
     "german": "genau",
     "english": "exact",
+    "spanish": "exacto",
+    "french": "exact",
     "tier": 2
   },
   "adjectives.unique": {
     "danish": "enestående",
     "german": "einzigartig",
     "english": "unique",
+    "spanish": "singular",
+    "french": "unique",
     "tier": 4
   },
   "adjectives.typical": {
     "danish": "typisk",
     "german": "typisch",
     "english": "typical",
+    "spanish": "típico",
+    "french": "typique",
     "tier": 3
   },
   "adjectives.general": {
     "danish": "generel",
     "german": "allgemein",
     "english": "general",
+    "spanish": "general",
+    "french": "général",
     "tier": 3
   },
   "adjectives.special": {
     "danish": "speciel",
     "german": "speziell",
     "english": "special",
+    "spanish": "especial",
+    "french": "spécial",
     "tier": 3
   },
   "adjectives.only": {
     "danish": "eneste",
     "german": "einzig",
     "english": "only",
+    "spanish": "único",
+    "french": "seul",
     "tier": 3
   },
   "adjectives.political": {
     "danish": "politisk",
     "german": "politisch",
     "english": "political",
+    "spanish": "político",
+    "french": "politique",
     "tier": 3
   },
   "adjectives.social": {
     "danish": "social",
     "german": "sozial",
     "english": "social",
+    "spanish": "social",
+    "french": "social",
     "tier": 3
   },
   "adjectives.international": {
     "danish": "international",
     "german": "international",
     "english": "international",
+    "spanish": "internacional",
+    "french": "international",
     "tier": 3
   },
   "adjectives.national": {
     "danish": "national",
     "german": "national",
     "english": "national",
+    "spanish": "nacional",
+    "french": "national",
     "tier": 3
   },
   "adjectives.well-behaved": {
     "danish": "artig",
     "german": "brav",
     "english": "well-behaved",
+    "spanish": "obediente",
+    "french": "sage",
     "tier": 3
   },
   "adjectives.slim": {
     "danish": "slank",
     "german": "schlank",
     "english": "slim",
+    "spanish": "esbelto",
+    "french": "svelte",
     "tier": 2
   },
   "adjectives.dear": {
     "danish": "kær",
     "german": "lieb",
     "english": "dear",
+    "spanish": "querido",
+    "french": "cher",
     "tier": 1
   },
   "adjectives.popular": {
     "danish": "populær",
     "german": "beliebt",
     "english": "popular",
+    "spanish": "popular",
+    "french": "populaire",
     "tier": 3
   },
   "adjectives.famous": {
     "danish": "berømt",
     "german": "berühmt",
     "english": "famous",
+    "spanish": "famoso",
+    "french": "célèbre",
     "tier": 2
   },
   "adjectives.known": {
     "danish": "kendt",
     "german": "bekannt",
     "english": "known",
+    "spanish": "conocido",
+    "french": "connu",
     "tier": 2
   },
   "adjectives.unknown": {
     "danish": "ukendt",
     "german": "unbekannt",
     "english": "unknown",
+    "spanish": "desconocido",
+    "french": "inconnu",
     "tier": 3
   },
   "adjectives.crazy": {
     "danish": "skør",
     "german": "verrückt",
     "english": "crazy",
+    "spanish": "loco",
+    "french": "fou",
     "tier": 2
   },
   "adjectives.sudden": {
     "danish": "pludselig",
     "german": "plötzlich",
     "english": "sudden",
+    "spanish": "repentino",
+    "french": "soudain",
     "tier": 3
   },
   "adjectives.traditional": {
     "danish": "traditionel",
     "german": "traditionell",
     "english": "traditional",
+    "spanish": "tradicional",
+    "french": "traditionnel",
     "tier": 3
   },
   "adjectives.hoarse": {
     "danish": "hæs",
     "german": "heiser",
     "english": "hoarse",
+    "spanish": "ronco",
+    "french": "enroué",
     "tier": 4
   },
   "adjectives.helpful": {
     "danish": "hjælpsom",
     "german": "hilfreich",
     "english": "helpful",
+    "spanish": "servicial",
+    "french": "serviable",
     "tier": 3
   },
   "adjectives.helpless": {
     "danish": "hjælpeløs",
     "german": "hilflos",
     "english": "helpless",
+    "spanish": "indefenso",
+    "french": "impuissant",
     "tier": 4
   },
   "adjectives.thorough": {
     "danish": "omhyggelig",
     "german": "sorgfältig",
     "english": "thorough",
+    "spanish": "minucioso",
+    "french": "minutieux",
     "tier": 3
   },
   "adjectives.annoying": {
     "danish": "irriterende",
     "german": "nervig",
     "english": "annoying",
+    "spanish": "molesto",
+    "french": "agaçant",
     "tier": 3
   },
   "adjectives.embarrassing": {
     "danish": "pinlig",
     "german": "peinlich",
     "english": "embarrassing",
+    "spanish": "embarazoso",
+    "french": "gênant",
     "tier": 3
   },
   "adjectives.stable": {
     "danish": "stabil",
     "german": "stabil",
     "english": "stable",
+    "spanish": "estable",
+    "french": "stable",
     "tier": 4
   },
   "adjectives.unhealthy": {
     "danish": "usund",
     "german": "ungesund",
     "english": "unhealthy",
+    "spanish": "malsano",
+    "french": "malsain",
     "tier": 2
   },
   "adjectives.fragile": {
     "danish": "skrøbelig",
     "german": "zerbrechlich",
     "english": "fragile",
+    "spanish": "frágil",
+    "french": "fragile",
     "tier": 4
   },
   "adjectives.transparent": {
     "danish": "gennemsigtig",
     "german": "durchsichtig",
     "english": "transparent",
+    "spanish": "transparente",
+    "french": "transparent",
     "tier": 4
   },
   "adjectives.shiny": {
     "danish": "skinnende",
     "german": "glänzend",
     "english": "shiny",
+    "spanish": "brillante",
+    "french": "brillant",
     "tier": 4
   },
   "adjectives.gentle": {
     "danish": "blid",
     "german": "sanft",
     "english": "gentle",
+    "spanish": "suave",
+    "french": "doux",
     "tier": 4
   },
   "adjectives.coarse": {
     "danish": "grov",
     "german": "grob",
     "english": "coarse",
+    "spanish": "basto",
+    "french": "grossier",
     "tier": 4
   },
   "adjectives.fine": {
     "danish": "fin",
     "german": "fein",
     "english": "fine",
+    "spanish": "fino",
+    "french": "fin",
     "tier": 4
   },
   "adjectives.strict": {
     "danish": "streng",
     "german": "streng",
     "english": "strict",
+    "spanish": "estricto",
+    "french": "strict",
     "tier": 3
   },
   "adjectives.tight": {
     "danish": "trang",
     "german": "eng",
     "english": "tight",
+    "spanish": "ajustado",
+    "french": "serré",
     "tier": 2
   },
   "adjectives.direct": {
     "danish": "direkte",
     "german": "direkt",
     "english": "direct",
+    "spanish": "directo",
+    "french": "direct",
     "tier": 2
   },
   "adjectives.ordinary": {
     "danish": "almindelig",
     "german": "gewöhnlich",
     "english": "ordinary",
+    "spanish": "corriente",
+    "french": "ordinaire",
     "tier": 3
   },
   "adjectives.usual": {
     "danish": "sædvanlig",
     "german": "üblich",
     "english": "usual",
+    "spanish": "habitual",
+    "french": "habituel",
     "tier": 3
   },
   "adjectives.probable": {
     "danish": "sandsynlig",
     "german": "wahrscheinlich",
     "english": "probable",
+    "spanish": "probable",
+    "french": "probable",
     "tier": 3
   },
   "adjectives.eternal": {
     "danish": "evig",
     "german": "ewig",
     "english": "eternal",
+    "spanish": "eterno",
+    "french": "éternel",
     "tier": 4
   },
   "adjectives.daily": {
     "danish": "daglig",
     "german": "täglich",
     "english": "daily",
+    "spanish": "diario",
+    "french": "quotidien",
     "tier": 2
   },
   "adjectives.weekly": {
     "danish": "ugentlig",
     "german": "wöchentlich",
     "english": "weekly",
+    "spanish": "semanal",
+    "french": "hebdomadaire",
     "tier": 3
   },
   "adjectives.monthly": {
     "danish": "månedlig",
     "german": "monatlich",
     "english": "monthly",
+    "spanish": "mensual",
+    "french": "mensuel",
     "tier": 3
   },
   "adjectives.yearly": {
     "danish": "årlig",
     "german": "jährlich",
     "english": "yearly",
+    "spanish": "anual",
+    "french": "annuel",
     "tier": 3
   },
   "adjectives.current": {
     "danish": "aktuel",
     "german": "aktuell",
     "english": "current",
+    "spanish": "actual",
+    "french": "actuel",
     "tier": 3
   },
   "adjectives.former": {
     "danish": "tidligere",
     "german": "ehemalig",
     "english": "former",
+    "spanish": "antiguo",
+    "french": "ancien",
     "tier": 4
   },
   "adjectives.future": {
     "danish": "fremtidig",
     "german": "zukünftig",
     "english": "future",
+    "spanish": "futuro",
+    "french": "futur",
     "tier": 3
   },
   "adjectives.previous": {
     "danish": "forrige",
     "german": "vorig",
     "english": "previous",
+    "spanish": "anterior",
+    "french": "précédent",
     "tier": 4
   },
   "adjectives.successful": {
     "danish": "succesfuld",
     "german": "erfolgreich",
     "english": "successful",
+    "spanish": "de éxito",
+    "french": "réussi",
     "tier": 3
   },
   "adjectives.experienced": {
     "danish": "erfaren",
     "german": "erfahren",
     "english": "experienced",
+    "spanish": "experimentado",
+    "french": "expérimenté",
     "tier": 4
   },
   "adjectives.gifted": {
     "danish": "begavet",
     "german": "begabt",
     "english": "gifted",
+    "spanish": "dotado",
+    "french": "doué",
     "tier": 4
   },
   "adjectives.married": {
     "danish": "gift",
     "german": "verheiratet",
     "english": "married",
+    "spanish": "casado",
+    "french": "marié",
     "tier": 2
   },
   "adjectives.single": {
     "danish": "ugift",
     "german": "ledig",
     "english": "single",
+    "spanish": "soltero",
+    "french": "célibataire",
     "tier": 2
   },
   "adjectives.divorced": {
     "danish": "skilt",
     "german": "geschieden",
     "english": "divorced",
+    "spanish": "divorciado",
+    "french": "divorcé",
     "tier": 3
   },
   "adjectives.adult": {
     "danish": "voksen",
     "german": "erwachsen",
     "english": "adult",
+    "spanish": "adulto",
+    "french": "adulte",
     "tier": 2
   },
   "adjectives.busy": {
     "danish": "travl",
     "german": "beschäftigt",
     "english": "busy",
+    "spanish": "atareado",
+    "french": "occupé",
     "tier": 2
   },
   "adjectives.available": {
     "danish": "tilgængelig",
     "german": "verfügbar",
     "english": "available",
+    "spanish": "disponible",
+    "french": "disponible",
     "tier": 4
   },
   "adjectives.absent": {
     "danish": "fraværende",
     "german": "abwesend",
     "english": "absent",
+    "spanish": "ausente",
+    "french": "absent",
     "tier": 4
   },
   "adjectives.delayed": {
     "danish": "forsinket",
     "german": "verspätet",
     "english": "delayed",
+    "spanish": "con retraso",
+    "french": "retardé",
     "tier": 2
   },
   "adjectives.punctual": {
     "danish": "punktlig",
     "german": "pünktlich",
     "english": "punctual",
+    "spanish": "puntual",
+    "french": "ponctuel",
     "tier": 2
   },
   "adjectives.forbidden": {
     "danish": "forbudt",
     "german": "verboten",
     "english": "forbidden",
+    "spanish": "prohibido",
+    "french": "interdit",
     "tier": 2
   },
   "adjectives.allowed": {
     "danish": "tilladt",
     "german": "erlaubt",
     "english": "allowed",
+    "spanish": "permitido",
+    "french": "autorisé",
     "tier": 2
   },
   "adjectives.valid": {
     "danish": "gyldig",
     "german": "gültig",
     "english": "valid",
+    "spanish": "válido",
+    "french": "valable",
     "tier": 3
   },
   "adjectives.in-agreement": {
     "danish": "enig",
     "german": "einverstanden",
     "english": "in agreement",
+    "spanish": "de acuerdo",
+    "french": "d'accord",
     "tier": 2
   },
   "adjectives.random": {
     "danish": "tilfældig",
     "german": "zufällig",
     "english": "random",
+    "spanish": "aleatorio",
+    "french": "aléatoire",
     "tier": 3
   },
   "adjectives.lean": {
     "danish": "mager",
     "german": "mager",
     "english": "lean",
+    "spanish": "magro",
+    "french": "maigre",
     "tier": 4
   },
   "adjectives.digital": {
     "danish": "digital",
     "german": "digital",
     "english": "digital",
+    "spanish": "digital",
+    "french": "numérique",
     "tier": 3
   },
   "adjectives.electric": {
     "danish": "elektrisk",
     "german": "elektrisch",
     "english": "electric",
+    "spanish": "eléctrico",
+    "french": "électrique",
     "tier": 3
   },
   "adjectives.automatic": {
     "danish": "automatisk",
     "german": "automatisch",
     "english": "automatic",
+    "spanish": "automático",
+    "french": "automatique",
     "tier": 3
   },
   "adjectives.vegetarian": {
     "danish": "vegetarisk",
     "german": "vegetarisch",
     "english": "vegetarian",
+    "spanish": "vegetariano",
+    "french": "végétarien",
     "tier": 3
   },
   "adjectives.lukewarm": {
     "danish": "lunken",
     "german": "lauwarm",
     "english": "lukewarm",
+    "spanish": "tibio",
+    "french": "tiède",
     "tier": 4
   },
   "adjectives.ice-cold": {
     "danish": "iskold",
     "german": "eiskalt",
     "english": "ice-cold",
+    "spanish": "helado",
+    "french": "glacé",
     "tier": 3
   },
   "adjectives.independent": {
     "danish": "selvstændig",
     "german": "selbstständig",
     "english": "independent",
+    "spanish": "independiente",
+    "french": "indépendant",
     "tier": 3
   },
   "adjectives.responsible": {
     "danish": "ansvarlig",
     "german": "verantwortlich",
     "english": "responsible",
+    "spanish": "responsable",
+    "french": "responsable",
     "tier": 3
   },
   "adjectives.lovely": {
     "danish": "dejlig",
     "german": "herrlich",
     "english": "lovely",
+    "spanish": "encantador",
+    "french": "splendide",
     "tier": 3
   },
   "adjectives.cute": {
     "danish": "nuttet",
     "german": "niedlich",
     "english": "cute",
+    "spanish": "mono",
+    "french": "mignon",
     "tier": 3
   },
   "adjectives.cruel": {
     "danish": "grusom",
     "german": "grausam",
     "english": "cruel",
+    "spanish": "cruel",
+    "french": "cruel",
     "tier": 4
   },
   "adjectives.generous": {
     "danish": "gavmild",
     "german": "großzügig",
     "english": "generous",
+    "spanish": "generoso",
+    "french": "généreux",
     "tier": 3
   },
   "adjectives.stingy": {
     "danish": "nærig",
     "german": "geizig",
     "english": "stingy",
+    "spanish": "tacaño",
+    "french": "radin",
     "tier": 4
   },
   "adjectives.modest": {
     "danish": "beskeden",
     "german": "bescheiden",
     "english": "modest",
+    "spanish": "modesto",
+    "french": "modeste",
     "tier": 3
   },
   "adjectives.arrogant": {
     "danish": "arrogant",
     "german": "arrogant",
     "english": "arrogant",
+    "spanish": "arrogante",
+    "french": "arrogant",
     "tier": 3
   },
   "adjectives.unhappy": {
     "danish": "ulykkelig",
     "german": "unglücklich",
     "english": "unhappy",
+    "spanish": "infeliz",
+    "french": "malheureux",
     "tier": 2
   },
   "adjectives.having-a-cold": {
     "danish": "forkølet",
     "german": "erkältet",
     "english": "having a cold",
+    "spanish": "resfriado",
+    "french": "enrhumé",
     "tier": 2
   },
   "adjectives.injured": {
     "danish": "såret",
     "german": "verletzt",
     "english": "injured",
+    "spanish": "herido",
+    "french": "blessé",
     "tier": 2
   },
   "adjectives.drunk": {
     "danish": "beruset",
     "german": "betrunken",
     "english": "drunk",
+    "spanish": "borracho",
+    "french": "ivre",
     "tier": 3
   },
   "adjectives.sober": {
     "danish": "ædru",
     "german": "nüchtern",
     "english": "sober",
+    "spanish": "sobrio",
+    "french": "sobre",
     "tier": 4
   },
   "adjectives.painful": {
     "danish": "smertefuld",
     "german": "schmerzhaft",
     "english": "painful",
+    "spanish": "doloroso",
+    "french": "douloureux",
     "tier": 3
   },
   "adjectives.holy": {
     "danish": "hellig",
     "german": "heilig",
     "english": "holy",
+    "spanish": "santo",
+    "french": "saint",
     "tier": 4
   },
   "adjectives.religious": {
     "danish": "religiøs",
     "german": "religiös",
     "english": "religious",
+    "spanish": "religioso",
+    "french": "religieux",
     "tier": 3
   },
   "adjectives.erheblich": {
     "danish": "betydelig",
     "german": "erheblich",
     "english": "considerable",
+    "spanish": "considerable",
+    "french": "considérable",
     "tier": 4
   },
   "adjectives.eindeutig": {
     "danish": "entydig",
     "german": "eindeutig",
     "english": "unambiguous",
+    "spanish": "inequívoco",
+    "french": "univoque",
     "tier": 4
   },
   "adjectives.geeignet": {
     "danish": "egnet",
     "german": "geeignet",
     "english": "suitable",
+    "spanish": "adecuado",
+    "french": "approprié",
     "tier": 4
   },
   "adjectives.ausreichend": {
     "danish": "tilstrækkelig",
     "german": "ausreichend",
     "english": "sufficient",
+    "spanish": "suficiente",
+    "french": "suffisant",
     "tier": 4
   },
   "adjectives.umfassend": {
     "danish": "omfattende",
     "german": "umfassend",
     "english": "comprehensive",
+    "spanish": "exhaustivo",
+    "french": "exhaustif",
     "tier": 4
   },
   "adjectives.wesentlich": {
     "danish": "væsentlig",
     "german": "wesentlich",
     "english": "essential",
+    "spanish": "esencial",
+    "french": "essentiel",
     "tier": 4
   },
   "adjectives.ausgepraegt": {
     "danish": "udpræget",
     "german": "ausgeprägt",
     "english": "pronounced",
+    "spanish": "marcado",
+    "french": "prononcé",
     "tier": 5
   },
   "adjectives.betraechtlich": {
     "danish": "anselig",
     "german": "beträchtlich",
     "english": "sizeable",
+    "spanish": "apreciable",
+    "french": "appréciable",
     "tier": 5
   },
   "adjectives.unverzichtbar": {
     "danish": "uundværlig",
     "german": "unverzichtbar",
     "english": "indispensable",
+    "spanish": "indispensable",
+    "french": "indispensable",
     "tier": 5
   },
   "adjectives.fragwuerdig": {
     "danish": "tvivlsom",
     "german": "fragwürdig",
     "english": "questionable",
+    "spanish": "cuestionable",
+    "french": "discutable",
     "tier": 5
   },
   "adjectives.einwandfrei": {
     "danish": "upåklagelig",
     "german": "einwandfrei",
     "english": "flawless",
+    "spanish": "impecable",
+    "french": "impeccable",
     "tier": 5
   },
   "adjectives.ruecksichtslos": {
     "danish": "hensynsløs",
     "german": "rücksichtslos",
     "english": "ruthless",
+    "spanish": "despiadado",
+    "french": "impitoyable",
     "tier": 5
   },
   "adjectives.kostspielig": {
     "danish": "bekostelig",
     "german": "kostspielig",
     "english": "costly",
+    "spanish": "costoso",
+    "french": "coûteux",
     "tier": 5
   },
   "adjectives.vergaenglich": {
     "danish": "forgængelig",
     "german": "vergänglich",
     "english": "transient",
+    "spanish": "pasajero",
+    "french": "éphémère",
     "tier": 5
   },
   "adjectives.muehsam": {
     "danish": "besværlig",
     "german": "mühsam",
     "english": "arduous",
+    "spanish": "arduo",
+    "french": "pénible",
     "tier": 5
   },
   "adjectives.aufschlussreich": {
     "danish": "indsigtsfuld",
     "german": "aufschlussreich",
     "english": "revealing",
+    "spanish": "revelador",
+    "french": "révélateur",
     "tier": 5
   },
   "adjectives.ueberfluessig": {
     "danish": "overflødig",
     "german": "überflüssig",
     "english": "superfluous",
+    "spanish": "superfluo",
+    "french": "superflu",
     "tier": 5
   },
   "adjectives.zweckmaessig": {
     "danish": "hensigtsmæssig",
     "german": "zweckmäßig",
     "english": "expedient",
+    "spanish": "conveniente",
+    "french": "opportun",
     "tier": 5
   },
   "adjectives.widerspruechlich": {
     "danish": "modstridende",
     "german": "widersprüchlich",
     "english": "contradictory",
+    "spanish": "contradictorio",
+    "french": "contradictoire",
     "tier": 5
   },
   "adjectives.willkuerlich": {
     "danish": "vilkårlig",
     "german": "willkürlich",
     "english": "arbitrary",
+    "spanish": "arbitrario",
+    "french": "arbitraire",
     "tier": 5
   },
   "adjectives.unumgaenglich": {
     "danish": "uundgåelig",
     "german": "unumgänglich",
     "english": "unavoidable",
+    "spanish": "inevitable",
+    "french": "inévitable",
     "tier": 5
   },
   "adjectives.vorbildlich": {
     "danish": "eksemplarisk",
     "german": "vorbildlich",
     "english": "exemplary",
+    "spanish": "ejemplar",
+    "french": "exemplaire",
     "tier": 5
   },
   "adjectives.scharfsinnig": {
     "danish": "skarpsindig",
     "german": "scharfsinnig",
     "english": "astute",
+    "spanish": "astuto",
+    "french": "perspicace",
     "tier": 5
   },
   "adjectives.sachlich": {
     "danish": "saglig",
     "german": "sachlich",
     "english": "objective",
+    "spanish": "objetivo",
+    "french": "objectif",
     "tier": 5
   },
   "adjectives.spuerbar": {
     "danish": "mærkbar",
     "german": "spürbar",
     "english": "noticeable",
+    "spanish": "perceptible",
+    "french": "perceptible",
     "tier": 5
   },
   "adjectives.dauerhaft": {
     "danish": "varig",
     "german": "dauerhaft",
     "english": "lasting",
+    "spanish": "duradero",
+    "french": "durable",
     "tier": 5
   },
   "adjectives.kurzfristig": {
     "danish": "kortsigtet",
     "german": "kurzfristig",
     "english": "short-term",
+    "spanish": "a corto plazo",
+    "french": "à court terme",
     "tier": 5
   },
   "adjectives.langfristig": {
     "danish": "langsigtet",
     "german": "langfristig",
     "english": "long-term",
+    "spanish": "a largo plazo",
+    "french": "à long terme",
     "tier": 5
   },
   "adjectives.verbindlich": {
     "danish": "bindende",
     "german": "verbindlich",
     "english": "binding",
+    "spanish": "vinculante",
+    "french": "contraignant",
     "tier": 5
   },
   "adjectives.heikel": {
     "danish": "delikat",
     "german": "heikel",
     "english": "delicate",
+    "spanish": "delicado",
+    "french": "délicat",
     "tier": 5
   }
 }

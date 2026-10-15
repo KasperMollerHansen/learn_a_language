@@ -12,10 +12,34 @@ ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
 CSV_PATH = ROOT / "translations.csv"
 
-TEXT_FIELDS = ["danish", "german", "english", "gender", "danishDefinite", "danishIndefinite"]
+TEXT_FIELDS = [
+    "danish",
+    "german",
+    "english",
+    "spanish",
+    "french",
+    "gender",
+    "danishDefinite",
+    "danishIndefinite",
+]
 # Sentence-builder chunks list their gate options per target language.
-OPTION_FIELDS = ["danishOptions", "germanOptions", "englishOptions"]
-COLUMNS = ["id", "levels", *TEXT_FIELDS, *OPTION_FIELDS, "checked", "comment"]
+OPTION_FIELDS = [
+    "danishOptions",
+    "germanOptions",
+    "englishOptions",
+    "spanishOptions",
+    "frenchOptions",
+]
+# Extra accepted answers per target language, joined like the options.
+ALTERNATIVE_FIELDS = [
+    "danishAlternatives",
+    "germanAlternatives",
+    "englishAlternatives",
+    "spanishAlternatives",
+    "frenchAlternatives",
+]
+LIST_FIELDS = [*OPTION_FIELDS, *ALTERNATIVE_FIELDS]
+COLUMNS = ["id", "levels", *TEXT_FIELDS, *LIST_FIELDS, "checked", "comment"]
 OPTIONS_SEP = " | "
 DELIMITER = ";"
 
@@ -59,7 +83,7 @@ def entry_to_row(word_id: str, entry: dict[str, Any], levels: list[str]) -> dict
     row = {"id": word_id, "levels": ",".join(levels)}
     for field in TEXT_FIELDS:
         row[field] = str(entry.get(field, ""))
-    for field in OPTION_FIELDS:
+    for field in LIST_FIELDS:
         row[field] = OPTIONS_SEP.join(entry.get(field, []))
     return row
 
@@ -109,7 +133,7 @@ def apply(src: Path, csv_path: Path) -> list[str]:
             if row is None:
                 continue
             new_values: dict[str, Any] = {f: row.get(f, "") for f in TEXT_FIELDS}
-            for field in OPTION_FIELDS:
+            for field in LIST_FIELDS:
                 if field in row:
                     new_values[field] = row[field].split(OPTIONS_SEP) if row[field] else ""
             touched = False
