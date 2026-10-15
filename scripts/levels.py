@@ -16,12 +16,12 @@ SRC = ROOT / "src"
 MIN_POOL = 15
 # At most this many levels per chapter; themes past the cap (in THEMES order) are left out.
 MAX_LEVELS = 15
-WORD_PROMPT = "Find the German word for"
+WORD_PROMPT = "Find the {target} word for"
 # (name, mode, prompt, categories), in the order the word levels appear in every chapter.
 # Order is priority too: when a chapter has more themes than MAX_LEVELS allows, the last go.
 THEMES: list[tuple[str, str, str, list[str]]] = [
     ("People and feelings", "word", WORD_PROMPT, ["people", "emotions", "personality", "life"]),
-    ("People with articles", "article", "Choose the German form", ["people"]),
+    ("People with articles", "article", "Choose the {target} form", ["people"]),
     ("Describing words", "word", WORD_PROMPT, ["adjectives", "colors", "adverbs"]),
     (
         "Small words, numbers and time",
@@ -67,18 +67,18 @@ THEMES: list[tuple[str, str, str, list[str]]] = [
             "culture",
         ],
     ),
-    ("Words that look alike", "word", "Translate the Danish word into German", ["spelling"]),
+    ("Words that look alike", "word", "Translate the {source} word into {target}", ["spelling"]),
 ]
 SENTENCES = (
     "Sentences",
     "word",
-    "Translate the Danish sentence into German",
+    "Translate the {source} sentence into {target}",
     ["modals", "sentences"],
 )
 BUILDER = (
     "Sentence builder",
     "sentence",
-    "Build the German sentence one chunk at a time",
+    "Build the {target} sentence one chunk at a time",
     ["sentence-builder"],
 )
 # Chapter N uses tier N words.

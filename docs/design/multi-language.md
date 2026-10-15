@@ -1,7 +1,7 @@
 # Multi-language: "I speak X, I learn Y"
 
-Status: proposal. Covers Danish, German and English in any of the 6 ordered pairs
-(`da-de`, `da-en`, `de-da`, `de-en`, `en-da`, `en-de`). Today the app is `da-de` only.
+Status: implemented (rollout steps 1 and 2). Covers Danish, German and English in any of the 6 ordered pairs
+(`da-de`, `da-en`, `de-da`, `de-en`, `en-da`, `en-de`).
 
 Every word entry already carries `danish`, `german` and `english` (a test enforces it), so word
 mode needs no new data for any pair. The work is mostly in `src/index.html`, which hardcodes
@@ -40,9 +40,10 @@ reads `word[pair.source]` for the prompt and `word[pair.target]` for the answer.
   `danishDefinite` / `danishIndefinite` as today; English shows the bare `english` noun (the label
   already says definite/indefinite). Levels in this mode are hidden for `da-en`, `de-da`, `de-en`
   and `en-da`. A Danish en/et mode is a separate later mode, not a variant of this one.
-- **Sentence mode** stays `da-de` only. A chunk's `sentence`, its step order and its `options` are
-  written for a Danish sentence built in German word order; other pairs need their own sentences.
-  Hidden for the other 5 pairs.
+- **Sentence mode** works for all 6 pairs. Each chunk is one meaning slot holding its text in all
+  three languages, in the same step order, and `danishOptions` / `germanOptions` /
+  `englishOptions` with the wrong gates for that target. The prompt sentence is the source chunks
+  joined by spaces, so each language's final chunk carries the full stop.
 - The code holds one table of which pairs each mode supports; the menu lists only playable levels.
 - **Prompt texts**: a level's `prompt` uses placeholders, e.g. `Find the {target} word for`,
   `Translate the {source} sentence into {target}`. The other hardcoded copy ("German chunk",
@@ -98,8 +99,7 @@ play it, `prompt` uses placeholders. The level redesign only has to follow three
    check levels, ticks and counters are unchanged.
 2. **Pair screen and word mode for all 6 pairs.** Add alternatives where the tests below fail;
    enable only pairs whose tests pass. Article mode also for `en-de`.
-3. **Later, if wanted:** a Danish en/et mode (after the noun-field cleanup) and sentence sets for
-   other pairs.
+3. **Later, if wanted:** a Danish en/et mode (after the noun-field cleanup).
 
 Test changes, in `tests/`:
 
