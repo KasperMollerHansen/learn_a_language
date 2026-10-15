@@ -1,6 +1,6 @@
 from typing import cast
 
-from wordbank import load_wordbank
+from wordbank import level_word_ids, load_wordbank
 
 
 def test_level_structure_matches_plan() -> None:
@@ -21,13 +21,9 @@ def test_level_structure_matches_plan() -> None:
         "Everyday things",
         "Sentence builder",
     ]
-    assert all(len(level["wordIds"]) == 30 for level in bank["levels"])
-    assert all(
-        word_id in bank["words"] for level in bank["levels"] for word_id in level["wordIds"]
-    )
+    assert all(len(level_word_ids(bank, level)) >= 3 for level in bank["levels"])
     modal_level = next(level for level in bank["levels"] if level["id"] == "2-1")
-    assert all(word_id.startswith("modals.") for word_id in modal_level["wordIds"])
-    assert {word_id.split(".")[1] for word_id in modal_level["wordIds"]} == {
+    assert {word_id.split(".")[1] for word_id in level_word_ids(bank, modal_level)} == {
         "koennen",
         "muessen",
         "wollen",
@@ -36,18 +32,27 @@ def test_level_structure_matches_plan() -> None:
         "moegen",
     }
     article_level = next(level for level in bank["levels"] if level["mode"] == "article")
-    assert all(word_id in bank["grammar"]["genitiveNouns"] for word_id in article_level["wordIds"])
+    article_ids = level_word_ids(bank, article_level)
+    assert all(word_id in bank["grammar"]["genitiveNouns"] for word_id in article_ids)
     assert all(
-        bank["words"][word_id].get("gender") in {"der", "die", "das"}
-        for word_id in article_level["wordIds"]
+        bank["words"][word_id].get("gender") in {"der", "die", "das"} for word_id in article_ids
     )
 
 
-def test_every_word_has_danish_and_german_translations() -> None:
+def test_every_word_has_a_tier_and_every_level_has_categories() -> None:
+    bank = load_wordbank()
+
+    assert all(word.get("tier") in {1, 2, 3} for word in bank["words"].values())
+    for level in bank["levels"]:
+        assert level["categories"], level["id"]
+        assert set(level.get("tiers", [1, 2, 3])) <= {1, 2, 3}, level["id"]
+
+
+def test_every_word_has_danish_german_and_english_translations() -> None:
     bank = load_wordbank()
 
     for word_id, word in bank["words"].items():
-        for language in ("danish", "german"):
+        for language in ("danish", "german", "english"):
             translation = word.get(language)
             assert isinstance(translation, str), word_id
             assert translation.strip(), word_id
@@ -100,7 +105,8 @@ def test_german_article_declensions_match_expected_forms() -> None:
 def test_sentence_builder_chunks_have_ordered_answers_and_distractors() -> None:
     bank = load_wordbank()
     level = next(level for level in bank["levels"] if level["mode"] == "sentence")
-    chunks = [bank["words"][word_id] for word_id in level["wordIds"]]
+    word_ids = level_word_ids(bank, level)
+    chunks = [bank["words"][word_id] for word_id in word_ids]
     expected = {
         "sentence-builder.mand.subject": ("Manden", "Der Mann", "Manden er stor."),
         "sentence-builder.mand.verb": ("er", "ist", "Manden er stor."),
@@ -142,9 +148,9 @@ def test_sentence_builder_chunks_have_ordered_answers_and_distractors() -> None:
         ),
     }
     sentences: dict[str, list[dict[str, object]]] = {}
-    for word_id, chunk in zip(level["wordIds"], chunks):
+    for word_id, chunk in zip(word_ids, chunks):
         assert (chunk["danish"], chunk["german"], chunk["sentence"]) == expected[word_id]
-        sentences.setdefault(chunk["sentenceId"], []).append(chunk)
+        sentences.setdefault(cast(str, chunk["sentenceId"]), []).append(chunk)
         options = chunk["options"]
         assert len(options) == 3
         assert len(set(options)) == 3
@@ -157,6 +163,7 @@ def test_sentence_builder_chunks_have_ordered_answers_and_distractors() -> None:
         for parts in sentences.values()
     )
     assert all(len({chunk["sentence"] for chunk in parts}) == 1 for parts in sentences.values())
+    assert all(len({chunk["tier"] for chunk in parts}) == 1 for parts in sentences.values())
     assert set(bank["words"]["sentence-builder.mand.subject"]["options"]) == {
         "Der Mann",
         "Den Mann",

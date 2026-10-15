@@ -2,211 +2,271 @@
   "spelling.hotel": {
     "danish": "hotel",
     "german": "Hotel",
+    "english": "hotel",
     "gender": "das",
     "danishDefinite": "hotellet",
-    "danishIndefinite": "et hotel"
+    "danishIndefinite": "et hotel",
+    "tier": 1
   },
   "spelling.restaurant": {
     "danish": "restaurant",
     "german": "Restaurant",
+    "english": "restaurant",
     "gender": "das",
     "danishDefinite": "restauranten",
-    "danishIndefinite": "en restaurant"
+    "danishIndefinite": "en restaurant",
+    "tier": 1
   },
   "spelling.radio": {
     "danish": "radio",
     "german": "Radio",
+    "english": "radio",
     "gender": "das",
     "danishDefinite": "radioen",
-    "danishIndefinite": "en radio"
+    "danishIndefinite": "en radio",
+    "tier": 1
   },
   "spelling.computer": {
     "danish": "computer",
     "german": "Computer",
+    "english": "computer",
     "gender": "der",
     "danishDefinite": "computeren",
-    "danishIndefinite": "en computer"
+    "danishIndefinite": "en computer",
+    "tier": 2
   },
   "spelling.bus": {
     "danish": "bus",
     "german": "Bus",
+    "english": "bus",
     "gender": "der",
     "danishDefinite": "bussen",
-    "danishIndefinite": "en bus"
+    "danishIndefinite": "en bus",
+    "tier": 1
   },
   "spelling.park": {
     "danish": "park",
     "german": "Park",
+    "english": "park",
     "gender": "der",
     "danishDefinite": "parken",
-    "danishIndefinite": "en park"
+    "danishIndefinite": "en park",
+    "tier": 1
   },
   "spelling.museum": {
     "danish": "museum",
     "german": "Museum",
+    "english": "museum",
     "gender": "das",
     "danishDefinite": "museet",
-    "danishIndefinite": "et museum"
+    "danishIndefinite": "et museum",
+    "tier": 2
   },
   "spelling.problem": {
     "danish": "problem",
     "german": "Problem",
+    "english": "problem",
     "gender": "das",
     "danishDefinite": "problemet",
-    "danishIndefinite": "et problem"
+    "danishIndefinite": "et problem",
+    "tier": 2
   },
   "spelling.telephone": {
     "danish": "telefon",
     "german": "Telefon",
+    "english": "telephone",
     "gender": "das",
     "danishDefinite": "telefonen",
-    "danishIndefinite": "en telefon"
+    "danishIndefinite": "en telefon",
+    "tier": 2
   },
   "spelling.video": {
     "danish": "video",
     "german": "Video",
+    "english": "video",
     "gender": "das",
     "danishDefinite": "videoen",
-    "danishIndefinite": "en video"
+    "danishIndefinite": "en video",
+    "tier": 1
   },
   "spelling.internet": {
     "danish": "internet",
     "german": "Internet",
+    "english": "internet",
     "gender": "das",
     "danishDefinite": "internettet",
-    "danishIndefinite": "et internet"
+    "danishIndefinite": "et internet",
+    "tier": 1
   },
   "spelling.bank": {
     "danish": "bank",
     "german": "Bank",
+    "english": "bank",
     "gender": "die",
     "danishDefinite": "banken",
-    "danishIndefinite": "en bank"
+    "danishIndefinite": "en bank",
+    "tier": 1
   },
   "spelling.music": {
     "danish": "musik",
     "german": "Musik",
+    "english": "music",
     "gender": "die",
     "danishDefinite": "musikken",
-    "danishIndefinite": "en musik"
+    "danishIndefinite": "en musik",
+    "tier": 2
   },
   "spelling.family": {
     "danish": "familie",
     "german": "Familie",
+    "english": "family",
     "gender": "die",
     "danishDefinite": "familien",
-    "danishIndefinite": "en familie"
+    "danishIndefinite": "en familie",
+    "tier": 2
   },
   "spelling.number": {
     "danish": "nummer",
     "german": "Nummer",
+    "english": "number",
     "gender": "die",
     "danishDefinite": "nummeret",
-    "danishIndefinite": "et nummer"
+    "danishIndefinite": "et nummer",
+    "tier": 2
   },
   "spelling.minute": {
     "danish": "minut",
     "german": "Minute",
+    "english": "minute",
     "gender": "die",
     "danishDefinite": "minuttet",
-    "danishIndefinite": "et minut"
+    "danishIndefinite": "et minut",
+    "tier": 2
   },
   "spelling.meter": {
     "danish": "meter",
     "german": "Meter",
+    "english": "meter",
     "gender": "der",
     "danishDefinite": "meteren",
-    "danishIndefinite": "en meter"
+    "danishIndefinite": "en meter",
+    "tier": 2
   },
   "spelling.second": {
     "danish": "sekund",
     "german": "Sekunde",
+    "english": "second",
     "gender": "die",
     "danishDefinite": "sekundet",
-    "danishIndefinite": "et sekund"
+    "danishIndefinite": "et sekund",
+    "tier": 3
   },
   "spelling.pizza": {
     "danish": "pizza",
     "german": "Pizza",
+    "english": "pizza",
     "gender": "die",
     "danishDefinite": "pizzaen",
-    "danishIndefinite": "en pizza"
+    "danishIndefinite": "en pizza",
+    "tier": 1
   },
   "spelling.chocolate": {
     "danish": "chokolade",
     "german": "Schokolade",
+    "english": "chocolate",
     "gender": "die",
     "danishDefinite": "chokoladen",
-    "danishIndefinite": "en chokolade"
+    "danishIndefinite": "en chokolade",
+    "tier": 1
   },
   "spelling.salad": {
     "danish": "salat",
     "german": "Salat",
+    "english": "salad",
     "gender": "der",
     "danishDefinite": "salaten",
-    "danishIndefinite": "en salat"
+    "danishIndefinite": "en salat",
+    "tier": 2
   },
   "spelling.tomato": {
     "danish": "tomat",
     "german": "Tomate",
+    "english": "tomato",
     "gender": "die",
     "danishDefinite": "tomaten",
-    "danishIndefinite": "en tomat"
+    "danishIndefinite": "en tomat",
+    "tier": 2
   },
   "spelling.camera": {
     "danish": "kamera",
     "german": "Kamera",
-    "gender": "das",
+    "english": "camera",
+    "gender": "die",
     "danishDefinite": "kameraet",
-    "danishIndefinite": "et kamera"
+    "danishIndefinite": "et kamera",
+    "tier": 2
   },
   "spelling.taxi": {
     "danish": "taxa",
     "german": "Taxi",
+    "english": "taxi",
     "gender": "das",
     "danishDefinite": "taxaen",
-    "danishIndefinite": "en taxa"
+    "danishIndefinite": "en taxa",
+    "tier": 1
   },
   "spelling.university": {
     "danish": "universitet",
     "german": "Universität",
+    "english": "university",
     "gender": "die",
     "danishDefinite": "universitetet",
-    "danishIndefinite": "et universitet"
+    "danishIndefinite": "et universitet",
+    "tier": 3
   },
   "spelling.student": {
     "danish": "student",
     "german": "Student",
+    "english": "student",
     "gender": "der",
-    "danishDefinite": "den studerende",
-    "danishIndefinite": "en studerende"
+    "danishDefinite": "studenten",
+    "danishIndefinite": "en student",
+    "tier": 2
   },
   "spelling.professor": {
     "danish": "professor",
     "german": "Professor",
+    "english": "professor",
     "gender": "der",
     "danishDefinite": "professoren",
-    "danishIndefinite": "en professor"
+    "danishIndefinite": "en professor",
+    "tier": 2
   },
   "spelling.zoo": {
     "danish": "zoo",
     "german": "Zoo",
+    "english": "zoo",
     "gender": "der",
     "danishDefinite": "zooen",
-    "danishIndefinite": "en zoo"
+    "danishIndefinite": "en zoo",
+    "tier": 1
   },
   "spelling.theater": {
     "danish": "teater",
     "german": "Theater",
+    "english": "theater",
     "gender": "das",
     "danishDefinite": "teatret",
-    "danishIndefinite": "et teater"
+    "danishIndefinite": "et teater",
+    "tier": 3
   },
   "spelling.artist": {
     "danish": "artist",
     "german": "Artist",
+    "english": "circus performer",
     "gender": "der",
     "danishDefinite": "artisten",
-    "danishIndefinite": "en artist"
+    "danishIndefinite": "en artist",
+    "tier": 3
   }
 }

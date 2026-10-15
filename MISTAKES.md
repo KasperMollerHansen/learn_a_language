@@ -6,6 +6,13 @@ consequence, and the one rule that prevents a repeat. A rule that has repeated i
 
 No entries yet.
 
+## 2026-10-15 — git checkout discarded uncommitted work
+
+- What happened: a worker agent ran `git checkout` on `src/wordbank/city.json` to undo its own bad build.
+- Root cause: the working tree was dirty with other work, and checkout reverts a file to HEAD, not to the worker's starting state.
+- Consequence: uncommitted tier and english fields from other work on that file were silently discarded; they were restored by hand.
+- Rule: never use git checkout/restore to undo your own edits in a dirty working tree; rebuild from a backup copy you made yourself.
+
 ## 2026-10-05 — Test runner unavailable
 
 - What happened: `poetry run pytest` and `python -m pytest` could not run; unittest discovery initially failed to import `init_repo`.

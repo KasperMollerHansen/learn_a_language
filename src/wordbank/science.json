@@ -1,0 +1,983 @@
+{
+  "science.addition": {
+    "danish": "addition",
+    "german": "Addition",
+    "english": "addition",
+    "gender": "die",
+    "danishDefinite": "additionen",
+    "danishIndefinite": "en addition",
+    "tier": 2
+  },
+  "science.subtraction": {
+    "danish": "subtraktion",
+    "german": "Subtraktion",
+    "english": "subtraction",
+    "gender": "die",
+    "danishDefinite": "subtraktionen",
+    "danishIndefinite": "en subtraktion",
+    "tier": 2
+  },
+  "science.multiplication": {
+    "danish": "multiplikation",
+    "german": "Multiplikation",
+    "english": "multiplication",
+    "gender": "die",
+    "danishDefinite": "multiplikationen",
+    "danishIndefinite": "en multiplikation",
+    "tier": 2
+  },
+  "science.division": {
+    "danish": "division",
+    "german": "Division",
+    "english": "division",
+    "gender": "die",
+    "danishDefinite": "divisionen",
+    "danishIndefinite": "en division",
+    "tier": 2
+  },
+  "science.fraction": {
+    "danish": "brøk",
+    "german": "Bruch",
+    "english": "fraction",
+    "gender": "der",
+    "danishDefinite": "brøken",
+    "danishIndefinite": "en brøk",
+    "tier": 2
+  },
+  "science.decimal-number": {
+    "danish": "decimaltal",
+    "german": "Dezimalzahl",
+    "english": "decimal number",
+    "gender": "die",
+    "danishDefinite": "decimaltallet",
+    "danishIndefinite": "et decimaltal",
+    "tier": 3
+  },
+  "science.equation": {
+    "danish": "ligning",
+    "german": "Gleichung",
+    "english": "equation",
+    "gender": "die",
+    "danishDefinite": "ligningen",
+    "danishIndefinite": "en ligning",
+    "tier": 3
+  },
+  "science.formula": {
+    "danish": "formel",
+    "german": "Formel",
+    "english": "formula",
+    "gender": "die",
+    "danishDefinite": "formlen",
+    "danishIndefinite": "en formel",
+    "tier": 2
+  },
+  "science.average": {
+    "danish": "gennemsnit",
+    "german": "Durchschnitt",
+    "english": "average",
+    "gender": "der",
+    "danishDefinite": "gennemsnittet",
+    "danishIndefinite": "et gennemsnit",
+    "tier": 2
+  },
+  "science.probability": {
+    "danish": "sandsynlighed",
+    "german": "Wahrscheinlichkeit",
+    "english": "probability",
+    "gender": "die",
+    "danishDefinite": "sandsynligheden",
+    "danishIndefinite": "en sandsynlighed",
+    "tier": 3
+  },
+  "science.statistics": {
+    "danish": "statistik",
+    "german": "Statistik",
+    "english": "statistics",
+    "gender": "die",
+    "danishDefinite": "statistikken",
+    "danishIndefinite": "en statistik",
+    "tier": 3
+  },
+  "science.square": {
+    "danish": "kvadrat",
+    "german": "Quadrat",
+    "english": "square",
+    "gender": "das",
+    "danishDefinite": "kvadratet",
+    "danishIndefinite": "et kvadrat",
+    "tier": 2
+  },
+  "science.rectangle": {
+    "danish": "rektangel",
+    "german": "Rechteck",
+    "english": "rectangle",
+    "gender": "das",
+    "danishDefinite": "rektanglet",
+    "danishIndefinite": "et rektangel",
+    "tier": 2
+  },
+  "science.triangle": {
+    "danish": "trekant",
+    "german": "Dreieck",
+    "english": "triangle",
+    "gender": "das",
+    "danishDefinite": "trekanten",
+    "danishIndefinite": "en trekant",
+    "tier": 2
+  },
+  "science.circle": {
+    "danish": "cirkel",
+    "german": "Kreis",
+    "english": "circle",
+    "gender": "der",
+    "danishDefinite": "cirklen",
+    "danishIndefinite": "en cirkel",
+    "tier": 2
+  },
+  "science.sphere": {
+    "danish": "kugle",
+    "german": "Kugel",
+    "english": "sphere",
+    "gender": "die",
+    "danishDefinite": "kuglen",
+    "danishIndefinite": "en kugle",
+    "tier": 2
+  },
+  "science.cone": {
+    "danish": "kegle",
+    "german": "Kegel",
+    "english": "cone",
+    "gender": "der",
+    "danishDefinite": "keglen",
+    "danishIndefinite": "en kegle",
+    "tier": 3
+  },
+  "science.cylinder": {
+    "danish": "cylinder",
+    "german": "Zylinder",
+    "english": "cylinder",
+    "gender": "der",
+    "danishDefinite": "cylinderen",
+    "danishIndefinite": "en cylinder",
+    "tier": 3
+  },
+  "science.pyramid": {
+    "danish": "pyramide",
+    "german": "Pyramide",
+    "english": "pyramid",
+    "gender": "die",
+    "danishDefinite": "pyramiden",
+    "danishIndefinite": "en pyramide",
+    "tier": 2
+  },
+  "science.angle": {
+    "danish": "vinkel",
+    "german": "Winkel",
+    "english": "angle",
+    "gender": "der",
+    "danishDefinite": "vinklen",
+    "danishIndefinite": "en vinkel",
+    "tier": 2
+  },
+  "science.line": {
+    "danish": "linje",
+    "german": "Linie",
+    "english": "line",
+    "gender": "die",
+    "danishDefinite": "linjen",
+    "danishIndefinite": "en linje",
+    "tier": 2
+  },
+  "science.radius": {
+    "danish": "radius",
+    "german": "Radius",
+    "english": "radius",
+    "gender": "der",
+    "danishDefinite": "radien",
+    "danishIndefinite": "en radius",
+    "tier": 3
+  },
+  "science.diameter": {
+    "danish": "diameter",
+    "german": "Durchmesser",
+    "english": "diameter",
+    "gender": "der",
+    "danishDefinite": "diameteren",
+    "danishIndefinite": "en diameter",
+    "tier": 3
+  },
+  "science.area": {
+    "danish": "areal",
+    "german": "Fläche",
+    "english": "area",
+    "gender": "die",
+    "danishDefinite": "arealet",
+    "danishIndefinite": "et areal",
+    "tier": 3
+  },
+  "science.volume": {
+    "danish": "volumen",
+    "german": "Volumen",
+    "english": "volume",
+    "gender": "das",
+    "danishDefinite": "volumenet",
+    "danishIndefinite": "et volumen",
+    "tier": 3
+  },
+  "science.circumference": {
+    "danish": "omkreds",
+    "german": "Umfang",
+    "english": "circumference",
+    "gender": "der",
+    "danishDefinite": "omkredsen",
+    "danishIndefinite": "en omkreds",
+    "tier": 3
+  },
+  "science.millimeter": {
+    "danish": "millimeter",
+    "german": "Millimeter",
+    "english": "millimeter",
+    "gender": "der",
+    "danishDefinite": "millimeteren",
+    "danishIndefinite": "en millimeter",
+    "tier": 2
+  },
+  "science.kilogram": {
+    "danish": "kilogram",
+    "german": "Kilogramm",
+    "english": "kilogram",
+    "gender": "das",
+    "danishDefinite": "kilogrammet",
+    "danishIndefinite": "et kilogram",
+    "tier": 1
+  },
+  "science.ton": {
+    "danish": "ton",
+    "german": "Tonne",
+    "english": "ton",
+    "gender": "die",
+    "danishDefinite": "tonnet",
+    "danishIndefinite": "et ton",
+    "tier": 2
+  },
+  "science.unit": {
+    "danish": "enhed",
+    "german": "Einheit",
+    "english": "unit",
+    "gender": "die",
+    "danishDefinite": "enheden",
+    "danishIndefinite": "en enhed",
+    "tier": 2
+  },
+  "science.measurement": {
+    "danish": "måling",
+    "german": "Messung",
+    "english": "measurement",
+    "gender": "die",
+    "danishDefinite": "målingen",
+    "danishIndefinite": "en måling",
+    "tier": 3
+  },
+  "science.speed": {
+    "danish": "hastighed",
+    "german": "Geschwindigkeit",
+    "english": "speed",
+    "gender": "die",
+    "danishDefinite": "hastigheden",
+    "danishIndefinite": "en hastighed",
+    "tier": 2
+  },
+  "science.force": {
+    "danish": "kraft",
+    "german": "Kraft",
+    "english": "force",
+    "gender": "die",
+    "danishDefinite": "kraften",
+    "danishIndefinite": "en kraft",
+    "tier": 2
+  },
+  "science.mass": {
+    "danish": "masse",
+    "german": "Masse",
+    "english": "mass",
+    "gender": "die",
+    "danishDefinite": "massen",
+    "danishIndefinite": "en masse",
+    "tier": 3
+  },
+  "science.pressure": {
+    "danish": "tryk",
+    "german": "Druck",
+    "english": "pressure",
+    "gender": "der",
+    "danishDefinite": "trykket",
+    "danishIndefinite": "et tryk",
+    "tier": 2
+  },
+  "science.light": {
+    "danish": "lys",
+    "german": "Licht",
+    "english": "light",
+    "gender": "das",
+    "danishDefinite": "lyset",
+    "danishIndefinite": "et lys",
+    "tier": 1
+  },
+  "science.atom": {
+    "danish": "atom",
+    "german": "Atom",
+    "english": "atom",
+    "gender": "das",
+    "danishDefinite": "atomet",
+    "danishIndefinite": "et atom",
+    "tier": 3
+  },
+  "science.molecule": {
+    "danish": "molekyle",
+    "german": "Molekül",
+    "english": "molecule",
+    "gender": "das",
+    "danishDefinite": "molekylet",
+    "danishIndefinite": "et molekyle",
+    "tier": 3
+  },
+  "science.chemical-element": {
+    "danish": "grundstof",
+    "german": "Element",
+    "english": "chemical element",
+    "gender": "das",
+    "danishDefinite": "grundstoffet",
+    "danishIndefinite": "et grundstof",
+    "tier": 3
+  },
+  "science.oxygen": {
+    "danish": "ilt",
+    "german": "Sauerstoff",
+    "english": "oxygen",
+    "gender": "der",
+    "danishDefinite": "ilten",
+    "danishIndefinite": "en ilt",
+    "tier": 2
+  },
+  "science.hydrogen": {
+    "danish": "brint",
+    "german": "Wasserstoff",
+    "english": "hydrogen",
+    "gender": "der",
+    "danishDefinite": "brinten",
+    "danishIndefinite": "en brint",
+    "tier": 3
+  },
+  "science.carbon": {
+    "danish": "kulstof",
+    "german": "Kohlenstoff",
+    "english": "carbon",
+    "gender": "der",
+    "danishDefinite": "kulstoffet",
+    "danishIndefinite": "et kulstof",
+    "tier": 3
+  },
+  "science.nitrogen": {
+    "danish": "kvælstof",
+    "german": "Stickstoff",
+    "english": "nitrogen",
+    "gender": "der",
+    "danishDefinite": "kvælstoffet",
+    "danishIndefinite": "et kvælstof",
+    "tier": 3
+  },
+  "science.acid": {
+    "danish": "syre",
+    "german": "Säure",
+    "english": "acid",
+    "gender": "die",
+    "danishDefinite": "syren",
+    "danishIndefinite": "en syre",
+    "tier": 3
+  },
+  "science.gene": {
+    "danish": "gen",
+    "german": "Gen",
+    "english": "gene",
+    "gender": "das",
+    "danishDefinite": "genet",
+    "danishIndefinite": "et gen",
+    "tier": 3
+  },
+  "science.evolution": {
+    "danish": "evolution",
+    "german": "Evolution",
+    "english": "evolution",
+    "gender": "die",
+    "danishDefinite": "evolutionen",
+    "danishIndefinite": "en evolution",
+    "tier": 3
+  },
+  "science.photosynthesis": {
+    "danish": "fotosyntese",
+    "german": "Photosynthese",
+    "english": "photosynthesis",
+    "gender": "die",
+    "danishDefinite": "fotosyntesen",
+    "danishIndefinite": "en fotosyntese",
+    "tier": 3
+  },
+  "science.laboratory": {
+    "danish": "laboratorium",
+    "german": "Labor",
+    "english": "laboratory",
+    "gender": "das",
+    "danishDefinite": "laboratoriet",
+    "danishIndefinite": "et laboratorium",
+    "tier": 2
+  },
+  "science.microscope": {
+    "danish": "mikroskop",
+    "german": "Mikroskop",
+    "english": "microscope",
+    "gender": "das",
+    "danishDefinite": "mikroskopet",
+    "danishIndefinite": "et mikroskop",
+    "tier": 2
+  },
+  "science.asteroid": {
+    "danish": "asteroide",
+    "german": "Asteroid",
+    "english": "asteroid",
+    "gender": "der",
+    "danishDefinite": "asteroiden",
+    "danishIndefinite": "en asteroide",
+    "tier": 3
+  },
+  "science.orbit": {
+    "danish": "kredsløb",
+    "german": "Umlaufbahn",
+    "english": "orbit",
+    "gender": "die",
+    "danishDefinite": "kredsløbet",
+    "danishIndefinite": "et kredsløb",
+    "tier": 3
+  },
+  "science.calculation": {
+    "danish": "beregning",
+    "german": "Berechnung",
+    "english": "calculation",
+    "gender": "die",
+    "danishDefinite": "beregningen",
+    "danishIndefinite": "en beregning",
+    "tier": 3
+  },
+  "science.hypothesis": {
+    "danish": "hypotese",
+    "german": "Hypothese",
+    "english": "hypothesis",
+    "gender": "die",
+    "danishDefinite": "hypotesen",
+    "danishIndefinite": "en hypotese",
+    "tier": 3
+  },
+  "science.pendulum": {
+    "danish": "pendul",
+    "german": "Pendel",
+    "english": "pendulum",
+    "gender": "das",
+    "danishDefinite": "pendulet",
+    "danishIndefinite": "et pendul",
+    "tier": 3
+  },
+  "science.electron": {
+    "danish": "elektron",
+    "german": "Elektron",
+    "english": "electron",
+    "gender": "das",
+    "danishDefinite": "elektronen",
+    "danishIndefinite": "en elektron",
+    "tier": 3
+  },
+  "science.microbe": {
+    "danish": "mikrobe",
+    "german": "Mikrobe",
+    "english": "microbe",
+    "gender": "die",
+    "danishDefinite": "mikroben",
+    "danishIndefinite": "en mikrobe",
+    "tier": 3
+  },
+  "science.law-of-gravity": {
+    "danish": "tyngdelov",
+    "german": "Gravitationsgesetz",
+    "english": "law of gravity",
+    "gender": "das",
+    "danishDefinite": "tyngdeloven",
+    "danishIndefinite": "en tyngdelov",
+    "tier": 3
+  },
+  "science.magnifying-glass": {
+    "danish": "lup",
+    "german": "Lupe",
+    "english": "magnifying glass",
+    "gender": "die",
+    "danishDefinite": "lupen",
+    "danishIndefinite": "en lup",
+    "tier": 2
+  },
+  "science.numerator": {
+    "danish": "tæller",
+    "german": "Zähler",
+    "english": "numerator",
+    "gender": "der",
+    "danishDefinite": "tælleren",
+    "danishIndefinite": "en tæller",
+    "tier": 3
+  },
+  "science.denominator": {
+    "danish": "nævner",
+    "german": "Nenner",
+    "english": "denominator",
+    "gender": "der",
+    "danishDefinite": "nævneren",
+    "danishIndefinite": "en nævner",
+    "tier": 3
+  },
+  "science.power-exponent": {
+    "danish": "potens",
+    "german": "Potenz",
+    "english": "power (exponent)",
+    "gender": "die",
+    "danishDefinite": "potensen",
+    "danishIndefinite": "en potens",
+    "tier": 3
+  },
+  "science.prime-number": {
+    "danish": "primtal",
+    "german": "Primzahl",
+    "english": "prime number",
+    "gender": "die",
+    "danishDefinite": "primtallet",
+    "danishIndefinite": "et primtal",
+    "tier": 3
+  },
+  "science.parallel-line": {
+    "danish": "parallel",
+    "german": "Parallele",
+    "english": "parallel line",
+    "gender": "die",
+    "danishDefinite": "parallellen",
+    "danishIndefinite": "en parallel",
+    "tier": 3
+  },
+  "science.diagonal": {
+    "danish": "diagonal",
+    "german": "Diagonale",
+    "english": "diagonal",
+    "gender": "die",
+    "danishDefinite": "diagonalen",
+    "danishIndefinite": "en diagonal",
+    "tier": 3
+  },
+  "science.ellipse": {
+    "danish": "ellipse",
+    "german": "Ellipse",
+    "english": "ellipse",
+    "gender": "die",
+    "danishDefinite": "ellipsen",
+    "danishIndefinite": "en ellipse",
+    "tier": 3
+  },
+  "science.pentagon": {
+    "danish": "femkant",
+    "german": "Fünfeck",
+    "english": "pentagon",
+    "gender": "das",
+    "danishDefinite": "femkanten",
+    "danishIndefinite": "en femkant",
+    "tier": 3
+  },
+  "science.hexagon": {
+    "danish": "sekskant",
+    "german": "Sechseck",
+    "english": "hexagon",
+    "gender": "das",
+    "danishDefinite": "sekskanten",
+    "danishIndefinite": "en sekskant",
+    "tier": 3
+  },
+  "science.coordinate-system": {
+    "danish": "koordinatsystem",
+    "german": "Koordinatensystem",
+    "english": "coordinate system",
+    "gender": "das",
+    "danishDefinite": "koordinatsystemet",
+    "danishIndefinite": "et koordinatsystem",
+    "tier": 3
+  },
+  "science.diagram": {
+    "danish": "diagram",
+    "german": "Diagramm",
+    "english": "diagram",
+    "gender": "das",
+    "danishDefinite": "diagrammet",
+    "danishIndefinite": "et diagram",
+    "tier": 2
+  },
+  "science.table-data": {
+    "danish": "tabel",
+    "german": "Tabelle",
+    "english": "table (data)",
+    "gender": "die",
+    "danishDefinite": "tabellen",
+    "danishIndefinite": "en tabel",
+    "tier": 2
+  },
+  "science.width": {
+    "danish": "bredde",
+    "german": "Breite",
+    "english": "width",
+    "gender": "die",
+    "danishDefinite": "bredden",
+    "danishIndefinite": "en bredde",
+    "tier": 2
+  },
+  "science.square-meter": {
+    "danish": "kvadratmeter",
+    "german": "Quadratmeter",
+    "english": "square meter",
+    "gender": "der",
+    "danishDefinite": "kvadratmeteren",
+    "danishIndefinite": "en kvadratmeter",
+    "tier": 2
+  },
+  "science.cubic-meter": {
+    "danish": "kubikmeter",
+    "german": "Kubikmeter",
+    "english": "cubic meter",
+    "gender": "der",
+    "danishDefinite": "kubikmeteren",
+    "danishIndefinite": "en kubikmeter",
+    "tier": 3
+  },
+  "science.ampere": {
+    "danish": "ampere",
+    "german": "Ampere",
+    "english": "ampere",
+    "gender": "das",
+    "danishDefinite": "amperet",
+    "danishIndefinite": "et ampere",
+    "tier": 3
+  },
+  "science.volt": {
+    "danish": "volt",
+    "german": "Volt",
+    "english": "volt",
+    "gender": "das",
+    "danishDefinite": "volten",
+    "danishIndefinite": "en volt",
+    "tier": 3
+  },
+  "science.watt": {
+    "danish": "watt",
+    "german": "Watt",
+    "english": "watt",
+    "gender": "das",
+    "danishDefinite": "watten",
+    "danishIndefinite": "en watt",
+    "tier": 3
+  },
+  "science.friction": {
+    "danish": "friktion",
+    "german": "Reibung",
+    "english": "friction",
+    "gender": "die",
+    "danishDefinite": "friktionen",
+    "danishIndefinite": "en friktion",
+    "tier": 3
+  },
+  "science.acceleration": {
+    "danish": "acceleration",
+    "german": "Beschleunigung",
+    "english": "acceleration",
+    "gender": "die",
+    "danishDefinite": "accelerationen",
+    "danishIndefinite": "en acceleration",
+    "tier": 3
+  },
+  "science.light-year": {
+    "danish": "lysår",
+    "german": "Lichtjahr",
+    "english": "light year",
+    "gender": "das",
+    "danishDefinite": "lysåret",
+    "danishIndefinite": "et lysår",
+    "tier": 3
+  },
+  "science.light-ray": {
+    "danish": "lysstråle",
+    "german": "Lichtstrahl",
+    "english": "light ray",
+    "gender": "der",
+    "danishDefinite": "lysstrålen",
+    "danishIndefinite": "en lysstråle",
+    "tier": 3
+  },
+  "science.radiation": {
+    "danish": "stråling",
+    "german": "Strahlung",
+    "english": "radiation",
+    "gender": "die",
+    "danishDefinite": "strålingen",
+    "danishIndefinite": "en stråling",
+    "tier": 3
+  },
+  "science.heat": {
+    "danish": "varme",
+    "german": "Wärme",
+    "english": "heat",
+    "gender": "die",
+    "danishDefinite": "varmen",
+    "danishIndefinite": "en varme",
+    "tier": 2
+  },
+  "science.melting-point": {
+    "danish": "smeltepunkt",
+    "german": "Schmelzpunkt",
+    "english": "melting point",
+    "gender": "der",
+    "danishDefinite": "smeltepunktet",
+    "danishIndefinite": "et smeltepunkt",
+    "tier": 3
+  },
+  "science.boiling-point": {
+    "danish": "kogepunkt",
+    "german": "Siedepunkt",
+    "english": "boiling point",
+    "gender": "der",
+    "danishDefinite": "kogepunktet",
+    "danishIndefinite": "et kogepunkt",
+    "tier": 3
+  },
+  "science.liquid": {
+    "danish": "væske",
+    "german": "Flüssigkeit",
+    "english": "liquid",
+    "gender": "die",
+    "danishDefinite": "væsken",
+    "danishIndefinite": "en væske",
+    "tier": 2
+  },
+  "science.solid": {
+    "danish": "faststof",
+    "german": "Feststoff",
+    "english": "solid",
+    "gender": "der",
+    "danishDefinite": "faststoffet",
+    "danishIndefinite": "et faststof",
+    "tier": 3
+  },
+  "science.mixture": {
+    "danish": "blanding",
+    "german": "Mischung",
+    "english": "mixture",
+    "gender": "die",
+    "danishDefinite": "blandingen",
+    "danishIndefinite": "en blanding",
+    "tier": 2
+  },
+  "science.reaction": {
+    "danish": "reaktion",
+    "german": "Reaktion",
+    "english": "reaction",
+    "gender": "die",
+    "danishDefinite": "reaktionen",
+    "danishIndefinite": "en reaktion",
+    "tier": 3
+  },
+  "science.carbon-dioxide": {
+    "danish": "kuldioxid",
+    "german": "Kohlendioxid",
+    "english": "carbon dioxide",
+    "gender": "das",
+    "danishDefinite": "kuldioxiden",
+    "danishIndefinite": "en kuldioxid",
+    "tier": 3
+  },
+  "science.proton": {
+    "danish": "proton",
+    "german": "Proton",
+    "english": "proton",
+    "gender": "das",
+    "danishDefinite": "protonen",
+    "danishIndefinite": "en proton",
+    "tier": 3
+  },
+  "science.neutron": {
+    "danish": "neutron",
+    "german": "Neutron",
+    "english": "neutron",
+    "gender": "das",
+    "danishDefinite": "neutronen",
+    "danishIndefinite": "en neutron",
+    "tier": 3
+  },
+  "science.periodic-table": {
+    "danish": "periodesystem",
+    "german": "Periodensystem",
+    "english": "periodic table",
+    "gender": "das",
+    "danishDefinite": "periodesystemet",
+    "danishIndefinite": "et periodesystem",
+    "tier": 3
+  },
+  "science.organism": {
+    "danish": "organisme",
+    "german": "Organismus",
+    "english": "organism",
+    "gender": "der",
+    "danishDefinite": "organismen",
+    "danishIndefinite": "en organisme",
+    "tier": 3
+  },
+  "science.chromosome": {
+    "danish": "kromosom",
+    "german": "Chromosom",
+    "english": "chromosome",
+    "gender": "das",
+    "danishDefinite": "kromosomet",
+    "danishIndefinite": "et kromosom",
+    "tier": 3
+  },
+  "science.heredity": {
+    "danish": "arvelighed",
+    "german": "Vererbung",
+    "english": "heredity",
+    "gender": "die",
+    "danishDefinite": "arveligheden",
+    "danishIndefinite": "en arvelighed",
+    "tier": 3
+  },
+  "science.observation": {
+    "danish": "observation",
+    "german": "Beobachtung",
+    "english": "observation",
+    "gender": "die",
+    "danishDefinite": "observationen",
+    "danishIndefinite": "en observation",
+    "tier": 3
+  },
+  "science.conclusion": {
+    "danish": "konklusion",
+    "german": "Schlussfolgerung",
+    "english": "conclusion",
+    "gender": "die",
+    "danishDefinite": "konklusionen",
+    "danishIndefinite": "en konklusion",
+    "tier": 3
+  },
+  "science.unit-of-measurement": {
+    "danish": "måleenhed",
+    "german": "Maßeinheit",
+    "english": "unit of measurement",
+    "gender": "die",
+    "danishDefinite": "måleenheden",
+    "danishIndefinite": "en måleenhed",
+    "tier": 3
+  },
+  "science.compass-drawing": {
+    "danish": "passer",
+    "german": "Zirkel",
+    "english": "compass (drawing)",
+    "gender": "der",
+    "danishDefinite": "passeren",
+    "danishIndefinite": "en passer",
+    "tier": 3
+  },
+  "science.protractor": {
+    "danish": "vinkelmåler",
+    "german": "Winkelmesser",
+    "english": "protractor",
+    "gender": "der",
+    "danishDefinite": "vinkelmåleren",
+    "danishIndefinite": "en vinkelmåler",
+    "tier": 3
+  },
+  "science.calculator": {
+    "danish": "regnemaskine",
+    "german": "Taschenrechner",
+    "english": "calculator",
+    "gender": "der",
+    "danishDefinite": "regnemaskinen",
+    "danishIndefinite": "en regnemaskine",
+    "tier": 2
+  },
+  "science.solar-wind": {
+    "danish": "solvind",
+    "german": "Sonnenwind",
+    "english": "solar wind",
+    "gender": "der",
+    "danishDefinite": "solvinden",
+    "danishIndefinite": "en solvind",
+    "tier": 3
+  },
+  "science.tides": {
+    "danish": "tidevand",
+    "german": "Gezeiten",
+    "english": "tides",
+    "gender": "die",
+    "danishDefinite": "tidevandet",
+    "danishIndefinite": "et tidevand",
+    "tier": 3
+  },
+  "science.northern-lights": {
+    "danish": "nordlys",
+    "german": "Polarlicht",
+    "english": "northern lights",
+    "gender": "das",
+    "danishDefinite": "nordlyset",
+    "danishIndefinite": "et nordlys",
+    "tier": 3
+  },
+  "science.milky-way": {
+    "danish": "mælkevej",
+    "german": "Milchstraße",
+    "english": "Milky Way",
+    "gender": "die",
+    "danishDefinite": "mælkevejen",
+    "danishIndefinite": "en mælkevej",
+    "tier": 3
+  },
+  "science.earth-axis": {
+    "danish": "jordakse",
+    "german": "Erdachse",
+    "english": "Earth axis",
+    "gender": "die",
+    "danishDefinite": "jordaksen",
+    "danishIndefinite": "en jordakse",
+    "tier": 3
+  },
+  "science.space-station": {
+    "danish": "rumstation",
+    "german": "Raumstation",
+    "english": "space station",
+    "gender": "die",
+    "danishDefinite": "rumstationen",
+    "danishIndefinite": "en rumstation",
+    "tier": 3
+  },
+  "science.space-shuttle": {
+    "danish": "rumfærge",
+    "german": "Raumfähre",
+    "english": "space shuttle",
+    "gender": "die",
+    "danishDefinite": "rumfærgen",
+    "danishIndefinite": "en rumfærge",
+    "tier": 3
+  },
+  "science.spaceship": {
+    "danish": "rumskib",
+    "german": "Raumschiff",
+    "english": "spaceship",
+    "gender": "das",
+    "danishDefinite": "rumskibet",
+    "danishIndefinite": "et rumskib",
+    "tier": 2
+  }
+}

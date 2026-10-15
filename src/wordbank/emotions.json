@@ -1,0 +1,350 @@
+{
+  "emotions.feeling": {
+    "danish": "følelse",
+    "german": "Gefühl",
+    "english": "feeling",
+    "gender": "das",
+    "danishDefinite": "følelsen",
+    "danishIndefinite": "en følelse",
+    "tier": 1
+  },
+  "emotions.joy": {
+    "danish": "glæde",
+    "german": "Freude",
+    "english": "joy",
+    "gender": "die",
+    "danishDefinite": "glæden",
+    "danishIndefinite": "en glæde",
+    "tier": 1
+  },
+  "emotions.happiness": {
+    "danish": "lykke",
+    "german": "Glück",
+    "english": "happiness",
+    "gender": "das",
+    "danishDefinite": "lykken",
+    "danishIndefinite": "en lykke",
+    "tier": 1
+  },
+  "emotions.grief": {
+    "danish": "sorg",
+    "german": "Trauer",
+    "english": "grief",
+    "gender": "die",
+    "danishDefinite": "sorgen",
+    "danishIndefinite": "en sorg",
+    "tier": 2
+  },
+  "emotions.anger": {
+    "danish": "vrede",
+    "german": "Wut",
+    "english": "anger",
+    "gender": "die",
+    "danishDefinite": "vreden",
+    "danishIndefinite": "en vrede",
+    "tier": 2
+  },
+  "emotions.fear": {
+    "danish": "angst",
+    "german": "Angst",
+    "english": "fear",
+    "gender": "die",
+    "danishDefinite": "angsten",
+    "danishIndefinite": "en angst",
+    "tier": 1
+  },
+  "emotions.dread": {
+    "danish": "frygt",
+    "german": "Furcht",
+    "english": "dread",
+    "gender": "die",
+    "danishDefinite": "frygten",
+    "danishIndefinite": "en frygt",
+    "tier": 3
+  },
+  "emotions.worry": {
+    "danish": "bekymring",
+    "german": "Sorge",
+    "english": "worry",
+    "gender": "die",
+    "danishDefinite": "bekymringen",
+    "danishIndefinite": "en bekymring",
+    "tier": 2
+  },
+  "emotions.surprise": {
+    "danish": "overraskelse",
+    "german": "Überraschung",
+    "english": "surprise",
+    "gender": "die",
+    "danishDefinite": "overraskelsen",
+    "danishIndefinite": "en overraskelse",
+    "tier": 2
+  },
+  "emotions.disappointment": {
+    "danish": "skuffelse",
+    "german": "Enttäuschung",
+    "english": "disappointment",
+    "gender": "die",
+    "danishDefinite": "skuffelsen",
+    "danishIndefinite": "en skuffelse",
+    "tier": 2
+  },
+  "emotions.jealousy": {
+    "danish": "jalousi",
+    "german": "Eifersucht",
+    "english": "jealousy",
+    "gender": "die",
+    "danishDefinite": "jalousien",
+    "danishIndefinite": "en jalousi",
+    "tier": 3
+  },
+  "emotions.envy": {
+    "danish": "misundelse",
+    "german": "Neid",
+    "english": "envy",
+    "gender": "der",
+    "danishDefinite": "misundelsen",
+    "danishIndefinite": "en misundelse",
+    "tier": 3
+  },
+  "emotions.shame": {
+    "danish": "skam",
+    "german": "Scham",
+    "english": "shame",
+    "gender": "die",
+    "danishDefinite": "skammen",
+    "danishIndefinite": "en skam",
+    "tier": 3
+  },
+  "emotions.pride": {
+    "danish": "stolthed",
+    "german": "Stolz",
+    "english": "pride",
+    "gender": "der",
+    "danishDefinite": "stoltheden",
+    "danishIndefinite": "en stolthed",
+    "tier": 2
+  },
+  "emotions.compassion": {
+    "danish": "medfølelse",
+    "german": "Mitgefühl",
+    "english": "compassion",
+    "gender": "das",
+    "danishDefinite": "medfølelsen",
+    "danishIndefinite": "en medfølelse",
+    "tier": 3
+  },
+  "emotions.love": {
+    "danish": "kærlighed",
+    "german": "Liebe",
+    "english": "love",
+    "gender": "die",
+    "danishDefinite": "kærligheden",
+    "danishIndefinite": "en kærlighed",
+    "tier": 1
+  },
+  "emotions.hatred": {
+    "danish": "had",
+    "german": "Hass",
+    "english": "hatred",
+    "gender": "der",
+    "danishDefinite": "hadet",
+    "danishIndefinite": "et had",
+    "tier": 2
+  },
+  "emotions.hope": {
+    "danish": "håb",
+    "german": "Hoffnung",
+    "english": "hope",
+    "gender": "die",
+    "danishDefinite": "håbet",
+    "danishIndefinite": "et håb",
+    "tier": 2
+  },
+  "emotions.loneliness": {
+    "danish": "ensomhed",
+    "german": "Einsamkeit",
+    "english": "loneliness",
+    "gender": "die",
+    "danishDefinite": "ensomheden",
+    "danishIndefinite": "en ensomhed",
+    "tier": 3
+  },
+  "emotions.boredom": {
+    "danish": "kedsomhed",
+    "german": "Langeweile",
+    "english": "boredom",
+    "gender": "die",
+    "danishDefinite": "kedsomheden",
+    "danishIndefinite": "en kedsomhed",
+    "tier": 2
+  },
+  "emotions.patience": {
+    "danish": "tålmodighed",
+    "german": "Geduld",
+    "english": "patience",
+    "gender": "die",
+    "danishDefinite": "tålmodigheden",
+    "danishIndefinite": "en tålmodighed",
+    "tier": 2
+  },
+  "emotions.trust": {
+    "danish": "tillid",
+    "german": "Vertrauen",
+    "english": "trust",
+    "gender": "das",
+    "danishDefinite": "tilliden",
+    "danishIndefinite": "en tillid",
+    "tier": 3
+  },
+  "emotions.distrust": {
+    "danish": "mistillid",
+    "german": "Misstrauen",
+    "english": "distrust",
+    "gender": "das",
+    "danishDefinite": "mistilliden",
+    "danishIndefinite": "en mistillid",
+    "tier": 3
+  },
+  "emotions.gratitude": {
+    "danish": "taknemmelighed",
+    "german": "Dankbarkeit",
+    "english": "gratitude",
+    "gender": "die",
+    "danishDefinite": "taknemmeligheden",
+    "danishIndefinite": "en taknemmelighed",
+    "tier": 3
+  },
+  "emotions.mood": {
+    "danish": "humør",
+    "german": "Stimmung",
+    "english": "mood",
+    "gender": "die",
+    "danishDefinite": "humøret",
+    "danishIndefinite": "et humør",
+    "tier": 2
+  },
+  "emotions.enthusiasm": {
+    "danish": "begejstring",
+    "german": "Begeisterung",
+    "english": "enthusiasm",
+    "gender": "die",
+    "danishDefinite": "begejstringen",
+    "danishIndefinite": "en begejstring",
+    "tier": 3
+  },
+  "emotions.relief": {
+    "danish": "lettelse",
+    "german": "Erleichterung",
+    "english": "relief",
+    "gender": "die",
+    "danishDefinite": "lettelsen",
+    "danishIndefinite": "en lettelse",
+    "tier": 3
+  },
+  "emotions.nervousness": {
+    "danish": "nervøsitet",
+    "german": "Nervosität",
+    "english": "nervousness",
+    "gender": "die",
+    "danishDefinite": "nervøsiteten",
+    "danishIndefinite": "en nervøsitet",
+    "tier": 3
+  },
+  "emotions.embarrassment": {
+    "danish": "forlegenhed",
+    "german": "Verlegenheit",
+    "english": "embarrassment",
+    "gender": "die",
+    "danishDefinite": "forlegenheden",
+    "danishIndefinite": "en forlegenhed",
+    "tier": 3
+  },
+  "emotions.self-confidence": {
+    "danish": "selvtillid",
+    "german": "Selbstvertrauen",
+    "english": "self-confidence",
+    "gender": "das",
+    "danishDefinite": "selvtilliden",
+    "danishIndefinite": "en selvtillid",
+    "tier": 3
+  },
+  "emotions.glad": {
+    "danish": "glad",
+    "german": "froh",
+    "english": "glad",
+    "tier": 1
+  },
+  "emotions.happy": {
+    "danish": "lykkelig",
+    "german": "glücklich",
+    "english": "happy",
+    "tier": 1
+  },
+  "emotions.sad": {
+    "danish": "trist",
+    "german": "traurig",
+    "english": "sad",
+    "tier": 1
+  },
+  "emotions.annoyed": {
+    "danish": "irriteret",
+    "german": "genervt",
+    "english": "annoyed",
+    "tier": 2
+  },
+  "emotions.disappointed": {
+    "danish": "skuffet",
+    "german": "enttäuscht",
+    "english": "disappointed",
+    "tier": 2
+  },
+  "emotions.jealous": {
+    "danish": "jaloux",
+    "german": "eifersüchtig",
+    "english": "jealous",
+    "tier": 2
+  },
+  "emotions.embarrassed": {
+    "danish": "flov",
+    "german": "verlegen",
+    "english": "embarrassed",
+    "tier": 3
+  },
+  "emotions.relieved": {
+    "danish": "lettet",
+    "german": "erleichtert",
+    "english": "relieved",
+    "tier": 3
+  },
+  "emotions.enthusiastic": {
+    "danish": "begejstret",
+    "german": "begeistert",
+    "english": "enthusiastic",
+    "tier": 3
+  },
+  "emotions.dissatisfied": {
+    "danish": "utilfreds",
+    "german": "unzufrieden",
+    "english": "dissatisfied",
+    "tier": 3
+  },
+  "emotions.grateful": {
+    "danish": "taknemmelig",
+    "german": "dankbar",
+    "english": "grateful",
+    "tier": 2
+  },
+  "emotions.to-laugh": {
+    "danish": "at grine",
+    "german": "lachen",
+    "english": "to laugh",
+    "tier": 1
+  },
+  "emotions.to-wonder": {
+    "danish": "at undre sig",
+    "german": "sich wundern",
+    "english": "to wonder",
+    "tier": 3
+  }
+}

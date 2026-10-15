@@ -1,0 +1,923 @@
+{
+  "clothing.clothes": {
+    "danish": "tøj",
+    "german": "Kleidung",
+    "english": "clothes",
+    "gender": "die",
+    "danishDefinite": "tøjet",
+    "danishIndefinite": "et tøj",
+    "tier": 1
+  },
+  "clothing.trousers": {
+    "danish": "bukser",
+    "german": "Hose",
+    "english": "trousers",
+    "gender": "die",
+    "danishDefinite": "bukserne",
+    "danishIndefinite": "et par bukser",
+    "tier": 1
+  },
+  "clothing.jeans": {
+    "danish": "jeans",
+    "german": "Jeans",
+    "english": "jeans",
+    "gender": "die",
+    "danishDefinite": "jeansene",
+    "danishIndefinite": "et par jeans",
+    "tier": 1
+  },
+  "clothing.shorts": {
+    "danish": "shorts",
+    "german": "Shorts",
+    "english": "shorts",
+    "gender": "die",
+    "danishDefinite": "shortsene",
+    "danishIndefinite": "et par shorts",
+    "tier": 2
+  },
+  "clothing.skirt": {
+    "danish": "nederdel",
+    "german": "Rock",
+    "english": "skirt",
+    "gender": "der",
+    "danishDefinite": "nederdelen",
+    "danishIndefinite": "en nederdel",
+    "tier": 1
+  },
+  "clothing.dress": {
+    "danish": "kjole",
+    "german": "Kleid",
+    "english": "dress",
+    "gender": "das",
+    "danishDefinite": "kjolen",
+    "danishIndefinite": "en kjole",
+    "tier": 1
+  },
+  "clothing.shirt": {
+    "danish": "skjorte",
+    "german": "Hemd",
+    "english": "shirt",
+    "gender": "das",
+    "danishDefinite": "skjorten",
+    "danishIndefinite": "en skjorte",
+    "tier": 1
+  },
+  "clothing.blouse": {
+    "danish": "bluse",
+    "german": "Bluse",
+    "english": "blouse",
+    "gender": "die",
+    "danishDefinite": "blusen",
+    "danishIndefinite": "en bluse",
+    "tier": 2
+  },
+  "clothing.t-shirt": {
+    "danish": "t-shirt",
+    "german": "T-Shirt",
+    "english": "T-shirt",
+    "gender": "das",
+    "danishDefinite": "t-shirten",
+    "danishIndefinite": "en t-shirt",
+    "tier": 1
+  },
+  "clothing.sweater": {
+    "danish": "sweater",
+    "german": "Pullover",
+    "english": "sweater",
+    "gender": "der",
+    "danishDefinite": "sweateren",
+    "danishIndefinite": "en sweater",
+    "tier": 1
+  },
+  "clothing.cardigan": {
+    "danish": "cardigan",
+    "german": "Strickjacke",
+    "english": "cardigan",
+    "gender": "die",
+    "danishDefinite": "cardiganen",
+    "danishIndefinite": "en cardigan",
+    "tier": 2
+  },
+  "clothing.jacket": {
+    "danish": "jakke",
+    "german": "Jacke",
+    "english": "jacket",
+    "gender": "die",
+    "danishDefinite": "jakken",
+    "danishIndefinite": "en jakke",
+    "tier": 1
+  },
+  "clothing.coat": {
+    "danish": "frakke",
+    "german": "Mantel",
+    "english": "coat",
+    "gender": "der",
+    "danishDefinite": "frakken",
+    "danishIndefinite": "en frakke",
+    "tier": 1
+  },
+  "clothing.winter-jacket": {
+    "danish": "vinterjakke",
+    "german": "Winterjacke",
+    "english": "winter jacket",
+    "gender": "die",
+    "danishDefinite": "vinterjakken",
+    "danishIndefinite": "en vinterjakke",
+    "tier": 2
+  },
+  "clothing.leather-jacket": {
+    "danish": "skindjakke",
+    "german": "Lederjacke",
+    "english": "leather jacket",
+    "gender": "die",
+    "danishDefinite": "skindjakken",
+    "danishIndefinite": "en skindjakke",
+    "tier": 2
+  },
+  "clothing.fleece-jacket": {
+    "danish": "fleecetrøje",
+    "german": "Fleecejacke",
+    "english": "fleece jacket",
+    "gender": "die",
+    "danishDefinite": "fleecetrøjen",
+    "danishIndefinite": "en fleecetrøje",
+    "tier": 3
+  },
+  "clothing.hoodie": {
+    "danish": "hættetrøje",
+    "german": "Kapuzenpullover",
+    "english": "hoodie",
+    "gender": "der",
+    "danishDefinite": "hættetrøjen",
+    "danishIndefinite": "en hættetrøje",
+    "tier": 2
+  },
+  "clothing.sweatshirt": {
+    "danish": "sweatshirt",
+    "german": "Sweatshirt",
+    "english": "sweatshirt",
+    "gender": "das",
+    "danishDefinite": "sweatshirten",
+    "danishIndefinite": "en sweatshirt",
+    "tier": 2
+  },
+  "clothing.polo-shirt": {
+    "danish": "poloshirt",
+    "german": "Poloshirt",
+    "english": "polo shirt",
+    "gender": "das",
+    "danishDefinite": "poloshirten",
+    "danishIndefinite": "en poloshirt",
+    "tier": 3
+  },
+  "clothing.waistcoat": {
+    "danish": "vest",
+    "german": "Weste",
+    "english": "waistcoat",
+    "gender": "die",
+    "danishDefinite": "vesten",
+    "danishIndefinite": "en vest",
+    "tier": 3
+  },
+  "clothing.suit": {
+    "danish": "jakkesæt",
+    "german": "Anzug",
+    "english": "suit",
+    "gender": "der",
+    "danishDefinite": "jakkesættet",
+    "danishIndefinite": "et jakkesæt",
+    "tier": 2
+  },
+  "clothing.costume": {
+    "danish": "kostume",
+    "german": "Kostüm",
+    "english": "costume",
+    "gender": "das",
+    "danishDefinite": "kostumet",
+    "danishIndefinite": "et kostume",
+    "tier": 3
+  },
+  "clothing.tuxedo": {
+    "danish": "smoking",
+    "german": "Smoking",
+    "english": "tuxedo",
+    "gender": "der",
+    "danishDefinite": "smokingen",
+    "danishIndefinite": "en smoking",
+    "tier": 3
+  },
+  "clothing.evening-dress": {
+    "danish": "festkjole",
+    "german": "Abendkleid",
+    "english": "evening dress",
+    "gender": "das",
+    "danishDefinite": "festkjolen",
+    "danishIndefinite": "en festkjole",
+    "tier": 3
+  },
+  "clothing.wedding-dress": {
+    "danish": "brudekjole",
+    "german": "Brautkleid",
+    "english": "wedding dress",
+    "gender": "das",
+    "danishDefinite": "brudekjolen",
+    "danishIndefinite": "en brudekjole",
+    "tier": 3
+  },
+  "clothing.leggings": {
+    "danish": "leggings",
+    "german": "Leggings",
+    "english": "leggings",
+    "gender": "die",
+    "danishDefinite": "leggingsene",
+    "danishIndefinite": "et par leggings",
+    "tier": 3
+  },
+  "clothing.overalls": {
+    "danish": "overall",
+    "german": "Overall",
+    "english": "overalls",
+    "gender": "der",
+    "danishDefinite": "overallen",
+    "danishIndefinite": "en overall",
+    "tier": 3
+  },
+  "clothing.uniform": {
+    "danish": "uniform",
+    "german": "Uniform",
+    "english": "uniform",
+    "gender": "die",
+    "danishDefinite": "uniformen",
+    "danishIndefinite": "en uniform",
+    "tier": 2
+  },
+  "clothing.work-clothes": {
+    "danish": "arbejdstøj",
+    "german": "Arbeitskleidung",
+    "english": "work clothes",
+    "gender": "die",
+    "danishDefinite": "arbejdstøjet",
+    "danishIndefinite": "et arbejdstøj",
+    "tier": 3
+  },
+  "clothing.tie": {
+    "danish": "slips",
+    "german": "Krawatte",
+    "english": "tie",
+    "gender": "die",
+    "danishDefinite": "slipset",
+    "danishIndefinite": "et slips",
+    "tier": 2
+  },
+  "clothing.bow-tie": {
+    "danish": "butterfly",
+    "german": "Fliege",
+    "english": "bow tie",
+    "gender": "die",
+    "danishDefinite": "butterflyen",
+    "danishIndefinite": "en butterfly",
+    "tier": 3
+  },
+  "clothing.scarf": {
+    "danish": "tørklæde",
+    "german": "Schal",
+    "english": "scarf",
+    "gender": "der",
+    "danishDefinite": "tørklædet",
+    "danishIndefinite": "et tørklæde",
+    "tier": 1
+  },
+  "clothing.neckerchief": {
+    "danish": "halstørklæde",
+    "german": "Halstuch",
+    "english": "neckerchief",
+    "gender": "das",
+    "danishDefinite": "halstørklædet",
+    "danishIndefinite": "et halstørklæde",
+    "tier": 3
+  },
+  "clothing.woolly-hat": {
+    "danish": "hue",
+    "german": "Mütze",
+    "english": "woolly hat",
+    "gender": "die",
+    "danishDefinite": "huen",
+    "danishIndefinite": "en hue",
+    "tier": 1
+  },
+  "clothing.hat": {
+    "danish": "hat",
+    "german": "Hut",
+    "english": "hat",
+    "gender": "der",
+    "danishDefinite": "hatten",
+    "danishIndefinite": "en hat",
+    "tier": 1
+  },
+  "clothing.cap": {
+    "danish": "kasket",
+    "german": "Basecap",
+    "english": "cap",
+    "gender": "das",
+    "danishDefinite": "kasketten",
+    "danishIndefinite": "en kasket",
+    "tier": 2
+  },
+  "clothing.glove": {
+    "danish": "handske",
+    "german": "Handschuh",
+    "english": "glove",
+    "gender": "der",
+    "danishDefinite": "handsken",
+    "danishIndefinite": "en handske",
+    "tier": 1
+  },
+  "clothing.mitten": {
+    "danish": "vante",
+    "german": "Fäustling",
+    "english": "mitten",
+    "gender": "der",
+    "danishDefinite": "vanten",
+    "danishIndefinite": "en vante",
+    "tier": 3
+  },
+  "clothing.sock": {
+    "danish": "sok",
+    "german": "Socke",
+    "english": "sock",
+    "gender": "die",
+    "danishDefinite": "sokken",
+    "danishIndefinite": "en sok",
+    "tier": 1
+  },
+  "clothing.stocking": {
+    "danish": "strømpe",
+    "german": "Strumpf",
+    "english": "stocking",
+    "gender": "der",
+    "danishDefinite": "strømpen",
+    "danishIndefinite": "en strømpe",
+    "tier": 2
+  },
+  "clothing.tights": {
+    "danish": "strømpebukser",
+    "german": "Strumpfhose",
+    "english": "tights",
+    "gender": "die",
+    "danishDefinite": "strømpebukserne",
+    "danishIndefinite": "et par strømpebukser",
+    "tier": 3
+  },
+  "clothing.shoe": {
+    "danish": "sko",
+    "german": "Schuh",
+    "english": "shoe",
+    "gender": "der",
+    "danishDefinite": "skoen",
+    "danishIndefinite": "en sko",
+    "tier": 1
+  },
+  "clothing.boot": {
+    "danish": "støvle",
+    "german": "Stiefel",
+    "english": "boot",
+    "gender": "der",
+    "danishDefinite": "støvlen",
+    "danishIndefinite": "en støvle",
+    "tier": 1
+  },
+  "clothing.rubber-boot": {
+    "danish": "gummistøvle",
+    "german": "Gummistiefel",
+    "english": "rubber boot",
+    "gender": "der",
+    "danishDefinite": "gummistøvlen",
+    "danishIndefinite": "en gummistøvle",
+    "tier": 2
+  },
+  "clothing.sandal": {
+    "danish": "sandal",
+    "german": "Sandale",
+    "english": "sandal",
+    "gender": "die",
+    "danishDefinite": "sandalen",
+    "danishIndefinite": "en sandal",
+    "tier": 2
+  },
+  "clothing.slipper": {
+    "danish": "hjemmesko",
+    "german": "Hausschuh",
+    "english": "slipper",
+    "gender": "der",
+    "danishDefinite": "hjemmeskoen",
+    "danishIndefinite": "en hjemmesko",
+    "tier": 2
+  },
+  "clothing.sneaker": {
+    "danish": "sneaker",
+    "german": "Turnschuh",
+    "english": "sneaker",
+    "gender": "der",
+    "danishDefinite": "sneakeren",
+    "danishIndefinite": "en sneaker",
+    "tier": 2
+  },
+  "clothing.shoelace": {
+    "danish": "snørebånd",
+    "german": "Schnürsenkel",
+    "english": "shoelace",
+    "gender": "der",
+    "danishDefinite": "snørebåndet",
+    "danishIndefinite": "et snørebånd",
+    "tier": 3
+  },
+  "clothing.sole": {
+    "danish": "sål",
+    "german": "Sohle",
+    "english": "sole",
+    "gender": "die",
+    "danishDefinite": "sålen",
+    "danishIndefinite": "en sål",
+    "tier": 3
+  },
+  "clothing.zipper": {
+    "danish": "lynlås",
+    "german": "Reißverschluss",
+    "english": "zipper",
+    "gender": "der",
+    "danishDefinite": "lynlåsen",
+    "danishIndefinite": "en lynlås",
+    "tier": 2
+  },
+  "clothing.buttonhole": {
+    "danish": "knaphul",
+    "german": "Knopfloch",
+    "english": "buttonhole",
+    "gender": "das",
+    "danishDefinite": "knaphullet",
+    "danishIndefinite": "et knaphul",
+    "tier": 3
+  },
+  "clothing.pocket": {
+    "danish": "lomme",
+    "german": "Tasche",
+    "english": "pocket",
+    "gender": "die",
+    "danishDefinite": "lommen",
+    "danishIndefinite": "en lomme",
+    "tier": 1
+  },
+  "clothing.belt": {
+    "danish": "bælte",
+    "german": "Gürtel",
+    "english": "belt",
+    "gender": "der",
+    "danishDefinite": "bæltet",
+    "danishIndefinite": "et bælte",
+    "tier": 2
+  },
+  "clothing.sleeve": {
+    "danish": "ærme",
+    "german": "Ärmel",
+    "english": "sleeve",
+    "gender": "der",
+    "danishDefinite": "ærmet",
+    "danishIndefinite": "et ærme",
+    "tier": 2
+  },
+  "clothing.collar": {
+    "danish": "krave",
+    "german": "Kragen",
+    "english": "collar",
+    "gender": "der",
+    "danishDefinite": "kraven",
+    "danishIndefinite": "en krave",
+    "tier": 3
+  },
+  "clothing.cuff": {
+    "danish": "manchet",
+    "german": "Manschette",
+    "english": "cuff",
+    "gender": "die",
+    "danishDefinite": "manchetten",
+    "danishIndefinite": "en manchet",
+    "tier": 3
+  },
+  "clothing.cotton": {
+    "danish": "bomuld",
+    "german": "Baumwolle",
+    "english": "cotton",
+    "gender": "die",
+    "danishDefinite": "bomulden",
+    "danishIndefinite": "en bomuld",
+    "tier": 2
+  },
+  "clothing.wool": {
+    "danish": "uld",
+    "german": "Wolle",
+    "english": "wool",
+    "gender": "die",
+    "danishDefinite": "ulden",
+    "danishIndefinite": "en uld",
+    "tier": 2
+  },
+  "clothing.silk": {
+    "danish": "silke",
+    "german": "Seide",
+    "english": "silk",
+    "gender": "die",
+    "danishDefinite": "silken",
+    "danishIndefinite": "en silke",
+    "tier": 2
+  },
+  "clothing.leather": {
+    "danish": "læder",
+    "german": "Leder",
+    "english": "leather",
+    "gender": "das",
+    "danishDefinite": "læderet",
+    "danishIndefinite": "et læder",
+    "tier": 2
+  },
+  "clothing.polyester": {
+    "danish": "polyester",
+    "german": "Polyester",
+    "english": "polyester",
+    "gender": "das",
+    "danishDefinite": "polyesteret",
+    "danishIndefinite": "et polyester",
+    "tier": 3
+  },
+  "clothing.fur-coat": {
+    "danish": "pels",
+    "german": "Pelz",
+    "english": "fur coat",
+    "gender": "der",
+    "danishDefinite": "pelsen",
+    "danishIndefinite": "en pels",
+    "tier": 3
+  },
+  "clothing.pattern": {
+    "danish": "mønster",
+    "german": "Muster",
+    "english": "pattern",
+    "gender": "das",
+    "danishDefinite": "mønsteret",
+    "danishIndefinite": "et mønster",
+    "tier": 2
+  },
+  "clothing.size": {
+    "danish": "størrelse",
+    "german": "Größe",
+    "english": "size",
+    "gender": "die",
+    "danishDefinite": "størrelsen",
+    "danishIndefinite": "en størrelse",
+    "tier": 1
+  },
+  "clothing.shoe-size": {
+    "danish": "skostørrelse",
+    "german": "Schuhgröße",
+    "english": "shoe size",
+    "gender": "die",
+    "danishDefinite": "skostørrelsen",
+    "danishIndefinite": "en skostørrelse",
+    "tier": 2
+  },
+  "clothing.fashion": {
+    "danish": "mode",
+    "german": "Mode",
+    "english": "fashion",
+    "gender": "die",
+    "danishDefinite": "moden",
+    "danishIndefinite": "en mode",
+    "tier": 2
+  },
+  "clothing.cloakroom": {
+    "danish": "garderobe",
+    "german": "Garderobe",
+    "english": "cloakroom",
+    "gender": "die",
+    "danishDefinite": "garderoben",
+    "danishIndefinite": "en garderobe",
+    "tier": 3
+  },
+  "clothing.wardrobe": {
+    "danish": "klædeskab",
+    "german": "Kleiderschrank",
+    "english": "wardrobe",
+    "gender": "der",
+    "danishDefinite": "klædeskabet",
+    "danishIndefinite": "et klædeskab",
+    "tier": 2
+  },
+  "clothing.coat-hanger": {
+    "danish": "bøjle",
+    "german": "Kleiderbügel",
+    "english": "coat hanger",
+    "gender": "der",
+    "danishDefinite": "bøjlen",
+    "danishIndefinite": "en bøjle",
+    "tier": 2
+  },
+  "clothing.laundry": {
+    "danish": "vasketøj",
+    "german": "Wäsche",
+    "english": "laundry",
+    "gender": "die",
+    "danishDefinite": "vasketøjet",
+    "danishIndefinite": "et vasketøj",
+    "tier": 1
+  },
+  "clothing.washing-machine": {
+    "danish": "vaskemaskine",
+    "german": "Waschmaschine",
+    "english": "washing machine",
+    "gender": "die",
+    "danishDefinite": "vaskemaskinen",
+    "danishIndefinite": "en vaskemaskine",
+    "tier": 1
+  },
+  "clothing.tumble-dryer": {
+    "danish": "tørretumbler",
+    "german": "Wäschetrockner",
+    "english": "tumble dryer",
+    "gender": "der",
+    "danishDefinite": "tørretumbleren",
+    "danishIndefinite": "en tørretumbler",
+    "tier": 3
+  },
+  "clothing.iron": {
+    "danish": "strygejern",
+    "german": "Bügeleisen",
+    "english": "iron",
+    "gender": "das",
+    "danishDefinite": "strygejernet",
+    "danishIndefinite": "et strygejern",
+    "tier": 3
+  },
+  "clothing.needle": {
+    "danish": "nål",
+    "german": "Nadel",
+    "english": "needle",
+    "gender": "die",
+    "danishDefinite": "nålen",
+    "danishIndefinite": "en nål",
+    "tier": 2
+  },
+  "clothing.thread": {
+    "danish": "tråd",
+    "german": "Faden",
+    "english": "thread",
+    "gender": "der",
+    "danishDefinite": "tråden",
+    "danishIndefinite": "en tråd",
+    "tier": 2
+  },
+  "clothing.sewing-machine": {
+    "danish": "symaskine",
+    "german": "Nähmaschine",
+    "english": "sewing machine",
+    "gender": "die",
+    "danishDefinite": "symaskinen",
+    "danishIndefinite": "en symaskine",
+    "tier": 3
+  },
+  "clothing.tape-measure": {
+    "danish": "målebånd",
+    "german": "Maßband",
+    "english": "tape measure",
+    "gender": "das",
+    "danishDefinite": "målebåndet",
+    "danishIndefinite": "et målebånd",
+    "tier": 3
+  },
+  "clothing.fitting-room": {
+    "danish": "prøverum",
+    "german": "Umkleidekabine",
+    "english": "fitting room",
+    "gender": "die",
+    "danishDefinite": "prøverummet",
+    "danishIndefinite": "et prøverum",
+    "tier": 3
+  },
+  "clothing.clothes-shop": {
+    "danish": "tøjbutik",
+    "german": "Bekleidungsgeschäft",
+    "english": "clothes shop",
+    "gender": "das",
+    "danishDefinite": "tøjbutikken",
+    "danishIndefinite": "en tøjbutik",
+    "tier": 3
+  },
+  "clothing.underpants": {
+    "danish": "underbukser",
+    "german": "Unterhose",
+    "english": "underpants",
+    "gender": "die",
+    "danishDefinite": "underbukserne",
+    "danishIndefinite": "et par underbukser",
+    "tier": 2
+  },
+  "clothing.bra": {
+    "danish": "bh",
+    "german": "BH",
+    "english": "bra",
+    "gender": "der",
+    "danishDefinite": "bh'en",
+    "danishIndefinite": "en bh",
+    "tier": 3
+  },
+  "clothing.undershirt": {
+    "danish": "undertrøje",
+    "german": "Unterhemd",
+    "english": "undershirt",
+    "gender": "das",
+    "danishDefinite": "undertrøjen",
+    "danishIndefinite": "en undertrøje",
+    "tier": 3
+  },
+  "clothing.nightgown": {
+    "danish": "natkjole",
+    "german": "Nachthemd",
+    "english": "nightgown",
+    "gender": "das",
+    "danishDefinite": "natkjolen",
+    "danishIndefinite": "en natkjole",
+    "tier": 3
+  },
+  "clothing.pyjamas": {
+    "danish": "pyjamas",
+    "german": "Schlafanzug",
+    "english": "pyjamas",
+    "gender": "der",
+    "danishDefinite": "pyjamassen",
+    "danishIndefinite": "en pyjamas",
+    "tier": 2
+  },
+  "clothing.dressing-gown": {
+    "danish": "morgenkåbe",
+    "german": "Morgenmantel",
+    "english": "dressing gown",
+    "gender": "der",
+    "danishDefinite": "morgenkåben",
+    "danishIndefinite": "en morgenkåbe",
+    "tier": 3
+  },
+  "clothing.swimming-trunks": {
+    "danish": "badebukser",
+    "german": "Badehose",
+    "english": "swimming trunks",
+    "gender": "die",
+    "danishDefinite": "badebukserne",
+    "danishIndefinite": "et par badebukser",
+    "tier": 2
+  },
+  "clothing.bikini": {
+    "danish": "bikini",
+    "german": "Bikini",
+    "english": "bikini",
+    "gender": "der",
+    "danishDefinite": "bikinien",
+    "danishIndefinite": "en bikini",
+    "tier": 2
+  },
+  "clothing.wristwatch": {
+    "danish": "armbåndsur",
+    "german": "Armbanduhr",
+    "english": "wristwatch",
+    "gender": "die",
+    "danishDefinite": "armbåndsuret",
+    "danishIndefinite": "et armbåndsur",
+    "tier": 2
+  },
+  "clothing.piece-of-jewellery": {
+    "danish": "smykke",
+    "german": "Schmuckstück",
+    "english": "piece of jewellery",
+    "gender": "das",
+    "danishDefinite": "smykket",
+    "danishIndefinite": "et smykke",
+    "tier": 3
+  },
+  "clothing.ring": {
+    "danish": "ring",
+    "german": "Ring",
+    "english": "ring",
+    "gender": "der",
+    "danishDefinite": "ringen",
+    "danishIndefinite": "en ring",
+    "tier": 1
+  },
+  "clothing.brooch": {
+    "danish": "brosche",
+    "german": "Brosche",
+    "english": "brooch",
+    "gender": "die",
+    "danishDefinite": "broschen",
+    "danishIndefinite": "en brosche",
+    "tier": 3
+  },
+  "clothing.cufflink": {
+    "danish": "manchetknap",
+    "german": "Manschettenknopf",
+    "english": "cufflink",
+    "gender": "der",
+    "danishDefinite": "manchetknappen",
+    "danishIndefinite": "en manchetknap",
+    "tier": 3
+  },
+  "clothing.wig": {
+    "danish": "paryk",
+    "german": "Perücke",
+    "english": "wig",
+    "gender": "die",
+    "danishDefinite": "parykken",
+    "danishIndefinite": "en paryk",
+    "tier": 3
+  },
+  "clothing.veil": {
+    "danish": "slør",
+    "german": "Schleier",
+    "english": "veil",
+    "gender": "der",
+    "danishDefinite": "sløret",
+    "danishIndefinite": "et slør",
+    "tier": 3
+  },
+  "clothing.wallet": {
+    "danish": "tegnebog",
+    "german": "Brieftasche",
+    "english": "wallet",
+    "gender": "die",
+    "danishDefinite": "tegnebogen",
+    "danishIndefinite": "en tegnebog",
+    "tier": 3
+  },
+  "clothing.to-try-on": {
+    "danish": "at prøve tøj",
+    "german": "anprobieren",
+    "english": "to try on",
+    "tier": 2
+  },
+  "clothing.to-iron": {
+    "danish": "at stryge",
+    "german": "bügeln",
+    "english": "to iron",
+    "tier": 2
+  },
+  "clothing.to-button-up": {
+    "danish": "at knappe",
+    "german": "zuknöpfen",
+    "english": "to button up",
+    "tier": 3
+  },
+  "clothing.striped": {
+    "danish": "stribet",
+    "german": "gestreift",
+    "english": "striped",
+    "tier": 2
+  },
+  "clothing.checked": {
+    "danish": "ternet",
+    "german": "kariert",
+    "english": "checked",
+    "tier": 2
+  },
+  "clothing.dotted": {
+    "danish": "prikket",
+    "german": "gepunktet",
+    "english": "dotted",
+    "tier": 3
+  },
+  "clothing.plain-coloured": {
+    "danish": "ensfarvet",
+    "german": "einfarbig",
+    "english": "plain-coloured",
+    "tier": 3
+  },
+  "clothing.waterproof": {
+    "danish": "vandtæt",
+    "german": "wasserdicht",
+    "english": "waterproof",
+    "tier": 3
+  },
+  "clothing.tight-fitting": {
+    "danish": "tætsiddende",
+    "german": "eng",
+    "english": "tight-fitting",
+    "tier": 2
+  },
+  "clothing.fashionable": {
+    "danish": "moderne",
+    "german": "modisch",
+    "english": "fashionable",
+    "tier": 3
+  },
+  "clothing.worn-out": {
+    "danish": "slidt",
+    "german": "abgetragen",
+    "english": "worn out",
+    "tier": 3
+  }
+}

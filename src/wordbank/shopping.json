@@ -1,0 +1,455 @@
+{
+  "shopping.shop-verb": {
+    "danish": "at købe ind",
+    "german": "einkaufen",
+    "english": "to shop",
+    "tier": 1
+  },
+  "shopping.try-on": {
+    "danish": "at prøve",
+    "german": "anprobieren",
+    "english": "to try on",
+    "tier": 2
+  },
+  "shopping.exchange": {
+    "danish": "at bytte",
+    "german": "umtauschen",
+    "english": "to exchange",
+    "tier": 2
+  },
+  "shopping.price": {
+    "danish": "pris",
+    "german": "Preis",
+    "english": "price",
+    "gender": "der",
+    "danishDefinite": "prisen",
+    "danishIndefinite": "en pris",
+    "tier": 1
+  },
+  "shopping.bank-card": {
+    "danish": "betalingskort",
+    "german": "Bankkarte",
+    "english": "bank card",
+    "gender": "die",
+    "danishDefinite": "betalingskortet",
+    "danishIndefinite": "et betalingskort",
+    "tier": 2
+  },
+  "shopping.wallet": {
+    "danish": "tegnebog",
+    "german": "Geldbörse",
+    "english": "wallet",
+    "gender": "die",
+    "danishDefinite": "tegnebogen",
+    "danishIndefinite": "en tegnebog",
+    "tier": 2
+  },
+  "shopping.receipt": {
+    "danish": "kvittering",
+    "german": "Kassenbon",
+    "english": "receipt",
+    "gender": "der",
+    "danishDefinite": "kvitteringen",
+    "danishIndefinite": "en kvittering",
+    "tier": 2
+  },
+  "shopping.checkout": {
+    "danish": "kasseapparat",
+    "german": "Kasse",
+    "english": "till",
+    "gender": "die",
+    "danishDefinite": "kasseapparatet",
+    "danishIndefinite": "et kasseapparat",
+    "tier": 1
+  },
+  "shopping.cashier": {
+    "danish": "kasserer",
+    "german": "Kassierer",
+    "english": "cashier",
+    "gender": "der",
+    "danishDefinite": "kassereren",
+    "danishIndefinite": "en kasserer",
+    "tier": 3
+  },
+  "shopping.offer": {
+    "danish": "tilbud",
+    "german": "Angebot",
+    "english": "special offer",
+    "gender": "das",
+    "danishDefinite": "tilbuddet",
+    "danishIndefinite": "et tilbud",
+    "tier": 2
+  },
+  "shopping.sale": {
+    "danish": "udsalg",
+    "german": "Schlussverkauf",
+    "english": "sale",
+    "gender": "der",
+    "danishDefinite": "udsalget",
+    "danishIndefinite": "et udsalg",
+    "tier": 3
+  },
+  "shopping.discount": {
+    "danish": "rabat",
+    "german": "Rabatt",
+    "english": "discount",
+    "gender": "der",
+    "danishDefinite": "rabatten",
+    "danishIndefinite": "en rabat",
+    "tier": 2
+  },
+  "shopping.bargain": {
+    "danish": "kup",
+    "german": "Schnäppchen",
+    "english": "bargain",
+    "gender": "das",
+    "danishDefinite": "kuppet",
+    "danishIndefinite": "et kup",
+    "tier": 3
+  },
+  "shopping.voucher": {
+    "danish": "gavekort",
+    "german": "Gutschein",
+    "english": "gift voucher",
+    "gender": "der",
+    "danishDefinite": "gavekortet",
+    "danishIndefinite": "et gavekort",
+    "tier": 3
+  },
+  "shopping.coupon": {
+    "danish": "rabatkupon",
+    "german": "Rabattgutschein",
+    "english": "discount coupon",
+    "gender": "der",
+    "danishDefinite": "rabatkuponen",
+    "danishIndefinite": "en rabatkupon",
+    "tier": 3
+  },
+  "shopping.affordable": {
+    "danish": "prisvenlig",
+    "german": "preiswert",
+    "english": "affordable",
+    "tier": 3
+  },
+  "shopping.in-stock": {
+    "danish": "på lager",
+    "german": "vorrätig",
+    "english": "in stock",
+    "tier": 3
+  },
+  "shopping.open-adj": {
+    "danish": "åben",
+    "german": "geöffnet",
+    "english": "open",
+    "tier": 1
+  },
+  "shopping.shopping": {
+    "danish": "indkøb",
+    "german": "Einkauf",
+    "english": "purchase",
+    "gender": "der",
+    "danishDefinite": "indkøbet",
+    "danishIndefinite": "et indkøb",
+    "tier": 2
+  },
+  "shopping.shopping-list": {
+    "danish": "indkøbsseddel",
+    "german": "Einkaufszettel",
+    "english": "shopping list",
+    "gender": "der",
+    "danishDefinite": "indkøbssedlen",
+    "danishIndefinite": "en indkøbsseddel",
+    "tier": 2
+  },
+  "shopping.shopping-trip": {
+    "danish": "shoppingtur",
+    "german": "Einkaufsbummel",
+    "english": "shopping trip",
+    "gender": "der",
+    "danishDefinite": "shoppingturen",
+    "danishIndefinite": "en shoppingtur",
+    "tier": 3
+  },
+  "shopping.delivery": {
+    "danish": "levering",
+    "german": "Lieferung",
+    "english": "delivery",
+    "gender": "die",
+    "danishDefinite": "leveringen",
+    "danishIndefinite": "en levering",
+    "tier": 2
+  },
+  "shopping.packaging": {
+    "danish": "emballage",
+    "german": "Verpackung",
+    "english": "packaging",
+    "gender": "die",
+    "danishDefinite": "emballagen",
+    "danishIndefinite": "en emballage",
+    "tier": 3
+  },
+  "shopping.brand": {
+    "danish": "varemærke",
+    "german": "Marke",
+    "english": "brand",
+    "gender": "die",
+    "danishDefinite": "varemærket",
+    "danishIndefinite": "et varemærke",
+    "tier": 3
+  },
+  "shopping.product": {
+    "danish": "produkt",
+    "german": "Produkt",
+    "english": "product",
+    "gender": "das",
+    "danishDefinite": "produktet",
+    "danishIndefinite": "et produkt",
+    "tier": 2
+  },
+  "shopping.goods": {
+    "danish": "vare",
+    "german": "Ware",
+    "english": "item for sale",
+    "gender": "die",
+    "danishDefinite": "varen",
+    "danishIndefinite": "en vare",
+    "tier": 2
+  },
+  "shopping.too-big": {
+    "danish": "for stor",
+    "german": "zu groß",
+    "english": "too big",
+    "tier": 2
+  },
+  "shopping.too-small": {
+    "danish": "for lille",
+    "german": "zu klein",
+    "english": "too small",
+    "tier": 2
+  },
+  "shopping.shoe-shop": {
+    "danish": "skobutik",
+    "german": "Schuhgeschäft",
+    "english": "shoe shop",
+    "gender": "das",
+    "danishDefinite": "skobutikken",
+    "danishIndefinite": "en skobutik",
+    "tier": 3
+  },
+  "shopping.department-store": {
+    "danish": "stormagasin",
+    "german": "Kaufhaus",
+    "english": "department store",
+    "gender": "das",
+    "danishDefinite": "stormagasinet",
+    "danishIndefinite": "et stormagasin",
+    "tier": 3
+  },
+  "shopping.grocery-shop": {
+    "danish": "købmand",
+    "german": "Lebensmittelladen",
+    "english": "grocer's",
+    "gender": "der",
+    "danishDefinite": "købmanden",
+    "danishIndefinite": "en købmand",
+    "tier": 3
+  },
+  "shopping.corner-shop": {
+    "danish": "nærbutik",
+    "german": "Tante-Emma-Laden",
+    "english": "corner shop",
+    "gender": "der",
+    "danishDefinite": "nærbutikken",
+    "danishIndefinite": "en nærbutik",
+    "tier": 3
+  },
+  "shopping.toy-shop": {
+    "danish": "legetøjsbutik",
+    "german": "Spielwarengeschäft",
+    "english": "toy shop",
+    "gender": "das",
+    "danishDefinite": "legetøjsbutikken",
+    "danishIndefinite": "en legetøjsbutik",
+    "tier": 3
+  },
+  "shopping.electronics-shop": {
+    "danish": "elektronikbutik",
+    "german": "Elektrogeschäft",
+    "english": "electronics shop",
+    "gender": "das",
+    "danishDefinite": "elektronikbutikken",
+    "danishIndefinite": "en elektronikbutik",
+    "tier": 3
+  },
+  "shopping.jeweller": {
+    "danish": "guldsmed",
+    "german": "Juwelier",
+    "english": "jeweller",
+    "gender": "der",
+    "danishDefinite": "guldsmeden",
+    "danishIndefinite": "en guldsmed",
+    "tier": 3
+  },
+  "shopping.optician": {
+    "danish": "optiker",
+    "german": "Optiker",
+    "english": "optician",
+    "gender": "der",
+    "danishDefinite": "optikeren",
+    "danishIndefinite": "en optiker",
+    "tier": 3
+  },
+  "shopping.fishmonger": {
+    "danish": "fiskeforretning",
+    "german": "Fischgeschäft",
+    "english": "fishmonger's",
+    "gender": "das",
+    "danishDefinite": "fiskeforretningen",
+    "danishIndefinite": "en fiskeforretning",
+    "tier": 3
+  },
+  "shopping.greengrocer": {
+    "danish": "grønthandler",
+    "german": "Gemüsehändler",
+    "english": "greengrocer",
+    "gender": "der",
+    "danishDefinite": "grønthandleren",
+    "danishIndefinite": "en grønthandler",
+    "tier": 3
+  },
+  "shopping.pet-shop": {
+    "danish": "dyrehandel",
+    "german": "Tierhandlung",
+    "english": "pet shop",
+    "gender": "die",
+    "danishDefinite": "dyrehandelen",
+    "danishIndefinite": "en dyrehandel",
+    "tier": 3
+  },
+  "shopping.stall": {
+    "danish": "salgsstand",
+    "german": "Marktstand",
+    "english": "market stall",
+    "gender": "der",
+    "danishDefinite": "salgsstanden",
+    "danishIndefinite": "en salgsstand",
+    "tier": 3
+  },
+  "shopping.flea-market": {
+    "danish": "loppemarked",
+    "german": "Flohmarkt",
+    "english": "flea market",
+    "gender": "der",
+    "danishDefinite": "loppemarkedet",
+    "danishIndefinite": "et loppemarked",
+    "tier": 2
+  },
+  "shopping.second-hand": {
+    "danish": "brugt",
+    "german": "gebraucht",
+    "english": "second-hand",
+    "tier": 2
+  },
+  "shopping.queue": {
+    "danish": "kø",
+    "german": "Schlange",
+    "english": "queue",
+    "gender": "die",
+    "danishDefinite": "køen",
+    "danishIndefinite": "en kø",
+    "tier": 2
+  },
+  "shopping.birthday-present": {
+    "danish": "fødselsdagsgave",
+    "german": "Geburtstagsgeschenk",
+    "english": "birthday present",
+    "gender": "das",
+    "danishDefinite": "fødselsdagsgaven",
+    "danishIndefinite": "en fødselsdagsgave",
+    "tier": 2
+  },
+  "shopping.advertisement": {
+    "danish": "reklame",
+    "german": "Werbung",
+    "english": "advertisement",
+    "gender": "die",
+    "danishDefinite": "reklamen",
+    "danishIndefinite": "en reklame",
+    "tier": 2
+  },
+  "shopping.instalment": {
+    "danish": "afdrag",
+    "german": "Rate",
+    "english": "instalment",
+    "gender": "die",
+    "danishDefinite": "afdraget",
+    "danishIndefinite": "et afdrag",
+    "tier": 3
+  },
+  "shopping.payment": {
+    "danish": "betaling",
+    "german": "Zahlung",
+    "english": "payment",
+    "gender": "die",
+    "danishDefinite": "betalingen",
+    "danishIndefinite": "en betaling",
+    "tier": 2
+  },
+  "shopping.card-payment": {
+    "danish": "kortbetaling",
+    "german": "Kartenzahlung",
+    "english": "card payment",
+    "gender": "die",
+    "danishDefinite": "kortbetalingen",
+    "danishIndefinite": "en kortbetaling",
+    "tier": 3
+  },
+  "shopping.by-card": {
+    "danish": "med kort",
+    "german": "mit Karte",
+    "english": "by card",
+    "tier": 2
+  },
+  "shopping.in-cash": {
+    "danish": "kontant",
+    "german": "bar",
+    "english": "in cash",
+    "tier": 2
+  },
+  "shopping.vat": {
+    "danish": "moms",
+    "german": "Mehrwertsteuer",
+    "english": "VAT",
+    "gender": "die",
+    "danishDefinite": "momsen",
+    "danishIndefinite": "en moms",
+    "tier": 3
+  },
+  "shopping.guarantee": {
+    "danish": "garanti",
+    "german": "Garantie",
+    "english": "guarantee",
+    "gender": "die",
+    "danishDefinite": "garantien",
+    "danishIndefinite": "en garanti",
+    "tier": 3
+  },
+  "shopping.complaint": {
+    "danish": "reklamation",
+    "german": "Reklamation",
+    "english": "complaint",
+    "gender": "die",
+    "danishDefinite": "reklamationen",
+    "danishIndefinite": "en reklamation",
+    "tier": 3
+  },
+  "shopping.refund": {
+    "danish": "tilbagebetaling",
+    "german": "Rückerstattung",
+    "english": "refund",
+    "gender": "die",
+    "danishDefinite": "tilbagebetalingen",
+    "danishIndefinite": "en tilbagebetaling",
+    "tier": 3
+  }
+}

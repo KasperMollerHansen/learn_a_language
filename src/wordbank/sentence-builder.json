@@ -2,6 +2,7 @@
   "sentence-builder.mand.subject": {
     "danish": "Manden",
     "german": "Der Mann",
+    "english": "The man",
     "sentence": "Manden er stor.",
     "sentenceId": "mand",
     "step": 1,
@@ -10,11 +11,13 @@
       "Den Mann",
       "Der Mann",
       "Dem Mann"
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.mand.verb": {
     "danish": "er",
     "german": "ist",
+    "english": "is",
     "sentence": "Manden er stor.",
     "sentenceId": "mand",
     "step": 2,
@@ -23,11 +26,13 @@
       "bist",
       "ist",
       "sind"
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.mand.adjective": {
     "danish": "stor",
     "german": "groß.",
+    "english": "big",
     "sentence": "Manden er stor.",
     "sentenceId": "mand",
     "step": 3,
@@ -36,11 +41,13 @@
       "groß.",
       "klein.",
       "alt."
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.kvinde.subject": {
     "danish": "Kvinden",
     "german": "Die Frau",
+    "english": "The woman",
     "sentence": "Kvinden er glad.",
     "sentenceId": "kvinde",
     "step": 1,
@@ -49,11 +56,13 @@
       "Die Frau",
       "Der Frau",
       "Die Frauen"
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.kvinde.verb": {
     "danish": "er",
     "german": "ist",
+    "english": "is",
     "sentence": "Kvinden er glad.",
     "sentenceId": "kvinde",
     "step": 2,
@@ -62,11 +71,13 @@
       "bin",
       "ist",
       "seid"
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.kvinde.adjective": {
     "danish": "glad",
     "german": "glücklich.",
+    "english": "happy",
     "sentence": "Kvinden er glad.",
     "sentenceId": "kvinde",
     "step": 3,
@@ -75,11 +86,13 @@
       "traurig.",
       "glücklich.",
       "müde."
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.barn.subject": {
     "danish": "Barnet",
     "german": "Das Kind",
+    "english": "The child",
     "sentence": "Barnet er lille.",
     "sentenceId": "barn",
     "step": 1,
@@ -88,11 +101,13 @@
       "Dem Kind",
       "Das Kind",
       "Des Kindes"
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.barn.verb": {
     "danish": "er",
     "german": "ist",
+    "english": "is",
     "sentence": "Barnet er lille.",
     "sentenceId": "barn",
     "step": 2,
@@ -101,11 +116,13 @@
       "ist",
       "bist",
       "seid"
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.barn.adjective": {
     "danish": "lille",
     "german": "klein.",
+    "english": "small",
     "sentence": "Barnet er lille.",
     "sentenceId": "barn",
     "step": 3,
@@ -114,11 +131,13 @@
       "groß.",
       "klein.",
       "kurz."
-    ]
+    ],
+    "tier": 1
   },
   "sentence-builder.hund.subject": {
     "danish": "Jeg",
     "german": "Ich",
+    "english": "I",
     "sentence": "Jeg ser hunden.",
     "sentenceId": "hund",
     "step": 1,
@@ -127,11 +146,13 @@
       "Er",
       "Ich",
       "Du"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.hund.verb": {
     "danish": "ser",
     "german": "sehe",
+    "english": "see",
     "sentence": "Jeg ser hunden.",
     "sentenceId": "hund",
     "step": 2,
@@ -140,11 +161,13 @@
       "sieht",
       "sehe",
       "siehst"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.hund.object": {
     "danish": "hunden",
     "german": "den Hund.",
+    "english": "the dog",
     "sentence": "Jeg ser hunden.",
     "sentenceId": "hund",
     "step": 3,
@@ -153,11 +176,13 @@
       "dem Hund.",
       "den Hund.",
       "der Hund."
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.pige.subject": {
     "danish": "Pigen",
     "german": "Das Mädchen",
+    "english": "The girl",
     "sentence": "Pigen drikker vand.",
     "sentenceId": "pige",
     "step": 1,
@@ -166,11 +191,13 @@
       "Das Mädchen",
       "Dem Mädchen",
       "Der Junge"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.pige.verb": {
     "danish": "drikker",
     "german": "trinkt",
+    "english": "drinks",
     "sentence": "Pigen drikker vand.",
     "sentenceId": "pige",
     "step": 2,
@@ -179,11 +206,13 @@
       "trinkst",
       "trinkt",
       "trinken"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.pige.object": {
     "danish": "vand",
     "german": "Wasser.",
+    "english": "water",
     "sentence": "Pigen drikker vand.",
     "sentenceId": "pige",
     "step": 3,
@@ -192,11 +221,13 @@
       "Milch.",
       "Wasser.",
       "Saft."
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.bror.subject": {
     "danish": "Min bror",
     "german": "Mein Bruder",
+    "english": "My brother",
     "sentence": "Min bror læser en bog.",
     "sentenceId": "bror",
     "step": 1,
@@ -205,11 +236,13 @@
       "Mein Bruder",
       "Meinen Bruder",
       "Meinem Bruder"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.bror.verb": {
     "danish": "læser",
     "german": "liest",
+    "english": "reads",
     "sentence": "Min bror læser en bog.",
     "sentenceId": "bror",
     "step": 2,
@@ -218,11 +251,13 @@
       "lese",
       "liest",
       "lesen"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.bror.object": {
     "danish": "en bog",
     "german": "ein Buch.",
+    "english": "a book",
     "sentence": "Min bror læser en bog.",
     "sentenceId": "bror",
     "step": 3,
@@ -231,11 +266,13 @@
       "ein Buch.",
       "einem Buch.",
       "einen Roman."
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.vi.subject": {
     "danish": "Vi",
     "german": "Wir",
+    "english": "We",
     "sentence": "Vi køber æbler.",
     "sentenceId": "vi",
     "step": 1,
@@ -244,11 +281,13 @@
       "Wir",
       "Ihr",
       "Sie"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.vi.verb": {
     "danish": "køber",
     "german": "kaufen",
+    "english": "buy",
     "sentence": "Vi køber æbler.",
     "sentenceId": "vi",
     "step": 2,
@@ -257,11 +296,13 @@
       "kauft",
       "kaufen",
       "kaufe"
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.vi.object": {
     "danish": "æbler",
     "german": "Äpfel.",
+    "english": "apples",
     "sentence": "Vi køber æbler.",
     "sentenceId": "vi",
     "step": 3,
@@ -270,11 +311,13 @@
       "Äpfel.",
       "Birnen.",
       "Trauben."
-    ]
+    ],
+    "tier": 2
   },
   "sentence-builder.hun.subject": {
     "danish": "Hun",
     "german": "Sie",
+    "english": "She",
     "sentence": "Hun taler langsomt.",
     "sentenceId": "hun",
     "step": 1,
@@ -283,11 +326,13 @@
       "Sie",
       "Er",
       "Wir"
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.hun.verb": {
     "danish": "taler",
     "german": "spricht",
+    "english": "speaks",
     "sentence": "Hun taler langsomt.",
     "sentenceId": "hun",
     "step": 2,
@@ -296,11 +341,13 @@
       "sprechen",
       "spricht",
       "sprichst"
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.hun.adverb": {
     "danish": "langsomt",
     "german": "langsam.",
+    "english": "slowly",
     "sentence": "Hun taler langsomt.",
     "sentenceId": "hun",
     "step": 3,
@@ -309,11 +356,13 @@
       "langsam.",
       "schnell.",
       "laut."
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.laerer.subject": {
     "danish": "Læreren",
     "german": "Der Lehrer",
+    "english": "The teacher",
     "sentence": "Læreren åbner døren.",
     "sentenceId": "laerer",
     "step": 1,
@@ -322,11 +371,13 @@
       "Den Lehrer",
       "Der Lehrer",
       "Dem Lehrer"
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.laerer.verb": {
     "danish": "åbner",
     "german": "öffnet",
+    "english": "opens",
     "sentence": "Læreren åbner døren.",
     "sentenceId": "laerer",
     "step": 2,
@@ -335,11 +386,13 @@
       "öffnet",
       "öffnen",
       "öffnest"
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.laerer.object": {
     "danish": "døren",
     "german": "die Tür.",
+    "english": "the door",
     "sentence": "Læreren åbner døren.",
     "sentenceId": "laerer",
     "step": 3,
@@ -348,11 +401,13 @@
       "die Tür.",
       "der Tür.",
       "das Tor."
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.soster.subject": {
     "danish": "Min søster",
     "german": "Meine Schwester",
+    "english": "My sister",
     "sentence": "Min søster arbejder i Berlin.",
     "sentenceId": "soster",
     "step": 1,
@@ -361,11 +416,13 @@
       "Meine Schwester",
       "Meiner Schwester",
       "Mein Bruder"
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.soster.verb": {
     "danish": "arbejder",
     "german": "arbeitet",
+    "english": "works",
     "sentence": "Min søster arbejder i Berlin.",
     "sentenceId": "soster",
     "step": 2,
@@ -374,11 +431,13 @@
       "arbeite",
       "arbeitet",
       "arbeiten"
-    ]
+    ],
+    "tier": 3
   },
   "sentence-builder.soster.place": {
     "danish": "i Berlin",
     "german": "in Berlin.",
+    "english": "in Berlin",
     "sentence": "Min søster arbejder i Berlin.",
     "sentenceId": "soster",
     "step": 3,
@@ -387,6 +446,7 @@
       "in Berlin.",
       "nach Berlin.",
       "in Hamburg."
-    ]
+    ],
+    "tier": 3
   }
 }

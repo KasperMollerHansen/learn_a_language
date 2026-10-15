@@ -1,0 +1,1190 @@
+{
+  "body.head": {
+    "danish": "hoved",
+    "german": "Kopf",
+    "english": "head",
+    "gender": "der",
+    "danishDefinite": "hovedet",
+    "danishIndefinite": "et hoved",
+    "tier": 1
+  },
+  "body.face": {
+    "danish": "ansigt",
+    "german": "Gesicht",
+    "english": "face",
+    "gender": "das",
+    "danishDefinite": "ansigtet",
+    "danishIndefinite": "et ansigt",
+    "tier": 1
+  },
+  "body.eye": {
+    "danish": "øje",
+    "german": "Auge",
+    "english": "eye",
+    "gender": "das",
+    "danishDefinite": "øjet",
+    "danishIndefinite": "et øje",
+    "tier": 1
+  },
+  "body.ear": {
+    "danish": "øre",
+    "german": "Ohr",
+    "english": "ear",
+    "gender": "das",
+    "danishDefinite": "øret",
+    "danishIndefinite": "et øre",
+    "tier": 1
+  },
+  "body.nose": {
+    "danish": "næse",
+    "german": "Nase",
+    "english": "nose",
+    "gender": "die",
+    "danishDefinite": "næsen",
+    "danishIndefinite": "en næse",
+    "tier": 1
+  },
+  "body.mouth": {
+    "danish": "mund",
+    "german": "Mund",
+    "english": "mouth",
+    "gender": "der",
+    "danishDefinite": "munden",
+    "danishIndefinite": "en mund",
+    "tier": 1
+  },
+  "body.tooth": {
+    "danish": "tand",
+    "german": "Zahn",
+    "english": "tooth",
+    "gender": "der",
+    "danishDefinite": "tanden",
+    "danishIndefinite": "en tand",
+    "tier": 1
+  },
+  "body.hair": {
+    "danish": "hår",
+    "german": "Haar",
+    "english": "hair",
+    "gender": "das",
+    "danishDefinite": "håret",
+    "danishIndefinite": "et hår",
+    "tier": 1
+  },
+  "body.neck": {
+    "danish": "hals",
+    "german": "Hals",
+    "english": "neck",
+    "gender": "der",
+    "danishDefinite": "halsen",
+    "danishIndefinite": "en hals",
+    "tier": 1
+  },
+  "body.arm": {
+    "danish": "arm",
+    "german": "Arm",
+    "english": "arm",
+    "gender": "der",
+    "danishDefinite": "armen",
+    "danishIndefinite": "en arm",
+    "tier": 1
+  },
+  "body.hand": {
+    "danish": "hånd",
+    "german": "Hand",
+    "english": "hand",
+    "gender": "die",
+    "danishDefinite": "hånden",
+    "danishIndefinite": "en hånd",
+    "tier": 1
+  },
+  "body.finger": {
+    "danish": "finger",
+    "german": "Finger",
+    "english": "finger",
+    "gender": "der",
+    "danishDefinite": "fingeren",
+    "danishIndefinite": "en finger",
+    "tier": 1
+  },
+  "body.leg": {
+    "danish": "ben",
+    "german": "Bein",
+    "english": "leg",
+    "gender": "das",
+    "danishDefinite": "benet",
+    "danishIndefinite": "et ben",
+    "tier": 1
+  },
+  "body.foot": {
+    "danish": "fod",
+    "german": "Fuß",
+    "english": "foot",
+    "gender": "der",
+    "danishDefinite": "foden",
+    "danishIndefinite": "en fod",
+    "tier": 1
+  },
+  "body.knee": {
+    "danish": "knæ",
+    "german": "Knie",
+    "english": "knee",
+    "gender": "das",
+    "danishDefinite": "knæet",
+    "danishIndefinite": "et knæ",
+    "tier": 1
+  },
+  "body.belly": {
+    "danish": "mave",
+    "german": "Bauch",
+    "english": "belly",
+    "gender": "der",
+    "danishDefinite": "maven",
+    "danishIndefinite": "en mave",
+    "tier": 1
+  },
+  "body.back": {
+    "danish": "ryg",
+    "german": "Rücken",
+    "english": "back",
+    "gender": "der",
+    "danishDefinite": "ryggen",
+    "danishIndefinite": "en ryg",
+    "tier": 1
+  },
+  "body.body": {
+    "danish": "krop",
+    "german": "Körper",
+    "english": "body",
+    "gender": "der",
+    "danishDefinite": "kroppen",
+    "danishIndefinite": "en krop",
+    "tier": 1
+  },
+  "body.heart": {
+    "danish": "hjerte",
+    "german": "Herz",
+    "english": "heart",
+    "gender": "das",
+    "danishDefinite": "hjertet",
+    "danishIndefinite": "et hjerte",
+    "tier": 1
+  },
+  "body.toe": {
+    "danish": "tå",
+    "german": "Zeh",
+    "english": "toe",
+    "gender": "der",
+    "danishDefinite": "tåen",
+    "danishIndefinite": "en tå",
+    "tier": 2
+  },
+  "body.skin": {
+    "danish": "hud",
+    "german": "Haut",
+    "english": "skin",
+    "gender": "die",
+    "danishDefinite": "huden",
+    "danishIndefinite": "en hud",
+    "tier": 2
+  },
+  "body.lip": {
+    "danish": "læbe",
+    "german": "Lippe",
+    "english": "lip",
+    "gender": "die",
+    "danishDefinite": "læben",
+    "danishIndefinite": "en læbe",
+    "tier": 2
+  },
+  "body.tongue": {
+    "danish": "tunge",
+    "german": "Zunge",
+    "english": "tongue",
+    "gender": "die",
+    "danishDefinite": "tungen",
+    "danishIndefinite": "en tunge",
+    "tier": 2
+  },
+  "body.shoulder": {
+    "danish": "skulder",
+    "german": "Schulter",
+    "english": "shoulder",
+    "gender": "die",
+    "danishDefinite": "skulderen",
+    "danishIndefinite": "en skulder",
+    "tier": 2
+  },
+  "body.elbow": {
+    "danish": "albue",
+    "german": "Ellbogen",
+    "english": "elbow",
+    "gender": "der",
+    "danishDefinite": "albuen",
+    "danishIndefinite": "en albue",
+    "tier": 2
+  },
+  "body.wrist": {
+    "danish": "håndled",
+    "german": "Handgelenk",
+    "english": "wrist",
+    "gender": "das",
+    "danishDefinite": "håndleddet",
+    "danishIndefinite": "et håndled",
+    "tier": 3
+  },
+  "body.chin": {
+    "danish": "hage",
+    "german": "Kinn",
+    "english": "chin",
+    "gender": "das",
+    "danishDefinite": "hagen",
+    "danishIndefinite": "en hage",
+    "tier": 2
+  },
+  "body.cheek": {
+    "danish": "kind",
+    "german": "Wange",
+    "english": "cheek",
+    "gender": "die",
+    "danishDefinite": "kinden",
+    "danishIndefinite": "en kind",
+    "tier": 2
+  },
+  "body.forehead": {
+    "danish": "pande",
+    "german": "Stirn",
+    "english": "forehead",
+    "gender": "die",
+    "danishDefinite": "panden",
+    "danishIndefinite": "en pande",
+    "tier": 2
+  },
+  "body.eyebrow": {
+    "danish": "øjenbryn",
+    "german": "Augenbraue",
+    "english": "eyebrow",
+    "gender": "die",
+    "danishDefinite": "øjenbrynet",
+    "danishIndefinite": "et øjenbryn",
+    "tier": 3
+  },
+  "body.eyelash": {
+    "danish": "øjenvippe",
+    "german": "Wimper",
+    "english": "eyelash",
+    "gender": "die",
+    "danishDefinite": "øjenvippen",
+    "danishIndefinite": "en øjenvippe",
+    "tier": 3
+  },
+  "body.temple": {
+    "danish": "tinding",
+    "german": "Schläfe",
+    "english": "temple",
+    "gender": "die",
+    "danishDefinite": "tindingen",
+    "danishIndefinite": "en tinding",
+    "tier": 3
+  },
+  "body.nape-of-the-neck": {
+    "danish": "nakke",
+    "german": "Nacken",
+    "english": "nape of the neck",
+    "gender": "der",
+    "danishDefinite": "nakken",
+    "danishIndefinite": "en nakke",
+    "tier": 3
+  },
+  "body.chest": {
+    "danish": "bryst",
+    "german": "Brust",
+    "english": "chest",
+    "gender": "die",
+    "danishDefinite": "brystet",
+    "danishIndefinite": "et bryst",
+    "tier": 2
+  },
+  "body.waist": {
+    "danish": "talje",
+    "german": "Taille",
+    "english": "waist",
+    "gender": "die",
+    "danishDefinite": "taljen",
+    "danishIndefinite": "en talje",
+    "tier": 3
+  },
+  "body.hip": {
+    "danish": "hofte",
+    "german": "Hüfte",
+    "english": "hip",
+    "gender": "die",
+    "danishDefinite": "hoften",
+    "danishIndefinite": "en hofte",
+    "tier": 3
+  },
+  "body.thigh": {
+    "danish": "lår",
+    "german": "Oberschenkel",
+    "english": "thigh",
+    "gender": "der",
+    "danishDefinite": "låret",
+    "danishIndefinite": "et lår",
+    "tier": 3
+  },
+  "body.calf": {
+    "danish": "læg",
+    "german": "Wade",
+    "english": "calf",
+    "gender": "die",
+    "danishDefinite": "læggen",
+    "danishIndefinite": "en læg",
+    "tier": 3
+  },
+  "body.ankle": {
+    "danish": "ankel",
+    "german": "Knöchel",
+    "english": "ankle",
+    "gender": "der",
+    "danishDefinite": "anklen",
+    "danishIndefinite": "en ankel",
+    "tier": 3
+  },
+  "body.heel": {
+    "danish": "hæl",
+    "german": "Ferse",
+    "english": "heel",
+    "gender": "die",
+    "danishDefinite": "hælen",
+    "danishIndefinite": "en hæl",
+    "tier": 3
+  },
+  "body.sole-of-the-foot": {
+    "danish": "fodsål",
+    "german": "Fußsohle",
+    "english": "sole of the foot",
+    "gender": "die",
+    "danishDefinite": "fodsålen",
+    "danishIndefinite": "en fodsål",
+    "tier": 3
+  },
+  "body.nail": {
+    "danish": "negl",
+    "german": "Nagel",
+    "english": "nail",
+    "gender": "der",
+    "danishDefinite": "neglen",
+    "danishIndefinite": "en negl",
+    "tier": 2
+  },
+  "body.thumb": {
+    "danish": "tommelfinger",
+    "german": "Daumen",
+    "english": "thumb",
+    "gender": "der",
+    "danishDefinite": "tommelfingeren",
+    "danishIndefinite": "en tommelfinger",
+    "tier": 2
+  },
+  "body.index-finger": {
+    "danish": "pegefinger",
+    "german": "Zeigefinger",
+    "english": "index finger",
+    "gender": "der",
+    "danishDefinite": "pegefingeren",
+    "danishIndefinite": "en pegefinger",
+    "tier": 3
+  },
+  "body.middle-finger": {
+    "danish": "langemand",
+    "german": "Mittelfinger",
+    "english": "middle finger",
+    "gender": "der",
+    "danishDefinite": "langemanden",
+    "danishIndefinite": "en langemand",
+    "tier": 3
+  },
+  "body.ring-finger": {
+    "danish": "ringfinger",
+    "german": "Ringfinger",
+    "english": "ring finger",
+    "gender": "der",
+    "danishDefinite": "ringfingeren",
+    "danishIndefinite": "en ringfinger",
+    "tier": 3
+  },
+  "body.fist": {
+    "danish": "knytnæve",
+    "german": "Faust",
+    "english": "fist",
+    "gender": "die",
+    "danishDefinite": "knytnæven",
+    "danishIndefinite": "en knytnæve",
+    "tier": 3
+  },
+  "body.palm": {
+    "danish": "håndflade",
+    "german": "Handfläche",
+    "english": "palm",
+    "gender": "die",
+    "danishDefinite": "håndfladen",
+    "danishIndefinite": "en håndflade",
+    "tier": 3
+  },
+  "body.back-of-the-hand": {
+    "danish": "håndryg",
+    "german": "Handrücken",
+    "english": "back of the hand",
+    "gender": "der",
+    "danishDefinite": "håndryggen",
+    "danishIndefinite": "en håndryg",
+    "tier": 3
+  },
+  "body.forearm": {
+    "danish": "underarm",
+    "german": "Unterarm",
+    "english": "forearm",
+    "gender": "der",
+    "danishDefinite": "underarmen",
+    "danishIndefinite": "en underarm",
+    "tier": 3
+  },
+  "body.upper-arm": {
+    "danish": "overarm",
+    "german": "Oberarm",
+    "english": "upper arm",
+    "gender": "der",
+    "danishDefinite": "overarmen",
+    "danishIndefinite": "en overarm",
+    "tier": 3
+  },
+  "body.lower-leg": {
+    "danish": "underben",
+    "german": "Unterschenkel",
+    "english": "lower leg",
+    "gender": "der",
+    "danishDefinite": "underbenet",
+    "danishIndefinite": "et underben",
+    "tier": 3
+  },
+  "body.kneecap": {
+    "danish": "knæskal",
+    "german": "Kniescheibe",
+    "english": "kneecap",
+    "gender": "die",
+    "danishDefinite": "knæskallen",
+    "danishIndefinite": "en knæskal",
+    "tier": 3
+  },
+  "body.toenail": {
+    "danish": "tånegl",
+    "german": "Zehennagel",
+    "english": "toenail",
+    "gender": "der",
+    "danishDefinite": "tåneglen",
+    "danishIndefinite": "en tånegl",
+    "tier": 3
+  },
+  "body.bone": {
+    "danish": "knogle",
+    "german": "Knochen",
+    "english": "bone",
+    "gender": "der",
+    "danishDefinite": "knoglen",
+    "danishIndefinite": "en knogle",
+    "tier": 2
+  },
+  "body.skeleton": {
+    "danish": "skelet",
+    "german": "Skelett",
+    "english": "skeleton",
+    "gender": "das",
+    "danishDefinite": "skelettet",
+    "danishIndefinite": "et skelet",
+    "tier": 3
+  },
+  "body.joint": {
+    "danish": "led",
+    "german": "Gelenk",
+    "english": "joint",
+    "gender": "das",
+    "danishDefinite": "leddet",
+    "danishIndefinite": "et led",
+    "tier": 3
+  },
+  "body.tendon": {
+    "danish": "sene",
+    "german": "Sehne",
+    "english": "tendon",
+    "gender": "die",
+    "danishDefinite": "senen",
+    "danishIndefinite": "en sene",
+    "tier": 3
+  },
+  "body.nerve": {
+    "danish": "nerve",
+    "german": "Nerv",
+    "english": "nerve",
+    "gender": "der",
+    "danishDefinite": "nerven",
+    "danishIndefinite": "en nerve",
+    "tier": 3
+  },
+  "body.blood": {
+    "danish": "blod",
+    "german": "Blut",
+    "english": "blood",
+    "gender": "das",
+    "danishDefinite": "blodet",
+    "danishIndefinite": "et blod",
+    "tier": 2
+  },
+  "body.vein": {
+    "danish": "åre",
+    "german": "Ader",
+    "english": "vein",
+    "gender": "die",
+    "danishDefinite": "åren",
+    "danishIndefinite": "en åre",
+    "tier": 3
+  },
+  "body.brain": {
+    "danish": "hjerne",
+    "german": "Gehirn",
+    "english": "brain",
+    "gender": "das",
+    "danishDefinite": "hjernen",
+    "danishIndefinite": "en hjerne",
+    "tier": 2
+  },
+  "body.lung": {
+    "danish": "lunge",
+    "german": "Lunge",
+    "english": "lung",
+    "gender": "die",
+    "danishDefinite": "lungen",
+    "danishIndefinite": "en lunge",
+    "tier": 2
+  },
+  "body.liver": {
+    "danish": "lever",
+    "german": "Leber",
+    "english": "liver",
+    "gender": "die",
+    "danishDefinite": "leveren",
+    "danishIndefinite": "en lever",
+    "tier": 3
+  },
+  "body.kidney": {
+    "danish": "nyre",
+    "german": "Niere",
+    "english": "kidney",
+    "gender": "die",
+    "danishDefinite": "nyren",
+    "danishIndefinite": "en nyre",
+    "tier": 3
+  },
+  "body.stomach": {
+    "danish": "mavesæk",
+    "german": "Magen",
+    "english": "stomach",
+    "gender": "der",
+    "danishDefinite": "mavesækken",
+    "danishIndefinite": "en mavesæk",
+    "tier": 2
+  },
+  "body.intestine": {
+    "danish": "tarm",
+    "german": "Darm",
+    "english": "intestine",
+    "gender": "der",
+    "danishDefinite": "tarmen",
+    "danishIndefinite": "en tarm",
+    "tier": 3
+  },
+  "body.appendix": {
+    "danish": "blindtarm",
+    "german": "Blinddarm",
+    "english": "appendix",
+    "gender": "der",
+    "danishDefinite": "blindtarmen",
+    "danishIndefinite": "en blindtarm",
+    "tier": 3
+  },
+  "body.bladder": {
+    "danish": "blære",
+    "german": "Blase",
+    "english": "bladder",
+    "gender": "die",
+    "danishDefinite": "blæren",
+    "danishIndefinite": "en blære",
+    "tier": 3
+  },
+  "body.gallbladder": {
+    "danish": "galdeblære",
+    "german": "Gallenblase",
+    "english": "gallbladder",
+    "gender": "die",
+    "danishDefinite": "galdeblæren",
+    "danishIndefinite": "en galdeblære",
+    "tier": 3
+  },
+  "body.pancreas": {
+    "danish": "bugspytkirtel",
+    "german": "Bauchspeicheldrüse",
+    "english": "pancreas",
+    "gender": "die",
+    "danishDefinite": "bugspytkirtlen",
+    "danishIndefinite": "en bugspytkirtel",
+    "tier": 3
+  },
+  "body.thyroid-gland": {
+    "danish": "skjoldbruskkirtel",
+    "german": "Schilddrüse",
+    "english": "thyroid gland",
+    "gender": "die",
+    "danishDefinite": "skjoldbruskkirtlen",
+    "danishIndefinite": "en skjoldbruskkirtel",
+    "tier": 3
+  },
+  "body.spleen": {
+    "danish": "milt",
+    "german": "Milz",
+    "english": "spleen",
+    "gender": "die",
+    "danishDefinite": "milten",
+    "danishIndefinite": "en milt",
+    "tier": 3
+  },
+  "body.esophagus": {
+    "danish": "spiserør",
+    "german": "Speiseröhre",
+    "english": "esophagus",
+    "gender": "die",
+    "danishDefinite": "spiserøret",
+    "danishIndefinite": "et spiserør",
+    "tier": 3
+  },
+  "body.windpipe": {
+    "danish": "luftrør",
+    "german": "Luftröhre",
+    "english": "windpipe",
+    "gender": "die",
+    "danishDefinite": "luftrøret",
+    "danishIndefinite": "et luftrør",
+    "tier": 3
+  },
+  "body.larynx": {
+    "danish": "strubehoved",
+    "german": "Kehlkopf",
+    "english": "larynx",
+    "gender": "der",
+    "danishDefinite": "strubehovedet",
+    "danishIndefinite": "et strubehoved",
+    "tier": 3
+  },
+  "body.diaphragm": {
+    "danish": "mellemgulv",
+    "german": "Zwerchfell",
+    "english": "diaphragm",
+    "gender": "das",
+    "danishDefinite": "mellemgulvet",
+    "danishIndefinite": "et mellemgulv",
+    "tier": 3
+  },
+  "body.palate": {
+    "danish": "gane",
+    "german": "Gaumen",
+    "english": "palate",
+    "gender": "der",
+    "danishDefinite": "ganen",
+    "danishIndefinite": "en gane",
+    "tier": 3
+  },
+  "body.gums": {
+    "danish": "tandkød",
+    "german": "Zahnfleisch",
+    "english": "gums",
+    "gender": "das",
+    "danishDefinite": "tandkødet",
+    "danishIndefinite": "et tandkød",
+    "tier": 3
+  },
+  "body.jaw": {
+    "danish": "kæbe",
+    "german": "Kiefer",
+    "english": "jaw",
+    "gender": "der",
+    "danishDefinite": "kæben",
+    "danishIndefinite": "en kæbe",
+    "tier": 3
+  },
+  "body.skull": {
+    "danish": "kranie",
+    "german": "Schädel",
+    "english": "skull",
+    "gender": "der",
+    "danishDefinite": "kraniet",
+    "danishIndefinite": "et kranie",
+    "tier": 3
+  },
+  "body.rib": {
+    "danish": "ribben",
+    "german": "Rippe",
+    "english": "rib",
+    "gender": "die",
+    "danishDefinite": "ribbenet",
+    "danishIndefinite": "et ribben",
+    "tier": 3
+  },
+  "body.spine": {
+    "danish": "rygsøjle",
+    "german": "Wirbelsäule",
+    "english": "spine",
+    "gender": "die",
+    "danishDefinite": "rygsøjlen",
+    "danishIndefinite": "en rygsøjle",
+    "tier": 3
+  },
+  "body.vertebra": {
+    "danish": "hvirvel",
+    "german": "Wirbel",
+    "english": "vertebra",
+    "gender": "der",
+    "danishDefinite": "hvirvlen",
+    "danishIndefinite": "en hvirvel",
+    "tier": 3
+  },
+  "body.pelvis": {
+    "danish": "bækken",
+    "german": "Becken",
+    "english": "pelvis",
+    "gender": "das",
+    "danishDefinite": "bækkenet",
+    "danishIndefinite": "et bækken",
+    "tier": 3
+  },
+  "body.shoulder-blade": {
+    "danish": "skulderblad",
+    "german": "Schulterblatt",
+    "english": "shoulder blade",
+    "gender": "das",
+    "danishDefinite": "skulderbladet",
+    "danishIndefinite": "et skulderblad",
+    "tier": 3
+  },
+  "body.collarbone": {
+    "danish": "kraveben",
+    "german": "Schlüsselbein",
+    "english": "collarbone",
+    "gender": "das",
+    "danishDefinite": "kravebenet",
+    "danishIndefinite": "et kraveben",
+    "tier": 3
+  },
+  "body.rib-cage": {
+    "danish": "brystkasse",
+    "german": "Brustkorb",
+    "english": "rib cage",
+    "gender": "der",
+    "danishDefinite": "brystkassen",
+    "danishIndefinite": "en brystkasse",
+    "tier": 3
+  },
+  "body.navel": {
+    "danish": "navle",
+    "german": "Nabel",
+    "english": "navel",
+    "gender": "der",
+    "danishDefinite": "navlen",
+    "danishIndefinite": "en navle",
+    "tier": 3
+  },
+  "body.beard": {
+    "danish": "skæg",
+    "german": "Bart",
+    "english": "beard",
+    "gender": "der",
+    "danishDefinite": "skægget",
+    "danishIndefinite": "et skæg",
+    "tier": 2
+  },
+  "body.moustache": {
+    "danish": "overskæg",
+    "german": "Schnurrbart",
+    "english": "moustache",
+    "gender": "der",
+    "danishDefinite": "overskægget",
+    "danishIndefinite": "et overskæg",
+    "tier": 3
+  },
+  "body.scalp": {
+    "danish": "hovedbund",
+    "german": "Kopfhaut",
+    "english": "scalp",
+    "gender": "die",
+    "danishDefinite": "hovedbunden",
+    "danishIndefinite": "en hovedbund",
+    "tier": 3
+  },
+  "body.freckle": {
+    "danish": "fregne",
+    "german": "Sommersprosse",
+    "english": "freckle",
+    "gender": "die",
+    "danishDefinite": "fregnen",
+    "danishIndefinite": "en fregne",
+    "tier": 3
+  },
+  "body.birthmark": {
+    "danish": "modermærke",
+    "german": "Muttermal",
+    "english": "birthmark",
+    "gender": "das",
+    "danishDefinite": "modermærket",
+    "danishIndefinite": "et modermærke",
+    "tier": 3
+  },
+  "body.wrinkle": {
+    "danish": "rynke",
+    "german": "Falte",
+    "english": "wrinkle",
+    "gender": "die",
+    "danishDefinite": "rynken",
+    "danishIndefinite": "en rynke",
+    "tier": 3
+  },
+  "body.scar": {
+    "danish": "ar",
+    "german": "Narbe",
+    "english": "scar",
+    "gender": "die",
+    "danishDefinite": "arret",
+    "danishIndefinite": "et ar",
+    "tier": 3
+  },
+  "body.pore": {
+    "danish": "pore",
+    "german": "Pore",
+    "english": "pore",
+    "gender": "die",
+    "danishDefinite": "poren",
+    "danishIndefinite": "en pore",
+    "tier": 3
+  },
+  "body.sweat": {
+    "danish": "sved",
+    "german": "Schweiß",
+    "english": "sweat",
+    "gender": "der",
+    "danishDefinite": "sveden",
+    "danishIndefinite": "en sved",
+    "tier": 3
+  },
+  "body.tear": {
+    "danish": "tåre",
+    "german": "Träne",
+    "english": "tear",
+    "gender": "die",
+    "danishDefinite": "tåren",
+    "danishIndefinite": "en tåre",
+    "tier": 2
+  },
+  "body.saliva": {
+    "danish": "spyt",
+    "german": "Speichel",
+    "english": "saliva",
+    "gender": "der",
+    "danishDefinite": "spyttet",
+    "danishIndefinite": "et spyt",
+    "tier": 3
+  },
+  "body.breath": {
+    "danish": "ånde",
+    "german": "Atem",
+    "english": "breath",
+    "gender": "der",
+    "danishDefinite": "ånden",
+    "danishIndefinite": "en ånde",
+    "tier": 2
+  },
+  "body.pulse": {
+    "danish": "puls",
+    "german": "Puls",
+    "english": "pulse",
+    "gender": "der",
+    "danishDefinite": "pulsen",
+    "danishIndefinite": "en puls",
+    "tier": 3
+  },
+  "body.heartbeat": {
+    "danish": "hjerteslag",
+    "german": "Herzschlag",
+    "english": "heartbeat",
+    "gender": "der",
+    "danishDefinite": "hjerteslaget",
+    "danishIndefinite": "et hjerteslag",
+    "tier": 3
+  },
+  "body.voice": {
+    "danish": "stemme",
+    "german": "Stimme",
+    "english": "voice",
+    "gender": "die",
+    "danishDefinite": "stemmen",
+    "danishIndefinite": "en stemme",
+    "tier": 2
+  },
+  "body.sense": {
+    "danish": "sans",
+    "german": "Sinn",
+    "english": "sense",
+    "gender": "der",
+    "danishDefinite": "sansen",
+    "danishIndefinite": "en sans",
+    "tier": 3
+  },
+  "body.eyelid": {
+    "danish": "øjenlåg",
+    "german": "Augenlid",
+    "english": "eyelid",
+    "gender": "das",
+    "danishDefinite": "øjenlåget",
+    "danishIndefinite": "et øjenlåg",
+    "tier": 3
+  },
+  "body.pupil": {
+    "danish": "pupil",
+    "german": "Pupille",
+    "english": "pupil",
+    "gender": "die",
+    "danishDefinite": "pupillen",
+    "danishIndefinite": "en pupil",
+    "tier": 3
+  },
+  "body.retina": {
+    "danish": "nethinde",
+    "german": "Netzhaut",
+    "english": "retina",
+    "gender": "die",
+    "danishDefinite": "nethinden",
+    "danishIndefinite": "en nethinde",
+    "tier": 3
+  },
+  "body.eardrum": {
+    "danish": "trommehinde",
+    "german": "Trommelfell",
+    "english": "eardrum",
+    "gender": "das",
+    "danishDefinite": "trommehinden",
+    "danishIndefinite": "en trommehinde",
+    "tier": 3
+  },
+  "body.nostril": {
+    "danish": "næsebor",
+    "german": "Nasenloch",
+    "english": "nostril",
+    "gender": "das",
+    "danishDefinite": "næseboret",
+    "danishIndefinite": "et næsebor",
+    "tier": 3
+  },
+  "body.corner-of-the-mouth": {
+    "danish": "mundvig",
+    "german": "Mundwinkel",
+    "english": "corner of the mouth",
+    "gender": "der",
+    "danishDefinite": "mundvigen",
+    "danishIndefinite": "en mundvig",
+    "tier": 3
+  },
+  "body.armpit": {
+    "danish": "armhule",
+    "german": "Achselhöhle",
+    "english": "armpit",
+    "gender": "die",
+    "danishDefinite": "armhulen",
+    "danishIndefinite": "en armhule",
+    "tier": 3
+  },
+  "body.fingerprint": {
+    "danish": "fingeraftryk",
+    "german": "Fingerabdruck",
+    "english": "fingerprint",
+    "gender": "der",
+    "danishDefinite": "fingeraftrykket",
+    "danishIndefinite": "et fingeraftryk",
+    "tier": 3
+  },
+  "body.incisor": {
+    "danish": "fortand",
+    "german": "Schneidezahn",
+    "english": "incisor",
+    "gender": "der",
+    "danishDefinite": "fortanden",
+    "danishIndefinite": "en fortand",
+    "tier": 3
+  },
+  "body.canine-tooth": {
+    "danish": "hjørnetand",
+    "german": "Eckzahn",
+    "english": "canine tooth",
+    "gender": "der",
+    "danishDefinite": "hjørnetanden",
+    "danishIndefinite": "en hjørnetand",
+    "tier": 3
+  },
+  "body.molar": {
+    "danish": "kindtand",
+    "german": "Backenzahn",
+    "english": "molar",
+    "gender": "der",
+    "danishDefinite": "kindtanden",
+    "danishIndefinite": "en kindtand",
+    "tier": 3
+  },
+  "body.wisdom-tooth": {
+    "danish": "visdomstand",
+    "german": "Weisheitszahn",
+    "english": "wisdom tooth",
+    "gender": "der",
+    "danishDefinite": "visdomstanden",
+    "danishIndefinite": "en visdomstand",
+    "tier": 3
+  },
+  "body.baby-tooth": {
+    "danish": "mælketand",
+    "german": "Milchzahn",
+    "english": "baby tooth",
+    "gender": "der",
+    "danishDefinite": "mælketanden",
+    "danishIndefinite": "en mælketand",
+    "tier": 3
+  },
+  "body.set-of-teeth": {
+    "danish": "tandsæt",
+    "german": "Gebiss",
+    "english": "set of teeth",
+    "gender": "das",
+    "danishDefinite": "tandsættet",
+    "danishIndefinite": "et tandsæt",
+    "tier": 3
+  },
+  "body.body-part": {
+    "danish": "kropsdel",
+    "german": "Körperteil",
+    "english": "body part",
+    "gender": "der",
+    "danishDefinite": "kropsdelen",
+    "danishIndefinite": "en kropsdel",
+    "tier": 2
+  },
+  "body.organ": {
+    "danish": "organ",
+    "german": "Organ",
+    "english": "organ",
+    "gender": "das",
+    "danishDefinite": "organet",
+    "danishIndefinite": "et organ",
+    "tier": 3
+  },
+  "body.tissue": {
+    "danish": "væv",
+    "german": "Gewebe",
+    "english": "tissue",
+    "gender": "das",
+    "danishDefinite": "vævet",
+    "danishIndefinite": "et væv",
+    "tier": 3
+  },
+  "body.cell": {
+    "danish": "celle",
+    "german": "Zelle",
+    "english": "cell",
+    "gender": "die",
+    "danishDefinite": "cellen",
+    "danishIndefinite": "en celle",
+    "tier": 3
+  },
+  "body.circulation": {
+    "danish": "kredsløb",
+    "german": "Kreislauf",
+    "english": "circulation",
+    "gender": "der",
+    "danishDefinite": "kredsløbet",
+    "danishIndefinite": "et kredsløb",
+    "tier": 3
+  },
+  "body.fingertip": {
+    "danish": "fingerspids",
+    "german": "Fingerspitze",
+    "english": "fingertip",
+    "gender": "die",
+    "danishDefinite": "fingerspidsen",
+    "danishIndefinite": "en fingerspids",
+    "tier": 3
+  },
+  "body.tip-of-the-tongue": {
+    "danish": "tungespids",
+    "german": "Zungenspitze",
+    "english": "tip of the tongue",
+    "gender": "die",
+    "danishDefinite": "tungespidsen",
+    "danishIndefinite": "en tungespids",
+    "tier": 3
+  },
+  "body.facial-expression": {
+    "danish": "ansigtsudtryk",
+    "german": "Gesichtsausdruck",
+    "english": "facial expression",
+    "gender": "der",
+    "danishDefinite": "ansigtsudtrykket",
+    "danishIndefinite": "et ansigtsudtryk",
+    "tier": 3
+  },
+  "body.eye-colour": {
+    "danish": "øjenfarve",
+    "german": "Augenfarbe",
+    "english": "eye colour",
+    "gender": "die",
+    "danishDefinite": "øjenfarven",
+    "danishIndefinite": "en øjenfarve",
+    "tier": 2
+  },
+  "body.hair-colour": {
+    "danish": "hårfarve",
+    "german": "Haarfarbe",
+    "english": "hair colour",
+    "gender": "die",
+    "danishDefinite": "hårfarven",
+    "danishIndefinite": "en hårfarve",
+    "tier": 2
+  },
+  "body.strand-of-hair": {
+    "danish": "hårlok",
+    "german": "Haarsträhne",
+    "english": "strand of hair",
+    "gender": "die",
+    "danishDefinite": "hårlokken",
+    "danishIndefinite": "en hårlok",
+    "tier": 3
+  },
+  "body.skin-colour": {
+    "danish": "hudfarve",
+    "german": "Hautfarbe",
+    "english": "skin colour",
+    "gender": "die",
+    "danishDefinite": "hudfarven",
+    "danishIndefinite": "en hudfarve",
+    "tier": 3
+  },
+  "body.footprint": {
+    "danish": "fodaftryk",
+    "german": "Fußabdruck",
+    "english": "footprint",
+    "gender": "der",
+    "danishDefinite": "fodaftrykket",
+    "danishIndefinite": "et fodaftryk",
+    "tier": 3
+  }
+}

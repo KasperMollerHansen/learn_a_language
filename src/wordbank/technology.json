@@ -2,71 +2,1120 @@
   "technology.screen": {
     "danish": "skærm",
     "german": "Bildschirm",
+    "english": "screen",
     "gender": "der",
     "danishDefinite": "skærmen",
-    "danishIndefinite": "en skærm"
+    "danishIndefinite": "en skærm",
+    "tier": 2
   },
   "technology.keyboard": {
     "danish": "tastatur",
     "german": "Tastatur",
+    "english": "keyboard",
     "gender": "die",
     "danishDefinite": "tastaturet",
-    "danishIndefinite": "et tastatur"
+    "danishIndefinite": "et tastatur",
+    "tier": 2
   },
   "technology.mouse": {
     "danish": "mus",
     "german": "Maus",
+    "english": "mouse",
     "gender": "die",
     "danishDefinite": "musen",
-    "danishIndefinite": "en mus"
+    "danishIndefinite": "en mus",
+    "tier": 2
   },
   "technology.wifi": {
     "danish": "wifi",
     "german": "WLAN",
+    "english": "Wi-Fi",
     "gender": "das",
-    "danishDefinite": "wifi-en",
-    "danishIndefinite": "et wifi"
+    "danishDefinite": "wifiet",
+    "danishIndefinite": "et wifi",
+    "tier": 1
   },
   "technology.app": {
     "danish": "app",
     "german": "App",
+    "english": "app",
     "gender": "die",
     "danishDefinite": "appen",
-    "danishIndefinite": "en app"
+    "danishIndefinite": "en app",
+    "tier": 1
   },
   "technology.email": {
     "danish": "e-mail",
     "german": "E-Mail",
+    "english": "email",
     "gender": "die",
     "danishDefinite": "e-mailen",
-    "danishIndefinite": "en e-mail"
+    "danishIndefinite": "en e-mail",
+    "tier": 1
   },
   "technology.chat": {
     "danish": "chat",
     "german": "Chat",
+    "english": "chat",
     "gender": "der",
     "danishDefinite": "chatten",
-    "danishIndefinite": "en chat"
+    "danishIndefinite": "en chat",
+    "tier": 1
   },
   "technology.file": {
     "danish": "fil",
     "german": "Datei",
+    "english": "file",
     "gender": "die",
     "danishDefinite": "filen",
-    "danishIndefinite": "en fil"
+    "danishIndefinite": "en fil",
+    "tier": 2
   },
   "technology.folder": {
     "danish": "mappe",
     "german": "Ordner",
+    "english": "folder",
     "gender": "der",
     "danishDefinite": "mappen",
-    "danishIndefinite": "en mappe"
+    "danishIndefinite": "en mappe",
+    "tier": 3
   },
   "technology.network": {
     "danish": "netværk",
     "german": "Netzwerk",
+    "english": "network",
     "gender": "das",
     "danishDefinite": "netværket",
-    "danishIndefinite": "et netværk"
+    "danishIndefinite": "et netværk",
+    "tier": 2
+  },
+  "technology.computer": {
+    "danish": "computer",
+    "german": "Computer",
+    "english": "computer",
+    "gender": "der",
+    "danishDefinite": "computeren",
+    "danishIndefinite": "en computer",
+    "tier": 1
+  },
+  "technology.laptop": {
+    "danish": "bærbar computer",
+    "german": "Laptop",
+    "english": "laptop",
+    "gender": "der",
+    "danishDefinite": "den bærbare computer",
+    "danishIndefinite": "en bærbar computer",
+    "tier": 2
+  },
+  "technology.telephone": {
+    "danish": "telefon",
+    "german": "Telefon",
+    "english": "telephone",
+    "gender": "das",
+    "danishDefinite": "telefonen",
+    "danishIndefinite": "en telefon",
+    "tier": 1
+  },
+  "technology.mobile-phone": {
+    "danish": "mobil",
+    "german": "Handy",
+    "english": "mobile phone",
+    "gender": "das",
+    "danishDefinite": "mobilen",
+    "danishIndefinite": "en mobil",
+    "tier": 1
+  },
+  "technology.smartphone": {
+    "danish": "smartphone",
+    "german": "Smartphone",
+    "english": "smartphone",
+    "gender": "das",
+    "danishDefinite": "smartphonen",
+    "danishIndefinite": "en smartphone",
+    "tier": 2
+  },
+  "technology.tablet-computer": {
+    "danish": "tabletcomputer",
+    "german": "Tablet",
+    "english": "tablet computer",
+    "gender": "das",
+    "danishDefinite": "tabletcomputeren",
+    "danishIndefinite": "en tabletcomputer",
+    "tier": 3
+  },
+  "technology.charger": {
+    "danish": "oplader",
+    "german": "Ladegerät",
+    "english": "charger",
+    "gender": "das",
+    "danishDefinite": "opladeren",
+    "danishIndefinite": "en oplader",
+    "tier": 2
+  },
+  "technology.cable": {
+    "danish": "kabel",
+    "german": "Kabel",
+    "english": "cable",
+    "gender": "das",
+    "danishDefinite": "kablet",
+    "danishIndefinite": "et kabel",
+    "tier": 2
+  },
+  "technology.plug": {
+    "danish": "stik",
+    "german": "Stecker",
+    "english": "plug",
+    "gender": "der",
+    "danishDefinite": "stikket",
+    "danishIndefinite": "et stik",
+    "tier": 3
+  },
+  "technology.socket": {
+    "danish": "stikkontakt",
+    "german": "Steckdose",
+    "english": "socket",
+    "gender": "die",
+    "danishDefinite": "stikkontakten",
+    "danishIndefinite": "en stikkontakt",
+    "tier": 2
+  },
+  "technology.battery": {
+    "danish": "batteri",
+    "german": "Batterie",
+    "english": "battery",
+    "gender": "die",
+    "danishDefinite": "batteriet",
+    "danishIndefinite": "et batteri",
+    "tier": 2
+  },
+  "technology.loudspeaker": {
+    "danish": "højttaler",
+    "german": "Lautsprecher",
+    "english": "loudspeaker",
+    "gender": "der",
+    "danishDefinite": "højttaleren",
+    "danishIndefinite": "en højttaler",
+    "tier": 2
+  },
+  "technology.microphone": {
+    "danish": "mikrofon",
+    "german": "Mikrofon",
+    "english": "microphone",
+    "gender": "das",
+    "danishDefinite": "mikrofonen",
+    "danishIndefinite": "en mikrofon",
+    "tier": 3
+  },
+  "technology.headset": {
+    "danish": "headset",
+    "german": "Headset",
+    "english": "headset",
+    "gender": "das",
+    "danishDefinite": "headsettet",
+    "danishIndefinite": "et headset",
+    "tier": 3
+  },
+  "technology.camera": {
+    "danish": "kamera",
+    "german": "Kamera",
+    "english": "camera",
+    "gender": "die",
+    "danishDefinite": "kameraet",
+    "danishIndefinite": "et kamera",
+    "tier": 2
+  },
+  "technology.printer": {
+    "danish": "printer",
+    "german": "Drucker",
+    "english": "printer",
+    "gender": "der",
+    "danishDefinite": "printeren",
+    "danishIndefinite": "en printer",
+    "tier": 2
+  },
+  "technology.scanner": {
+    "danish": "scanner",
+    "german": "Scanner",
+    "english": "scanner",
+    "gender": "der",
+    "danishDefinite": "scanneren",
+    "danishIndefinite": "en scanner",
+    "tier": 2
+  },
+  "technology.hard-drive": {
+    "danish": "harddisk",
+    "german": "Festplatte",
+    "english": "hard drive",
+    "gender": "die",
+    "danishDefinite": "harddisken",
+    "danishIndefinite": "en harddisk",
+    "tier": 2
+  },
+  "technology.usb-flash-drive": {
+    "danish": "usb-stik",
+    "german": "USB-Stick",
+    "english": "USB flash drive",
+    "gender": "der",
+    "danishDefinite": "usb-stikket",
+    "danishIndefinite": "et usb-stik",
+    "tier": 3
+  },
+  "technology.memory-card": {
+    "danish": "hukommelseskort",
+    "german": "Speicherkarte",
+    "english": "memory card",
+    "gender": "die",
+    "danishDefinite": "hukommelseskortet",
+    "danishIndefinite": "et hukommelseskort",
+    "tier": 3
+  },
+  "technology.server": {
+    "danish": "server",
+    "german": "Server",
+    "english": "server",
+    "gender": "der",
+    "danishDefinite": "serveren",
+    "danishIndefinite": "en server",
+    "tier": 2
+  },
+  "technology.program": {
+    "danish": "program",
+    "german": "Programm",
+    "english": "program",
+    "gender": "das",
+    "danishDefinite": "programmet",
+    "danishIndefinite": "et program",
+    "tier": 2
+  },
+  "technology.operating-system": {
+    "danish": "styresystem",
+    "german": "Betriebssystem",
+    "english": "operating system",
+    "gender": "das",
+    "danishDefinite": "styresystemet",
+    "danishIndefinite": "et styresystem",
+    "tier": 3
+  },
+  "technology.update": {
+    "danish": "opdatering",
+    "german": "Update",
+    "english": "update",
+    "gender": "das",
+    "danishDefinite": "opdateringen",
+    "danishIndefinite": "en opdatering",
+    "tier": 2
+  },
+  "technology.password": {
+    "danish": "adgangskode",
+    "german": "Passwort",
+    "english": "password",
+    "gender": "das",
+    "danishDefinite": "adgangskoden",
+    "danishIndefinite": "en adgangskode",
+    "tier": 2
+  },
+  "technology.username": {
+    "danish": "brugernavn",
+    "german": "Benutzername",
+    "english": "username",
+    "gender": "der",
+    "danishDefinite": "brugernavnet",
+    "danishIndefinite": "et brugernavn",
+    "tier": 3
+  },
+  "technology.user": {
+    "danish": "bruger",
+    "german": "Benutzer",
+    "english": "user",
+    "gender": "der",
+    "danishDefinite": "brugeren",
+    "danishIndefinite": "en bruger",
+    "tier": 2
+  },
+  "technology.user-account": {
+    "danish": "brugerkonto",
+    "german": "Benutzerkonto",
+    "english": "user account",
+    "gender": "das",
+    "danishDefinite": "brugerkontoen",
+    "danishIndefinite": "en brugerkonto",
+    "tier": 3
+  },
+  "technology.website": {
+    "danish": "hjemmeside",
+    "german": "Website",
+    "english": "website",
+    "gender": "die",
+    "danishDefinite": "hjemmesiden",
+    "danishIndefinite": "en hjemmeside",
+    "tier": 2
+  },
+  "technology.link": {
+    "danish": "link",
+    "german": "Link",
+    "english": "link",
+    "gender": "der",
+    "danishDefinite": "linket",
+    "danishIndefinite": "et link",
+    "tier": 2
+  },
+  "technology.browser": {
+    "danish": "browser",
+    "german": "Browser",
+    "english": "browser",
+    "gender": "der",
+    "danishDefinite": "browseren",
+    "danishIndefinite": "en browser",
+    "tier": 2
+  },
+  "technology.search-engine": {
+    "danish": "søgemaskine",
+    "german": "Suchmaschine",
+    "english": "search engine",
+    "gender": "die",
+    "danishDefinite": "søgemaskinen",
+    "danishIndefinite": "en søgemaskine",
+    "tier": 3
+  },
+  "technology.internet-connection": {
+    "danish": "internetforbindelse",
+    "german": "Internetverbindung",
+    "english": "internet connection",
+    "gender": "die",
+    "danishDefinite": "internetforbindelsen",
+    "danishIndefinite": "en internetforbindelse",
+    "tier": 3
+  },
+  "technology.broadband": {
+    "danish": "bredbånd",
+    "german": "Breitband",
+    "english": "broadband",
+    "gender": "das",
+    "danishDefinite": "bredbåndet",
+    "danishIndefinite": "et bredbånd",
+    "tier": 3
+  },
+  "technology.signal": {
+    "danish": "signal",
+    "german": "Signal",
+    "english": "signal",
+    "gender": "das",
+    "danishDefinite": "signalet",
+    "danishIndefinite": "et signal",
+    "tier": 2
+  },
+  "technology.mobile-coverage": {
+    "danish": "mobildækning",
+    "german": "Netzabdeckung",
+    "english": "mobile coverage",
+    "gender": "die",
+    "danishDefinite": "mobildækningen",
+    "danishIndefinite": "en mobildækning",
+    "tier": 3
+  },
+  "technology.database": {
+    "danish": "database",
+    "german": "Datenbank",
+    "english": "database",
+    "gender": "die",
+    "danishDefinite": "databasen",
+    "danishIndefinite": "en database",
+    "tier": 2
+  },
+  "technology.code": {
+    "danish": "kode",
+    "german": "Code",
+    "english": "code",
+    "gender": "der",
+    "danishDefinite": "koden",
+    "danishIndefinite": "en kode",
+    "tier": 2
+  },
+  "technology.programming": {
+    "danish": "programmering",
+    "german": "Programmierung",
+    "english": "programming",
+    "gender": "die",
+    "danishDefinite": "programmeringen",
+    "danishIndefinite": "en programmering",
+    "tier": 2
+  },
+  "technology.algorithm": {
+    "danish": "algoritme",
+    "german": "Algorithmus",
+    "english": "algorithm",
+    "gender": "der",
+    "danishDefinite": "algoritmen",
+    "danishIndefinite": "en algoritme",
+    "tier": 3
+  },
+  "technology.robot": {
+    "danish": "robot",
+    "german": "Roboter",
+    "english": "robot",
+    "gender": "der",
+    "danishDefinite": "robotten",
+    "danishIndefinite": "en robot",
+    "tier": 2
+  },
+  "technology.computer-virus": {
+    "danish": "computervirus",
+    "german": "Computervirus",
+    "english": "computer virus",
+    "gender": "der",
+    "danishDefinite": "computervirussen",
+    "danishIndefinite": "en computervirus",
+    "tier": 3
+  },
+  "technology.hacker": {
+    "danish": "hacker",
+    "german": "Hacker",
+    "english": "hacker",
+    "gender": "der",
+    "danishDefinite": "hackeren",
+    "danishIndefinite": "en hacker",
+    "tier": 3
+  },
+  "technology.firewall": {
+    "danish": "firewall",
+    "german": "Firewall",
+    "english": "firewall",
+    "gender": "die",
+    "danishDefinite": "firewallen",
+    "danishIndefinite": "en firewall",
+    "tier": 3
+  },
+  "technology.backup": {
+    "danish": "sikkerhedskopi",
+    "german": "Sicherungskopie",
+    "english": "backup",
+    "gender": "die",
+    "danishDefinite": "sikkerhedskopien",
+    "danishIndefinite": "en sikkerhedskopi",
+    "tier": 3
+  },
+  "technology.cloud-storage": {
+    "danish": "cloud",
+    "german": "Cloud",
+    "english": "cloud storage",
+    "gender": "die",
+    "danishDefinite": "clouden",
+    "danishIndefinite": "en cloud",
+    "tier": 3
+  },
+  "technology.ram": {
+    "danish": "arbejdshukommelse",
+    "german": "Arbeitsspeicher",
+    "english": "RAM",
+    "gender": "der",
+    "danishDefinite": "arbejdshukommelsen",
+    "danishIndefinite": "en arbejdshukommelse",
+    "tier": 3
+  },
+  "technology.processor": {
+    "danish": "processor",
+    "german": "Prozessor",
+    "english": "processor",
+    "gender": "der",
+    "danishDefinite": "processoren",
+    "danishIndefinite": "en processor",
+    "tier": 2
+  },
+  "technology.chip": {
+    "danish": "chip",
+    "german": "Chip",
+    "english": "chip",
+    "gender": "der",
+    "danishDefinite": "chippen",
+    "danishIndefinite": "en chip",
+    "tier": 3
+  },
+  "technology.resolution": {
+    "danish": "opløsning",
+    "german": "Auflösung",
+    "english": "resolution",
+    "gender": "die",
+    "danishDefinite": "opløsningen",
+    "danishIndefinite": "en opløsning",
+    "tier": 3
+  },
+  "technology.touchscreen": {
+    "danish": "touchskærm",
+    "german": "Touchscreen",
+    "english": "touchscreen",
+    "gender": "der",
+    "danishDefinite": "touchskærmen",
+    "danishIndefinite": "en touchskærm",
+    "tier": 3
+  },
+  "technology.button": {
+    "danish": "knap",
+    "german": "Knopf",
+    "english": "button",
+    "gender": "der",
+    "danishDefinite": "knappen",
+    "danishIndefinite": "en knap",
+    "tier": 2
+  },
+  "technology.key": {
+    "danish": "tast",
+    "german": "Taste",
+    "english": "key",
+    "gender": "die",
+    "danishDefinite": "tasten",
+    "danishIndefinite": "en tast",
+    "tier": 2
+  },
+  "technology.text-message": {
+    "danish": "sms",
+    "german": "SMS",
+    "english": "text message",
+    "gender": "die",
+    "danishDefinite": "sms'en",
+    "danishIndefinite": "en sms",
+    "tier": 2
+  },
+  "technology.message": {
+    "danish": "besked",
+    "german": "Nachricht",
+    "english": "message",
+    "gender": "die",
+    "danishDefinite": "beskeden",
+    "danishIndefinite": "en besked",
+    "tier": 1
+  },
+  "technology.answering-machine": {
+    "danish": "telefonsvarer",
+    "german": "Anrufbeantworter",
+    "english": "answering machine",
+    "gender": "der",
+    "danishDefinite": "telefonsvareren",
+    "danishIndefinite": "en telefonsvarer",
+    "tier": 3
+  },
+  "technology.phone-call": {
+    "danish": "opkald",
+    "german": "Anruf",
+    "english": "phone call",
+    "gender": "der",
+    "danishDefinite": "opkaldet",
+    "danishIndefinite": "et opkald",
+    "tier": 2
+  },
+  "technology.phone-number": {
+    "danish": "telefonnummer",
+    "german": "Telefonnummer",
+    "english": "phone number",
+    "gender": "die",
+    "danishDefinite": "telefonnummeret",
+    "danishIndefinite": "et telefonnummer",
+    "tier": 1
+  },
+  "technology.ringtone": {
+    "danish": "ringetone",
+    "german": "Klingelton",
+    "english": "ringtone",
+    "gender": "der",
+    "danishDefinite": "ringetonen",
+    "danishIndefinite": "en ringetone",
+    "tier": 3
+  },
+  "technology.video": {
+    "danish": "video",
+    "german": "Video",
+    "english": "video",
+    "gender": "das",
+    "danishDefinite": "videoen",
+    "danishIndefinite": "en video",
+    "tier": 2
+  },
+  "technology.photo": {
+    "danish": "foto",
+    "german": "Foto",
+    "english": "photo",
+    "gender": "das",
+    "danishDefinite": "fotoet",
+    "danishIndefinite": "et foto",
+    "tier": 2
+  },
+  "technology.selfie": {
+    "danish": "selfie",
+    "german": "Selfie",
+    "english": "selfie",
+    "gender": "das",
+    "danishDefinite": "selfien",
+    "danishIndefinite": "en selfie",
+    "tier": 3
+  },
+  "technology.profile": {
+    "danish": "profil",
+    "german": "Profil",
+    "english": "profile",
+    "gender": "das",
+    "danishDefinite": "profilen",
+    "danishIndefinite": "en profil",
+    "tier": 3
+  },
+  "technology.download": {
+    "danish": "download",
+    "german": "Download",
+    "english": "download",
+    "gender": "der",
+    "danishDefinite": "downloaden",
+    "danishIndefinite": "en download",
+    "tier": 2
+  },
+  "technology.technology": {
+    "danish": "teknologi",
+    "german": "Technologie",
+    "english": "technology",
+    "gender": "die",
+    "danishDefinite": "teknologien",
+    "danishIndefinite": "en teknologi",
+    "tier": 2
+  },
+  "technology.device": {
+    "danish": "apparat",
+    "german": "Gerät",
+    "english": "device",
+    "gender": "das",
+    "danishDefinite": "apparatet",
+    "danishIndefinite": "et apparat",
+    "tier": 2
+  },
+  "technology.remote-control": {
+    "danish": "fjernbetjening",
+    "german": "Fernbedienung",
+    "english": "remote control",
+    "gender": "die",
+    "danishDefinite": "fjernbetjeningen",
+    "danishIndefinite": "en fjernbetjening",
+    "tier": 2
+  },
+  "technology.television-set": {
+    "danish": "tv",
+    "german": "Fernseher",
+    "english": "television set",
+    "gender": "der",
+    "danishDefinite": "tv'et",
+    "danishIndefinite": "et tv",
+    "tier": 1
+  },
+  "technology.radio": {
+    "danish": "radio",
+    "german": "Radio",
+    "english": "radio",
+    "gender": "das",
+    "danishDefinite": "radioen",
+    "danishIndefinite": "en radio",
+    "tier": 1
+  },
+  "technology.light-bulb": {
+    "danish": "elpære",
+    "german": "Glühbirne",
+    "english": "light bulb",
+    "gender": "die",
+    "danishDefinite": "elpæren",
+    "danishIndefinite": "en elpære",
+    "tier": 2
+  },
+  "technology.electricity": {
+    "danish": "elektricitet",
+    "german": "Elektrizität",
+    "english": "electricity",
+    "gender": "die",
+    "danishDefinite": "elektriciteten",
+    "danishIndefinite": "en elektricitet",
+    "tier": 3
+  },
+  "technology.switch": {
+    "danish": "afbryder",
+    "german": "Schalter",
+    "english": "switch",
+    "gender": "der",
+    "danishDefinite": "afbryderen",
+    "danishIndefinite": "en afbryder",
+    "tier": 3
+  },
+  "technology.antenna": {
+    "danish": "antenne",
+    "german": "Antenne",
+    "english": "antenna",
+    "gender": "die",
+    "danishDefinite": "antennen",
+    "danishIndefinite": "en antenne",
+    "tier": 3
+  },
+  "technology.satellite": {
+    "danish": "satellit",
+    "german": "Satellit",
+    "english": "satellite",
+    "gender": "der",
+    "danishDefinite": "satellitten",
+    "danishIndefinite": "en satellit",
+    "tier": 3
+  },
+  "technology.rocket": {
+    "danish": "raket",
+    "german": "Rakete",
+    "english": "rocket",
+    "gender": "die",
+    "danishDefinite": "raketten",
+    "danishIndefinite": "en raket",
+    "tier": 3
+  },
+  "technology.drone": {
+    "danish": "drone",
+    "german": "Drohne",
+    "english": "drone",
+    "gender": "die",
+    "danishDefinite": "dronen",
+    "danishIndefinite": "en drone",
+    "tier": 3
+  },
+  "technology.engine": {
+    "danish": "motor",
+    "german": "Motor",
+    "english": "engine",
+    "gender": "der",
+    "danishDefinite": "motoren",
+    "danishIndefinite": "en motor",
+    "tier": 2
+  },
+  "technology.e-book": {
+    "danish": "e-bog",
+    "german": "E-Book",
+    "english": "e-book",
+    "gender": "das",
+    "danishDefinite": "e-bogen",
+    "danishIndefinite": "en e-bog",
+    "tier": 3
+  },
+  "technology.games-console": {
+    "danish": "spillekonsol",
+    "german": "Spielkonsole",
+    "english": "games console",
+    "gender": "die",
+    "danishDefinite": "spillekonsollen",
+    "danishIndefinite": "en spillekonsol",
+    "tier": 3
+  },
+  "technology.computer-game": {
+    "danish": "computerspil",
+    "german": "Computerspiel",
+    "english": "computer game",
+    "gender": "das",
+    "danishDefinite": "computerspillet",
+    "danishIndefinite": "et computerspil",
+    "tier": 2
+  },
+  "technology.error-message": {
+    "danish": "fejlmeddelelse",
+    "german": "Fehlermeldung",
+    "english": "error message",
+    "gender": "die",
+    "danishDefinite": "fejlmeddelelsen",
+    "danishIndefinite": "en fejlmeddelelse",
+    "tier": 3
+  },
+  "technology.technician": {
+    "danish": "tekniker",
+    "german": "Techniker",
+    "english": "technician",
+    "gender": "der",
+    "danishDefinite": "teknikeren",
+    "danishIndefinite": "en tekniker",
+    "tier": 3
+  },
+  "technology.router": {
+    "danish": "router",
+    "german": "Router",
+    "english": "router",
+    "gender": "der",
+    "danishDefinite": "routeren",
+    "danishIndefinite": "en router",
+    "tier": 2
+  },
+  "technology.newsletter": {
+    "danish": "nyhedsbrev",
+    "german": "Newsletter",
+    "english": "newsletter",
+    "gender": "der",
+    "danishDefinite": "nyhedsbrevet",
+    "danishIndefinite": "et nyhedsbrev",
+    "tier": 3
+  },
+  "technology.online-shop": {
+    "danish": "netbutik",
+    "german": "Onlineshop",
+    "english": "online shop",
+    "gender": "der",
+    "danishDefinite": "netbutikken",
+    "danishIndefinite": "en netbutik",
+    "tier": 3
+  },
+  "technology.email-attachment": {
+    "danish": "vedhæftet fil",
+    "german": "Anhang",
+    "english": "email attachment",
+    "gender": "der",
+    "danishDefinite": "den vedhæftede fil",
+    "danishIndefinite": "en vedhæftet fil",
+    "tier": 3
+  },
+  "technology.inbox": {
+    "danish": "indbakke",
+    "german": "Posteingang",
+    "english": "inbox",
+    "gender": "der",
+    "danishDefinite": "indbakken",
+    "danishIndefinite": "en indbakke",
+    "tier": 3
+  },
+  "technology.email-address": {
+    "danish": "e-mailadresse",
+    "german": "E-Mail-Adresse",
+    "english": "email address",
+    "gender": "die",
+    "danishDefinite": "e-mailadressen",
+    "danishIndefinite": "en e-mailadresse",
+    "tier": 2
+  },
+  "technology.screenshot": {
+    "danish": "skærmbillede",
+    "german": "Screenshot",
+    "english": "screenshot",
+    "gender": "der",
+    "danishDefinite": "skærmbilledet",
+    "danishIndefinite": "et skærmbillede",
+    "tier": 3
+  },
+  "technology.notification": {
+    "danish": "notifikation",
+    "german": "Benachrichtigung",
+    "english": "notification",
+    "gender": "die",
+    "danishDefinite": "notifikationen",
+    "danishIndefinite": "en notifikation",
+    "tier": 3
+  },
+  "technology.satellite-navigation-system": {
+    "danish": "navigationssystem",
+    "german": "Navigationssystem",
+    "english": "satellite navigation system",
+    "gender": "das",
+    "danishDefinite": "navigationssystemet",
+    "danishIndefinite": "et navigationssystem",
+    "tier": 3
+  },
+  "technology.log-in": {
+    "danish": "at logge ind",
+    "german": "sich einloggen",
+    "english": "to log in",
+    "tier": 2
+  },
+  "technology.log-out": {
+    "danish": "at logge ud",
+    "german": "sich ausloggen",
+    "english": "to log out",
+    "tier": 3
+  },
+  "technology.download-2": {
+    "danish": "at downloade",
+    "german": "herunterladen",
+    "english": "to download",
+    "tier": 2
+  },
+  "technology.upload": {
+    "danish": "at uploade",
+    "german": "hochladen",
+    "english": "to upload",
+    "tier": 2
+  },
+  "technology.stream": {
+    "danish": "at streame",
+    "german": "streamen",
+    "english": "to stream",
+    "tier": 2
+  },
+  "technology.click": {
+    "danish": "at klikke",
+    "german": "klicken",
+    "english": "to click",
+    "tier": 2
+  },
+  "technology.press": {
+    "danish": "at trykke",
+    "german": "drücken",
+    "english": "to press",
+    "tier": 2
+  },
+  "technology.print": {
+    "danish": "at printe",
+    "german": "ausdrucken",
+    "english": "to print",
+    "tier": 3
+  },
+  "technology.save-a-file": {
+    "danish": "at gemme",
+    "german": "speichern",
+    "english": "to save a file",
+    "tier": 2
+  },
+  "technology.delete": {
+    "danish": "at slette",
+    "german": "löschen",
+    "english": "to delete",
+    "tier": 2
+  },
+  "technology.copy-a-file": {
+    "danish": "at kopiere",
+    "german": "kopieren",
+    "english": "to copy a file",
+    "tier": 2
+  },
+  "technology.paste": {
+    "danish": "at indsætte",
+    "german": "einfügen",
+    "english": "to paste",
+    "tier": 3
+  },
+  "technology.install": {
+    "danish": "at installere",
+    "german": "installieren",
+    "english": "to install",
+    "tier": 2
+  },
+  "technology.update-2": {
+    "danish": "at opdatere",
+    "german": "aktualisieren",
+    "english": "to update",
+    "tier": 2
+  },
+  "technology.restart": {
+    "danish": "at genstarte",
+    "german": "neu starten",
+    "english": "to restart",
+    "tier": 3
+  },
+  "technology.switch-off": {
+    "danish": "at slukke",
+    "german": "ausschalten",
+    "english": "to switch off",
+    "tier": 2
+  },
+  "technology.switch-on": {
+    "danish": "at tænde",
+    "german": "einschalten",
+    "english": "to switch on",
+    "tier": 2
+  },
+  "technology.charge": {
+    "danish": "at oplade",
+    "german": "aufladen",
+    "english": "to charge",
+    "tier": 2
+  },
+  "technology.shut-down": {
+    "danish": "at lukke ned",
+    "german": "herunterfahren",
+    "english": "to shut down",
+    "tier": 3
+  },
+  "technology.scroll": {
+    "danish": "at scrolle",
+    "german": "scrollen",
+    "english": "to scroll",
+    "tier": 3
+  },
+  "technology.surf-the-web": {
+    "danish": "at surfe",
+    "german": "surfen",
+    "english": "to surf the web",
+    "tier": 2
+  },
+  "technology.chat-online": {
+    "danish": "at chatte",
+    "german": "chatten",
+    "english": "to chat online",
+    "tier": 2
+  },
+  "technology.phone": {
+    "danish": "at ringe op",
+    "german": "anrufen",
+    "english": "to phone",
+    "tier": 2
+  },
+  "technology.photograph": {
+    "danish": "at fotografere",
+    "german": "fotografieren",
+    "english": "to photograph",
+    "tier": 2
+  },
+  "technology.share": {
+    "danish": "at dele",
+    "german": "teilen",
+    "english": "to share",
+    "tier": 2
+  },
+  "technology.connect": {
+    "danish": "at forbinde",
+    "german": "verbinden",
+    "english": "to connect",
+    "tier": 3
+  },
+  "technology.program-2": {
+    "danish": "at programmere",
+    "german": "programmieren",
+    "english": "to program",
+    "tier": 2
+  },
+  "technology.encrypt": {
+    "danish": "at kryptere",
+    "german": "verschlüsseln",
+    "english": "to encrypt",
+    "tier": 3
+  },
+  "technology.scan": {
+    "danish": "at scanne",
+    "german": "scannen",
+    "english": "to scan",
+    "tier": 3
+  },
+  "technology.wireless": {
+    "danish": "trådløs",
+    "german": "drahtlos",
+    "english": "wireless",
+    "tier": 2
+  },
+  "technology.portable": {
+    "danish": "bærbar",
+    "german": "tragbar",
+    "english": "portable",
+    "tier": 2
+  },
+  "technology.electronic": {
+    "danish": "elektronisk",
+    "german": "elektronisch",
+    "english": "electronic",
+    "tier": 2
+  },
+  "technology.online": {
+    "danish": "online",
+    "german": "online",
+    "english": "online",
+    "tier": 2
+  },
+  "technology.offline": {
+    "danish": "offline",
+    "german": "offline",
+    "english": "offline",
+    "tier": 3
+  },
+  "technology.compatible": {
+    "danish": "kompatibel",
+    "german": "kompatibel",
+    "english": "compatible",
+    "tier": 3
   }
 }

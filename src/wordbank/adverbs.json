@@ -1,0 +1,770 @@
+{
+  "adverbs.often": {
+    "danish": "ofte",
+    "german": "oft",
+    "english": "often",
+    "tier": 1
+  },
+  "adverbs.always": {
+    "danish": "altid",
+    "german": "immer",
+    "english": "always",
+    "tier": 1
+  },
+  "adverbs.never": {
+    "danish": "aldrig",
+    "german": "nie",
+    "english": "never",
+    "tier": 1
+  },
+  "adverbs.sometimes": {
+    "danish": "nogle gange",
+    "german": "manchmal",
+    "english": "sometimes",
+    "tier": 1
+  },
+  "adverbs.seldom": {
+    "danish": "sjældent",
+    "german": "selten",
+    "english": "seldom",
+    "tier": 2
+  },
+  "adverbs.usually": {
+    "danish": "normalt",
+    "german": "normalerweise",
+    "english": "usually",
+    "tier": 2
+  },
+  "adverbs.mostly": {
+    "danish": "for det meste",
+    "german": "meistens",
+    "english": "mostly",
+    "tier": 2
+  },
+  "adverbs.here": {
+    "danish": "her",
+    "german": "hier",
+    "english": "here",
+    "tier": 1
+  },
+  "adverbs.there": {
+    "danish": "der",
+    "german": "da",
+    "english": "there",
+    "tier": 1
+  },
+  "adverbs.over-there": {
+    "danish": "derovre",
+    "german": "dort",
+    "english": "over there",
+    "tier": 2
+  },
+  "adverbs.everywhere": {
+    "danish": "overalt",
+    "german": "überall",
+    "english": "everywhere",
+    "tier": 2
+  },
+  "adverbs.nowhere": {
+    "danish": "ingen steder",
+    "german": "nirgends",
+    "english": "nowhere",
+    "tier": 2
+  },
+  "adverbs.somewhere": {
+    "danish": "et eller andet sted",
+    "german": "irgendwo",
+    "english": "somewhere",
+    "tier": 3
+  },
+  "adverbs.outside": {
+    "danish": "ude",
+    "german": "draußen",
+    "english": "outside",
+    "tier": 1
+  },
+  "adverbs.inside": {
+    "danish": "inde",
+    "german": "drinnen",
+    "english": "inside",
+    "tier": 2
+  },
+  "adverbs.up-above": {
+    "danish": "oppe",
+    "german": "oben",
+    "english": "up above",
+    "tier": 1
+  },
+  "adverbs.down-below": {
+    "danish": "nede",
+    "german": "unten",
+    "english": "down below",
+    "tier": 1
+  },
+  "adverbs.in-front": {
+    "danish": "foran",
+    "german": "vorne",
+    "english": "in front",
+    "tier": 2
+  },
+  "adverbs.at-the-back": {
+    "danish": "bagved",
+    "german": "hinten",
+    "english": "at the back",
+    "tier": 2
+  },
+  "adverbs.straight-ahead": {
+    "danish": "lige ud",
+    "german": "geradeaus",
+    "english": "straight ahead",
+    "tier": 1
+  },
+  "adverbs.back": {
+    "danish": "tilbage",
+    "german": "zurück",
+    "english": "back",
+    "tier": 2
+  },
+  "adverbs.away": {
+    "danish": "væk",
+    "german": "weg",
+    "english": "away",
+    "tier": 2
+  },
+  "adverbs.far": {
+    "danish": "langt",
+    "german": "weit",
+    "english": "far",
+    "tier": 1
+  },
+  "adverbs.very": {
+    "danish": "meget",
+    "german": "sehr",
+    "english": "very",
+    "tier": 1
+  },
+  "adverbs.too": {
+    "danish": "for",
+    "german": "zu",
+    "english": "too",
+    "tier": 1
+  },
+  "adverbs.quite": {
+    "danish": "ret",
+    "german": "ziemlich",
+    "english": "quite",
+    "tier": 2
+  },
+  "adverbs.almost": {
+    "danish": "næsten",
+    "german": "fast",
+    "english": "almost",
+    "tier": 1
+  },
+  "adverbs.only": {
+    "danish": "kun",
+    "german": "nur",
+    "english": "only",
+    "tier": 1
+  },
+  "adverbs.also": {
+    "danish": "også",
+    "german": "auch",
+    "english": "also",
+    "tier": 1
+  },
+  "adverbs.still": {
+    "danish": "stadig",
+    "german": "noch",
+    "english": "still",
+    "tier": 1
+  },
+  "adverbs.already": {
+    "danish": "allerede",
+    "german": "schon",
+    "english": "already",
+    "tier": 1
+  },
+  "adverbs.even": {
+    "danish": "endda",
+    "german": "sogar",
+    "english": "even",
+    "tier": 2
+  },
+  "adverbs.especially": {
+    "danish": "især",
+    "german": "besonders",
+    "english": "especially",
+    "tier": 2
+  },
+  "adverbs.really": {
+    "danish": "virkelig",
+    "german": "wirklich",
+    "english": "really",
+    "tier": 1
+  },
+  "adverbs.perhaps": {
+    "danish": "måske",
+    "german": "vielleicht",
+    "english": "perhaps",
+    "tier": 1
+  },
+  "adverbs.definitely": {
+    "danish": "helt sikkert",
+    "german": "bestimmt",
+    "english": "definitely",
+    "tier": 3
+  },
+  "adverbs.unfortunately": {
+    "danish": "desværre",
+    "german": "leider",
+    "english": "unfortunately",
+    "tier": 2
+  },
+  "adverbs.fortunately": {
+    "danish": "heldigvis",
+    "german": "zum Glück",
+    "english": "fortunately",
+    "tier": 2
+  },
+  "adverbs.hopefully": {
+    "danish": "forhåbentlig",
+    "german": "hoffentlich",
+    "english": "hopefully",
+    "tier": 2
+  },
+  "adverbs.of-course": {
+    "danish": "naturligvis",
+    "german": "natürlich",
+    "english": "of course",
+    "tier": 1
+  },
+  "adverbs.gladly": {
+    "danish": "gerne",
+    "german": "gern",
+    "english": "gladly",
+    "tier": 1
+  },
+  "adverbs.rather": {
+    "danish": "hellere",
+    "german": "lieber",
+    "english": "rather",
+    "tier": 2
+  },
+  "adverbs.most-of-all": {
+    "danish": "allerhelst",
+    "german": "am liebsten",
+    "english": "most of all",
+    "tier": 3
+  },
+  "adverbs.more": {
+    "danish": "mere",
+    "german": "mehr",
+    "english": "more",
+    "tier": 1
+  },
+  "adverbs.less": {
+    "danish": "mindre",
+    "german": "weniger",
+    "english": "less",
+    "tier": 1
+  },
+  "adverbs.enough": {
+    "danish": "nok",
+    "german": "genug",
+    "english": "enough",
+    "tier": 1
+  },
+  "adverbs.a-little": {
+    "danish": "lidt",
+    "german": "ein bisschen",
+    "english": "a little",
+    "tier": 1
+  },
+  "adverbs.hardly": {
+    "danish": "knap",
+    "german": "kaum",
+    "english": "hardly",
+    "tier": 3
+  },
+  "adverbs.approximately": {
+    "danish": "omkring",
+    "german": "ungefähr",
+    "english": "approximately",
+    "tier": 2
+  },
+  "adverbs.exactly": {
+    "danish": "præcis",
+    "german": "genau",
+    "english": "exactly",
+    "tier": 2
+  },
+  "adverbs.entirely": {
+    "danish": "helt",
+    "german": "ganz",
+    "english": "entirely",
+    "tier": 1
+  },
+  "adverbs.totally": {
+    "danish": "fuldstændig",
+    "german": "völlig",
+    "english": "totally",
+    "tier": 3
+  },
+  "adverbs.not-at-all": {
+    "danish": "slet ikke",
+    "german": "gar nicht",
+    "english": "not at all",
+    "tier": 2
+  },
+  "adverbs.together": {
+    "danish": "sammen",
+    "german": "zusammen",
+    "english": "together",
+    "tier": 1
+  },
+  "adverbs.immediately": {
+    "danish": "straks",
+    "german": "sofort",
+    "english": "immediately",
+    "tier": 1
+  },
+  "adverbs.soon": {
+    "danish": "snart",
+    "german": "bald",
+    "english": "soon",
+    "tier": 1
+  },
+  "adverbs.later": {
+    "danish": "senere",
+    "german": "später",
+    "english": "later",
+    "tier": 1
+  },
+  "adverbs.formerly": {
+    "danish": "tidligere",
+    "german": "früher",
+    "english": "formerly",
+    "tier": 2
+  },
+  "adverbs.beforehand": {
+    "danish": "før",
+    "german": "vorher",
+    "english": "beforehand",
+    "tier": 2
+  },
+  "adverbs.afterwards": {
+    "danish": "bagefter",
+    "german": "nachher",
+    "english": "afterwards",
+    "tier": 2
+  },
+  "adverbs.after-that": {
+    "danish": "derefter",
+    "german": "danach",
+    "english": "after that",
+    "tier": 2
+  },
+  "adverbs.then": {
+    "danish": "så",
+    "german": "dann",
+    "english": "then",
+    "tier": 1
+  },
+  "adverbs.at-first": {
+    "danish": "først",
+    "german": "zuerst",
+    "english": "at first",
+    "tier": 1
+  },
+  "adverbs.lastly": {
+    "danish": "til sidst",
+    "german": "zuletzt",
+    "english": "lastly",
+    "tier": 2
+  },
+  "adverbs.finally": {
+    "danish": "endelig",
+    "german": "endlich",
+    "english": "finally",
+    "tier": 2
+  },
+  "adverbs.again": {
+    "danish": "igen",
+    "german": "wieder",
+    "english": "again",
+    "tier": 1
+  },
+  "adverbs.once-more": {
+    "danish": "endnu en gang",
+    "german": "noch einmal",
+    "english": "once more",
+    "tier": 2
+  },
+  "adverbs.every-time": {
+    "danish": "hver gang",
+    "german": "jedes Mal",
+    "english": "every time",
+    "tier": 2
+  },
+  "adverbs.not-yet": {
+    "danish": "endnu ikke",
+    "german": "noch nicht",
+    "english": "not yet",
+    "tier": 1
+  },
+  "adverbs.no-longer": {
+    "danish": "ikke længere",
+    "german": "nicht mehr",
+    "english": "no longer",
+    "tier": 2
+  },
+  "adverbs.once": {
+    "danish": "en gang",
+    "german": "einmal",
+    "english": "once",
+    "tier": 1
+  },
+  "adverbs.twice": {
+    "danish": "to gange",
+    "german": "zweimal",
+    "english": "twice",
+    "tier": 2
+  },
+  "adverbs.three-times": {
+    "danish": "tre gange",
+    "german": "dreimal",
+    "english": "three times",
+    "tier": 3
+  },
+  "adverbs.several-times": {
+    "danish": "flere gange",
+    "german": "mehrmals",
+    "english": "several times",
+    "tier": 3
+  },
+  "adverbs.past": {
+    "danish": "forbi",
+    "german": "vorbei",
+    "english": "past",
+    "tier": 2
+  },
+  "adverbs.thus": {
+    "danish": "altså",
+    "german": "also",
+    "english": "thus",
+    "tier": 2
+  },
+  "adverbs.therefore": {
+    "danish": "derfor",
+    "german": "deshalb",
+    "english": "therefore",
+    "tier": 2
+  },
+  "adverbs.nevertheless": {
+    "danish": "alligevel",
+    "german": "trotzdem",
+    "english": "nevertheless",
+    "tier": 2
+  },
+  "adverbs.besides": {
+    "danish": "desuden",
+    "german": "außerdem",
+    "english": "besides",
+    "tier": 2
+  },
+  "adverbs.actually": {
+    "danish": "egentlig",
+    "german": "eigentlich",
+    "english": "actually",
+    "tier": 2
+  },
+  "adverbs.in-fact": {
+    "danish": "faktisk",
+    "german": "tatsächlich",
+    "english": "in fact",
+    "tier": 3
+  },
+  "adverbs.likewise": {
+    "danish": "ligeledes",
+    "german": "ebenfalls",
+    "english": "likewise",
+    "tier": 3
+  },
+  "adverbs.otherwise": {
+    "danish": "ellers",
+    "german": "sonst",
+    "english": "otherwise",
+    "tier": 2
+  },
+  "adverbs.just-as": {
+    "danish": "lige så",
+    "german": "genauso",
+    "english": "just as",
+    "tier": 2
+  },
+  "adverbs.at-least": {
+    "danish": "mindst",
+    "german": "mindestens",
+    "english": "at least",
+    "tier": 3
+  },
+  "adverbs.at-most": {
+    "danish": "højst",
+    "german": "höchstens",
+    "english": "at most",
+    "tier": 3
+  },
+  "adverbs.recently": {
+    "danish": "forleden",
+    "german": "neulich",
+    "english": "recently",
+    "tier": 3
+  },
+  "adverbs.a-moment-ago": {
+    "danish": "for lidt siden",
+    "german": "vorhin",
+    "english": "a moment ago",
+    "tier": 3
+  },
+  "adverbs.meanwhile": {
+    "danish": "imens",
+    "german": "inzwischen",
+    "english": "meanwhile",
+    "tier": 3
+  },
+  "adverbs.since-then": {
+    "danish": "siden da",
+    "german": "seitdem",
+    "english": "since then",
+    "tier": 3
+  },
+  "adverbs.constantly": {
+    "danish": "hele tiden",
+    "german": "ständig",
+    "english": "constantly",
+    "tier": 3
+  },
+  "adverbs.in-vain": {
+    "danish": "forgæves",
+    "german": "umsonst",
+    "english": "in vain",
+    "tier": 3
+  },
+  "adverbs.on-purpose": {
+    "danish": "med vilje",
+    "german": "absichtlich",
+    "english": "on purpose",
+    "tier": 3
+  },
+  "adverbs.probably": {
+    "danish": "vel",
+    "german": "wohl",
+    "english": "probably",
+    "tier": 3
+  },
+  "adverbs.out": {
+    "danish": "ud",
+    "german": "hinaus",
+    "english": "out",
+    "tier": 3
+  },
+  "adverbs.downwards": {
+    "danish": "nedad",
+    "german": "nach unten",
+    "english": "downwards",
+    "tier": 2
+  },
+  "adverbs.backwards": {
+    "danish": "baglæns",
+    "german": "rückwärts",
+    "english": "backwards",
+    "tier": 3
+  },
+  "adverbs.forwards": {
+    "danish": "fremad",
+    "german": "vorwärts",
+    "english": "forwards",
+    "tier": 3
+  },
+  "adverbs.somehow": {
+    "danish": "på en eller anden måde",
+    "german": "irgendwie",
+    "english": "somehow",
+    "tier": 3
+  },
+  "adverbs.ever": {
+    "danish": "nogensinde",
+    "german": "jemals",
+    "english": "ever",
+    "tier": 2
+  },
+  "adverbs.again-and-again": {
+    "danish": "igen og igen",
+    "german": "immer wieder",
+    "english": "again and again",
+    "tier": 3
+  },
+  "adverbs.too-much": {
+    "danish": "for meget",
+    "german": "zu viel",
+    "english": "too much",
+    "tier": 2
+  },
+  "adverbs.too-little": {
+    "danish": "for lidt",
+    "german": "zu wenig",
+    "english": "too little",
+    "tier": 2
+  },
+  "adverbs.at-home": {
+    "danish": "hjemme",
+    "german": "zu Hause",
+    "english": "at home",
+    "tier": 1
+  },
+  "adverbs.homewards": {
+    "danish": "hjem",
+    "german": "nach Hause",
+    "english": "homewards",
+    "tier": 1
+  },
+  "adverbs.elsewhere": {
+    "danish": "et andet sted",
+    "german": "woanders",
+    "english": "elsewhere",
+    "tier": 3
+  },
+  "adverbs.on-the-way": {
+    "danish": "undervejs",
+    "german": "unterwegs",
+    "english": "on the way",
+    "tier": 2
+  },
+  "adverbs.side-by-side": {
+    "danish": "ved siden af hinanden",
+    "german": "nebeneinander",
+    "english": "side by side",
+    "tier": 3
+  },
+  "adverbs.on-the-inside": {
+    "danish": "indvendig",
+    "german": "innen",
+    "english": "on the inside",
+    "tier": 3
+  },
+  "adverbs.at-some-point": {
+    "danish": "en eller anden gang",
+    "german": "irgendwann",
+    "english": "at some point",
+    "tier": 3
+  },
+  "adverbs.at-any-time": {
+    "danish": "når som helst",
+    "german": "jederzeit",
+    "english": "at any time",
+    "tier": 3
+  },
+  "adverbs.presumably": {
+    "danish": "formodentlig",
+    "german": "vermutlich",
+    "english": "presumably",
+    "tier": 3
+  },
+  "adverbs.apparently": {
+    "danish": "åbenbart",
+    "german": "offenbar",
+    "english": "apparently",
+    "tier": 3
+  },
+  "adverbs.surely": {
+    "danish": "sikkert",
+    "german": "sicherlich",
+    "english": "surely",
+    "tier": 2
+  },
+  "adverbs.now-and-then": {
+    "danish": "af og til",
+    "german": "ab und zu",
+    "english": "now and then",
+    "tier": 2
+  },
+  "adverbs.for-example": {
+    "danish": "for eksempel",
+    "german": "zum Beispiel",
+    "english": "for example",
+    "tier": 2
+  },
+  "adverbs.vice-versa": {
+    "danish": "omvendt",
+    "german": "umgekehrt",
+    "english": "vice versa",
+    "tier": 3
+  },
+  "adverbs.in-any-case": {
+    "danish": "i hvert fald",
+    "german": "jedenfalls",
+    "english": "in any case",
+    "tier": 3
+  },
+  "adverbs.by-the-way": {
+    "danish": "i øvrigt",
+    "german": "übrigens",
+    "english": "by the way",
+    "tier": 3
+  },
+  "adverbs.at-the-same-time": {
+    "danish": "samtidig",
+    "german": "gleichzeitig",
+    "english": "at the same time",
+    "tier": 3
+  },
+  "adverbs.in-time": {
+    "danish": "i tide",
+    "german": "rechtzeitig",
+    "english": "in time",
+    "tier": 3
+  },
+  "adverbs.mainly": {
+    "danish": "hovedsageligt",
+    "german": "hauptsächlich",
+    "english": "mainly",
+    "tier": 3
+  },
+  "adverbs.partly": {
+    "danish": "delvist",
+    "german": "teilweise",
+    "english": "partly",
+    "tier": 3
+  },
+  "adverbs.extremely": {
+    "danish": "ekstremt",
+    "german": "extrem",
+    "english": "extremely",
+    "tier": 3
+  },
+  "adverbs.relatively": {
+    "danish": "relativt",
+    "german": "relativ",
+    "english": "relatively",
+    "tier": 3
+  },
+  "adverbs.back-then": {
+    "danish": "dengang",
+    "german": "damals",
+    "english": "back then",
+    "tier": 2
+  },
+  "adverbs.nowadays": {
+    "danish": "nu om dage",
+    "german": "heutzutage",
+    "english": "nowadays",
+    "tier": 3
+  },
+  "adverbs.so-far": {
+    "danish": "hidtil",
+    "german": "bisher",
+    "english": "so far",
+    "tier": 3
+  }
+}

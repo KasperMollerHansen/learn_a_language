@@ -23,16 +23,16 @@ and offline caching to work; opening `index.html` directly is only suitable for 
 ## First levels
 
 ### Chapter 1 - The basic
-- **1-1 People:** 30 words about family, friends, and everyday people.
-- **1-2 Tilægsord:** 30 adjectives for describing people and things.
-- **1-3 Forholdsord:** 30 common prepositions and place relationships.
-- **1-4 People with articles:** 30 people nouns practiced with German definite and indefinite forms.
-- **1-5 Animals:** 30 familiar animal names.
+- **1-1 People:** family, friends, jobs and everyday people.
+- **1-2 Tilægsord:** adjectives for describing people and things.
+- **1-3 Forholdsord:** common prepositions and place relationships.
+- **1-4 People with articles:** people nouns practiced with German definite and indefinite forms.
+- **1-5 Animals:** familiar animal names.
 - **1-6 Words that look alike:** Danish-German cognates and near-cognates, with attention to spelling changes.
 
 ### Chapter 2 - Verbs and sentences
 - **2-1 Modalverber:** sentence patterns for *können, müssen, wollen, dürfen, sollen,* and *mögen* across five subjects.
-- **2-2 Common verbs:** 30 useful infinitives that can follow modal verbs.
+- **2-2 Common verbs:** useful infinitives that can follow modal verbs.
 - **2-3 Everyday things:** household, meal, and technology vocabulary.
 
 - Catch all 30 words before the clock runs out. The Danish prompt sits ahead of the stationary
@@ -58,9 +58,11 @@ earlier version is copied into both difficulties the first time the new version 
 ## Game data
 
 Vocabulary lives in [`src/wordbank/`](src/wordbank) (one file per category plus `grammar.json`) and level lists in [`src/levels/`](src/levels) (one file per chapter), separate from the game code. Each folder has an `index.json` listing its files.
-Each lesson curates 30 stable, category-prefixed word IDs from the shared vocabulary map; entries
-may be words or practice sentences. This keeps a large vocabulary inventory reusable across short,
-focused lessons instead of duplicating translations. Noun entries contain German gender and Danish
+Every entry carries an `english` gloss as well as the Danish and German, and every word a difficulty `tier` (1 basic, 2 common, 3 harder). A level does not list words:
+it names `categories` (the word ID prefix, e.g. `people`) and optionally `tiers`, and its pool is
+every matching word. A run deals 30 questions from that pool, reshuffling when the pool is smaller,
+so growing the word bank grows the levels without editing them. Entries may be words or practice
+sentences. Noun entries contain German gender and Danish
 article forms. The word bank also stores German article declensions and genitive noun forms.
 Pacing and scoring live in
 [`config.json`](src/config.json), so you can tune the round duration, speed multiplier, penalties, and

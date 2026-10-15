@@ -1,0 +1,368 @@
+{
+  "money.bank-account": {
+    "danish": "bankkonto",
+    "german": "Konto",
+    "english": "bank account",
+    "gender": "das",
+    "danishDefinite": "bankkontoen",
+    "danishIndefinite": "en bankkonto",
+    "tier": 2
+  },
+  "money.account-number": {
+    "danish": "kontonummer",
+    "german": "Kontonummer",
+    "english": "account number",
+    "gender": "die",
+    "danishDefinite": "kontonummeret",
+    "danishIndefinite": "et kontonummer",
+    "tier": 3
+  },
+  "money.pin-code": {
+    "danish": "pinkode",
+    "german": "PIN",
+    "english": "PIN code",
+    "gender": "die",
+    "danishDefinite": "pinkoden",
+    "danishIndefinite": "en pinkode",
+    "tier": 3
+  },
+  "money.expense": {
+    "danish": "udgift",
+    "german": "Ausgabe",
+    "english": "expense",
+    "gender": "die",
+    "danishDefinite": "udgiften",
+    "danishIndefinite": "en udgift",
+    "tier": 3
+  },
+  "money.revenue": {
+    "danish": "indtægt",
+    "german": "Einnahme",
+    "english": "revenue",
+    "gender": "die",
+    "danishDefinite": "indtægten",
+    "danishIndefinite": "en indtægt",
+    "tier": 3
+  },
+  "money.income": {
+    "danish": "indkomst",
+    "german": "Einkommen",
+    "english": "income",
+    "gender": "das",
+    "danishDefinite": "indkomsten",
+    "danishIndefinite": "en indkomst",
+    "tier": 2
+  },
+  "money.profit": {
+    "danish": "fortjeneste",
+    "german": "Gewinn",
+    "english": "profit",
+    "gender": "der",
+    "danishDefinite": "fortjenesten",
+    "danishIndefinite": "en fortjeneste",
+    "tier": 2
+  },
+  "money.loss": {
+    "danish": "tab",
+    "german": "Verlust",
+    "english": "loss",
+    "gender": "der",
+    "danishDefinite": "tabet",
+    "danishIndefinite": "et tab",
+    "tier": 2
+  },
+  "money.loan": {
+    "danish": "lån",
+    "german": "Kredit",
+    "english": "loan",
+    "gender": "der",
+    "danishDefinite": "lånet",
+    "danishIndefinite": "et lån",
+    "tier": 2
+  },
+  "money.interest": {
+    "danish": "rente",
+    "german": "Zins",
+    "english": "interest",
+    "gender": "der",
+    "danishDefinite": "renten",
+    "danishIndefinite": "en rente",
+    "tier": 2
+  },
+  "money.budget": {
+    "danish": "budget",
+    "german": "Budget",
+    "english": "budget",
+    "gender": "das",
+    "danishDefinite": "budgettet",
+    "danishIndefinite": "et budget",
+    "tier": 2
+  },
+  "money.income-tax": {
+    "danish": "indkomstskat",
+    "german": "Einkommensteuer",
+    "english": "income tax",
+    "gender": "die",
+    "danishDefinite": "indkomstskatten",
+    "danishIndefinite": "en indkomstskat",
+    "tier": 3
+  },
+  "money.till-receipt": {
+    "danish": "kassebon",
+    "german": "Kassenbon",
+    "english": "till receipt",
+    "gender": "der",
+    "danishDefinite": "kassebonnen",
+    "danishIndefinite": "en kassebon",
+    "tier": 2
+  },
+  "money.bank-transfer": {
+    "danish": "overførsel",
+    "german": "Überweisung",
+    "english": "bank transfer",
+    "gender": "die",
+    "danishDefinite": "overførslen",
+    "danishIndefinite": "en overførsel",
+    "tier": 2
+  },
+  "money.deposit": {
+    "danish": "depositum",
+    "german": "Kaution",
+    "english": "deposit",
+    "gender": "die",
+    "danishDefinite": "depositummet",
+    "danishIndefinite": "et depositum",
+    "tier": 2
+  },
+  "money.fee": {
+    "danish": "gebyr",
+    "german": "Gebühr",
+    "english": "fee",
+    "gender": "die",
+    "danishDefinite": "gebyret",
+    "danishIndefinite": "et gebyr",
+    "tier": 2
+  },
+  "money.insurance": {
+    "danish": "forsikring",
+    "german": "Versicherung",
+    "english": "insurance",
+    "gender": "die",
+    "danishDefinite": "forsikringen",
+    "danishIndefinite": "en forsikring",
+    "tier": 2
+  },
+  "money.share": {
+    "danish": "aktie",
+    "german": "Aktie",
+    "english": "share",
+    "gender": "die",
+    "danishDefinite": "aktien",
+    "danishIndefinite": "en aktie",
+    "tier": 2
+  },
+  "money.stock-exchange": {
+    "danish": "børs",
+    "german": "Börse",
+    "english": "stock exchange",
+    "gender": "die",
+    "danishDefinite": "børsen",
+    "danishIndefinite": "en børs",
+    "tier": 3
+  },
+  "money.investment": {
+    "danish": "investering",
+    "german": "Investition",
+    "english": "investment",
+    "gender": "die",
+    "danishDefinite": "investeringen",
+    "danishIndefinite": "en investering",
+    "tier": 3
+  },
+  "money.investor": {
+    "danish": "investor",
+    "german": "Investor",
+    "english": "investor",
+    "gender": "der",
+    "danishDefinite": "investoren",
+    "danishIndefinite": "en investor",
+    "tier": 3
+  },
+  "money.economy": {
+    "danish": "økonomi",
+    "german": "Wirtschaft",
+    "english": "economy",
+    "gender": "die",
+    "danishDefinite": "økonomien",
+    "danishIndefinite": "en økonomi",
+    "tier": 2
+  },
+  "money.crisis": {
+    "danish": "krise",
+    "german": "Krise",
+    "english": "crisis",
+    "gender": "die",
+    "danishDefinite": "krisen",
+    "danishIndefinite": "en krise",
+    "tier": 2
+  },
+  "money.inflation": {
+    "danish": "inflation",
+    "german": "Inflation",
+    "english": "inflation",
+    "gender": "die",
+    "danishDefinite": "inflationen",
+    "danishIndefinite": "en inflation",
+    "tier": 3
+  },
+  "money.euro": {
+    "danish": "euro",
+    "german": "Euro",
+    "english": "euro",
+    "gender": "der",
+    "danishDefinite": "euroen",
+    "danishIndefinite": "en euro",
+    "tier": 1
+  },
+  "money.exchange-rate": {
+    "danish": "valutakurs",
+    "german": "Wechselkurs",
+    "english": "exchange rate",
+    "gender": "der",
+    "danishDefinite": "valutakursen",
+    "danishIndefinite": "en valutakurs",
+    "tier": 3
+  },
+  "money.wealth": {
+    "danish": "rigdom",
+    "german": "Reichtum",
+    "english": "wealth",
+    "gender": "der",
+    "danishDefinite": "rigdommen",
+    "danishIndefinite": "en rigdom",
+    "tier": 3
+  },
+  "money.poverty": {
+    "danish": "fattigdom",
+    "german": "Armut",
+    "english": "poverty",
+    "gender": "die",
+    "danishDefinite": "fattigdommen",
+    "danishIndefinite": "en fattigdom",
+    "tier": 3
+  },
+  "money.bankruptcy": {
+    "danish": "konkurs",
+    "german": "Insolvenz",
+    "english": "bankruptcy",
+    "gender": "die",
+    "danishDefinite": "konkursen",
+    "danishIndefinite": "en konkurs",
+    "tier": 3
+  },
+  "money.price-tag": {
+    "danish": "prisskilt",
+    "german": "Preisschild",
+    "english": "price tag",
+    "gender": "das",
+    "danishDefinite": "prisskiltet",
+    "danishIndefinite": "et prisskilt",
+    "tier": 3
+  },
+  "money.bargain": {
+    "danish": "godt køb",
+    "german": "Schnäppchen",
+    "english": "bargain",
+    "gender": "das",
+    "danishDefinite": "det gode køb",
+    "danishIndefinite": "et godt køb",
+    "tier": 3
+  },
+  "money.cheque": {
+    "danish": "check",
+    "german": "Scheck",
+    "english": "cheque",
+    "gender": "der",
+    "danishDefinite": "checken",
+    "danishIndefinite": "en check",
+    "tier": 3
+  },
+  "money.mortgage": {
+    "danish": "boliglån",
+    "german": "Hypothek",
+    "english": "mortgage",
+    "gender": "die",
+    "danishDefinite": "boliglånet",
+    "danishIndefinite": "et boliglån",
+    "tier": 3
+  },
+  "money.millionaire": {
+    "danish": "millionær",
+    "german": "Millionär",
+    "english": "millionaire",
+    "gender": "der",
+    "danishDefinite": "millionæren",
+    "danishIndefinite": "en millionær",
+    "tier": 3
+  },
+  "money.capital": {
+    "danish": "kapital",
+    "german": "Kapital",
+    "english": "capital",
+    "gender": "das",
+    "danishDefinite": "kapitalen",
+    "danishIndefinite": "en kapital",
+    "tier": 3
+  },
+  "money.turnover": {
+    "danish": "omsætning",
+    "german": "Umsatz",
+    "english": "turnover",
+    "gender": "der",
+    "danishDefinite": "omsætningen",
+    "danishIndefinite": "en omsætning",
+    "tier": 2
+  },
+  "money.account-balance": {
+    "danish": "saldo",
+    "german": "Kontostand",
+    "english": "account balance",
+    "gender": "der",
+    "danishDefinite": "saldoen",
+    "danishIndefinite": "en saldo",
+    "tier": 3
+  },
+  "money.subsidy": {
+    "danish": "tilskud",
+    "german": "Zuschuss",
+    "english": "subsidy",
+    "gender": "der",
+    "danishDefinite": "tilskuddet",
+    "danishIndefinite": "et tilskud",
+    "tier": 3
+  },
+  "money.pay": {
+    "danish": "at betale",
+    "german": "zahlen",
+    "english": "to pay",
+    "tier": 1
+  },
+  "money.owe": {
+    "danish": "at skylde",
+    "german": "schulden",
+    "english": "to owe",
+    "tier": 3
+  },
+  "money.withdraw-money": {
+    "danish": "at hæve",
+    "german": "abheben",
+    "english": "to withdraw money",
+    "tier": 2
+  },
+  "money.afford": {
+    "danish": "at have råd til",
+    "german": "sich leisten",
+    "english": "to afford",
+    "tier": 3
+  }
+}

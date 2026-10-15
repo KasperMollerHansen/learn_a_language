@@ -1,0 +1,875 @@
+{
+  "life.engaged": {
+    "danish": "forlovet",
+    "german": "verlobt",
+    "english": "engaged",
+    "tier": 2
+  },
+  "life.of-age": {
+    "danish": "myndig",
+    "german": "volljährig",
+    "english": "of age",
+    "tier": 3
+  },
+  "life.underage": {
+    "danish": "mindreårig",
+    "german": "minderjährig",
+    "english": "underage",
+    "tier": 3
+  },
+  "life.deceased": {
+    "danish": "afdød",
+    "german": "verstorben",
+    "english": "deceased",
+    "tier": 3
+  },
+  "life.born": {
+    "danish": "født",
+    "german": "geboren",
+    "english": "born",
+    "tier": 1
+  },
+  "life.split-up": {
+    "danish": "at gå fra hinanden",
+    "german": "sich trennen",
+    "english": "to split up",
+    "tier": 2
+  },
+  "life.inherit": {
+    "danish": "at arve",
+    "german": "erben",
+    "english": "to inherit",
+    "tier": 3
+  },
+  "life.mourn": {
+    "danish": "at sørge",
+    "german": "trauern",
+    "english": "to mourn",
+    "tier": 3
+  },
+  "life.hug": {
+    "danish": "at omfavne",
+    "german": "umarmen",
+    "english": "to hug",
+    "tier": 2
+  },
+  "life.move-in-together": {
+    "danish": "at flytte sammen",
+    "german": "zusammenziehen",
+    "english": "to move in together",
+    "tier": 3
+  },
+  "life.grow-old": {
+    "danish": "at ældes",
+    "german": "altern",
+    "english": "to grow old",
+    "tier": 3
+  },
+  "life.childhood": {
+    "danish": "barndom",
+    "german": "Kindheit",
+    "english": "childhood",
+    "gender": "die",
+    "danishDefinite": "barndommen",
+    "danishIndefinite": "en barndom",
+    "tier": 2
+  },
+  "life.age": {
+    "danish": "alder",
+    "german": "Alter",
+    "english": "age",
+    "gender": "das",
+    "danishDefinite": "alderen",
+    "danishIndefinite": "en alder",
+    "tier": 2
+  },
+  "life.death": {
+    "danish": "død",
+    "german": "Tod",
+    "english": "death",
+    "gender": "der",
+    "danishDefinite": "døden",
+    "danishIndefinite": "en død",
+    "tier": 2
+  },
+  "life.confirmation": {
+    "danish": "konfirmation",
+    "german": "Konfirmation",
+    "english": "confirmation",
+    "gender": "die",
+    "danishDefinite": "konfirmationen",
+    "danishIndefinite": "en konfirmation",
+    "tier": 3
+  },
+  "life.engagement": {
+    "danish": "forlovelse",
+    "german": "Verlobung",
+    "english": "engagement",
+    "gender": "die",
+    "danishDefinite": "forlovelsen",
+    "danishIndefinite": "en forlovelse",
+    "tier": 3
+  },
+  "life.married-couple": {
+    "danish": "ægtepar",
+    "german": "Ehepaar",
+    "english": "married couple",
+    "gender": "das",
+    "danishDefinite": "ægteparret",
+    "danishIndefinite": "et ægtepar",
+    "tier": 2
+  },
+  "life.relationship": {
+    "danish": "forhold",
+    "german": "Beziehung",
+    "english": "relationship",
+    "gender": "die",
+    "danishDefinite": "forholdet",
+    "danishIndefinite": "et forhold",
+    "tier": 2
+  },
+  "life.retirement": {
+    "danish": "pensionering",
+    "german": "Ruhestand",
+    "english": "retirement",
+    "gender": "der",
+    "danishDefinite": "pensioneringen",
+    "danishIndefinite": "en pensionering",
+    "tier": 3
+  },
+  "life.inheritance": {
+    "danish": "arv",
+    "german": "Erbe",
+    "english": "inheritance",
+    "gender": "das",
+    "danishDefinite": "arven",
+    "danishIndefinite": "en arv",
+    "tier": 3
+  },
+  "life.will": {
+    "danish": "testamente",
+    "german": "Testament",
+    "english": "will",
+    "gender": "das",
+    "danishDefinite": "testamentet",
+    "danishIndefinite": "et testamente",
+    "tier": 3
+  },
+  "life.school-leaving-exam": {
+    "danish": "studentereksamen",
+    "german": "Abitur",
+    "english": "school-leaving exam",
+    "gender": "das",
+    "danishDefinite": "studentereksamenen",
+    "danishIndefinite": "en studentereksamen",
+    "tier": 3
+  },
+  "life.start-of-school": {
+    "danish": "skolestart",
+    "german": "Einschulung",
+    "english": "start of school",
+    "gender": "die",
+    "danishDefinite": "skolestarten",
+    "danishIndefinite": "en skolestart",
+    "tier": 3
+  },
+  "life.wedding-anniversary": {
+    "danish": "bryllupsdag",
+    "german": "Hochzeitstag",
+    "english": "wedding anniversary",
+    "gender": "der",
+    "danishDefinite": "bryllupsdagen",
+    "danishIndefinite": "en bryllupsdag",
+    "tier": 3
+  },
+  "life.honeymoon": {
+    "danish": "bryllupsrejse",
+    "german": "Hochzeitsreise",
+    "english": "honeymoon",
+    "gender": "die",
+    "danishDefinite": "bryllupsrejsen",
+    "danishIndefinite": "en bryllupsrejse",
+    "tier": 3
+  },
+  "life.best-man": {
+    "danish": "forlover",
+    "german": "Trauzeuge",
+    "english": "best man",
+    "gender": "der",
+    "danishDefinite": "forloveren",
+    "danishIndefinite": "en forlover",
+    "tier": 3
+  },
+  "life.course-of-life": {
+    "danish": "livsforløb",
+    "german": "Lebenslauf",
+    "english": "course of life",
+    "gender": "der",
+    "danishDefinite": "livsforløbet",
+    "danishIndefinite": "et livsforløb",
+    "tier": 3
+  },
+  "life.old-age": {
+    "danish": "alderdom",
+    "german": "Lebensabend",
+    "english": "old age",
+    "gender": "der",
+    "danishDefinite": "alderdommen",
+    "danishIndefinite": "en alderdom",
+    "tier": 3
+  },
+  "life.family-party": {
+    "danish": "familiefest",
+    "german": "Familienfeier",
+    "english": "family party",
+    "gender": "die",
+    "danishDefinite": "familiefesten",
+    "danishIndefinite": "en familiefest",
+    "tier": 2
+  },
+  "life.relatives": {
+    "danish": "slægt",
+    "german": "Verwandtschaft",
+    "english": "relatives",
+    "gender": "die",
+    "danishDefinite": "slægten",
+    "danishIndefinite": "en slægt",
+    "tier": 3
+  },
+  "life.descendant": {
+    "danish": "efterkommer",
+    "german": "Nachkomme",
+    "english": "descendant",
+    "gender": "der",
+    "danishDefinite": "efterkommeren",
+    "danishIndefinite": "en efterkommer",
+    "tier": 3
+  },
+  "life.ancestor": {
+    "danish": "forfader",
+    "german": "Vorfahr",
+    "english": "ancestor",
+    "gender": "der",
+    "danishDefinite": "forfaderen",
+    "danishIndefinite": "en forfader",
+    "tier": 3
+  },
+  "life.household": {
+    "danish": "husstand",
+    "german": "Hausstand",
+    "english": "household",
+    "gender": "der",
+    "danishDefinite": "husstanden",
+    "danishIndefinite": "en husstand",
+    "tier": 3
+  },
+  "life.youthful": {
+    "danish": "ungdommelig",
+    "german": "jugendlich",
+    "english": "youthful",
+    "tier": 3
+  },
+  "life.childless": {
+    "danish": "barnløs",
+    "german": "kinderlos",
+    "english": "childless",
+    "tier": 3
+  },
+  "life.elderly": {
+    "danish": "aldrende",
+    "german": "betagt",
+    "english": "elderly",
+    "tier": 3
+  },
+  "life.single-living": {
+    "danish": "alenestående",
+    "german": "alleinstehend",
+    "english": "single-living",
+    "tier": 3
+  },
+  "life.newly-married": {
+    "danish": "nygift",
+    "german": "frischverheiratet",
+    "english": "newly married",
+    "tier": 3
+  },
+  "life.lifelong": {
+    "danish": "livslang",
+    "german": "lebenslang",
+    "english": "lifelong",
+    "tier": 3
+  },
+  "life.mortal": {
+    "danish": "dødelig",
+    "german": "sterblich",
+    "english": "mortal",
+    "tier": 3
+  },
+  "life.immortal": {
+    "danish": "udødelig",
+    "german": "unsterblich",
+    "english": "immortal",
+    "tier": 3
+  },
+  "life.premature": {
+    "danish": "førtidig",
+    "german": "vorzeitig",
+    "english": "premature",
+    "tier": 3
+  },
+  "life.precocious": {
+    "danish": "tidligt moden",
+    "german": "frühreif",
+    "english": "precocious",
+    "tier": 3
+  },
+  "life.settle-in": {
+    "danish": "at falde til",
+    "german": "sich einleben",
+    "english": "to settle in",
+    "tier": 3
+  },
+  "life.emigrate": {
+    "danish": "at udvandre",
+    "german": "auswandern",
+    "english": "to emigrate",
+    "tier": 3
+  },
+  "life.immigrate": {
+    "danish": "at indvandre",
+    "german": "einwandern",
+    "english": "to immigrate",
+    "tier": 3
+  },
+  "life.retire": {
+    "danish": "at gå på pension",
+    "german": "in Rente gehen",
+    "english": "to retire",
+    "tier": 3
+  },
+  "life.raise": {
+    "danish": "at opfostre",
+    "german": "großziehen",
+    "english": "to raise",
+    "tier": 3
+  },
+  "life.adopt": {
+    "danish": "at adoptere",
+    "german": "adoptieren",
+    "english": "to adopt",
+    "tier": 3
+  },
+  "life.spoil": {
+    "danish": "at forkæle",
+    "german": "verwöhnen",
+    "english": "to spoil",
+    "tier": 3
+  },
+  "life.enrol": {
+    "danish": "at indskrive sig",
+    "german": "sich einschreiben",
+    "english": "to enrol",
+    "tier": 3
+  },
+  "life.give-condolences": {
+    "danish": "at kondolere",
+    "german": "kondolieren",
+    "english": "to give condolences",
+    "tier": 3
+  },
+  "life.inter": {
+    "danish": "at bisætte",
+    "german": "bestatten",
+    "english": "to inter",
+    "tier": 3
+  },
+  "life.cremate": {
+    "danish": "at kremere",
+    "german": "einäschern",
+    "english": "to cremate",
+    "tier": 3
+  },
+  "life.flirt-with": {
+    "danish": "at flirte med",
+    "german": "flirten",
+    "english": "to flirt with",
+    "tier": 2
+  },
+  "life.phase-of-life": {
+    "danish": "livsfase",
+    "german": "Lebensphase",
+    "english": "phase of life",
+    "gender": "die",
+    "danishDefinite": "livsfasen",
+    "danishIndefinite": "en livsfase",
+    "tier": 3
+  },
+  "life.school-years": {
+    "danish": "skoletid",
+    "german": "Schulzeit",
+    "english": "school years",
+    "gender": "die",
+    "danishDefinite": "skoletiden",
+    "danishIndefinite": "en skoletid",
+    "tier": 2
+  },
+  "life.student-days": {
+    "danish": "studietid",
+    "german": "Studienzeit",
+    "english": "student days",
+    "gender": "die",
+    "danishDefinite": "studietiden",
+    "danishIndefinite": "en studietid",
+    "tier": 3
+  },
+  "life.working-life": {
+    "danish": "arbejdsliv",
+    "german": "Berufsleben",
+    "english": "working life",
+    "gender": "das",
+    "danishDefinite": "arbejdslivet",
+    "danishIndefinite": "et arbejdsliv",
+    "tier": 3
+  },
+  "life.motherhood": {
+    "danish": "moderskab",
+    "german": "Mutterschaft",
+    "english": "motherhood",
+    "gender": "die",
+    "danishDefinite": "moderskabet",
+    "danishIndefinite": "et moderskab",
+    "tier": 3
+  },
+  "life.fatherhood": {
+    "danish": "faderskab",
+    "german": "Vaterschaft",
+    "english": "fatherhood",
+    "gender": "die",
+    "danishDefinite": "faderskabet",
+    "danishIndefinite": "et faderskab",
+    "tier": 3
+  },
+  "life.desire-for-children": {
+    "danish": "børneønske",
+    "german": "Kinderwunsch",
+    "english": "desire for children",
+    "gender": "der",
+    "danishDefinite": "børneønsket",
+    "danishIndefinite": "et børneønske",
+    "tier": 3
+  },
+  "life.adoption": {
+    "danish": "adoption",
+    "german": "Adoption",
+    "english": "adoption",
+    "gender": "die",
+    "danishDefinite": "adoptionen",
+    "danishIndefinite": "en adoption",
+    "tier": 3
+  },
+  "life.foster-family": {
+    "danish": "plejefamilie",
+    "german": "Pflegefamilie",
+    "english": "foster family",
+    "gender": "die",
+    "danishDefinite": "plejefamilien",
+    "danishIndefinite": "en plejefamilie",
+    "tier": 3
+  },
+  "life.son-in-law": {
+    "danish": "svigersøn",
+    "german": "Schwiegersohn",
+    "english": "son-in-law",
+    "gender": "der",
+    "danishDefinite": "svigersønnen",
+    "danishIndefinite": "en svigersøn",
+    "tier": 3
+  },
+  "life.daughter-in-law": {
+    "danish": "svigerdatter",
+    "german": "Schwiegertochter",
+    "english": "daughter-in-law",
+    "gender": "die",
+    "danishDefinite": "svigerdatteren",
+    "danishIndefinite": "en svigerdatter",
+    "tier": 3
+  },
+  "life.great-grandmother": {
+    "danish": "oldemor",
+    "german": "Urgroßmutter",
+    "english": "great-grandmother",
+    "gender": "die",
+    "danishDefinite": "oldemoren",
+    "danishIndefinite": "en oldemor",
+    "tier": 3
+  },
+  "life.great-grandfather": {
+    "danish": "oldefar",
+    "german": "Urgroßvater",
+    "english": "great-grandfather",
+    "gender": "der",
+    "danishDefinite": "oldefaren",
+    "danishIndefinite": "en oldefar",
+    "tier": 3
+  },
+  "life.half-brother": {
+    "danish": "halvbror",
+    "german": "Halbbruder",
+    "english": "half-brother",
+    "gender": "der",
+    "danishDefinite": "halvbroren",
+    "danishIndefinite": "en halvbror",
+    "tier": 3
+  },
+  "life.half-sister": {
+    "danish": "halvsøster",
+    "german": "Halbschwester",
+    "english": "half-sister",
+    "gender": "die",
+    "danishDefinite": "halvsøsteren",
+    "danishIndefinite": "en halvsøster",
+    "tier": 3
+  },
+  "life.relative": {
+    "danish": "slægtning",
+    "german": "Verwandte",
+    "english": "relative",
+    "gender": "der",
+    "danishDefinite": "slægtningen",
+    "danishIndefinite": "en slægtning",
+    "tier": 2
+  },
+  "life.marital-status": {
+    "danish": "civilstand",
+    "german": "Familienstand",
+    "english": "marital status",
+    "gender": "der",
+    "danishDefinite": "civilstanden",
+    "danishIndefinite": "en civilstand",
+    "tier": 3
+  },
+  "life.date-of-birth": {
+    "danish": "fødselsdato",
+    "german": "Geburtsdatum",
+    "english": "date of birth",
+    "gender": "das",
+    "danishDefinite": "fødselsdatoen",
+    "danishIndefinite": "en fødselsdato",
+    "tier": 2
+  },
+  "life.place-of-birth": {
+    "danish": "fødested",
+    "german": "Geburtsort",
+    "english": "place of birth",
+    "gender": "der",
+    "danishDefinite": "fødestedet",
+    "danishIndefinite": "et fødested",
+    "tier": 2
+  },
+  "life.birth-certificate": {
+    "danish": "fødselsattest",
+    "german": "Geburtsurkunde",
+    "english": "birth certificate",
+    "gender": "die",
+    "danishDefinite": "fødselsattesten",
+    "danishIndefinite": "en fødselsattest",
+    "tier": 3
+  },
+  "life.marriage-proposal": {
+    "danish": "frieri",
+    "german": "Heiratsantrag",
+    "english": "marriage proposal",
+    "gender": "der",
+    "danishDefinite": "frieriet",
+    "danishIndefinite": "et frieri",
+    "tier": 3
+  },
+  "life.wedding-ring": {
+    "danish": "vielsesring",
+    "german": "Ehering",
+    "english": "wedding ring",
+    "gender": "der",
+    "danishDefinite": "vielsesringen",
+    "danishIndefinite": "en vielsesring",
+    "tier": 2
+  },
+  "life.wedding-ceremony": {
+    "danish": "vielse",
+    "german": "Trauung",
+    "english": "wedding ceremony",
+    "gender": "die",
+    "danishDefinite": "vielsen",
+    "danishIndefinite": "en vielse",
+    "tier": 3
+  },
+  "life.registry-office": {
+    "danish": "vielseskontor",
+    "german": "Standesamt",
+    "english": "registry office",
+    "gender": "das",
+    "danishDefinite": "vielseskontoret",
+    "danishIndefinite": "et vielseskontor",
+    "tier": 3
+  },
+  "life.bachelor": {
+    "danish": "ungkarl",
+    "german": "Junggeselle",
+    "english": "bachelor",
+    "gender": "der",
+    "danishDefinite": "ungkarlen",
+    "danishIndefinite": "en ungkarl",
+    "tier": 3
+  },
+  "life.silver-wedding": {
+    "danish": "sølvbryllup",
+    "german": "Silberhochzeit",
+    "english": "silver wedding",
+    "gender": "die",
+    "danishDefinite": "sølvbrylluppet",
+    "danishIndefinite": "et sølvbryllup",
+    "tier": 3
+  },
+  "life.golden-wedding": {
+    "danish": "guldbryllup",
+    "german": "Goldene Hochzeit",
+    "english": "golden wedding",
+    "gender": "die",
+    "danishDefinite": "guldbrylluppet",
+    "danishIndefinite": "et guldbryllup",
+    "tier": 3
+  },
+  "life.memorial-service": {
+    "danish": "mindehøjtidelighed",
+    "german": "Trauerfeier",
+    "english": "memorial service",
+    "gender": "die",
+    "danishDefinite": "mindehøjtideligheden",
+    "danishIndefinite": "en mindehøjtidelighed",
+    "tier": 3
+  },
+  "life.grave": {
+    "danish": "grav",
+    "german": "Grab",
+    "english": "grave",
+    "gender": "das",
+    "danishDefinite": "graven",
+    "danishIndefinite": "en grav",
+    "tier": 2
+  },
+  "life.gravestone": {
+    "danish": "gravsten",
+    "german": "Grabstein",
+    "english": "gravestone",
+    "gender": "der",
+    "danishDefinite": "gravstenen",
+    "danishIndefinite": "en gravsten",
+    "tier": 3
+  },
+  "life.coffin": {
+    "danish": "ligkiste",
+    "german": "Sarg",
+    "english": "coffin",
+    "gender": "der",
+    "danishDefinite": "ligkisten",
+    "danishIndefinite": "en ligkiste",
+    "tier": 3
+  },
+  "life.urn": {
+    "danish": "urne",
+    "german": "Urne",
+    "english": "urn",
+    "gender": "die",
+    "danishDefinite": "urnen",
+    "danishIndefinite": "en urne",
+    "tier": 3
+  },
+  "life.obituary": {
+    "danish": "nekrolog",
+    "german": "Nachruf",
+    "english": "obituary",
+    "gender": "der",
+    "danishDefinite": "nekrologen",
+    "danishIndefinite": "en nekrolog",
+    "tier": 3
+  },
+  "life.death-in-the-family": {
+    "danish": "dødsfald",
+    "german": "Sterbefall",
+    "english": "death in the family",
+    "gender": "der",
+    "danishDefinite": "dødsfaldet",
+    "danishIndefinite": "et dødsfald",
+    "tier": 3
+  },
+  "life.life-expectancy": {
+    "danish": "levealder",
+    "german": "Lebenserwartung",
+    "english": "life expectancy",
+    "gender": "die",
+    "danishDefinite": "levealderen",
+    "danishIndefinite": "en levealder",
+    "tier": 3
+  },
+  "life.life-insurance": {
+    "danish": "livsforsikring",
+    "german": "Lebensversicherung",
+    "english": "life insurance",
+    "gender": "die",
+    "danishDefinite": "livsforsikringen",
+    "danishIndefinite": "en livsforsikring",
+    "tier": 3
+  },
+  "life.pension-savings": {
+    "danish": "pensionsopsparing",
+    "german": "Altersvorsorge",
+    "english": "pension savings",
+    "gender": "die",
+    "danishDefinite": "pensionsopsparingen",
+    "danishIndefinite": "en pensionsopsparing",
+    "tier": 3
+  },
+  "life.retirement-age": {
+    "danish": "pensionsalder",
+    "german": "Rentenalter",
+    "english": "retirement age",
+    "gender": "das",
+    "danishDefinite": "pensionsalderen",
+    "danishIndefinite": "en pensionsalder",
+    "tier": 3
+  },
+  "life.nursing-home": {
+    "danish": "plejehjem",
+    "german": "Altenheim",
+    "english": "nursing home",
+    "gender": "das",
+    "danishDefinite": "plejehjemet",
+    "danishIndefinite": "et plejehjem",
+    "tier": 3
+  },
+  "life.midlife-crisis": {
+    "danish": "midtvejskrise",
+    "german": "Midlife-Crisis",
+    "english": "midlife crisis",
+    "gender": "die",
+    "danishDefinite": "midtvejskrisen",
+    "danishIndefinite": "en midtvejskrise",
+    "tier": 3
+  },
+  "life.menopause": {
+    "danish": "overgangsalder",
+    "german": "Wechseljahre",
+    "english": "menopause",
+    "gender": "die",
+    "danishDefinite": "overgangsalderen",
+    "danishIndefinite": "en overgangsalder",
+    "tier": 3
+  },
+  "life.puberty": {
+    "danish": "pubertet",
+    "german": "Pubertät",
+    "english": "puberty",
+    "gender": "die",
+    "danishDefinite": "puberteten",
+    "danishIndefinite": "en pubertet",
+    "tier": 3
+  },
+  "life.legal-adulthood": {
+    "danish": "myndighed",
+    "german": "Volljährigkeit",
+    "english": "legal adulthood",
+    "gender": "die",
+    "danishDefinite": "myndigheden",
+    "danishIndefinite": "en myndighed",
+    "tier": 3
+  },
+  "life.driving-test": {
+    "danish": "køreprøve",
+    "german": "Führerscheinprüfung",
+    "english": "driving test",
+    "gender": "die",
+    "danishDefinite": "køreprøven",
+    "danishIndefinite": "en køreprøve",
+    "tier": 2
+  },
+  "life.start-of-career": {
+    "danish": "jobstart",
+    "german": "Berufseinstieg",
+    "english": "start of career",
+    "gender": "der",
+    "danishDefinite": "jobstarten",
+    "danishIndefinite": "en jobstart",
+    "tier": 3
+  },
+  "life.fresh-start": {
+    "danish": "nystart",
+    "german": "Neuanfang",
+    "english": "fresh start",
+    "gender": "der",
+    "danishDefinite": "nystarten",
+    "danishIndefinite": "en nystart",
+    "tier": 3
+  },
+  "life.flat-hunting": {
+    "danish": "boligsøgning",
+    "german": "Wohnungssuche",
+    "english": "flat hunting",
+    "gender": "die",
+    "danishDefinite": "boligsøgningen",
+    "danishIndefinite": "en boligsøgning",
+    "tier": 3
+  },
+  "life.housewarming-party": {
+    "danish": "housewarming",
+    "german": "Einweihungsparty",
+    "english": "housewarming party",
+    "gender": "die",
+    "danishDefinite": "housewarmingen",
+    "danishIndefinite": "en housewarming",
+    "tier": 3
+  },
+  "life.moving-box": {
+    "danish": "flyttekasse",
+    "german": "Umzugskarton",
+    "english": "moving box",
+    "gender": "der",
+    "danishDefinite": "flyttekassen",
+    "danishIndefinite": "en flyttekasse",
+    "tier": 2
+  },
+  "life.removal-van": {
+    "danish": "flyttebil",
+    "german": "Umzugswagen",
+    "english": "removal van",
+    "gender": "der",
+    "danishDefinite": "flyttebilen",
+    "danishIndefinite": "en flyttebil",
+    "tier": 2
+  },
+  "life.milestone": {
+    "danish": "milepæl",
+    "german": "Meilenstein",
+    "english": "milestone",
+    "gender": "der",
+    "danishDefinite": "milepælen",
+    "danishIndefinite": "en milepæl",
+    "tier": 3
+  },
+  "life.fate": {
+    "danish": "skæbne",
+    "german": "Schicksal",
+    "english": "fate",
+    "gender": "das",
+    "danishDefinite": "skæbnen",
+    "danishIndefinite": "en skæbne",
+    "tier": 3
+  },
+  "life.memory-of-the-past": {
+    "danish": "erindring",
+    "german": "Erinnerung",
+    "english": "memory of the past",
+    "gender": "die",
+    "danishDefinite": "erindringen",
+    "danishIndefinite": "en erindring",
+    "tier": 2
+  }
+}

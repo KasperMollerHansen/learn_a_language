@@ -1,0 +1,155 @@
+{
+  "colors.red": {
+    "danish": "rød",
+    "german": "rot",
+    "english": "red",
+    "tier": 1
+  },
+  "colors.blue": {
+    "danish": "blå",
+    "german": "blau",
+    "english": "blue",
+    "tier": 1
+  },
+  "colors.green": {
+    "danish": "grøn",
+    "german": "grün",
+    "english": "green",
+    "tier": 1
+  },
+  "colors.yellow": {
+    "danish": "gul",
+    "german": "gelb",
+    "english": "yellow",
+    "tier": 1
+  },
+  "colors.black": {
+    "danish": "sort",
+    "german": "schwarz",
+    "english": "black",
+    "tier": 1
+  },
+  "colors.white": {
+    "danish": "hvid",
+    "german": "weiß",
+    "english": "white",
+    "tier": 1
+  },
+  "colors.grey": {
+    "danish": "grå",
+    "german": "grau",
+    "english": "grey",
+    "tier": 1
+  },
+  "colors.brown": {
+    "danish": "brun",
+    "german": "braun",
+    "english": "brown",
+    "tier": 1
+  },
+  "colors.orange": {
+    "danish": "orange",
+    "german": "orange",
+    "english": "orange",
+    "tier": 1
+  },
+  "colors.pink": {
+    "danish": "lyserød",
+    "german": "rosa",
+    "english": "pink",
+    "tier": 1
+  },
+  "colors.purple": {
+    "danish": "lilla",
+    "german": "lila",
+    "english": "purple",
+    "tier": 1
+  },
+  "colors.turquoise": {
+    "danish": "turkis",
+    "german": "türkis",
+    "english": "turquoise",
+    "tier": 2
+  },
+  "colors.beige": {
+    "danish": "beige",
+    "german": "beige",
+    "english": "beige",
+    "tier": 2
+  },
+  "colors.silver": {
+    "danish": "sølv",
+    "german": "silber",
+    "english": "silver",
+    "tier": 2
+  },
+  "colors.violet": {
+    "danish": "violet",
+    "german": "violett",
+    "english": "violet",
+    "tier": 3
+  },
+  "colors.light-blue": {
+    "danish": "lyseblå",
+    "german": "hellblau",
+    "english": "light blue",
+    "tier": 2
+  },
+  "colors.dark-blue": {
+    "danish": "mørkeblå",
+    "german": "dunkelblau",
+    "english": "dark blue",
+    "tier": 2
+  },
+  "colors.dark-green": {
+    "danish": "mørkegrøn",
+    "german": "dunkelgrün",
+    "english": "dark green",
+    "tier": 2
+  },
+  "colors.light-green": {
+    "danish": "lysegrøn",
+    "german": "hellgrün",
+    "english": "light green",
+    "tier": 3
+  },
+  "colors.navy-blue": {
+    "danish": "marineblå",
+    "german": "marineblau",
+    "english": "navy blue",
+    "tier": 3
+  },
+  "colors.blond": {
+    "danish": "blond",
+    "german": "blond",
+    "english": "blond",
+    "tier": 2
+  },
+  "colors.pale": {
+    "danish": "bleg",
+    "german": "bleich",
+    "english": "pale",
+    "tier": 3
+  },
+  "colors.colourless": {
+    "danish": "farveløs",
+    "german": "farblos",
+    "english": "colourless",
+    "tier": 3
+  },
+  "colors.multicoloured": {
+    "danish": "broget",
+    "german": "bunt",
+    "english": "multicoloured",
+    "tier": 3
+  },
+  "colors.colour": {
+    "danish": "farve",
+    "german": "Farbe",
+    "english": "colour",
+    "gender": "die",
+    "danishDefinite": "farven",
+    "danishIndefinite": "en farve",
+    "tier": 1
+  }
+}

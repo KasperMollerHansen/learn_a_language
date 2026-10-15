@@ -1,37 +1,803 @@
 {
   "music.note": {
-    "danish": "note",
+    "danish": "node",
     "german": "Note",
+    "english": "note",
     "gender": "die",
-    "danishDefinite": "noten",
-    "danishIndefinite": "en note"
+    "danishDefinite": "noden",
+    "danishIndefinite": "en node",
+    "tier": 2
   },
   "music.piano": {
     "danish": "klaver",
     "german": "Klavier",
+    "english": "piano",
     "gender": "das",
     "danishDefinite": "klaveret",
-    "danishIndefinite": "et klaver"
+    "danishIndefinite": "et klaver",
+    "tier": 1
   },
   "music.violin": {
     "danish": "violin",
     "german": "Violine",
+    "english": "violin",
     "gender": "die",
     "danishDefinite": "violinen",
-    "danishIndefinite": "en violin"
+    "danishIndefinite": "en violin",
+    "tier": 2
   },
   "music.microphone": {
     "danish": "mikrofon",
     "german": "Mikrofon",
-    "gender": "die",
+    "english": "microphone",
+    "gender": "das",
     "danishDefinite": "mikrofonen",
-    "danishIndefinite": "en mikrofon"
+    "danishIndefinite": "en mikrofon",
+    "tier": 2
   },
   "music.radio": {
     "danish": "radio",
     "german": "Radio",
-    "gender": "die",
+    "english": "radio",
+    "gender": "das",
     "danishDefinite": "radioen",
-    "danishIndefinite": "en radio"
+    "danishIndefinite": "en radio",
+    "tier": 1
+  },
+  "music.music": {
+    "danish": "musik",
+    "german": "Musik",
+    "english": "music",
+    "gender": "die",
+    "danishDefinite": "musikken",
+    "danishIndefinite": "en musik",
+    "tier": 1
+  },
+  "music.song": {
+    "danish": "sang",
+    "german": "Lied",
+    "english": "song",
+    "gender": "das",
+    "danishDefinite": "sangen",
+    "danishIndefinite": "en sang",
+    "tier": 1
+  },
+  "music.female-singer": {
+    "danish": "sangerinde",
+    "german": "Sängerin",
+    "english": "female singer",
+    "gender": "die",
+    "danishDefinite": "sangerinden",
+    "danishIndefinite": "en sangerinde",
+    "tier": 2
+  },
+  "music.band": {
+    "danish": "band",
+    "german": "Band",
+    "english": "band",
+    "gender": "die",
+    "danishDefinite": "bandet",
+    "danishIndefinite": "et band",
+    "tier": 2
+  },
+  "music.orchestra": {
+    "danish": "orkester",
+    "german": "Orchester",
+    "english": "orchestra",
+    "gender": "das",
+    "danishDefinite": "orkestret",
+    "danishIndefinite": "et orkester",
+    "tier": 2
+  },
+  "music.choir": {
+    "danish": "kor",
+    "german": "Chor",
+    "english": "choir",
+    "gender": "der",
+    "danishDefinite": "koret",
+    "danishIndefinite": "et kor",
+    "tier": 3
+  },
+  "music.concert": {
+    "danish": "koncert",
+    "german": "Konzert",
+    "english": "concert",
+    "gender": "das",
+    "danishDefinite": "koncerten",
+    "danishIndefinite": "en koncert",
+    "tier": 1
+  },
+  "music.conductor": {
+    "danish": "dirigent",
+    "german": "Dirigent",
+    "english": "conductor",
+    "gender": "der",
+    "danishDefinite": "dirigenten",
+    "danishIndefinite": "en dirigent",
+    "tier": 3
+  },
+  "music.composer": {
+    "danish": "komponist",
+    "german": "Komponist",
+    "english": "composer",
+    "gender": "der",
+    "danishDefinite": "komponisten",
+    "danishIndefinite": "en komponist",
+    "tier": 3
+  },
+  "music.instrument": {
+    "danish": "instrument",
+    "german": "Instrument",
+    "english": "instrument",
+    "gender": "das",
+    "danishDefinite": "instrumentet",
+    "danishIndefinite": "et instrument",
+    "tier": 2
+  },
+  "music.guitar": {
+    "danish": "guitar",
+    "german": "Gitarre",
+    "english": "guitar",
+    "gender": "die",
+    "danishDefinite": "guitaren",
+    "danishIndefinite": "en guitar",
+    "tier": 1
+  },
+  "music.electric-guitar": {
+    "danish": "elguitar",
+    "german": "E-Gitarre",
+    "english": "electric guitar",
+    "gender": "die",
+    "danishDefinite": "elguitaren",
+    "danishIndefinite": "en elguitar",
+    "tier": 3
+  },
+  "music.bass-guitar": {
+    "danish": "basguitar",
+    "german": "Bassgitarre",
+    "english": "bass guitar",
+    "gender": "die",
+    "danishDefinite": "basguitaren",
+    "danishIndefinite": "en basguitar",
+    "tier": 3
+  },
+  "music.drum-kit": {
+    "danish": "trommesæt",
+    "german": "Schlagzeug",
+    "english": "drum kit",
+    "gender": "das",
+    "danishDefinite": "trommesættet",
+    "danishIndefinite": "et trommesæt",
+    "tier": 3
+  },
+  "music.drum": {
+    "danish": "tromme",
+    "german": "Trommel",
+    "english": "drum",
+    "gender": "die",
+    "danishDefinite": "trommen",
+    "danishIndefinite": "en tromme",
+    "tier": 2
+  },
+  "music.flute": {
+    "danish": "fløjte",
+    "german": "Flöte",
+    "english": "flute",
+    "gender": "die",
+    "danishDefinite": "fløjten",
+    "danishIndefinite": "en fløjte",
+    "tier": 2
+  },
+  "music.recorder": {
+    "danish": "blokfløjte",
+    "german": "Blockflöte",
+    "english": "recorder",
+    "gender": "die",
+    "danishDefinite": "blokfløjten",
+    "danishIndefinite": "en blokfløjte",
+    "tier": 3
+  },
+  "music.trumpet": {
+    "danish": "trompet",
+    "german": "Trompete",
+    "english": "trumpet",
+    "gender": "die",
+    "danishDefinite": "trompeten",
+    "danishIndefinite": "en trompet",
+    "tier": 2
+  },
+  "music.saxophone": {
+    "danish": "saxofon",
+    "german": "Saxophon",
+    "english": "saxophone",
+    "gender": "das",
+    "danishDefinite": "saxofonen",
+    "danishIndefinite": "en saxofon",
+    "tier": 3
+  },
+  "music.trombone": {
+    "danish": "trombone",
+    "german": "Posaune",
+    "english": "trombone",
+    "gender": "die",
+    "danishDefinite": "trombonen",
+    "danishIndefinite": "en trombone",
+    "tier": 3
+  },
+  "music.clarinet": {
+    "danish": "klarinet",
+    "german": "Klarinette",
+    "english": "clarinet",
+    "gender": "die",
+    "danishDefinite": "klarineten",
+    "danishIndefinite": "en klarinet",
+    "tier": 3
+  },
+  "music.oboe": {
+    "danish": "obo",
+    "german": "Oboe",
+    "english": "oboe",
+    "gender": "die",
+    "danishDefinite": "oboen",
+    "danishIndefinite": "en obo",
+    "tier": 3
+  },
+  "music.bassoon": {
+    "danish": "fagot",
+    "german": "Fagott",
+    "english": "bassoon",
+    "gender": "das",
+    "danishDefinite": "fagoten",
+    "danishIndefinite": "en fagot",
+    "tier": 3
+  },
+  "music.cello": {
+    "danish": "cello",
+    "german": "Cello",
+    "english": "cello",
+    "gender": "das",
+    "danishDefinite": "celloen",
+    "danishIndefinite": "en cello",
+    "tier": 3
+  },
+  "music.double-bass": {
+    "danish": "kontrabas",
+    "german": "Kontrabass",
+    "english": "double bass",
+    "gender": "der",
+    "danishDefinite": "kontrabasen",
+    "danishIndefinite": "en kontrabas",
+    "tier": 3
+  },
+  "music.harp": {
+    "danish": "harpe",
+    "german": "Harfe",
+    "english": "harp",
+    "gender": "die",
+    "danishDefinite": "harpen",
+    "danishIndefinite": "en harpe",
+    "tier": 3
+  },
+  "music.harmonica": {
+    "danish": "mundharmonika",
+    "german": "Mundharmonika",
+    "english": "harmonica",
+    "gender": "die",
+    "danishDefinite": "mundharmonikaen",
+    "danishIndefinite": "en mundharmonika",
+    "tier": 3
+  },
+  "music.organ": {
+    "danish": "orgel",
+    "german": "Orgel",
+    "english": "organ",
+    "gender": "die",
+    "danishDefinite": "orglet",
+    "danishIndefinite": "et orgel",
+    "tier": 3
+  },
+  "music.synthesizer": {
+    "danish": "synthesizer",
+    "german": "Synthesizer",
+    "english": "synthesizer",
+    "gender": "der",
+    "danishDefinite": "synthesizeren",
+    "danishIndefinite": "en synthesizer",
+    "tier": 3
+  },
+  "music.keyboard": {
+    "danish": "keyboard",
+    "german": "Keyboard",
+    "english": "keyboard",
+    "gender": "das",
+    "danishDefinite": "keyboardet",
+    "danishIndefinite": "et keyboard",
+    "tier": 3
+  },
+  "music.ukulele": {
+    "danish": "ukulele",
+    "german": "Ukulele",
+    "english": "ukulele",
+    "gender": "die",
+    "danishDefinite": "ukulelen",
+    "danishIndefinite": "en ukulele",
+    "tier": 3
+  },
+  "music.timpani": {
+    "danish": "pauke",
+    "german": "Pauke",
+    "english": "timpani",
+    "gender": "die",
+    "danishDefinite": "pauken",
+    "danishIndefinite": "en pauke",
+    "tier": 3
+  },
+  "music.tambourine": {
+    "danish": "tamburin",
+    "german": "Tamburin",
+    "english": "tambourine",
+    "gender": "das",
+    "danishDefinite": "tamburinen",
+    "danishIndefinite": "en tamburin",
+    "tier": 3
+  },
+  "music.xylophone": {
+    "danish": "xylofon",
+    "german": "Xylophon",
+    "english": "xylophone",
+    "gender": "das",
+    "danishDefinite": "xylofonen",
+    "danishIndefinite": "en xylofon",
+    "tier": 3
+  },
+  "music.viola": {
+    "danish": "bratsch",
+    "german": "Bratsche",
+    "english": "viola",
+    "gender": "die",
+    "danishDefinite": "bratschen",
+    "danishIndefinite": "en bratsch",
+    "tier": 3
+  },
+  "music.melody": {
+    "danish": "melodi",
+    "german": "Melodie",
+    "english": "melody",
+    "gender": "die",
+    "danishDefinite": "melodien",
+    "danishIndefinite": "en melodi",
+    "tier": 2
+  },
+  "music.rhythm": {
+    "danish": "rytme",
+    "german": "Rhythmus",
+    "english": "rhythm",
+    "gender": "der",
+    "danishDefinite": "rytmen",
+    "danishIndefinite": "en rytme",
+    "tier": 2
+  },
+  "music.bar": {
+    "danish": "takt",
+    "german": "Takt",
+    "english": "bar",
+    "gender": "der",
+    "danishDefinite": "takten",
+    "danishIndefinite": "en takt",
+    "tier": 3
+  },
+  "music.tone": {
+    "danish": "tone",
+    "german": "Ton",
+    "english": "tone",
+    "gender": "der",
+    "danishDefinite": "tonen",
+    "danishIndefinite": "en tone",
+    "tier": 2
+  },
+  "music.chord": {
+    "danish": "akkord",
+    "german": "Akkord",
+    "english": "chord",
+    "gender": "der",
+    "danishDefinite": "akkorden",
+    "danishIndefinite": "en akkord",
+    "tier": 3
+  },
+  "music.musical-key": {
+    "danish": "toneart",
+    "german": "Tonart",
+    "english": "musical key",
+    "gender": "die",
+    "danishDefinite": "tonearten",
+    "danishIndefinite": "en toneart",
+    "tier": 3
+  },
+  "music.scale": {
+    "danish": "skala",
+    "german": "Tonleiter",
+    "english": "scale",
+    "gender": "die",
+    "danishDefinite": "skalaen",
+    "danishIndefinite": "en skala",
+    "tier": 3
+  },
+  "music.sheet-of-music": {
+    "danish": "nodeark",
+    "german": "Notenblatt",
+    "english": "sheet of music",
+    "gender": "das",
+    "danishDefinite": "nodearket",
+    "danishIndefinite": "et nodeark",
+    "tier": 3
+  },
+  "music.music-stand": {
+    "danish": "nodestativ",
+    "german": "Notenständer",
+    "english": "music stand",
+    "gender": "der",
+    "danishDefinite": "nodestativet",
+    "danishIndefinite": "et nodestativ",
+    "tier": 3
+  },
+  "music.lyrics": {
+    "danish": "sangtekst",
+    "german": "Liedtext",
+    "english": "lyrics",
+    "gender": "der",
+    "danishDefinite": "sangteksten",
+    "danishIndefinite": "en sangtekst",
+    "tier": 2
+  },
+  "music.genre": {
+    "danish": "genre",
+    "german": "Genre",
+    "english": "genre",
+    "gender": "das",
+    "danishDefinite": "genren",
+    "danishIndefinite": "en genre",
+    "tier": 3
+  },
+  "music.pop-music": {
+    "danish": "popmusik",
+    "german": "Popmusik",
+    "english": "pop music",
+    "gender": "die",
+    "danishDefinite": "popmusikken",
+    "danishIndefinite": "en popmusik",
+    "tier": 2
+  },
+  "music.rock-music": {
+    "danish": "rockmusik",
+    "german": "Rockmusik",
+    "english": "rock music",
+    "gender": "die",
+    "danishDefinite": "rockmusikken",
+    "danishIndefinite": "en rockmusik",
+    "tier": 2
+  },
+  "music.jazz": {
+    "danish": "jazz",
+    "german": "Jazz",
+    "english": "jazz",
+    "gender": "der",
+    "danishDefinite": "jazzen",
+    "danishIndefinite": "en jazz",
+    "tier": 2
+  },
+  "music.hip-hop": {
+    "danish": "hiphop",
+    "german": "Hip-Hop",
+    "english": "hip-hop",
+    "gender": "der",
+    "danishDefinite": "hiphoppen",
+    "danishIndefinite": "en hiphop",
+    "tier": 3
+  },
+  "music.folk-music": {
+    "danish": "folkemusik",
+    "german": "Volksmusik",
+    "english": "folk music",
+    "gender": "die",
+    "danishDefinite": "folkemusikken",
+    "danishIndefinite": "en folkemusik",
+    "tier": 3
+  },
+  "music.blues": {
+    "danish": "blues",
+    "german": "Blues",
+    "english": "blues",
+    "gender": "der",
+    "danishDefinite": "bluesen",
+    "danishIndefinite": "en blues",
+    "tier": 3
+  },
+  "music.opera": {
+    "danish": "opera",
+    "german": "Oper",
+    "english": "opera",
+    "gender": "die",
+    "danishDefinite": "operaen",
+    "danishIndefinite": "en opera",
+    "tier": 3
+  },
+  "music.musical": {
+    "danish": "musical",
+    "german": "Musical",
+    "english": "musical",
+    "gender": "das",
+    "danishDefinite": "musicalen",
+    "danishIndefinite": "en musical",
+    "tier": 3
+  },
+  "music.symphony": {
+    "danish": "symfoni",
+    "german": "Sinfonie",
+    "english": "symphony",
+    "gender": "die",
+    "danishDefinite": "symfonien",
+    "danishIndefinite": "en symfoni",
+    "tier": 3
+  },
+  "music.lullaby": {
+    "danish": "vuggevise",
+    "german": "Wiegenlied",
+    "english": "lullaby",
+    "gender": "das",
+    "danishDefinite": "vuggevisen",
+    "danishIndefinite": "en vuggevise",
+    "tier": 3
+  },
+  "music.national-anthem": {
+    "danish": "nationalsang",
+    "german": "Nationalhymne",
+    "english": "national anthem",
+    "gender": "die",
+    "danishDefinite": "nationalsangen",
+    "danishIndefinite": "en nationalsang",
+    "tier": 3
+  },
+  "music.hit": {
+    "danish": "hit",
+    "german": "Hit",
+    "english": "hit",
+    "gender": "der",
+    "danishDefinite": "hittet",
+    "danishIndefinite": "et hit",
+    "tier": 2
+  },
+  "music.album": {
+    "danish": "album",
+    "german": "Album",
+    "english": "album",
+    "gender": "das",
+    "danishDefinite": "albummet",
+    "danishIndefinite": "et album",
+    "tier": 2
+  },
+  "music.vinyl-record": {
+    "danish": "vinylplade",
+    "german": "Schallplatte",
+    "english": "vinyl record",
+    "gender": "die",
+    "danishDefinite": "vinylpladen",
+    "danishIndefinite": "en vinylplade",
+    "tier": 3
+  },
+  "music.cd": {
+    "danish": "cd",
+    "german": "CD",
+    "english": "CD",
+    "gender": "die",
+    "danishDefinite": "cd'en",
+    "danishIndefinite": "en cd",
+    "tier": 2
+  },
+  "music.headphones": {
+    "danish": "hovedtelefon",
+    "german": "Kopfhörer",
+    "english": "headphones",
+    "gender": "der",
+    "danishDefinite": "hovedtelefonen",
+    "danishIndefinite": "en hovedtelefon",
+    "tier": 2
+  },
+  "music.amplifier": {
+    "danish": "forstærker",
+    "german": "Verstärker",
+    "english": "amplifier",
+    "gender": "der",
+    "danishDefinite": "forstærkeren",
+    "danishIndefinite": "en forstærker",
+    "tier": 3
+  },
+  "music.audience": {
+    "danish": "publikum",
+    "german": "Publikum",
+    "english": "audience",
+    "gender": "das",
+    "danishDefinite": "publikummet",
+    "danishIndefinite": "et publikum",
+    "tier": 2
+  },
+  "music.festival": {
+    "danish": "festival",
+    "german": "Festival",
+    "english": "festival",
+    "gender": "das",
+    "danishDefinite": "festivalen",
+    "danishIndefinite": "en festival",
+    "tier": 2
+  },
+  "music.performance": {
+    "danish": "optræden",
+    "german": "Auftritt",
+    "english": "performance",
+    "gender": "der",
+    "danishDefinite": "optrædenen",
+    "danishIndefinite": "en optræden",
+    "tier": 3
+  },
+  "music.encore": {
+    "danish": "tilgift",
+    "german": "Zugabe",
+    "english": "encore",
+    "gender": "die",
+    "danishDefinite": "tilgiften",
+    "danishIndefinite": "en tilgift",
+    "tier": 3
+  },
+  "music.applause": {
+    "danish": "applaus",
+    "german": "Applaus",
+    "english": "applause",
+    "gender": "der",
+    "danishDefinite": "applausen",
+    "danishIndefinite": "en applaus",
+    "tier": 3
+  },
+  "music.music-school": {
+    "danish": "musikskole",
+    "german": "Musikschule",
+    "english": "music school",
+    "gender": "die",
+    "danishDefinite": "musikskolen",
+    "danishIndefinite": "en musikskole",
+    "tier": 3
+  },
+  "music.music-teacher": {
+    "danish": "musiklærer",
+    "german": "Musiklehrer",
+    "english": "music teacher",
+    "gender": "der",
+    "danishDefinite": "musiklæreren",
+    "danishIndefinite": "en musiklærer",
+    "tier": 3
+  },
+  "music.volume": {
+    "danish": "lydstyrke",
+    "german": "Lautstärke",
+    "english": "volume",
+    "gender": "die",
+    "danishDefinite": "lydstyrken",
+    "danishIndefinite": "en lydstyrke",
+    "tier": 2
+  },
+  "music.dj": {
+    "danish": "dj",
+    "german": "DJ",
+    "english": "DJ",
+    "gender": "der",
+    "danishDefinite": "dj'en",
+    "danishIndefinite": "en dj",
+    "tier": 3
+  },
+  "music.rapper": {
+    "danish": "rapper",
+    "german": "Rapper",
+    "english": "rapper",
+    "gender": "der",
+    "danishDefinite": "rapperen",
+    "danishIndefinite": "en rapper",
+    "tier": 3
+  },
+  "music.drummer": {
+    "danish": "trommeslager",
+    "german": "Schlagzeuger",
+    "english": "drummer",
+    "gender": "der",
+    "danishDefinite": "trommeslageren",
+    "danishIndefinite": "en trommeslager",
+    "tier": 3
+  },
+  "music.guitarist": {
+    "danish": "guitarist",
+    "german": "Gitarrist",
+    "english": "guitarist",
+    "gender": "der",
+    "danishDefinite": "guitaristen",
+    "danishIndefinite": "en guitarist",
+    "tier": 3
+  },
+  "music.pianist": {
+    "danish": "pianist",
+    "german": "Pianist",
+    "english": "pianist",
+    "gender": "der",
+    "danishDefinite": "pianisten",
+    "danishIndefinite": "en pianist",
+    "tier": 3
+  },
+  "music.violinist": {
+    "danish": "violinist",
+    "german": "Geiger",
+    "english": "violinist",
+    "gender": "der",
+    "danishDefinite": "violinisten",
+    "danishIndefinite": "en violinist",
+    "tier": 3
+  },
+  "music.soloist": {
+    "danish": "solist",
+    "german": "Solist",
+    "english": "soloist",
+    "gender": "der",
+    "danishDefinite": "solisten",
+    "danishIndefinite": "en solist",
+    "tier": 3
+  },
+  "music.playlist": {
+    "danish": "playliste",
+    "german": "Playlist",
+    "english": "playlist",
+    "gender": "die",
+    "danishDefinite": "playlisten",
+    "danishIndefinite": "en playliste",
+    "tier": 3
+  },
+  "music.dance": {
+    "danish": "dans",
+    "german": "Tanz",
+    "english": "dance",
+    "gender": "der",
+    "danishDefinite": "dansen",
+    "danishIndefinite": "en dans",
+    "tier": 1
+  },
+  "music.to-sing": {
+    "danish": "at synge",
+    "german": "singen",
+    "english": "to sing",
+    "tier": 1
+  },
+  "music.to-dance": {
+    "danish": "at danse",
+    "german": "tanzen",
+    "english": "to dance",
+    "tier": 1
+  },
+  "music.to-compose": {
+    "danish": "at komponere",
+    "german": "komponieren",
+    "english": "to compose",
+    "tier": 3
+  },
+  "music.to-clap": {
+    "danish": "at klappe",
+    "german": "klatschen",
+    "english": "to clap",
+    "tier": 2
+  },
+  "music.to-whistle": {
+    "danish": "at fløjte",
+    "german": "pfeifen",
+    "english": "to whistle",
+    "tier": 2
+  },
+  "music.to-hum": {
+    "danish": "at nynne",
+    "german": "summen",
+    "english": "to hum",
+    "tier": 3
   }
 }

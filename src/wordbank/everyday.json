@@ -2,71 +2,883 @@
   "everyday.breakfast": {
     "danish": "morgenmad",
     "german": "Frühstück",
+    "english": "breakfast",
     "gender": "das",
     "danishDefinite": "morgenmaden",
-    "danishIndefinite": "et morgenmad"
+    "danishIndefinite": "en morgenmad",
+    "tier": 1
   },
   "everyday.lunch": {
     "danish": "frokost",
     "german": "Mittagessen",
+    "english": "lunch",
     "gender": "das",
     "danishDefinite": "frokosten",
-    "danishIndefinite": "en frokost"
+    "danishIndefinite": "en frokost",
+    "tier": 2
   },
   "everyday.dinner": {
     "danish": "middag",
     "german": "Abendessen",
+    "english": "dinner",
     "gender": "das",
     "danishDefinite": "middagen",
-    "danishIndefinite": "en middag"
+    "danishIndefinite": "en middag",
+    "tier": 2
   },
   "everyday.umbrella": {
     "danish": "paraply",
     "german": "Regenschirm",
+    "english": "umbrella",
     "gender": "der",
     "danishDefinite": "paraplyen",
-    "danishIndefinite": "en paraply"
+    "danishIndefinite": "en paraply",
+    "tier": 2
   },
   "everyday.wallet": {
     "danish": "pung",
     "german": "Geldbörse",
+    "english": "wallet",
     "gender": "die",
     "danishDefinite": "pungen",
-    "danishIndefinite": "en pung"
+    "danishIndefinite": "en pung",
+    "tier": 3
   },
   "everyday.watch": {
     "danish": "ur",
     "german": "Armbanduhr",
+    "english": "watch",
     "gender": "die",
     "danishDefinite": "uret",
-    "danishIndefinite": "et ur"
+    "danishIndefinite": "et ur",
+    "tier": 2
   },
   "everyday.toothbrush": {
     "danish": "tandbørste",
     "german": "Zahnbürste",
+    "english": "toothbrush",
     "gender": "die",
     "danishDefinite": "tandbørsten",
-    "danishIndefinite": "en tandbørste"
+    "danishIndefinite": "en tandbørste",
+    "tier": 1
   },
   "everyday.shampoo": {
     "danish": "shampoo",
     "german": "Shampoo",
+    "english": "shampoo",
     "gender": "das",
-    "danishDefinite": "shampoen",
-    "danishIndefinite": "et shampoo"
+    "danishDefinite": "shampooen",
+    "danishIndefinite": "en shampoo",
+    "tier": 1
   },
   "everyday.soap": {
     "danish": "sæbe",
     "german": "Seife",
+    "english": "soap",
     "gender": "die",
     "danishDefinite": "sæben",
-    "danishIndefinite": "en sæbe"
+    "danishIndefinite": "en sæbe",
+    "tier": 1
   },
   "everyday.towel": {
     "danish": "håndklæde",
     "german": "Handtuch",
+    "english": "towel",
     "gender": "das",
     "danishDefinite": "håndklædet",
-    "danishIndefinite": "et håndklæde"
+    "danishIndefinite": "et håndklæde",
+    "tier": 2
+  },
+  "everyday.toothpaste": {
+    "danish": "tandpasta",
+    "german": "Zahnpasta",
+    "english": "toothpaste",
+    "gender": "die",
+    "danishDefinite": "tandpastaen",
+    "danishIndefinite": "en tandpasta",
+    "tier": 1
+  },
+  "everyday.comb": {
+    "danish": "kam",
+    "german": "Kamm",
+    "english": "comb",
+    "gender": "der",
+    "danishDefinite": "kammen",
+    "danishIndefinite": "en kam",
+    "tier": 2
+  },
+  "everyday.hairbrush": {
+    "danish": "hårbørste",
+    "german": "Haarbürste",
+    "english": "hairbrush",
+    "gender": "die",
+    "danishDefinite": "hårbørsten",
+    "danishIndefinite": "en hårbørste",
+    "tier": 2
+  },
+  "everyday.razor": {
+    "danish": "barbermaskine",
+    "german": "Rasierer",
+    "english": "razor",
+    "gender": "der",
+    "danishDefinite": "barbermaskinen",
+    "danishIndefinite": "en barbermaskine",
+    "tier": 3
+  },
+  "everyday.razor-blade": {
+    "danish": "barberblad",
+    "german": "Rasierklinge",
+    "english": "razor blade",
+    "gender": "die",
+    "danishDefinite": "barberbladet",
+    "danishIndefinite": "et barberblad",
+    "tier": 3
+  },
+  "everyday.shaving-foam": {
+    "danish": "barberskum",
+    "german": "Rasierschaum",
+    "english": "shaving foam",
+    "gender": "der",
+    "danishDefinite": "barberskummet",
+    "danishIndefinite": "et barberskum",
+    "tier": 3
+  },
+  "everyday.deodorant": {
+    "danish": "deodorant",
+    "german": "Deodorant",
+    "english": "deodorant",
+    "gender": "das",
+    "danishDefinite": "deodoranten",
+    "danishIndefinite": "en deodorant",
+    "tier": 2
+  },
+  "everyday.perfume": {
+    "danish": "parfume",
+    "german": "Parfüm",
+    "english": "perfume",
+    "gender": "das",
+    "danishDefinite": "parfumen",
+    "danishIndefinite": "en parfume",
+    "tier": 3
+  },
+  "everyday.cream": {
+    "danish": "creme",
+    "german": "Creme",
+    "english": "cream",
+    "gender": "die",
+    "danishDefinite": "cremen",
+    "danishIndefinite": "en creme",
+    "tier": 2
+  },
+  "everyday.lipstick": {
+    "danish": "læbestift",
+    "german": "Lippenstift",
+    "english": "lipstick",
+    "gender": "der",
+    "danishDefinite": "læbestiften",
+    "danishIndefinite": "en læbestift",
+    "tier": 3
+  },
+  "everyday.lip-balm": {
+    "danish": "læbepomade",
+    "german": "Lippenbalsam",
+    "english": "lip balm",
+    "gender": "der",
+    "danishDefinite": "læbepomaden",
+    "danishIndefinite": "en læbepomade",
+    "tier": 3
+  },
+  "everyday.make-up": {
+    "danish": "make-up",
+    "german": "Schminke",
+    "english": "make-up",
+    "gender": "die",
+    "danishDefinite": "make-uppen",
+    "danishIndefinite": "en make-up",
+    "tier": 3
+  },
+  "everyday.nail-polish": {
+    "danish": "neglelak",
+    "german": "Nagellack",
+    "english": "nail polish",
+    "gender": "der",
+    "danishDefinite": "neglelakken",
+    "danishIndefinite": "en neglelak",
+    "tier": 3
+  },
+  "everyday.nail-clippers": {
+    "danish": "neglesaks",
+    "german": "Nagelschere",
+    "english": "nail scissors",
+    "gender": "die",
+    "danishDefinite": "neglesaksen",
+    "danishIndefinite": "en neglesaks",
+    "tier": 3
+  },
+  "everyday.nail-file": {
+    "danish": "neglefil",
+    "german": "Nagelfeile",
+    "english": "nail file",
+    "gender": "die",
+    "danishDefinite": "neglefilen",
+    "danishIndefinite": "en neglefil",
+    "tier": 3
+  },
+  "everyday.tweezers": {
+    "danish": "pincet",
+    "german": "Pinzette",
+    "english": "tweezers",
+    "gender": "die",
+    "danishDefinite": "pincetten",
+    "danishIndefinite": "en pincet",
+    "tier": 3
+  },
+  "everyday.cotton-bud": {
+    "danish": "vatpind",
+    "german": "Wattestäbchen",
+    "english": "cotton bud",
+    "gender": "das",
+    "danishDefinite": "vatpinden",
+    "danishIndefinite": "en vatpind",
+    "tier": 3
+  },
+  "everyday.dental-floss": {
+    "danish": "tandtråd",
+    "german": "Zahnseide",
+    "english": "dental floss",
+    "gender": "die",
+    "danishDefinite": "tandtråden",
+    "danishIndefinite": "en tandtråd",
+    "tier": 3
+  },
+  "everyday.toothpick": {
+    "danish": "tandstik",
+    "german": "Zahnstocher",
+    "english": "toothpick",
+    "gender": "der",
+    "danishDefinite": "tandstikken",
+    "danishIndefinite": "en tandstik",
+    "tier": 3
+  },
+  "everyday.mouthwash": {
+    "danish": "mundskyllevand",
+    "german": "Mundspülung",
+    "english": "mouthwash",
+    "gender": "die",
+    "danishDefinite": "mundskyllevandet",
+    "danishIndefinite": "et mundskyllevand",
+    "tier": 3
+  },
+  "everyday.hairspray": {
+    "danish": "hårspray",
+    "german": "Haarspray",
+    "english": "hairspray",
+    "gender": "das",
+    "danishDefinite": "hårsprayen",
+    "danishIndefinite": "en hårspray",
+    "tier": 3
+  },
+  "everyday.hair-tie": {
+    "danish": "hårelastik",
+    "german": "Haargummi",
+    "english": "hair tie",
+    "gender": "das",
+    "danishDefinite": "hårelastikken",
+    "danishIndefinite": "en hårelastik",
+    "tier": 3
+  },
+  "everyday.hair-clip": {
+    "danish": "hårspænde",
+    "german": "Haarspange",
+    "english": "hair clip",
+    "gender": "die",
+    "danishDefinite": "hårspændet",
+    "danishIndefinite": "et hårspænde",
+    "tier": 3
+  },
+  "everyday.hairdryer": {
+    "danish": "hårtørrer",
+    "german": "Föhn",
+    "english": "hairdryer",
+    "gender": "der",
+    "danishDefinite": "hårtørreren",
+    "danishIndefinite": "en hårtørrer",
+    "tier": 3
+  },
+  "everyday.contact-lens": {
+    "danish": "kontaktlinse",
+    "german": "Kontaktlinse",
+    "english": "contact lens",
+    "gender": "die",
+    "danishDefinite": "kontaktlinsen",
+    "danishIndefinite": "en kontaktlinse",
+    "tier": 3
+  },
+  "everyday.tissue": {
+    "danish": "lommetørklæde",
+    "german": "Taschentuch",
+    "english": "tissue",
+    "gender": "das",
+    "danishDefinite": "lommetørklædet",
+    "danishIndefinite": "et lommetørklæde",
+    "tier": 2
+  },
+  "everyday.wet-wipe": {
+    "danish": "vådserviet",
+    "german": "Feuchttuch",
+    "english": "wet wipe",
+    "gender": "das",
+    "danishDefinite": "vådservietten",
+    "danishIndefinite": "en vådserviet",
+    "tier": 3
+  },
+  "everyday.bath-towel": {
+    "danish": "badehåndklæde",
+    "german": "Badetuch",
+    "english": "bath towel",
+    "gender": "das",
+    "danishDefinite": "badehåndklædet",
+    "danishIndefinite": "et badehåndklæde",
+    "tier": 2
+  },
+  "everyday.flannel": {
+    "danish": "vaskeklud",
+    "german": "Waschlappen",
+    "english": "flannel",
+    "gender": "der",
+    "danishDefinite": "vaskekluden",
+    "danishIndefinite": "en vaskeklud",
+    "tier": 3
+  },
+  "everyday.dressing-gown": {
+    "danish": "badekåbe",
+    "german": "Bademantel",
+    "english": "dressing gown",
+    "gender": "der",
+    "danishDefinite": "badekåben",
+    "danishIndefinite": "en badekåbe",
+    "tier": 3
+  },
+  "everyday.soap-dish": {
+    "danish": "sæbeskål",
+    "german": "Seifenschale",
+    "english": "soap dish",
+    "gender": "die",
+    "danishDefinite": "sæbeskålen",
+    "danishIndefinite": "en sæbeskål",
+    "tier": 3
+  },
+  "everyday.hand-soap": {
+    "danish": "håndsæbe",
+    "german": "Handseife",
+    "english": "hand soap",
+    "gender": "die",
+    "danishDefinite": "håndsæben",
+    "danishIndefinite": "en håndsæbe",
+    "tier": 3
+  },
+  "everyday.toothbrush-mug": {
+    "danish": "tandkrus",
+    "german": "Zahnputzbecher",
+    "english": "toothbrush mug",
+    "gender": "der",
+    "danishDefinite": "tandkruset",
+    "danishIndefinite": "et tandkrus",
+    "tier": 3
+  },
+  "everyday.bathroom-scales": {
+    "danish": "badevægt",
+    "german": "Personenwaage",
+    "english": "bathroom scales",
+    "gender": "die",
+    "danishDefinite": "badevægten",
+    "danishIndefinite": "en badevægt",
+    "tier": 3
+  },
+  "everyday.toiletry-bag": {
+    "danish": "toilettaske",
+    "german": "Kulturbeutel",
+    "english": "toiletry bag",
+    "gender": "der",
+    "danishDefinite": "toilettasken",
+    "danishIndefinite": "en toilettaske",
+    "tier": 3
+  },
+  "everyday.plaster": {
+    "danish": "plaster",
+    "german": "Pflaster",
+    "english": "plaster",
+    "gender": "das",
+    "danishDefinite": "plasteret",
+    "danishIndefinite": "et plaster",
+    "tier": 2
+  },
+  "everyday.bandage": {
+    "danish": "forbinding",
+    "german": "Verband",
+    "english": "bandage",
+    "gender": "der",
+    "danishDefinite": "forbindingen",
+    "danishIndefinite": "en forbinding",
+    "tier": 3
+  },
+  "everyday.thermometer": {
+    "danish": "termometer",
+    "german": "Thermometer",
+    "english": "thermometer",
+    "gender": "das",
+    "danishDefinite": "termometeret",
+    "danishIndefinite": "et termometer",
+    "tier": 3
+  },
+  "everyday.handbag": {
+    "danish": "håndtaske",
+    "german": "Handtasche",
+    "english": "handbag",
+    "gender": "die",
+    "danishDefinite": "håndtasken",
+    "danishIndefinite": "en håndtaske",
+    "tier": 2
+  },
+  "everyday.backpack": {
+    "danish": "rygsæk",
+    "german": "Rucksack",
+    "english": "backpack",
+    "gender": "der",
+    "danishDefinite": "rygsækken",
+    "danishIndefinite": "en rygsæk",
+    "tier": 2
+  },
+  "everyday.bag": {
+    "danish": "taske",
+    "german": "Tasche",
+    "english": "bag",
+    "gender": "die",
+    "danishDefinite": "tasken",
+    "danishIndefinite": "en taske",
+    "tier": 1
+  },
+  "everyday.suitcase": {
+    "danish": "kuffert",
+    "german": "Koffer",
+    "english": "suitcase",
+    "gender": "der",
+    "danishDefinite": "kufferten",
+    "danishIndefinite": "en kuffert",
+    "tier": 2
+  },
+  "everyday.plastic-bag": {
+    "danish": "plastikpose",
+    "german": "Plastiktüte",
+    "english": "plastic bag",
+    "gender": "die",
+    "danishDefinite": "plastikposen",
+    "danishIndefinite": "en plastikpose",
+    "tier": 2
+  },
+  "everyday.shopping-bag": {
+    "danish": "indkøbspose",
+    "german": "Einkaufstasche",
+    "english": "shopping bag",
+    "gender": "die",
+    "danishDefinite": "indkøbsposen",
+    "danishIndefinite": "en indkøbspose",
+    "tier": 2
+  },
+  "everyday.shopping-basket": {
+    "danish": "indkøbskurv",
+    "german": "Einkaufskorb",
+    "english": "shopping basket",
+    "gender": "der",
+    "danishDefinite": "indkøbskurven",
+    "danishIndefinite": "en indkøbskurv",
+    "tier": 3
+  },
+  "everyday.trolley": {
+    "danish": "indkøbsvogn",
+    "german": "Einkaufswagen",
+    "english": "shopping trolley",
+    "gender": "der",
+    "danishDefinite": "indkøbsvognen",
+    "danishIndefinite": "en indkøbsvogn",
+    "tier": 2
+  },
+  "everyday.shopping-list": {
+    "danish": "indkøbsliste",
+    "german": "Einkaufsliste",
+    "english": "shopping list",
+    "gender": "die",
+    "danishDefinite": "indkøbslisten",
+    "danishIndefinite": "en indkøbsliste",
+    "tier": 2
+  },
+  "everyday.ring": {
+    "danish": "fingerring",
+    "german": "Ring",
+    "english": "ring",
+    "gender": "der",
+    "danishDefinite": "fingerringen",
+    "danishIndefinite": "en fingerring",
+    "tier": 2
+  },
+  "everyday.necklace": {
+    "danish": "halskæde",
+    "german": "Halskette",
+    "english": "necklace",
+    "gender": "die",
+    "danishDefinite": "halskæden",
+    "danishIndefinite": "en halskæde",
+    "tier": 2
+  },
+  "everyday.bracelet": {
+    "danish": "armbånd",
+    "german": "Armband",
+    "english": "bracelet",
+    "gender": "das",
+    "danishDefinite": "armbåndet",
+    "danishIndefinite": "et armbånd",
+    "tier": 2
+  },
+  "everyday.earring": {
+    "danish": "ørering",
+    "german": "Ohrring",
+    "english": "earring",
+    "gender": "der",
+    "danishDefinite": "øreringen",
+    "danishIndefinite": "en ørering",
+    "tier": 2
+  },
+  "everyday.driving-licence": {
+    "danish": "kørekort",
+    "german": "Führerschein",
+    "english": "driving licence",
+    "gender": "der",
+    "danishDefinite": "kørekortet",
+    "danishIndefinite": "et kørekort",
+    "tier": 2
+  },
+  "everyday.id-card": {
+    "danish": "id-kort",
+    "german": "Personalausweis",
+    "english": "ID card",
+    "gender": "der",
+    "danishDefinite": "id-kortet",
+    "danishIndefinite": "et id-kort",
+    "tier": 3
+  },
+  "everyday.bank-card": {
+    "danish": "bankkort",
+    "german": "Bankkarte",
+    "english": "bank card",
+    "gender": "die",
+    "danishDefinite": "bankkortet",
+    "danishIndefinite": "et bankkort",
+    "tier": 2
+  },
+  "everyday.credit-card": {
+    "danish": "kreditkort",
+    "german": "Kreditkarte",
+    "english": "credit card",
+    "gender": "die",
+    "danishDefinite": "kreditkortet",
+    "danishIndefinite": "et kreditkort",
+    "tier": 2
+  },
+  "everyday.coin": {
+    "danish": "mønt",
+    "german": "Münze",
+    "english": "coin",
+    "gender": "die",
+    "danishDefinite": "mønten",
+    "danishIndefinite": "en mønt",
+    "tier": 2
+  },
+  "everyday.banknote": {
+    "danish": "pengeseddel",
+    "german": "Geldschein",
+    "english": "banknote",
+    "gender": "der",
+    "danishDefinite": "pengesedlen",
+    "danishIndefinite": "en pengeseddel",
+    "tier": 2
+  },
+  "everyday.calendar": {
+    "danish": "kalender",
+    "german": "Kalender",
+    "english": "calendar",
+    "gender": "der",
+    "danishDefinite": "kalenderen",
+    "danishIndefinite": "en kalender",
+    "tier": 2
+  },
+  "everyday.diary": {
+    "danish": "dagbog",
+    "german": "Tagebuch",
+    "english": "diary",
+    "gender": "das",
+    "danishDefinite": "dagbogen",
+    "danishIndefinite": "en dagbog",
+    "tier": 2
+  },
+  "everyday.reminder-note": {
+    "danish": "huskeseddel",
+    "german": "Merkzettel",
+    "english": "reminder note",
+    "gender": "der",
+    "danishDefinite": "huskesedlen",
+    "danishIndefinite": "en huskeseddel",
+    "tier": 3
+  },
+  "everyday.newspaper": {
+    "danish": "avis",
+    "german": "Zeitung",
+    "english": "newspaper",
+    "gender": "die",
+    "danishDefinite": "avisen",
+    "danishIndefinite": "en avis",
+    "tier": 1
+  },
+  "everyday.magazine": {
+    "danish": "ugeblad",
+    "german": "Zeitschrift",
+    "english": "magazine",
+    "gender": "die",
+    "danishDefinite": "ugebladet",
+    "danishIndefinite": "et ugeblad",
+    "tier": 3
+  },
+  "everyday.letter": {
+    "danish": "brev",
+    "german": "Brief",
+    "english": "letter",
+    "gender": "der",
+    "danishDefinite": "brevet",
+    "danishIndefinite": "et brev",
+    "tier": 1
+  },
+  "everyday.envelope": {
+    "danish": "kuvert",
+    "german": "Briefumschlag",
+    "english": "envelope",
+    "gender": "der",
+    "danishDefinite": "kuverten",
+    "danishIndefinite": "en kuvert",
+    "tier": 2
+  },
+  "everyday.stamp": {
+    "danish": "frimærke",
+    "german": "Briefmarke",
+    "english": "stamp",
+    "gender": "die",
+    "danishDefinite": "frimærket",
+    "danishIndefinite": "et frimærke",
+    "tier": 2
+  },
+  "everyday.parcel": {
+    "danish": "pakke",
+    "german": "Paket",
+    "english": "parcel",
+    "gender": "das",
+    "danishDefinite": "pakken",
+    "danishIndefinite": "en pakke",
+    "tier": 2
+  },
+  "everyday.postcard": {
+    "danish": "postkort",
+    "german": "Postkarte",
+    "english": "postcard",
+    "gender": "die",
+    "danishDefinite": "postkortet",
+    "danishIndefinite": "et postkort",
+    "tier": 2
+  },
+  "everyday.bath": {
+    "danish": "bad",
+    "german": "Bad",
+    "english": "bath",
+    "gender": "das",
+    "danishDefinite": "badet",
+    "danishIndefinite": "et bad",
+    "tier": 2
+  },
+  "everyday.nap": {
+    "danish": "lur",
+    "german": "Nickerchen",
+    "english": "nap",
+    "gender": "das",
+    "danishDefinite": "luren",
+    "danishIndefinite": "en lur",
+    "tier": 3
+  },
+  "everyday.sleep": {
+    "danish": "søvn",
+    "german": "Schlaf",
+    "english": "sleep",
+    "gender": "der",
+    "danishDefinite": "søvnen",
+    "danishIndefinite": "en søvn",
+    "tier": 2
+  },
+  "everyday.dream": {
+    "danish": "drøm",
+    "german": "Traum",
+    "english": "dream",
+    "gender": "der",
+    "danishDefinite": "drømmen",
+    "danishIndefinite": "en drøm",
+    "tier": 2
+  },
+  "everyday.bedtime-story": {
+    "danish": "godnathistorie",
+    "german": "Gutenachtgeschichte",
+    "english": "bedtime story",
+    "gender": "die",
+    "danishDefinite": "godnathistorien",
+    "danishIndefinite": "en godnathistorie",
+    "tier": 3
+  },
+  "everyday.snack": {
+    "danish": "snack",
+    "german": "Snack",
+    "english": "snack",
+    "gender": "der",
+    "danishDefinite": "snacken",
+    "danishIndefinite": "en snack",
+    "tier": 3
+  },
+  "everyday.torch": {
+    "danish": "lommelygte",
+    "german": "Taschenlampe",
+    "english": "torch",
+    "gender": "die",
+    "danishDefinite": "lommelygten",
+    "danishIndefinite": "en lommelygte",
+    "tier": 2
+  },
+  "everyday.pocket-knife": {
+    "danish": "lommekniv",
+    "german": "Taschenmesser",
+    "english": "pocket knife",
+    "gender": "das",
+    "danishDefinite": "lommekniven",
+    "danishIndefinite": "en lommekniv",
+    "tier": 3
+  },
+  "everyday.sticker": {
+    "danish": "klistermærke",
+    "german": "Aufkleber",
+    "english": "sticker",
+    "gender": "der",
+    "danishDefinite": "klistermærket",
+    "danishIndefinite": "et klistermærke",
+    "tier": 3
+  },
+  "everyday.gift": {
+    "danish": "gave",
+    "german": "Geschenk",
+    "english": "gift",
+    "gender": "das",
+    "danishDefinite": "gaven",
+    "danishIndefinite": "en gave",
+    "tier": 2
+  },
+  "everyday.wrapping-paper": {
+    "danish": "gavepapir",
+    "german": "Geschenkpapier",
+    "english": "wrapping paper",
+    "gender": "das",
+    "danishDefinite": "gavepapiret",
+    "danishIndefinite": "et gavepapir",
+    "tier": 3
+  },
+  "everyday.greeting-card": {
+    "danish": "lykønskningskort",
+    "german": "Glückwunschkarte",
+    "english": "greeting card",
+    "gender": "die",
+    "danishDefinite": "lykønskningskortet",
+    "danishIndefinite": "et lykønskningskort",
+    "tier": 3
+  },
+  "everyday.invitation": {
+    "danish": "invitation",
+    "german": "Einladung",
+    "english": "invitation",
+    "gender": "die",
+    "danishDefinite": "invitationen",
+    "danishIndefinite": "en invitation",
+    "tier": 2
+  },
+  "everyday.photo-album": {
+    "danish": "fotoalbum",
+    "german": "Fotoalbum",
+    "english": "photo album",
+    "gender": "das",
+    "danishDefinite": "fotoalbummet",
+    "danishIndefinite": "et fotoalbum",
+    "tier": 3
+  },
+  "everyday.balloon": {
+    "danish": "ballon",
+    "german": "Luftballon",
+    "english": "balloon",
+    "gender": "der",
+    "danishDefinite": "ballonen",
+    "danishIndefinite": "en ballon",
+    "tier": 2
+  },
+  "everyday.toy": {
+    "danish": "legetøj",
+    "german": "Spielzeug",
+    "english": "toy",
+    "gender": "das",
+    "danishDefinite": "legetøjet",
+    "danishIndefinite": "et legetøj",
+    "tier": 2
+  },
+  "everyday.doll": {
+    "danish": "dukke",
+    "german": "Puppe",
+    "english": "doll",
+    "gender": "die",
+    "danishDefinite": "dukken",
+    "danishIndefinite": "en dukke",
+    "tier": 2
+  },
+  "everyday.teddy-bear": {
+    "danish": "bamse",
+    "german": "Teddybär",
+    "english": "teddy bear",
+    "gender": "der",
+    "danishDefinite": "bamsen",
+    "danishIndefinite": "en bamse",
+    "tier": 2
+  },
+  "everyday.jigsaw-puzzle": {
+    "danish": "puslespil",
+    "german": "Puzzle",
+    "english": "jigsaw puzzle",
+    "gender": "das",
+    "danishDefinite": "puslespillet",
+    "danishIndefinite": "et puslespil",
+    "tier": 2
+  },
+  "everyday.board-game": {
+    "danish": "brætspil",
+    "german": "Brettspiel",
+    "english": "board game",
+    "gender": "das",
+    "danishDefinite": "brætspillet",
+    "danishIndefinite": "et brætspil",
+    "tier": 2
+  },
+  "everyday.dice": {
+    "danish": "terning",
+    "german": "Würfel",
+    "english": "dice",
+    "gender": "der",
+    "danishDefinite": "terningen",
+    "danishIndefinite": "en terning",
+    "tier": 2
   }
 }

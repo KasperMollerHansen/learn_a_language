@@ -1,0 +1,1427 @@
+{
+  "countries.denmark": {
+    "danish": "Danmark",
+    "german": "Dänemark",
+    "english": "Denmark",
+    "gender": "das",
+    "danishDefinite": "Danmark",
+    "danishIndefinite": "Danmark",
+    "tier": 1
+  },
+  "countries.germany": {
+    "danish": "Tyskland",
+    "german": "Deutschland",
+    "english": "Germany",
+    "gender": "das",
+    "danishDefinite": "Tyskland",
+    "danishIndefinite": "Tyskland",
+    "tier": 1
+  },
+  "countries.sweden": {
+    "danish": "Sverige",
+    "german": "Schweden",
+    "english": "Sweden",
+    "gender": "das",
+    "danishDefinite": "Sverige",
+    "danishIndefinite": "Sverige",
+    "tier": 1
+  },
+  "countries.norway": {
+    "danish": "Norge",
+    "german": "Norwegen",
+    "english": "Norway",
+    "gender": "das",
+    "danishDefinite": "Norge",
+    "danishIndefinite": "Norge",
+    "tier": 1
+  },
+  "countries.finland": {
+    "danish": "Finland",
+    "german": "Finnland",
+    "english": "Finland",
+    "gender": "das",
+    "danishDefinite": "Finland",
+    "danishIndefinite": "Finland",
+    "tier": 1
+  },
+  "countries.iceland": {
+    "danish": "Island",
+    "german": "Island",
+    "english": "Iceland",
+    "gender": "das",
+    "danishDefinite": "Island",
+    "danishIndefinite": "Island",
+    "tier": 2
+  },
+  "countries.france": {
+    "danish": "Frankrig",
+    "german": "Frankreich",
+    "english": "France",
+    "gender": "das",
+    "danishDefinite": "Frankrig",
+    "danishIndefinite": "Frankrig",
+    "tier": 1
+  },
+  "countries.spain": {
+    "danish": "Spanien",
+    "german": "Spanien",
+    "english": "Spain",
+    "gender": "das",
+    "danishDefinite": "Spanien",
+    "danishIndefinite": "Spanien",
+    "tier": 1
+  },
+  "countries.italy": {
+    "danish": "Italien",
+    "german": "Italien",
+    "english": "Italy",
+    "gender": "das",
+    "danishDefinite": "Italien",
+    "danishIndefinite": "Italien",
+    "tier": 1
+  },
+  "countries.portugal": {
+    "danish": "Portugal",
+    "german": "Portugal",
+    "english": "Portugal",
+    "gender": "das",
+    "danishDefinite": "Portugal",
+    "danishIndefinite": "Portugal",
+    "tier": 1
+  },
+  "countries.greece": {
+    "danish": "Grækenland",
+    "german": "Griechenland",
+    "english": "Greece",
+    "gender": "das",
+    "danishDefinite": "Grækenland",
+    "danishIndefinite": "Grækenland",
+    "tier": 1
+  },
+  "countries.poland": {
+    "danish": "Polen",
+    "german": "Polen",
+    "english": "Poland",
+    "gender": "das",
+    "danishDefinite": "Polen",
+    "danishIndefinite": "Polen",
+    "tier": 1
+  },
+  "countries.austria": {
+    "danish": "Østrig",
+    "german": "Österreich",
+    "english": "Austria",
+    "gender": "das",
+    "danishDefinite": "Østrig",
+    "danishIndefinite": "Østrig",
+    "tier": 1
+  },
+  "countries.belgium": {
+    "danish": "Belgien",
+    "german": "Belgien",
+    "english": "Belgium",
+    "gender": "das",
+    "danishDefinite": "Belgien",
+    "danishIndefinite": "Belgien",
+    "tier": 1
+  },
+  "countries.switzerland": {
+    "danish": "Schweiz",
+    "german": "Schweiz",
+    "english": "Switzerland",
+    "gender": "die",
+    "danishDefinite": "Schweiz",
+    "danishIndefinite": "Schweiz",
+    "tier": 1
+  },
+  "countries.turkey": {
+    "danish": "Tyrkiet",
+    "german": "Türkei",
+    "english": "Turkey",
+    "gender": "die",
+    "danishDefinite": "Tyrkiet",
+    "danishIndefinite": "Tyrkiet",
+    "tier": 1
+  },
+  "countries.ukraine": {
+    "danish": "Ukraine",
+    "german": "Ukraine",
+    "english": "Ukraine",
+    "gender": "die",
+    "danishDefinite": "Ukraine",
+    "danishIndefinite": "Ukraine",
+    "tier": 2
+  },
+  "countries.slovakia": {
+    "danish": "Slovakiet",
+    "german": "Slowakei",
+    "english": "Slovakia",
+    "gender": "die",
+    "danishDefinite": "Slovakiet",
+    "danishIndefinite": "Slovakiet",
+    "tier": 2
+  },
+  "countries.czechia": {
+    "danish": "Tjekkiet",
+    "german": "Tschechien",
+    "english": "Czechia",
+    "gender": "das",
+    "danishDefinite": "Tjekkiet",
+    "danishIndefinite": "Tjekkiet",
+    "tier": 2
+  },
+  "countries.hungary": {
+    "danish": "Ungarn",
+    "german": "Ungarn",
+    "english": "Hungary",
+    "gender": "das",
+    "danishDefinite": "Ungarn",
+    "danishIndefinite": "Ungarn",
+    "tier": 2
+  },
+  "countries.romania": {
+    "danish": "Rumænien",
+    "german": "Rumänien",
+    "english": "Romania",
+    "gender": "das",
+    "danishDefinite": "Rumænien",
+    "danishIndefinite": "Rumænien",
+    "tier": 2
+  },
+  "countries.bulgaria": {
+    "danish": "Bulgarien",
+    "german": "Bulgarien",
+    "english": "Bulgaria",
+    "gender": "das",
+    "danishDefinite": "Bulgarien",
+    "danishIndefinite": "Bulgarien",
+    "tier": 2
+  },
+  "countries.croatia": {
+    "danish": "Kroatien",
+    "german": "Kroatien",
+    "english": "Croatia",
+    "gender": "das",
+    "danishDefinite": "Kroatien",
+    "danishIndefinite": "Kroatien",
+    "tier": 2
+  },
+  "countries.serbia": {
+    "danish": "Serbien",
+    "german": "Serbien",
+    "english": "Serbia",
+    "gender": "das",
+    "danishDefinite": "Serbien",
+    "danishIndefinite": "Serbien",
+    "tier": 2
+  },
+  "countries.slovenia": {
+    "danish": "Slovenien",
+    "german": "Slowenien",
+    "english": "Slovenia",
+    "gender": "das",
+    "danishDefinite": "Slovenien",
+    "danishIndefinite": "Slovenien",
+    "tier": 2
+  },
+  "countries.estonia": {
+    "danish": "Estland",
+    "german": "Estland",
+    "english": "Estonia",
+    "gender": "das",
+    "danishDefinite": "Estland",
+    "danishIndefinite": "Estland",
+    "tier": 2
+  },
+  "countries.latvia": {
+    "danish": "Letland",
+    "german": "Lettland",
+    "english": "Latvia",
+    "gender": "das",
+    "danishDefinite": "Letland",
+    "danishIndefinite": "Letland",
+    "tier": 2
+  },
+  "countries.lithuania": {
+    "danish": "Litauen",
+    "german": "Litauen",
+    "english": "Lithuania",
+    "gender": "das",
+    "danishDefinite": "Litauen",
+    "danishIndefinite": "Litauen",
+    "tier": 2
+  },
+  "countries.ireland": {
+    "danish": "Irland",
+    "german": "Irland",
+    "english": "Ireland",
+    "gender": "das",
+    "danishDefinite": "Irland",
+    "danishIndefinite": "Irland",
+    "tier": 1
+  },
+  "countries.great-britain": {
+    "danish": "Storbritannien",
+    "german": "Großbritannien",
+    "english": "Great Britain",
+    "gender": "das",
+    "danishDefinite": "Storbritannien",
+    "danishIndefinite": "Storbritannien",
+    "tier": 1
+  },
+  "countries.england": {
+    "danish": "England",
+    "german": "England",
+    "english": "England",
+    "gender": "das",
+    "danishDefinite": "England",
+    "danishIndefinite": "England",
+    "tier": 1
+  },
+  "countries.scotland": {
+    "danish": "Skotland",
+    "german": "Schottland",
+    "english": "Scotland",
+    "gender": "das",
+    "danishDefinite": "Skotland",
+    "danishIndefinite": "Skotland",
+    "tier": 2
+  },
+  "countries.russia": {
+    "danish": "Rusland",
+    "german": "Russland",
+    "english": "Russia",
+    "gender": "das",
+    "danishDefinite": "Rusland",
+    "danishIndefinite": "Rusland",
+    "tier": 1
+  },
+  "countries.belarus": {
+    "danish": "Hviderusland",
+    "german": "Belarus",
+    "english": "Belarus",
+    "gender": "das",
+    "danishDefinite": "Hviderusland",
+    "danishIndefinite": "Hviderusland",
+    "tier": 3
+  },
+  "countries.china": {
+    "danish": "Kina",
+    "german": "China",
+    "english": "China",
+    "gender": "das",
+    "danishDefinite": "Kina",
+    "danishIndefinite": "Kina",
+    "tier": 1
+  },
+  "countries.japan": {
+    "danish": "Japan",
+    "german": "Japan",
+    "english": "Japan",
+    "gender": "das",
+    "danishDefinite": "Japan",
+    "danishIndefinite": "Japan",
+    "tier": 1
+  },
+  "countries.india": {
+    "danish": "Indien",
+    "german": "Indien",
+    "english": "India",
+    "gender": "das",
+    "danishDefinite": "Indien",
+    "danishIndefinite": "Indien",
+    "tier": 1
+  },
+  "countries.south-korea": {
+    "danish": "Sydkorea",
+    "german": "Südkorea",
+    "english": "South Korea",
+    "gender": "das",
+    "danishDefinite": "Sydkorea",
+    "danishIndefinite": "Sydkorea",
+    "tier": 2
+  },
+  "countries.north-korea": {
+    "danish": "Nordkorea",
+    "german": "Nordkorea",
+    "english": "North Korea",
+    "gender": "das",
+    "danishDefinite": "Nordkorea",
+    "danishIndefinite": "Nordkorea",
+    "tier": 2
+  },
+  "countries.thailand": {
+    "danish": "Thailand",
+    "german": "Thailand",
+    "english": "Thailand",
+    "gender": "das",
+    "danishDefinite": "Thailand",
+    "danishIndefinite": "Thailand",
+    "tier": 1
+  },
+  "countries.vietnam": {
+    "danish": "Vietnam",
+    "german": "Vietnam",
+    "english": "Vietnam",
+    "gender": "das",
+    "danishDefinite": "Vietnam",
+    "danishIndefinite": "Vietnam",
+    "tier": 2
+  },
+  "countries.indonesia": {
+    "danish": "Indonesien",
+    "german": "Indonesien",
+    "english": "Indonesia",
+    "gender": "das",
+    "danishDefinite": "Indonesien",
+    "danishIndefinite": "Indonesien",
+    "tier": 2
+  },
+  "countries.malaysia": {
+    "danish": "Malaysia",
+    "german": "Malaysia",
+    "english": "Malaysia",
+    "gender": "das",
+    "danishDefinite": "Malaysia",
+    "danishIndefinite": "Malaysia",
+    "tier": 2
+  },
+  "countries.singapore": {
+    "danish": "Singapore",
+    "german": "Singapur",
+    "english": "Singapore",
+    "gender": "das",
+    "danishDefinite": "Singapore",
+    "danishIndefinite": "Singapore",
+    "tier": 2
+  },
+  "countries.pakistan": {
+    "danish": "Pakistan",
+    "german": "Pakistan",
+    "english": "Pakistan",
+    "gender": "das",
+    "danishDefinite": "Pakistan",
+    "danishIndefinite": "Pakistan",
+    "tier": 2
+  },
+  "countries.bangladesh": {
+    "danish": "Bangladesh",
+    "german": "Bangladesch",
+    "english": "Bangladesh",
+    "gender": "das",
+    "danishDefinite": "Bangladesh",
+    "danishIndefinite": "Bangladesh",
+    "tier": 3
+  },
+  "countries.afghanistan": {
+    "danish": "Afghanistan",
+    "german": "Afghanistan",
+    "english": "Afghanistan",
+    "gender": "das",
+    "danishDefinite": "Afghanistan",
+    "danishIndefinite": "Afghanistan",
+    "tier": 2
+  },
+  "countries.israel": {
+    "danish": "Israel",
+    "german": "Israel",
+    "english": "Israel",
+    "gender": "das",
+    "danishDefinite": "Israel",
+    "danishIndefinite": "Israel",
+    "tier": 2
+  },
+  "countries.syria": {
+    "danish": "Syrien",
+    "german": "Syrien",
+    "english": "Syria",
+    "gender": "das",
+    "danishDefinite": "Syrien",
+    "danishIndefinite": "Syrien",
+    "tier": 2
+  },
+  "countries.jordan": {
+    "danish": "Jordan",
+    "german": "Jordanien",
+    "english": "Jordan",
+    "gender": "das",
+    "danishDefinite": "Jordan",
+    "danishIndefinite": "Jordan",
+    "tier": 3
+  },
+  "countries.saudi-arabia": {
+    "danish": "Saudi-Arabien",
+    "german": "Saudi-Arabien",
+    "english": "Saudi Arabia",
+    "gender": "das",
+    "danishDefinite": "Saudi-Arabien",
+    "danishIndefinite": "Saudi-Arabien",
+    "tier": 2
+  },
+  "countries.egypt": {
+    "danish": "Egypten",
+    "german": "Ägypten",
+    "english": "Egypt",
+    "gender": "das",
+    "danishDefinite": "Egypten",
+    "danishIndefinite": "Egypten",
+    "tier": 1
+  },
+  "countries.morocco": {
+    "danish": "Marokko",
+    "german": "Marokko",
+    "english": "Morocco",
+    "gender": "das",
+    "danishDefinite": "Marokko",
+    "danishIndefinite": "Marokko",
+    "tier": 2
+  },
+  "countries.algeria": {
+    "danish": "Algeriet",
+    "german": "Algerien",
+    "english": "Algeria",
+    "gender": "das",
+    "danishDefinite": "Algeriet",
+    "danishIndefinite": "Algeriet",
+    "tier": 3
+  },
+  "countries.tunisia": {
+    "danish": "Tunesien",
+    "german": "Tunesien",
+    "english": "Tunisia",
+    "gender": "das",
+    "danishDefinite": "Tunesien",
+    "danishIndefinite": "Tunesien",
+    "tier": 2
+  },
+  "countries.libya": {
+    "danish": "Libyen",
+    "german": "Libyen",
+    "english": "Libya",
+    "gender": "das",
+    "danishDefinite": "Libyen",
+    "danishIndefinite": "Libyen",
+    "tier": 3
+  },
+  "countries.ethiopia": {
+    "danish": "Etiopien",
+    "german": "Äthiopien",
+    "english": "Ethiopia",
+    "gender": "das",
+    "danishDefinite": "Etiopien",
+    "danishIndefinite": "Etiopien",
+    "tier": 3
+  },
+  "countries.kenya": {
+    "danish": "Kenya",
+    "german": "Kenia",
+    "english": "Kenya",
+    "gender": "das",
+    "danishDefinite": "Kenya",
+    "danishIndefinite": "Kenya",
+    "tier": 2
+  },
+  "countries.tanzania": {
+    "danish": "Tanzania",
+    "german": "Tansania",
+    "english": "Tanzania",
+    "gender": "das",
+    "danishDefinite": "Tanzania",
+    "danishIndefinite": "Tanzania",
+    "tier": 3
+  },
+  "countries.nigeria": {
+    "danish": "Nigeria",
+    "german": "Nigeria",
+    "english": "Nigeria",
+    "gender": "das",
+    "danishDefinite": "Nigeria",
+    "danishIndefinite": "Nigeria",
+    "tier": 2
+  },
+  "countries.ghana": {
+    "danish": "Ghana",
+    "german": "Ghana",
+    "english": "Ghana",
+    "gender": "das",
+    "danishDefinite": "Ghana",
+    "danishIndefinite": "Ghana",
+    "tier": 3
+  },
+  "countries.south-africa": {
+    "danish": "Sydafrika",
+    "german": "Südafrika",
+    "english": "South Africa",
+    "gender": "das",
+    "danishDefinite": "Sydafrika",
+    "danishIndefinite": "Sydafrika",
+    "tier": 2
+  },
+  "countries.uganda": {
+    "danish": "Uganda",
+    "german": "Uganda",
+    "english": "Uganda",
+    "gender": "das",
+    "danishDefinite": "Uganda",
+    "danishIndefinite": "Uganda",
+    "tier": 3
+  },
+  "countries.somalia": {
+    "danish": "Somalia",
+    "german": "Somalia",
+    "english": "Somalia",
+    "gender": "das",
+    "danishDefinite": "Somalia",
+    "danishIndefinite": "Somalia",
+    "tier": 3
+  },
+  "countries.senegal": {
+    "danish": "Senegal",
+    "german": "Senegal",
+    "english": "Senegal",
+    "gender": "der",
+    "danishDefinite": "Senegal",
+    "danishIndefinite": "Senegal",
+    "tier": 3
+  },
+  "countries.mali": {
+    "danish": "Mali",
+    "german": "Mali",
+    "english": "Mali",
+    "gender": "das",
+    "danishDefinite": "Mali",
+    "danishIndefinite": "Mali",
+    "tier": 3
+  },
+  "countries.madagascar": {
+    "danish": "Madagaskar",
+    "german": "Madagaskar",
+    "english": "Madagascar",
+    "gender": "das",
+    "danishDefinite": "Madagaskar",
+    "danishIndefinite": "Madagaskar",
+    "tier": 3
+  },
+  "countries.canada": {
+    "danish": "Canada",
+    "german": "Kanada",
+    "english": "Canada",
+    "gender": "das",
+    "danishDefinite": "Canada",
+    "danishIndefinite": "Canada",
+    "tier": 1
+  },
+  "countries.mexico": {
+    "danish": "Mexico",
+    "german": "Mexiko",
+    "english": "Mexico",
+    "gender": "das",
+    "danishDefinite": "Mexico",
+    "danishIndefinite": "Mexico",
+    "tier": 1
+  },
+  "countries.cuba": {
+    "danish": "Cuba",
+    "german": "Kuba",
+    "english": "Cuba",
+    "gender": "das",
+    "danishDefinite": "Cuba",
+    "danishIndefinite": "Cuba",
+    "tier": 2
+  },
+  "countries.brazil": {
+    "danish": "Brasilien",
+    "german": "Brasilien",
+    "english": "Brazil",
+    "gender": "das",
+    "danishDefinite": "Brasilien",
+    "danishIndefinite": "Brasilien",
+    "tier": 1
+  },
+  "countries.argentina": {
+    "danish": "Argentina",
+    "german": "Argentinien",
+    "english": "Argentina",
+    "gender": "das",
+    "danishDefinite": "Argentina",
+    "danishIndefinite": "Argentina",
+    "tier": 2
+  },
+  "countries.chile": {
+    "danish": "Chile",
+    "german": "Chile",
+    "english": "Chile",
+    "gender": "das",
+    "danishDefinite": "Chile",
+    "danishIndefinite": "Chile",
+    "tier": 2
+  },
+  "countries.peru": {
+    "danish": "Peru",
+    "german": "Peru",
+    "english": "Peru",
+    "gender": "das",
+    "danishDefinite": "Peru",
+    "danishIndefinite": "Peru",
+    "tier": 2
+  },
+  "countries.colombia": {
+    "danish": "Colombia",
+    "german": "Kolumbien",
+    "english": "Colombia",
+    "gender": "das",
+    "danishDefinite": "Colombia",
+    "danishIndefinite": "Colombia",
+    "tier": 2
+  },
+  "countries.venezuela": {
+    "danish": "Venezuela",
+    "german": "Venezuela",
+    "english": "Venezuela",
+    "gender": "das",
+    "danishDefinite": "Venezuela",
+    "danishIndefinite": "Venezuela",
+    "tier": 3
+  },
+  "countries.bolivia": {
+    "danish": "Bolivia",
+    "german": "Bolivien",
+    "english": "Bolivia",
+    "gender": "das",
+    "danishDefinite": "Bolivia",
+    "danishIndefinite": "Bolivia",
+    "tier": 3
+  },
+  "countries.uruguay": {
+    "danish": "Uruguay",
+    "german": "Uruguay",
+    "english": "Uruguay",
+    "gender": "das",
+    "danishDefinite": "Uruguay",
+    "danishIndefinite": "Uruguay",
+    "tier": 3
+  },
+  "countries.paraguay": {
+    "danish": "Paraguay",
+    "german": "Paraguay",
+    "english": "Paraguay",
+    "gender": "das",
+    "danishDefinite": "Paraguay",
+    "danishIndefinite": "Paraguay",
+    "tier": 3
+  },
+  "countries.ecuador": {
+    "danish": "Ecuador",
+    "german": "Ecuador",
+    "english": "Ecuador",
+    "gender": "das",
+    "danishDefinite": "Ecuador",
+    "danishIndefinite": "Ecuador",
+    "tier": 3
+  },
+  "countries.australia": {
+    "danish": "Australien",
+    "german": "Australien",
+    "english": "Australia",
+    "gender": "das",
+    "danishDefinite": "Australien",
+    "danishIndefinite": "Australien",
+    "tier": 1
+  },
+  "countries.new-zealand": {
+    "danish": "New Zealand",
+    "german": "Neuseeland",
+    "english": "New Zealand",
+    "gender": "das",
+    "danishDefinite": "New Zealand",
+    "danishIndefinite": "New Zealand",
+    "tier": 2
+  },
+  "countries.greenland": {
+    "danish": "Grønland",
+    "german": "Grönland",
+    "english": "Greenland",
+    "gender": "das",
+    "danishDefinite": "Grønland",
+    "danishIndefinite": "Grønland",
+    "tier": 2
+  },
+  "countries.cyprus": {
+    "danish": "Cypern",
+    "german": "Zypern",
+    "english": "Cyprus",
+    "gender": "das",
+    "danishDefinite": "Cypern",
+    "danishIndefinite": "Cypern",
+    "tier": 3
+  },
+  "countries.malta": {
+    "danish": "Malta",
+    "german": "Malta",
+    "english": "Malta",
+    "gender": "das",
+    "danishDefinite": "Malta",
+    "danishIndefinite": "Malta",
+    "tier": 2
+  },
+  "countries.luxembourg": {
+    "danish": "Luxembourg",
+    "german": "Luxemburg",
+    "english": "Luxembourg",
+    "gender": "das",
+    "danishDefinite": "Luxembourg",
+    "danishIndefinite": "Luxembourg",
+    "tier": 2
+  },
+  "countries.albania": {
+    "danish": "Albanien",
+    "german": "Albanien",
+    "english": "Albania",
+    "gender": "das",
+    "danishDefinite": "Albanien",
+    "danishIndefinite": "Albanien",
+    "tier": 3
+  },
+  "countries.bosnia": {
+    "danish": "Bosnien",
+    "german": "Bosnien",
+    "english": "Bosnia",
+    "gender": "das",
+    "danishDefinite": "Bosnien",
+    "danishIndefinite": "Bosnien",
+    "tier": 3
+  },
+  "countries.montenegro": {
+    "danish": "Montenegro",
+    "german": "Montenegro",
+    "english": "Montenegro",
+    "gender": "das",
+    "danishDefinite": "Montenegro",
+    "danishIndefinite": "Montenegro",
+    "tier": 3
+  },
+  "countries.north-macedonia": {
+    "danish": "Nordmakedonien",
+    "german": "Nordmazedonien",
+    "english": "North Macedonia",
+    "gender": "das",
+    "danishDefinite": "Nordmakedonien",
+    "danishIndefinite": "Nordmakedonien",
+    "tier": 3
+  },
+  "countries.georgia-country": {
+    "danish": "Georgien",
+    "german": "Georgien",
+    "english": "Georgia (country)",
+    "gender": "das",
+    "danishDefinite": "Georgien",
+    "danishIndefinite": "Georgien",
+    "tier": 3
+  },
+  "countries.armenia": {
+    "danish": "Armenien",
+    "german": "Armenien",
+    "english": "Armenia",
+    "gender": "das",
+    "danishDefinite": "Armenien",
+    "danishIndefinite": "Armenien",
+    "tier": 3
+  },
+  "countries.azerbaijan": {
+    "danish": "Aserbajdsjan",
+    "german": "Aserbaidschan",
+    "english": "Azerbaijan",
+    "gender": "das",
+    "danishDefinite": "Aserbajdsjan",
+    "danishIndefinite": "Aserbajdsjan",
+    "tier": 3
+  },
+  "countries.kazakhstan": {
+    "danish": "Kasakhstan",
+    "german": "Kasachstan",
+    "english": "Kazakhstan",
+    "gender": "das",
+    "danishDefinite": "Kasakhstan",
+    "danishIndefinite": "Kasakhstan",
+    "tier": 3
+  },
+  "countries.uzbekistan": {
+    "danish": "Usbekistan",
+    "german": "Usbekistan",
+    "english": "Uzbekistan",
+    "gender": "das",
+    "danishDefinite": "Usbekistan",
+    "danishIndefinite": "Usbekistan",
+    "tier": 3
+  },
+  "countries.nepal": {
+    "danish": "Nepal",
+    "german": "Nepal",
+    "english": "Nepal",
+    "gender": "das",
+    "danishDefinite": "Nepal",
+    "danishIndefinite": "Nepal",
+    "tier": 3
+  },
+  "countries.sri-lanka": {
+    "danish": "Sri Lanka",
+    "german": "Sri Lanka",
+    "english": "Sri Lanka",
+    "gender": "das",
+    "danishDefinite": "Sri Lanka",
+    "danishIndefinite": "Sri Lanka",
+    "tier": 3
+  },
+  "countries.myanmar": {
+    "danish": "Myanmar",
+    "german": "Myanmar",
+    "english": "Myanmar",
+    "gender": "das",
+    "danishDefinite": "Myanmar",
+    "danishIndefinite": "Myanmar",
+    "tier": 3
+  },
+  "countries.cambodia": {
+    "danish": "Cambodja",
+    "german": "Kambodscha",
+    "english": "Cambodia",
+    "gender": "das",
+    "danishDefinite": "Cambodja",
+    "danishIndefinite": "Cambodja",
+    "tier": 3
+  },
+  "countries.laos": {
+    "danish": "Laos",
+    "german": "Laos",
+    "english": "Laos",
+    "gender": "das",
+    "danishDefinite": "Laos",
+    "danishIndefinite": "Laos",
+    "tier": 3
+  },
+  "countries.jamaica": {
+    "danish": "Jamaica",
+    "german": "Jamaika",
+    "english": "Jamaica",
+    "gender": "das",
+    "danishDefinite": "Jamaica",
+    "danishIndefinite": "Jamaica",
+    "tier": 3
+  },
+  "countries.haiti": {
+    "danish": "Haiti",
+    "german": "Haiti",
+    "english": "Haiti",
+    "gender": "das",
+    "danishDefinite": "Haiti",
+    "danishIndefinite": "Haiti",
+    "tier": 3
+  },
+  "countries.panama": {
+    "danish": "Panama",
+    "german": "Panama",
+    "english": "Panama",
+    "gender": "das",
+    "danishDefinite": "Panama",
+    "danishIndefinite": "Panama",
+    "tier": 3
+  },
+  "countries.costa-rica": {
+    "danish": "Costa Rica",
+    "german": "Costa Rica",
+    "english": "Costa Rica",
+    "gender": "das",
+    "danishDefinite": "Costa Rica",
+    "danishIndefinite": "Costa Rica",
+    "tier": 3
+  },
+  "countries.kuwait": {
+    "danish": "Kuwait",
+    "german": "Kuwait",
+    "english": "Kuwait",
+    "gender": "das",
+    "danishDefinite": "Kuwait",
+    "danishIndefinite": "Kuwait",
+    "tier": 3
+  },
+  "countries.qatar": {
+    "danish": "Qatar",
+    "german": "Katar",
+    "english": "Qatar",
+    "gender": "das",
+    "danishDefinite": "Qatar",
+    "danishIndefinite": "Qatar",
+    "tier": 3
+  },
+  "countries.oman": {
+    "danish": "Oman",
+    "german": "Oman",
+    "english": "Oman",
+    "gender": "das",
+    "danishDefinite": "Oman",
+    "danishIndefinite": "Oman",
+    "tier": 3
+  },
+  "countries.iran": {
+    "danish": "Iran",
+    "german": "Iran",
+    "english": "Iran",
+    "gender": "der",
+    "danishDefinite": "Iran",
+    "danishIndefinite": "Iran",
+    "tier": 2
+  },
+  "countries.iraq": {
+    "danish": "Irak",
+    "german": "Irak",
+    "english": "Iraq",
+    "gender": "der",
+    "danishDefinite": "Irak",
+    "danishIndefinite": "Irak",
+    "tier": 2
+  },
+  "countries.lebanon": {
+    "danish": "Libanon",
+    "german": "Libanon",
+    "english": "Lebanon",
+    "gender": "der",
+    "danishDefinite": "Libanon",
+    "danishIndefinite": "Libanon",
+    "tier": 3
+  },
+  "countries.yemen": {
+    "danish": "Yemen",
+    "german": "Jemen",
+    "english": "Yemen",
+    "gender": "der",
+    "danishDefinite": "Yemen",
+    "danishIndefinite": "Yemen",
+    "tier": 3
+  },
+  "countries.sudan": {
+    "danish": "Sudan",
+    "german": "Sudan",
+    "english": "Sudan",
+    "gender": "der",
+    "danishDefinite": "Sudan",
+    "danishIndefinite": "Sudan",
+    "tier": 3
+  },
+  "countries.congo": {
+    "danish": "Congo",
+    "german": "Kongo",
+    "english": "Congo",
+    "gender": "der",
+    "danishDefinite": "Congo",
+    "danishIndefinite": "Congo",
+    "tier": 3
+  },
+  "countries.niger": {
+    "danish": "Niger",
+    "german": "Niger",
+    "english": "Niger",
+    "gender": "der",
+    "danishDefinite": "Niger",
+    "danishIndefinite": "Niger",
+    "tier": 3
+  },
+  "countries.chad": {
+    "danish": "Tchad",
+    "german": "Tschad",
+    "english": "Chad",
+    "gender": "der",
+    "danishDefinite": "Tchad",
+    "danishIndefinite": "Tchad",
+    "tier": 3
+  },
+  "countries.mongolia": {
+    "danish": "Mongoliet",
+    "german": "Mongolei",
+    "english": "Mongolia",
+    "gender": "die",
+    "danishDefinite": "Mongoliet",
+    "danishIndefinite": "Mongoliet",
+    "tier": 3
+  },
+  "countries.europe": {
+    "danish": "Europa",
+    "german": "Europa",
+    "english": "Europe",
+    "gender": "das",
+    "danishDefinite": "Europa",
+    "danishIndefinite": "Europa",
+    "tier": 1
+  },
+  "countries.asia": {
+    "danish": "Asien",
+    "german": "Asien",
+    "english": "Asia",
+    "gender": "das",
+    "danishDefinite": "Asien",
+    "danishIndefinite": "Asien",
+    "tier": 1
+  },
+  "countries.africa": {
+    "danish": "Afrika",
+    "german": "Afrika",
+    "english": "Africa",
+    "gender": "das",
+    "danishDefinite": "Afrika",
+    "danishIndefinite": "Afrika",
+    "tier": 1
+  },
+  "countries.north-america": {
+    "danish": "Nordamerika",
+    "german": "Nordamerika",
+    "english": "North America",
+    "gender": "das",
+    "danishDefinite": "Nordamerika",
+    "danishIndefinite": "Nordamerika",
+    "tier": 2
+  },
+  "countries.south-america": {
+    "danish": "Sydamerika",
+    "german": "Südamerika",
+    "english": "South America",
+    "gender": "das",
+    "danishDefinite": "Sydamerika",
+    "danishIndefinite": "Sydamerika",
+    "tier": 2
+  },
+  "countries.antarctica": {
+    "danish": "Antarktis",
+    "german": "Antarktis",
+    "english": "Antarctica",
+    "gender": "die",
+    "danishDefinite": "Antarktis",
+    "danishIndefinite": "Antarktis",
+    "tier": 2
+  },
+  "countries.dane": {
+    "danish": "dansker",
+    "german": "Däne",
+    "english": "Dane",
+    "gender": "der",
+    "danishDefinite": "danskeren",
+    "danishIndefinite": "en dansker",
+    "tier": 1
+  },
+  "countries.swede": {
+    "danish": "svensker",
+    "german": "Schwede",
+    "english": "Swede",
+    "gender": "der",
+    "danishDefinite": "svenskeren",
+    "danishIndefinite": "en svensker",
+    "tier": 1
+  },
+  "countries.norwegian-person": {
+    "danish": "nordmand",
+    "german": "Norweger",
+    "english": "Norwegian person",
+    "gender": "der",
+    "danishDefinite": "nordmanden",
+    "danishIndefinite": "en nordmand",
+    "tier": 1
+  },
+  "countries.finn": {
+    "danish": "finne",
+    "german": "Finne",
+    "english": "Finn",
+    "gender": "der",
+    "danishDefinite": "finnen",
+    "danishIndefinite": "en finne",
+    "tier": 2
+  },
+  "countries.frenchman": {
+    "danish": "franskmand",
+    "german": "Franzose",
+    "english": "Frenchman",
+    "gender": "der",
+    "danishDefinite": "franskmanden",
+    "danishIndefinite": "en franskmand",
+    "tier": 1
+  },
+  "countries.spaniard": {
+    "danish": "spanier",
+    "german": "Spanier",
+    "english": "Spaniard",
+    "gender": "der",
+    "danishDefinite": "spanieren",
+    "danishIndefinite": "en spanier",
+    "tier": 1
+  },
+  "countries.italian-person": {
+    "danish": "italiener",
+    "german": "Italiener",
+    "english": "Italian person",
+    "gender": "der",
+    "danishDefinite": "italieneren",
+    "danishIndefinite": "en italiener",
+    "tier": 1
+  },
+  "countries.englishman": {
+    "danish": "englænder",
+    "german": "Engländer",
+    "english": "Englishman",
+    "gender": "der",
+    "danishDefinite": "englænderen",
+    "danishIndefinite": "en englænder",
+    "tier": 1
+  },
+  "countries.pole": {
+    "danish": "polak",
+    "german": "Pole",
+    "english": "Pole",
+    "gender": "der",
+    "danishDefinite": "polakken",
+    "danishIndefinite": "en polak",
+    "tier": 2
+  },
+  "countries.austrian-person": {
+    "danish": "østriger",
+    "german": "Österreicher",
+    "english": "Austrian person",
+    "gender": "der",
+    "danishDefinite": "østrigeren",
+    "danishIndefinite": "en østriger",
+    "tier": 2
+  },
+  "countries.swiss-person": {
+    "danish": "schweizer",
+    "german": "Schweizer",
+    "english": "Swiss person",
+    "gender": "der",
+    "danishDefinite": "schweizeren",
+    "danishIndefinite": "en schweizer",
+    "tier": 2
+  },
+  "countries.turk": {
+    "danish": "tyrker",
+    "german": "Türke",
+    "english": "Turk",
+    "gender": "der",
+    "danishDefinite": "tyrkeren",
+    "danishIndefinite": "en tyrker",
+    "tier": 2
+  },
+  "countries.greek-person": {
+    "danish": "græker",
+    "german": "Grieche",
+    "english": "Greek person",
+    "gender": "der",
+    "danishDefinite": "grækeren",
+    "danishIndefinite": "en græker",
+    "tier": 2
+  },
+  "countries.russian-person": {
+    "danish": "russer",
+    "german": "Russe",
+    "english": "Russian person",
+    "gender": "der",
+    "danishDefinite": "russeren",
+    "danishIndefinite": "en russer",
+    "tier": 2
+  },
+  "countries.american-person": {
+    "danish": "amerikaner",
+    "german": "Amerikaner",
+    "english": "American person",
+    "gender": "der",
+    "danishDefinite": "amerikaneren",
+    "danishIndefinite": "en amerikaner",
+    "tier": 1
+  },
+  "countries.chinese-person": {
+    "danish": "kineser",
+    "german": "Chinese",
+    "english": "Chinese person",
+    "gender": "der",
+    "danishDefinite": "kineseren",
+    "danishIndefinite": "en kineser",
+    "tier": 2
+  },
+  "countries.japanese-person": {
+    "danish": "japaner",
+    "german": "Japaner",
+    "english": "Japanese person",
+    "gender": "der",
+    "danishDefinite": "japaneren",
+    "danishIndefinite": "en japaner",
+    "tier": 2
+  },
+  "countries.indian-person": {
+    "danish": "inder",
+    "german": "Inder",
+    "english": "Indian person",
+    "gender": "der",
+    "danishDefinite": "inderen",
+    "danishIndefinite": "en inder",
+    "tier": 2
+  },
+  "countries.european-person": {
+    "danish": "europæer",
+    "german": "Europäer",
+    "english": "European person",
+    "gender": "der",
+    "danishDefinite": "europæeren",
+    "danishIndefinite": "en europæer",
+    "tier": 2
+  },
+  "countries.african-person": {
+    "danish": "afrikaner",
+    "german": "Afrikaner",
+    "english": "African person",
+    "gender": "der",
+    "danishDefinite": "afrikaneren",
+    "danishIndefinite": "en afrikaner",
+    "tier": 3
+  },
+  "countries.asian-person": {
+    "danish": "asiat",
+    "german": "Asiat",
+    "english": "Asian person",
+    "gender": "der",
+    "danishDefinite": "asiaten",
+    "danishIndefinite": "en asiat",
+    "tier": 3
+  },
+  "countries.danish": {
+    "danish": "dansk",
+    "german": "dänisch",
+    "english": "Danish",
+    "tier": 1
+  },
+  "countries.german": {
+    "danish": "tysk",
+    "german": "deutsch",
+    "english": "German",
+    "tier": 1
+  },
+  "countries.swedish": {
+    "danish": "svensk",
+    "german": "schwedisch",
+    "english": "Swedish",
+    "tier": 1
+  },
+  "countries.norwegian": {
+    "danish": "norsk",
+    "german": "norwegisch",
+    "english": "Norwegian",
+    "tier": 1
+  },
+  "countries.finnish": {
+    "danish": "finsk",
+    "german": "finnisch",
+    "english": "Finnish",
+    "tier": 2
+  },
+  "countries.icelandic": {
+    "danish": "islandsk",
+    "german": "isländisch",
+    "english": "Icelandic",
+    "tier": 3
+  },
+  "countries.english": {
+    "danish": "engelsk",
+    "german": "englisch",
+    "english": "English",
+    "tier": 1
+  },
+  "countries.french": {
+    "danish": "fransk",
+    "german": "französisch",
+    "english": "French",
+    "tier": 1
+  },
+  "countries.spanish": {
+    "danish": "spansk",
+    "german": "spanisch",
+    "english": "Spanish",
+    "tier": 1
+  },
+  "countries.italian": {
+    "danish": "italiensk",
+    "german": "italienisch",
+    "english": "Italian",
+    "tier": 1
+  },
+  "countries.portuguese": {
+    "danish": "portugisisk",
+    "german": "portugiesisch",
+    "english": "Portuguese",
+    "tier": 2
+  },
+  "countries.dutch": {
+    "danish": "hollandsk",
+    "german": "niederländisch",
+    "english": "Dutch",
+    "tier": 2
+  },
+  "countries.polish": {
+    "danish": "polsk",
+    "german": "polnisch",
+    "english": "Polish",
+    "tier": 2
+  },
+  "countries.turkish": {
+    "danish": "tyrkisk",
+    "german": "türkisch",
+    "english": "Turkish",
+    "tier": 2
+  },
+  "countries.russian": {
+    "danish": "russisk",
+    "german": "russisch",
+    "english": "Russian",
+    "tier": 2
+  },
+  "countries.chinese": {
+    "danish": "kinesisk",
+    "german": "chinesisch",
+    "english": "Chinese",
+    "tier": 2
+  },
+  "countries.japanese": {
+    "danish": "japansk",
+    "german": "japanisch",
+    "english": "Japanese",
+    "tier": 2
+  },
+  "countries.arabic": {
+    "danish": "arabisk",
+    "german": "arabisch",
+    "english": "Arabic",
+    "tier": 2
+  },
+  "countries.greek": {
+    "danish": "græsk",
+    "german": "griechisch",
+    "english": "Greek",
+    "tier": 2
+  },
+  "countries.european": {
+    "danish": "europæisk",
+    "german": "europäisch",
+    "english": "European",
+    "tier": 2
+  },
+  "countries.american": {
+    "danish": "amerikansk",
+    "german": "amerikanisch",
+    "english": "American",
+    "tier": 2
+  },
+  "countries.swiss": {
+    "danish": "schweizisk",
+    "german": "schweizerisch",
+    "english": "Swiss",
+    "tier": 3
+  },
+  "countries.austrian": {
+    "danish": "østrigsk",
+    "german": "österreichisch",
+    "english": "Austrian",
+    "tier": 3
+  }
+}
