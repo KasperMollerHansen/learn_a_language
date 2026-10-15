@@ -208,5 +208,12 @@
     "gender": "der",
     "danishDefinite": "under",
     "danishIndefinite": "under"
+  },
+  "prepositions.at": {
+    "danish": "hos",
+    "german": "bei",
+    "gender": "der",
+    "danishDefinite": "hos",
+    "danishIndefinite": "hos"
   }
 }
