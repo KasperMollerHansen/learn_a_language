@@ -1,44 +1,290 @@
 [
   {
     "id": "2-1",
-    "chapter": "Chapter 2",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "People",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "people",
+      "emotions",
+      "personality",
+      "life"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-2",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "People with articles",
+    "mode": "article",
+    "prompt": "Choose the German form",
+    "categories": [
+      "people"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-3",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Describing words",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "adjectives",
+      "colors",
+      "adverbs"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-4",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Small words",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "prepositions",
+      "function",
+      "numbers",
+      "time"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-5",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Verbs",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "verbs"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-6",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Food and drink",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "food",
+      "drinks",
+      "restaurant"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-7",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Home",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "home",
+      "kitchen",
+      "everyday",
+      "tools",
+      "materials",
+      "office"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-8",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Body and clothes",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "body",
+      "health",
+      "clothing"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-9",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Nature",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "animals",
+      "nature",
+      "garden",
+      "weather"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-10",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Town and travel",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "city",
+      "travel",
+      "transport",
+      "shopping",
+      "countries"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-11",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Free time",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "sport",
+      "music",
+      "hobbies"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-12",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Work and school",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "work",
+      "learning",
+      "technology",
+      "money",
+      "media",
+      "communication",
+      "society",
+      "science",
+      "culture"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-13",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Words that look alike",
+    "mode": "word",
+    "prompt": "Translate the Danish word into German",
+    "categories": [
+      "spelling"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "id": "2-14",
+    "chapter": "Chapter 2 · Everyday",
     "name": "Modal verbs",
     "mode": "word",
     "prompt": "Translate the Danish sentence into German",
     "categories": [
       "modals"
+    ],
+    "tiers": [
+      2
     ]
   },
   {
-    "id": "2-2",
-    "chapter": "Chapter 2",
-    "name": "Common verbs",
+    "id": "2-15",
+    "chapter": "Chapter 2 · Everyday",
+    "name": "Review",
     "mode": "word",
     "prompt": "Find the German word for",
     "categories": [
-      "verbs"
-    ]
-  },
-  {
-    "id": "2-3",
-    "chapter": "Chapter 2",
-    "name": "Everyday things",
-    "mode": "word",
-    "prompt": "Find the German word for",
-    "categories": [
+      "people",
+      "animals",
+      "adjectives",
+      "prepositions",
       "kitchen",
+      "garden",
+      "weather",
       "everyday",
-      "technology"
+      "technology",
+      "work",
+      "learning",
+      "music",
+      "sport",
+      "travel",
+      "city",
+      "spelling",
+      "verbs",
+      "body",
+      "health",
+      "clothing",
+      "emotions",
+      "home",
+      "tools",
+      "materials",
+      "food",
+      "drinks",
+      "restaurant",
+      "nature",
+      "hobbies",
+      "transport",
+      "shopping",
+      "media",
+      "money",
+      "society",
+      "time",
+      "numbers",
+      "colors",
+      "adverbs",
+      "function",
+      "countries",
+      "science",
+      "culture",
+      "personality",
+      "communication",
+      "life",
+      "office"
+    ],
+    "tiers": [
+      1,
+      2
     ]
   },
   {
-    "id": "2-4",
-    "chapter": "Chapter 2",
+    "id": "2-16",
+    "chapter": "Chapter 2 · Everyday",
     "name": "Sentence builder",
     "mode": "sentence",
     "prompt": "Build the German sentence one chunk at a time",
     "categories": [
       "sentence-builder"
+    ],
+    "tiers": [
+      2
     ]
   }
 ]

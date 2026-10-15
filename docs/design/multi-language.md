@@ -69,18 +69,18 @@ the three languages.
 
 ## 4. Progress
 
-New key `wortlauf-progress-v3`; difficulty is global, everything else is per pair:
+New key `wortlauf-progress-v4` (v3 is the chaptered single-pair format); difficulty is global, everything else is per pair:
 
 ```json
-{ "version": 3, "pair": "da-de", "difficulty": "easy", "lastPlayedAt": "...",
-  "pairs": { "da-de": { "tracks": { "easy": {}, "hard": {} }, "currentLevelId": "1-1",
+{ "version": 4, "pair": "da-de", "difficulty": "easy", "lastPlayedAt": "...",
+  "pairs": { "da-de": { "tracks": { "easy": {}, "hard": {} },
                         "correctAnswers": 0, "wrongAnswers": 0, "completedRuns": 0 } } }
 ```
 
-`loadProgress` reads v3, else migrates v2 (or v1, or the oldest key, as today) into
-`pairs["da-de"]` with `pair: "da-de"`. Old keys stay untouched. No saved progress means no
-`pair`, which shows the pair screen. `unlockedLevel` stays an index into that pair's filtered
-level list; for `da-de` the list is unchanged, so migrated progress stays exact.
+`loadProgress` reads v4, else migrates v3 into `pairs["da-de"]` with `pair: "da-de"`. Old keys
+stay untouched. No saved progress means no `pair`, which shows the pair screen. Unlocking is
+already by level id (a level opens when every level above it is cleared), so a pair whose
+filtered list hides some levels only needs the "above it" check to run over its own list.
 
 ## 5. Levels
 

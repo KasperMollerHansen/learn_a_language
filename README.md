@@ -20,20 +20,21 @@ Chrome, use **Install app** or **Add to Home screen**. On iPhone, open the URL i
 then **Add to Home Screen**. The game must be served from HTTPS (or localhost) for installation
 and offline caching to work; opening `index.html` directly is only suitable for a quick look.
 
-## First levels
+## Levels
 
-### Chapter 1 - The basic
-- **1-1 People:** family, friends, jobs and everyday people.
-- **1-2 Tilægsord:** adjectives for describing people and things.
-- **1-3 Forholdsord:** common prepositions and place relationships.
-- **1-4 People with articles:** people nouns practiced with German definite and indefinite forms.
-- **1-5 Animals:** familiar animal names.
-- **1-6 Words that look alike:** Danish-German cognates and near-cognates, with attention to spelling changes.
+There are three chapters, one per word tier: **Chapter 1 · Basics** uses only tier-1 words,
+**Chapter 2 · Everyday** tier 2 and **Chapter 3 · Advanced** tier 3. Every chapter has the same shape:
 
-### Chapter 2 - Verbs and sentences
-- **2-1 Modalverber:** sentence patterns for *können, müssen, wollen, dürfen, sollen,* and *mögen* across five subjects.
-- **2-2 Common verbs:** useful infinitives that can follow modal verbs.
-- **2-3 Everyday things:** household, meal, and technology vocabulary.
+1. **Word levels**, one per theme: People, People with articles (German definite and indefinite
+   forms in all four cases), Describing words, Small words, Verbs, Food and drink, Home, Body and
+   clothes, Nature, Town and travel, Free time, Work and school, and (chapters 1-2) Words that look
+   alike.
+2. **Modal verbs:** short sentences with *können, müssen, wollen, dürfen, sollen* and *mögen*.
+3. **Review:** mixed words from every theme, this chapter's tier and all earlier ones.
+4. **Sentence builder:** build a German sentence one chunk at a time.
+
+Levels are cleared from the top: a level opens once every level above it is cleared, and the menu
+starts on the first level not yet cleared.
 
 - Catch all 30 words before the clock runs out. The Danish prompt sits ahead of the stationary
   gates, and the runner advances toward them for each timed choice. A correct pass speeds up the
@@ -51,9 +52,9 @@ Pick the difficulty with the **Easy / Hard** toggle above the level list. New pl
 | Easy | 2½ minutes (150 s) | ÷ 1.085 | × 1.2 |
 | Hard | 2 minutes (120 s) | ÷ 1.1 | × 1.3 |
 
-Each difficulty keeps its own unlocked levels and cleared levels (marked ✓). Clearing a level on
-Easy counts only for Easy; clearing it on Hard counts for both Hard and Easy. Progress saved by an
-earlier version is copied into both difficulties the first time the new version loads.
+Each difficulty keeps its own cleared levels (marked ✓). Clearing a level on Easy counts only for
+Easy; clearing it on Hard counts for both Hard and Easy. The chaptered levels replaced the old level
+list, so progress from an earlier version keeps only its difficulty and answer counters.
 
 ## Game data
 

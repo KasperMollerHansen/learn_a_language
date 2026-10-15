@@ -1,0 +1,278 @@
+[
+  {
+    "id": "3-1",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "People",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "people",
+      "emotions",
+      "personality",
+      "life"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-2",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "People with articles",
+    "mode": "article",
+    "prompt": "Choose the German form",
+    "categories": [
+      "people"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-3",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Describing words",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "adjectives",
+      "colors",
+      "adverbs"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-4",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Small words",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "prepositions",
+      "function",
+      "numbers",
+      "time"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-5",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Verbs",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "verbs"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-6",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Food and drink",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "food",
+      "drinks",
+      "restaurant"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-7",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Home",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "home",
+      "kitchen",
+      "everyday",
+      "tools",
+      "materials",
+      "office"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-8",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Body and clothes",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "body",
+      "health",
+      "clothing"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-9",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Nature",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "animals",
+      "nature",
+      "garden",
+      "weather"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-10",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Town and travel",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "city",
+      "travel",
+      "transport",
+      "shopping",
+      "countries"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-11",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Free time",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "sport",
+      "music",
+      "hobbies"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-12",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Work and school",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "work",
+      "learning",
+      "technology",
+      "money",
+      "media",
+      "communication",
+      "society",
+      "science",
+      "culture"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-13",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Modal verbs",
+    "mode": "word",
+    "prompt": "Translate the Danish sentence into German",
+    "categories": [
+      "modals"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "id": "3-14",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Review",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "people",
+      "animals",
+      "adjectives",
+      "prepositions",
+      "kitchen",
+      "garden",
+      "weather",
+      "everyday",
+      "technology",
+      "work",
+      "learning",
+      "music",
+      "sport",
+      "travel",
+      "city",
+      "spelling",
+      "verbs",
+      "body",
+      "health",
+      "clothing",
+      "emotions",
+      "home",
+      "tools",
+      "materials",
+      "food",
+      "drinks",
+      "restaurant",
+      "nature",
+      "hobbies",
+      "transport",
+      "shopping",
+      "media",
+      "money",
+      "society",
+      "time",
+      "numbers",
+      "colors",
+      "adverbs",
+      "function",
+      "countries",
+      "science",
+      "culture",
+      "personality",
+      "communication",
+      "life",
+      "office"
+    ],
+    "tiers": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "3-15",
+    "chapter": "Chapter 3 · Advanced",
+    "name": "Sentence builder",
+    "mode": "sentence",
+    "prompt": "Build the German sentence one chunk at a time",
+    "categories": [
+      "sentence-builder"
+    ],
+    "tiers": [
+      3
+    ]
+  }
+]

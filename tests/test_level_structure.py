@@ -1,29 +1,43 @@
-from typing import cast
+from typing import Any, cast
 
 from wordbank import level_word_ids, load_wordbank
 
 
-def test_level_structure_matches_plan() -> None:
+def test_chapters_are_tiers_ending_with_review_then_sentence_builder() -> None:
     bank = load_wordbank()
-    level_ids = [level["id"] for level in bank["levels"]]
-    level_names = [level["name"] for level in bank["levels"]]
+    chapters: dict[int, list[dict[str, Any]]] = {}
+    for level in bank["levels"]:
+        chapters.setdefault(int(level["id"].split("-")[0]), []).append(level)
 
-    assert level_ids == ["1-1", "1-2", "1-3", "1-4", "1-5", "1-6", "2-1", "2-2", "2-3", "2-4"]
-    assert level_names == [
-        "People",
-        "Adjectives",
-        "Prepositions",
-        "People with articles",
-        "Animals",
-        "Words that look alike",
-        "Modal verbs",
-        "Common verbs",
-        "Everyday things",
-        "Sentence builder",
+    assert list(chapters) == [1, 2, 3]
+    for number, levels in chapters.items():
+        assert [level["id"] for level in levels] == [
+            f"{number}-{index}" for index in range(1, len(levels) + 1)
+        ]
+        assert len({level["chapter"] for level in levels}) == 1
+        *words, sentences, review, builder = levels
+        assert sentences["name"] == "Modal verbs"
+        assert review["name"] == "Review"
+        assert builder["mode"] == "sentence"
+        assert all(level["mode"] in {"word", "article"} for level in words)
+        assert review["tiers"] == list(range(1, number + 1))
+        assert all(level["tiers"] == [number] for level in [*words, sentences, builder])
+
+
+def test_every_category_is_in_a_theme_level_and_pools_are_playable() -> None:
+    bank = load_wordbank()
+    themes = [level for level in bank["levels"] if level["name"] != "Review"]
+    categories = {word_id.split(".")[0] for word_id in bank["words"]}
+
+    assert categories == {category for level in themes for category in level["categories"]}
+    assert all(len(level_word_ids(bank, level)) >= 9 for level in bank["levels"])
+    modal_ids = [
+        word_id
+        for level in bank["levels"]
+        if level["name"] == "Modal verbs"
+        for word_id in level_word_ids(bank, level)
     ]
-    assert all(len(level_word_ids(bank, level)) >= 3 for level in bank["levels"])
-    modal_level = next(level for level in bank["levels"] if level["id"] == "2-1")
-    assert {word_id.split(".")[1] for word_id in level_word_ids(bank, modal_level)} == {
+    assert {word_id.split(".")[1] for word_id in modal_ids} == {
         "koennen",
         "muessen",
         "wollen",
@@ -31,21 +45,18 @@ def test_level_structure_matches_plan() -> None:
         "sollen",
         "moegen",
     }
-    article_level = next(level for level in bank["levels"] if level["mode"] == "article")
-    article_ids = level_word_ids(bank, article_level)
-    assert all(word_id in bank["grammar"]["genitiveNouns"] for word_id in article_ids)
-    assert all(
-        bank["words"][word_id].get("gender") in {"der", "die", "das"} for word_id in article_ids
-    )
+    for level in bank["levels"]:
+        if level["mode"] != "article":
+            continue
+        for word_id in level_word_ids(bank, level):
+            assert word_id in bank["grammar"]["genitiveNouns"], word_id
+            assert bank["words"][word_id].get("gender") in {"der", "die", "das"}, word_id
 
 
-def test_every_word_has_a_tier_and_every_level_has_categories() -> None:
+def test_every_word_has_a_tier() -> None:
     bank = load_wordbank()
 
     assert all(word.get("tier") in {1, 2, 3} for word in bank["words"].values())
-    for level in bank["levels"]:
-        assert level["categories"], level["id"]
-        assert set(level.get("tiers", [1, 2, 3])) <= {1, 2, 3}, level["id"]
 
 
 def test_every_word_has_danish_german_and_english_translations() -> None:
@@ -104,8 +115,7 @@ def test_german_article_declensions_match_expected_forms() -> None:
 
 def test_sentence_builder_chunks_have_ordered_answers_and_distractors() -> None:
     bank = load_wordbank()
-    level = next(level for level in bank["levels"] if level["mode"] == "sentence")
-    word_ids = level_word_ids(bank, level)
+    word_ids = [word_id for word_id in bank["words"] if word_id.startswith("sentence-builder.")]
     chunks = [bank["words"][word_id] for word_id in word_ids]
     expected = {
         "sentence-builder.mand.subject": ("Manden", "Der Mann", "Manden er stor."),
