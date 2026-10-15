@@ -35,6 +35,9 @@ chapter uses only words of its own tier, except the review. Every chapter has th
 3. **Review:** mixed words from every theme, this chapter's tier and all earlier ones.
 4. **Sentence builder:** build a German sentence one chunk at a time.
 
+The level files are generated: edit `THEMES` or `CHAPTERS` in [`scripts/levels.py`](scripts/levels.py)
+and run `python scripts/levels.py`. A test fails if the level files drift from the generator.
+
 Levels are cleared from the top: a level opens once every level above it is cleared, and the menu
 starts on the first level not yet cleared.
 

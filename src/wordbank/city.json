@@ -639,12 +639,12 @@
     "tier": 3
   },
   "city.city-map": {
-    "danish": "byplan",
+    "danish": "bykort",
     "german": "Stadtplan",
     "english": "city map",
     "gender": "der",
-    "danishDefinite": "byplanen",
-    "danishIndefinite": "en byplan",
+    "danishDefinite": "bykortet",
+    "danishIndefinite": "et bykort",
     "tier": 2
   },
   "city.address": {

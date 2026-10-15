@@ -256,9 +256,9 @@
   },
   "communication.greeting": {
     "danish": "hilsen",
-    "german": "Begrüßung",
+    "german": "Gruß",
     "english": "greeting",
-    "gender": "die",
+    "gender": "der",
     "danishDefinite": "hilsenen",
     "danishIndefinite": "en hilsen",
     "tier": 2

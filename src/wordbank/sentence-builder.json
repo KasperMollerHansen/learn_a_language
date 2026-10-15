@@ -1812,7 +1812,7 @@
       "Das bist",
       "Dies sind"
     ],
-    "tier": 5
+    "tier": 3
   },
   "sentence-builder.bilenfar.noun": {
     "danish": "bilen",
@@ -1827,7 +1827,7 @@
       "das Auto",
       "dem Auto"
     ],
-    "tier": 5
+    "tier": 3
   },
   "sentence-builder.bilenfar.genitive": {
     "danish": "til min far",
@@ -1842,7 +1842,7 @@
       "meinen Vater.",
       "meines Vaters."
     ],
-    "tier": 5
+    "tier": 3
   },
   "sentence-builder.regnen.preposition": {
     "danish": "På grund af",
@@ -2127,7 +2127,7 @@
       "Er ist",
       "Er hast"
     ],
-    "tier": 5
+    "tier": 3
   },
   "sentence-builder.lovet.participle": {
     "danish": "lovet",
@@ -2142,7 +2142,7 @@
       "versprochen,",
       "versprach,"
     ],
-    "tier": 5
+    "tier": 3
   },
   "sentence-builder.lovet.infinitive": {
     "danish": "at komme",
@@ -2157,7 +2157,7 @@
       "kommen zu.",
       "zu kommen."
     ],
-    "tier": 5
+    "tier": 3
   },
   "sentence-builder.forfatter.verb": {
     "danish": "Jeg kender",
@@ -2172,7 +2172,7 @@
       "Ich kennen",
       "Ich kennt"
     ],
-    "tier": 5
+    "tier": 3
   },
   "sentence-builder.forfatter.object": {
     "danish": "forfatteren",
@@ -2187,7 +2187,7 @@
       "den Autor",
       "dem Autor"
     ],
-    "tier": 5
+    "tier": 3
   },
   "sentence-builder.forfatter.genitive": {
     "danish": "til bogen",
@@ -2202,7 +2202,7 @@
       "das Buch.",
       "des Buches."
     ],
-    "tier": 5
+    "tier": 3
   },
   "sentence-builder.taknemmelig.main": {
     "danish": "Jeg ville være taknemmelig,",
@@ -2246,6 +2246,141 @@
       "Sie antworteten würden.",
       "Sie würden antworten.",
       "Sie antworten würden."
+    ],
+    "tier": 5
+  },
+  "sentence-builder.paastod.main": {
+    "danish": "Han påstod,",
+    "german": "Er behauptete,",
+    "english": "He claimed,",
+    "sentence": "Han påstod, at han var uskyldig.",
+    "sentenceId": "paastod",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Er behauptete,",
+      "Er behaupten,",
+      "Er behauptet sich,"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.paastod.subjunctive": {
+    "danish": "at han var",
+    "german": "er sei",
+    "english": "(that) he was",
+    "sentence": "Han påstod, at han var uskyldig.",
+    "sentenceId": "paastod",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "er sei",
+      "er sein",
+      "er seid"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.paastod.adjective": {
+    "danish": "uskyldig.",
+    "german": "unschuldig.",
+    "english": "innocent.",
+    "sentence": "Han påstod, at han var uskyldig.",
+    "sentenceId": "paastod",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "unschuldig.",
+      "unschuldige.",
+      "unschuldigen."
+    ],
+    "tier": 5
+  },
+  "sentence-builder.medmindre.main": {
+    "danish": "Vi går ud,",
+    "german": "Wir gehen aus,",
+    "english": "We go out,",
+    "sentence": "Vi går ud, medmindre det regner.",
+    "sentenceId": "medmindre",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Wir gehen aus,",
+      "Wir geht aus,",
+      "Wir ausgehen,"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.medmindre.conjunction": {
+    "danish": "medmindre",
+    "german": "es sei denn,",
+    "english": "unless",
+    "sentence": "Vi går ud, medmindre det regner.",
+    "sentenceId": "medmindre",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "es sei denn,",
+      "es ist denn,",
+      "es sei dann,"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.medmindre.clause": {
+    "danish": "det regner.",
+    "german": "es regnet.",
+    "english": "it rains.",
+    "sentence": "Vi går ud, medmindre det regner.",
+    "sentenceId": "medmindre",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "es regnet.",
+      "es regnen.",
+      "regnet es."
+    ],
+    "tier": 5
+  },
+  "sentence-builder.afslutning.preposition": {
+    "danish": "Efter afslutningen",
+    "german": "Nach Abschluss",
+    "english": "After the completion",
+    "sentence": "Efter afslutningen af arbejdet gik vi hjem.",
+    "sentenceId": "afslutning",
+    "step": 1,
+    "steps": 3,
+    "options": [
+      "Nach Abschluss",
+      "Nach Abschlusses",
+      "Nach abschließen"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.afslutning.genitive": {
+    "danish": "af arbejdet",
+    "german": "der Arbeiten",
+    "english": "of the work",
+    "sentence": "Efter afslutningen af arbejdet gik vi hjem.",
+    "sentenceId": "afslutning",
+    "step": 2,
+    "steps": 3,
+    "options": [
+      "der Arbeiten",
+      "den Arbeiten",
+      "die Arbeiten"
+    ],
+    "tier": 5
+  },
+  "sentence-builder.afslutning.verb": {
+    "danish": "gik vi hjem.",
+    "german": "gingen wir nach Hause.",
+    "english": "we went home.",
+    "sentence": "Efter afslutningen af arbejdet gik vi hjem.",
+    "sentenceId": "afslutning",
+    "step": 3,
+    "steps": 3,
+    "options": [
+      "gingen wir nach Hause.",
+      "wir gingen nach Hause.",
+      "gingen nach Hause wir."
     ],
     "tier": 5
   }

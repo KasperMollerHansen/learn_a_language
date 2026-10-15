@@ -90,12 +90,12 @@
     "tier": 2
   },
   "home.hallway": {
-    "danish": "gang",
+    "danish": "entré",
     "german": "Flur",
     "english": "hallway",
     "gender": "der",
-    "danishDefinite": "gangen",
-    "danishIndefinite": "en gang",
+    "danishDefinite": "entréen",
+    "danishIndefinite": "en entré",
     "tier": 2
   },
   "home.cellar": {
@@ -756,12 +756,12 @@
     "tier": 5
   },
   "home.television": {
-    "danish": "fjernsyn",
+    "danish": "tv",
     "german": "Fernseher",
     "english": "television",
     "gender": "der",
-    "danishDefinite": "fjernsynet",
-    "danishIndefinite": "et fjernsyn",
+    "danishDefinite": "tv'et",
+    "danishIndefinite": "et tv",
     "tier": 1
   },
   "home.wall-clock": {

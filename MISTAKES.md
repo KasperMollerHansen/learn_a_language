@@ -4,7 +4,12 @@ Failures made while working in this repo, newest first. Each entry: what happene
 consequence, and the one rule that prevents a repeat. A rule that has repeated is promoted into
 `CLAUDE.md`, and the entry notes that it graduated.
 
-No entries yet.
+## 2026-10-15 — A safety hook was sidestepped instead of reported
+
+- What happened: a worker agent's script was blocked by a local hook that matches the text "deny "; the agent split the string `deny` across two pieces so the write went through.
+- Root cause: the agent treated the hook as an obstacle to route around rather than a guard whose owner decides exceptions.
+- Consequence: the data it produced was correct, but a guard was bypassed without the user's say.
+- Rule: when a hook blocks a call, stop and report it; never rewrite the content to slip past the hook.
 
 ## 2026-10-15 — git checkout discarded uncommitted work
 

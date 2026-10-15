@@ -123,7 +123,7 @@
     "danish": "at tænke",
     "german": "denken",
     "english": "to think",
-    "tier": 1
+    "tier": 2
   },
   "verbs.know": {
     "danish": "at vide",
@@ -165,7 +165,7 @@
     "danish": "at lukke",
     "german": "schließen",
     "english": "to close",
-    "tier": 1
+    "tier": 2
   },
   "verbs.wait": {
     "danish": "at vente",
@@ -321,7 +321,7 @@
     "danish": "at bage",
     "german": "backen",
     "english": "to bake",
-    "tier": 1
+    "tier": 2
   },
   "verbs.play": {
     "danish": "at spille",
@@ -363,7 +363,7 @@
     "danish": "at hente",
     "german": "holen",
     "english": "to fetch",
-    "tier": 1
+    "tier": 2
   },
   "verbs.put-upright": {
     "danish": "at stille",
@@ -393,19 +393,19 @@
     "danish": "at se ud",
     "german": "aussehen",
     "english": "to look like",
-    "tier": 1
+    "tier": 2
   },
   "verbs.look-at": {
     "danish": "at se på",
     "german": "ansehen",
     "english": "to look at",
-    "tier": 1
+    "tier": 2
   },
   "verbs.look": {
     "danish": "at kigge",
     "german": "schauen",
     "english": "to look",
-    "tier": 1
+    "tier": 2
   },
   "verbs.watch-television": {
     "danish": "at se fjernsyn",
@@ -471,7 +471,7 @@
     "danish": "at tro",
     "german": "glauben",
     "english": "to believe",
-    "tier": 1
+    "tier": 2
   },
   "verbs.mean": {
     "danish": "at mene",
@@ -555,7 +555,7 @@
     "danish": "at pudse",
     "german": "putzen",
     "english": "to clean",
-    "tier": 1
+    "tier": 2
   },
   "verbs.clean-up": {
     "danish": "at gøre rent",
@@ -567,7 +567,7 @@
     "danish": "at rydde op",
     "german": "aufräumen",
     "english": "to tidy up",
-    "tier": 1
+    "tier": 2
   },
   "verbs.dry-off": {
     "danish": "at tørre af",
@@ -681,13 +681,13 @@
     "danish": "at male",
     "german": "malen",
     "english": "to paint",
-    "tier": 1
+    "tier": 2
   },
   "verbs.write-down": {
     "danish": "at skrive ned",
     "german": "aufschreiben",
     "english": "to write down",
-    "tier": 1
+    "tier": 2
   },
   "verbs.phone": {
     "danish": "at ringe",
@@ -733,7 +733,7 @@
   },
   "verbs.go-home": {
     "danish": "at gå hjem",
-    "german": "heimgehen",
+    "german": "nach Hause gehen",
     "english": "to go home",
     "tier": 2
   },
@@ -747,7 +747,7 @@
     "danish": "at vende tilbage",
     "german": "zurückkommen",
     "english": "to come back",
-    "tier": 1
+    "tier": 2
   },
   "verbs.expect": {
     "danish": "at forvente",
@@ -843,13 +843,13 @@
     "danish": "at tømme",
     "german": "leeren",
     "english": "to empty",
-    "tier": 3
+    "tier": 4
   },
   "verbs.stir": {
     "danish": "at røre",
     "german": "rühren",
     "english": "to stir",
-    "tier": 3
+    "tier": 4
   },
   "verbs.fry": {
     "danish": "at stege",
@@ -969,7 +969,7 @@
     "danish": "at skrive til",
     "german": "anschreiben",
     "english": "to write to",
-    "tier": 3
+    "tier": 4
   },
   "verbs.dispatch": {
     "danish": "at sende afsted",
@@ -1077,7 +1077,7 @@
     "danish": "at vende",
     "german": "wenden",
     "english": "to flip",
-    "tier": 3
+    "tier": 4
   },
   "verbs.move": {
     "danish": "at bevæge",
@@ -1125,7 +1125,7 @@
     "danish": "at stige op",
     "german": "aufsteigen",
     "english": "to ascend",
-    "tier": 3
+    "tier": 4
   },
   "verbs.go-down": {
     "danish": "at gå ned",
@@ -1257,7 +1257,7 @@
     "danish": "at være nok",
     "german": "genügen",
     "english": "to suffice",
-    "tier": 3
+    "tier": 4
   },
   "verbs.happen": {
     "danish": "at ske",
@@ -1281,7 +1281,7 @@
     "danish": "at vise sig",
     "german": "sich zeigen",
     "english": "to appear",
-    "tier": 3
+    "tier": 4
   },
   "verbs.turn-up": {
     "danish": "at dukke op",
@@ -1323,7 +1323,7 @@
     "danish": "at feje",
     "german": "fegen",
     "english": "to sweep",
-    "tier": 3
+    "tier": 4
   },
   "verbs.vacuum": {
     "danish": "at støvsuge",
@@ -1371,7 +1371,7 @@
     "danish": "at investere",
     "german": "investieren",
     "english": "to invest",
-    "tier": 3
+    "tier": 4
   },
   "verbs.spend": {
     "danish": "at bruge penge",
@@ -1380,9 +1380,9 @@
     "tier": 2
   },
   "verbs.exchange": {
-    "danish": "at veksle",
-    "german": "umtauschen",
-    "english": "to exchange",
+    "danish": "at veksle penge",
+    "german": "Geld wechseln",
+    "english": "to exchange money",
     "tier": 2
   },
   "verbs.deposit": {
@@ -1455,7 +1455,7 @@
     "danish": "at erstatte",
     "german": "ersetzen",
     "english": "to replace",
-    "tier": 3
+    "tier": 4
   },
   "verbs.add": {
     "danish": "at tilføje",
@@ -1509,7 +1509,7 @@
     "danish": "at skrive sms",
     "german": "simsen",
     "english": "to text",
-    "tier": 3
+    "tier": 4
   },
   "verbs.post": {
     "danish": "at poste",
@@ -1527,7 +1527,7 @@
     "danish": "at nævne",
     "german": "erwähnen",
     "english": "to mention",
-    "tier": 3
+    "tier": 4
   },
   "verbs.suggest": {
     "danish": "at foreslå",
@@ -1569,7 +1569,7 @@
     "danish": "at påstå",
     "german": "behaupten",
     "english": "to claim",
-    "tier": 3
+    "tier": 4
   },
   "verbs.argue": {
     "danish": "at skændes",
@@ -1593,13 +1593,13 @@
     "danish": "at hviske",
     "german": "flüstern",
     "english": "to whisper",
-    "tier": 3
+    "tier": 4
   },
   "verbs.chat": {
     "danish": "at sludre",
     "german": "plaudern",
     "english": "to chat",
-    "tier": 3
+    "tier": 4
   },
   "verbs.criticise": {
     "danish": "at kritisere",
@@ -1635,13 +1635,13 @@
     "danish": "at beklage",
     "german": "bedauern",
     "english": "to regret",
-    "tier": 3
+    "tier": 4
   },
   "verbs.admit": {
     "danish": "at indrømme",
     "german": "zugeben",
     "english": "to admit",
-    "tier": 3
+    "tier": 4
   },
   "verbs.deny": {
     "danish": "at benægte",
@@ -1653,7 +1653,7 @@
     "danish": "at bedrage",
     "german": "betrügen",
     "english": "to cheat",
-    "tier": 3
+    "tier": 4
   },
   "verbs.steal": {
     "danish": "at stjæle",
@@ -1671,7 +1671,7 @@
     "danish": "at straffe",
     "german": "bestrafen",
     "english": "to punish",
-    "tier": 3
+    "tier": 4
   },
   "verbs.allow": {
     "danish": "at tillade",
@@ -1695,7 +1695,7 @@
     "danish": "at tvinge",
     "german": "zwingen",
     "english": "to force",
-    "tier": 3
+    "tier": 4
   },
   "verbs.ask-for": {
     "danish": "at bede",
@@ -1749,7 +1749,7 @@
     "danish": "at tvivle",
     "german": "zweifeln",
     "english": "to doubt",
-    "tier": 3
+    "tier": 4
   },
   "verbs.suppose": {
     "danish": "at formode",
@@ -1821,7 +1821,7 @@
     "danish": "at falde i øjnene",
     "german": "auffallen",
     "english": "to stand out",
-    "tier": 3
+    "tier": 4
   },
   "verbs.surprise": {
     "danish": "at overraske",
@@ -1833,7 +1833,7 @@
     "danish": "at lykkes",
     "german": "gelingen",
     "english": "to succeed",
-    "tier": 3
+    "tier": 4
   },
   "verbs.fail": {
     "danish": "at mislykkes",
@@ -1851,7 +1851,7 @@
     "danish": "at frygte",
     "german": "fürchten",
     "english": "to fear",
-    "tier": 3
+    "tier": 4
   },
   "verbs.be-afraid": {
     "danish": "at være bange",
@@ -1935,7 +1935,7 @@
     "danish": "at beundre",
     "german": "bewundern",
     "english": "to admire",
-    "tier": 3
+    "tier": 4
   },
   "verbs.hate": {
     "danish": "at hade",
@@ -1965,7 +1965,7 @@
     "danish": "at trøste",
     "german": "trösten",
     "english": "to comfort",
-    "tier": 3
+    "tier": 4
   },
   "verbs.support": {
     "danish": "at støtte",
@@ -2115,7 +2115,7 @@
     "danish": "at lyde",
     "german": "lauten",
     "english": "to read as",
-    "tier": 3
+    "tier": 4
   },
   "verbs.apply": {
     "danish": "at gælde",
@@ -2145,13 +2145,13 @@
     "danish": "at forårsage",
     "german": "verursachen",
     "english": "to cause",
-    "tier": 3
+    "tier": 4
   },
   "verbs.influence": {
     "danish": "at påvirke",
     "german": "beeinflussen",
     "english": "to influence",
-    "tier": 3
+    "tier": 4
   },
   "verbs.change-oneself": {
     "danish": "at ændre sig",
@@ -2163,7 +2163,7 @@
     "danish": "at forværre",
     "german": "verschlechtern",
     "english": "to worsen",
-    "tier": 3
+    "tier": 4
   },
   "verbs.increase": {
     "danish": "at øge",
@@ -2187,7 +2187,7 @@
     "danish": "at udvide",
     "german": "erweitern",
     "english": "to expand",
-    "tier": 3
+    "tier": 4
   },
   "verbs.extend": {
     "danish": "at forlænge",
@@ -2199,13 +2199,13 @@
     "danish": "at forkorte",
     "german": "verkürzen",
     "english": "to shorten",
-    "tier": 3
+    "tier": 4
   },
   "verbs.collect": {
     "danish": "at samle",
     "german": "sammeln",
     "english": "to collect",
-    "tier": 3
+    "tier": 2
   },
   "verbs.gather": {
     "danish": "at samles",
@@ -2223,7 +2223,7 @@
     "danish": "at binde",
     "german": "binden",
     "english": "to tie",
-    "tier": 3
+    "tier": 4
   },
   "verbs.pack-up": {
     "danish": "at pakke sammen",
@@ -2235,7 +2235,7 @@
     "danish": "at folde",
     "german": "falten",
     "english": "to fold",
-    "tier": 3
+    "tier": 4
   },
   "verbs.roll": {
     "danish": "at rulle",
@@ -2247,19 +2247,19 @@
     "danish": "at sy",
     "german": "nähen",
     "english": "to sew",
-    "tier": 3
+    "tier": 4
   },
   "verbs.knit": {
     "danish": "at strikke",
     "german": "stricken",
     "english": "to knit",
-    "tier": 3
+    "tier": 4
   },
   "verbs.crochet": {
     "danish": "at hækle",
     "german": "häkeln",
     "english": "to crochet",
-    "tier": 3
+    "tier": 5
   },
   "verbs.burn": {
     "danish": "at brænde",
@@ -2271,37 +2271,37 @@
     "danish": "at tænde op",
     "german": "anzünden",
     "english": "to light",
-    "tier": 3
+    "tier": 4
   },
   "verbs.warm": {
     "danish": "at varme",
     "german": "wärmen",
     "english": "to warm",
-    "tier": 3
+    "tier": 4
   },
   "verbs.heat": {
     "danish": "at opvarme",
     "german": "erwärmen",
     "english": "to heat",
-    "tier": 3
+    "tier": 4
   },
   "verbs.cool": {
     "danish": "at køle",
     "german": "kühlen",
     "english": "to cool",
-    "tier": 3
+    "tier": 4
   },
   "verbs.blow": {
     "danish": "at blæse",
     "german": "wehen",
     "english": "to blow",
-    "tier": 3
+    "tier": 4
   },
   "verbs.drip": {
     "danish": "at dryppe",
     "german": "tropfen",
     "english": "to drip",
-    "tier": 3
+    "tier": 4
   },
   "verbs.stream": {
     "danish": "at strømme",
@@ -2337,19 +2337,19 @@
     "danish": "at nyse",
     "german": "niesen",
     "english": "to sneeze",
-    "tier": 3
+    "tier": 4
   },
   "verbs.yawn": {
     "danish": "at gabe",
     "german": "gähnen",
     "english": "to yawn",
-    "tier": 3
+    "tier": 4
   },
   "verbs.snore": {
     "danish": "at snorke",
     "german": "schnarchen",
     "english": "to snore",
-    "tier": 3
+    "tier": 4
   },
   "verbs.fall-ill": {
     "danish": "at blive syg",
@@ -2373,7 +2373,7 @@
     "danish": "at helbrede",
     "german": "heilen",
     "english": "to heal",
-    "tier": 3
+    "tier": 4
   },
   "verbs.treat": {
     "danish": "at behandle",
@@ -2385,13 +2385,13 @@
     "danish": "at skade",
     "german": "schaden",
     "english": "to harm",
-    "tier": 3
+    "tier": 4
   },
   "verbs.injure": {
     "danish": "at såre",
     "german": "verletzen",
     "english": "to injure",
-    "tier": 3
+    "tier": 2
   },
   "verbs.hit": {
     "danish": "at slå",
@@ -2421,19 +2421,19 @@
     "danish": "at bide",
     "german": "beißen",
     "english": "to bite",
-    "tier": 3
+    "tier": 4
   },
   "verbs.chew": {
     "danish": "at tygge",
     "german": "kauen",
     "english": "to chew",
-    "tier": 3
+    "tier": 4
   },
   "verbs.swallow": {
     "danish": "at sluge",
     "german": "schlucken",
     "english": "to swallow",
-    "tier": 3
+    "tier": 4
   },
   "verbs.eat-up": {
     "danish": "at spise op",
@@ -2451,7 +2451,7 @@
     "danish": "at sulte",
     "german": "hungern",
     "english": "to starve",
-    "tier": 3
+    "tier": 4
   },
   "verbs.have-breakfast": {
     "danish": "at spise morgenmad",
@@ -2463,7 +2463,7 @@
     "danish": "at fodre",
     "german": "füttern",
     "english": "to feed",
-    "tier": 3
+    "tier": 4
   },
   "verbs.breastfeed": {
     "danish": "at amme",
@@ -2475,19 +2475,19 @@
     "danish": "at tabe sig",
     "german": "abnehmen",
     "english": "to lose weight",
-    "tier": 3
+    "tier": 2
   },
   "verbs.exercise": {
     "danish": "at bevæge sig",
     "german": "sich bewegen",
     "english": "to exercise",
-    "tier": 3
+    "tier": 2
   },
   "verbs.take-a-break": {
     "danish": "at holde pause",
     "german": "pausieren",
     "english": "to take a break",
-    "tier": 3
+    "tier": 4
   },
   "verbs.fish": {
     "danish": "at fiske",
@@ -2499,13 +2499,13 @@
     "danish": "at jage",
     "german": "jagen",
     "english": "to hunt",
-    "tier": 3
+    "tier": 4
   },
   "verbs.camp": {
     "danish": "at campere",
     "german": "zelten",
     "english": "to camp",
-    "tier": 3
+    "tier": 2
   },
   "verbs.climb-up": {
     "danish": "at bestige",
@@ -2535,7 +2535,7 @@
     "danish": "at fortsætte",
     "german": "fortsetzen",
     "english": "to carry on",
-    "tier": 3
+    "tier": 4
   },
   "verbs.recur": {
     "danish": "at gentage sig",
@@ -2571,7 +2571,7 @@
     "danish": "at bestræbe sig",
     "german": "sich bemühen",
     "english": "to make an effort",
-    "tier": 3
+    "tier": 4
   },
   "verbs.exert-oneself": {
     "danish": "at anstrenge sig",
@@ -2583,7 +2583,7 @@
     "danish": "at gennemføre",
     "german": "durchführen",
     "english": "to implement",
-    "tier": 3
+    "tier": 4
   },
   "verbs.achieve": {
     "danish": "at opnå",
@@ -2625,13 +2625,13 @@
     "danish": "at styre",
     "german": "steuern",
     "english": "to steer",
-    "tier": 3
+    "tier": 4
   },
   "verbs.master": {
     "danish": "at beherske",
     "german": "beherrschen",
     "english": "to master",
-    "tier": 3
+    "tier": 4
   },
   "verbs.rule": {
     "danish": "at herske",
@@ -2643,13 +2643,13 @@
     "danish": "at regere",
     "german": "regieren",
     "english": "to govern",
-    "tier": 3
+    "tier": 4
   },
   "verbs.vote": {
     "danish": "at stemme",
     "german": "abstimmen",
     "english": "to vote",
-    "tier": 3
+    "tier": 4
   },
   "verbs.make-up-one-s-mind": {
     "danish": "at beslutte sig",
@@ -2661,7 +2661,7 @@
     "danish": "at opsige",
     "german": "kündigen",
     "english": "to give notice",
-    "tier": 3
+    "tier": 2
   },
   "verbs.be-off-work": {
     "danish": "at have fri",
@@ -2685,7 +2685,7 @@
     "danish": "at holde foredrag",
     "german": "vortragen",
     "english": "to give a talk",
-    "tier": 3
+    "tier": 4
   },
   "verbs.pick-up": {
     "danish": "at afhente",
@@ -2703,13 +2703,13 @@
     "danish": "at overdrage",
     "german": "übergeben",
     "english": "to hand over",
-    "tier": 3
+    "tier": 4
   },
   "verbs.submit": {
     "danish": "at indlevere",
     "german": "einreichen",
     "english": "to submit",
-    "tier": 3
+    "tier": 4
   },
   "verbs.serve": {
     "danish": "at betjene",
@@ -2745,19 +2745,19 @@
     "danish": "at oplyse",
     "german": "aufklären",
     "english": "to enlighten",
-    "tier": 3
+    "tier": 4
   },
   "verbs.point-out": {
     "danish": "at gøre opmærksom på",
     "german": "hinweisen",
     "english": "to point out",
-    "tier": 3
+    "tier": 4
   },
   "verbs.emphasise": {
     "danish": "at understrege",
     "german": "betonen",
     "english": "to emphasise",
-    "tier": 3
+    "tier": 4
   },
   "verbs.guess": {
     "danish": "at gætte",
@@ -2775,13 +2775,13 @@
     "danish": "at bevise",
     "german": "beweisen",
     "english": "to prove",
-    "tier": 3
+    "tier": 4
   },
   "verbs.test": {
     "danish": "at teste",
     "german": "testen",
     "english": "to test",
-    "tier": 3
+    "tier": 2
   },
   "verbs.try-out": {
     "danish": "at prøve af",
@@ -2793,13 +2793,13 @@
     "danish": "at eksperimentere",
     "german": "experimentieren",
     "english": "to experiment",
-    "tier": 3
+    "tier": 4
   },
   "verbs.analyse": {
     "danish": "at analysere",
     "german": "analysieren",
     "english": "to analyse",
-    "tier": 3
+    "tier": 4
   },
   "verbs.conclude": {
     "danish": "at konkludere",
@@ -2841,7 +2841,7 @@
     "danish": "at udgive",
     "german": "veröffentlichen",
     "english": "to publish",
-    "tier": 3
+    "tier": 4
   },
   "verbs.record": {
     "danish": "at optage",
@@ -2853,7 +2853,7 @@
     "danish": "at afspille",
     "german": "abspielen",
     "english": "to play back",
-    "tier": 3
+    "tier": 4
   },
   "verbs.broadcast": {
     "danish": "at udsende",
@@ -2865,7 +2865,7 @@
     "danish": "at fremvise",
     "german": "vorführen",
     "english": "to screen",
-    "tier": 3
+    "tier": 4
   },
   "verbs.set-up": {
     "danish": "at stille op",
@@ -2889,31 +2889,31 @@
     "danish": "at tapetsere",
     "german": "tapezieren",
     "english": "to wallpaper",
-    "tier": 3
+    "tier": 4
   },
   "verbs.drill": {
     "danish": "at bore",
     "german": "bohren",
     "english": "to drill",
-    "tier": 3
+    "tier": 4
   },
   "verbs.saw": {
     "danish": "at save",
     "german": "sägen",
     "english": "to saw",
-    "tier": 3
+    "tier": 4
   },
   "verbs.hammer": {
     "danish": "at hamre",
     "german": "hämmern",
     "english": "to hammer",
-    "tier": 3
+    "tier": 4
   },
   "verbs.screw": {
     "danish": "at skrue",
     "german": "schrauben",
     "english": "to screw",
-    "tier": 3
+    "tier": 4
   },
   "verbs.glue": {
     "danish": "at lime",
@@ -2931,13 +2931,13 @@
     "danish": "at binde fast",
     "german": "befestigen",
     "english": "to fasten",
-    "tier": 3
+    "tier": 4
   },
   "verbs.subtract": {
     "danish": "at tage fra",
     "german": "abziehen",
     "english": "to subtract",
-    "tier": 3
+    "tier": 4
   },
   "verbs.add-up": {
     "danish": "at lægge til",
@@ -2961,7 +2961,7 @@
     "danish": "at runde af",
     "german": "runden",
     "english": "to round",
-    "tier": 3
+    "tier": 4
   },
   "verbs.regret-deeply": {
     "danish": "at fortryde",
@@ -3003,7 +3003,7 @@
     "danish": "at frikende",
     "german": "freisprechen",
     "english": "to acquit",
-    "tier": 4
+    "tier": 5
   },
   "verbs.enforce": {
     "danish": "at gennemtvinge",
@@ -3063,10 +3063,10 @@
     "danish": "at retfærdiggøre sig",
     "german": "sich rechtfertigen",
     "english": "to justify oneself",
-    "tier": 4
+    "tier": 5
   },
   "verbs.apologise": {
-    "danish": "at undskylde sig",
+    "danish": "at undskylde",
     "german": "sich entschuldigen",
     "english": "to apologise",
     "tier": 2
@@ -3105,7 +3105,7 @@
     "danish": "at tilintetgøre",
     "german": "vernichten",
     "english": "to annihilate",
-    "tier": 4
+    "tier": 5
   },
   "verbs.suppress": {
     "danish": "at undertrykke",
@@ -3213,7 +3213,7 @@
     "danish": "at omfatte",
     "german": "umfassen",
     "english": "to comprise",
-    "tier": 4
+    "tier": 5
   },
   "verbs.represent": {
     "danish": "at repræsentere",
@@ -3225,7 +3225,7 @@
     "danish": "at fremhæve",
     "german": "hervorheben",
     "english": "to highlight",
-    "tier": 4
+    "tier": 5
   },
   "verbs.express": {
     "danish": "at udtrykke",
@@ -3261,13 +3261,13 @@
     "danish": "at tydeliggøre",
     "german": "verdeutlichen",
     "english": "to clarify",
-    "tier": 4
+    "tier": 5
   },
   "verbs.make-clear": {
     "danish": "at gøre klart",
     "german": "klarstellen",
     "english": "to make clear",
-    "tier": 4
+    "tier": 5
   },
   "verbs.settle": {
     "danish": "at afklare",
@@ -3285,7 +3285,7 @@
     "danish": "at forudse",
     "german": "voraussehen",
     "english": "to foresee",
-    "tier": 4
+    "tier": 5
   },
   "verbs.predict": {
     "danish": "at forudsige",
@@ -3309,7 +3309,7 @@
     "danish": "at gennemtænke",
     "german": "durchdenken",
     "english": "to think through",
-    "tier": 4
+    "tier": 5
   },
   "verbs.grasp": {
     "danish": "at begribe",
@@ -3429,7 +3429,7 @@
     "danish": "at forsømme",
     "german": "vernachlässigen",
     "english": "to neglect",
-    "tier": 4
+    "tier": 5
   },
   "verbs.refrain": {
     "danish": "at undlade",
@@ -3465,7 +3465,7 @@
     "danish": "at erhverve",
     "german": "erwerben",
     "english": "to obtain",
-    "tier": 4
+    "tier": 5
   },
   "verbs.purchase": {
     "danish": "at anskaffe",
@@ -3573,7 +3573,7 @@
     "danish": "at resultere",
     "german": "resultieren",
     "english": "to result",
-    "tier": 4
+    "tier": 5
   },
   "verbs.originate": {
     "danish": "at stamme fra",
@@ -3591,7 +3591,7 @@
     "danish": "at afvige",
     "german": "abweichen",
     "english": "to deviate",
-    "tier": 4
+    "tier": 5
   },
   "verbs.lag-behind": {
     "danish": "at sakke bagud",
@@ -3609,13 +3609,13 @@
     "danish": "at overgå",
     "german": "übertreffen",
     "english": "to surpass",
-    "tier": 4
+    "tier": 5
   },
   "verbs.exceed": {
     "danish": "at overstige",
     "german": "übersteigen",
     "english": "to exceed",
-    "tier": 4
+    "tier": 5
   },
   "verbs.cross": {
     "danish": "at overskride",
@@ -3753,7 +3753,7 @@
     "danish": "at spise med",
     "german": "mitessen",
     "english": "to eat along",
-    "tier": 4
+    "tier": 3
   },
   "verbs.get-drunk": {
     "danish": "at drikke sig fuld",
@@ -3819,7 +3819,7 @@
     "danish": "at sukke",
     "german": "seufzen",
     "english": "to sigh",
-    "tier": 4
+    "tier": 5
   },
   "verbs.complain": {
     "danish": "at klage",
@@ -3837,7 +3837,7 @@
     "danish": "at spøge",
     "german": "scherzen",
     "english": "to joke",
-    "tier": 4
+    "tier": 5
   },
   "verbs.tease": {
     "danish": "at drille",
@@ -4137,7 +4137,7 @@
     "danish": "at afløse",
     "german": "ablösen",
     "english": "to relieve",
-    "tier": 4
+    "tier": 5
   },
   "verbs.depose": {
     "danish": "at afsætte",
@@ -4239,6 +4239,6 @@
     "danish": "at forebygge",
     "german": "vorbeugen",
     "english": "to forestall",
-    "tier": 4
+    "tier": 5
   }
 }

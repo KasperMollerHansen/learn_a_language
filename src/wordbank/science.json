@@ -900,12 +900,12 @@
     "tier": 5
   },
   "science.calculator": {
-    "danish": "regnemaskine",
+    "danish": "lommeregner",
     "german": "Taschenrechner",
     "english": "calculator",
     "gender": "der",
-    "danishDefinite": "regnemaskinen",
-    "danishIndefinite": "en regnemaskine",
+    "danishDefinite": "lommeregneren",
+    "danishIndefinite": "en lommeregner",
     "tier": 2
   },
   "science.solar-wind": {

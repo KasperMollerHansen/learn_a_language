@@ -172,7 +172,8 @@ def test_sentence_builder_chunks_have_ordered_answers_and_distractors() -> None:
     for parts in sentences.values():
         tier = cast(int, parts[0]["tier"])
         sentences_per_tier[tier] = sentences_per_tier.get(tier, 0) + 1
-    assert sentences_per_tier == dict.fromkeys(range(1, 6), 10)
+    assert set(sentences_per_tier) == {1, 2, 3, 4, 5}
+    assert min(sentences_per_tier.values()) >= 10
     assert all(
         sorted(cast(int, chunk["step"]) for chunk in parts) == [1, 2, 3]
         for parts in sentences.values()

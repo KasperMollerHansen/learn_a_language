@@ -10,9 +10,9 @@
   },
   "work.meeting": {
     "danish": "møde",
-    "german": "Treffen",
+    "german": "Besprechung",
     "english": "meeting",
-    "gender": "das",
+    "gender": "die",
     "danishDefinite": "mødet",
     "danishIndefinite": "et møde",
     "tier": 1
@@ -207,12 +207,12 @@
     "tier": 2
   },
   "work.team": {
-    "danish": "hold",
+    "danish": "team",
     "german": "Team",
     "english": "team",
     "gender": "das",
-    "danishDefinite": "holdet",
-    "danishIndefinite": "et hold",
+    "danishDefinite": "teamet",
+    "danishIndefinite": "et team",
     "tier": 2
   },
   "work.department": {

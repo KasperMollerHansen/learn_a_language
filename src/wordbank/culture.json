@@ -855,12 +855,12 @@
     "tier": 2
   },
   "culture.celebration": {
-    "danish": "fest",
+    "danish": "fejring",
     "german": "Feier",
     "english": "celebration",
     "gender": "die",
-    "danishDefinite": "festen",
-    "danishIndefinite": "en fest",
+    "danishDefinite": "fejringen",
+    "danishIndefinite": "en fejring",
     "tier": 2
   },
   "culture.memorial": {
