@@ -1,0 +1,266 @@
+{
+  "restaurant.canteen": {
+    "danish": "kantine",
+    "german": "Kantine",
+    "english": "canteen",
+    "gender": "die",
+    "danishDefinite": "kantinen",
+    "danishIndefinite": "en kantine",
+    "tier": 3
+  },
+  "restaurant.pizzeria": {
+    "danish": "pizzeria",
+    "german": "Pizzeria",
+    "english": "pizzeria",
+    "gender": "die",
+    "danishDefinite": "pizzeriaen",
+    "danishIndefinite": "en pizzeria",
+    "tier": 2
+  },
+  "restaurant.food-stand": {
+    "danish": "pølsevogn",
+    "german": "Imbiss",
+    "english": "food stand",
+    "gender": "der",
+    "danishDefinite": "pølsevognen",
+    "danishIndefinite": "en pølsevogn",
+    "tier": 3
+  },
+  "restaurant.eatery": {
+    "danish": "spisested",
+    "german": "Lokal",
+    "english": "eatery",
+    "gender": "das",
+    "danishDefinite": "spisestedet",
+    "danishIndefinite": "et spisested",
+    "tier": 3
+  },
+  "restaurant.menu": {
+    "danish": "menukort",
+    "german": "Speisekarte",
+    "english": "menu",
+    "gender": "die",
+    "danishDefinite": "menukortet",
+    "danishIndefinite": "et menukort",
+    "tier": 1
+  },
+  "restaurant.wine-list": {
+    "danish": "vinkort",
+    "german": "Weinkarte",
+    "english": "wine list",
+    "gender": "die",
+    "danishDefinite": "vinkortet",
+    "danishIndefinite": "et vinkort",
+    "tier": 4
+  },
+  "restaurant.drinks-menu": {
+    "danish": "drikkekort",
+    "german": "Getränkekarte",
+    "english": "drinks menu",
+    "gender": "die",
+    "danishDefinite": "drikkekortet",
+    "danishIndefinite": "et drikkekort",
+    "tier": 3
+  },
+  "restaurant.children-s-menu": {
+    "danish": "børnemenu",
+    "german": "Kindermenü",
+    "english": "children's menu",
+    "gender": "das",
+    "danishDefinite": "børnemenuen",
+    "danishIndefinite": "en børnemenu",
+    "tier": 4
+  },
+  "restaurant.buffet": {
+    "danish": "buffet",
+    "german": "Buffet",
+    "english": "buffet",
+    "gender": "das",
+    "danishDefinite": "buffeten",
+    "danishIndefinite": "en buffet",
+    "tier": 4
+  },
+  "restaurant.dish": {
+    "danish": "ret",
+    "german": "Gericht",
+    "english": "dish",
+    "gender": "das",
+    "danishDefinite": "retten",
+    "danishIndefinite": "en ret",
+    "tier": 3
+  },
+  "restaurant.starter": {
+    "danish": "forret",
+    "german": "Vorspeise",
+    "english": "starter",
+    "gender": "die",
+    "danishDefinite": "forretten",
+    "danishIndefinite": "en forret",
+    "tier": 2
+  },
+  "restaurant.main-course": {
+    "danish": "hovedret",
+    "german": "Hauptgericht",
+    "english": "main course",
+    "gender": "das",
+    "danishDefinite": "hovedretten",
+    "danishIndefinite": "en hovedret",
+    "tier": 2
+  },
+  "restaurant.side-dish": {
+    "danish": "tilbehør",
+    "german": "Beilage",
+    "english": "side dish",
+    "gender": "die",
+    "danishDefinite": "tilbehøret",
+    "danishIndefinite": "et tilbehør",
+    "tier": 4
+  },
+  "restaurant.speciality": {
+    "danish": "specialitet",
+    "german": "Spezialität",
+    "english": "speciality",
+    "gender": "die",
+    "danishDefinite": "specialiteten",
+    "danishIndefinite": "en specialitet",
+    "tier": 3
+  },
+  "restaurant.table-reservation": {
+    "danish": "bordreservation",
+    "german": "Tischreservierung",
+    "english": "table reservation",
+    "gender": "die",
+    "danishDefinite": "bordreservationen",
+    "danishIndefinite": "en bordreservation",
+    "tier": 4
+  },
+  "restaurant.waiting-list": {
+    "danish": "venteliste",
+    "german": "Warteliste",
+    "english": "waiting list",
+    "gender": "die",
+    "danishDefinite": "ventelisten",
+    "danishIndefinite": "en venteliste",
+    "tier": 4
+  },
+  "restaurant.order": {
+    "danish": "bestilling",
+    "german": "Bestellung",
+    "english": "order",
+    "gender": "die",
+    "danishDefinite": "bestillingen",
+    "danishIndefinite": "en bestilling",
+    "tier": 3
+  },
+  "restaurant.service": {
+    "danish": "betjening",
+    "german": "Bedienung",
+    "english": "service",
+    "gender": "die",
+    "danishDefinite": "betjeningen",
+    "danishIndefinite": "en betjening",
+    "tier": 3
+  },
+  "restaurant.self-service": {
+    "danish": "selvbetjening",
+    "german": "Selbstbedienung",
+    "english": "self-service",
+    "gender": "die",
+    "danishDefinite": "selvbetjeningen",
+    "danishIndefinite": "en selvbetjening",
+    "tier": 4
+  },
+  "restaurant.bill": {
+    "danish": "regning",
+    "german": "Rechnung",
+    "english": "bill",
+    "gender": "die",
+    "danishDefinite": "regningen",
+    "danishIndefinite": "en regning",
+    "tier": 1
+  },
+  "restaurant.receipt": {
+    "danish": "kvittering",
+    "german": "Quittung",
+    "english": "receipt",
+    "gender": "die",
+    "danishDefinite": "kvitteringen",
+    "danishIndefinite": "en kvittering",
+    "tier": 3
+  },
+  "restaurant.pepper-mill": {
+    "danish": "peberkværn",
+    "german": "Pfeffermühle",
+    "english": "pepper mill",
+    "gender": "die",
+    "danishDefinite": "peberkværnen",
+    "danishIndefinite": "en peberkværn",
+    "tier": 5
+  },
+  "restaurant.salt-shaker": {
+    "danish": "saltkar",
+    "german": "Salzstreuer",
+    "english": "salt shaker",
+    "gender": "der",
+    "danishDefinite": "saltkarret",
+    "danishIndefinite": "et saltkar",
+    "tier": 4
+  },
+  "restaurant.sample": {
+    "danish": "smagsprøve",
+    "german": "Kostprobe",
+    "english": "sample",
+    "gender": "die",
+    "danishDefinite": "smagsprøven",
+    "danishIndefinite": "en smagsprøve",
+    "tier": 5
+  },
+  "restaurant.complaint": {
+    "danish": "klage",
+    "german": "Beschwerde",
+    "english": "complaint",
+    "gender": "die",
+    "danishDefinite": "klagen",
+    "danishIndefinite": "en klage",
+    "tier": 3
+  },
+  "restaurant.vegetarian": {
+    "danish": "vegetar",
+    "german": "Vegetarier",
+    "english": "vegetarian",
+    "gender": "der",
+    "danishDefinite": "vegetaren",
+    "danishIndefinite": "en vegetar",
+    "tier": 3
+  },
+  "restaurant.to-eat-out": {
+    "danish": "at spise ude",
+    "german": "auswärts essen",
+    "english": "to eat out",
+    "tier": 4
+  },
+  "restaurant.sold-out": {
+    "danish": "udsolgt",
+    "german": "ausverkauft",
+    "english": "sold out",
+    "tier": 3
+  },
+  "restaurant.sommelier": {
+    "danish": "sommelier",
+    "german": "Sommelier",
+    "english": "sommelier",
+    "gender": "der",
+    "danishDefinite": "sommelieren",
+    "danishIndefinite": "en sommelier",
+    "tier": 5
+  },
+  "restaurant.tasting-menu": {
+    "danish": "smagemenu",
+    "german": "Degustationsmenü",
+    "english": "tasting menu",
+    "gender": "das",
+    "danishDefinite": "smagemenuen",
+    "danishIndefinite": "en smagemenu",
+    "tier": 5
+  }
+}

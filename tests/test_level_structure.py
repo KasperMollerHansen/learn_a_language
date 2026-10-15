@@ -1,33 +1,47 @@
-import json
-from pathlib import Path
+from typing import Any, cast
+
+from wordbank import level_word_ids, load_wordbank
 
 
-ROOT = Path(__file__).resolve().parents[1]
+def test_chapters_are_tiers_ending_with_review_then_sentence_builder() -> None:
+    bank = load_wordbank()
+    chapters: dict[int, list[dict[str, Any]]] = {}
+    for level in bank["levels"]:
+        chapters.setdefault(int(level["id"].split("-")[0]), []).append(level)
+
+    assert list(chapters) == [1, 2, 3, 4, 5]
+    for number, levels in chapters.items():
+        assert [level["id"] for level in levels] == [
+            f"{number}-{index}" for index in range(1, len(levels) + 1)
+        ]
+        assert len({level["chapter"] for level in levels}) == 1
+        *words, sentences, review, builder = levels
+        assert sentences["name"] == "Sentences"
+        assert review["name"] == "Review"
+        assert builder["mode"] == "sentence"
+        assert all(level["mode"] in {"word", "article"} for level in words)
+        assert review["tiers"] == list(range(1, number + 1))
+        assert all(level["tiers"] == [number] for level in [*words, sentences, builder])
 
 
-def test_level_structure_matches_plan() -> None:
-    bank = json.loads((ROOT / "wordbank.json").read_text(encoding="utf-8"))
-    level_ids = [level["id"] for level in bank["levels"]]
-    level_names = [level["name"] for level in bank["levels"]]
+def test_every_category_is_in_a_level_and_pools_are_playable() -> None:
+    bank = load_wordbank()
+    categories = {word_id.split(".")[0] for word_id in bank["words"]}
 
-    assert level_ids == ["1-1", "1-2", "1-3", "1-4", "1-5", "1-6", "2-1", "2-2", "2-3", "2-4"]
-    assert level_names == [
-        "People",
-        "Adjectives",
-        "Prepositions",
-        "People with articles",
-        "Animals",
-        "Words that look alike",
-        "Modal verbs",
-        "Common verbs",
-        "Everyday things",
-        "Sentence builder",
+    assert categories == {category for level in bank["levels"] for category in level["categories"]}
+    assert all(
+        sum(level["id"].startswith(f"{chapter}-") for level in bank["levels"]) <= 15
+        for chapter in range(1, 6)
+    )
+    assert all(len(level_word_ids(bank, level)) >= 9 for level in bank["levels"])
+    modal_ids = [
+        word_id
+        for level in bank["levels"]
+        if level["name"] == "Sentences"
+        for word_id in level_word_ids(bank, level)
+        if word_id.startswith("modals.")
     ]
-    assert all(len(level["wordIds"]) == 30 for level in bank["levels"])
-    assert all(word_id in bank["words"] for level in bank["levels"] for word_id in level["wordIds"])
-    modal_level = next(level for level in bank["levels"] if level["id"] == "2-1")
-    assert all(word_id.startswith("modals.") for word_id in modal_level["wordIds"])
-    assert {word_id.split(".")[1] for word_id in modal_level["wordIds"]} == {
+    assert {word_id.split(".")[1] for word_id in modal_ids} == {
         "koennen",
         "muessen",
         "wollen",
@@ -35,16 +49,25 @@ def test_level_structure_matches_plan() -> None:
         "sollen",
         "moegen",
     }
-    article_level = next(level for level in bank["levels"] if level["mode"] == "article")
-    assert all(word_id in bank["grammar"]["genitiveNouns"] for word_id in article_level["wordIds"])
-    assert all(bank["words"][word_id].get("gender") in {"der", "die", "das"} for word_id in article_level["wordIds"])
+    for level in bank["levels"]:
+        if level["mode"] != "article":
+            continue
+        for word_id in level_word_ids(bank, level):
+            assert word_id in bank["grammar"]["genitiveNouns"], word_id
+            assert bank["words"][word_id].get("gender") in {"der", "die", "das"}, word_id
 
 
-def test_every_word_has_danish_and_german_translations() -> None:
-    bank = json.loads((ROOT / "wordbank.json").read_text(encoding="utf-8"))
+def test_every_word_has_a_tier() -> None:
+    bank = load_wordbank()
+
+    assert all(word.get("tier") in {1, 2, 3, 4, 5} for word in bank["words"].values())
+
+
+def test_every_word_has_danish_german_and_english_translations() -> None:
+    bank = load_wordbank()
 
     for word_id, word in bank["words"].items():
-        for language in ("danish", "german"):
+        for language in ("danish", "german", "english"):
             translation = word.get(language)
             assert isinstance(translation, str), word_id
             assert translation.strip(), word_id
@@ -52,7 +75,7 @@ def test_every_word_has_danish_and_german_translations() -> None:
 
 
 def test_reference_translations_match_expected_pairs() -> None:
-    bank = json.loads((ROOT / "wordbank.json").read_text(encoding="utf-8"))
+    bank = load_wordbank()
     expected = {
         "people.mother": ("mor", "Mutter"),
         "adjectives.happy": ("glad", "glücklich"),
@@ -69,7 +92,7 @@ def test_reference_translations_match_expected_pairs() -> None:
 
 
 def test_german_article_declensions_match_expected_forms() -> None:
-    bank = json.loads((ROOT / "wordbank.json").read_text(encoding="utf-8"))
+    bank = load_wordbank()
     expected = {
         "definite": {
             "nominative": {"der": "der", "die": "die", "das": "das"},
@@ -95,9 +118,9 @@ def test_german_article_declensions_match_expected_forms() -> None:
 
 
 def test_sentence_builder_chunks_have_ordered_answers_and_distractors() -> None:
-    bank = json.loads((ROOT / "wordbank.json").read_text(encoding="utf-8"))
-    level = next(level for level in bank["levels"] if level["mode"] == "sentence")
-    chunks = [bank["words"][word_id] for word_id in level["wordIds"]]
+    bank = load_wordbank()
+    word_ids = [word_id for word_id in bank["words"] if word_id.startswith("sentence-builder.")]
+    chunks = [bank["words"][word_id] for word_id in word_ids]
     expected = {
         "sentence-builder.mand.subject": ("Manden", "Der Mann", "Manden er stor."),
         "sentence-builder.mand.verb": ("er", "ist", "Manden er stor."),
@@ -126,23 +149,40 @@ def test_sentence_builder_chunks_have_ordered_answers_and_distractors() -> None:
         "sentence-builder.laerer.subject": ("Læreren", "Der Lehrer", "Læreren åbner døren."),
         "sentence-builder.laerer.verb": ("åbner", "öffnet", "Læreren åbner døren."),
         "sentence-builder.laerer.object": ("døren", "die Tür.", "Læreren åbner døren."),
-        "sentence-builder.soster.subject": ("Min søster", "Meine Schwester", "Min søster arbejder i Berlin."),
+        "sentence-builder.soster.subject": (
+            "Min søster",
+            "Meine Schwester",
+            "Min søster arbejder i Berlin.",
+        ),
         "sentence-builder.soster.verb": ("arbejder", "arbeitet", "Min søster arbejder i Berlin."),
-        "sentence-builder.soster.place": ("i Berlin", "in Berlin.", "Min søster arbejder i Berlin."),
+        "sentence-builder.soster.place": (
+            "i Berlin",
+            "in Berlin.",
+            "Min søster arbejder i Berlin.",
+        ),
     }
     sentences: dict[str, list[dict[str, object]]] = {}
-    for word_id, chunk in zip(level["wordIds"], chunks):
-        assert (chunk["danish"], chunk["german"], chunk["sentence"]) == expected[word_id]
-        sentences.setdefault(chunk["sentenceId"], []).append(chunk)
+    for word_id, chunk in zip(word_ids, chunks):
+        if word_id in expected:
+            assert (chunk["danish"], chunk["german"], chunk["sentence"]) == expected[word_id]
+        sentences.setdefault(cast(str, chunk["sentenceId"]), []).append(chunk)
         options = chunk["options"]
         assert len(options) == 3
         assert len(set(options)) == 3
         assert chunk["german"] in options
 
-    assert len(chunks) == 30
-    assert len(sentences) == 10
-    assert all(sorted(chunk["step"] for chunk in parts) == [1, 2, 3] for parts in sentences.values())
+    sentences_per_tier: dict[int, int] = {}
+    for parts in sentences.values():
+        tier = cast(int, parts[0]["tier"])
+        sentences_per_tier[tier] = sentences_per_tier.get(tier, 0) + 1
+    assert set(sentences_per_tier) == {1, 2, 3, 4, 5}
+    assert min(sentences_per_tier.values()) >= 10
+    assert all(
+        sorted(cast(int, chunk["step"]) for chunk in parts) == [1, 2, 3]
+        for parts in sentences.values()
+    )
     assert all(len({chunk["sentence"] for chunk in parts}) == 1 for parts in sentences.values())
+    assert all(len({chunk["tier"] for chunk in parts}) == 1 for parts in sentences.values())
     assert set(bank["words"]["sentence-builder.mand.subject"]["options"]) == {
         "Der Mann",
         "Den Mann",

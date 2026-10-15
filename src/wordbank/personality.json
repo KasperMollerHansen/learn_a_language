@@ -1,0 +1,800 @@
+{
+  "personality.ambitious": {
+    "danish": "ærgerrig",
+    "german": "ehrgeizig",
+    "english": "ambitious",
+    "tier": 4
+  },
+  "personality.likeable": {
+    "danish": "sympatisk",
+    "german": "sympathisch",
+    "english": "likeable",
+    "tier": 2
+  },
+  "personality.faithful": {
+    "danish": "tro",
+    "german": "treu",
+    "english": "faithful",
+    "tier": 4
+  },
+  "personality.vain": {
+    "danish": "forfængelig",
+    "german": "eitel",
+    "english": "vain",
+    "tier": 5
+  },
+  "personality.self-confident": {
+    "danish": "selvsikker",
+    "german": "selbstbewusst",
+    "english": "self-confident",
+    "tier": 3
+  },
+  "personality.sensible": {
+    "danish": "fornuftig",
+    "german": "vernünftig",
+    "english": "sensible",
+    "tier": 3
+  },
+  "personality.reckless": {
+    "danish": "letsindig",
+    "german": "leichtsinnig",
+    "english": "reckless",
+    "tier": 4
+  },
+  "personality.cheeky": {
+    "danish": "fræk",
+    "german": "frech",
+    "english": "cheeky",
+    "tier": 3
+  },
+  "personality.obedient": {
+    "danish": "lydig",
+    "german": "gehorsam",
+    "english": "obedient",
+    "tier": 4
+  },
+  "personality.stubborn": {
+    "danish": "stædig",
+    "german": "stur",
+    "english": "stubborn",
+    "tier": 4
+  },
+  "personality.moody": {
+    "danish": "lunefuld",
+    "german": "launisch",
+    "english": "moody",
+    "tier": 4
+  },
+  "personality.sociable": {
+    "danish": "selskabelig",
+    "german": "gesellig",
+    "english": "sociable",
+    "tier": 4
+  },
+  "personality.naive": {
+    "danish": "naiv",
+    "german": "naiv",
+    "english": "naive",
+    "tier": 4
+  },
+  "personality.tolerant": {
+    "danish": "tolerant",
+    "german": "tolerant",
+    "english": "tolerant",
+    "tier": 3
+  },
+  "personality.optimistic": {
+    "danish": "optimistisk",
+    "german": "optimistisch",
+    "english": "optimistic",
+    "tier": 3
+  },
+  "personality.pessimistic": {
+    "danish": "pessimistisk",
+    "german": "pessimistisch",
+    "english": "pessimistic",
+    "tier": 3
+  },
+  "personality.realistic": {
+    "danish": "realistisk",
+    "german": "realistisch",
+    "english": "realistic",
+    "tier": 3
+  },
+  "personality.unpunctual": {
+    "danish": "upunktlig",
+    "german": "unpünktlich",
+    "english": "unpunctual",
+    "tier": 3
+  },
+  "personality.absent-minded": {
+    "danish": "distræt",
+    "german": "zerstreut",
+    "english": "absent-minded",
+    "tier": 4
+  },
+  "personality.forgetful": {
+    "danish": "glemsom",
+    "german": "vergesslich",
+    "english": "forgetful",
+    "tier": 3
+  },
+  "personality.helpful": {
+    "danish": "hjælpsom",
+    "german": "hilfsbereit",
+    "english": "helpful",
+    "tier": 3
+  },
+  "personality.considerate": {
+    "danish": "hensynsfuld",
+    "german": "rücksichtsvoll",
+    "english": "considerate",
+    "tier": 4
+  },
+  "personality.sincere": {
+    "danish": "oprigtig",
+    "german": "aufrichtig",
+    "english": "sincere",
+    "tier": 5
+  },
+  "personality.cunning": {
+    "danish": "listig",
+    "german": "listig",
+    "english": "cunning",
+    "tier": 5
+  },
+  "personality.humorous": {
+    "danish": "humoristisk",
+    "german": "humorvoll",
+    "english": "humorous",
+    "tier": 3
+  },
+  "personality.muscular": {
+    "danish": "muskuløs",
+    "german": "muskulös",
+    "english": "muscular",
+    "tier": 4
+  },
+  "personality.bald": {
+    "danish": "skaldet",
+    "german": "kahl",
+    "english": "bald",
+    "tier": 3
+  },
+  "personality.curly": {
+    "danish": "krøllet",
+    "german": "lockig",
+    "english": "curly",
+    "tier": 3
+  },
+  "personality.well-groomed": {
+    "danish": "velplejet",
+    "german": "gepflegt",
+    "english": "well-groomed",
+    "tier": 4
+  },
+  "personality.dark-haired": {
+    "danish": "mørkhåret",
+    "german": "dunkelhaarig",
+    "english": "dark-haired",
+    "tier": 4
+  },
+  "personality.athletic": {
+    "danish": "atletisk",
+    "german": "sportlich",
+    "english": "athletic",
+    "tier": 2
+  },
+  "personality.down-to-earth": {
+    "danish": "jordnær",
+    "german": "bodenständig",
+    "english": "down-to-earth",
+    "tier": 5
+  },
+  "personality.responsible": {
+    "danish": "ansvarsfuld",
+    "german": "verantwortungsvoll",
+    "english": "responsible",
+    "tier": 4
+  },
+  "personality.persistent": {
+    "danish": "vedholdende",
+    "german": "hartnäckig",
+    "english": "persistent",
+    "tier": 5
+  },
+  "personality.honourable": {
+    "danish": "hæderlig",
+    "german": "ehrenhaft",
+    "english": "honourable",
+    "tier": 5
+  },
+  "personality.independent": {
+    "danish": "uafhængig",
+    "german": "unabhängig",
+    "english": "independent",
+    "tier": 3
+  },
+  "personality.personality": {
+    "danish": "personlighed",
+    "german": "Persönlichkeit",
+    "english": "personality",
+    "gender": "die",
+    "danishDefinite": "personligheden",
+    "danishIndefinite": "en personlighed",
+    "tier": 3
+  },
+  "personality.trait": {
+    "danish": "egenskab",
+    "german": "Eigenschaft",
+    "english": "trait",
+    "gender": "die",
+    "danishDefinite": "egenskaben",
+    "danishIndefinite": "en egenskab",
+    "tier": 3
+  },
+  "personality.courage": {
+    "danish": "mod",
+    "german": "Mut",
+    "english": "courage",
+    "gender": "der",
+    "danishDefinite": "modet",
+    "danishIndefinite": "et mod",
+    "tier": 3
+  },
+  "personality.honesty": {
+    "danish": "ærlighed",
+    "german": "Ehrlichkeit",
+    "english": "honesty",
+    "gender": "die",
+    "danishDefinite": "ærligheden",
+    "danishIndefinite": "en ærlighed",
+    "tier": 3
+  },
+  "personality.weakness": {
+    "danish": "svaghed",
+    "german": "Schwäche",
+    "english": "weakness",
+    "gender": "die",
+    "danishDefinite": "svagheden",
+    "danishIndefinite": "en svaghed",
+    "tier": 3
+  },
+  "personality.laziness": {
+    "danish": "dovenskab",
+    "german": "Faulheit",
+    "english": "laziness",
+    "gender": "die",
+    "danishDefinite": "dovenskaben",
+    "danishIndefinite": "en dovenskab",
+    "tier": 4
+  },
+  "personality.sense-of-humour": {
+    "danish": "humor",
+    "german": "Humor",
+    "english": "sense of humour",
+    "gender": "der",
+    "danishDefinite": "humoren",
+    "danishIndefinite": "en humor",
+    "tier": 3
+  },
+  "personality.charming": {
+    "danish": "charmerende",
+    "german": "charmant",
+    "english": "charming",
+    "tier": 3
+  },
+  "personality.petit-bourgeois": {
+    "danish": "spidsborgerlig",
+    "german": "spießig",
+    "english": "petit-bourgeois",
+    "tier": 5
+  },
+  "personality.laid-back": {
+    "danish": "afslappet",
+    "german": "lässig",
+    "english": "laid-back",
+    "tier": 4
+  },
+  "personality.reserved": {
+    "danish": "tilbageholdende",
+    "german": "zurückhaltend",
+    "english": "reserved",
+    "tier": 4
+  },
+  "personality.open-minded": {
+    "danish": "åbensindet",
+    "german": "aufgeschlossen",
+    "english": "open-minded",
+    "tier": 4
+  },
+  "personality.narrow-minded": {
+    "danish": "snæversynet",
+    "german": "engstirnig",
+    "english": "narrow-minded",
+    "tier": 5
+  },
+  "personality.snooty": {
+    "danish": "hoven",
+    "german": "hochnäsig",
+    "english": "snooty",
+    "tier": 5
+  },
+  "personality.boastful": {
+    "danish": "pralende",
+    "german": "angeberisch",
+    "english": "boastful",
+    "tier": 5
+  },
+  "personality.envious": {
+    "danish": "misundelig",
+    "german": "neidisch",
+    "english": "envious",
+    "tier": 3
+  },
+  "personality.spiteful": {
+    "danish": "ondskabsfuld",
+    "german": "boshaft",
+    "english": "spiteful",
+    "tier": 5
+  },
+  "personality.good-natured": {
+    "danish": "godmodig",
+    "german": "gutmütig",
+    "english": "good-natured",
+    "tier": 5
+  },
+  "personality.sly": {
+    "danish": "lumsk",
+    "german": "hinterlistig",
+    "english": "sly",
+    "tier": 5
+  },
+  "personality.clumsy": {
+    "danish": "klodset",
+    "german": "tollpatschig",
+    "english": "clumsy",
+    "tier": 5
+  },
+  "personality.awkward": {
+    "danish": "kluntet",
+    "german": "ungeschickt",
+    "english": "awkward",
+    "tier": 4
+  },
+  "personality.skilful": {
+    "danish": "dygtig",
+    "german": "geschickt",
+    "english": "skilful",
+    "tier": 3
+  },
+  "personality.talented": {
+    "danish": "talentfuld",
+    "german": "talentiert",
+    "english": "talented",
+    "tier": 3
+  },
+  "personality.decent": {
+    "danish": "anstændig",
+    "german": "anständig",
+    "english": "decent",
+    "tier": 4
+  },
+  "personality.shameless": {
+    "danish": "skamløs",
+    "german": "schamlos",
+    "english": "shameless",
+    "tier": 5
+  },
+  "personality.conscientious": {
+    "danish": "samvittighedsfuld",
+    "german": "gewissenhaft",
+    "english": "conscientious",
+    "tier": 5
+  },
+  "personality.impertinent": {
+    "danish": "uforskammet",
+    "german": "unverschämt",
+    "english": "impertinent",
+    "tier": 4
+  },
+  "personality.attentive": {
+    "danish": "opmærksom",
+    "german": "aufmerksam",
+    "english": "attentive",
+    "tier": 3
+  },
+  "personality.inattentive": {
+    "danish": "uopmærksom",
+    "german": "unaufmerksam",
+    "english": "inattentive",
+    "tier": 4
+  },
+  "personality.caring": {
+    "danish": "omsorgsfuld",
+    "german": "fürsorglich",
+    "english": "caring",
+    "tier": 5
+  },
+  "personality.sensitive": {
+    "danish": "følsom",
+    "german": "sensibel",
+    "english": "sensitive",
+    "tier": 3
+  },
+  "personality.spirited": {
+    "danish": "temperamentsfuld",
+    "german": "temperamentvoll",
+    "english": "spirited",
+    "tier": 4
+  },
+  "personality.hot-tempered": {
+    "danish": "hidsig",
+    "german": "jähzornig",
+    "english": "hot-tempered",
+    "tier": 5
+  },
+  "personality.outgoing": {
+    "danish": "udadvendt",
+    "german": "kontaktfreudig",
+    "english": "outgoing",
+    "tier": 4
+  },
+  "personality.introverted": {
+    "danish": "indadvendt",
+    "german": "introvertiert",
+    "english": "introverted",
+    "tier": 4
+  },
+  "personality.talkative": {
+    "danish": "snakkesalig",
+    "german": "redselig",
+    "english": "talkative",
+    "tier": 3
+  },
+  "personality.taciturn": {
+    "danish": "fåmælt",
+    "german": "schweigsam",
+    "english": "taciturn",
+    "tier": 5
+  },
+  "personality.determined": {
+    "danish": "målbevidst",
+    "german": "zielstrebig",
+    "english": "determined",
+    "tier": 4
+  },
+  "personality.risk-taking": {
+    "danish": "risikovillig",
+    "german": "risikofreudig",
+    "english": "risk-taking",
+    "tier": 5
+  },
+  "personality.demanding": {
+    "danish": "krævende",
+    "german": "anspruchsvoll",
+    "english": "demanding",
+    "tier": 4
+  },
+  "personality.frugal": {
+    "danish": "nøjsom",
+    "german": "genügsam",
+    "english": "frugal",
+    "tier": 5
+  },
+  "personality.wasteful": {
+    "danish": "ødsel",
+    "german": "verschwenderisch",
+    "english": "wasteful",
+    "tier": 5
+  },
+  "personality.thrifty": {
+    "danish": "sparsommelig",
+    "german": "sparsam",
+    "english": "thrifty",
+    "tier": 3
+  },
+  "personality.lively": {
+    "danish": "livlig",
+    "german": "lebhaft",
+    "english": "lively",
+    "tier": 3
+  },
+  "personality.energetic": {
+    "danish": "energisk",
+    "german": "energisch",
+    "english": "energetic",
+    "tier": 3
+  },
+  "personality.dynamic": {
+    "danish": "handlekraftig",
+    "german": "tatkräftig",
+    "english": "dynamic",
+    "tier": 5
+  },
+  "personality.resolute": {
+    "danish": "beslutsom",
+    "german": "entschlossen",
+    "english": "resolute",
+    "tier": 4
+  },
+  "personality.hesitant": {
+    "danish": "tøvende",
+    "german": "zögerlich",
+    "english": "hesitant",
+    "tier": 5
+  },
+  "personality.careless": {
+    "danish": "sjusket",
+    "german": "nachlässig",
+    "english": "careless",
+    "tier": 5
+  },
+  "personality.petty": {
+    "danish": "smålig",
+    "german": "kleinlich",
+    "english": "petty",
+    "tier": 5
+  },
+  "personality.virtuous": {
+    "danish": "dydig",
+    "german": "tugendhaft",
+    "english": "virtuous",
+    "tier": 5
+  },
+  "personality.uninhibited": {
+    "danish": "hæmningsløs",
+    "german": "hemmungslos",
+    "english": "uninhibited",
+    "tier": 5
+  },
+  "personality.sturdy": {
+    "danish": "kraftig",
+    "german": "kräftig",
+    "english": "sturdy",
+    "tier": 3
+  },
+  "personality.stocky": {
+    "danish": "undersætsig",
+    "german": "stämmig",
+    "english": "stocky",
+    "tier": 5
+  },
+  "personality.chubby": {
+    "danish": "buttet",
+    "german": "pummelig",
+    "english": "chubby",
+    "tier": 5
+  },
+  "personality.gaunt": {
+    "danish": "radmager",
+    "german": "hager",
+    "english": "gaunt",
+    "tier": 5
+  },
+  "personality.red-haired": {
+    "danish": "rødhåret",
+    "german": "rothaarig",
+    "english": "red-haired",
+    "tier": 3
+  },
+  "personality.brown-haired": {
+    "danish": "brunhåret",
+    "german": "braunhaarig",
+    "english": "brown-haired",
+    "tier": 3
+  },
+  "personality.grey-haired": {
+    "danish": "gråhåret",
+    "german": "grauhaarig",
+    "english": "grey-haired",
+    "tier": 3
+  },
+  "personality.freckled": {
+    "danish": "fregnet",
+    "german": "sommersprossig",
+    "english": "freckled",
+    "tier": 5
+  },
+  "personality.bearded": {
+    "danish": "skægget",
+    "german": "bärtig",
+    "english": "bearded",
+    "tier": 4
+  },
+  "personality.wrinkled": {
+    "danish": "rynket",
+    "german": "faltig",
+    "english": "wrinkled",
+    "tier": 4
+  },
+  "personality.pale": {
+    "danish": "bleg",
+    "german": "blass",
+    "english": "pale",
+    "tier": 3
+  },
+  "personality.tanned": {
+    "danish": "solbrændt",
+    "german": "braun gebrannt",
+    "english": "tanned",
+    "tier": 4
+  },
+  "personality.attractive": {
+    "danish": "attraktiv",
+    "german": "attraktiv",
+    "english": "attractive",
+    "tier": 3
+  },
+  "personality.conspicuous": {
+    "danish": "iøjnefaldende",
+    "german": "auffällig",
+    "english": "conspicuous",
+    "tier": 4
+  },
+  "personality.tactful": {
+    "danish": "taktfuld",
+    "german": "taktvoll",
+    "english": "tactful",
+    "tier": 5
+  },
+  "personality.adaptable": {
+    "danish": "tilpasningsdygtig",
+    "german": "anpassungsfähig",
+    "english": "adaptable",
+    "tier": 5
+  },
+  "personality.temperament": {
+    "danish": "temperament",
+    "german": "Temperament",
+    "english": "temperament",
+    "gender": "das",
+    "danishDefinite": "temperamentet",
+    "danishIndefinite": "et temperament",
+    "tier": 4
+  },
+  "personality.stinginess": {
+    "danish": "nærighed",
+    "german": "Geiz",
+    "english": "stinginess",
+    "gender": "der",
+    "danishDefinite": "nærigheden",
+    "danishIndefinite": "en nærighed",
+    "tier": 5
+  },
+  "personality.generosity": {
+    "danish": "gavmildhed",
+    "german": "Großzügigkeit",
+    "english": "generosity",
+    "gender": "die",
+    "danishDefinite": "gavmildheden",
+    "danishIndefinite": "en gavmildhed",
+    "tier": 4
+  },
+  "personality.modesty": {
+    "danish": "beskedenhed",
+    "german": "Bescheidenheit",
+    "english": "modesty",
+    "gender": "die",
+    "danishDefinite": "beskedenheden",
+    "danishIndefinite": "en beskedenhed",
+    "tier": 4
+  },
+  "personality.kindness": {
+    "danish": "venlighed",
+    "german": "Freundlichkeit",
+    "english": "kindness",
+    "gender": "die",
+    "danishDefinite": "venligheden",
+    "danishIndefinite": "en venlighed",
+    "tier": 3
+  },
+  "personality.politeness": {
+    "danish": "høflighed",
+    "german": "Höflichkeit",
+    "english": "politeness",
+    "gender": "die",
+    "danishDefinite": "høfligheden",
+    "danishIndefinite": "en høflighed",
+    "tier": 3
+  },
+  "personality.reliability": {
+    "danish": "pålidelighed",
+    "german": "Zuverlässigkeit",
+    "english": "reliability",
+    "gender": "die",
+    "danishDefinite": "pålideligheden",
+    "danishIndefinite": "en pålidelighed",
+    "tier": 4
+  },
+  "personality.shyness": {
+    "danish": "generthed",
+    "german": "Schüchternheit",
+    "english": "shyness",
+    "gender": "die",
+    "danishDefinite": "genertheden",
+    "danishIndefinite": "en generthed",
+    "tier": 4
+  },
+  "personality.diligence": {
+    "danish": "flid",
+    "german": "Fleiß",
+    "english": "diligence",
+    "gender": "der",
+    "danishDefinite": "fliden",
+    "danishIndefinite": "en flid",
+    "tier": 4
+  },
+  "personality.vanity": {
+    "danish": "forfængelighed",
+    "german": "Eitelkeit",
+    "english": "vanity",
+    "gender": "die",
+    "danishDefinite": "forfængeligheden",
+    "danishIndefinite": "en forfængelighed",
+    "tier": 5
+  },
+  "personality.habit": {
+    "danish": "vane",
+    "german": "Gewohnheit",
+    "english": "habit",
+    "gender": "die",
+    "danishDefinite": "vanen",
+    "danishIndefinite": "en vane",
+    "tier": 3
+  },
+  "personality.virtue": {
+    "danish": "dyd",
+    "german": "Tugend",
+    "english": "virtue",
+    "gender": "die",
+    "danishDefinite": "dyden",
+    "danishIndefinite": "en dyd",
+    "tier": 5
+  },
+  "personality.vice": {
+    "danish": "last",
+    "german": "Laster",
+    "english": "vice",
+    "gender": "das",
+    "danishDefinite": "lasten",
+    "danishIndefinite": "en last",
+    "tier": 5
+  },
+  "personality.dimple": {
+    "danish": "smilehul",
+    "german": "Grübchen",
+    "english": "dimple",
+    "gender": "das",
+    "danishDefinite": "smilehullet",
+    "danishIndefinite": "et smilehul",
+    "tier": 5
+  },
+  "personality.curl": {
+    "danish": "lok",
+    "german": "Locke",
+    "english": "curl",
+    "gender": "die",
+    "danishDefinite": "lokken",
+    "danishIndefinite": "en lok",
+    "tier": 4
+  },
+  "personality.plait": {
+    "danish": "fletning",
+    "german": "Zopf",
+    "english": "plait",
+    "gender": "der",
+    "danishDefinite": "fletningen",
+    "danishIndefinite": "en fletning",
+    "tier": 4
+  },
+  "personality.fringe": {
+    "danish": "pandehår",
+    "german": "Pony",
+    "english": "fringe",
+    "gender": "der",
+    "danishDefinite": "pandehåret",
+    "danishIndefinite": "et pandehår",
+    "tier": 4
+  }
+}

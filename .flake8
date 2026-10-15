@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 99
+extend-exclude = .venv
+per-file-ignores =
+    tests/*: D100,D101,D102,D103,D104

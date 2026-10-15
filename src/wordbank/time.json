@@ -1,0 +1,845 @@
+{
+  "time.day": {
+    "danish": "dag",
+    "german": "Tag",
+    "english": "day",
+    "gender": "der",
+    "danishDefinite": "dagen",
+    "danishIndefinite": "en dag",
+    "tier": 1
+  },
+  "time.week": {
+    "danish": "uge",
+    "german": "Woche",
+    "english": "week",
+    "gender": "die",
+    "danishDefinite": "ugen",
+    "danishIndefinite": "en uge",
+    "tier": 1
+  },
+  "time.month": {
+    "danish": "måned",
+    "german": "Monat",
+    "english": "month",
+    "gender": "der",
+    "danishDefinite": "måneden",
+    "danishIndefinite": "en måned",
+    "tier": 1
+  },
+  "time.year": {
+    "danish": "år",
+    "german": "Jahr",
+    "english": "year",
+    "gender": "das",
+    "danishDefinite": "året",
+    "danishIndefinite": "et år",
+    "tier": 1
+  },
+  "time.hour": {
+    "danish": "time",
+    "german": "Stunde",
+    "english": "hour",
+    "gender": "die",
+    "danishDefinite": "timen",
+    "danishIndefinite": "en time",
+    "tier": 1
+  },
+  "time.morning": {
+    "danish": "morgen",
+    "german": "Morgen",
+    "english": "morning",
+    "gender": "der",
+    "danishDefinite": "morgenen",
+    "danishIndefinite": "en morgen",
+    "tier": 1
+  },
+  "time.late-morning": {
+    "danish": "formiddag",
+    "german": "Vormittag",
+    "english": "late morning",
+    "gender": "der",
+    "danishDefinite": "formiddagen",
+    "danishIndefinite": "en formiddag",
+    "tier": 1
+  },
+  "time.noon": {
+    "danish": "middagstid",
+    "german": "Mittag",
+    "english": "noon",
+    "gender": "der",
+    "danishDefinite": "middagstiden",
+    "danishIndefinite": "en middagstid",
+    "tier": 1
+  },
+  "time.afternoon": {
+    "danish": "eftermiddag",
+    "german": "Nachmittag",
+    "english": "afternoon",
+    "gender": "der",
+    "danishDefinite": "eftermiddagen",
+    "danishIndefinite": "en eftermiddag",
+    "tier": 1
+  },
+  "time.evening": {
+    "danish": "aften",
+    "german": "Abend",
+    "english": "evening",
+    "gender": "der",
+    "danishDefinite": "aftenen",
+    "danishIndefinite": "en aften",
+    "tier": 1
+  },
+  "time.night": {
+    "danish": "nat",
+    "german": "Nacht",
+    "english": "night",
+    "gender": "die",
+    "danishDefinite": "natten",
+    "danishIndefinite": "en nat",
+    "tier": 1
+  },
+  "time.midnight": {
+    "danish": "midnat",
+    "german": "Mitternacht",
+    "english": "midnight",
+    "gender": "die",
+    "danishDefinite": "midnatten",
+    "danishIndefinite": "en midnat",
+    "tier": 2
+  },
+  "time.weekend": {
+    "danish": "weekend",
+    "german": "Wochenende",
+    "english": "weekend",
+    "gender": "das",
+    "danishDefinite": "weekenden",
+    "danishIndefinite": "en weekend",
+    "tier": 1
+  },
+  "time.clock": {
+    "danish": "ur",
+    "german": "Uhr",
+    "english": "clock",
+    "gender": "die",
+    "danishDefinite": "uret",
+    "danishIndefinite": "et ur",
+    "tier": 1
+  },
+  "time.time": {
+    "danish": "tid",
+    "german": "Zeit",
+    "english": "time",
+    "gender": "die",
+    "danishDefinite": "tiden",
+    "danishIndefinite": "en tid",
+    "tier": 1
+  },
+  "time.date": {
+    "danish": "dato",
+    "german": "Datum",
+    "english": "date",
+    "gender": "das",
+    "danishDefinite": "datoen",
+    "danishIndefinite": "en dato",
+    "tier": 1
+  },
+  "time.century": {
+    "danish": "århundrede",
+    "german": "Jahrhundert",
+    "english": "century",
+    "gender": "das",
+    "danishDefinite": "århundredet",
+    "danishIndefinite": "et århundrede",
+    "tier": 3
+  },
+  "time.decade": {
+    "danish": "årti",
+    "german": "Jahrzehnt",
+    "english": "decade",
+    "gender": "das",
+    "danishDefinite": "årtiet",
+    "danishIndefinite": "et årti",
+    "tier": 3
+  },
+  "time.moment": {
+    "danish": "øjeblik",
+    "german": "Augenblick",
+    "english": "moment",
+    "gender": "der",
+    "danishDefinite": "øjeblikket",
+    "danishIndefinite": "et øjeblik",
+    "tier": 3
+  },
+  "time.occasion": {
+    "danish": "gang",
+    "german": "Mal",
+    "english": "occasion",
+    "gender": "das",
+    "danishDefinite": "gangen",
+    "danishIndefinite": "en gang",
+    "tier": 1
+  },
+  "time.past": {
+    "danish": "fortid",
+    "german": "Vergangenheit",
+    "english": "past",
+    "gender": "die",
+    "danishDefinite": "fortiden",
+    "danishIndefinite": "en fortid",
+    "tier": 3
+  },
+  "time.present": {
+    "danish": "nutid",
+    "german": "Gegenwart",
+    "english": "present",
+    "gender": "die",
+    "danishDefinite": "nutiden",
+    "danishIndefinite": "en nutid",
+    "tier": 3
+  },
+  "time.future": {
+    "danish": "fremtid",
+    "german": "Zukunft",
+    "english": "future",
+    "gender": "die",
+    "danishDefinite": "fremtiden",
+    "danishIndefinite": "en fremtid",
+    "tier": 3
+  },
+  "time.beginning": {
+    "danish": "begyndelse",
+    "german": "Anfang",
+    "english": "beginning",
+    "gender": "der",
+    "danishDefinite": "begyndelsen",
+    "danishIndefinite": "en begyndelse",
+    "tier": 1
+  },
+  "time.end": {
+    "danish": "slutning",
+    "german": "Ende",
+    "english": "end",
+    "gender": "das",
+    "danishDefinite": "slutningen",
+    "danishIndefinite": "en slutning",
+    "tier": 1
+  },
+  "time.appointment": {
+    "danish": "aftale",
+    "german": "Termin",
+    "english": "appointment",
+    "gender": "der",
+    "danishDefinite": "aftalen",
+    "danishIndefinite": "en aftale",
+    "tier": 1
+  },
+  "time.quarter-of-an-hour": {
+    "danish": "kvarter",
+    "german": "Viertelstunde",
+    "english": "quarter of an hour",
+    "gender": "die",
+    "danishDefinite": "kvarteret",
+    "danishIndefinite": "et kvarter",
+    "tier": 2
+  },
+  "time.day-of-the-week": {
+    "danish": "ugedag",
+    "german": "Wochentag",
+    "english": "day of the week",
+    "gender": "der",
+    "danishDefinite": "ugedagen",
+    "danishIndefinite": "en ugedag",
+    "tier": 2
+  },
+  "time.weekday": {
+    "danish": "hverdag",
+    "german": "Werktag",
+    "english": "weekday",
+    "gender": "der",
+    "danishDefinite": "hverdagen",
+    "danishIndefinite": "en hverdag",
+    "tier": 3
+  },
+  "time.twilight": {
+    "danish": "tusmørke",
+    "german": "Dämmerung",
+    "english": "twilight",
+    "gender": "die",
+    "danishDefinite": "tusmørket",
+    "danishIndefinite": "et tusmørke",
+    "tier": 4
+  },
+  "time.duration": {
+    "danish": "varighed",
+    "german": "Dauer",
+    "english": "duration",
+    "gender": "die",
+    "danishDefinite": "varigheden",
+    "danishIndefinite": "en varighed",
+    "tier": 3
+  },
+  "time.christmas": {
+    "danish": "jul",
+    "german": "Weihnachten",
+    "english": "Christmas",
+    "gender": "das",
+    "danishDefinite": "julen",
+    "danishIndefinite": "en jul",
+    "tier": 1
+  },
+  "time.easter": {
+    "danish": "påske",
+    "german": "Ostern",
+    "english": "Easter",
+    "gender": "das",
+    "danishDefinite": "påsken",
+    "danishIndefinite": "en påske",
+    "tier": 2
+  },
+  "time.birthday": {
+    "danish": "fødselsdag",
+    "german": "Geburtstag",
+    "english": "birthday",
+    "gender": "der",
+    "danishDefinite": "fødselsdagen",
+    "danishIndefinite": "en fødselsdag",
+    "tier": 1
+  },
+  "time.break": {
+    "danish": "pause",
+    "german": "Pause",
+    "english": "break",
+    "gender": "die",
+    "danishDefinite": "pausen",
+    "danishIndefinite": "en pause",
+    "tier": 1
+  },
+  "time.time-of-day": {
+    "danish": "klokkeslæt",
+    "german": "Uhrzeit",
+    "english": "time of day",
+    "gender": "die",
+    "danishDefinite": "klokkeslættet",
+    "danishIndefinite": "et klokkeslæt",
+    "tier": 1
+  },
+  "time.point-in-time": {
+    "danish": "tidspunkt",
+    "german": "Zeitpunkt",
+    "english": "point in time",
+    "gender": "der",
+    "danishDefinite": "tidspunktet",
+    "danishIndefinite": "et tidspunkt",
+    "tier": 3
+  },
+  "time.everyday-life": {
+    "danish": "dagligdag",
+    "german": "Alltag",
+    "english": "everyday life",
+    "gender": "der",
+    "danishDefinite": "dagligdagen",
+    "danishIndefinite": "en dagligdag",
+    "tier": 3
+  },
+  "time.end-of-the-working-day": {
+    "danish": "fyraften",
+    "german": "Feierabend",
+    "english": "end of the working day",
+    "gender": "der",
+    "danishDefinite": "fyraftenen",
+    "danishIndefinite": "en fyraften",
+    "tier": 2
+  },
+  "time.leap-year": {
+    "danish": "skudår",
+    "german": "Schaltjahr",
+    "english": "leap year",
+    "gender": "das",
+    "danishDefinite": "skudåret",
+    "danishIndefinite": "et skudår",
+    "tier": 5
+  },
+  "time.anniversary": {
+    "danish": "årsdag",
+    "german": "Jahrestag",
+    "english": "anniversary",
+    "gender": "der",
+    "danishDefinite": "årsdagen",
+    "danishIndefinite": "en årsdag",
+    "tier": 4
+  },
+  "time.deadline": {
+    "danish": "frist",
+    "german": "Frist",
+    "english": "deadline",
+    "gender": "die",
+    "danishDefinite": "fristen",
+    "danishIndefinite": "en frist",
+    "tier": 4
+  },
+  "time.schedule": {
+    "danish": "tidsplan",
+    "german": "Zeitplan",
+    "english": "schedule",
+    "gender": "der",
+    "danishDefinite": "tidsplanen",
+    "danishIndefinite": "en tidsplan",
+    "tier": 4
+  },
+  "time.season": {
+    "danish": "sæson",
+    "german": "Saison",
+    "english": "season",
+    "gender": "die",
+    "danishDefinite": "sæsonen",
+    "danishIndefinite": "en sæson",
+    "tier": 3
+  },
+  "time.epoch": {
+    "danish": "epoke",
+    "german": "Epoche",
+    "english": "epoch",
+    "gender": "die",
+    "danishDefinite": "epoken",
+    "danishIndefinite": "en epoke",
+    "tier": 5
+  },
+  "time.eternity": {
+    "danish": "evighed",
+    "german": "Ewigkeit",
+    "english": "eternity",
+    "gender": "die",
+    "danishDefinite": "evigheden",
+    "danishIndefinite": "en evighed",
+    "tier": 4
+  },
+  "time.monday": {
+    "danish": "mandag",
+    "german": "Montag",
+    "english": "Monday",
+    "gender": "der",
+    "danishDefinite": "mandagen",
+    "danishIndefinite": "en mandag",
+    "tier": 1
+  },
+  "time.tuesday": {
+    "danish": "tirsdag",
+    "german": "Dienstag",
+    "english": "Tuesday",
+    "gender": "der",
+    "danishDefinite": "tirsdagen",
+    "danishIndefinite": "en tirsdag",
+    "tier": 1
+  },
+  "time.wednesday": {
+    "danish": "onsdag",
+    "german": "Mittwoch",
+    "english": "Wednesday",
+    "gender": "der",
+    "danishDefinite": "onsdagen",
+    "danishIndefinite": "en onsdag",
+    "tier": 1
+  },
+  "time.thursday": {
+    "danish": "torsdag",
+    "german": "Donnerstag",
+    "english": "Thursday",
+    "gender": "der",
+    "danishDefinite": "torsdagen",
+    "danishIndefinite": "en torsdag",
+    "tier": 1
+  },
+  "time.friday": {
+    "danish": "fredag",
+    "german": "Freitag",
+    "english": "Friday",
+    "gender": "der",
+    "danishDefinite": "fredagen",
+    "danishIndefinite": "en fredag",
+    "tier": 1
+  },
+  "time.saturday": {
+    "danish": "lørdag",
+    "german": "Samstag",
+    "english": "Saturday",
+    "gender": "der",
+    "danishDefinite": "lørdagen",
+    "danishIndefinite": "en lørdag",
+    "tier": 1
+  },
+  "time.sunday": {
+    "danish": "søndag",
+    "german": "Sonntag",
+    "english": "Sunday",
+    "gender": "der",
+    "danishDefinite": "søndagen",
+    "danishIndefinite": "en søndag",
+    "tier": 1
+  },
+  "time.january": {
+    "danish": "januar",
+    "german": "Januar",
+    "english": "January",
+    "gender": "der",
+    "danishDefinite": "januar",
+    "danishIndefinite": "januar",
+    "tier": 1
+  },
+  "time.february": {
+    "danish": "februar",
+    "german": "Februar",
+    "english": "February",
+    "gender": "der",
+    "danishDefinite": "februar",
+    "danishIndefinite": "februar",
+    "tier": 1
+  },
+  "time.march": {
+    "danish": "marts",
+    "german": "März",
+    "english": "March",
+    "gender": "der",
+    "danishDefinite": "marts",
+    "danishIndefinite": "marts",
+    "tier": 1
+  },
+  "time.april": {
+    "danish": "april",
+    "german": "April",
+    "english": "April",
+    "gender": "der",
+    "danishDefinite": "april",
+    "danishIndefinite": "april",
+    "tier": 1
+  },
+  "time.may": {
+    "danish": "maj",
+    "german": "Mai",
+    "english": "May",
+    "gender": "der",
+    "danishDefinite": "maj",
+    "danishIndefinite": "maj",
+    "tier": 1
+  },
+  "time.june": {
+    "danish": "juni",
+    "german": "Juni",
+    "english": "June",
+    "gender": "der",
+    "danishDefinite": "juni",
+    "danishIndefinite": "juni",
+    "tier": 1
+  },
+  "time.july": {
+    "danish": "juli",
+    "german": "Juli",
+    "english": "July",
+    "gender": "der",
+    "danishDefinite": "juli",
+    "danishIndefinite": "juli",
+    "tier": 1
+  },
+  "time.august": {
+    "danish": "august",
+    "german": "August",
+    "english": "August",
+    "gender": "der",
+    "danishDefinite": "august",
+    "danishIndefinite": "august",
+    "tier": 1
+  },
+  "time.september": {
+    "danish": "september",
+    "german": "September",
+    "english": "September",
+    "gender": "der",
+    "danishDefinite": "september",
+    "danishIndefinite": "september",
+    "tier": 1
+  },
+  "time.october": {
+    "danish": "oktober",
+    "german": "Oktober",
+    "english": "October",
+    "gender": "der",
+    "danishDefinite": "oktober",
+    "danishIndefinite": "oktober",
+    "tier": 1
+  },
+  "time.november": {
+    "danish": "november",
+    "german": "November",
+    "english": "November",
+    "gender": "der",
+    "danishDefinite": "november",
+    "danishIndefinite": "november",
+    "tier": 1
+  },
+  "time.december": {
+    "danish": "december",
+    "german": "Dezember",
+    "english": "December",
+    "gender": "der",
+    "danishDefinite": "december",
+    "danishIndefinite": "december",
+    "tier": 1
+  },
+  "time.today": {
+    "danish": "i dag",
+    "german": "heute",
+    "english": "today",
+    "tier": 1
+  },
+  "time.yesterday": {
+    "danish": "i går",
+    "german": "gestern",
+    "english": "yesterday",
+    "tier": 1
+  },
+  "time.tomorrow": {
+    "danish": "i morgen",
+    "german": "morgen",
+    "english": "tomorrow",
+    "tier": 1
+  },
+  "time.the-day-after-tomorrow": {
+    "danish": "i overmorgen",
+    "german": "übermorgen",
+    "english": "the day after tomorrow",
+    "tier": 2
+  },
+  "time.the-day-before-yesterday": {
+    "danish": "i forgårs",
+    "german": "vorgestern",
+    "english": "the day before yesterday",
+    "tier": 2
+  },
+  "time.now": {
+    "danish": "nu",
+    "german": "jetzt",
+    "english": "now",
+    "tier": 1
+  },
+  "time.this-evening": {
+    "danish": "i aften",
+    "german": "heute Abend",
+    "english": "this evening",
+    "tier": 1
+  },
+  "time.this-morning": {
+    "danish": "i morges",
+    "german": "heute Morgen",
+    "english": "this morning",
+    "tier": 1
+  },
+  "time.tonight": {
+    "danish": "i nat",
+    "german": "heute Nacht",
+    "english": "tonight",
+    "tier": 1
+  },
+  "time.at-the-moment": {
+    "danish": "lige nu",
+    "german": "im Moment",
+    "english": "at the moment",
+    "tier": 2
+  },
+  "time.in-the-morning": {
+    "danish": "om morgenen",
+    "german": "morgens",
+    "english": "in the morning",
+    "tier": 1
+  },
+  "time.before-noon": {
+    "danish": "om formiddagen",
+    "german": "vormittags",
+    "english": "before noon",
+    "tier": 1
+  },
+  "time.in-the-afternoon": {
+    "danish": "om eftermiddagen",
+    "german": "nachmittags",
+    "english": "in the afternoon",
+    "tier": 1
+  },
+  "time.in-the-evening": {
+    "danish": "om aftenen",
+    "german": "abends",
+    "english": "in the evening",
+    "tier": 1
+  },
+  "time.at-night": {
+    "danish": "om natten",
+    "german": "nachts",
+    "english": "at night",
+    "tier": 2
+  },
+  "time.on-mondays": {
+    "danish": "om mandagen",
+    "german": "montags",
+    "english": "on Mondays",
+    "tier": 2
+  },
+  "time.vorlaeufig": {
+    "danish": "foreløbig",
+    "german": "vorläufig",
+    "english": "provisional",
+    "tier": 4
+  },
+  "time.ehemals": {
+    "danish": "tidligere",
+    "german": "ehemals",
+    "english": "formerly",
+    "tier": 4
+  },
+  "time.vorerst": {
+    "danish": "indtil videre",
+    "german": "vorerst",
+    "english": "for now",
+    "tier": 4
+  },
+  "time.stuendlich": {
+    "danish": "hver time",
+    "german": "stündlich",
+    "english": "hourly",
+    "tier": 4
+  },
+  "time.voruebergehend": {
+    "danish": "midlertidig",
+    "german": "vorübergehend",
+    "english": "temporary",
+    "tier": 4
+  },
+  "time.kuerzlich": {
+    "danish": "for nylig",
+    "german": "kürzlich",
+    "english": "recently",
+    "tier": 4
+  },
+  "time.zeitraum": {
+    "danish": "tidsrum",
+    "german": "Zeitraum",
+    "english": "period",
+    "gender": "der",
+    "danishDefinite": "tidsrummet",
+    "danishIndefinite": "et tidsrum",
+    "tier": 4
+  },
+  "time.verzoegerung": {
+    "danish": "forsinkelse",
+    "german": "Verzögerung",
+    "english": "delay",
+    "gender": "die",
+    "danishDefinite": "forsinkelsen",
+    "danishIndefinite": "en forsinkelse",
+    "tier": 4
+  },
+  "time.halbjahr": {
+    "danish": "halvår",
+    "german": "Halbjahr",
+    "english": "half-year",
+    "gender": "das",
+    "danishDefinite": "halvåret",
+    "danishIndefinite": "et halvår",
+    "tier": 4
+  },
+  "time.quartal": {
+    "danish": "kvartal",
+    "german": "Quartal",
+    "english": "quarter (financial)",
+    "gender": "das",
+    "danishDefinite": "kvartalet",
+    "danishIndefinite": "et kvartal",
+    "tier": 4
+  },
+  "time.wartezeit": {
+    "danish": "ventetid",
+    "german": "Wartezeit",
+    "english": "waiting time",
+    "gender": "die",
+    "danishDefinite": "ventetiden",
+    "danishIndefinite": "en ventetid",
+    "tier": 4
+  },
+  "time.neuerdings": {
+    "danish": "på det seneste",
+    "german": "neuerdings",
+    "english": "lately",
+    "tier": 5
+  },
+  "time.seinerzeit": {
+    "danish": "i sin tid",
+    "german": "seinerzeit",
+    "english": "in those days",
+    "tier": 5
+  },
+  "time.alljaehrlich": {
+    "danish": "hvert år",
+    "german": "alljährlich",
+    "english": "every year",
+    "tier": 5
+  },
+  "time.fortan": {
+    "danish": "fra nu af",
+    "german": "fortan",
+    "english": "from now on",
+    "tier": 5
+  },
+  "time.umgehend": {
+    "danish": "omgående",
+    "german": "umgehend",
+    "english": "immediately",
+    "tier": 5
+  },
+  "time.vierteljaehrlich": {
+    "danish": "kvartalsvis",
+    "german": "vierteljährlich",
+    "english": "quarterly",
+    "tier": 5
+  },
+  "time.halbjaehrlich": {
+    "danish": "halvårligt",
+    "german": "halbjährlich",
+    "english": "half-yearly",
+    "tier": 5
+  },
+  "time.zeitweise": {
+    "danish": "periodevis",
+    "german": "zeitweise",
+    "english": "at times",
+    "tier": 5
+  },
+  "time.kuenftig": {
+    "danish": "fremtidig",
+    "german": "künftig",
+    "english": "future",
+    "tier": 5
+  },
+  "time.jahrtausend": {
+    "danish": "årtusinde",
+    "german": "Jahrtausend",
+    "english": "millennium",
+    "gender": "das",
+    "danishDefinite": "årtusindet",
+    "danishIndefinite": "et årtusinde",
+    "tier": 5
+  },
+  "time.jahrhundertwende": {
+    "danish": "århundredskifte",
+    "german": "Jahrhundertwende",
+    "english": "turn of the century",
+    "gender": "die",
+    "danishDefinite": "århundredskiftet",
+    "danishIndefinite": "et århundredskifte",
+    "tier": 5
+  },
+  "time.zeitgeist": {
+    "danish": "tidsånd",
+    "german": "Zeitgeist",
+    "english": "zeitgeist",
+    "gender": "der",
+    "danishDefinite": "tidsånden",
+    "danishIndefinite": "en tidsånd",
+    "tier": 5
+  }
+}

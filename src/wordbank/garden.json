@@ -1,0 +1,803 @@
+{
+  "garden.tree": {
+    "danish": "træ",
+    "german": "Baum",
+    "english": "tree",
+    "gender": "der",
+    "danishDefinite": "træet",
+    "danishIndefinite": "et træ",
+    "tier": 1
+  },
+  "garden.grass": {
+    "danish": "græs",
+    "german": "Gras",
+    "english": "grass",
+    "gender": "das",
+    "danishDefinite": "græsset",
+    "danishIndefinite": "et græs",
+    "tier": 1
+  },
+  "garden.flowerbed": {
+    "danish": "blomsterbed",
+    "german": "Blumenbeet",
+    "english": "flowerbed",
+    "gender": "das",
+    "danishDefinite": "blomsterbedet",
+    "danishIndefinite": "et blomsterbed",
+    "tier": 4
+  },
+  "garden.fence": {
+    "danish": "hegn",
+    "german": "Zaun",
+    "english": "fence",
+    "gender": "der",
+    "danishDefinite": "hegnet",
+    "danishIndefinite": "et hegn",
+    "tier": 3
+  },
+  "garden.path": {
+    "danish": "sti",
+    "german": "Weg",
+    "english": "path",
+    "gender": "der",
+    "danishDefinite": "stien",
+    "danishIndefinite": "en sti",
+    "tier": 2
+  },
+  "garden.bush": {
+    "danish": "busk",
+    "german": "Busch",
+    "english": "bush",
+    "gender": "der",
+    "danishDefinite": "busken",
+    "danishIndefinite": "en busk",
+    "tier": 3
+  },
+  "garden.seed": {
+    "danish": "frø",
+    "german": "Samen",
+    "english": "seed",
+    "gender": "der",
+    "danishDefinite": "frøet",
+    "danishIndefinite": "et frø",
+    "tier": 4
+  },
+  "garden.pot": {
+    "danish": "potte",
+    "german": "Topf",
+    "english": "pot",
+    "gender": "der",
+    "danishDefinite": "potten",
+    "danishIndefinite": "en potte",
+    "tier": 2
+  },
+  "garden.garden": {
+    "danish": "have",
+    "german": "Garten",
+    "english": "garden",
+    "gender": "der",
+    "danishDefinite": "haven",
+    "danishIndefinite": "en have",
+    "tier": 1
+  },
+  "garden.flower": {
+    "danish": "blomst",
+    "german": "Blume",
+    "english": "flower",
+    "gender": "die",
+    "danishDefinite": "blomsten",
+    "danishIndefinite": "en blomst",
+    "tier": 1
+  },
+  "garden.plant": {
+    "danish": "plante",
+    "german": "Pflanze",
+    "english": "plant",
+    "gender": "die",
+    "danishDefinite": "planten",
+    "danishIndefinite": "en plante",
+    "tier": 1
+  },
+  "garden.leaf": {
+    "danish": "blad",
+    "german": "Blatt",
+    "english": "leaf",
+    "gender": "das",
+    "danishDefinite": "bladet",
+    "danishIndefinite": "et blad",
+    "tier": 1
+  },
+  "garden.rose": {
+    "danish": "rose",
+    "german": "Rose",
+    "english": "rose",
+    "gender": "die",
+    "danishDefinite": "rosen",
+    "danishIndefinite": "en rose",
+    "tier": 1
+  },
+  "garden.tulip": {
+    "danish": "tulipan",
+    "german": "Tulpe",
+    "english": "tulip",
+    "gender": "die",
+    "danishDefinite": "tulipanen",
+    "danishIndefinite": "en tulipan",
+    "tier": 3
+  },
+  "garden.sunflower": {
+    "danish": "solsikke",
+    "german": "Sonnenblume",
+    "english": "sunflower",
+    "gender": "die",
+    "danishDefinite": "solsikken",
+    "danishIndefinite": "en solsikke",
+    "tier": 3
+  },
+  "garden.violet": {
+    "danish": "viol",
+    "german": "Veilchen",
+    "english": "violet",
+    "gender": "das",
+    "danishDefinite": "violen",
+    "danishIndefinite": "en viol",
+    "tier": 5
+  },
+  "garden.daisy": {
+    "danish": "tusindfryd",
+    "german": "Gänseblümchen",
+    "english": "daisy",
+    "gender": "das",
+    "danishDefinite": "tusindfryden",
+    "danishIndefinite": "en tusindfryd",
+    "tier": 5
+  },
+  "garden.dandelion": {
+    "danish": "mælkebøtte",
+    "german": "Löwenzahn",
+    "english": "dandelion",
+    "gender": "der",
+    "danishDefinite": "mælkebøtten",
+    "danishIndefinite": "en mælkebøtte",
+    "tier": 5
+  },
+  "garden.lily": {
+    "danish": "lilje",
+    "german": "Lilie",
+    "english": "lily",
+    "gender": "die",
+    "danishDefinite": "liljen",
+    "danishIndefinite": "en lilje",
+    "tier": 4
+  },
+  "garden.daffodil": {
+    "danish": "påskelilje",
+    "german": "Osterglocke",
+    "english": "daffodil",
+    "gender": "die",
+    "danishDefinite": "påskeliljen",
+    "danishIndefinite": "en påskelilje",
+    "tier": 5
+  },
+  "garden.poppy": {
+    "danish": "valmue",
+    "german": "Mohn",
+    "english": "poppy",
+    "gender": "der",
+    "danishDefinite": "valmuen",
+    "danishIndefinite": "en valmue",
+    "tier": 5
+  },
+  "garden.lavender": {
+    "danish": "lavendel",
+    "german": "Lavendel",
+    "english": "lavender",
+    "gender": "der",
+    "danishDefinite": "lavendlen",
+    "danishIndefinite": "en lavendel",
+    "tier": 4
+  },
+  "garden.orchid": {
+    "danish": "orkidé",
+    "german": "Orchidee",
+    "english": "orchid",
+    "gender": "die",
+    "danishDefinite": "orkidéen",
+    "danishIndefinite": "en orkidé",
+    "tier": 4
+  },
+  "garden.cactus": {
+    "danish": "kaktus",
+    "german": "Kaktus",
+    "english": "cactus",
+    "gender": "der",
+    "danishDefinite": "kaktussen",
+    "danishIndefinite": "en kaktus",
+    "tier": 3
+  },
+  "garden.stem": {
+    "danish": "stilk",
+    "german": "Stiel",
+    "english": "stem",
+    "gender": "der",
+    "danishDefinite": "stilken",
+    "danishIndefinite": "en stilk",
+    "tier": 5
+  },
+  "garden.root": {
+    "danish": "rod",
+    "german": "Wurzel",
+    "english": "root",
+    "gender": "die",
+    "danishDefinite": "roden",
+    "danishIndefinite": "en rod",
+    "tier": 3
+  },
+  "garden.branch": {
+    "danish": "gren",
+    "german": "Ast",
+    "english": "branch",
+    "gender": "der",
+    "danishDefinite": "grenen",
+    "danishIndefinite": "en gren",
+    "tier": 3
+  },
+  "garden.twig": {
+    "danish": "kvist",
+    "german": "Zweig",
+    "english": "twig",
+    "gender": "der",
+    "danishDefinite": "kvisten",
+    "danishIndefinite": "en kvist",
+    "tier": 4
+  },
+  "garden.tree-trunk": {
+    "danish": "stamme",
+    "german": "Stamm",
+    "english": "tree trunk",
+    "gender": "der",
+    "danishDefinite": "stammen",
+    "danishIndefinite": "en stamme",
+    "tier": 4
+  },
+  "garden.bark": {
+    "danish": "bark",
+    "german": "Rinde",
+    "english": "bark",
+    "gender": "die",
+    "danishDefinite": "barken",
+    "danishIndefinite": "en bark",
+    "tier": 5
+  },
+  "garden.bud": {
+    "danish": "blomsterknop",
+    "german": "Knospe",
+    "english": "bud",
+    "gender": "die",
+    "danishDefinite": "blomsterknoppen",
+    "danishIndefinite": "en blomsterknop",
+    "tier": 5
+  },
+  "garden.petal": {
+    "danish": "kronblad",
+    "german": "Blütenblatt",
+    "english": "petal",
+    "gender": "das",
+    "danishDefinite": "kronbladet",
+    "danishIndefinite": "et kronblad",
+    "tier": 5
+  },
+  "garden.thorn": {
+    "danish": "torn",
+    "german": "Dorn",
+    "english": "thorn",
+    "gender": "der",
+    "danishDefinite": "tornen",
+    "danishIndefinite": "en torn",
+    "tier": 5
+  },
+  "garden.flower-bulb": {
+    "danish": "blomsterløg",
+    "german": "Blumenzwiebel",
+    "english": "flower bulb",
+    "gender": "die",
+    "danishDefinite": "blomsterløget",
+    "danishIndefinite": "et blomsterløg",
+    "tier": 5
+  },
+  "garden.berry": {
+    "danish": "bær",
+    "german": "Beere",
+    "english": "berry",
+    "gender": "die",
+    "danishDefinite": "bæret",
+    "danishIndefinite": "et bær",
+    "tier": 3
+  },
+  "garden.cone": {
+    "danish": "kogle",
+    "german": "Zapfen",
+    "english": "cone",
+    "gender": "der",
+    "danishDefinite": "koglen",
+    "danishIndefinite": "en kogle",
+    "tier": 5
+  },
+  "garden.acorn": {
+    "danish": "agern",
+    "german": "Eichel",
+    "english": "acorn",
+    "gender": "die",
+    "danishDefinite": "agernet",
+    "danishIndefinite": "et agern",
+    "tier": 5
+  },
+  "garden.chestnut": {
+    "danish": "kastanje",
+    "german": "Kastanie",
+    "english": "chestnut",
+    "gender": "die",
+    "danishDefinite": "kastanjen",
+    "danishIndefinite": "en kastanje",
+    "tier": 4
+  },
+  "garden.fern": {
+    "danish": "bregne",
+    "german": "Farn",
+    "english": "fern",
+    "gender": "der",
+    "danishDefinite": "bregnen",
+    "danishIndefinite": "en bregne",
+    "tier": 5
+  },
+  "garden.climbing-plant": {
+    "danish": "klatreplante",
+    "german": "Kletterpflanze",
+    "english": "climbing plant",
+    "gender": "die",
+    "danishDefinite": "klatreplanten",
+    "danishIndefinite": "en klatreplante",
+    "tier": 5
+  },
+  "garden.herb": {
+    "danish": "krydderurt",
+    "german": "Kraut",
+    "english": "herb",
+    "gender": "das",
+    "danishDefinite": "krydderurten",
+    "danishIndefinite": "en krydderurt",
+    "tier": 4
+  },
+  "garden.oak": {
+    "danish": "eg",
+    "german": "Eiche",
+    "english": "oak",
+    "gender": "die",
+    "danishDefinite": "egen",
+    "danishIndefinite": "en eg",
+    "tier": 3
+  },
+  "garden.beech": {
+    "danish": "bøg",
+    "german": "Buche",
+    "english": "beech",
+    "gender": "die",
+    "danishDefinite": "bøgen",
+    "danishIndefinite": "en bøg",
+    "tier": 5
+  },
+  "garden.birch": {
+    "danish": "birk",
+    "german": "Birke",
+    "english": "birch",
+    "gender": "die",
+    "danishDefinite": "birken",
+    "danishIndefinite": "en birk",
+    "tier": 5
+  },
+  "garden.spruce": {
+    "danish": "grantræ",
+    "german": "Fichte",
+    "english": "spruce",
+    "gender": "die",
+    "danishDefinite": "grantræet",
+    "danishIndefinite": "et grantræ",
+    "tier": 5
+  },
+  "garden.pine-tree": {
+    "danish": "fyrretræ",
+    "german": "Kiefer",
+    "english": "pine tree",
+    "gender": "die",
+    "danishDefinite": "fyrretræet",
+    "danishIndefinite": "et fyrretræ",
+    "tier": 5
+  },
+  "garden.lime-tree": {
+    "danish": "lind",
+    "german": "Linde",
+    "english": "lime tree",
+    "gender": "die",
+    "danishDefinite": "linden",
+    "danishIndefinite": "en lind",
+    "tier": 5
+  },
+  "garden.maple": {
+    "danish": "ahorn",
+    "german": "Ahorn",
+    "english": "maple",
+    "gender": "der",
+    "danishDefinite": "ahornen",
+    "danishIndefinite": "en ahorn",
+    "tier": 5
+  },
+  "garden.christmas-tree": {
+    "danish": "juletræ",
+    "german": "Weihnachtsbaum",
+    "english": "Christmas tree",
+    "gender": "der",
+    "danishDefinite": "juletræet",
+    "danishIndefinite": "et juletræ",
+    "tier": 2
+  },
+  "garden.palm-tree": {
+    "danish": "palmetræ",
+    "german": "Palme",
+    "english": "palm tree",
+    "gender": "die",
+    "danishDefinite": "palmetræet",
+    "danishIndefinite": "et palmetræ",
+    "tier": 3
+  },
+  "garden.apple-tree": {
+    "danish": "æbletræ",
+    "german": "Apfelbaum",
+    "english": "apple tree",
+    "gender": "der",
+    "danishDefinite": "æbletræet",
+    "danishIndefinite": "et æbletræ",
+    "tier": 3
+  },
+  "garden.cherry-tree": {
+    "danish": "kirsebærtræ",
+    "german": "Kirschbaum",
+    "english": "cherry tree",
+    "gender": "der",
+    "danishDefinite": "kirsebærtræet",
+    "danishIndefinite": "et kirsebærtræ",
+    "tier": 4
+  },
+  "garden.bamboo": {
+    "danish": "bambus",
+    "german": "Bambus",
+    "english": "bamboo",
+    "gender": "der",
+    "danishDefinite": "bambussen",
+    "danishIndefinite": "en bambus",
+    "tier": 4
+  },
+  "garden.gardener": {
+    "danish": "gartner",
+    "german": "Gärtner",
+    "english": "gardener",
+    "gender": "der",
+    "danishDefinite": "gartneren",
+    "danishIndefinite": "en gartner",
+    "tier": 3
+  },
+  "garden.lawn": {
+    "danish": "græsplæne",
+    "german": "Rasen",
+    "english": "lawn",
+    "gender": "der",
+    "danishDefinite": "græsplænen",
+    "danishIndefinite": "en græsplæne",
+    "tier": 3
+  },
+  "garden.lawn-mower": {
+    "danish": "plæneklipper",
+    "german": "Rasenmäher",
+    "english": "lawn mower",
+    "gender": "der",
+    "danishDefinite": "plæneklipperen",
+    "danishIndefinite": "en plæneklipper",
+    "tier": 3
+  },
+  "garden.rake": {
+    "danish": "rive",
+    "german": "Rechen",
+    "english": "rake",
+    "gender": "der",
+    "danishDefinite": "riven",
+    "danishIndefinite": "en rive",
+    "tier": 5
+  },
+  "garden.spade": {
+    "danish": "spade",
+    "german": "Spaten",
+    "english": "spade",
+    "gender": "der",
+    "danishDefinite": "spaden",
+    "danishIndefinite": "en spade",
+    "tier": 5
+  },
+  "garden.shovel": {
+    "danish": "skovl",
+    "german": "Schaufel",
+    "english": "shovel",
+    "gender": "die",
+    "danishDefinite": "skovlen",
+    "danishIndefinite": "en skovl",
+    "tier": 3
+  },
+  "garden.watering-can": {
+    "danish": "vandkande",
+    "german": "Gießkanne",
+    "english": "watering can",
+    "gender": "die",
+    "danishDefinite": "vandkanden",
+    "danishIndefinite": "en vandkande",
+    "tier": 3
+  },
+  "garden.garden-hose": {
+    "danish": "haveslange",
+    "german": "Gartenschlauch",
+    "english": "garden hose",
+    "gender": "der",
+    "danishDefinite": "haveslangen",
+    "danishIndefinite": "en haveslange",
+    "tier": 3
+  },
+  "garden.garden-shears": {
+    "danish": "havesaks",
+    "german": "Gartenschere",
+    "english": "garden shears",
+    "gender": "die",
+    "danishDefinite": "havesaksen",
+    "danishIndefinite": "en havesaks",
+    "tier": 5
+  },
+  "garden.wheelbarrow": {
+    "danish": "trillebør",
+    "german": "Schubkarre",
+    "english": "wheelbarrow",
+    "gender": "die",
+    "danishDefinite": "trillebøren",
+    "danishIndefinite": "en trillebør",
+    "tier": 5
+  },
+  "garden.fertiliser": {
+    "danish": "gødning",
+    "german": "Dünger",
+    "english": "fertiliser",
+    "gender": "der",
+    "danishDefinite": "gødningen",
+    "danishIndefinite": "en gødning",
+    "tier": 5
+  },
+  "garden.compost": {
+    "danish": "kompost",
+    "german": "Kompost",
+    "english": "compost",
+    "gender": "der",
+    "danishDefinite": "komposten",
+    "danishIndefinite": "en kompost",
+    "tier": 4
+  },
+  "garden.soil": {
+    "danish": "jord",
+    "german": "Erde",
+    "english": "soil",
+    "gender": "die",
+    "danishDefinite": "jorden",
+    "danishIndefinite": "en jord",
+    "tier": 2
+  },
+  "garden.greenhouse": {
+    "danish": "drivhus",
+    "german": "Gewächshaus",
+    "english": "greenhouse",
+    "gender": "das",
+    "danishDefinite": "drivhuset",
+    "danishIndefinite": "et drivhus",
+    "tier": 4
+  },
+  "garden.terrace": {
+    "danish": "terrasse",
+    "german": "Terrasse",
+    "english": "terrace",
+    "gender": "die",
+    "danishDefinite": "terrassen",
+    "danishIndefinite": "en terrasse",
+    "tier": 2
+  },
+  "garden.bench": {
+    "danish": "bænk",
+    "german": "Bank",
+    "english": "bench",
+    "gender": "die",
+    "danishDefinite": "bænken",
+    "danishIndefinite": "en bænk",
+    "tier": 2
+  },
+  "garden.hammock": {
+    "danish": "hængekøje",
+    "german": "Hängematte",
+    "english": "hammock",
+    "gender": "die",
+    "danishDefinite": "hængekøjen",
+    "danishIndefinite": "en hængekøje",
+    "tier": 4
+  },
+  "garden.swing": {
+    "danish": "gynge",
+    "german": "Schaukel",
+    "english": "swing",
+    "gender": "die",
+    "danishDefinite": "gyngen",
+    "danishIndefinite": "en gynge",
+    "tier": 3
+  },
+  "garden.sandpit": {
+    "danish": "sandkasse",
+    "german": "Sandkasten",
+    "english": "sandpit",
+    "gender": "der",
+    "danishDefinite": "sandkassen",
+    "danishIndefinite": "en sandkasse",
+    "tier": 4
+  },
+  "garden.hedge": {
+    "danish": "hæk",
+    "german": "Hecke",
+    "english": "hedge",
+    "gender": "die",
+    "danishDefinite": "hækken",
+    "danishIndefinite": "en hæk",
+    "tier": 3
+  },
+  "garden.gate": {
+    "danish": "port",
+    "german": "Tor",
+    "english": "gate",
+    "gender": "das",
+    "danishDefinite": "porten",
+    "danishIndefinite": "en port",
+    "tier": 3
+  },
+  "garden.wall": {
+    "danish": "mur",
+    "german": "Mauer",
+    "english": "wall",
+    "gender": "die",
+    "danishDefinite": "muren",
+    "danishIndefinite": "en mur",
+    "tier": 3
+  },
+  "garden.garden-pond": {
+    "danish": "havedam",
+    "german": "Gartenteich",
+    "english": "garden pond",
+    "gender": "der",
+    "danishDefinite": "havedammen",
+    "danishIndefinite": "en havedam",
+    "tier": 4
+  },
+  "garden.fountain": {
+    "danish": "springvand",
+    "german": "Springbrunnen",
+    "english": "fountain",
+    "gender": "der",
+    "danishDefinite": "springvandet",
+    "danishIndefinite": "et springvand",
+    "tier": 4
+  },
+  "garden.birdhouse": {
+    "danish": "fuglehus",
+    "german": "Vogelhaus",
+    "english": "birdhouse",
+    "gender": "das",
+    "danishDefinite": "fuglehuset",
+    "danishIndefinite": "et fuglehus",
+    "tier": 4
+  },
+  "garden.scarecrow": {
+    "danish": "fugleskræmsel",
+    "german": "Vogelscheuche",
+    "english": "scarecrow",
+    "gender": "die",
+    "danishDefinite": "fugleskræmslet",
+    "danishIndefinite": "et fugleskræmsel",
+    "tier": 5
+  },
+  "garden.vegetable-garden": {
+    "danish": "køkkenhave",
+    "german": "Gemüsegarten",
+    "english": "vegetable garden",
+    "gender": "der",
+    "danishDefinite": "køkkenhaven",
+    "danishIndefinite": "en køkkenhave",
+    "tier": 4
+  },
+  "garden.harvest": {
+    "danish": "høst",
+    "german": "Ernte",
+    "english": "harvest",
+    "gender": "die",
+    "danishDefinite": "høsten",
+    "danishIndefinite": "en høst",
+    "tier": 3
+  },
+  "garden.to-sow": {
+    "danish": "at så",
+    "german": "säen",
+    "english": "to sow",
+    "tier": 5
+  },
+  "garden.to-plant": {
+    "danish": "at plante",
+    "german": "pflanzen",
+    "english": "to plant",
+    "tier": 3
+  },
+  "garden.to-water": {
+    "danish": "at vande",
+    "german": "gießen",
+    "english": "to water",
+    "tier": 2
+  },
+  "garden.to-dig": {
+    "danish": "at grave",
+    "german": "graben",
+    "english": "to dig",
+    "tier": 3
+  },
+  "garden.to-mow-the-lawn": {
+    "danish": "at slå græs",
+    "german": "Rasen mähen",
+    "english": "to mow the lawn",
+    "tier": 4
+  },
+  "garden.to-weed": {
+    "danish": "at luge",
+    "german": "jäten",
+    "english": "to weed",
+    "tier": 5
+  },
+  "garden.to-grow": {
+    "danish": "at vokse",
+    "german": "wachsen",
+    "english": "to grow",
+    "tier": 2
+  },
+  "garden.to-bloom": {
+    "danish": "at blomstre",
+    "german": "blühen",
+    "english": "to bloom",
+    "tier": 4
+  },
+  "garden.to-wilt": {
+    "danish": "at visne",
+    "german": "welken",
+    "english": "to wilt",
+    "tier": 5
+  },
+  "garden.to-harvest": {
+    "danish": "at høste",
+    "german": "ernten",
+    "english": "to harvest",
+    "tier": 4
+  },
+  "garden.to-prune": {
+    "danish": "at beskære",
+    "german": "beschneiden",
+    "english": "to prune",
+    "tier": 5
+  },
+  "garden.to-fertilise": {
+    "danish": "at gødske",
+    "german": "düngen",
+    "english": "to fertilise",
+    "tier": 5
+  }
+}

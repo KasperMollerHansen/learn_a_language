@@ -57,6 +57,12 @@
       .level[aria-selected="true"] { border-color: var(--ink); background: var(--ink); color: white; box-shadow: 0 10px 18px rgba(23, 60, 50, .14); }
       .level[aria-selected="true"] .level-badge { background: rgba(213, 243, 106, .18); color: var(--lime); }
       .level:disabled { cursor: not-allowed; opacity: .42; }
+      .level .level-check { color: #3f8a5c; font-size: 14px; font-weight: 900; }
+      .level[aria-selected="true"] .level-check { color: var(--lime); }
+      .difficulty { display: flex; flex: 0 0 auto; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin: 0 0 12px; }
+      .difficulty button { min-height: 32px; padding: 0 14px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--ink); cursor: pointer; font-size: 11px; font-weight: 800; }
+      .difficulty button[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: white; }
+      .difficulty-note { color: var(--muted); font-size: 11px; }
       .start { display: inline-flex; min-height: 48px; flex: 0 0 auto; align-items: center; align-self: flex-start; gap: 16px; margin-bottom: 18px; padding: 0 18px; border: 0; border-radius: 3px; background: var(--coral); color: #172f28; cursor: pointer; font-size: 13px; font-weight: 900; }
       .start:hover { background: #f68c70; }
       .arrow { font-size: 18px; }
@@ -187,7 +193,7 @@
   <body class="menu-mode">
     <div class="app">
       <header>
-        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.0.22</span></button>
+        <button class="brand" id="brand-button" type="button" aria-label="Wortlauf, back to levels"><span class="brand-mark" aria-hidden="true">W</span> WORTLAUF <span class="build-version">v0.1.0</span></button>
         <div class="header-right"><span class="language">Danish / German</span><button class="install" id="install-button" type="button">Install app</button></div>
       </header>
       <main>
@@ -196,6 +202,11 @@
           <h1 id="title">Learn on<br />the <span>run.</span></h1>
           <p class="description">Catch the right German word. Three lanes, one Danish clue, and a new way to get words moving.</p>
           <button class="start" id="start-button" type="button">Start running <span class="arrow" aria-hidden="true">↗</span></button>
+          <div class="difficulty" role="group" aria-label="Difficulty">
+            <button type="button" data-difficulty="easy" aria-pressed="true">Easy</button>
+            <button type="button" data-difficulty="hard" aria-pressed="false">Hard</button>
+            <span class="difficulty-note" id="difficulty-note"></span>
+          </div>
           <div class="levels" role="tablist" aria-label="Choose a level"></div>
           <p class="progress-status" id="progress-status" aria-live="polite">Progress is saved on this phone.</p>
         </section>
@@ -237,12 +248,12 @@
           <div class="overlay" id="overlay" hidden>
             <span class="overlay-mark" aria-hidden="true">W</span>
             <h2 id="overlay-title">Ready when you are?</h2>
-            <p id="overlay-copy">Choose the German translation in one of the three lanes. Catch 30 words before your two minutes are up.</p>
+            <p id="overlay-copy">Choose the German translation in one of the three lanes. Catch 30 words before the clock runs out.</p>
             <button id="overlay-action" type="button">Start level 1-1</button>
           </div>
         </section>
       </main>
-      <footer><span><strong>30 words</strong> to finish each run</span><span>Two minutes on the clock</span></footer>
+      <footer><span><strong>30 words</strong> to finish each run</span><span id="round-length">Beat the clock</span></footer>
       <dialog class="install-dialog" id="install-dialog" aria-labelledby="install-title">
         <h2 id="install-title">Install Wortlauf</h2>
         <p id="install-instructions"></p>
@@ -257,32 +268,77 @@
       const $ = (selector) => document.querySelector(selector);
       let tabs = [...document.querySelectorAll(".level")];
       const lanes = [...document.querySelectorAll(".lane")];
-      const progressStorageKey = "wortlauf-progress-v1";
+      const progressStorageKey = "wortlauf-progress-v3";
+      const difficultyNames = ["easy", "hard"];
+      function readStoredJson(key) {
+        try { return JSON.parse(localStorage.getItem(key) || "null"); } catch { return null; }
+      }
+      function readTrack(saved) {
+        return {
+          completedLevelIds: Array.isArray(saved?.completedLevelIds) ? saved.completedLevelIds.filter((id) => typeof id === "string") : []
+        };
+      }
       function loadProgress() {
-        const defaults = { version: 1, unlockedLevel: 0, currentLevelId: "1-1", completedLevelIds: [], correctAnswers: 0, wrongAnswers: 0, completedRuns: 0 };
-        try {
-          const saved = JSON.parse(localStorage.getItem(progressStorageKey) || "null");
-          if (saved && saved.version === 1) return { ...defaults, ...saved };
-          return { ...defaults, unlockedLevel: Math.max(0, Number(localStorage.getItem("wortlauf-unlocked") || 0)) };
-        } catch {
-          return defaults;
-        }
+        const v3 = readStoredJson(progressStorageKey);
+        // The v3 levels replaced the old ones, so older progress keeps only its difficulty and counters; the old keys stay untouched.
+        const saved = v3?.version === 3 ? v3 : readStoredJson("wortlauf-progress-v2") || readStoredJson("wortlauf-progress-v1") || {};
+        return {
+          version: 3,
+          difficulty: difficultyNames.includes(saved.difficulty) ? saved.difficulty : "easy",
+          tracks: saved === v3
+            ? { easy: readTrack(saved.tracks?.easy), hard: readTrack(saved.tracks?.hard) }
+            : { easy: readTrack(null), hard: readTrack(null) },
+          correctAnswers: saved.correctAnswers ?? 0,
+          wrongAnswers: saved.wrongAnswers ?? 0,
+          completedRuns: saved.completedRuns ?? 0,
+          lastPlayedAt: saved.lastPlayedAt
+        };
       }
       let progress = loadProgress();
-      let levelIndex = 0, unlockedLevel = progress.unlockedLevel, currentWord, correctLane = 0, selectedLane = 1;
-      let wordDeck = [], wordBankLoaded = false, loadingGameData = false, gateIntervalSeconds = 0;
+      const currentTrack = () => progress.tracks[progress.difficulty];
+      const isCleared = (level) => currentTrack().completedLevelIds.includes(level.id);
+      // Levels are cleared from the top: a level opens once every level above it is cleared.
+      const isUnlocked = (level) => levels.slice(0, levels.indexOf(level)).every(isCleared);
+      // Start from the top: the first open level not yet cleared, or the first level when all are cleared.
+      const firstOpenLevelIndex = () => Math.max(0, levels.findIndex((level) => isUnlocked(level) && !isCleared(level)));
+      let levelIndex = 0, currentWord, correctLane = 0, selectedLane = 1, runDifficulty = progress.difficulty;
+      let wordDeck = [], wordBankLoaded = false, loadingGameData = false, gateIntervalSeconds = 0, germanByDanish = new Map();
       let score = 0, speed = 0, timeLeft = 0, running = false, answerLocked = false, timerId, gateTimerId, gateIntervalId, transitionTimerId;
       let installPrompt, activePointerId = null, activeSentenceId = null, sentenceProgress = [];
 
       function shuffle(items) { return [...items].sort(() => Math.random() - .5); }
+      const danishKey = (word) => word.danish.trim().toLowerCase();
+      // Every German that is a correct answer for this word's Danish prompt; such words never appear as wrong gates.
+      function acceptedGerman(word) {
+        return new Set([...(germanByDanish.get(danishKey(word)) || []), ...(word.germanAlternatives || [])]);
+      }
+      function formatDuration(seconds) {
+        const minutes = Math.floor(seconds / 60), rest = seconds % 60;
+        if (minutes === 0) return `${rest} seconds`;
+        if (rest === 0) return minutes === 1 ? "1 minute" : `${minutes} minutes`;
+        if (rest === 30) return `${minutes}½ minutes`;
+        return `${minutes}:${String(rest).padStart(2, "0")} minutes`;
+      }
+      const roundLength = () => formatDuration(config.difficulties[progress.difficulty].roundDurationSeconds);
+      // Deal from the level's pool until the run has `target` questions, reshuffling whenever the pool runs out.
       function buildWordDeck(level) {
-        if (level.mode !== "sentence") return shuffle(level.words);
+        const deck = [];
+        if (level.mode !== "sentence") {
+          while (deck.length < target) deck.push(...shuffle(level.words));
+          return deck.slice(0, target);
+        }
         const sentences = new Map();
         level.words.forEach((chunk) => {
           if (!sentences.has(chunk.sentenceId)) sentences.set(chunk.sentenceId, []);
           sentences.get(chunk.sentenceId).push(chunk);
         });
-        return shuffle([...sentences.values()]).flatMap((chunks) => chunks.sort((left, right) => left.step - right.step));
+        while (deck.length < target) {
+          for (const chunks of shuffle([...sentences.values()])) {
+            if (deck.length >= target) break;
+            deck.push(...chunks.sort((left, right) => left.step - right.step));
+          }
+        }
+        return deck;
       }
       function renderSentence(sentence, chunks, activeStep) {
         const display = $("#word");
@@ -326,14 +382,13 @@
         $(".surface").style.setProperty("--run-speed", `${roadFlow}ms`);
       }
       function saveProgress() {
-        progress.unlockedLevel = unlockedLevel;
-        progress.currentLevelId = levels[levelIndex]?.id || progress.currentLevelId;
         progress.lastPlayedAt = new Date().toISOString();
         try {
           localStorage.setItem(progressStorageKey, JSON.stringify(progress));
-          const completed = progress.completedLevelIds.length;
+          const completed = currentTrack().completedLevelIds.length;
+          const difficultyLabel = progress.difficulty === "hard" ? "Hard" : "Easy";
           const status = $("#progress-status");
-          if (status) status.textContent = `Saved on this phone · ${completed} of ${levels.length} levels completed · ${progress.correctAnswers} correct answers`;
+          if (status) status.textContent = `${difficultyLabel}: ${completed} of ${levels.length} levels completed · ${progress.correctAnswers} correct answers · saved on this phone`;
         } catch {
           const status = $("#progress-status");
           if (status) status.textContent = "Progress could not be saved in this browser.";
@@ -371,7 +426,7 @@
         currentWord = wordDeck.shift();
         let options;
         if (level.mode === "sentence") {
-          if (activeSentenceId !== currentWord.sentenceId) {
+          if (activeSentenceId !== currentWord.sentenceId || currentWord.step === 1) {
             activeSentenceId = currentWord.sentenceId;
             sentenceProgress = [];
           }
@@ -396,7 +451,8 @@
           $("#prompt-label").textContent = `Choose the German form · ${grammar.caseLabels[grammaticalCase]} · ${form}`;
           $("#word").textContent = danish;
           const correct = article(currentWord, form, grammaticalCase);
-          const distractors = [...new Set(shuffle(level.words.filter((word) => word !== currentWord)
+          const accepted = acceptedGerman(currentWord);
+          const distractors = [...new Set(shuffle(level.words.filter((word) => !accepted.has(word.german))
             .map((word) => article(word, form, grammaticalCase))
             .filter((answer) => answer !== correct)))].slice(0, 2);
           options = shuffle([correct, ...distractors]);
@@ -406,7 +462,8 @@
           $("#translation-added").hidden = true;
           $("#prompt-label").textContent = level.prompt;
           $("#word").textContent = currentWord.danish;
-          const distractors = [...new Map(shuffle(level.words.filter((word) => word !== currentWord && word.german !== currentWord.german))
+          const accepted = acceptedGerman(currentWord);
+          const distractors = [...new Map(shuffle(level.words.filter((word) => !accepted.has(word.german)))
             .map((word) => [word.german, word])).values()].slice(0, 2);
           options = shuffle([currentWord, ...distractors]).map((word) => word.german);
           correctLane = options.indexOf(currentWord.german);
@@ -453,7 +510,8 @@
         $(".game").classList.toggle("sentence-mode", levels[levelIndex].mode === "sentence");
         score = 0;
         speed = config.initialRunSpeedPercent;
-        timeLeft = config.roundDurationSeconds;
+        runDifficulty = progress.difficulty;
+        timeLeft = config.difficulties[runDifficulty].roundDurationSeconds;
         gateIntervalSeconds = config.initialGateIntervalSeconds;
         saveProgress();
         running = true;
@@ -473,12 +531,17 @@
       }
       function finishRun(won) {
         progress.completedRuns += 1;
-        if (won && !progress.completedLevelIds.includes(levels[levelIndex].id)) {
-          progress.completedLevelIds.push(levels[levelIndex].id);
+        if (won) {
+          // A hard win also counts on easy, so easy never trails hard.
+          for (const name of runDifficulty === "hard" ? ["hard", "easy"] : ["easy"]) {
+            const track = progress.tracks[name];
+            if (!track.completedLevelIds.includes(levels[levelIndex].id)) track.completedLevelIds.push(levels[levelIndex].id);
+          }
         }
-        if (won && levelIndex < levels.length - 1) {
-          const nextIndex = levelIndex + 1;
-          unlockedLevel = Math.max(unlockedLevel, nextIndex);
+        // Next up is the first open, uncleared level below this one, else the first from the top.
+        const below = levels.findIndex((level, index) => index > levelIndex && isUnlocked(level) && !isCleared(level));
+        const nextIndex = below >= 0 ? below : firstOpenLevelIndex();
+        if (won && !isCleared(levels[nextIndex])) {
           saveProgress();
           renderLevelTabs();
           const nextLevel = levels[nextIndex];
@@ -511,11 +574,11 @@
           score += 1;
           progress.correctAnswers += 1;
           speed = Math.min(config.maximumRunSpeedPercent, speed + config.correctRunSpeedGainPercent);
-          gateIntervalSeconds = Math.max(config.minimumGateIntervalSeconds, gateIntervalSeconds / config.gateSpeedMultiplierPerCorrect);
+          gateIntervalSeconds = Math.max(config.minimumGateIntervalSeconds, gateIntervalSeconds / config.difficulties[runDifficulty].gateSpeedMultiplierPerCorrect);
         } else {
           progress.wrongAnswers += 1;
           speed = Math.max(config.minimumRunSpeedPercent, speed - config.wrongRunSpeedLossPercent);
-          gateIntervalSeconds = Math.min(config.maximumGateIntervalSeconds, gateIntervalSeconds * config.gateSpeedMultiplierOnWrong);
+          gateIntervalSeconds = Math.min(config.maximumGateIntervalSeconds, gateIntervalSeconds * config.difficulties[runDifficulty].gateSpeedMultiplierOnWrong);
         }
         saveProgress();
         updateHud();
@@ -534,7 +597,7 @@
       function renderLevelTabs() {
         const levelsPanel = $(".levels");
         if (!levelsPanel) return;
-        const chapterIcons = { "Chapter 1": "🌱", "Chapter 2": "🚀" };
+        const chapterIcons = { "Chapter 1 · Basics": "🌱", "Chapter 2 · Everyday": "🌿", "Chapter 3 · Confident": "🚀", "Chapter 4 · Fluent": "🏔️", "Chapter 5 · Advanced": "🏆" };
         const byChapter = new Map();
         levels.forEach((level, index) => {
           const key = level.chapter || "Chapter 1";
@@ -559,10 +622,12 @@
             button.role = "tab";
             button.dataset.level = String(index);
             button.setAttribute("aria-selected", String(index === levelIndex));
-            button.disabled = index > unlockedLevel;
+            button.disabled = !isUnlocked(level);
+            const cleared = isCleared(level);
             button.innerHTML = `
               <span class="level-badge">${index + 1}</span>
               <span class="level-text">${level.id} · ${level.name}</span>
+              ${cleared ? '<span class="level-check" role="img" aria-label="cleared">✓</span>' : ""}
             `;
             button.addEventListener("click", () => selectLevel(index));
             chapterWrap.appendChild(button);
@@ -575,18 +640,27 @@
       }
 
       function selectLevel(index) {
-        if (index > unlockedLevel || !levels[index]) return;
+        if (!levels[index] || !isUnlocked(levels[index])) return;
         levelIndex = index;
         saveProgress();
         tabs.forEach((tab, i) => tab.setAttribute("aria-selected", String(i === index)));
         $("#start-button").innerHTML = `Start level ${levels[index].id} <span class="arrow" aria-hidden="true">↗</span>`;
         $("#overlay-title").textContent = levels[index].mode === "article" ? "Ready for der, die, das?" : `Ready for ${levels[index].name}?`;
         $("#overlay-copy").textContent = levels[index].mode === "article"
-          ? `Practice nominative, accusative, dative, and genitive. Catch ${target} words before your two minutes are up.`
+          ? `Practice nominative, accusative, dative, and genitive. Catch ${target} words before your ${roundLength()} are up.`
           : levels[index].mode === "sentence"
-            ? `Build German sentences one chunk at a time. Catch ${target} chunks before your two minutes are up.`
-            : `Choose the German translation in one of the three lanes. Catch ${target} words before your two minutes are up.`;
+            ? `Build German sentences one chunk at a time. Catch ${target} chunks before your ${roundLength()} are up.`
+            : `Choose the German translation in one of the three lanes. Catch ${target} words before your ${roundLength()} are up.`;
         updateHud();
+      }
+      function selectDifficulty(difficulty) {
+        if (!wordBankLoaded || !difficultyNames.includes(difficulty)) return;
+        progress.difficulty = difficulty;
+        document.querySelectorAll(".difficulty button").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.difficulty === difficulty)));
+        $("#difficulty-note").textContent = `${roundLength()} per run`;
+        $("#round-length").textContent = `${roundLength()} on the clock`;
+        renderLevelTabs();
+        selectLevel(isUnlocked(levels[levelIndex]) ? levelIndex : firstOpenLevelIndex());
       }
       async function updateServiceWorker() {
         if (!("serviceWorker" in navigator)) return;
@@ -615,55 +689,76 @@
         loadingGameData = true;
         try {
           await updateServiceWorker();
-          const cacheBuster = `?ts=${Date.now()}`;
-          const [configResponse, bankResponse] = await Promise.all([
-            fetch(`./config.json${cacheBuster}`, { cache: "no-store" }),
-            fetch(`./wordbank.json${cacheBuster}`, { cache: "no-store" })
+          const fetchJson = async (path) => {
+            const response = await fetch(path, { cache: "no-store" });
+            if (!response.ok) throw new Error(`Game data request failed: ${path}`);
+            return response.json();
+          };
+          const [configJson, wordIndex, levelIndexFile] = await Promise.all([
+            fetchJson("./config.json"), fetchJson("./wordbank/index.json"), fetchJson("./levels/index.json")
           ]);
-          if (!configResponse.ok || !bankResponse.ok) throw new Error("Game data request failed");
-          config = await configResponse.json();
-          const bank = await bankResponse.json();
+          config = configJson;
+          const [grammarJson, wordFiles, levelFiles] = await Promise.all([
+            fetchJson(`./wordbank/${wordIndex.grammar}`),
+            Promise.all(wordIndex.words.map((file) => fetchJson(`./wordbank/${file}`))),
+            Promise.all(levelIndexFile.files.map((file) => fetchJson(`./levels/${file}`)))
+          ]);
+          const bank = { grammar: grammarJson, levels: levelFiles.flat(), words: {} };
+          for (const fileWords of wordFiles) {
+            for (const [wordId, word] of Object.entries(fileWords)) {
+              if (wordId in bank.words) throw new Error(`Duplicate word ID: ${wordId}`);
+              bank.words[wordId] = word;
+            }
+          }
           grammar = bank.grammar;
+          const difficulties = difficultyNames.map((name) => config.difficulties?.[name]);
           const pacingValues = [
-            config.roundDurationSeconds, config.wordsPerLevel, config.initialGateIntervalSeconds,
+            config.wordsPerLevel, config.initialGateIntervalSeconds,
             config.minimumGateIntervalSeconds, config.maximumGateIntervalSeconds,
-            config.gateSpeedMultiplierPerCorrect, config.gateSpeedMultiplierOnWrong
+            ...difficulties.flatMap((pacing) => [
+              pacing?.roundDurationSeconds, pacing?.gateSpeedMultiplierPerCorrect, pacing?.gateSpeedMultiplierOnWrong
+            ])
           ];
-          if (pacingValues.some((value) => !Number.isFinite(value)) || config.gateSpeedMultiplierPerCorrect <= 1 ||
-              config.gateSpeedMultiplierOnWrong <= 1 || config.minimumGateIntervalSeconds > config.initialGateIntervalSeconds ||
+          if (pacingValues.some((value) => !Number.isFinite(value)) ||
+              difficulties.some((pacing) => pacing.gateSpeedMultiplierPerCorrect <= 1 || pacing.gateSpeedMultiplierOnWrong <= 1) ||
+              config.minimumGateIntervalSeconds > config.initialGateIntervalSeconds ||
               config.initialGateIntervalSeconds > config.maximumGateIntervalSeconds) {
             throw new Error("Invalid gate speed settings");
           }
+          const danishIndex = new Map();
+          for (const word of Object.values(bank.words)) {
+            if (!danishIndex.has(danishKey(word))) danishIndex.set(danishKey(word), new Set());
+            danishIndex.get(danishKey(word)).add(word.german);
+          }
+          // A level's pool is every word in its categories, narrowed to its tiers when it lists any.
           const loadedLevels = bank.levels.map((level) => ({
             ...level,
-            words: level.wordIds.map((wordId) => {
-              const word = bank.words[wordId];
-              if (!word) throw new Error(`Unknown word ID: ${wordId}`);
-              return { ...word, id: wordId };
-            })
+            words: Object.entries(bank.words)
+              .filter(([wordId, word]) => level.categories.includes(wordId.split(".")[0]) &&
+                (!level.tiers || level.tiers.includes(word.tier)))
+              .map(([wordId, word]) => ({ ...word, id: wordId }))
           }));
-          if (loadedLevels.some((level) => level.words.length !== config.wordsPerLevel)) {
-            throw new Error("Each level must match the configured word count");
+          if (loadedLevels.some((level) => level.words.length < 3)) {
+            throw new Error("Each level needs at least 3 words in its pool");
           }
           levels = loadedLevels;
+          germanByDanish = danishIndex;
           target = config.wordsPerLevel;
-          unlockedLevel = Math.max(0, Math.min(unlockedLevel, levels.length - 1));
-          const savedLevelIndex = levels.findIndex((level) => level.id === progress.currentLevelId);
-          levelIndex = savedLevelIndex >= 0 && savedLevelIndex <= unlockedLevel ? savedLevelIndex : 0;
-          renderLevelTabs();
-          selectLevel(levelIndex);
+          levelIndex = firstOpenLevelIndex();
           wordBankLoaded = true;
           loadingGameData = false;
+          selectDifficulty(progress.difficulty);
           document.documentElement.style.setProperty("--bounce-duration", `${config.wrongBounceAnimationMilliseconds}ms`);
           document.documentElement.style.setProperty("--pass-duration", `${config.correctPassAnimationMilliseconds}ms`);
           updateHud();
-        } catch {
+        } catch (error) {
+          console.error(error);
           loadingGameData = false;
           $("#progress-status").textContent = "Game data unavailable. Check your connection and retry.";
           $("#start-button").innerHTML = `Retry loading <span class="arrow" aria-hidden="true">↗</span>`;
         }
       }
-      tabs.forEach((tab, index) => { tab.disabled = index > unlockedLevel; });
+      document.querySelectorAll(".difficulty button").forEach((button) => button.addEventListener("click", () => selectDifficulty(button.dataset.difficulty)));
       tabs.forEach((tab) => tab.addEventListener("click", () => selectLevel(Number(tab.dataset.level))));
       $("#brand-button").addEventListener("click", showMenu);
       $("#start-button").addEventListener("click", startLevel);

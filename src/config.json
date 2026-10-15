@@ -1,12 +1,21 @@
 {
-  "roundDurationSeconds": 120,
+  "difficulties": {
+    "easy": {
+      "roundDurationSeconds": 150,
+      "gateSpeedMultiplierPerCorrect": 1.085,
+      "gateSpeedMultiplierOnWrong": 1.2
+    },
+    "hard": {
+      "roundDurationSeconds": 120,
+      "gateSpeedMultiplierPerCorrect": 1.1,
+      "gateSpeedMultiplierOnWrong": 1.3
+    }
+  },
   "wordsPerLevel": 30,
   "roundClockTickMilliseconds": 1000,
   "initialGateIntervalSeconds": 4.2,
   "minimumGateIntervalSeconds": 0.5,
   "maximumGateIntervalSeconds": 5,
-  "gateSpeedMultiplierPerCorrect": 1.1,
-  "gateSpeedMultiplierOnWrong": 1.3,
   "countdownRefreshMilliseconds": 100,
   "articleIndefiniteChance": 0.5,
   "initialRunSpeedPercent": 42,

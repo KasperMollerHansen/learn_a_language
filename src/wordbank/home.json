@@ -1,0 +1,1163 @@
+{
+  "home.flat": {
+    "danish": "lejlighed",
+    "german": "Wohnung",
+    "english": "flat",
+    "gender": "die",
+    "danishDefinite": "lejligheden",
+    "danishIndefinite": "en lejlighed",
+    "tier": 1
+  },
+  "home.home": {
+    "danish": "hjem",
+    "german": "Zuhause",
+    "english": "home",
+    "gender": "das",
+    "danishDefinite": "hjemmet",
+    "danishIndefinite": "et hjem",
+    "tier": 2
+  },
+  "home.living-room": {
+    "danish": "stue",
+    "german": "Wohnzimmer",
+    "english": "living room",
+    "gender": "das",
+    "danishDefinite": "stuen",
+    "danishIndefinite": "en stue",
+    "tier": 1
+  },
+  "home.bedroom": {
+    "danish": "soveværelse",
+    "german": "Schlafzimmer",
+    "english": "bedroom",
+    "gender": "das",
+    "danishDefinite": "soveværelset",
+    "danishIndefinite": "et soveværelse",
+    "tier": 1
+  },
+  "home.kitchen": {
+    "danish": "køkken",
+    "german": "Küche",
+    "english": "kitchen",
+    "gender": "die",
+    "danishDefinite": "køkkenet",
+    "danishIndefinite": "et køkken",
+    "tier": 1
+  },
+  "home.bathroom": {
+    "danish": "badeværelse",
+    "german": "Badezimmer",
+    "english": "bathroom",
+    "gender": "das",
+    "danishDefinite": "badeværelset",
+    "danishIndefinite": "et badeværelse",
+    "tier": 1
+  },
+  "home.dining-room": {
+    "danish": "spisestue",
+    "german": "Esszimmer",
+    "english": "dining room",
+    "gender": "das",
+    "danishDefinite": "spisestuen",
+    "danishIndefinite": "en spisestue",
+    "tier": 2
+  },
+  "home.nursery": {
+    "danish": "børneværelse",
+    "german": "Kinderzimmer",
+    "english": "nursery",
+    "gender": "das",
+    "danishDefinite": "børneværelset",
+    "danishIndefinite": "et børneværelse",
+    "tier": 2
+  },
+  "home.study": {
+    "danish": "arbejdsværelse",
+    "german": "Arbeitszimmer",
+    "english": "study",
+    "gender": "das",
+    "danishDefinite": "arbejdsværelset",
+    "danishIndefinite": "et arbejdsværelse",
+    "tier": 3
+  },
+  "home.guest-room": {
+    "danish": "gæsteværelse",
+    "german": "Gästezimmer",
+    "english": "guest room",
+    "gender": "das",
+    "danishDefinite": "gæsteværelset",
+    "danishIndefinite": "et gæsteværelse",
+    "tier": 2
+  },
+  "home.hallway": {
+    "danish": "entré",
+    "german": "Flur",
+    "english": "hallway",
+    "gender": "der",
+    "danishDefinite": "entréen",
+    "danishIndefinite": "en entré",
+    "tier": 2
+  },
+  "home.cellar": {
+    "danish": "kælder",
+    "german": "Keller",
+    "english": "cellar",
+    "gender": "der",
+    "danishDefinite": "kælderen",
+    "danishIndefinite": "en kælder",
+    "tier": 2
+  },
+  "home.attic": {
+    "danish": "loft",
+    "german": "Dachboden",
+    "english": "attic",
+    "gender": "der",
+    "danishDefinite": "loftet",
+    "danishIndefinite": "et loft",
+    "tier": 4
+  },
+  "home.roof": {
+    "danish": "tag",
+    "german": "Dach",
+    "english": "roof",
+    "gender": "das",
+    "danishDefinite": "taget",
+    "danishIndefinite": "et tag",
+    "tier": 3
+  },
+  "home.storey": {
+    "danish": "etage",
+    "german": "Etage",
+    "english": "storey",
+    "gender": "die",
+    "danishDefinite": "etagen",
+    "danishIndefinite": "en etage",
+    "tier": 3
+  },
+  "home.wall": {
+    "danish": "væg",
+    "german": "Wand",
+    "english": "wall",
+    "gender": "die",
+    "danishDefinite": "væggen",
+    "danishIndefinite": "en væg",
+    "tier": 2
+  },
+  "home.floor": {
+    "danish": "gulv",
+    "german": "Boden",
+    "english": "floor",
+    "gender": "der",
+    "danishDefinite": "gulvet",
+    "danishIndefinite": "et gulv",
+    "tier": 2
+  },
+  "home.door": {
+    "danish": "dør",
+    "german": "Tür",
+    "english": "door",
+    "gender": "die",
+    "danishDefinite": "døren",
+    "danishIndefinite": "en dør",
+    "tier": 1
+  },
+  "home.front-door": {
+    "danish": "hoveddør",
+    "german": "Haustür",
+    "english": "front door",
+    "gender": "die",
+    "danishDefinite": "hoveddøren",
+    "danishIndefinite": "en hoveddør",
+    "tier": 2
+  },
+  "home.back-door": {
+    "danish": "bagdør",
+    "german": "Hintertür",
+    "english": "back door",
+    "gender": "die",
+    "danishDefinite": "bagdøren",
+    "danishIndefinite": "en bagdør",
+    "tier": 4
+  },
+  "home.window": {
+    "danish": "vindue",
+    "german": "Fenster",
+    "english": "window",
+    "gender": "das",
+    "danishDefinite": "vinduet",
+    "danishIndefinite": "et vindue",
+    "tier": 1
+  },
+  "home.windowsill": {
+    "danish": "vindueskarm",
+    "german": "Fensterbrett",
+    "english": "windowsill",
+    "gender": "das",
+    "danishDefinite": "vindueskarmen",
+    "danishIndefinite": "en vindueskarm",
+    "tier": 4
+  },
+  "home.window-pane": {
+    "danish": "rude",
+    "german": "Scheibe",
+    "english": "window pane",
+    "gender": "die",
+    "danishDefinite": "ruden",
+    "danishIndefinite": "en rude",
+    "tier": 4
+  },
+  "home.lock": {
+    "danish": "lås",
+    "german": "Schloss",
+    "english": "lock",
+    "gender": "das",
+    "danishDefinite": "låsen",
+    "danishIndefinite": "en lås",
+    "tier": 3
+  },
+  "home.padlock": {
+    "danish": "hængelås",
+    "german": "Vorhängeschloss",
+    "english": "padlock",
+    "gender": "das",
+    "danishDefinite": "hængelåsen",
+    "danishIndefinite": "en hængelås",
+    "tier": 5
+  },
+  "home.keyhole": {
+    "danish": "nøglehul",
+    "german": "Schlüsselloch",
+    "english": "keyhole",
+    "gender": "das",
+    "danishDefinite": "nøglehullet",
+    "danishIndefinite": "et nøglehul",
+    "tier": 4
+  },
+  "home.key-ring": {
+    "danish": "nøglering",
+    "german": "Schlüsselbund",
+    "english": "bunch of keys",
+    "gender": "der",
+    "danishDefinite": "nøgleringen",
+    "danishIndefinite": "en nøglering",
+    "tier": 4
+  },
+  "home.doorbell": {
+    "danish": "dørklokke",
+    "german": "Türklingel",
+    "english": "doorbell",
+    "gender": "die",
+    "danishDefinite": "dørklokken",
+    "danishIndefinite": "en dørklokke",
+    "tier": 3
+  },
+  "home.door-handle": {
+    "danish": "dørhåndtag",
+    "german": "Türgriff",
+    "english": "door handle",
+    "gender": "der",
+    "danishDefinite": "dørhåndtaget",
+    "danishIndefinite": "et dørhåndtag",
+    "tier": 4
+  },
+  "home.chimney": {
+    "danish": "skorsten",
+    "german": "Schornstein",
+    "english": "chimney",
+    "gender": "der",
+    "danishDefinite": "skorstenen",
+    "danishIndefinite": "en skorsten",
+    "tier": 4
+  },
+  "home.fireplace": {
+    "danish": "pejs",
+    "german": "Kamin",
+    "english": "fireplace",
+    "gender": "der",
+    "danishDefinite": "pejsen",
+    "danishIndefinite": "en pejs",
+    "tier": 3
+  },
+  "home.radiator": {
+    "danish": "radiator",
+    "german": "Heizkörper",
+    "english": "radiator",
+    "gender": "der",
+    "danishDefinite": "radiatoren",
+    "danishIndefinite": "en radiator",
+    "tier": 3
+  },
+  "home.central-heating": {
+    "danish": "centralvarme",
+    "german": "Zentralheizung",
+    "english": "central heating",
+    "gender": "die",
+    "danishDefinite": "centralvarmen",
+    "danishIndefinite": "en centralvarme",
+    "tier": 4
+  },
+  "home.air-conditioning": {
+    "danish": "klimaanlæg",
+    "german": "Klimaanlage",
+    "english": "air conditioning",
+    "gender": "die",
+    "danishDefinite": "klimaanlægget",
+    "danishIndefinite": "et klimaanlæg",
+    "tier": 3
+  },
+  "home.fan": {
+    "danish": "ventilator",
+    "german": "Ventilator",
+    "english": "fan",
+    "gender": "der",
+    "danishDefinite": "ventilatoren",
+    "danishIndefinite": "en ventilator",
+    "tier": 4
+  },
+  "home.curtain": {
+    "danish": "gardin",
+    "german": "Vorhang",
+    "english": "curtain",
+    "gender": "der",
+    "danishDefinite": "gardinet",
+    "danishIndefinite": "et gardin",
+    "tier": 3
+  },
+  "home.blinds": {
+    "danish": "persienne",
+    "german": "Jalousie",
+    "english": "blinds",
+    "gender": "die",
+    "danishDefinite": "persiennen",
+    "danishIndefinite": "en persienne",
+    "tier": 4
+  },
+  "home.carpet": {
+    "danish": "gulvtæppe",
+    "german": "Teppich",
+    "english": "carpet",
+    "gender": "der",
+    "danishDefinite": "gulvtæppet",
+    "danishIndefinite": "et gulvtæppe",
+    "tier": 2
+  },
+  "home.doormat": {
+    "danish": "dørmåtte",
+    "german": "Fußmatte",
+    "english": "doormat",
+    "gender": "die",
+    "danishDefinite": "dørmåtten",
+    "danishIndefinite": "en dørmåtte",
+    "tier": 4
+  },
+  "home.railing": {
+    "danish": "gelænder",
+    "german": "Geländer",
+    "english": "railing",
+    "gender": "das",
+    "danishDefinite": "gelænderet",
+    "danishIndefinite": "et gelænder",
+    "tier": 4
+  },
+  "home.step": {
+    "danish": "trin",
+    "german": "Stufe",
+    "english": "step",
+    "gender": "die",
+    "danishDefinite": "trinnet",
+    "danishIndefinite": "et trin",
+    "tier": 3
+  },
+  "home.roof-tile": {
+    "danish": "tagsten",
+    "german": "Dachziegel",
+    "english": "roof tile",
+    "gender": "der",
+    "danishDefinite": "tagstenen",
+    "danishIndefinite": "en tagsten",
+    "tier": 5
+  },
+  "home.gutter": {
+    "danish": "tagrende",
+    "german": "Dachrinne",
+    "english": "gutter",
+    "gender": "die",
+    "danishDefinite": "tagrenden",
+    "danishIndefinite": "en tagrende",
+    "tier": 5
+  },
+  "home.foundation": {
+    "danish": "fundament",
+    "german": "Fundament",
+    "english": "foundation",
+    "gender": "das",
+    "danishDefinite": "fundamentet",
+    "danishIndefinite": "et fundament",
+    "tier": 4
+  },
+  "home.detached-house": {
+    "danish": "parcelhus",
+    "german": "Einfamilienhaus",
+    "english": "detached house",
+    "gender": "das",
+    "danishDefinite": "parcelhuset",
+    "danishIndefinite": "et parcelhus",
+    "tier": 4
+  },
+  "home.terraced-house": {
+    "danish": "rækkehus",
+    "german": "Reihenhaus",
+    "english": "terraced house",
+    "gender": "das",
+    "danishDefinite": "rækkehuset",
+    "danishIndefinite": "et rækkehus",
+    "tier": 4
+  },
+  "home.storage-room": {
+    "danish": "depotrum",
+    "german": "Abstellraum",
+    "english": "storage room",
+    "gender": "der",
+    "danishDefinite": "depotrummet",
+    "danishIndefinite": "et depotrum",
+    "tier": 4
+  },
+  "home.utility-room": {
+    "danish": "bryggers",
+    "german": "Hauswirtschaftsraum",
+    "english": "utility room",
+    "gender": "der",
+    "danishDefinite": "bryggerset",
+    "danishIndefinite": "et bryggers",
+    "tier": 5
+  },
+  "home.rent": {
+    "danish": "husleje",
+    "german": "Miete",
+    "english": "rent",
+    "gender": "die",
+    "danishDefinite": "huslejen",
+    "danishIndefinite": "en husleje",
+    "tier": 2
+  },
+  "home.move": {
+    "danish": "flytning",
+    "german": "Umzug",
+    "english": "move",
+    "gender": "der",
+    "danishDefinite": "flytningen",
+    "danishIndefinite": "en flytning",
+    "tier": 3
+  },
+  "home.furniture": {
+    "danish": "møbel",
+    "german": "Möbel",
+    "english": "piece of furniture",
+    "gender": "das",
+    "danishDefinite": "møblet",
+    "danishIndefinite": "et møbel",
+    "tier": 2
+  },
+  "home.table": {
+    "danish": "bord",
+    "german": "Tisch",
+    "english": "table",
+    "gender": "der",
+    "danishDefinite": "bordet",
+    "danishIndefinite": "et bord",
+    "tier": 1
+  },
+  "home.chair": {
+    "danish": "stol",
+    "german": "Stuhl",
+    "english": "chair",
+    "gender": "der",
+    "danishDefinite": "stolen",
+    "danishIndefinite": "en stol",
+    "tier": 1
+  },
+  "home.sofa": {
+    "danish": "sofa",
+    "german": "Sofa",
+    "english": "sofa",
+    "gender": "das",
+    "danishDefinite": "sofaen",
+    "danishIndefinite": "en sofa",
+    "tier": 1
+  },
+  "home.armchair": {
+    "danish": "lænestol",
+    "german": "Sessel",
+    "english": "armchair",
+    "gender": "der",
+    "danishDefinite": "lænestolen",
+    "danishIndefinite": "en lænestol",
+    "tier": 2
+  },
+  "home.bunk-bed": {
+    "danish": "køjeseng",
+    "german": "Etagenbett",
+    "english": "bunk bed",
+    "gender": "das",
+    "danishDefinite": "køjesengen",
+    "danishIndefinite": "en køjeseng",
+    "tier": 4
+  },
+  "home.mattress": {
+    "danish": "madras",
+    "german": "Matratze",
+    "english": "mattress",
+    "gender": "die",
+    "danishDefinite": "madrassen",
+    "danishIndefinite": "en madras",
+    "tier": 3
+  },
+  "home.pillow": {
+    "danish": "hovedpude",
+    "german": "Kopfkissen",
+    "english": "pillow",
+    "gender": "das",
+    "danishDefinite": "hovedpuden",
+    "danishIndefinite": "en hovedpude",
+    "tier": 3
+  },
+  "home.duvet": {
+    "danish": "dyne",
+    "german": "Bettdecke",
+    "english": "duvet",
+    "gender": "die",
+    "danishDefinite": "dynen",
+    "danishIndefinite": "en dyne",
+    "tier": 3
+  },
+  "home.bed-sheet": {
+    "danish": "lagen",
+    "german": "Laken",
+    "english": "bed sheet",
+    "gender": "das",
+    "danishDefinite": "lagenet",
+    "danishIndefinite": "et lagen",
+    "tier": 4
+  },
+  "home.duvet-cover": {
+    "danish": "dynebetræk",
+    "german": "Bettbezug",
+    "english": "duvet cover",
+    "gender": "der",
+    "danishDefinite": "dynebetrækket",
+    "danishIndefinite": "et dynebetræk",
+    "tier": 4
+  },
+  "home.bed-linen": {
+    "danish": "sengetøj",
+    "german": "Bettwäsche",
+    "english": "bed linen",
+    "gender": "die",
+    "danishDefinite": "sengetøjet",
+    "danishIndefinite": "et sengetøj",
+    "tier": 4
+  },
+  "home.cot": {
+    "danish": "tremmeseng",
+    "german": "Kinderbett",
+    "english": "cot",
+    "gender": "das",
+    "danishDefinite": "tremmesengen",
+    "danishIndefinite": "en tremmeseng",
+    "tier": 4
+  },
+  "home.cradle": {
+    "danish": "vugge",
+    "german": "Wiege",
+    "english": "cradle",
+    "gender": "die",
+    "danishDefinite": "vuggen",
+    "danishIndefinite": "en vugge",
+    "tier": 5
+  },
+  "home.high-chair": {
+    "danish": "højstol",
+    "german": "Hochstuhl",
+    "english": "high chair",
+    "gender": "der",
+    "danishDefinite": "højstolen",
+    "danishIndefinite": "en højstol",
+    "tier": 4
+  },
+  "home.wardrobe": {
+    "danish": "garderobeskab",
+    "german": "Kleiderschrank",
+    "english": "wardrobe",
+    "gender": "der",
+    "danishDefinite": "garderobeskabet",
+    "danishIndefinite": "et garderobeskab",
+    "tier": 2
+  },
+  "home.cupboard": {
+    "danish": "skab",
+    "german": "Schrank",
+    "english": "cupboard",
+    "gender": "der",
+    "danishDefinite": "skabet",
+    "danishIndefinite": "et skab",
+    "tier": 2
+  },
+  "home.shelf": {
+    "danish": "hylde",
+    "german": "Regal",
+    "english": "shelf",
+    "gender": "das",
+    "danishDefinite": "hylden",
+    "danishIndefinite": "en hylde",
+    "tier": 2
+  },
+  "home.bookcase": {
+    "danish": "bogreol",
+    "german": "Bücherregal",
+    "english": "bookcase",
+    "gender": "das",
+    "danishDefinite": "bogreolen",
+    "danishIndefinite": "en bogreol",
+    "tier": 2
+  },
+  "home.chest-of-drawers": {
+    "danish": "kommode",
+    "german": "Kommode",
+    "english": "chest of drawers",
+    "gender": "die",
+    "danishDefinite": "kommoden",
+    "danishIndefinite": "en kommode",
+    "tier": 4
+  },
+  "home.drawer": {
+    "danish": "skuffe",
+    "german": "Schublade",
+    "english": "drawer",
+    "gender": "die",
+    "danishDefinite": "skuffen",
+    "danishIndefinite": "en skuffe",
+    "tier": 3
+  },
+  "home.bedside-table": {
+    "danish": "natbord",
+    "german": "Nachttisch",
+    "english": "bedside table",
+    "gender": "der",
+    "danishDefinite": "natbordet",
+    "danishIndefinite": "et natbord",
+    "tier": 4
+  },
+  "home.coffee-table": {
+    "danish": "sofabord",
+    "german": "Couchtisch",
+    "english": "coffee table",
+    "gender": "der",
+    "danishDefinite": "sofabordet",
+    "danishIndefinite": "et sofabord",
+    "tier": 4
+  },
+  "home.dining-table": {
+    "danish": "spisebord",
+    "german": "Esstisch",
+    "english": "dining table",
+    "gender": "der",
+    "danishDefinite": "spisebordet",
+    "danishIndefinite": "et spisebord",
+    "tier": 2
+  },
+  "home.stool": {
+    "danish": "skammel",
+    "german": "Hocker",
+    "english": "stool",
+    "gender": "der",
+    "danishDefinite": "skamlen",
+    "danishIndefinite": "en skammel",
+    "tier": 4
+  },
+  "home.lamp": {
+    "danish": "lampe",
+    "german": "Lampe",
+    "english": "lamp",
+    "gender": "die",
+    "danishDefinite": "lampen",
+    "danishIndefinite": "en lampe",
+    "tier": 1
+  },
+  "home.floor-lamp": {
+    "danish": "standerlampe",
+    "german": "Stehlampe",
+    "english": "floor lamp",
+    "gender": "die",
+    "danishDefinite": "standerlampen",
+    "danishIndefinite": "en standerlampe",
+    "tier": 4
+  },
+  "home.lampshade": {
+    "danish": "lampeskærm",
+    "german": "Lampenschirm",
+    "english": "lampshade",
+    "gender": "der",
+    "danishDefinite": "lampeskærmen",
+    "danishIndefinite": "en lampeskærm",
+    "tier": 4
+  },
+  "home.candle": {
+    "danish": "stearinlys",
+    "german": "Kerze",
+    "english": "candle",
+    "gender": "die",
+    "danishDefinite": "stearinlyset",
+    "danishIndefinite": "et stearinlys",
+    "tier": 3
+  },
+  "home.candlestick": {
+    "danish": "lysestage",
+    "german": "Kerzenständer",
+    "english": "candlestick",
+    "gender": "der",
+    "danishDefinite": "lysestagen",
+    "danishIndefinite": "en lysestage",
+    "tier": 4
+  },
+  "home.matches": {
+    "danish": "tændstik",
+    "german": "Streichholz",
+    "english": "match",
+    "gender": "das",
+    "danishDefinite": "tændstikken",
+    "danishIndefinite": "en tændstik",
+    "tier": 4
+  },
+  "home.lighter": {
+    "danish": "lighter",
+    "german": "Feuerzeug",
+    "english": "lighter",
+    "gender": "das",
+    "danishDefinite": "lighteren",
+    "danishIndefinite": "en lighter",
+    "tier": 3
+  },
+  "home.light-switch": {
+    "danish": "lysafbryder",
+    "german": "Lichtschalter",
+    "english": "light switch",
+    "gender": "der",
+    "danishDefinite": "lysafbryderen",
+    "danishIndefinite": "en lysafbryder",
+    "tier": 4
+  },
+  "home.extension-lead": {
+    "danish": "forlængerledning",
+    "german": "Verlängerungskabel",
+    "english": "extension lead",
+    "gender": "das",
+    "danishDefinite": "forlængerledningen",
+    "danishIndefinite": "en forlængerledning",
+    "tier": 5
+  },
+  "home.television": {
+    "danish": "tv",
+    "german": "Fernseher",
+    "english": "television",
+    "gender": "der",
+    "danishDefinite": "tv'et",
+    "danishIndefinite": "et tv",
+    "tier": 1
+  },
+  "home.wall-clock": {
+    "danish": "vægur",
+    "german": "Wanduhr",
+    "english": "wall clock",
+    "gender": "die",
+    "danishDefinite": "væguret",
+    "danishIndefinite": "et vægur",
+    "tier": 3
+  },
+  "home.alarm-clock": {
+    "danish": "vækkeur",
+    "german": "Wecker",
+    "english": "alarm clock",
+    "gender": "der",
+    "danishDefinite": "vækkeuret",
+    "danishIndefinite": "et vækkeur",
+    "tier": 2
+  },
+  "home.picture": {
+    "danish": "billede",
+    "german": "Bild",
+    "english": "picture",
+    "gender": "das",
+    "danishDefinite": "billedet",
+    "danishIndefinite": "et billede",
+    "tier": 1
+  },
+  "home.painting": {
+    "danish": "maleri",
+    "german": "Gemälde",
+    "english": "painting",
+    "gender": "das",
+    "danishDefinite": "maleriet",
+    "danishIndefinite": "et maleri",
+    "tier": 4
+  },
+  "home.picture-frame": {
+    "danish": "billedramme",
+    "german": "Bilderrahmen",
+    "english": "picture frame",
+    "gender": "der",
+    "danishDefinite": "billedrammen",
+    "danishIndefinite": "en billedramme",
+    "tier": 4
+  },
+  "home.vase": {
+    "danish": "vase",
+    "german": "Vase",
+    "english": "vase",
+    "gender": "die",
+    "danishDefinite": "vasen",
+    "danishIndefinite": "en vase",
+    "tier": 3
+  },
+  "home.flowerpot": {
+    "danish": "blomsterpotte",
+    "german": "Blumentopf",
+    "english": "flowerpot",
+    "gender": "der",
+    "danishDefinite": "blomsterpotten",
+    "danishIndefinite": "en blomsterpotte",
+    "tier": 3
+  },
+  "home.houseplant": {
+    "danish": "potteplante",
+    "german": "Zimmerpflanze",
+    "english": "houseplant",
+    "gender": "die",
+    "danishDefinite": "potteplanten",
+    "danishIndefinite": "en potteplante",
+    "tier": 3
+  },
+  "home.hook": {
+    "danish": "knage",
+    "german": "Haken",
+    "english": "hook",
+    "gender": "der",
+    "danishDefinite": "knagen",
+    "danishIndefinite": "en knage",
+    "tier": 4
+  },
+  "home.coat-rack": {
+    "danish": "knagerække",
+    "german": "Garderobe",
+    "english": "coat rack",
+    "gender": "die",
+    "danishDefinite": "knagerækken",
+    "danishIndefinite": "en knagerække",
+    "tier": 3
+  },
+  "home.shoe-rack": {
+    "danish": "skostativ",
+    "german": "Schuhregal",
+    "english": "shoe rack",
+    "gender": "das",
+    "danishDefinite": "skostativet",
+    "danishIndefinite": "et skostativ",
+    "tier": 4
+  },
+  "home.umbrella-stand": {
+    "danish": "paraplystativ",
+    "german": "Schirmständer",
+    "english": "umbrella stand",
+    "gender": "der",
+    "danishDefinite": "paraplystativet",
+    "danishIndefinite": "et paraplystativ",
+    "tier": 5
+  },
+  "home.basket": {
+    "danish": "kurv",
+    "german": "Korb",
+    "english": "basket",
+    "gender": "der",
+    "danishDefinite": "kurven",
+    "danishIndefinite": "en kurv",
+    "tier": 3
+  },
+  "home.box": {
+    "danish": "kasse",
+    "german": "Kiste",
+    "english": "box",
+    "gender": "die",
+    "danishDefinite": "kassen",
+    "danishIndefinite": "en kasse",
+    "tier": 3
+  },
+  "home.bag": {
+    "danish": "pose",
+    "german": "Tüte",
+    "english": "bag",
+    "gender": "die",
+    "danishDefinite": "posen",
+    "danishIndefinite": "en pose",
+    "tier": 2
+  },
+  "home.ironing-board": {
+    "danish": "strygebræt",
+    "german": "Bügelbrett",
+    "english": "ironing board",
+    "gender": "das",
+    "danishDefinite": "strygebrættet",
+    "danishIndefinite": "et strygebræt",
+    "tier": 4
+  },
+  "home.washing-line": {
+    "danish": "tørresnor",
+    "german": "Wäscheleine",
+    "english": "washing line",
+    "gender": "die",
+    "danishDefinite": "tørresnoren",
+    "danishIndefinite": "en tørresnor",
+    "tier": 4
+  },
+  "home.drying-rack": {
+    "danish": "tørrestativ",
+    "german": "Wäscheständer",
+    "english": "drying rack",
+    "gender": "der",
+    "danishDefinite": "tørrestativet",
+    "danishIndefinite": "et tørrestativ",
+    "tier": 4
+  },
+  "home.laundry-basket": {
+    "danish": "vasketøjskurv",
+    "german": "Wäschekorb",
+    "english": "laundry basket",
+    "gender": "der",
+    "danishDefinite": "vasketøjskurven",
+    "danishIndefinite": "en vasketøjskurv",
+    "tier": 4
+  },
+  "home.detergent": {
+    "danish": "vaskepulver",
+    "german": "Waschmittel",
+    "english": "detergent",
+    "gender": "das",
+    "danishDefinite": "vaskepulveret",
+    "danishIndefinite": "et vaskepulver",
+    "tier": 3
+  },
+  "home.vacuum-cleaner": {
+    "danish": "støvsuger",
+    "german": "Staubsauger",
+    "english": "vacuum cleaner",
+    "gender": "der",
+    "danishDefinite": "støvsugeren",
+    "danishIndefinite": "en støvsuger",
+    "tier": 3
+  },
+  "home.broom": {
+    "danish": "kost",
+    "german": "Besen",
+    "english": "broom",
+    "gender": "der",
+    "danishDefinite": "kosten",
+    "danishIndefinite": "en kost",
+    "tier": 3
+  },
+  "home.dustpan": {
+    "danish": "fejebakke",
+    "german": "Kehrschaufel",
+    "english": "dustpan",
+    "gender": "die",
+    "danishDefinite": "fejebakken",
+    "danishIndefinite": "en fejebakke",
+    "tier": 5
+  },
+  "home.mop": {
+    "danish": "gulvmoppe",
+    "german": "Wischmopp",
+    "english": "mop",
+    "gender": "der",
+    "danishDefinite": "gulvmoppen",
+    "danishIndefinite": "en gulvmoppe",
+    "tier": 5
+  },
+  "home.bucket": {
+    "danish": "spand",
+    "german": "Eimer",
+    "english": "bucket",
+    "gender": "der",
+    "danishDefinite": "spanden",
+    "danishIndefinite": "en spand",
+    "tier": 3
+  },
+  "home.sponge": {
+    "danish": "svamp",
+    "german": "Schwamm",
+    "english": "sponge",
+    "gender": "der",
+    "danishDefinite": "svampen",
+    "danishIndefinite": "en svamp",
+    "tier": 3
+  },
+  "home.cleaning-cloth": {
+    "danish": "klud",
+    "german": "Lappen",
+    "english": "cleaning cloth",
+    "gender": "der",
+    "danishDefinite": "kluden",
+    "danishIndefinite": "en klud",
+    "tier": 3
+  },
+  "home.cleaning-product": {
+    "danish": "rengøringsmiddel",
+    "german": "Reinigungsmittel",
+    "english": "cleaning product",
+    "gender": "das",
+    "danishDefinite": "rengøringsmidlet",
+    "danishIndefinite": "et rengøringsmiddel",
+    "tier": 4
+  },
+  "home.housework": {
+    "danish": "husarbejde",
+    "german": "Hausarbeit",
+    "english": "housework",
+    "gender": "die",
+    "danishDefinite": "husarbejdet",
+    "danishIndefinite": "et husarbejde",
+    "tier": 3
+  },
+  "home.washing-up": {
+    "danish": "opvask",
+    "german": "Abwasch",
+    "english": "washing-up",
+    "gender": "der",
+    "danishDefinite": "opvasken",
+    "danishIndefinite": "en opvask",
+    "tier": 3
+  },
+  "home.rubbish": {
+    "danish": "affald",
+    "german": "Müll",
+    "english": "rubbish",
+    "gender": "der",
+    "danishDefinite": "affaldet",
+    "danishIndefinite": "et affald",
+    "tier": 2
+  },
+  "home.bin-bag": {
+    "danish": "affaldspose",
+    "german": "Müllbeutel",
+    "english": "bin bag",
+    "gender": "der",
+    "danishDefinite": "affaldsposen",
+    "danishIndefinite": "en affaldspose",
+    "tier": 4
+  },
+  "home.dust": {
+    "danish": "støv",
+    "german": "Staub",
+    "english": "dust",
+    "gender": "der",
+    "danishDefinite": "støvet",
+    "danishIndefinite": "et støv",
+    "tier": 3
+  },
+  "home.dirt": {
+    "danish": "snavs",
+    "german": "Schmutz",
+    "english": "dirt",
+    "gender": "der",
+    "danishDefinite": "snavset",
+    "danishIndefinite": "et snavs",
+    "tier": 3
+  },
+  "home.bathtub": {
+    "danish": "badekar",
+    "german": "Badewanne",
+    "english": "bathtub",
+    "gender": "die",
+    "danishDefinite": "badekarret",
+    "danishIndefinite": "et badekar",
+    "tier": 2
+  },
+  "home.shower": {
+    "danish": "bruser",
+    "german": "Dusche",
+    "english": "shower",
+    "gender": "die",
+    "danishDefinite": "bruseren",
+    "danishIndefinite": "en bruser",
+    "tier": 1
+  },
+  "home.washbasin": {
+    "danish": "håndvask",
+    "german": "Waschbecken",
+    "english": "washbasin",
+    "gender": "das",
+    "danishDefinite": "håndvasken",
+    "danishIndefinite": "en håndvask",
+    "tier": 3
+  },
+  "home.toilet-paper": {
+    "danish": "toiletpapir",
+    "german": "Toilettenpapier",
+    "english": "toilet paper",
+    "gender": "das",
+    "danishDefinite": "toiletpapiret",
+    "danishIndefinite": "et toiletpapir",
+    "tier": 2
+  },
+  "home.electricity-meter": {
+    "danish": "elmåler",
+    "german": "Stromzähler",
+    "english": "electricity meter",
+    "gender": "der",
+    "danishDefinite": "elmåleren",
+    "danishIndefinite": "en elmåler",
+    "tier": 5
+  },
+  "home.fuse": {
+    "danish": "sikring",
+    "german": "Sicherung",
+    "english": "fuse",
+    "gender": "die",
+    "danishDefinite": "sikringen",
+    "danishIndefinite": "en sikring",
+    "tier": 4
+  },
+  "home.power-cut": {
+    "danish": "strømafbrydelse",
+    "german": "Stromausfall",
+    "english": "power cut",
+    "gender": "der",
+    "danishDefinite": "strømafbrydelsen",
+    "danishIndefinite": "en strømafbrydelse",
+    "tier": 4
+  },
+  "home.smoke-detector": {
+    "danish": "røgalarm",
+    "german": "Rauchmelder",
+    "english": "smoke detector",
+    "gender": "der",
+    "danishDefinite": "røgalarmen",
+    "danishIndefinite": "en røgalarm",
+    "tier": 4
+  },
+  "home.fire-extinguisher": {
+    "danish": "ildslukker",
+    "german": "Feuerlöscher",
+    "english": "fire extinguisher",
+    "gender": "der",
+    "danishDefinite": "ildslukkeren",
+    "danishIndefinite": "en ildslukker",
+    "tier": 4
+  },
+  "home.first-aid-kit": {
+    "danish": "førstehjælpskasse",
+    "german": "Verbandskasten",
+    "english": "first aid kit",
+    "gender": "der",
+    "danishDefinite": "førstehjælpskassen",
+    "danishIndefinite": "en førstehjælpskasse",
+    "tier": 4
+  }
+}

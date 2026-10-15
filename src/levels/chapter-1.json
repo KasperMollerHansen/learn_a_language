@@ -1,0 +1,277 @@
+[
+  {
+    "id": "1-1",
+    "chapter": "Chapter 1 · Basics",
+    "name": "People",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "people",
+      "emotions",
+      "personality",
+      "life"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-2",
+    "chapter": "Chapter 1 · Basics",
+    "name": "People with articles",
+    "mode": "article",
+    "prompt": "Choose the German form",
+    "categories": [
+      "people"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-3",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Describing words",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "adjectives",
+      "colors",
+      "adverbs"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-4",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Small words",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "prepositions",
+      "function",
+      "numbers",
+      "time"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-5",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Verbs",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "verbs"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-6",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Food and drink",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "food",
+      "drinks",
+      "restaurant"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-7",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Home",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "home",
+      "kitchen",
+      "everyday",
+      "tools",
+      "materials",
+      "office"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-8",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Body and clothes",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "body",
+      "health",
+      "clothing"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-9",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Nature",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "animals",
+      "nature",
+      "garden",
+      "weather"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-10",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Town and travel",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "city",
+      "travel",
+      "transport",
+      "shopping",
+      "countries"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-11",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Free time",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "sport",
+      "music",
+      "hobbies"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-12",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Work and school",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "work",
+      "learning",
+      "technology",
+      "money",
+      "media",
+      "communication",
+      "society",
+      "science",
+      "culture"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-13",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Sentences",
+    "mode": "word",
+    "prompt": "Translate the Danish sentence into German",
+    "categories": [
+      "modals",
+      "sentences"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-14",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Review",
+    "mode": "word",
+    "prompt": "Find the German word for",
+    "categories": [
+      "people",
+      "animals",
+      "adjectives",
+      "prepositions",
+      "kitchen",
+      "garden",
+      "weather",
+      "everyday",
+      "technology",
+      "work",
+      "learning",
+      "music",
+      "sport",
+      "travel",
+      "city",
+      "spelling",
+      "verbs",
+      "body",
+      "health",
+      "clothing",
+      "emotions",
+      "home",
+      "tools",
+      "materials",
+      "food",
+      "drinks",
+      "restaurant",
+      "nature",
+      "hobbies",
+      "transport",
+      "shopping",
+      "media",
+      "money",
+      "society",
+      "time",
+      "numbers",
+      "colors",
+      "adverbs",
+      "function",
+      "countries",
+      "science",
+      "culture",
+      "personality",
+      "communication",
+      "life",
+      "office"
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "id": "1-15",
+    "chapter": "Chapter 1 · Basics",
+    "name": "Sentence builder",
+    "mode": "sentence",
+    "prompt": "Build the German sentence one chunk at a time",
+    "categories": [
+      "sentence-builder"
+    ],
+    "tiers": [
+      1
+    ]
+  }
+]

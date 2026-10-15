@@ -1,0 +1,833 @@
+{
+  "health.illness": {
+    "danish": "sygdom",
+    "german": "Krankheit",
+    "english": "illness",
+    "gender": "die",
+    "danishDefinite": "sygdommen",
+    "danishIndefinite": "en sygdom",
+    "tier": 2
+  },
+  "health.fever": {
+    "danish": "feber",
+    "german": "Fieber",
+    "english": "fever",
+    "gender": "das",
+    "danishDefinite": "feberen",
+    "danishIndefinite": "en feber",
+    "tier": 1
+  },
+  "health.cough": {
+    "danish": "hoste",
+    "german": "Husten",
+    "english": "cough",
+    "gender": "der",
+    "danishDefinite": "hosten",
+    "danishIndefinite": "en hoste",
+    "tier": 2
+  },
+  "health.cold": {
+    "danish": "forkølelse",
+    "german": "Erkältung",
+    "english": "cold",
+    "gender": "die",
+    "danishDefinite": "forkølelsen",
+    "danishIndefinite": "en forkølelse",
+    "tier": 1
+  },
+  "health.flu": {
+    "danish": "influenza",
+    "german": "Grippe",
+    "english": "flu",
+    "gender": "die",
+    "danishDefinite": "influenzaen",
+    "danishIndefinite": "en influenza",
+    "tier": 2
+  },
+  "health.pain": {
+    "danish": "smerte",
+    "german": "Schmerz",
+    "english": "pain",
+    "gender": "der",
+    "danishDefinite": "smerten",
+    "danishIndefinite": "en smerte",
+    "tier": 1
+  },
+  "health.migraine": {
+    "danish": "migræne",
+    "german": "Migräne",
+    "english": "migraine",
+    "gender": "die",
+    "danishDefinite": "migrænen",
+    "danishIndefinite": "en migræne",
+    "tier": 4
+  },
+  "health.allergy": {
+    "danish": "allergi",
+    "german": "Allergie",
+    "english": "allergy",
+    "gender": "die",
+    "danishDefinite": "allergien",
+    "danishIndefinite": "en allergi",
+    "tier": 3
+  },
+  "health.asthma": {
+    "danish": "astma",
+    "german": "Asthma",
+    "english": "asthma",
+    "gender": "das",
+    "danishDefinite": "astmaen",
+    "danishIndefinite": "en astma",
+    "tier": 4
+  },
+  "health.cancer": {
+    "danish": "kræft",
+    "german": "Krebs",
+    "english": "cancer",
+    "gender": "der",
+    "danishDefinite": "kræften",
+    "danishIndefinite": "en kræft",
+    "tier": 4
+  },
+  "health.heart-attack": {
+    "danish": "hjerteanfald",
+    "german": "Herzinfarkt",
+    "english": "heart attack",
+    "gender": "der",
+    "danishDefinite": "hjerteanfaldet",
+    "danishIndefinite": "et hjerteanfald",
+    "tier": 4
+  },
+  "health.stroke": {
+    "danish": "slagtilfælde",
+    "german": "Schlaganfall",
+    "english": "stroke",
+    "gender": "der",
+    "danishDefinite": "slagtilfældet",
+    "danishIndefinite": "et slagtilfælde",
+    "tier": 4
+  },
+  "health.blood-pressure": {
+    "danish": "blodtryk",
+    "german": "Blutdruck",
+    "english": "blood pressure",
+    "gender": "der",
+    "danishDefinite": "blodtrykket",
+    "danishIndefinite": "et blodtryk",
+    "tier": 3
+  },
+  "health.high-blood-pressure": {
+    "danish": "forhøjet blodtryk",
+    "german": "Bluthochdruck",
+    "english": "high blood pressure",
+    "gender": "der",
+    "danishDefinite": "det forhøjede blodtryk",
+    "danishIndefinite": "et forhøjet blodtryk",
+    "tier": 4
+  },
+  "health.infection": {
+    "danish": "infektion",
+    "german": "Infektion",
+    "english": "infection",
+    "gender": "die",
+    "danishDefinite": "infektionen",
+    "danishIndefinite": "en infektion",
+    "tier": 4
+  },
+  "health.inflammation": {
+    "danish": "betændelse",
+    "german": "Entzündung",
+    "english": "inflammation",
+    "gender": "die",
+    "danishDefinite": "betændelsen",
+    "danishIndefinite": "en betændelse",
+    "tier": 4
+  },
+  "health.virus": {
+    "danish": "virus",
+    "german": "Virus",
+    "english": "virus",
+    "gender": "das",
+    "danishDefinite": "viruset",
+    "danishIndefinite": "et virus",
+    "tier": 3
+  },
+  "health.bacterium": {
+    "danish": "bakterie",
+    "german": "Bakterie",
+    "english": "bacterium",
+    "gender": "die",
+    "danishDefinite": "bakterien",
+    "danishIndefinite": "en bakterie",
+    "tier": 4
+  },
+  "health.contagion": {
+    "danish": "smitte",
+    "german": "Ansteckung",
+    "english": "contagion",
+    "gender": "die",
+    "danishDefinite": "smitten",
+    "danishIndefinite": "en smitte",
+    "tier": 5
+  },
+  "health.epidemic": {
+    "danish": "epidemi",
+    "german": "Epidemie",
+    "english": "epidemic",
+    "gender": "die",
+    "danishDefinite": "epidemien",
+    "danishIndefinite": "en epidemi",
+    "tier": 4
+  },
+  "health.pandemic": {
+    "danish": "pandemi",
+    "german": "Pandemie",
+    "english": "pandemic",
+    "gender": "die",
+    "danishDefinite": "pandemien",
+    "danishIndefinite": "en pandemi",
+    "tier": 4
+  },
+  "health.vaccination": {
+    "danish": "vaccination",
+    "german": "Impfung",
+    "english": "vaccination",
+    "gender": "die",
+    "danishDefinite": "vaccinationen",
+    "danishIndefinite": "en vaccination",
+    "tier": 3
+  },
+  "health.vaccine": {
+    "danish": "vaccine",
+    "german": "Impfstoff",
+    "english": "vaccine",
+    "gender": "der",
+    "danishDefinite": "vaccinen",
+    "danishIndefinite": "en vaccine",
+    "tier": 4
+  },
+  "health.tablet": {
+    "danish": "tablet",
+    "german": "Tablette",
+    "english": "tablet",
+    "gender": "die",
+    "danishDefinite": "tabletten",
+    "danishIndefinite": "en tablet",
+    "tier": 2
+  },
+  "health.pill": {
+    "danish": "pille",
+    "german": "Pille",
+    "english": "pill",
+    "gender": "die",
+    "danishDefinite": "pillen",
+    "danishIndefinite": "en pille",
+    "tier": 3
+  },
+  "health.cough-syrup": {
+    "danish": "hostesaft",
+    "german": "Hustensaft",
+    "english": "cough syrup",
+    "gender": "der",
+    "danishDefinite": "hostesaften",
+    "danishIndefinite": "en hostesaft",
+    "tier": 3
+  },
+  "health.painkiller": {
+    "danish": "smertestillende middel",
+    "german": "Schmerzmittel",
+    "english": "painkiller",
+    "gender": "das",
+    "danishDefinite": "det smertestillende middel",
+    "danishIndefinite": "et smertestillende middel",
+    "tier": 3
+  },
+  "health.antibiotic": {
+    "danish": "antibiotikum",
+    "german": "Antibiotikum",
+    "english": "antibiotic",
+    "gender": "das",
+    "danishDefinite": "antibiotikummet",
+    "danishIndefinite": "et antibiotikum",
+    "tier": 4
+  },
+  "health.ointment": {
+    "danish": "salve",
+    "german": "Salbe",
+    "english": "ointment",
+    "gender": "die",
+    "danishDefinite": "salven",
+    "danishIndefinite": "en salve",
+    "tier": 3
+  },
+  "health.side-effect": {
+    "danish": "bivirkning",
+    "german": "Nebenwirkung",
+    "english": "side effect",
+    "gender": "die",
+    "danishDefinite": "bivirkningen",
+    "danishIndefinite": "en bivirkning",
+    "tier": 3
+  },
+  "health.prescription": {
+    "danish": "recept",
+    "german": "Rezept",
+    "english": "prescription",
+    "gender": "das",
+    "danishDefinite": "recepten",
+    "danishIndefinite": "en recept",
+    "tier": 2
+  },
+  "health.emergency-room": {
+    "danish": "skadestue",
+    "german": "Notaufnahme",
+    "english": "emergency room",
+    "gender": "die",
+    "danishDefinite": "skadestuen",
+    "danishIndefinite": "en skadestue",
+    "tier": 3
+  },
+  "health.ambulance": {
+    "danish": "ambulance",
+    "german": "Krankenwagen",
+    "english": "ambulance",
+    "gender": "der",
+    "danishDefinite": "ambulancen",
+    "danishIndefinite": "en ambulance",
+    "tier": 2
+  },
+  "health.specialist-doctor": {
+    "danish": "speciallæge",
+    "german": "Facharzt",
+    "english": "specialist doctor",
+    "gender": "der",
+    "danishDefinite": "speciallægen",
+    "danishIndefinite": "en speciallæge",
+    "tier": 3
+  },
+  "health.patient": {
+    "danish": "patient",
+    "german": "Patient",
+    "english": "patient",
+    "gender": "der",
+    "danishDefinite": "patienten",
+    "danishIndefinite": "en patient",
+    "tier": 2
+  },
+  "health.physiotherapist": {
+    "danish": "fysioterapeut",
+    "german": "Physiotherapeut",
+    "english": "physiotherapist",
+    "gender": "der",
+    "danishDefinite": "fysioterapeuten",
+    "danishIndefinite": "en fysioterapeut",
+    "tier": 4
+  },
+  "health.psychologist": {
+    "danish": "psykolog",
+    "german": "Psychologe",
+    "english": "psychologist",
+    "gender": "der",
+    "danishDefinite": "psykologen",
+    "danishIndefinite": "en psykolog",
+    "tier": 4
+  },
+  "health.consultation": {
+    "danish": "konsultation",
+    "german": "Sprechstunde",
+    "english": "consultation",
+    "gender": "die",
+    "danishDefinite": "konsultationen",
+    "danishIndefinite": "en konsultation",
+    "tier": 3
+  },
+  "health.doctor-s-appointment": {
+    "danish": "lægetid",
+    "german": "Arzttermin",
+    "english": "doctor's appointment",
+    "gender": "der",
+    "danishDefinite": "lægetiden",
+    "danishIndefinite": "en lægetid",
+    "tier": 2
+  },
+  "health.examination": {
+    "danish": "undersøgelse",
+    "german": "Untersuchung",
+    "english": "examination",
+    "gender": "die",
+    "danishDefinite": "undersøgelsen",
+    "danishIndefinite": "en undersøgelse",
+    "tier": 3
+  },
+  "health.diagnosis": {
+    "danish": "diagnose",
+    "german": "Diagnose",
+    "english": "diagnosis",
+    "gender": "die",
+    "danishDefinite": "diagnosen",
+    "danishIndefinite": "en diagnose",
+    "tier": 4
+  },
+  "health.treatment": {
+    "danish": "behandling",
+    "german": "Behandlung",
+    "english": "treatment",
+    "gender": "die",
+    "danishDefinite": "behandlingen",
+    "danishIndefinite": "en behandling",
+    "tier": 3
+  },
+  "health.operation": {
+    "danish": "operation",
+    "german": "Operation",
+    "english": "operation",
+    "gender": "die",
+    "danishDefinite": "operationen",
+    "danishIndefinite": "en operation",
+    "tier": 2
+  },
+  "health.anesthesia": {
+    "danish": "bedøvelse",
+    "german": "Betäubung",
+    "english": "anesthesia",
+    "gender": "die",
+    "danishDefinite": "bedøvelsen",
+    "danishIndefinite": "en bedøvelse",
+    "tier": 4
+  },
+  "health.syringe": {
+    "danish": "sprøjte",
+    "german": "Spritze",
+    "english": "syringe",
+    "gender": "die",
+    "danishDefinite": "sprøjten",
+    "danishIndefinite": "en sprøjte",
+    "tier": 3
+  },
+  "health.crutch": {
+    "danish": "krykke",
+    "german": "Krücke",
+    "english": "crutch",
+    "gender": "die",
+    "danishDefinite": "krykken",
+    "danishIndefinite": "en krykke",
+    "tier": 4
+  },
+  "health.wheelchair": {
+    "danish": "kørestol",
+    "german": "Rollstuhl",
+    "english": "wheelchair",
+    "gender": "der",
+    "danishDefinite": "kørestolen",
+    "danishIndefinite": "en kørestol",
+    "tier": 3
+  },
+  "health.glasses": {
+    "danish": "briller",
+    "german": "Brille",
+    "english": "glasses",
+    "gender": "die",
+    "danishDefinite": "brillerne",
+    "danishIndefinite": "et par briller",
+    "tier": 1
+  },
+  "health.hearing-aid": {
+    "danish": "høreapparat",
+    "german": "Hörgerät",
+    "english": "hearing aid",
+    "gender": "das",
+    "danishDefinite": "høreapparatet",
+    "danishIndefinite": "et høreapparat",
+    "tier": 4
+  },
+  "health.wound": {
+    "danish": "sår",
+    "german": "Wunde",
+    "english": "wound",
+    "gender": "die",
+    "danishDefinite": "såret",
+    "danishIndefinite": "et sår",
+    "tier": 3
+  },
+  "health.fracture": {
+    "danish": "knoglebrud",
+    "german": "Knochenbruch",
+    "english": "fracture",
+    "gender": "der",
+    "danishDefinite": "knoglebruddet",
+    "danishIndefinite": "et knoglebrud",
+    "tier": 4
+  },
+  "health.sprain": {
+    "danish": "forstuvning",
+    "german": "Verstauchung",
+    "english": "sprain",
+    "gender": "die",
+    "danishDefinite": "forstuvningen",
+    "danishIndefinite": "en forstuvning",
+    "tier": 5
+  },
+  "health.burn": {
+    "danish": "forbrænding",
+    "german": "Verbrennung",
+    "english": "burn",
+    "gender": "die",
+    "danishDefinite": "forbrændingen",
+    "danishIndefinite": "en forbrænding",
+    "tier": 4
+  },
+  "health.bleeding": {
+    "danish": "blødning",
+    "german": "Blutung",
+    "english": "bleeding",
+    "gender": "die",
+    "danishDefinite": "blødningen",
+    "danishIndefinite": "en blødning",
+    "tier": 4
+  },
+  "health.nosebleed": {
+    "danish": "næseblod",
+    "german": "Nasenbluten",
+    "english": "nosebleed",
+    "gender": "das",
+    "danishDefinite": "næseblodet",
+    "danishIndefinite": "et næseblod",
+    "tier": 4
+  },
+  "health.dizziness": {
+    "danish": "svimmelhed",
+    "german": "Schwindel",
+    "english": "dizziness",
+    "gender": "der",
+    "danishDefinite": "svimmelheden",
+    "danishIndefinite": "en svimmelhed",
+    "tier": 4
+  },
+  "health.nausea": {
+    "danish": "kvalme",
+    "german": "Übelkeit",
+    "english": "nausea",
+    "gender": "die",
+    "danishDefinite": "kvalmen",
+    "danishIndefinite": "en kvalme",
+    "tier": 3
+  },
+  "health.vomiting": {
+    "danish": "opkastning",
+    "german": "Erbrechen",
+    "english": "vomiting",
+    "gender": "das",
+    "danishDefinite": "opkastningen",
+    "danishIndefinite": "en opkastning",
+    "tier": 4
+  },
+  "health.diarrhea": {
+    "danish": "diarré",
+    "german": "Durchfall",
+    "english": "diarrhea",
+    "gender": "der",
+    "danishDefinite": "diarréen",
+    "danishIndefinite": "en diarré",
+    "tier": 3
+  },
+  "health.constipation": {
+    "danish": "forstoppelse",
+    "german": "Verstopfung",
+    "english": "constipation",
+    "gender": "die",
+    "danishDefinite": "forstoppelsen",
+    "danishIndefinite": "en forstoppelse",
+    "tier": 4
+  },
+  "health.tiredness": {
+    "danish": "træthed",
+    "german": "Müdigkeit",
+    "english": "tiredness",
+    "gender": "die",
+    "danishDefinite": "trætheden",
+    "danishIndefinite": "en træthed",
+    "tier": 3
+  },
+  "health.exhaustion": {
+    "danish": "udmattelse",
+    "german": "Erschöpfung",
+    "english": "exhaustion",
+    "gender": "die",
+    "danishDefinite": "udmattelsen",
+    "danishIndefinite": "en udmattelse",
+    "tier": 4
+  },
+  "health.stress": {
+    "danish": "stress",
+    "german": "Stress",
+    "english": "stress",
+    "gender": "der",
+    "danishDefinite": "stressen",
+    "danishIndefinite": "en stress",
+    "tier": 2
+  },
+  "health.depression": {
+    "danish": "depression",
+    "german": "Depression",
+    "english": "depression",
+    "gender": "die",
+    "danishDefinite": "depressionen",
+    "danishIndefinite": "en depression",
+    "tier": 4
+  },
+  "health.insomnia": {
+    "danish": "søvnløshed",
+    "german": "Schlaflosigkeit",
+    "english": "insomnia",
+    "gender": "die",
+    "danishDefinite": "søvnløsheden",
+    "danishIndefinite": "en søvnløshed",
+    "tier": 4
+  },
+  "health.immune-system": {
+    "danish": "immunforsvar",
+    "german": "Immunsystem",
+    "english": "immune system",
+    "gender": "das",
+    "danishDefinite": "immunforsvaret",
+    "danishIndefinite": "et immunforsvar",
+    "tier": 4
+  },
+  "health.health": {
+    "danish": "helbred",
+    "german": "Gesundheit",
+    "english": "health",
+    "gender": "die",
+    "danishDefinite": "helbredet",
+    "danishIndefinite": "et helbred",
+    "tier": 2
+  },
+  "health.recovery": {
+    "danish": "bedring",
+    "german": "Genesung",
+    "english": "recovery",
+    "gender": "die",
+    "danishDefinite": "bedringen",
+    "danishIndefinite": "en bedring",
+    "tier": 5
+  },
+  "health.symptom": {
+    "danish": "symptom",
+    "german": "Symptom",
+    "english": "symptom",
+    "gender": "das",
+    "danishDefinite": "symptomet",
+    "danishIndefinite": "et symptom",
+    "tier": 4
+  },
+  "health.blood-sample": {
+    "danish": "blodprøve",
+    "german": "Blutprobe",
+    "english": "blood sample",
+    "gender": "die",
+    "danishDefinite": "blodprøven",
+    "danishIndefinite": "en blodprøve",
+    "tier": 4
+  },
+  "health.x-ray-image": {
+    "danish": "røntgenbillede",
+    "german": "Röntgenbild",
+    "english": "X-ray image",
+    "gender": "das",
+    "danishDefinite": "røntgenbilledet",
+    "danishIndefinite": "et røntgenbillede",
+    "tier": 4
+  },
+  "health.diet": {
+    "danish": "diæt",
+    "german": "Diät",
+    "english": "diet",
+    "gender": "die",
+    "danishDefinite": "diæten",
+    "danishIndefinite": "en diæt",
+    "tier": 3
+  },
+  "health.vitamin": {
+    "danish": "vitamin",
+    "german": "Vitamin",
+    "english": "vitamin",
+    "gender": "das",
+    "danishDefinite": "vitaminet",
+    "danishIndefinite": "et vitamin",
+    "tier": 3
+  },
+  "health.disability": {
+    "danish": "handicap",
+    "german": "Behinderung",
+    "english": "disability",
+    "gender": "die",
+    "danishDefinite": "handicappet",
+    "danishIndefinite": "et handicap",
+    "tier": 4
+  },
+  "health.paralysis": {
+    "danish": "lammelse",
+    "german": "Lähmung",
+    "english": "paralysis",
+    "gender": "die",
+    "danishDefinite": "lammelsen",
+    "danishIndefinite": "en lammelse",
+    "tier": 5
+  },
+  "health.hygiene": {
+    "danish": "hygiejne",
+    "german": "Hygiene",
+    "english": "hygiene",
+    "gender": "die",
+    "danishDefinite": "hygiejnen",
+    "danishIndefinite": "en hygiejne",
+    "tier": 4
+  },
+  "health.face-mask": {
+    "danish": "mundbind",
+    "german": "Mundschutz",
+    "english": "face mask",
+    "gender": "der",
+    "danishDefinite": "mundbindet",
+    "danishIndefinite": "et mundbind",
+    "tier": 4
+  },
+  "health.birth": {
+    "danish": "fødsel",
+    "german": "Geburt",
+    "english": "birth",
+    "gender": "die",
+    "danishDefinite": "fødslen",
+    "danishIndefinite": "en fødsel",
+    "tier": 3
+  },
+  "health.pregnancy": {
+    "danish": "graviditet",
+    "german": "Schwangerschaft",
+    "english": "pregnancy",
+    "gender": "die",
+    "danishDefinite": "graviditeten",
+    "danishIndefinite": "en graviditet",
+    "tier": 4
+  },
+  "health.first-aid": {
+    "danish": "førstehjælp",
+    "german": "Erste Hilfe",
+    "english": "first aid",
+    "gender": "die",
+    "danishDefinite": "førstehjælpen",
+    "danishIndefinite": "en førstehjælp",
+    "tier": 3
+  },
+  "health.emergency-call": {
+    "danish": "nødopkald",
+    "german": "Notruf",
+    "english": "emergency call",
+    "gender": "der",
+    "danishDefinite": "nødopkaldet",
+    "danishIndefinite": "et nødopkald",
+    "tier": 3
+  },
+  "health.health-insurance": {
+    "danish": "sygeforsikring",
+    "german": "Krankenversicherung",
+    "english": "health insurance",
+    "gender": "die",
+    "danishDefinite": "sygeforsikringen",
+    "danishIndefinite": "en sygeforsikring",
+    "tier": 3
+  },
+  "health.blindness": {
+    "danish": "blindhed",
+    "german": "Blindheit",
+    "english": "blindness",
+    "gender": "die",
+    "danishDefinite": "blindheden",
+    "danishIndefinite": "en blindhed",
+    "tier": 4
+  },
+  "health.healthy": {
+    "danish": "rask",
+    "german": "gesund",
+    "english": "healthy",
+    "tier": 1
+  },
+  "health.injured": {
+    "danish": "skadet",
+    "german": "verletzt",
+    "english": "injured",
+    "tier": 2
+  },
+  "health.contagious": {
+    "danish": "smittende",
+    "german": "ansteckend",
+    "english": "contagious",
+    "tier": 4
+  },
+  "health.chronic": {
+    "danish": "kronisk",
+    "german": "chronisch",
+    "english": "chronic",
+    "tier": 4
+  },
+  "health.poisonous": {
+    "danish": "giftig",
+    "german": "giftig",
+    "english": "poisonous",
+    "tier": 3
+  },
+  "health.unconscious": {
+    "danish": "bevidstløs",
+    "german": "bewusstlos",
+    "english": "unconscious",
+    "tier": 4
+  },
+  "health.to-vomit": {
+    "danish": "at kaste op",
+    "german": "sich übergeben",
+    "english": "to vomit",
+    "tier": 4
+  },
+  "health.to-recover": {
+    "danish": "at komme sig",
+    "german": "sich erholen",
+    "english": "to recover",
+    "tier": 3
+  },
+  "health.to-operate": {
+    "danish": "at operere",
+    "german": "operieren",
+    "english": "to operate",
+    "tier": 3
+  },
+  "health.to-vaccinate": {
+    "danish": "at vaccinere",
+    "german": "impfen",
+    "english": "to vaccinate",
+    "tier": 3
+  },
+  "health.to-heal": {
+    "danish": "at hele",
+    "german": "heilen",
+    "english": "to heal",
+    "tier": 4
+  },
+  "health.to-breathe": {
+    "danish": "at trække vejret",
+    "german": "atmen",
+    "english": "to breathe",
+    "tier": 3
+  },
+  "health.to-give-birth": {
+    "danish": "at føde",
+    "german": "gebären",
+    "english": "to give birth",
+    "tier": 5
+  },
+  "health.to-catch-an-infection": {
+    "danish": "at blive smittet",
+    "german": "sich anstecken",
+    "english": "to catch an infection",
+    "tier": 3
+  }
+}
