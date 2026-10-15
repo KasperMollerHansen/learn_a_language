@@ -1,0 +1,212 @@
+{
+  "animals.dog": {
+    "danish": "hund",
+    "german": "Hund",
+    "gender": "der",
+    "danishDefinite": "hunden",
+    "danishIndefinite": "en hund"
+  },
+  "animals.cat": {
+    "danish": "kat",
+    "german": "Katze",
+    "gender": "die",
+    "danishDefinite": "katten",
+    "danishIndefinite": "en kat"
+  },
+  "animals.horse": {
+    "danish": "hest",
+    "german": "Pferd",
+    "gender": "das",
+    "danishDefinite": "hesten",
+    "danishIndefinite": "en hest"
+  },
+  "animals.cow": {
+    "danish": "ko",
+    "german": "Kuh",
+    "gender": "die",
+    "danishDefinite": "koen",
+    "danishIndefinite": "en ko"
+  },
+  "animals.pig": {
+    "danish": "gris",
+    "german": "Schwein",
+    "gender": "das",
+    "danishDefinite": "grisen",
+    "danishIndefinite": "en gris"
+  },
+  "animals.sheep": {
+    "danish": "får",
+    "german": "Schaf",
+    "gender": "das",
+    "danishDefinite": "fåret",
+    "danishIndefinite": "et får"
+  },
+  "animals.goat": {
+    "danish": "ged",
+    "german": "Ziege",
+    "gender": "die",
+    "danishDefinite": "geden",
+    "danishIndefinite": "en ged"
+  },
+  "animals.hen": {
+    "danish": "høne",
+    "german": "Huhn",
+    "gender": "das",
+    "danishDefinite": "hønen",
+    "danishIndefinite": "en høne"
+  },
+  "animals.duck": {
+    "danish": "and",
+    "german": "Ente",
+    "gender": "die",
+    "danishDefinite": "anden",
+    "danishIndefinite": "en and"
+  },
+  "animals.goose": {
+    "danish": "gås",
+    "german": "Gans",
+    "gender": "die",
+    "danishDefinite": "gåsen",
+    "danishIndefinite": "en gås"
+  },
+  "animals.bird": {
+    "danish": "fugl",
+    "german": "Vogel",
+    "gender": "der",
+    "danishDefinite": "fuglen",
+    "danishIndefinite": "en fugl"
+  },
+  "animals.fish": {
+    "danish": "fisk",
+    "german": "Fisch",
+    "gender": "der",
+    "danishDefinite": "fisken",
+    "danishIndefinite": "en fisk"
+  },
+  "animals.mouse": {
+    "danish": "mus",
+    "german": "Maus",
+    "gender": "die",
+    "danishDefinite": "musen",
+    "danishIndefinite": "en mus"
+  },
+  "animals.rat": {
+    "danish": "rotte",
+    "german": "Ratte",
+    "gender": "die",
+    "danishDefinite": "rotten",
+    "danishIndefinite": "en rotte"
+  },
+  "animals.rabbit": {
+    "danish": "kanin",
+    "german": "Kaninchen",
+    "gender": "das",
+    "danishDefinite": "kaninen",
+    "danishIndefinite": "en kanin"
+  },
+  "animals.hare": {
+    "danish": "hare",
+    "german": "Hase",
+    "gender": "der",
+    "danishDefinite": "haren",
+    "danishIndefinite": "en hare"
+  },
+  "animals.lion": {
+    "danish": "løve",
+    "german": "Löwe",
+    "gender": "der",
+    "danishDefinite": "løven",
+    "danishIndefinite": "en løve"
+  },
+  "animals.tiger": {
+    "danish": "tiger",
+    "german": "Tiger",
+    "gender": "der",
+    "danishDefinite": "tigeren",
+    "danishIndefinite": "en tiger"
+  },
+  "animals.elephant": {
+    "danish": "elefant",
+    "german": "Elefant",
+    "gender": "der",
+    "danishDefinite": "elefanten",
+    "danishIndefinite": "en elefant"
+  },
+  "animals.monkey": {
+    "danish": "abe",
+    "german": "Affe",
+    "gender": "der",
+    "danishDefinite": "aben",
+    "danishIndefinite": "en abe"
+  },
+  "animals.bear": {
+    "danish": "bjørn",
+    "german": "Bär",
+    "gender": "der",
+    "danishDefinite": "bjørnen",
+    "danishIndefinite": "en bjørn"
+  },
+  "animals.wolf": {
+    "danish": "ulv",
+    "german": "Wolf",
+    "gender": "der",
+    "danishDefinite": "ulven",
+    "danishIndefinite": "en ulv"
+  },
+  "animals.fox": {
+    "danish": "ræv",
+    "german": "Fuchs",
+    "gender": "der",
+    "danishDefinite": "ræven",
+    "danishIndefinite": "en ræv"
+  },
+  "animals.deer": {
+    "danish": "hjort",
+    "german": "Hirsch",
+    "gender": "der",
+    "danishDefinite": "hjorten",
+    "danishIndefinite": "en hjort"
+  },
+  "animals.snake": {
+    "danish": "slange",
+    "german": "Schlange",
+    "gender": "die",
+    "danishDefinite": "slangen",
+    "danishIndefinite": "en slange"
+  },
+  "animals.frog": {
+    "danish": "frø",
+    "german": "Frosch",
+    "gender": "der",
+    "danishDefinite": "frøen",
+    "danishIndefinite": "en frø"
+  },
+  "animals.turtle": {
+    "danish": "skildpadde",
+    "german": "Schildkröte",
+    "gender": "die",
+    "danishDefinite": "skildpadden",
+    "danishIndefinite": "en skildpadde"
+  },
+  "animals.bee": {
+    "danish": "bi",
+    "german": "Biene",
+    "gender": "die",
+    "danishDefinite": "bien",
+    "danishIndefinite": "en bi"
+  },
+  "animals.butterfly": {
+    "danish": "sommerfugl",
+    "german": "Schmetterling",
+    "gender": "der",
+    "danishDefinite": "sommerfuglen",
+    "danishIndefinite": "en sommerfugl"
+  },
+  "animals.spider": {
+    "danish": "edderkop",
+    "german": "Spinne",
+    "gender": "die",
+    "danishDefinite": "edderkoppen",
+    "danishIndefinite": "en edderkop"
+  }
+}

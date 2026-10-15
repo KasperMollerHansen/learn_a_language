@@ -29,8 +29,8 @@ belong to whatever workspace this clone happens to sit in, not to this repo, and
 ## Layout
 
 ```
-src/init_repo/      the package; rename it together with `name` in pyproject.toml
-tests/              pytest, mirrors src/
+src/                the static app (index.html, config.json, wordbank/, levels/, service worker)
+tests/              pytest, checks the app's data files in src/
 docs/setup/         machine and framework setup guides
 ```
 

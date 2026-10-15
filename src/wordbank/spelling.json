@@ -1,0 +1,212 @@
+{
+  "spelling.hotel": {
+    "danish": "hotel",
+    "german": "Hotel",
+    "gender": "das",
+    "danishDefinite": "hotellet",
+    "danishIndefinite": "et hotel"
+  },
+  "spelling.restaurant": {
+    "danish": "restaurant",
+    "german": "Restaurant",
+    "gender": "das",
+    "danishDefinite": "restauranten",
+    "danishIndefinite": "en restaurant"
+  },
+  "spelling.radio": {
+    "danish": "radio",
+    "german": "Radio",
+    "gender": "das",
+    "danishDefinite": "radioen",
+    "danishIndefinite": "en radio"
+  },
+  "spelling.computer": {
+    "danish": "computer",
+    "german": "Computer",
+    "gender": "der",
+    "danishDefinite": "computeren",
+    "danishIndefinite": "en computer"
+  },
+  "spelling.bus": {
+    "danish": "bus",
+    "german": "Bus",
+    "gender": "der",
+    "danishDefinite": "bussen",
+    "danishIndefinite": "en bus"
+  },
+  "spelling.park": {
+    "danish": "park",
+    "german": "Park",
+    "gender": "der",
+    "danishDefinite": "parken",
+    "danishIndefinite": "en park"
+  },
+  "spelling.museum": {
+    "danish": "museum",
+    "german": "Museum",
+    "gender": "das",
+    "danishDefinite": "museet",
+    "danishIndefinite": "et museum"
+  },
+  "spelling.problem": {
+    "danish": "problem",
+    "german": "Problem",
+    "gender": "das",
+    "danishDefinite": "problemet",
+    "danishIndefinite": "et problem"
+  },
+  "spelling.telephone": {
+    "danish": "telefon",
+    "german": "Telefon",
+    "gender": "das",
+    "danishDefinite": "telefonen",
+    "danishIndefinite": "en telefon"
+  },
+  "spelling.video": {
+    "danish": "video",
+    "german": "Video",
+    "gender": "das",
+    "danishDefinite": "videoen",
+    "danishIndefinite": "en video"
+  },
+  "spelling.internet": {
+    "danish": "internet",
+    "german": "Internet",
+    "gender": "das",
+    "danishDefinite": "internettet",
+    "danishIndefinite": "et internet"
+  },
+  "spelling.bank": {
+    "danish": "bank",
+    "german": "Bank",
+    "gender": "die",
+    "danishDefinite": "banken",
+    "danishIndefinite": "en bank"
+  },
+  "spelling.music": {
+    "danish": "musik",
+    "german": "Musik",
+    "gender": "die",
+    "danishDefinite": "musikken",
+    "danishIndefinite": "en musik"
+  },
+  "spelling.family": {
+    "danish": "familie",
+    "german": "Familie",
+    "gender": "die",
+    "danishDefinite": "familien",
+    "danishIndefinite": "en familie"
+  },
+  "spelling.number": {
+    "danish": "nummer",
+    "german": "Nummer",
+    "gender": "die",
+    "danishDefinite": "nummeret",
+    "danishIndefinite": "et nummer"
+  },
+  "spelling.minute": {
+    "danish": "minut",
+    "german": "Minute",
+    "gender": "die",
+    "danishDefinite": "minuttet",
+    "danishIndefinite": "et minut"
+  },
+  "spelling.meter": {
+    "danish": "meter",
+    "german": "Meter",
+    "gender": "der",
+    "danishDefinite": "meteren",
+    "danishIndefinite": "en meter"
+  },
+  "spelling.second": {
+    "danish": "sekund",
+    "german": "Sekunde",
+    "gender": "die",
+    "danishDefinite": "sekundet",
+    "danishIndefinite": "et sekund"
+  },
+  "spelling.pizza": {
+    "danish": "pizza",
+    "german": "Pizza",
+    "gender": "die",
+    "danishDefinite": "pizzaen",
+    "danishIndefinite": "en pizza"
+  },
+  "spelling.chocolate": {
+    "danish": "chokolade",
+    "german": "Schokolade",
+    "gender": "die",
+    "danishDefinite": "chokoladen",
+    "danishIndefinite": "en chokolade"
+  },
+  "spelling.salad": {
+    "danish": "salat",
+    "german": "Salat",
+    "gender": "der",
+    "danishDefinite": "salaten",
+    "danishIndefinite": "en salat"
+  },
+  "spelling.tomato": {
+    "danish": "tomat",
+    "german": "Tomate",
+    "gender": "die",
+    "danishDefinite": "tomaten",
+    "danishIndefinite": "en tomat"
+  },
+  "spelling.camera": {
+    "danish": "kamera",
+    "german": "Kamera",
+    "gender": "das",
+    "danishDefinite": "kameraet",
+    "danishIndefinite": "et kamera"
+  },
+  "spelling.taxi": {
+    "danish": "taxa",
+    "german": "Taxi",
+    "gender": "das",
+    "danishDefinite": "taxaen",
+    "danishIndefinite": "en taxa"
+  },
+  "spelling.university": {
+    "danish": "universitet",
+    "german": "Universität",
+    "gender": "die",
+    "danishDefinite": "universitetet",
+    "danishIndefinite": "et universitet"
+  },
+  "spelling.student": {
+    "danish": "student",
+    "german": "Student",
+    "gender": "der",
+    "danishDefinite": "den studerende",
+    "danishIndefinite": "en studerende"
+  },
+  "spelling.professor": {
+    "danish": "professor",
+    "german": "Professor",
+    "gender": "der",
+    "danishDefinite": "professoren",
+    "danishIndefinite": "en professor"
+  },
+  "spelling.zoo": {
+    "danish": "zoo",
+    "german": "Zoo",
+    "gender": "der",
+    "danishDefinite": "zooen",
+    "danishIndefinite": "en zoo"
+  },
+  "spelling.theater": {
+    "danish": "teater",
+    "german": "Theater",
+    "gender": "das",
+    "danishDefinite": "teatret",
+    "danishIndefinite": "et teater"
+  },
+  "spelling.artist": {
+    "danish": "artist",
+    "german": "Artist",
+    "gender": "der",
+    "danishDefinite": "artisten",
+    "danishIndefinite": "en artist"
+  }
+}

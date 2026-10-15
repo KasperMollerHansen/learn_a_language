@@ -1,0 +1,72 @@
+{
+  "weather.sunrise": {
+    "danish": "solopgang",
+    "german": "Sonnenaufgang",
+    "gender": "der",
+    "danishDefinite": "solopgangen",
+    "danishIndefinite": "en solopgang"
+  },
+  "weather.sunset": {
+    "danish": "solnedgang",
+    "german": "Sonnenuntergang",
+    "gender": "der",
+    "danishDefinite": "solnedgangen",
+    "danishIndefinite": "en solnedgang"
+  },
+  "weather.fog": {
+    "danish": "tåge",
+    "german": "Nebel",
+    "gender": "der",
+    "danishDefinite": "tågen",
+    "danishIndefinite": "en tåge"
+  },
+  "weather.storm": {
+    "danish": "storm",
+    "german": "Sturm",
+    "gender": "der",
+    "danishDefinite": "stormen",
+    "danishIndefinite": "en storm"
+  },
+  "weather.thunder": {
+    "danish": "torden",
+    "german": "Donner",
+    "gender": "der",
+    "danishDefinite": "tordenen",
+    "danishIndefinite": "en torden"
+  },
+  "weather.lightning": {
+    "danish": "lyn",
+    "german": "Blitz",
+    "gender": "der",
+    "danishDefinite": "lynet",
+    "danishIndefinite": "et lyn"
+  },
+  "weather.winter": {
+    "danish": "vinter",
+    "german": "Winter",
+    "gender": "der",
+    "danishDefinite": "vinteren",
+    "danishIndefinite": "en vinter"
+  },
+  "weather.spring": {
+    "danish": "forår",
+    "german": "Frühling",
+    "gender": "der",
+    "danishDefinite": "foråret",
+    "danishIndefinite": "et forår"
+  },
+  "weather.summer": {
+    "danish": "sommer",
+    "german": "Sommer",
+    "gender": "der",
+    "danishDefinite": "sommeren",
+    "danishIndefinite": "en sommer"
+  },
+  "weather.autumn": {
+    "danish": "efterår",
+    "german": "Herbst",
+    "gender": "der",
+    "danishDefinite": "efteråret",
+    "danishIndefinite": "et efterår"
+  }
+}

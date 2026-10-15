@@ -1,0 +1,58 @@
+{
+  "learning.lesson": {
+    "danish": "lektion",
+    "german": "Lektion",
+    "gender": "die",
+    "danishDefinite": "lektionen",
+    "danishIndefinite": "en lektion"
+  },
+  "learning.exercise": {
+    "danish": "øvelse",
+    "german": "Übung",
+    "gender": "die",
+    "danishDefinite": "øvelsen",
+    "danishIndefinite": "en øvelse"
+  },
+  "learning.homework": {
+    "danish": "lektie",
+    "german": "Hausaufgabe",
+    "gender": "die",
+    "danishDefinite": "lektien",
+    "danishIndefinite": "en lektie"
+  },
+  "learning.textbook": {
+    "danish": "lærebog",
+    "german": "Lehrbuch",
+    "gender": "das",
+    "danishDefinite": "lærebogen",
+    "danishIndefinite": "en lærebog"
+  },
+  "learning.dictionary": {
+    "danish": "ordbog",
+    "german": "Wörterbuch",
+    "gender": "das",
+    "danishDefinite": "ordbogen",
+    "danishIndefinite": "en ordbog"
+  },
+  "learning.language": {
+    "danish": "sprog",
+    "german": "Sprache",
+    "gender": "die",
+    "danishDefinite": "sproget",
+    "danishIndefinite": "et sprog"
+  },
+  "learning.word": {
+    "danish": "ord",
+    "german": "Wort",
+    "gender": "das",
+    "danishDefinite": "ordet",
+    "danishIndefinite": "et ord"
+  },
+  "learning.sentence": {
+    "danish": "sætning",
+    "german": "Satz",
+    "gender": "der",
+    "danishDefinite": "sætningen",
+    "danishIndefinite": "en sætning"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "kitchen.pan": {
+    "danish": "gryde",
+    "german": "Topf",
+    "gender": "der",
+    "danishDefinite": "gryden",
+    "danishIndefinite": "en gryde"
+  },
+  "kitchen.pot": {
+    "danish": "kedel",
+    "german": "Kessel",
+    "gender": "der",
+    "danishDefinite": "kedlen",
+    "danishIndefinite": "en kedel"
+  },
+  "kitchen.cup": {
+    "danish": "kop",
+    "german": "Tasse",
+    "gender": "die",
+    "danishDefinite": "koppen",
+    "danishIndefinite": "en kop"
+  },
+  "kitchen.plate": {
+    "danish": "tallerken",
+    "german": "Teller",
+    "gender": "der",
+    "danishDefinite": "tallerkenen",
+    "danishIndefinite": "en tallerken"
+  },
+  "kitchen.spoon": {
+    "danish": "ske",
+    "german": "Löffel",
+    "gender": "der",
+    "danishDefinite": "skeen",
+    "danishIndefinite": "en ske"
+  },
+  "kitchen.fork": {
+    "danish": "gaffel",
+    "german": "Gabel",
+    "gender": "die",
+    "danishDefinite": "gaffelen",
+    "danishIndefinite": "en gaffel"
+  },
+  "kitchen.knife": {
+    "danish": "kniv",
+    "german": "Messer",
+    "gender": "das",
+    "danishDefinite": "kniven",
+    "danishIndefinite": "en kniv"
+  },
+  "kitchen.fridge": {
+    "danish": "fryser",
+    "german": "Kühlschrank",
+    "gender": "der",
+    "danishDefinite": "fryseren",
+    "danishIndefinite": "en fryser"
+  },
+  "kitchen.tablecloth": {
+    "danish": "dug",
+    "german": "Tischtuch",
+    "gender": "das",
+    "danishDefinite": "duget",
+    "danishIndefinite": "et dug"
+  },
+  "kitchen.mirror": {
+    "danish": "spejl",
+    "german": "Spiegel",
+    "gender": "der",
+    "danishDefinite": "spejlet",
+    "danishIndefinite": "et spejl"
+  },
+  "kitchen.blanket": {
+    "danish": "tæppe",
+    "german": "Decke",
+    "gender": "die",
+    "danishDefinite": "tæppet",
+    "danishIndefinite": "et tæppe"
+  },
+  "kitchen.cushion": {
+    "danish": "kudde",
+    "german": "Kissen",
+    "gender": "das",
+    "danishDefinite": "kudden",
+    "danishIndefinite": "en pude"
+  },
+  "kitchen.bowl": {
+    "danish": "skål",
+    "german": "Schüssel",
+    "gender": "die",
+    "danishDefinite": "skålen",
+    "danishIndefinite": "en skål"
+  }
+}

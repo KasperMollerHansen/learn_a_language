@@ -1,0 +1,44 @@
+{
+  "travel.passport": {
+    "danish": "pas",
+    "german": "Pass",
+    "gender": "das",
+    "danishDefinite": "passet",
+    "danishIndefinite": "et pas"
+  },
+  "travel.hotel": {
+    "danish": "hotel",
+    "german": "Hotel",
+    "gender": "das",
+    "danishDefinite": "hotellet",
+    "danishIndefinite": "et hotel"
+  },
+  "travel.luggage": {
+    "danish": "bagage",
+    "german": "Gepäck",
+    "gender": "das",
+    "danishDefinite": "bagagen",
+    "danishIndefinite": "en bagage"
+  },
+  "travel.platform": {
+    "danish": "perron",
+    "german": "Bahnsteig",
+    "gender": "der",
+    "danishDefinite": "perronen",
+    "danishIndefinite": "en perron"
+  },
+  "travel.stop": {
+    "danish": "stop",
+    "german": "Haltestelle",
+    "gender": "die",
+    "danishDefinite": "stoppen",
+    "danishIndefinite": "en stop"
+  },
+  "travel.destination": {
+    "danish": "destination",
+    "german": "Ziel",
+    "gender": "das",
+    "danishDefinite": "destinationen",
+    "danishIndefinite": "en destination"
+  }
+}

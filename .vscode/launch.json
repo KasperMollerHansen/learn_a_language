@@ -8,7 +8,7 @@
             "type": "editor-browser",
             "request": "launch",
             "name": "Open index.html",
-            "url": "file:///c%3A/repositories/learn_a_language/index.html"
+            "url": "file:///c%3A/repositories/learn_a_language/src/index.html"
         }
     ]
 }
