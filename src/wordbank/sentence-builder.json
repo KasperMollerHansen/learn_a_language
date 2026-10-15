@@ -3,6 +3,8 @@
     "danish": "Manden",
     "german": "Der Mann",
     "english": "The man",
+    "spanish": "El hombre",
+    "french": "L'homme",
     "sentenceId": "mand",
     "step": 1,
     "steps": 3,
@@ -21,12 +23,24 @@
       "The man",
       "The men"
     ],
+    "spanishOptions": [
+      "Un hombre",
+      "El hombre",
+      "Los hombres"
+    ],
+    "frenchOptions": [
+      "Un homme",
+      "L'homme",
+      "Les hommes"
+    ],
     "tier": 1
   },
   "sentence-builder.mand.verb": {
     "danish": "er",
     "german": "ist",
     "english": "is",
+    "spanish": "es",
+    "french": "est",
     "sentenceId": "mand",
     "step": 2,
     "steps": 3,
@@ -45,12 +59,24 @@
       "is",
       "am"
     ],
+    "spanishOptions": [
+      "son",
+      "es",
+      "soy"
+    ],
+    "frenchOptions": [
+      "sont",
+      "est",
+      "suis"
+    ],
     "tier": 1
   },
   "sentence-builder.mand.adjective": {
     "danish": "stor.",
     "german": "groß.",
     "english": "big.",
+    "spanish": "grande.",
+    "french": "grand.",
     "sentenceId": "mand",
     "step": 3,
     "steps": 3,
@@ -69,12 +95,24 @@
       "big.",
       "small."
     ],
+    "spanishOptions": [
+      "grandes.",
+      "grande.",
+      "pequeño."
+    ],
+    "frenchOptions": [
+      "grande.",
+      "grand.",
+      "petit."
+    ],
     "tier": 1
   },
   "sentence-builder.kvinde.subject": {
     "danish": "Kvinden",
     "german": "Die Frau",
     "english": "The woman",
+    "spanish": "La mujer",
+    "french": "La femme",
     "sentenceId": "kvinde",
     "step": 1,
     "steps": 3,
@@ -93,12 +131,24 @@
       "The woman",
       "The women"
     ],
+    "spanishOptions": [
+      "Las mujeres",
+      "La mujer",
+      "Una mujer"
+    ],
+    "frenchOptions": [
+      "Les femmes",
+      "La femme",
+      "Une femme"
+    ],
     "tier": 1
   },
   "sentence-builder.kvinde.verb": {
     "danish": "er",
     "german": "ist",
     "english": "is",
+    "spanish": "es",
+    "french": "est",
     "sentenceId": "kvinde",
     "step": 2,
     "steps": 3,
@@ -117,12 +167,24 @@
       "is",
       "be"
     ],
+    "spanishOptions": [
+      "son",
+      "es",
+      "eres"
+    ],
+    "frenchOptions": [
+      "sont",
+      "est",
+      "es"
+    ],
     "tier": 1
   },
   "sentence-builder.kvinde.adjective": {
     "danish": "glad.",
     "german": "glücklich.",
     "english": "happy.",
+    "spanish": "feliz.",
+    "french": "heureuse.",
     "sentenceId": "kvinde",
     "step": 3,
     "steps": 3,
@@ -141,12 +203,24 @@
       "happy.",
       "sad."
     ],
+    "spanishOptions": [
+      "felices.",
+      "feliz.",
+      "triste."
+    ],
+    "frenchOptions": [
+      "heureux.",
+      "heureuse.",
+      "triste."
+    ],
     "tier": 1
   },
   "sentence-builder.barn.subject": {
     "danish": "Barnet",
     "german": "Das Kind",
     "english": "The child",
+    "spanish": "El niño",
+    "french": "L'enfant",
     "sentenceId": "barn",
     "step": 1,
     "steps": 3,
@@ -165,12 +239,24 @@
       "The child",
       "The children"
     ],
+    "spanishOptions": [
+      "Los niños",
+      "El niño",
+      "Un niño"
+    ],
+    "frenchOptions": [
+      "Les enfants",
+      "L'enfant",
+      "Un enfant"
+    ],
     "tier": 1
   },
   "sentence-builder.barn.verb": {
     "danish": "er",
     "german": "ist",
     "english": "is",
+    "spanish": "es",
+    "french": "est",
     "sentenceId": "barn",
     "step": 2,
     "steps": 3,
@@ -189,12 +275,24 @@
       "is",
       "has"
     ],
+    "spanishOptions": [
+      "son",
+      "es",
+      "eres"
+    ],
+    "frenchOptions": [
+      "sont",
+      "est",
+      "es"
+    ],
     "tier": 1
   },
   "sentence-builder.barn.adjective": {
     "danish": "lille.",
     "german": "klein.",
     "english": "small.",
+    "spanish": "pequeño.",
+    "french": "petit.",
     "sentenceId": "barn",
     "step": 3,
     "steps": 3,
@@ -213,12 +311,24 @@
       "small.",
       "big."
     ],
+    "spanishOptions": [
+      "pequeña.",
+      "pequeño.",
+      "pequeños."
+    ],
+    "frenchOptions": [
+      "petits.",
+      "petit.",
+      "grand."
+    ],
     "tier": 1
   },
   "sentence-builder.hund.subject": {
     "danish": "Jeg",
     "german": "Ich",
     "english": "I",
+    "spanish": "Yo",
+    "french": "Je",
     "sentenceId": "hund",
     "step": 1,
     "steps": 3,
@@ -237,12 +347,24 @@
       "I",
       "You"
     ],
+    "spanishOptions": [
+      "Tú",
+      "Yo",
+      "Él"
+    ],
+    "frenchOptions": [
+      "Tu",
+      "Je",
+      "Il"
+    ],
     "tier": 2
   },
   "sentence-builder.hund.verb": {
     "danish": "ser",
     "german": "sehe",
     "english": "see",
+    "spanish": "veo",
+    "french": "vois",
     "sentenceId": "hund",
     "step": 2,
     "steps": 3,
@@ -261,12 +383,24 @@
       "see",
       "saw"
     ],
+    "spanishOptions": [
+      "ves",
+      "veo",
+      "vio"
+    ],
+    "frenchOptions": [
+      "voit",
+      "vois",
+      "voir"
+    ],
     "tier": 2
   },
   "sentence-builder.hund.object": {
     "danish": "hunden.",
     "german": "den Hund.",
     "english": "the dog.",
+    "spanish": "al perro.",
+    "french": "le chien.",
     "sentenceId": "hund",
     "step": 3,
     "steps": 3,
@@ -285,12 +419,24 @@
       "the dog.",
       "the dogs."
     ],
+    "spanishOptions": [
+      "el perro.",
+      "al perro.",
+      "los perros."
+    ],
+    "frenchOptions": [
+      "un chien.",
+      "le chien.",
+      "les chiens."
+    ],
     "tier": 2
   },
   "sentence-builder.pige.subject": {
     "danish": "Pigen",
     "german": "Das Mädchen",
     "english": "The girl",
+    "spanish": "La niña",
+    "french": "La fille",
     "sentenceId": "pige",
     "step": 1,
     "steps": 3,
@@ -309,12 +455,24 @@
       "The girl",
       "The boy"
     ],
+    "spanishOptions": [
+      "Las niñas",
+      "La niña",
+      "Una niña"
+    ],
+    "frenchOptions": [
+      "Les filles",
+      "La fille",
+      "Une fille"
+    ],
     "tier": 2
   },
   "sentence-builder.pige.verb": {
     "danish": "drikker",
     "german": "trinkt",
     "english": "drinks",
+    "spanish": "bebe",
+    "french": "boit",
     "sentenceId": "pige",
     "step": 2,
     "steps": 3,
@@ -333,12 +491,24 @@
       "drinks",
       "drank"
     ],
+    "spanishOptions": [
+      "beben",
+      "bebe",
+      "bebes"
+    ],
+    "frenchOptions": [
+      "boivent",
+      "boit",
+      "bois"
+    ],
     "tier": 2
   },
   "sentence-builder.pige.object": {
     "danish": "vand.",
     "german": "Wasser.",
     "english": "water.",
+    "spanish": "agua.",
+    "french": "de l'eau.",
     "sentenceId": "pige",
     "step": 3,
     "steps": 3,
@@ -357,12 +527,24 @@
       "water.",
       "juice."
     ],
+    "spanishOptions": [
+      "aguas.",
+      "agua.",
+      "vino."
+    ],
+    "frenchOptions": [
+      "du eau.",
+      "de l'eau.",
+      "du vin."
+    ],
     "tier": 2
   },
   "sentence-builder.bror.subject": {
     "danish": "Min bror",
     "german": "Mein Bruder",
     "english": "My brother",
+    "spanish": "Mi hermano",
+    "french": "Mon frère",
     "sentenceId": "bror",
     "step": 1,
     "steps": 3,
@@ -381,12 +563,24 @@
       "My brother",
       "My sister"
     ],
+    "spanishOptions": [
+      "Mis hermanos",
+      "Mi hermano",
+      "Su hermano"
+    ],
+    "frenchOptions": [
+      "Mes frères",
+      "Mon frère",
+      "Ma frère"
+    ],
     "tier": 2
   },
   "sentence-builder.bror.verb": {
     "danish": "læser",
     "german": "liest",
     "english": "reads",
+    "spanish": "lee",
+    "french": "lit",
     "sentenceId": "bror",
     "step": 2,
     "steps": 3,
@@ -405,12 +599,24 @@
       "reads",
       "reading"
     ],
+    "spanishOptions": [
+      "leen",
+      "lee",
+      "lees"
+    ],
+    "frenchOptions": [
+      "lisent",
+      "lit",
+      "lis"
+    ],
     "tier": 2
   },
   "sentence-builder.bror.object": {
     "danish": "en bog.",
     "german": "ein Buch.",
     "english": "a book.",
+    "spanish": "un libro.",
+    "french": "un livre.",
     "sentenceId": "bror",
     "step": 3,
     "steps": 3,
@@ -429,12 +635,24 @@
       "a book.",
       "the book."
     ],
+    "spanishOptions": [
+      "una libro.",
+      "un libro.",
+      "unos libros."
+    ],
+    "frenchOptions": [
+      "une livre.",
+      "un livre.",
+      "des livres."
+    ],
     "tier": 2
   },
   "sentence-builder.vi.subject": {
     "danish": "Vi",
     "german": "Wir",
     "english": "We",
+    "spanish": "Nosotros",
+    "french": "Nous",
     "sentenceId": "vi",
     "step": 1,
     "steps": 3,
@@ -453,12 +671,24 @@
       "We",
       "They"
     ],
+    "spanishOptions": [
+      "Vosotros",
+      "Nosotros",
+      "Ellos"
+    ],
+    "frenchOptions": [
+      "Vous",
+      "Nous",
+      "Ils"
+    ],
     "tier": 2
   },
   "sentence-builder.vi.verb": {
     "danish": "køber",
     "german": "kaufen",
     "english": "buy",
+    "spanish": "compramos",
+    "french": "achetons",
     "sentenceId": "vi",
     "step": 2,
     "steps": 3,
@@ -477,12 +707,24 @@
       "buy",
       "bought"
     ],
+    "spanishOptions": [
+      "compráis",
+      "compramos",
+      "compran"
+    ],
+    "frenchOptions": [
+      "achetez",
+      "achetons",
+      "achètent"
+    ],
     "tier": 2
   },
   "sentence-builder.vi.object": {
     "danish": "æbler.",
     "german": "Äpfel.",
     "english": "apples.",
+    "spanish": "manzanas.",
+    "french": "des pommes.",
     "sentenceId": "vi",
     "step": 3,
     "steps": 3,
@@ -501,12 +743,24 @@
       "apples.",
       "pears."
     ],
+    "spanishOptions": [
+      "manzana.",
+      "manzanas.",
+      "naranjas."
+    ],
+    "frenchOptions": [
+      "des pomme.",
+      "des pommes.",
+      "des poires."
+    ],
     "tier": 2
   },
   "sentence-builder.hun.subject": {
     "danish": "Hun",
     "german": "Sie",
     "english": "She",
+    "spanish": "Ella",
+    "french": "Elle",
     "sentenceId": "hun",
     "step": 1,
     "steps": 3,
@@ -525,12 +779,24 @@
       "She",
       "He"
     ],
+    "spanishOptions": [
+      "Ellas",
+      "Ella",
+      "Él"
+    ],
+    "frenchOptions": [
+      "Elles",
+      "Elle",
+      "Il"
+    ],
     "tier": 3
   },
   "sentence-builder.hun.verb": {
     "danish": "taler",
     "german": "spricht",
     "english": "speaks",
+    "spanish": "habla",
+    "french": "parle",
     "sentenceId": "hun",
     "step": 2,
     "steps": 3,
@@ -549,12 +815,24 @@
       "speaks",
       "spoke"
     ],
+    "spanishOptions": [
+      "hablan",
+      "habla",
+      "hablas"
+    ],
+    "frenchOptions": [
+      "parlent",
+      "parle",
+      "parles"
+    ],
     "tier": 3
   },
   "sentence-builder.hun.adverb": {
     "danish": "langsomt.",
     "german": "langsam.",
     "english": "slowly.",
+    "spanish": "despacio.",
+    "french": "lentement.",
     "sentenceId": "hun",
     "step": 3,
     "steps": 3,
@@ -573,12 +851,24 @@
       "slowly.",
       "quickly."
     ],
+    "spanishOptions": [
+      "lenta.",
+      "despacio.",
+      "rápido."
+    ],
+    "frenchOptions": [
+      "lent.",
+      "lentement.",
+      "rapidement."
+    ],
     "tier": 3
   },
   "sentence-builder.laerer.subject": {
     "danish": "Læreren",
     "german": "Der Lehrer",
     "english": "The teacher",
+    "spanish": "El profesor",
+    "french": "Le professeur",
     "sentenceId": "laerer",
     "step": 1,
     "steps": 3,
@@ -597,12 +887,24 @@
       "The teacher",
       "The teachers"
     ],
+    "spanishOptions": [
+      "Los profesores",
+      "El profesor",
+      "Un profesor"
+    ],
+    "frenchOptions": [
+      "Les professeurs",
+      "Le professeur",
+      "Un professeur"
+    ],
     "tier": 3
   },
   "sentence-builder.laerer.verb": {
     "danish": "åbner",
     "german": "öffnet",
     "english": "opens",
+    "spanish": "abre",
+    "french": "ouvre",
     "sentenceId": "laerer",
     "step": 2,
     "steps": 3,
@@ -621,12 +923,24 @@
       "opens",
       "closes"
     ],
+    "spanishOptions": [
+      "abren",
+      "abre",
+      "abres"
+    ],
+    "frenchOptions": [
+      "ouvrent",
+      "ouvre",
+      "ouvres"
+    ],
     "tier": 3
   },
   "sentence-builder.laerer.object": {
     "danish": "døren.",
     "german": "die Tür.",
     "english": "the door.",
+    "spanish": "la puerta.",
+    "french": "la porte.",
     "sentenceId": "laerer",
     "step": 3,
     "steps": 3,
@@ -645,12 +959,24 @@
       "the door.",
       "the window."
     ],
+    "spanishOptions": [
+      "el puerta.",
+      "la puerta.",
+      "las puertas."
+    ],
+    "frenchOptions": [
+      "le porte.",
+      "la porte.",
+      "les portes."
+    ],
     "tier": 3
   },
   "sentence-builder.soster.subject": {
     "danish": "Min søster",
     "german": "Meine Schwester",
     "english": "My sister",
+    "spanish": "Mi hermana",
+    "french": "Ma sœur",
     "sentenceId": "soster",
     "step": 1,
     "steps": 3,
@@ -669,12 +995,24 @@
       "My sister",
       "My brother"
     ],
+    "spanishOptions": [
+      "Mis hermanas",
+      "Mi hermana",
+      "Mi hermano"
+    ],
+    "frenchOptions": [
+      "Mes sœurs",
+      "Ma sœur",
+      "Mon frère"
+    ],
     "tier": 3
   },
   "sentence-builder.soster.verb": {
     "danish": "arbejder",
     "german": "arbeitet",
     "english": "works",
+    "spanish": "trabaja",
+    "french": "travaille",
     "sentenceId": "soster",
     "step": 2,
     "steps": 3,
@@ -693,12 +1031,24 @@
       "works",
       "worked"
     ],
+    "spanishOptions": [
+      "trabajan",
+      "trabaja",
+      "trabajas"
+    ],
+    "frenchOptions": [
+      "travaillent",
+      "travaille",
+      "travailles"
+    ],
     "tier": 3
   },
   "sentence-builder.soster.place": {
     "danish": "i Berlin.",
     "german": "in Berlin.",
     "english": "in Berlin.",
+    "spanish": "en Berlín.",
+    "french": "à Berlin.",
     "sentenceId": "soster",
     "step": 3,
     "steps": 3,
@@ -717,12 +1067,24 @@
       "in Berlin.",
       "at Berlin."
     ],
+    "spanishOptions": [
+      "a Berlín.",
+      "en Berlín.",
+      "de Berlín."
+    ],
+    "frenchOptions": [
+      "en Berlin.",
+      "à Berlin.",
+      "de Berlin."
+    ],
     "tier": 3
   },
   "sentence-builder.bil.subject": {
     "danish": "Jeg",
     "german": "Ich",
     "english": "I",
+    "spanish": "Yo",
+    "french": "J'",
     "sentenceId": "bil",
     "step": 1,
     "steps": 3,
@@ -741,12 +1103,24 @@
       "I",
       "We"
     ],
+    "spanishOptions": [
+      "Tú",
+      "Yo",
+      "Él"
+    ],
+    "frenchOptions": [
+      "L'",
+      "J'",
+      "N'"
+    ],
     "tier": 1
   },
   "sentence-builder.bil.verb": {
     "danish": "har",
     "german": "habe",
     "english": "have",
+    "spanish": "tengo",
+    "french": "ai",
     "sentenceId": "bil",
     "step": 2,
     "steps": 3,
@@ -765,12 +1139,24 @@
       "have",
       "had"
     ],
+    "spanishOptions": [
+      "tienes",
+      "tengo",
+      "tiene"
+    ],
+    "frenchOptions": [
+      "as",
+      "ai",
+      "a"
+    ],
     "tier": 1
   },
   "sentence-builder.bil.object": {
     "danish": "en bil.",
     "german": "ein Auto.",
     "english": "a car.",
+    "spanish": "un coche.",
+    "french": "une voiture.",
     "sentenceId": "bil",
     "step": 3,
     "steps": 3,
@@ -789,12 +1175,24 @@
       "a car.",
       "the car."
     ],
+    "spanishOptions": [
+      "una coche.",
+      "un coche.",
+      "unos coches."
+    ],
+    "frenchOptions": [
+      "un voiture.",
+      "une voiture.",
+      "des voitures."
+    ],
     "tier": 1
   },
   "sentence-builder.ven.subject": {
     "danish": "Du",
     "german": "Du",
     "english": "You",
+    "spanish": "Tú",
+    "french": "Tu",
     "sentenceId": "ven",
     "step": 1,
     "steps": 3,
@@ -813,12 +1211,24 @@
       "You",
       "We"
     ],
+    "spanishOptions": [
+      "Yo",
+      "Tú",
+      "Él"
+    ],
+    "frenchOptions": [
+      "Je",
+      "Tu",
+      "Il"
+    ],
     "tier": 1
   },
   "sentence-builder.ven.verb": {
     "danish": "er",
     "german": "bist",
     "english": "are",
+    "spanish": "eres",
+    "french": "es",
     "sentenceId": "ven",
     "step": 2,
     "steps": 3,
@@ -837,12 +1247,24 @@
       "are",
       "am"
     ],
+    "spanishOptions": [
+      "soy",
+      "eres",
+      "es"
+    ],
+    "frenchOptions": [
+      "suis",
+      "es",
+      "est"
+    ],
     "tier": 1
   },
   "sentence-builder.ven.noun": {
     "danish": "min ven.",
     "german": "mein Freund.",
     "english": "my friend.",
+    "spanish": "mi amigo.",
+    "french": "mon ami.",
     "sentenceId": "ven",
     "step": 3,
     "steps": 3,
@@ -861,12 +1283,24 @@
       "my friend.",
       "my friends."
     ],
+    "spanishOptions": [
+      "mis amigos.",
+      "mi amigo.",
+      "tu amigo."
+    ],
+    "frenchOptions": [
+      "mes amis.",
+      "mon ami.",
+      "ma ami."
+    ],
     "tier": 1
   },
   "sentence-builder.kat.subject": {
     "danish": "Katten",
     "german": "Die Katze",
     "english": "The cat",
+    "spanish": "El gato",
+    "french": "Le chat",
     "sentenceId": "kat",
     "step": 1,
     "steps": 3,
@@ -885,12 +1319,24 @@
       "The cat",
       "The cats"
     ],
+    "spanishOptions": [
+      "Los gatos",
+      "El gato",
+      "Un gato"
+    ],
+    "frenchOptions": [
+      "Les chats",
+      "Le chat",
+      "Un chat"
+    ],
     "tier": 1
   },
   "sentence-builder.kat.verb": {
     "danish": "har",
     "german": "hat",
     "english": "is",
+    "spanish": "tiene",
+    "french": "a",
     "sentenceId": "kat",
     "step": 2,
     "steps": 3,
@@ -909,12 +1355,24 @@
       "is",
       "are"
     ],
+    "spanishOptions": [
+      "tienen",
+      "tiene",
+      "está"
+    ],
+    "frenchOptions": [
+      "ont",
+      "a",
+      "est"
+    ],
     "tier": 1
   },
   "sentence-builder.kat.object": {
     "danish": "sult.",
     "german": "Hunger.",
     "english": "hungry.",
+    "spanish": "hambre.",
+    "french": "faim.",
     "sentenceId": "kat",
     "step": 3,
     "steps": 3,
@@ -933,12 +1391,24 @@
       "hungry.",
       "thirsty."
     ],
+    "spanishOptions": [
+      "hambres.",
+      "hambre.",
+      "sed."
+    ],
+    "frenchOptions": [
+      "faims.",
+      "faim.",
+      "soif."
+    ],
     "tier": 1
   },
   "sentence-builder.traette.subject": {
     "danish": "Vi",
     "german": "Wir",
     "english": "We",
+    "spanish": "Nosotros",
+    "french": "Nous",
     "sentenceId": "traette",
     "step": 1,
     "steps": 3,
@@ -957,12 +1427,24 @@
       "We",
       "They"
     ],
+    "spanishOptions": [
+      "Vosotros",
+      "Nosotros",
+      "Ellos"
+    ],
+    "frenchOptions": [
+      "Vous",
+      "Nous",
+      "Ils"
+    ],
     "tier": 1
   },
   "sentence-builder.traette.verb": {
     "danish": "er",
     "german": "sind",
     "english": "are",
+    "spanish": "estamos",
+    "french": "sommes",
     "sentenceId": "traette",
     "step": 2,
     "steps": 3,
@@ -981,12 +1463,24 @@
       "are",
       "were"
     ],
+    "spanishOptions": [
+      "somos",
+      "estamos",
+      "estáis"
+    ],
+    "frenchOptions": [
+      "êtes",
+      "sommes",
+      "suis"
+    ],
     "tier": 1
   },
   "sentence-builder.traette.adjective": {
     "danish": "trætte.",
     "german": "müde.",
     "english": "tired.",
+    "spanish": "cansados.",
+    "french": "fatigués.",
     "sentenceId": "traette",
     "step": 3,
     "steps": 3,
@@ -1005,12 +1499,24 @@
       "tired.",
       "awake."
     ],
+    "spanishOptions": [
+      "cansado.",
+      "cansados.",
+      "descansados."
+    ],
+    "frenchOptions": [
+      "fatigué.",
+      "fatigués.",
+      "reposés."
+    ],
     "tier": 1
   },
   "sentence-builder.boern.subject": {
     "danish": "Børnene",
     "german": "Die Kinder",
     "english": "The children",
+    "spanish": "Los niños",
+    "french": "Les enfants",
     "sentenceId": "boern",
     "step": 1,
     "steps": 3,
@@ -1029,12 +1535,24 @@
       "The children",
       "The child"
     ],
+    "spanishOptions": [
+      "El niño",
+      "Los niños",
+      "Unos niños"
+    ],
+    "frenchOptions": [
+      "L'enfant",
+      "Les enfants",
+      "Des enfants"
+    ],
     "tier": 1
   },
   "sentence-builder.boern.verb": {
     "danish": "har",
     "german": "haben",
     "english": "have",
+    "spanish": "tienen",
+    "french": "ont",
     "sentenceId": "boern",
     "step": 2,
     "steps": 3,
@@ -1053,12 +1571,24 @@
       "have",
       "are"
     ],
+    "spanishOptions": [
+      "tiene",
+      "tienen",
+      "tenemos"
+    ],
+    "frenchOptions": [
+      "a",
+      "ont",
+      "avons"
+    ],
     "tier": 1
   },
   "sentence-builder.boern.object": {
     "danish": "tid.",
     "german": "Zeit.",
     "english": "time.",
+    "spanish": "tiempo.",
+    "french": "du temps.",
     "sentenceId": "boern",
     "step": 3,
     "steps": 3,
@@ -1077,12 +1607,24 @@
       "time.",
       "money."
     ],
+    "spanishOptions": [
+      "tiempos.",
+      "tiempo.",
+      "dinero."
+    ],
+    "frenchOptions": [
+      "des temps.",
+      "du temps.",
+      "de l'argent."
+    ],
     "tier": 1
   },
   "sentence-builder.hjemme.subject": {
     "danish": "De",
     "german": "Sie",
     "english": "They",
+    "spanish": "Ellos",
+    "french": "Ils",
     "sentenceId": "hjemme",
     "step": 1,
     "steps": 3,
@@ -1101,12 +1643,24 @@
       "They",
       "We"
     ],
+    "spanishOptions": [
+      "Nosotros",
+      "Ellos",
+      "Ella"
+    ],
+    "frenchOptions": [
+      "Nous",
+      "Ils",
+      "Elle"
+    ],
     "tier": 1
   },
   "sentence-builder.hjemme.verb": {
     "danish": "er",
     "german": "sind",
     "english": "are",
+    "spanish": "están",
+    "french": "sont",
     "sentenceId": "hjemme",
     "step": 2,
     "steps": 3,
@@ -1125,12 +1679,24 @@
       "are",
       "were"
     ],
+    "spanishOptions": [
+      "son",
+      "están",
+      "estamos"
+    ],
+    "frenchOptions": [
+      "est",
+      "sont",
+      "êtes"
+    ],
     "tier": 1
   },
   "sentence-builder.hjemme.place": {
     "danish": "hjemme.",
     "german": "zu Hause.",
     "english": "at home.",
+    "spanish": "en casa.",
+    "french": "à la maison.",
     "sentenceId": "hjemme",
     "step": 3,
     "steps": 3,
@@ -1149,12 +1715,24 @@
       "at home.",
       "out."
     ],
+    "spanishOptions": [
+      "a casa.",
+      "en casa.",
+      "de casa."
+    ],
+    "frenchOptions": [
+      "à maison.",
+      "à la maison.",
+      "en maison."
+    ],
     "tier": 1
   },
   "sentence-builder.laege.subject": {
     "danish": "Han",
     "german": "Er",
     "english": "He",
+    "spanish": "Él",
+    "french": "Il",
     "sentenceId": "laege",
     "step": 1,
     "steps": 3,
@@ -1173,12 +1751,24 @@
       "He",
       "She"
     ],
+    "spanishOptions": [
+      "Ella",
+      "Él",
+      "Yo"
+    ],
+    "frenchOptions": [
+      "Elle",
+      "Il",
+      "Ils"
+    ],
     "tier": 1
   },
   "sentence-builder.laege.verb": {
     "danish": "er",
     "german": "ist",
     "english": "is",
+    "spanish": "es",
+    "french": "est",
     "sentenceId": "laege",
     "step": 2,
     "steps": 3,
@@ -1197,12 +1787,24 @@
       "is",
       "has"
     ],
+    "spanishOptions": [
+      "son",
+      "es",
+      "soy"
+    ],
+    "frenchOptions": [
+      "sont",
+      "est",
+      "es"
+    ],
     "tier": 1
   },
   "sentence-builder.laege.noun": {
     "danish": "læge.",
     "german": "Arzt.",
     "english": "a doctor.",
+    "spanish": "médico.",
+    "french": "médecin.",
     "sentenceId": "laege",
     "step": 3,
     "steps": 3,
@@ -1221,12 +1823,24 @@
       "a doctor.",
       "a teacher."
     ],
+    "spanishOptions": [
+      "médica.",
+      "médico.",
+      "médicos."
+    ],
+    "frenchOptions": [
+      "médecine.",
+      "médecin.",
+      "médecins."
+    ],
     "tier": 1
   },
   "sentence-builder.arbejdet.subject": {
     "danish": "Jeg",
     "german": "Ich",
     "english": "I",
+    "spanish": "Yo",
+    "french": "J'",
     "sentenceId": "arbejdet",
     "step": 1,
     "steps": 3,
@@ -1245,12 +1859,24 @@
       "I",
       "We"
     ],
+    "spanishOptions": [
+      "Tú",
+      "Yo",
+      "Nosotros"
+    ],
+    "frenchOptions": [
+      "L'",
+      "J'",
+      "M'"
+    ],
     "tier": 2
   },
   "sentence-builder.arbejdet.auxiliary": {
     "danish": "har",
     "german": "habe",
     "english": "have",
+    "spanish": "he",
+    "french": "ai",
     "sentenceId": "arbejdet",
     "step": 2,
     "steps": 3,
@@ -1269,12 +1895,24 @@
       "have",
       "has"
     ],
+    "spanishOptions": [
+      "has",
+      "he",
+      "hemos"
+    ],
+    "frenchOptions": [
+      "as",
+      "ai",
+      "a"
+    ],
     "tier": 2
   },
   "sentence-builder.arbejdet.participle": {
     "danish": "arbejdet.",
     "german": "gearbeitet.",
     "english": "worked.",
+    "spanish": "trabajado.",
+    "french": "travaillé.",
     "sentenceId": "arbejdet",
     "step": 3,
     "steps": 3,
@@ -1293,12 +1931,24 @@
       "worked.",
       "working."
     ],
+    "spanishOptions": [
+      "trabajar.",
+      "trabajado.",
+      "trabajo."
+    ],
+    "frenchOptions": [
+      "travailler.",
+      "travaillé.",
+      "travaille."
+    ],
     "tier": 2
   },
   "sentence-builder.sovet.subject": {
     "danish": "Hun",
     "german": "Sie",
     "english": "She",
+    "spanish": "Ella",
+    "french": "Elle",
     "sentenceId": "sovet",
     "step": 1,
     "steps": 3,
@@ -1317,12 +1967,24 @@
       "She",
       "He"
     ],
+    "spanishOptions": [
+      "Ellas",
+      "Ella",
+      "Él"
+    ],
+    "frenchOptions": [
+      "Elles",
+      "Elle",
+      "Il"
+    ],
     "tier": 2
   },
   "sentence-builder.sovet.auxiliary": {
     "danish": "har",
     "german": "hat",
     "english": "has",
+    "spanish": "ha",
+    "french": "a",
     "sentenceId": "sovet",
     "step": 2,
     "steps": 3,
@@ -1341,12 +2003,24 @@
       "has",
       "have"
     ],
+    "spanishOptions": [
+      "han",
+      "ha",
+      "has"
+    ],
+    "frenchOptions": [
+      "ont",
+      "a",
+      "as"
+    ],
     "tier": 2
   },
   "sentence-builder.sovet.participle": {
     "danish": "sovet.",
     "german": "geschlafen.",
     "english": "slept.",
+    "spanish": "dormido.",
+    "french": "dormi.",
     "sentenceId": "sovet",
     "step": 3,
     "steps": 3,
@@ -1365,12 +2039,24 @@
       "slept.",
       "sleeped."
     ],
+    "spanishOptions": [
+      "dormir.",
+      "dormido.",
+      "durmió."
+    ],
+    "frenchOptions": [
+      "dormir.",
+      "dormi.",
+      "dormie."
+    ],
     "tier": 2
   },
   "sentence-builder.mor.subject": {
     "danish": "Jeg",
     "german": "Ich",
     "english": "I",
+    "spanish": "Yo",
+    "french": "J'",
     "sentenceId": "mor",
     "step": 1,
     "steps": 3,
@@ -1389,12 +2075,24 @@
       "I",
       "You"
     ],
+    "spanishOptions": [
+      "Tú",
+      "Yo",
+      "Él"
+    ],
+    "frenchOptions": [
+      "L'",
+      "J'",
+      "M'"
+    ],
     "tier": 2
   },
   "sentence-builder.mor.verb": {
     "danish": "elsker",
     "german": "liebe",
     "english": "love",
+    "spanish": "quiero",
+    "french": "aime",
     "sentenceId": "mor",
     "step": 2,
     "steps": 3,
@@ -1413,12 +2111,24 @@
       "love",
       "loved"
     ],
+    "spanishOptions": [
+      "quieres",
+      "quiero",
+      "quiere"
+    ],
+    "frenchOptions": [
+      "aimes",
+      "aime",
+      "aimons"
+    ],
     "tier": 2
   },
   "sentence-builder.mor.object": {
     "danish": "min mor.",
     "german": "meine Mutter.",
     "english": "my mother.",
+    "spanish": "a mi madre.",
+    "french": "ma mère.",
     "sentenceId": "mor",
     "step": 3,
     "steps": 3,
@@ -1437,12 +2147,24 @@
       "my mother.",
       "my father."
     ],
+    "spanishOptions": [
+      "mi madre.",
+      "a mi madre.",
+      "a mis madres."
+    ],
+    "frenchOptions": [
+      "mon mère.",
+      "ma mère.",
+      "mes mères."
+    ],
     "tier": 2
   },
   "sentence-builder.gave.subject": {
     "danish": "Han",
     "german": "Er",
     "english": "He",
+    "spanish": "Él",
+    "french": "Il",
     "sentenceId": "gave",
     "step": 1,
     "steps": 3,
@@ -1461,12 +2183,24 @@
       "He",
       "She"
     ],
+    "spanishOptions": [
+      "Ella",
+      "Él",
+      "Yo"
+    ],
+    "frenchOptions": [
+      "Elle",
+      "Il",
+      "Ils"
+    ],
     "tier": 2
   },
   "sentence-builder.gave.verb": {
     "danish": "giver",
     "german": "gibt",
     "english": "gives",
+    "spanish": "le da",
+    "french": "donne",
     "sentenceId": "gave",
     "step": 2,
     "steps": 3,
@@ -1485,12 +2219,24 @@
       "gives",
       "gave"
     ],
+    "spanishOptions": [
+      "le dan",
+      "le da",
+      "le das"
+    ],
+    "frenchOptions": [
+      "donnent",
+      "donne",
+      "donnes"
+    ],
     "tier": 2
   },
   "sentence-builder.gave.object": {
     "danish": "pigen en bog.",
     "german": "dem Mädchen ein Buch.",
     "english": "the girl a book.",
+    "spanish": "un libro a la niña.",
+    "french": "un livre à la fille.",
     "sentenceId": "gave",
     "step": 3,
     "steps": 3,
@@ -1509,12 +2255,24 @@
       "the girl a book.",
       "a girl a book."
     ],
+    "spanishOptions": [
+      "un libro la niña.",
+      "un libro a la niña.",
+      "un libro a las niñas."
+    ],
+    "frenchOptions": [
+      "un livre la fille.",
+      "un livre à la fille.",
+      "une livre à la fille."
+    ],
     "tier": 2
   },
   "sentence-builder.hjaelper.subject": {
     "danish": "Jeg",
     "german": "Ich",
     "english": "I",
+    "spanish": "Yo",
+    "french": "J'",
     "sentenceId": "hjaelper",
     "step": 1,
     "steps": 3,
@@ -1533,12 +2291,24 @@
       "I",
       "We"
     ],
+    "spanishOptions": [
+      "Tú",
+      "Yo",
+      "Él"
+    ],
+    "frenchOptions": [
+      "L'",
+      "J'",
+      "M'"
+    ],
     "tier": 2
   },
   "sentence-builder.hjaelper.verb": {
     "danish": "hjælper",
     "german": "helfe",
     "english": "help",
+    "spanish": "ayudo",
+    "french": "aide",
     "sentenceId": "hjaelper",
     "step": 2,
     "steps": 3,
@@ -1557,12 +2327,24 @@
       "help",
       "helped"
     ],
+    "spanishOptions": [
+      "ayudas",
+      "ayudo",
+      "ayuda"
+    ],
+    "frenchOptions": [
+      "aides",
+      "aide",
+      "aident"
+    ],
     "tier": 2
   },
   "sentence-builder.hjaelper.object": {
     "danish": "min ven.",
     "german": "meinem Freund.",
     "english": "my friend.",
+    "spanish": "a mi amigo.",
+    "french": "mon ami.",
     "sentenceId": "hjaelper",
     "step": 3,
     "steps": 3,
@@ -1581,12 +2363,24 @@
       "my friend.",
       "my friends."
     ],
+    "spanishOptions": [
+      "mi amigo.",
+      "a mi amigo.",
+      "a mis amigos."
+    ],
+    "frenchOptions": [
+      "mes amis.",
+      "mon ami.",
+      "ma ami."
+    ],
     "tier": 2
   },
   "sentence-builder.rejst.subject": {
     "danish": "Vi",
     "german": "Wir",
     "english": "We",
+    "spanish": "Nosotros",
+    "french": "Nous",
     "sentenceId": "rejst",
     "step": 1,
     "steps": 3,
@@ -1605,12 +2399,24 @@
       "We",
       "They"
     ],
+    "spanishOptions": [
+      "Yo",
+      "Nosotros",
+      "Ellos"
+    ],
+    "frenchOptions": [
+      "Je",
+      "Nous",
+      "Ils"
+    ],
     "tier": 2
   },
   "sentence-builder.rejst.auxiliary": {
     "danish": "er",
     "german": "sind",
     "english": "have",
+    "spanish": "hemos",
+    "french": "avons",
     "sentenceId": "rejst",
     "step": 2,
     "steps": 3,
@@ -1629,12 +2435,24 @@
       "have",
       "had"
     ],
+    "spanishOptions": [
+      "he",
+      "hemos",
+      "han"
+    ],
+    "frenchOptions": [
+      "ai",
+      "avons",
+      "avez"
+    ],
     "tier": 2
   },
   "sentence-builder.rejst.participle": {
     "danish": "rejst.",
     "german": "gereist.",
     "english": "travelled.",
+    "spanish": "viajado.",
+    "french": "voyagé.",
     "sentenceId": "rejst",
     "step": 3,
     "steps": 3,
@@ -1653,12 +2471,24 @@
       "travelled.",
       "travelling."
     ],
+    "spanishOptions": [
+      "viajar.",
+      "viajado.",
+      "viaje."
+    ],
+    "frenchOptions": [
+      "voyager.",
+      "voyagé.",
+      "voyages."
+    ],
     "tier": 2
   },
   "sentence-builder.komme.subject": {
     "danish": "Jeg",
     "german": "Ich",
     "english": "I",
+    "spanish": "Yo",
+    "french": "Je",
     "sentenceId": "komme",
     "step": 1,
     "steps": 3,
@@ -1677,12 +2507,24 @@
       "I",
       "You"
     ],
+    "spanishOptions": [
+      "Tú",
+      "Yo",
+      "Él"
+    ],
+    "frenchOptions": [
+      "Tu",
+      "Je",
+      "Il"
+    ],
     "tier": 3
   },
   "sentence-builder.komme.modal": {
     "danish": "kan",
     "german": "kann",
     "english": "cannot",
+    "spanish": "no puedo",
+    "french": "ne peux pas",
     "sentenceId": "komme",
     "step": 2,
     "steps": 3,
@@ -1701,12 +2543,24 @@
       "cannot",
       "will not"
     ],
+    "spanishOptions": [
+      "no puedes",
+      "no puedo",
+      "no podemos"
+    ],
+    "frenchOptions": [
+      "ne peut pas",
+      "ne peux pas",
+      "ne pouvons pas"
+    ],
     "tier": 3
   },
   "sentence-builder.komme.infinitive": {
     "danish": "ikke komme.",
     "german": "nicht kommen.",
     "english": "come.",
+    "spanish": "venir.",
+    "french": "venir.",
     "sentenceId": "komme",
     "step": 3,
     "steps": 3,
@@ -1725,12 +2579,24 @@
       "come.",
       "came."
     ],
+    "spanishOptions": [
+      "vengo.",
+      "venir.",
+      "viene."
+    ],
+    "frenchOptions": [
+      "viens.",
+      "venir.",
+      "venu."
+    ],
     "tier": 3
   },
   "sentence-builder.ryge.subject": {
     "danish": "Du",
     "german": "Du",
     "english": "You",
+    "spanish": "Tú",
+    "french": "Tu",
     "sentenceId": "ryge",
     "step": 1,
     "steps": 3,
@@ -1749,12 +2615,24 @@
       "You",
       "He"
     ],
+    "spanishOptions": [
+      "Yo",
+      "Tú",
+      "Él"
+    ],
+    "frenchOptions": [
+      "Je",
+      "Tu",
+      "Il"
+    ],
     "tier": 3
   },
   "sentence-builder.ryge.modal": {
     "danish": "må",
     "german": "darfst",
     "english": "must not",
+    "spanish": "no puedes",
+    "french": "ne dois pas",
     "sentenceId": "ryge",
     "step": 2,
     "steps": 3,
@@ -1773,12 +2651,24 @@
       "must not",
       "need not"
     ],
+    "spanishOptions": [
+      "no puedo",
+      "no puedes",
+      "no puede"
+    ],
+    "frenchOptions": [
+      "ne doit pas",
+      "ne dois pas",
+      "ne devons pas"
+    ],
     "tier": 3
   },
   "sentence-builder.ryge.infinitive": {
     "danish": "ikke ryge.",
     "german": "nicht rauchen.",
     "english": "smoke.",
+    "spanish": "fumar.",
+    "french": "fumer.",
     "sentenceId": "ryge",
     "step": 3,
     "steps": 3,
@@ -1797,12 +2687,24 @@
       "smoke.",
       "smoked."
     ],
+    "spanishOptions": [
+      "fumas.",
+      "fumar.",
+      "fumado."
+    ],
+    "frenchOptions": [
+      "fumes.",
+      "fumer.",
+      "fumé."
+    ],
     "tier": 3
   },
   "sentence-builder.hvorbor.main": {
     "danish": "Jeg ved ikke",
     "german": "Ich weiß nicht,",
     "english": "I don't know",
+    "spanish": "No sé",
+    "french": "Je ne sais pas",
     "sentenceId": "hvorbor",
     "step": 1,
     "steps": 3,
@@ -1821,12 +2723,24 @@
       "I don't know",
       "I not know"
     ],
+    "spanishOptions": [
+      "No sabe",
+      "No sé",
+      "No sabes"
+    ],
+    "frenchOptions": [
+      "Je ne sait pas",
+      "Je ne sais pas",
+      "Tu ne sais pas"
+    ],
     "tier": 3
   },
   "sentence-builder.hvorbor.conjunction": {
     "danish": "hvor",
     "german": "wo",
     "english": "where",
+    "spanish": "dónde",
+    "french": "où",
     "sentenceId": "hvorbor",
     "step": 2,
     "steps": 3,
@@ -1845,12 +2759,24 @@
       "where",
       "what"
     ],
+    "spanishOptions": [
+      "adónde",
+      "dónde",
+      "cuándo"
+    ],
+    "frenchOptions": [
+      "ou",
+      "où",
+      "quand"
+    ],
     "tier": 3
   },
   "sentence-builder.hvorbor.clause": {
     "danish": "han bor.",
     "german": "er wohnt.",
     "english": "he lives.",
+    "spanish": "vive él.",
+    "french": "il habite.",
     "sentenceId": "hvorbor",
     "step": 3,
     "steps": 3,
@@ -1869,12 +2795,24 @@
       "he lives.",
       "he live."
     ],
+    "spanishOptions": [
+      "viven ellos.",
+      "vive él.",
+      "vivo yo."
+    ],
+    "frenchOptions": [
+      "il habitent.",
+      "il habite.",
+      "habite il."
+    ],
     "tier": 3
   },
   "sentence-builder.syg.main": {
     "danish": "Jeg bliver hjemme",
     "german": "Ich bleibe zu Hause,",
     "english": "I am staying at home",
+    "spanish": "Me quedo en casa",
+    "french": "Je reste à la maison",
     "sentenceId": "syg",
     "step": 1,
     "steps": 3,
@@ -1893,12 +2831,24 @@
       "I am staying at home",
       "I staying at home"
     ],
+    "spanishOptions": [
+      "Se queda en casa",
+      "Me quedo en casa",
+      "Te quedas en casa"
+    ],
+    "frenchOptions": [
+      "Je restes à la maison",
+      "Je reste à la maison",
+      "Je reste à maison"
+    ],
     "tier": 3
   },
   "sentence-builder.syg.conjunction": {
     "danish": "fordi",
     "german": "weil",
     "english": "because",
+    "spanish": "porque",
+    "french": "parce que",
     "sentenceId": "syg",
     "step": 2,
     "steps": 3,
@@ -1917,12 +2867,24 @@
       "because",
       "if"
     ],
+    "spanishOptions": [
+      "por qué",
+      "porque",
+      "cuando"
+    ],
+    "frenchOptions": [
+      "pourquoi",
+      "parce que",
+      "quoique"
+    ],
     "tier": 3
   },
   "sentence-builder.syg.clause": {
     "danish": "jeg er syg.",
     "german": "ich krank bin.",
     "english": "I am ill.",
+    "spanish": "estoy enfermo.",
+    "french": "je suis malade.",
     "sentenceId": "syg",
     "step": 3,
     "steps": 3,
@@ -1941,12 +2903,24 @@
       "I am ill.",
       "I was ill."
     ],
+    "spanishOptions": [
+      "soy enfermo.",
+      "estoy enfermo.",
+      "estaba enfermo."
+    ],
+    "frenchOptions": [
+      "je sommes malade.",
+      "je suis malade.",
+      "j'étais malade."
+    ],
     "tier": 3
   },
   "sentence-builder.onkel.subject": {
     "danish": "Han bor",
     "german": "Er wohnt",
     "english": "He lives",
+    "spanish": "Él vive",
+    "french": "Il habite",
     "sentenceId": "onkel",
     "step": 1,
     "steps": 3,
@@ -1965,12 +2939,24 @@
       "He lives",
       "Him lives"
     ],
+    "spanishOptions": [
+      "Él viven",
+      "Él vive",
+      "Ella vive"
+    ],
+    "frenchOptions": [
+      "Il habites",
+      "Il habite",
+      "Elle habite"
+    ],
     "tier": 3
   },
   "sentence-builder.onkel.preposition": {
     "danish": "hos",
     "german": "bei",
     "english": "with",
+    "spanish": "con",
+    "french": "chez",
     "sentenceId": "onkel",
     "step": 2,
     "steps": 3,
@@ -1989,12 +2975,24 @@
       "with",
       "from"
     ],
+    "spanishOptions": [
+      "en",
+      "con",
+      "a"
+    ],
+    "frenchOptions": [
+      "dans",
+      "chez",
+      "sur"
+    ],
     "tier": 3
   },
   "sentence-builder.onkel.object": {
     "danish": "sin onkel.",
     "german": "seinem Onkel.",
     "english": "his uncle.",
+    "spanish": "su tío.",
+    "french": "son oncle.",
     "sentenceId": "onkel",
     "step": 3,
     "steps": 3,
@@ -2013,12 +3011,24 @@
       "his uncle.",
       "his aunt."
     ],
+    "spanishOptions": [
+      "sus tíos.",
+      "su tío.",
+      "su tía."
+    ],
+    "frenchOptions": [
+      "sa oncle.",
+      "son oncle.",
+      "ses oncles."
+    ],
     "tier": 3
   },
   "sentence-builder.tog.subject": {
     "danish": "Vi kører",
     "german": "Wir fahren",
     "english": "We travel",
+    "spanish": "Viajamos",
+    "french": "Nous voyageons",
     "sentenceId": "tog",
     "step": 1,
     "steps": 3,
@@ -2037,12 +3047,24 @@
       "We travel",
       "We travelled"
     ],
+    "spanishOptions": [
+      "Viajan",
+      "Viajamos",
+      "Viajáis"
+    ],
+    "frenchOptions": [
+      "Nous voyagez",
+      "Nous voyageons",
+      "Vous voyagez"
+    ],
     "tier": 3
   },
   "sentence-builder.tog.preposition": {
     "danish": "med",
     "german": "mit",
     "english": "by",
+    "spanish": "en",
+    "french": "en",
     "sentenceId": "tog",
     "step": 2,
     "steps": 3,
@@ -2061,12 +3083,24 @@
       "by",
       "to"
     ],
+    "spanishOptions": [
+      "con",
+      "en",
+      "a"
+    ],
+    "frenchOptions": [
+      "dans",
+      "en",
+      "avec"
+    ],
     "tier": 3
   },
   "sentence-builder.tog.object": {
     "danish": "toget.",
     "german": "dem Zug.",
     "english": "train.",
+    "spanish": "tren.",
+    "french": "train.",
     "sentenceId": "tog",
     "step": 3,
     "steps": 3,
@@ -2085,12 +3119,24 @@
       "train.",
       "trains."
     ],
+    "spanishOptions": [
+      "trenes.",
+      "tren.",
+      "autobús."
+    ],
+    "frenchOptions": [
+      "trains.",
+      "train.",
+      "bus."
+    ],
     "tier": 3
   },
   "sentence-builder.tror.main": {
     "danish": "Jeg tror",
     "german": "Ich glaube,",
     "english": "I think",
+    "spanish": "Creo",
+    "french": "Je crois",
     "sentenceId": "tror",
     "step": 1,
     "steps": 3,
@@ -2109,12 +3155,24 @@
       "I think",
       "I thought"
     ],
+    "spanishOptions": [
+      "Crees",
+      "Creo",
+      "Cree"
+    ],
+    "frenchOptions": [
+      "Je croyons",
+      "Je crois",
+      "Tu crois"
+    ],
     "tier": 3
   },
   "sentence-builder.tror.conjunction": {
     "danish": "at",
     "german": "dass",
     "english": "that",
+    "spanish": "que",
+    "french": "qu'",
     "sentenceId": "tror",
     "step": 2,
     "steps": 3,
@@ -2133,12 +3191,24 @@
       "that",
       "whether"
     ],
+    "spanishOptions": [
+      "qué",
+      "que",
+      "si"
+    ],
+    "frenchOptions": [
+      "c'",
+      "qu'",
+      "d'"
+    ],
     "tier": 3
   },
   "sentence-builder.tror.clause": {
     "danish": "han kommer.",
     "german": "er kommt.",
     "english": "he is coming.",
+    "spanish": "él viene.",
+    "french": "il vient.",
     "sentenceId": "tror",
     "step": 3,
     "steps": 3,
@@ -2157,12 +3227,24 @@
       "he is coming.",
       "he coming."
     ],
+    "spanishOptions": [
+      "él venir.",
+      "él viene.",
+      "él vienen."
+    ],
+    "frenchOptions": [
+      "il venir.",
+      "il vient.",
+      "il viens."
+    ],
     "tier": 3
   },
   "sentence-builder.hvistid.condition": {
     "danish": "Hvis jeg havde tid,",
     "german": "Wenn ich Zeit hätte,",
     "english": "If I had time,",
+    "spanish": "Si tuviera tiempo,",
+    "french": "Si j'avais le temps,",
     "sentenceId": "hvistid",
     "step": 1,
     "steps": 3,
@@ -2181,12 +3263,24 @@
       "If I had time,",
       "If I would have time,"
     ],
+    "spanishOptions": [
+      "Si tendría tiempo,",
+      "Si tuviera tiempo,",
+      "Si tuvieras tiempo,"
+    ],
+    "frenchOptions": [
+      "Si j'aurais le temps,",
+      "Si j'avais le temps,",
+      "Si j'ai le temps,"
+    ],
     "tier": 4
   },
   "sentence-builder.hvistid.verb": {
     "danish": "ville jeg",
     "german": "würde ich",
     "english": "I would",
+    "spanish": "yo",
+    "french": "je",
     "sentenceId": "hvistid",
     "step": 2,
     "steps": 3,
@@ -2205,12 +3299,24 @@
       "I would",
       "would I"
     ],
+    "spanishOptions": [
+      "tú",
+      "yo",
+      "ellos"
+    ],
+    "frenchOptions": [
+      "tu",
+      "je",
+      "nous"
+    ],
     "tier": 4
   },
   "sentence-builder.hvistid.infinitive": {
     "danish": "komme.",
     "german": "kommen.",
     "english": "come.",
+    "spanish": "vendría.",
+    "french": "viendrais.",
     "sentenceId": "hvistid",
     "step": 3,
     "steps": 3,
@@ -2229,12 +3335,24 @@
       "come.",
       "coming."
     ],
+    "spanishOptions": [
+      "vendré.",
+      "vendría.",
+      "venía."
+    ],
+    "frenchOptions": [
+      "viendrai.",
+      "viendrais.",
+      "venais."
+    ],
     "tier": 4
   },
   "sentence-builder.oenske.main": {
     "danish": "Jeg ville ønske",
     "german": "Ich wünschte,",
     "english": "I wish",
+    "spanish": "Quisiera",
+    "french": "Je souhaite",
     "sentenceId": "oenske",
     "step": 1,
     "steps": 3,
@@ -2253,12 +3371,24 @@
       "I wish",
       "I wishing"
     ],
+    "spanishOptions": [
+      "Quiero",
+      "Quisiera",
+      "Quise"
+    ],
+    "frenchOptions": [
+      "Je souhaites",
+      "Je souhaite",
+      "Tu souhaites"
+    ],
     "tier": 4
   },
   "sentence-builder.oenske.clause": {
     "danish": "du var",
     "german": "du wärst",
     "english": "you were",
+    "spanish": "que estuvieras",
+    "french": "que tu sois",
     "sentenceId": "oenske",
     "step": 2,
     "steps": 3,
@@ -2277,12 +3407,24 @@
       "you were",
       "you be"
     ],
+    "spanishOptions": [
+      "que estás",
+      "que estuvieras",
+      "que estarás"
+    ],
+    "frenchOptions": [
+      "que tu es",
+      "que tu sois",
+      "que tu étais"
+    ],
     "tier": 4
   },
   "sentence-builder.oenske.place": {
     "danish": "her.",
     "german": "hier.",
     "english": "here.",
+    "spanish": "aquí.",
+    "french": "ici.",
     "sentenceId": "oenske",
     "step": 3,
     "steps": 3,
@@ -2301,12 +3443,24 @@
       "here.",
       "hear."
     ],
+    "spanishOptions": [
+      "allí.",
+      "aquí.",
+      "ayer."
+    ],
+    "frenchOptions": [
+      "là-bas.",
+      "ici.",
+      "dedans."
+    ],
     "tier": 4
   },
   "sentence-builder.solgt.subject": {
     "danish": "Huset",
     "german": "Das Haus",
     "english": "The house",
+    "spanish": "La casa",
+    "french": "La maison",
     "sentenceId": "solgt",
     "step": 1,
     "steps": 3,
@@ -2325,12 +3479,24 @@
       "The house",
       "The houses"
     ],
+    "spanishOptions": [
+      "Las casas",
+      "La casa",
+      "Una casa"
+    ],
+    "frenchOptions": [
+      "Les maisons",
+      "La maison",
+      "Une maison"
+    ],
     "tier": 4
   },
   "sentence-builder.solgt.auxiliary": {
     "danish": "er",
     "german": "ist",
     "english": "has been",
+    "spanish": "ha sido",
+    "french": "a été",
     "sentenceId": "solgt",
     "step": 2,
     "steps": 3,
@@ -2349,12 +3515,24 @@
       "has been",
       "is being"
     ],
+    "spanishOptions": [
+      "han sido",
+      "ha sido",
+      "ha estado"
+    ],
+    "frenchOptions": [
+      "ont été",
+      "a été",
+      "a eu"
+    ],
     "tier": 4
   },
   "sentence-builder.solgt.participle": {
     "danish": "solgt.",
     "german": "verkauft.",
     "english": "sold.",
+    "spanish": "vendida.",
+    "french": "vendue.",
     "sentenceId": "solgt",
     "step": 3,
     "steps": 3,
@@ -2373,12 +3551,24 @@
       "sold.",
       "selled."
     ],
+    "spanishOptions": [
+      "vendido.",
+      "vendida.",
+      "vendidas."
+    ],
+    "frenchOptions": [
+      "vendu.",
+      "vendue.",
+      "vendues."
+    ],
     "tier": 4
   },
   "sentence-builder.broen.subject": {
     "danish": "Broen",
     "german": "Die Brücke",
     "english": "The bridge",
+    "spanish": "El puente",
+    "french": "Le pont",
     "sentenceId": "broen",
     "step": 1,
     "steps": 3,
@@ -2397,12 +3587,24 @@
       "The bridge",
       "The bridges"
     ],
+    "spanishOptions": [
+      "Los puentes",
+      "El puente",
+      "Un puente"
+    ],
+    "frenchOptions": [
+      "Les ponts",
+      "Le pont",
+      "Un pont"
+    ],
     "tier": 4
   },
   "sentence-builder.broen.auxiliary": {
     "danish": "blev",
     "german": "wurde",
     "english": "was",
+    "spanish": "fue",
+    "french": "a été",
     "sentenceId": "broen",
     "step": 2,
     "steps": 3,
@@ -2421,12 +3623,24 @@
       "was",
       "were"
     ],
+    "spanishOptions": [
+      "fueron",
+      "fue",
+      "fui"
+    ],
+    "frenchOptions": [
+      "ont été",
+      "a été",
+      "a eu"
+    ],
     "tier": 4
   },
   "sentence-builder.broen.participle": {
     "danish": "bygget.",
     "german": "gebaut.",
     "english": "built.",
+    "spanish": "construido.",
+    "french": "construit.",
     "sentenceId": "broen",
     "step": 3,
     "steps": 3,
@@ -2445,12 +3659,24 @@
       "built.",
       "builded."
     ],
+    "spanishOptions": [
+      "construida.",
+      "construido.",
+      "construir."
+    ],
+    "frenchOptions": [
+      "construite.",
+      "construit.",
+      "construire."
+    ],
     "tier": 4
   },
   "sentence-builder.vinduet.subject": {
     "danish": "Vinduet",
     "german": "Das Fenster",
     "english": "The window",
+    "spanish": "La ventana",
+    "french": "La fenêtre",
     "sentenceId": "vinduet",
     "step": 1,
     "steps": 3,
@@ -2469,12 +3695,24 @@
       "The window",
       "The windows"
     ],
+    "spanishOptions": [
+      "Las ventanas",
+      "La ventana",
+      "Una ventana"
+    ],
+    "frenchOptions": [
+      "Les fenêtres",
+      "La fenêtre",
+      "Une fenêtre"
+    ],
     "tier": 4
   },
   "sentence-builder.vinduet.auxiliary": {
     "danish": "bliver",
     "german": "wird",
     "english": "is being",
+    "spanish": "está siendo",
+    "french": "est en train d'être",
     "sentenceId": "vinduet",
     "step": 2,
     "steps": 3,
@@ -2493,12 +3731,24 @@
       "is being",
       "are being"
     ],
+    "spanishOptions": [
+      "están siendo",
+      "está siendo",
+      "es siendo"
+    ],
+    "frenchOptions": [
+      "sont en train d'être",
+      "est en train d'être",
+      "a été"
+    ],
     "tier": 4
   },
   "sentence-builder.vinduet.participle": {
     "danish": "åbnet.",
     "german": "geöffnet.",
     "english": "opened.",
+    "spanish": "abierta.",
+    "french": "ouverte.",
     "sentenceId": "vinduet",
     "step": 3,
     "steps": 3,
@@ -2517,12 +3767,24 @@
       "opened.",
       "opening."
     ],
+    "spanishOptions": [
+      "abierto.",
+      "abierta.",
+      "abrir."
+    ],
+    "frenchOptions": [
+      "ouvert.",
+      "ouverte.",
+      "ouvrir."
+    ],
     "tier": 4
   },
   "sentence-builder.relmand.subject": {
     "danish": "Manden,",
     "german": "Der Mann,",
     "english": "The man",
+    "spanish": "El hombre",
+    "french": "L'homme",
     "sentenceId": "relmand",
     "step": 1,
     "steps": 3,
@@ -2541,12 +3803,24 @@
       "The man",
       "The men"
     ],
+    "spanishOptions": [
+      "Un hombre",
+      "El hombre",
+      "Los hombres"
+    ],
+    "frenchOptions": [
+      "Un homme",
+      "L'homme",
+      "Les hommes"
+    ],
     "tier": 4
   },
   "sentence-builder.relmand.relative": {
     "danish": "som bor her,",
     "german": "der hier wohnt,",
     "english": "who lives here",
+    "spanish": "que vive aquí",
+    "french": "qui habite ici",
     "sentenceId": "relmand",
     "step": 2,
     "steps": 3,
@@ -2565,12 +3839,24 @@
       "who lives here",
       "who live here"
     ],
+    "spanishOptions": [
+      "que viven aquí",
+      "que vive aquí",
+      "que vivo aquí"
+    ],
+    "frenchOptions": [
+      "que habite ici",
+      "qui habite ici",
+      "qui habitent ici"
+    ],
     "tier": 4
   },
   "sentence-builder.relmand.predicate": {
     "danish": "er min bror.",
     "german": "ist mein Bruder.",
     "english": "is my brother.",
+    "spanish": "es mi hermano.",
+    "french": "est mon frère.",
     "sentenceId": "relmand",
     "step": 3,
     "steps": 3,
@@ -2589,12 +3875,24 @@
       "is my brother.",
       "are my brother."
     ],
+    "spanishOptions": [
+      "son mi hermano.",
+      "es mi hermano.",
+      "es mi hermana."
+    ],
+    "frenchOptions": [
+      "sont mon frère.",
+      "est mon frère.",
+      "est ma frère."
+    ],
     "tier": 4
   },
   "sentence-builder.relkvinde.subject": {
     "danish": "Kvinden,",
     "german": "Die Frau,",
     "english": "The woman",
+    "spanish": "La mujer",
+    "french": "La femme",
     "sentenceId": "relkvinde",
     "step": 1,
     "steps": 3,
@@ -2613,12 +3911,24 @@
       "The woman",
       "The women"
     ],
+    "spanishOptions": [
+      "Las mujeres",
+      "La mujer",
+      "Una mujer"
+    ],
+    "frenchOptions": [
+      "Les femmes",
+      "La femme",
+      "Une femme"
+    ],
     "tier": 4
   },
   "sentence-builder.relkvinde.relative": {
     "danish": "som jeg ser,",
     "german": "die ich sehe,",
     "english": "that I see",
+    "spanish": "que veo",
+    "french": "que je vois",
     "sentenceId": "relkvinde",
     "step": 2,
     "steps": 3,
@@ -2637,12 +3947,24 @@
       "that I see",
       "who sees me"
     ],
+    "spanishOptions": [
+      "que ves",
+      "que veo",
+      "que ve"
+    ],
+    "frenchOptions": [
+      "qui je vois",
+      "que je vois",
+      "que tu vois"
+    ],
     "tier": 4
   },
   "sentence-builder.relkvinde.predicate": {
     "danish": "er min mor.",
     "german": "ist meine Mutter.",
     "english": "is my mother.",
+    "spanish": "es mi madre.",
+    "french": "est ma mère.",
     "sentenceId": "relkvinde",
     "step": 3,
     "steps": 3,
@@ -2661,12 +3983,24 @@
       "is my mother.",
       "are my mother."
     ],
+    "spanishOptions": [
+      "son mi madre.",
+      "es mi madre.",
+      "es mi padre."
+    ],
+    "frenchOptions": [
+      "est mon mère.",
+      "est ma mère.",
+      "sont ma mère."
+    ],
     "tier": 4
   },
   "sentence-builder.burde.subject": {
     "danish": "Du",
     "german": "Du",
     "english": "You",
+    "spanish": "Tú",
+    "french": "Tu",
     "sentenceId": "burde",
     "step": 1,
     "steps": 3,
@@ -2685,12 +4019,24 @@
       "You",
       "I"
     ],
+    "spanishOptions": [
+      "Yo",
+      "Tú",
+      "Él"
+    ],
+    "frenchOptions": [
+      "Je",
+      "Tu",
+      "Il"
+    ],
     "tier": 4
   },
   "sentence-builder.burde.modal": {
     "danish": "burde",
     "german": "solltest",
     "english": "should",
+    "spanish": "deberías",
+    "french": "devrais",
     "sentenceId": "burde",
     "step": 2,
     "steps": 3,
@@ -2709,12 +4055,24 @@
       "should",
       "can"
     ],
+    "spanishOptions": [
+      "deberíamos",
+      "deberías",
+      "debería"
+    ],
+    "frenchOptions": [
+      "devrait",
+      "devrais",
+      "devras"
+    ],
     "tier": 4
   },
   "sentence-builder.burde.verb": {
     "danish": "hvile dig.",
     "german": "dich ausruhen.",
     "english": "rest.",
+    "spanish": "descansar.",
+    "french": "te reposer.",
     "sentenceId": "burde",
     "step": 3,
     "steps": 3,
@@ -2733,12 +4091,24 @@
       "rest.",
       "rested."
     ],
+    "spanishOptions": [
+      "descansas.",
+      "descansar.",
+      "descansado."
+    ],
+    "frenchOptions": [
+      "se reposer.",
+      "te reposer.",
+      "reposer te."
+    ],
     "tier": 4
   },
   "sentence-builder.relbog.subject": {
     "danish": "Bogen,",
     "german": "Das Buch,",
     "english": "The book",
+    "spanish": "El libro",
+    "french": "Le livre",
     "sentenceId": "relbog",
     "step": 1,
     "steps": 3,
@@ -2757,12 +4127,24 @@
       "The book",
       "The books"
     ],
+    "spanishOptions": [
+      "Los libros",
+      "El libro",
+      "Un libro"
+    ],
+    "frenchOptions": [
+      "Les livres",
+      "Le livre",
+      "Un livre"
+    ],
     "tier": 4
   },
   "sentence-builder.relbog.relative": {
     "danish": "som jeg læser,",
     "german": "das ich lese,",
     "english": "that I am reading",
+    "spanish": "que estoy leyendo",
+    "french": "que je lis",
     "sentenceId": "relbog",
     "step": 2,
     "steps": 3,
@@ -2781,12 +4163,24 @@
       "that I am reading",
       "who I am reading"
     ],
+    "spanishOptions": [
+      "que estás leyendo",
+      "que estoy leyendo",
+      "que está leyendo"
+    ],
+    "frenchOptions": [
+      "qui je lis",
+      "que je lis",
+      "que tu lis"
+    ],
     "tier": 4
   },
   "sentence-builder.relbog.predicate": {
     "danish": "er god.",
     "german": "ist gut.",
     "english": "is good.",
+    "spanish": "es bueno.",
+    "french": "est bon.",
     "sentenceId": "relbog",
     "step": 3,
     "steps": 3,
@@ -2805,12 +4199,24 @@
       "is good.",
       "are good."
     ],
+    "spanishOptions": [
+      "es buena.",
+      "es bueno.",
+      "son buenos."
+    ],
+    "frenchOptions": [
+      "est bonne.",
+      "est bon.",
+      "sont bons."
+    ],
     "tier": 4
   },
   "sentence-builder.hvisrig.condition": {
     "danish": "Hvis jeg var rig,",
     "german": "Wenn ich reich wäre,",
     "english": "If I were rich,",
+    "spanish": "Si fuera rico,",
+    "french": "Si j'étais riche,",
     "sentenceId": "hvisrig",
     "step": 1,
     "steps": 3,
@@ -2829,12 +4235,24 @@
       "If I were rich,",
       "If I would be rich,"
     ],
+    "spanishOptions": [
+      "Si sería rico,",
+      "Si fuera rico,",
+      "Si soy rico,"
+    ],
+    "frenchOptions": [
+      "Si je serais riche,",
+      "Si j'étais riche,",
+      "Si je suis riche,"
+    ],
     "tier": 4
   },
   "sentence-builder.hvisrig.verb": {
     "danish": "ville jeg",
     "german": "würde ich",
     "english": "I would",
+    "spanish": "yo",
+    "french": "je",
     "sentenceId": "hvisrig",
     "step": 2,
     "steps": 3,
@@ -2853,12 +4271,24 @@
       "I would",
       "would I"
     ],
+    "spanishOptions": [
+      "tú",
+      "yo",
+      "ellos"
+    ],
+    "frenchOptions": [
+      "tu",
+      "je",
+      "nous"
+    ],
     "tier": 4
   },
   "sentence-builder.hvisrig.infinitive": {
     "danish": "rejse.",
     "german": "reisen.",
     "english": "travel.",
+    "spanish": "viajaría.",
+    "french": "voyagerais.",
     "sentenceId": "hvisrig",
     "step": 3,
     "steps": 3,
@@ -2877,12 +4307,24 @@
       "travel.",
       "travelling."
     ],
+    "spanishOptions": [
+      "viajaré.",
+      "viajaría.",
+      "viajaba."
+    ],
+    "frenchOptions": [
+      "voyagerai.",
+      "voyagerais.",
+      "voyageais."
+    ],
     "tier": 4
   },
   "sentence-builder.bilenfar.main": {
     "danish": "Det er",
     "german": "Das ist",
     "english": "This is",
+    "spanish": "Este es",
+    "french": "C'est",
     "sentenceId": "bilenfar",
     "step": 1,
     "steps": 3,
@@ -2901,12 +4343,24 @@
       "This is",
       "There is"
     ],
+    "spanishOptions": [
+      "Esta es",
+      "Este es",
+      "Estos son"
+    ],
+    "frenchOptions": [
+      "Ce sont",
+      "C'est",
+      "Ce est"
+    ],
     "tier": 3
   },
   "sentence-builder.bilenfar.noun": {
     "danish": "bilen",
     "german": "das Auto",
     "english": "the car",
+    "spanish": "el coche",
+    "french": "la voiture",
     "sentenceId": "bilenfar",
     "step": 2,
     "steps": 3,
@@ -2925,12 +4379,24 @@
       "the car",
       "the cars"
     ],
+    "spanishOptions": [
+      "la coche",
+      "el coche",
+      "los coches"
+    ],
+    "frenchOptions": [
+      "le voiture",
+      "la voiture",
+      "les voitures"
+    ],
     "tier": 3
   },
   "sentence-builder.bilenfar.genitive": {
     "danish": "til min far.",
     "german": "meines Vaters.",
     "english": "belonging to my father.",
+    "spanish": "de mi padre.",
+    "french": "de mon père.",
     "sentenceId": "bilenfar",
     "step": 3,
     "steps": 3,
@@ -2949,12 +4415,24 @@
       "belonging to my father.",
       "belonging from my father."
     ],
+    "spanishOptions": [
+      "a mi padre.",
+      "de mi padre.",
+      "de mis padres."
+    ],
+    "frenchOptions": [
+      "du mon père.",
+      "de mon père.",
+      "de ma père."
+    ],
     "tier": 3
   },
   "sentence-builder.regnen.preposition": {
     "danish": "På grund af",
     "german": "Wegen",
     "english": "Because of",
+    "spanish": "Debido a",
+    "french": "À cause de",
     "sentenceId": "regnen",
     "step": 1,
     "steps": 3,
@@ -2973,12 +4451,24 @@
       "Because of",
       "Without"
     ],
+    "spanishOptions": [
+      "Gracias a",
+      "Debido a",
+      "Debido de"
+    ],
+    "frenchOptions": [
+      "Grâce à",
+      "À cause de",
+      "À cause"
+    ],
     "tier": 5
   },
   "sentence-builder.regnen.genitive": {
     "danish": "regnen",
     "german": "des Regens",
     "english": "the rain",
+    "spanish": "la lluvia,",
+    "french": "la pluie,",
     "sentenceId": "regnen",
     "step": 2,
     "steps": 3,
@@ -2997,12 +4487,24 @@
       "the rain",
       "rain's"
     ],
+    "spanishOptions": [
+      "las lluvias,",
+      "la lluvia,",
+      "el lluvia,"
+    ],
+    "frenchOptions": [
+      "le pluie,",
+      "la pluie,",
+      "les pluies,"
+    ],
     "tier": 5
   },
   "sentence-builder.regnen.verb": {
     "danish": "blev vi hjemme.",
     "german": "blieben wir zu Hause.",
     "english": "we stayed at home.",
+    "spanish": "nos quedamos en casa.",
+    "french": "nous sommes restés à la maison.",
     "sentenceId": "regnen",
     "step": 3,
     "steps": 3,
@@ -3021,12 +4523,24 @@
       "we stayed at home.",
       "we stay at home."
     ],
+    "spanishOptions": [
+      "nos quedaremos en casa.",
+      "nos quedamos en casa.",
+      "nos quedaríamos en casa."
+    ],
+    "frenchOptions": [
+      "nous restons à la maison.",
+      "nous sommes restés à la maison.",
+      "nous resterions à la maison."
+    ],
     "tier": 5
   },
   "sentence-builder.trods.preposition": {
     "danish": "Trods",
     "german": "Trotz",
     "english": "Despite",
+    "spanish": "A pesar",
+    "french": "Malgré",
     "sentenceId": "trods",
     "step": 1,
     "steps": 3,
@@ -3045,12 +4559,24 @@
       "Despite",
       "Without"
     ],
+    "spanishOptions": [
+      "A pesos",
+      "A pesar",
+      "Al pesar"
+    ],
+    "frenchOptions": [
+      "Bien que",
+      "Malgré",
+      "Pendant"
+    ],
     "tier": 5
   },
   "sentence-builder.trods.genitive": {
     "danish": "det dårlige vejr",
     "german": "des schlechten Wetters",
     "english": "the bad weather",
+    "spanish": "del mal tiempo,",
+    "french": "le mauvais temps,",
     "sentenceId": "trods",
     "step": 2,
     "steps": 3,
@@ -3069,12 +4595,24 @@
       "the bad weather",
       "a bad weather"
     ],
+    "spanishOptions": [
+      "de el mal tiempo,",
+      "del mal tiempo,",
+      "del malo tiempo,"
+    ],
+    "frenchOptions": [
+      "la mauvais temps,",
+      "le mauvais temps,",
+      "les mauvais temps,"
+    ],
     "tier": 5
   },
   "sentence-builder.trods.verb": {
     "danish": "gik vi ud.",
     "german": "gingen wir aus.",
     "english": "we went out.",
+    "spanish": "salimos.",
+    "french": "nous sommes sortis.",
     "sentenceId": "trods",
     "step": 3,
     "steps": 3,
@@ -3093,12 +4631,24 @@
       "we went out.",
       "we go out."
     ],
+    "spanishOptions": [
+      "saldremos.",
+      "salimos.",
+      "salgo."
+    ],
+    "frenchOptions": [
+      "nous sortons.",
+      "nous sommes sortis.",
+      "nous sortirons."
+    ],
     "tier": 5
   },
   "sentence-builder.henviser.verb": {
     "danish": "Jeg henviser",
     "german": "Ich beziehe mich",
     "english": "I refer",
+    "spanish": "Me refiero",
+    "french": "Je me réfère",
     "sentenceId": "henviser",
     "step": 1,
     "steps": 3,
@@ -3117,12 +4667,24 @@
       "I refer",
       "I referred"
     ],
+    "spanishOptions": [
+      "Se refiero",
+      "Me refiero",
+      "Me refieres"
+    ],
+    "frenchOptions": [
+      "Je te réfère",
+      "Je me réfère",
+      "Nous nous référons"
+    ],
     "tier": 5
   },
   "sentence-builder.henviser.preposition": {
     "danish": "til",
     "german": "auf",
     "english": "to",
+    "spanish": "a",
+    "french": "à",
     "sentenceId": "henviser",
     "step": 2,
     "steps": 3,
@@ -3141,12 +4703,24 @@
       "to",
       "for"
     ],
+    "spanishOptions": [
+      "en",
+      "a",
+      "de"
+    ],
+    "frenchOptions": [
+      "de",
+      "à",
+      "sur"
+    ],
     "tier": 5
   },
   "sentence-builder.henviser.object": {
     "danish": "Deres brev.",
     "german": "Ihr Schreiben.",
     "english": "your letter.",
+    "spanish": "su carta.",
+    "french": "votre lettre.",
     "sentenceId": "henviser",
     "step": 3,
     "steps": 3,
@@ -3165,12 +4739,24 @@
       "your letter.",
       "your letters."
     ],
+    "spanishOptions": [
+      "sus cartas.",
+      "su carta.",
+      "mi carta."
+    ],
+    "frenchOptions": [
+      "vos lettres.",
+      "votre lettre.",
+      "notre lettre."
+    ],
     "tier": 5
   },
   "sentence-builder.beklager.main": {
     "danish": "Vi beklager",
     "german": "Wir bedauern,",
     "english": "We regret",
+    "spanish": "Lamentamos",
+    "french": "Nous regrettons",
     "sentenceId": "beklager",
     "step": 1,
     "steps": 3,
@@ -3189,12 +4775,24 @@
       "We regret",
       "We regretted"
     ],
+    "spanishOptions": [
+      "Lamenta",
+      "Lamentamos",
+      "Lamentan"
+    ],
+    "frenchOptions": [
+      "Nous regrette",
+      "Nous regrettons",
+      "Je regrette"
+    ],
     "tier": 5
   },
   "sentence-builder.beklager.conjunction": {
     "danish": "at",
     "german": "dass",
     "english": "that",
+    "spanish": "que",
+    "french": "de",
     "sentenceId": "beklager",
     "step": 2,
     "steps": 3,
@@ -3213,12 +4811,24 @@
       "that",
       "whether"
     ],
+    "spanishOptions": [
+      "de que",
+      "que",
+      "qué"
+    ],
+    "frenchOptions": [
+      "que",
+      "de",
+      "si"
+    ],
     "tier": 5
   },
   "sentence-builder.beklager.clause": {
     "danish": "vi ikke kan hjælpe.",
     "german": "wir nicht helfen können.",
     "english": "we cannot help.",
+    "spanish": "no podamos ayudar.",
+    "french": "ne pas pouvoir aider.",
     "sentenceId": "beklager",
     "step": 3,
     "steps": 3,
@@ -3237,12 +4847,24 @@
       "we cannot help.",
       "we cannot helping."
     ],
+    "spanishOptions": [
+      "no podemos ayudar.",
+      "no podamos ayudar.",
+      "no pudimos ayudar."
+    ],
+    "frenchOptions": [
+      "ne pas pouvons aider.",
+      "ne pas pouvoir aider.",
+      "ne pouvoir pas aider."
+    ],
     "tier": 5
   },
   "sentence-builder.kunnet.auxiliary": {
     "danish": "Hun har",
     "german": "Sie hat",
     "english": "She has",
+    "spanish": "Ella no ha",
+    "french": "Elle n'a",
     "sentenceId": "kunnet",
     "step": 1,
     "steps": 3,
@@ -3261,12 +4883,24 @@
       "She has",
       "Her has"
     ],
+    "spanishOptions": [
+      "Ella no han",
+      "Ella no ha",
+      "Ella no has"
+    ],
+    "frenchOptions": [
+      "Elle n'ont",
+      "Elle n'a",
+      "Elle n'as"
+    ],
     "tier": 5
   },
   "sentence-builder.kunnet.negation": {
     "danish": "ikke",
     "german": "nicht",
     "english": "not",
+    "spanish": "podido",
+    "french": "pas",
     "sentenceId": "kunnet",
     "step": 2,
     "steps": 3,
@@ -3285,12 +4919,24 @@
       "not",
       "nothing"
     ],
+    "spanishOptions": [
+      "poder",
+      "podido",
+      "pudiendo"
+    ],
+    "frenchOptions": [
+      "jamais",
+      "pas",
+      "aucun"
+    ],
     "tier": 5
   },
   "sentence-builder.kunnet.verbs": {
     "danish": "kunnet komme.",
     "german": "kommen können.",
     "english": "been able to come.",
+    "spanish": "venir.",
+    "french": "pu venir.",
     "sentenceId": "kunnet",
     "step": 3,
     "steps": 3,
@@ -3309,12 +4955,24 @@
       "been able to come.",
       "could come."
     ],
+    "spanishOptions": [
+      "vino.",
+      "venir.",
+      "venido."
+    ],
+    "frenchOptions": [
+      "pouvu venir.",
+      "pu venir.",
+      "pouvoir venir."
+    ],
     "tier": 5
   },
   "sentence-builder.kopte.main": {
     "danish": "Det er ikke",
     "german": "Das ist nicht",
     "english": "That is not",
+    "spanish": "Eso no es",
+    "french": "Ce n'est pas",
     "sentenceId": "kopte",
     "step": 1,
     "steps": 3,
@@ -3333,12 +4991,24 @@
       "That is not",
       "That was not"
     ],
+    "spanishOptions": [
+      "Eso no son",
+      "Eso no es",
+      "Esos no es"
+    ],
+    "frenchOptions": [
+      "Ce ne sont pas",
+      "Ce n'est pas",
+      "Ce n'est plus"
+    ],
     "tier": 5
   },
   "sentence-builder.kopte.possessive": {
     "danish": "min",
     "german": "meine",
     "english": "my",
+    "spanish": "santo de",
+    "french": "ma",
     "sentenceId": "kopte",
     "step": 2,
     "steps": 3,
@@ -3357,12 +5027,24 @@
       "my",
       "me"
     ],
+    "spanishOptions": [
+      "santos de",
+      "santo de",
+      "santa de"
+    ],
+    "frenchOptions": [
+      "mon",
+      "ma",
+      "mes"
+    ],
     "tier": 5
   },
   "sentence-builder.kopte.noun": {
     "danish": "kop te.",
     "german": "Tasse Tee.",
     "english": "cup of tea.",
+    "spanish": "mi devoción.",
+    "french": "tasse de thé.",
     "sentenceId": "kopte",
     "step": 3,
     "steps": 3,
@@ -3381,12 +5063,24 @@
       "cup of tea.",
       "glass of tea."
     ],
+    "spanishOptions": [
+      "mis devociones.",
+      "mi devoción.",
+      "mi devoto."
+    ],
+    "frenchOptions": [
+      "tasses de thé.",
+      "tasse de thé.",
+      "tasse du thé."
+    ],
     "tier": 5
   },
   "sentence-builder.lovet.auxiliary": {
     "danish": "Han har",
     "german": "Er hat",
     "english": "He has",
+    "spanish": "Él ha",
+    "french": "Il a",
     "sentenceId": "lovet",
     "step": 1,
     "steps": 3,
@@ -3405,12 +5099,24 @@
       "He has",
       "Him has"
     ],
+    "spanishOptions": [
+      "Él han",
+      "Él ha",
+      "Él has"
+    ],
+    "frenchOptions": [
+      "Il ont",
+      "Il a",
+      "Il as"
+    ],
     "tier": 3
   },
   "sentence-builder.lovet.participle": {
     "danish": "lovet",
     "german": "versprochen,",
     "english": "promised",
+    "spanish": "prometido",
+    "french": "promis",
     "sentenceId": "lovet",
     "step": 2,
     "steps": 3,
@@ -3429,12 +5135,24 @@
       "promised",
       "promising"
     ],
+    "spanishOptions": [
+      "prometer",
+      "prometido",
+      "prometió"
+    ],
+    "frenchOptions": [
+      "promettre",
+      "promis",
+      "promise"
+    ],
     "tier": 3
   },
   "sentence-builder.lovet.infinitive": {
     "danish": "at komme.",
     "german": "zu kommen.",
     "english": "to come.",
+    "spanish": "venir.",
+    "french": "de venir.",
     "sentenceId": "lovet",
     "step": 3,
     "steps": 3,
@@ -3453,12 +5171,24 @@
       "to come.",
       "coming to."
     ],
+    "spanishOptions": [
+      "vengo.",
+      "venir.",
+      "vino."
+    ],
+    "frenchOptions": [
+      "à venir.",
+      "de venir.",
+      "venir."
+    ],
     "tier": 3
   },
   "sentence-builder.forfatter.verb": {
     "danish": "Jeg kender",
     "german": "Ich kenne",
     "english": "I know",
+    "spanish": "Conozco",
+    "french": "Je connais",
     "sentenceId": "forfatter",
     "step": 1,
     "steps": 3,
@@ -3477,12 +5207,24 @@
       "I know",
       "I knew"
     ],
+    "spanishOptions": [
+      "Conoces",
+      "Conozco",
+      "Conoce"
+    ],
+    "frenchOptions": [
+      "Je connait",
+      "Je connais",
+      "Tu connais"
+    ],
     "tier": 3
   },
   "sentence-builder.forfatter.object": {
     "danish": "forfatteren",
     "german": "den Autor",
     "english": "the author",
+    "spanish": "al autor",
+    "french": "l'auteur",
     "sentenceId": "forfatter",
     "step": 2,
     "steps": 3,
@@ -3501,12 +5243,24 @@
       "the author",
       "the authors"
     ],
+    "spanishOptions": [
+      "el autor",
+      "al autor",
+      "a autor"
+    ],
+    "frenchOptions": [
+      "le auteur",
+      "l'auteur",
+      "les auteurs"
+    ],
     "tier": 3
   },
   "sentence-builder.forfatter.genitive": {
     "danish": "til bogen.",
     "german": "des Buches.",
     "english": "of the book.",
+    "spanish": "del libro.",
+    "french": "du livre.",
     "sentenceId": "forfatter",
     "step": 3,
     "steps": 3,
@@ -3525,12 +5279,24 @@
       "of the book.",
       "from the book."
     ],
+    "spanishOptions": [
+      "de el libro.",
+      "del libro.",
+      "al libro."
+    ],
+    "frenchOptions": [
+      "de le livre.",
+      "du livre.",
+      "au livre."
+    ],
     "tier": 3
   },
   "sentence-builder.taknemmelig.main": {
     "danish": "Jeg ville være taknemmelig,",
     "german": "Ich wäre dankbar,",
     "english": "I would be grateful",
+    "spanish": "Estaría agradecido",
+    "french": "Je serais reconnaissant",
     "sentenceId": "taknemmelig",
     "step": 1,
     "steps": 3,
@@ -3549,12 +5315,24 @@
       "I would be grateful",
       "I was grateful"
     ],
+    "spanishOptions": [
+      "Estoy agradecido",
+      "Estaría agradecido",
+      "Estaba agradecido"
+    ],
+    "frenchOptions": [
+      "Je suis reconnaissant",
+      "Je serais reconnaissant",
+      "Je serai reconnaissant"
+    ],
     "tier": 5
   },
   "sentence-builder.taknemmelig.conjunction": {
     "danish": "hvis",
     "german": "wenn",
     "english": "if",
+    "spanish": "si",
+    "french": "si",
     "sentenceId": "taknemmelig",
     "step": 2,
     "steps": 3,
@@ -3573,12 +5351,24 @@
       "if",
       "that"
     ],
+    "spanishOptions": [
+      "sí",
+      "si",
+      "cuando"
+    ],
+    "frenchOptions": [
+      "lorsque",
+      "si",
+      "quand"
+    ],
     "tier": 5
   },
   "sentence-builder.taknemmelig.clause": {
     "danish": "De ville svare.",
     "german": "Sie antworten würden.",
     "english": "you would reply.",
+    "spanish": "usted me respondiera.",
+    "french": "vous répondiez.",
     "sentenceId": "taknemmelig",
     "step": 3,
     "steps": 3,
@@ -3597,12 +5387,24 @@
       "you would reply.",
       "would you reply."
     ],
+    "spanishOptions": [
+      "usted me respondería.",
+      "usted me respondiera.",
+      "usted me responda."
+    ],
+    "frenchOptions": [
+      "vous répondriez.",
+      "vous répondiez.",
+      "vous répondez."
+    ],
     "tier": 5
   },
   "sentence-builder.paastod.main": {
     "danish": "Han påstod,",
     "german": "Er behauptete,",
     "english": "He claimed",
+    "spanish": "Él afirmó",
+    "french": "Il a affirmé",
     "sentenceId": "paastod",
     "step": 1,
     "steps": 3,
@@ -3621,12 +5423,24 @@
       "He claimed",
       "Him claimed"
     ],
+    "spanishOptions": [
+      "Él afirmará",
+      "Él afirmó",
+      "Ella afirmó"
+    ],
+    "frenchOptions": [
+      "Il affirmer",
+      "Il a affirmé",
+      "Elle a affirmé"
+    ],
     "tier": 5
   },
   "sentence-builder.paastod.subjunctive": {
     "danish": "at han var",
     "german": "er sei",
     "english": "that he was",
+    "spanish": "que era",
+    "french": "qu'il était",
     "sentenceId": "paastod",
     "step": 2,
     "steps": 3,
@@ -3645,12 +5459,24 @@
       "that he was",
       "that him was"
     ],
+    "spanishOptions": [
+      "que sea",
+      "que era",
+      "que estaba"
+    ],
+    "frenchOptions": [
+      "qu'il soit",
+      "qu'il était",
+      "qu'il serait"
+    ],
     "tier": 5
   },
   "sentence-builder.paastod.adjective": {
     "danish": "uskyldig.",
     "german": "unschuldig.",
     "english": "innocent.",
+    "spanish": "inocente.",
+    "french": "innocent.",
     "sentenceId": "paastod",
     "step": 3,
     "steps": 3,
@@ -3669,12 +5495,24 @@
       "innocent.",
       "guilty."
     ],
+    "spanishOptions": [
+      "inocentes.",
+      "inocente.",
+      "culpable."
+    ],
+    "frenchOptions": [
+      "innocente.",
+      "innocent.",
+      "coupable."
+    ],
     "tier": 5
   },
   "sentence-builder.medmindre.main": {
     "danish": "Vi går ud,",
     "german": "Wir gehen aus,",
     "english": "We are going out",
+    "spanish": "Salimos",
+    "french": "Nous sortons",
     "sentenceId": "medmindre",
     "step": 1,
     "steps": 3,
@@ -3693,12 +5531,24 @@
       "We are going out",
       "We is going out"
     ],
+    "spanishOptions": [
+      "Salgo",
+      "Salimos",
+      "Salen"
+    ],
+    "frenchOptions": [
+      "Nous sortez",
+      "Nous sortons",
+      "Je sors"
+    ],
     "tier": 5
   },
   "sentence-builder.medmindre.conjunction": {
     "danish": "medmindre",
     "german": "es sei denn,",
     "english": "unless",
+    "spanish": "a menos que",
+    "french": "à moins qu'",
     "sentenceId": "medmindre",
     "step": 2,
     "steps": 3,
@@ -3717,12 +5567,24 @@
       "unless",
       "because"
     ],
+    "spanishOptions": [
+      "a menos",
+      "a menos que",
+      "a más que"
+    ],
+    "frenchOptions": [
+      "à moins d'",
+      "à moins qu'",
+      "à plus qu'"
+    ],
     "tier": 5
   },
   "sentence-builder.medmindre.clause": {
     "danish": "det regner.",
     "german": "es regnet.",
     "english": "it rains.",
+    "spanish": "llueva.",
+    "french": "il ne pleuve.",
     "sentenceId": "medmindre",
     "step": 3,
     "steps": 3,
@@ -3741,12 +5603,24 @@
       "it rains.",
       "it rained."
     ],
+    "spanishOptions": [
+      "llueve.",
+      "llueva.",
+      "llovió."
+    ],
+    "frenchOptions": [
+      "il ne pleut.",
+      "il ne pleuve.",
+      "il ne pleuvait."
+    ],
     "tier": 5
   },
   "sentence-builder.afslutning.preposition": {
     "danish": "Efter afslutningen",
     "german": "Nach Abschluss",
     "english": "After finishing",
+    "spanish": "Después de terminar",
+    "french": "Après avoir fini",
     "sentenceId": "afslutning",
     "step": 1,
     "steps": 3,
@@ -3765,12 +5639,24 @@
       "After finishing",
       "After finish"
     ],
+    "spanishOptions": [
+      "Después terminar",
+      "Después de terminar",
+      "Antes de terminar"
+    ],
+    "frenchOptions": [
+      "Après finir",
+      "Après avoir fini",
+      "Après a fini"
+    ],
     "tier": 5
   },
   "sentence-builder.afslutning.genitive": {
     "danish": "af arbejdet",
     "german": "der Arbeiten",
     "english": "the work,",
+    "spanish": "el trabajo,",
+    "french": "le travail,",
     "sentenceId": "afslutning",
     "step": 2,
     "steps": 3,
@@ -3789,12 +5675,24 @@
       "the work,",
       "a work,"
     ],
+    "spanishOptions": [
+      "los trabajos,",
+      "el trabajo,",
+      "la trabajo,"
+    ],
+    "frenchOptions": [
+      "les travaux,",
+      "le travail,",
+      "la travail,"
+    ],
     "tier": 5
   },
   "sentence-builder.afslutning.verb": {
     "danish": "gik vi hjem.",
     "german": "gingen wir nach Hause.",
     "english": "we went home.",
+    "spanish": "volvimos a casa.",
+    "french": "nous sommes rentrés.",
     "sentenceId": "afslutning",
     "step": 3,
     "steps": 3,
@@ -3812,6 +5710,16 @@
       "went we home.",
       "we went home.",
       "we go home."
+    ],
+    "spanishOptions": [
+      "volveremos a casa.",
+      "volvimos a casa.",
+      "volví a casa."
+    ],
+    "frenchOptions": [
+      "nous rentrons.",
+      "nous sommes rentrés.",
+      "nous rentrerions."
     ],
     "tier": 5
   }

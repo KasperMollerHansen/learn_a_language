@@ -3,6 +3,32 @@ from typing import Any, cast
 from wordbank import LANGUAGES, level_word_ids, load_wordbank
 
 
+MONTHS = (
+    "january",
+    "february",
+    "march",
+    "april",
+    "may",
+    "june",
+    "july",
+    "august",
+    "september",
+    "october",
+    "november",
+    "december",
+)
+
+# Nouns that correctly take no definite article, by id and the languages where that holds.
+BARE_NOUNS: dict[str, set[str]] = {
+    **{f"time.{month}": {"spanish", "french"} for month in MONTHS},
+    "time.midnight": {"french"},
+    "time.christmas": {"french"},
+    "time.easter": {"french"},
+    "culture.pentecost": {"spanish"},
+    "culture.halloween": {"spanish", "french"},
+}
+
+
 def test_chapters_are_tiers_ending_with_review_then_sentence_builder() -> None:
     bank = load_wordbank()
     chapters: dict[int, list[dict[str, Any]]] = {}
@@ -73,11 +99,11 @@ def test_every_word_has_a_tier() -> None:
     assert all(word.get("tier") in {1, 2, 3, 4, 5} for word in bank["words"].values())
 
 
-def test_every_word_has_danish_german_and_english_translations() -> None:
+def test_every_word_has_a_translation_in_every_language() -> None:
     bank = load_wordbank()
 
     for word_id, word in bank["words"].items():
-        for language in ("danish", "german", "english"):
+        for language in LANGUAGES:
             translation = word.get(language)
             assert isinstance(translation, str), word_id
             assert translation.strip(), word_id
@@ -99,6 +125,32 @@ def test_reference_translations_match_expected_pairs() -> None:
     for word_id, translations in expected.items():
         word = bank["words"][word_id]
         assert (word["danish"], word["german"]) == translations
+
+
+def test_reference_spanish_and_french_translations_match_expected_pairs() -> None:
+    bank = load_wordbank()
+    expected = {
+        "people.mother": ("la madre", "la mère"),
+        "animals.dog": ("el perro", "le chien"),
+        "adjectives.happy": ("feliz", "heureux"),
+    }
+
+    for word_id, translations in expected.items():
+        word = bank["words"][word_id]
+        assert (word["spanish"], word["french"]) == translations
+
+
+def test_spanish_and_french_nouns_carry_their_definite_article() -> None:
+    bank = load_wordbank()
+    spanish = ("el ", "la ", "los ", "las ")
+    french = ("le ", "la ", "les ", "l'")
+
+    for word_id, word in bank["words"].items():
+        if "gender" not in word or word_id.startswith("countries."):
+            continue
+        bare = BARE_NOUNS.get(word_id, set())
+        assert "spanish" in bare or word["spanish"].startswith(spanish), word_id
+        assert "french" in bare or word["french"].startswith(french), word_id
 
 
 def test_german_article_declensions_match_expected_forms() -> None:
@@ -177,6 +229,17 @@ def test_sentence_builder_chunks_have_ordered_answers_and_distractors() -> None:
             assert len(set(options)) == 3, (word_id, language)
             assert chunk[language] in options, (word_id, language)
             assert all(option.endswith(".") == last for option in options), (word_id, language)
+            if chunk[language].endswith(("'", "’")):
+                assert all(option.endswith(("'", "’")) for option in options), (word_id, language)
+
+    for parts in sentences.values():
+        ordered = sorted(parts, key=lambda chunk: cast(int, chunk["step"]))
+        for language in LANGUAGES:
+            text = ""
+            for chunk in ordered:
+                gap = "" if text.endswith(("'", "’")) else " "
+                text += (gap if text else "") + cast(str, chunk[language])
+            assert text[0].isupper() and text.endswith("."), (parts[0]["sentenceId"], language)
 
     sentences_per_tier: dict[int, int] = {}
     for parts in sentences.values():

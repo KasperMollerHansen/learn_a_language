@@ -3,222 +3,296 @@
     "danish": "ærgerrig",
     "german": "ehrgeizig",
     "english": "ambitious",
+    "spanish": "ambicioso",
+    "french": "ambitieux",
     "tier": 4
   },
   "personality.likeable": {
     "danish": "sympatisk",
     "german": "sympathisch",
     "english": "likeable",
+    "spanish": "simpático",
+    "french": "sympathique",
     "tier": 2
   },
   "personality.faithful": {
     "danish": "tro",
     "german": "treu",
     "english": "faithful",
+    "spanish": "fiel",
+    "french": "fidèle",
     "tier": 4
   },
   "personality.vain": {
     "danish": "forfængelig",
     "german": "eitel",
     "english": "vain",
+    "spanish": "vanidoso",
+    "french": "vaniteux",
     "tier": 5
   },
   "personality.self-confident": {
     "danish": "selvsikker",
     "german": "selbstbewusst",
     "english": "self-confident",
+    "spanish": "seguro de sí mismo",
+    "french": "sûr de lui",
     "tier": 3
   },
   "personality.sensible": {
     "danish": "fornuftig",
     "german": "vernünftig",
     "english": "sensible",
+    "spanish": "sensato",
+    "french": "raisonnable",
     "tier": 3
   },
   "personality.reckless": {
     "danish": "letsindig",
     "german": "leichtsinnig",
     "english": "reckless",
+    "spanish": "imprudente",
+    "french": "imprudent",
     "tier": 4
   },
   "personality.cheeky": {
     "danish": "fræk",
     "german": "frech",
     "english": "cheeky",
+    "spanish": "descarado",
+    "french": "effronté",
     "tier": 3
   },
   "personality.obedient": {
     "danish": "lydig",
     "german": "gehorsam",
     "english": "obedient",
+    "spanish": "obediente",
+    "french": "obéissant",
     "tier": 4
   },
   "personality.stubborn": {
     "danish": "stædig",
     "german": "stur",
     "english": "stubborn",
+    "spanish": "terco",
+    "french": "têtu",
     "tier": 4
   },
   "personality.moody": {
     "danish": "lunefuld",
     "german": "launisch",
     "english": "moody",
+    "spanish": "temperamental",
+    "french": "lunatique",
     "tier": 4
   },
   "personality.sociable": {
     "danish": "selskabelig",
     "german": "gesellig",
     "english": "sociable",
+    "spanish": "sociable",
+    "french": "sociable",
     "tier": 4
   },
   "personality.naive": {
     "danish": "naiv",
     "german": "naiv",
     "english": "naive",
+    "spanish": "ingenuo",
+    "french": "naïf",
     "tier": 4
   },
   "personality.tolerant": {
     "danish": "tolerant",
     "german": "tolerant",
     "english": "tolerant",
+    "spanish": "tolerante",
+    "french": "tolérant",
     "tier": 3
   },
   "personality.optimistic": {
     "danish": "optimistisk",
     "german": "optimistisch",
     "english": "optimistic",
+    "spanish": "optimista",
+    "french": "optimiste",
     "tier": 3
   },
   "personality.pessimistic": {
     "danish": "pessimistisk",
     "german": "pessimistisch",
     "english": "pessimistic",
+    "spanish": "pesimista",
+    "french": "pessimiste",
     "tier": 3
   },
   "personality.realistic": {
     "danish": "realistisk",
     "german": "realistisch",
     "english": "realistic",
+    "spanish": "realista",
+    "french": "réaliste",
     "tier": 3
   },
   "personality.unpunctual": {
     "danish": "upunktlig",
     "german": "unpünktlich",
     "english": "unpunctual",
+    "spanish": "impuntual",
+    "french": "peu ponctuel",
     "tier": 3
   },
   "personality.absent-minded": {
     "danish": "distræt",
     "german": "zerstreut",
     "english": "absent-minded",
+    "spanish": "distraído",
+    "french": "distrait",
     "tier": 4
   },
   "personality.forgetful": {
     "danish": "glemsom",
     "german": "vergesslich",
     "english": "forgetful",
+    "spanish": "olvidadizo",
+    "french": "oublieux",
     "tier": 3
   },
   "personality.helpful": {
     "danish": "hjælpsom",
     "german": "hilfsbereit",
     "english": "helpful",
+    "spanish": "servicial",
+    "french": "serviable",
     "tier": 3
   },
   "personality.considerate": {
     "danish": "hensynsfuld",
     "german": "rücksichtsvoll",
     "english": "considerate",
+    "spanish": "considerado",
+    "french": "attentionné",
     "tier": 4
   },
   "personality.sincere": {
     "danish": "oprigtig",
     "german": "aufrichtig",
     "english": "sincere",
+    "spanish": "sincero",
+    "french": "sincère",
     "tier": 5
   },
   "personality.cunning": {
     "danish": "listig",
     "german": "listig",
     "english": "cunning",
+    "spanish": "astuto",
+    "french": "rusé",
     "tier": 5
   },
   "personality.humorous": {
     "danish": "humoristisk",
     "german": "humorvoll",
     "english": "humorous",
+    "spanish": "gracioso",
+    "french": "humoristique",
     "tier": 3
   },
   "personality.muscular": {
     "danish": "muskuløs",
     "german": "muskulös",
     "english": "muscular",
+    "spanish": "musculoso",
+    "french": "musclé",
     "tier": 4
   },
   "personality.bald": {
     "danish": "skaldet",
     "german": "kahl",
     "english": "bald",
+    "spanish": "calvo",
+    "french": "chauve",
     "tier": 3
   },
   "personality.curly": {
     "danish": "krøllet",
     "german": "lockig",
     "english": "curly",
+    "spanish": "rizado",
+    "french": "bouclé",
     "tier": 3
   },
   "personality.well-groomed": {
     "danish": "velplejet",
     "german": "gepflegt",
     "english": "well-groomed",
+    "spanish": "arreglado",
+    "french": "soigné",
     "tier": 4
   },
   "personality.dark-haired": {
     "danish": "mørkhåret",
     "german": "dunkelhaarig",
     "english": "dark-haired",
+    "spanish": "moreno",
+    "french": "brun",
     "tier": 4
   },
   "personality.athletic": {
     "danish": "atletisk",
     "german": "sportlich",
     "english": "athletic",
+    "spanish": "atlético",
+    "french": "athlétique",
     "tier": 2
   },
   "personality.down-to-earth": {
     "danish": "jordnær",
     "german": "bodenständig",
     "english": "down-to-earth",
+    "spanish": "práctico",
+    "french": "pragmatique",
     "tier": 5
   },
   "personality.responsible": {
     "danish": "ansvarsfuld",
     "german": "verantwortungsvoll",
     "english": "responsible",
+    "spanish": "responsable",
+    "french": "responsable",
     "tier": 4
   },
   "personality.persistent": {
     "danish": "vedholdende",
     "german": "hartnäckig",
     "english": "persistent",
+    "spanish": "persistente",
+    "french": "persévérant",
     "tier": 5
   },
   "personality.honourable": {
     "danish": "hæderlig",
     "german": "ehrenhaft",
     "english": "honourable",
+    "spanish": "honorable",
+    "french": "honorable",
     "tier": 5
   },
   "personality.independent": {
     "danish": "uafhængig",
     "german": "unabhängig",
     "english": "independent",
+    "spanish": "independiente",
+    "french": "indépendant",
     "tier": 3
   },
   "personality.personality": {
     "danish": "personlighed",
     "german": "Persönlichkeit",
     "english": "personality",
+    "spanish": "la personalidad",
+    "french": "la personnalité",
     "gender": "die",
     "danishDefinite": "personligheden",
     "danishIndefinite": "en personlighed",
@@ -228,6 +302,8 @@
     "danish": "egenskab",
     "german": "Eigenschaft",
     "english": "trait",
+    "spanish": "el rasgo",
+    "french": "le trait",
     "gender": "die",
     "danishDefinite": "egenskaben",
     "danishIndefinite": "en egenskab",
@@ -237,6 +313,8 @@
     "danish": "mod",
     "german": "Mut",
     "english": "courage",
+    "spanish": "el valor",
+    "french": "le courage",
     "gender": "der",
     "danishDefinite": "modet",
     "danishIndefinite": "et mod",
@@ -246,6 +324,8 @@
     "danish": "ærlighed",
     "german": "Ehrlichkeit",
     "english": "honesty",
+    "spanish": "la honestidad",
+    "french": "l'honnêteté",
     "gender": "die",
     "danishDefinite": "ærligheden",
     "danishIndefinite": "en ærlighed",
@@ -255,6 +335,8 @@
     "danish": "svaghed",
     "german": "Schwäche",
     "english": "weakness",
+    "spanish": "la debilidad",
+    "french": "la faiblesse",
     "gender": "die",
     "danishDefinite": "svagheden",
     "danishIndefinite": "en svaghed",
@@ -264,6 +346,8 @@
     "danish": "dovenskab",
     "german": "Faulheit",
     "english": "laziness",
+    "spanish": "la pereza",
+    "french": "la paresse",
     "gender": "die",
     "danishDefinite": "dovenskaben",
     "danishIndefinite": "en dovenskab",
@@ -273,6 +357,8 @@
     "danish": "humor",
     "german": "Humor",
     "english": "sense of humour",
+    "spanish": "el sentido del humor",
+    "french": "le sens de l'humour",
     "gender": "der",
     "danishDefinite": "humoren",
     "danishIndefinite": "en humor",
@@ -282,372 +368,496 @@
     "danish": "charmerende",
     "german": "charmant",
     "english": "charming",
+    "spanish": "encantador",
+    "french": "charmant",
     "tier": 3
   },
   "personality.petit-bourgeois": {
     "danish": "spidsborgerlig",
     "german": "spießig",
     "english": "petit-bourgeois",
+    "spanish": "pequeñoburgués",
+    "french": "petit-bourgeois",
     "tier": 5
   },
   "personality.laid-back": {
     "danish": "afslappet",
     "german": "lässig",
     "english": "laid-back",
+    "spanish": "relajado",
+    "french": "décontracté",
     "tier": 4
   },
   "personality.reserved": {
     "danish": "tilbageholdende",
     "german": "zurückhaltend",
     "english": "reserved",
+    "spanish": "reservado",
+    "french": "réservé",
     "tier": 4
   },
   "personality.open-minded": {
     "danish": "åbensindet",
     "german": "aufgeschlossen",
     "english": "open-minded",
+    "spanish": "de mentalidad abierta",
+    "french": "ouvert d'esprit",
     "tier": 4
   },
   "personality.narrow-minded": {
     "danish": "snæversynet",
     "german": "engstirnig",
     "english": "narrow-minded",
+    "spanish": "estrecho de miras",
+    "french": "borné",
     "tier": 5
   },
   "personality.snooty": {
     "danish": "hoven",
     "german": "hochnäsig",
     "english": "snooty",
+    "spanish": "engreído",
+    "french": "hautain",
     "tier": 5
   },
   "personality.boastful": {
     "danish": "pralende",
     "german": "angeberisch",
     "english": "boastful",
+    "spanish": "fanfarrón",
+    "french": "vantard",
     "tier": 5
   },
   "personality.envious": {
     "danish": "misundelig",
     "german": "neidisch",
     "english": "envious",
+    "spanish": "envidioso",
+    "french": "envieux",
     "tier": 3
   },
   "personality.spiteful": {
     "danish": "ondskabsfuld",
     "german": "boshaft",
     "english": "spiteful",
+    "spanish": "malévolo",
+    "french": "malveillant",
     "tier": 5
   },
   "personality.good-natured": {
     "danish": "godmodig",
     "german": "gutmütig",
     "english": "good-natured",
+    "spanish": "bonachón",
+    "french": "bon enfant",
     "tier": 5
   },
   "personality.sly": {
     "danish": "lumsk",
     "german": "hinterlistig",
     "english": "sly",
+    "spanish": "taimado",
+    "french": "sournois",
     "tier": 5
   },
   "personality.clumsy": {
     "danish": "klodset",
     "german": "tollpatschig",
     "english": "clumsy",
+    "spanish": "torpe",
+    "french": "maladroit",
     "tier": 5
   },
   "personality.awkward": {
     "danish": "kluntet",
     "german": "ungeschickt",
     "english": "awkward",
+    "spanish": "desmañado",
+    "french": "gauche",
     "tier": 4
   },
   "personality.skilful": {
     "danish": "dygtig",
     "german": "geschickt",
     "english": "skilful",
+    "spanish": "hábil",
+    "french": "habile",
     "tier": 3
   },
   "personality.talented": {
     "danish": "talentfuld",
     "german": "talentiert",
     "english": "talented",
+    "spanish": "talentoso",
+    "french": "talentueux",
     "tier": 3
   },
   "personality.decent": {
     "danish": "anstændig",
     "german": "anständig",
     "english": "decent",
+    "spanish": "decente",
+    "french": "décent",
     "tier": 4
   },
   "personality.shameless": {
     "danish": "skamløs",
     "german": "schamlos",
     "english": "shameless",
+    "spanish": "sinvergüenza",
+    "french": "éhonté",
     "tier": 5
   },
   "personality.conscientious": {
     "danish": "samvittighedsfuld",
     "german": "gewissenhaft",
     "english": "conscientious",
+    "spanish": "concienzudo",
+    "french": "consciencieux",
     "tier": 5
   },
   "personality.impertinent": {
     "danish": "uforskammet",
     "german": "unverschämt",
     "english": "impertinent",
+    "spanish": "insolente",
+    "french": "insolent",
     "tier": 4
   },
   "personality.attentive": {
     "danish": "opmærksom",
     "german": "aufmerksam",
     "english": "attentive",
+    "spanish": "atento",
+    "french": "attentif",
     "tier": 3
   },
   "personality.inattentive": {
     "danish": "uopmærksom",
     "german": "unaufmerksam",
     "english": "inattentive",
+    "spanish": "desatento",
+    "french": "inattentif",
     "tier": 4
   },
   "personality.caring": {
     "danish": "omsorgsfuld",
     "german": "fürsorglich",
     "english": "caring",
+    "spanish": "solícito",
+    "french": "prévenant",
     "tier": 5
   },
   "personality.sensitive": {
     "danish": "følsom",
     "german": "sensibel",
     "english": "sensitive",
+    "spanish": "sensible",
+    "french": "sensible",
     "tier": 3
   },
   "personality.spirited": {
     "danish": "temperamentsfuld",
     "german": "temperamentvoll",
     "english": "spirited",
+    "spanish": "fogoso",
+    "french": "fougueux",
     "tier": 4
   },
   "personality.hot-tempered": {
     "danish": "hidsig",
     "german": "jähzornig",
     "english": "hot-tempered",
+    "spanish": "irascible",
+    "french": "colérique",
     "tier": 5
   },
   "personality.outgoing": {
     "danish": "udadvendt",
     "german": "kontaktfreudig",
     "english": "outgoing",
+    "spanish": "extrovertido",
+    "french": "extraverti",
     "tier": 4
   },
   "personality.introverted": {
     "danish": "indadvendt",
     "german": "introvertiert",
     "english": "introverted",
+    "spanish": "introvertido",
+    "french": "introverti",
     "tier": 4
   },
   "personality.talkative": {
     "danish": "snakkesalig",
     "german": "redselig",
     "english": "talkative",
+    "spanish": "hablador",
+    "french": "bavard",
     "tier": 3
   },
   "personality.taciturn": {
     "danish": "fåmælt",
     "german": "schweigsam",
     "english": "taciturn",
+    "spanish": "taciturno",
+    "french": "taciturne",
     "tier": 5
   },
   "personality.determined": {
     "danish": "målbevidst",
     "german": "zielstrebig",
     "english": "determined",
+    "spanish": "decidido",
+    "french": "déterminé",
     "tier": 4
   },
   "personality.risk-taking": {
     "danish": "risikovillig",
     "german": "risikofreudig",
     "english": "risk-taking",
+    "spanish": "arriesgado",
+    "french": "aventureux",
     "tier": 5
   },
   "personality.demanding": {
     "danish": "krævende",
     "german": "anspruchsvoll",
     "english": "demanding",
+    "spanish": "exigente",
+    "french": "exigeant",
     "tier": 4
   },
   "personality.frugal": {
     "danish": "nøjsom",
     "german": "genügsam",
     "english": "frugal",
+    "spanish": "frugal",
+    "french": "frugal",
     "tier": 5
   },
   "personality.wasteful": {
     "danish": "ødsel",
     "german": "verschwenderisch",
     "english": "wasteful",
+    "spanish": "derrochador",
+    "french": "gaspilleur",
     "tier": 5
   },
   "personality.thrifty": {
     "danish": "sparsommelig",
     "german": "sparsam",
     "english": "thrifty",
+    "spanish": "ahorrador",
+    "french": "économe",
     "tier": 3
   },
   "personality.lively": {
     "danish": "livlig",
     "german": "lebhaft",
     "english": "lively",
+    "spanish": "vivaz",
+    "french": "vif",
     "tier": 3
   },
   "personality.energetic": {
     "danish": "energisk",
     "german": "energisch",
     "english": "energetic",
+    "spanish": "enérgico",
+    "french": "énergique",
     "tier": 3
   },
   "personality.dynamic": {
     "danish": "handlekraftig",
     "german": "tatkräftig",
     "english": "dynamic",
+    "spanish": "dinámico",
+    "french": "dynamique",
     "tier": 5
   },
   "personality.resolute": {
     "danish": "beslutsom",
     "german": "entschlossen",
     "english": "resolute",
+    "spanish": "resuelto",
+    "french": "résolu",
     "tier": 4
   },
   "personality.hesitant": {
     "danish": "tøvende",
     "german": "zögerlich",
     "english": "hesitant",
+    "spanish": "vacilante",
+    "french": "hésitant",
     "tier": 5
   },
   "personality.careless": {
     "danish": "sjusket",
     "german": "nachlässig",
     "english": "careless",
+    "spanish": "descuidado",
+    "french": "négligent",
     "tier": 5
   },
   "personality.petty": {
     "danish": "smålig",
     "german": "kleinlich",
     "english": "petty",
+    "spanish": "mezquino",
+    "french": "mesquin",
     "tier": 5
   },
   "personality.virtuous": {
     "danish": "dydig",
     "german": "tugendhaft",
     "english": "virtuous",
+    "spanish": "virtuoso",
+    "french": "vertueux",
     "tier": 5
   },
   "personality.uninhibited": {
     "danish": "hæmningsløs",
     "german": "hemmungslos",
     "english": "uninhibited",
+    "spanish": "desinhibido",
+    "french": "désinhibé",
     "tier": 5
   },
   "personality.sturdy": {
     "danish": "kraftig",
     "german": "kräftig",
     "english": "sturdy",
+    "spanish": "robusto",
+    "french": "robuste",
     "tier": 3
   },
   "personality.stocky": {
     "danish": "undersætsig",
     "german": "stämmig",
     "english": "stocky",
+    "spanish": "achaparrado",
+    "french": "trapu",
     "tier": 5
   },
   "personality.chubby": {
     "danish": "buttet",
     "german": "pummelig",
     "english": "chubby",
+    "spanish": "regordete",
+    "french": "potelé",
     "tier": 5
   },
   "personality.gaunt": {
     "danish": "radmager",
     "german": "hager",
     "english": "gaunt",
+    "spanish": "demacrado",
+    "french": "émacié",
     "tier": 5
   },
   "personality.red-haired": {
     "danish": "rødhåret",
     "german": "rothaarig",
     "english": "red-haired",
+    "spanish": "pelirrojo",
+    "french": "roux",
     "tier": 3
   },
   "personality.brown-haired": {
     "danish": "brunhåret",
     "german": "braunhaarig",
     "english": "brown-haired",
+    "spanish": "castaño",
+    "french": "châtain",
     "tier": 3
   },
   "personality.grey-haired": {
     "danish": "gråhåret",
     "german": "grauhaarig",
     "english": "grey-haired",
+    "spanish": "canoso",
+    "french": "aux cheveux gris",
     "tier": 3
   },
   "personality.freckled": {
     "danish": "fregnet",
     "german": "sommersprossig",
     "english": "freckled",
+    "spanish": "pecoso",
+    "french": "couvert de taches de rousseur",
     "tier": 5
   },
   "personality.bearded": {
     "danish": "skægget",
     "german": "bärtig",
     "english": "bearded",
+    "spanish": "barbudo",
+    "french": "barbu",
     "tier": 4
   },
   "personality.wrinkled": {
     "danish": "rynket",
     "german": "faltig",
     "english": "wrinkled",
+    "spanish": "arrugado",
+    "french": "ridé",
     "tier": 4
   },
   "personality.pale": {
     "danish": "bleg",
     "german": "blass",
     "english": "pale",
+    "spanish": "pálido",
+    "french": "pâle",
     "tier": 3
   },
   "personality.tanned": {
     "danish": "solbrændt",
     "german": "braun gebrannt",
     "english": "tanned",
+    "spanish": "bronceado",
+    "french": "bronzé",
     "tier": 4
   },
   "personality.attractive": {
     "danish": "attraktiv",
     "german": "attraktiv",
     "english": "attractive",
+    "spanish": "atractivo",
+    "french": "attrayant",
     "tier": 3
   },
   "personality.conspicuous": {
     "danish": "iøjnefaldende",
     "german": "auffällig",
     "english": "conspicuous",
+    "spanish": "llamativo",
+    "french": "voyant",
     "tier": 4
   },
   "personality.tactful": {
     "danish": "taktfuld",
     "german": "taktvoll",
     "english": "tactful",
+    "spanish": "diplomático",
+    "french": "délicat",
     "tier": 5
   },
   "personality.adaptable": {
     "danish": "tilpasningsdygtig",
     "german": "anpassungsfähig",
     "english": "adaptable",
+    "spanish": "adaptable",
+    "french": "adaptable",
     "tier": 5
   },
   "personality.temperament": {
     "danish": "temperament",
     "german": "Temperament",
     "english": "temperament",
+    "spanish": "el temperamento",
+    "french": "le tempérament",
     "gender": "das",
     "danishDefinite": "temperamentet",
     "danishIndefinite": "et temperament",
@@ -657,6 +867,8 @@
     "danish": "nærighed",
     "german": "Geiz",
     "english": "stinginess",
+    "spanish": "la tacañería",
+    "french": "l'avarice",
     "gender": "der",
     "danishDefinite": "nærigheden",
     "danishIndefinite": "en nærighed",
@@ -666,6 +878,8 @@
     "danish": "gavmildhed",
     "german": "Großzügigkeit",
     "english": "generosity",
+    "spanish": "la generosidad",
+    "french": "la générosité",
     "gender": "die",
     "danishDefinite": "gavmildheden",
     "danishIndefinite": "en gavmildhed",
@@ -675,6 +889,8 @@
     "danish": "beskedenhed",
     "german": "Bescheidenheit",
     "english": "modesty",
+    "spanish": "la modestia",
+    "french": "la modestie",
     "gender": "die",
     "danishDefinite": "beskedenheden",
     "danishIndefinite": "en beskedenhed",
@@ -684,6 +900,8 @@
     "danish": "venlighed",
     "german": "Freundlichkeit",
     "english": "kindness",
+    "spanish": "la amabilidad",
+    "french": "la gentillesse",
     "gender": "die",
     "danishDefinite": "venligheden",
     "danishIndefinite": "en venlighed",
@@ -693,6 +911,8 @@
     "danish": "høflighed",
     "german": "Höflichkeit",
     "english": "politeness",
+    "spanish": "la cortesía",
+    "french": "la politesse",
     "gender": "die",
     "danishDefinite": "høfligheden",
     "danishIndefinite": "en høflighed",
@@ -702,6 +922,8 @@
     "danish": "pålidelighed",
     "german": "Zuverlässigkeit",
     "english": "reliability",
+    "spanish": "la fiabilidad",
+    "french": "la fiabilité",
     "gender": "die",
     "danishDefinite": "pålideligheden",
     "danishIndefinite": "en pålidelighed",
@@ -711,6 +933,8 @@
     "danish": "generthed",
     "german": "Schüchternheit",
     "english": "shyness",
+    "spanish": "la timidez",
+    "french": "la timidité",
     "gender": "die",
     "danishDefinite": "genertheden",
     "danishIndefinite": "en generthed",
@@ -720,6 +944,8 @@
     "danish": "flid",
     "german": "Fleiß",
     "english": "diligence",
+    "spanish": "la diligencia",
+    "french": "l'application",
     "gender": "der",
     "danishDefinite": "fliden",
     "danishIndefinite": "en flid",
@@ -729,6 +955,8 @@
     "danish": "forfængelighed",
     "german": "Eitelkeit",
     "english": "vanity",
+    "spanish": "la vanidad",
+    "french": "la vanité",
     "gender": "die",
     "danishDefinite": "forfængeligheden",
     "danishIndefinite": "en forfængelighed",
@@ -738,6 +966,8 @@
     "danish": "vane",
     "german": "Gewohnheit",
     "english": "habit",
+    "spanish": "el hábito",
+    "french": "l'habitude",
     "gender": "die",
     "danishDefinite": "vanen",
     "danishIndefinite": "en vane",
@@ -747,6 +977,8 @@
     "danish": "dyd",
     "german": "Tugend",
     "english": "virtue",
+    "spanish": "la virtud",
+    "french": "la vertu",
     "gender": "die",
     "danishDefinite": "dyden",
     "danishIndefinite": "en dyd",
@@ -756,6 +988,8 @@
     "danish": "last",
     "german": "Laster",
     "english": "vice",
+    "spanish": "el vicio",
+    "french": "le vice",
     "gender": "das",
     "danishDefinite": "lasten",
     "danishIndefinite": "en last",
@@ -765,6 +999,8 @@
     "danish": "smilehul",
     "german": "Grübchen",
     "english": "dimple",
+    "spanish": "el hoyuelo",
+    "french": "la fossette",
     "gender": "das",
     "danishDefinite": "smilehullet",
     "danishIndefinite": "et smilehul",
@@ -774,6 +1010,8 @@
     "danish": "lok",
     "german": "Locke",
     "english": "curl",
+    "spanish": "el rizo",
+    "french": "la boucle",
     "gender": "die",
     "danishDefinite": "lokken",
     "danishIndefinite": "en lok",
@@ -783,6 +1021,8 @@
     "danish": "fletning",
     "german": "Zopf",
     "english": "plait",
+    "spanish": "la trenza",
+    "french": "la tresse",
     "gender": "der",
     "danishDefinite": "fletningen",
     "danishIndefinite": "en fletning",
@@ -792,6 +1032,8 @@
     "danish": "pandehår",
     "german": "Pony",
     "english": "fringe",
+    "spanish": "el flequillo",
+    "french": "la frange",
     "gender": "der",
     "danishDefinite": "pandehåret",
     "danishIndefinite": "et pandehår",

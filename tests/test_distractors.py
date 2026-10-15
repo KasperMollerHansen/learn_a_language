@@ -45,14 +45,21 @@ def test_every_word_has_two_unambiguous_distractors(
     level: dict[str, Any], source: str, target: str
 ) -> None:
     pool = level_word_ids(BANK, level)
+    targets = {word_id: BANK["words"][word_id][target] for word_id in pool}
+    if level["mode"] == "word":
+        distinct = set(targets.values())
+        for word_id in pool:
+            accepted = accepted_answers(BANK["words"][word_id], source, target)
+            assert len(distinct - accepted) >= 2, word_id
+        return
+    forms = [
+        (form, case, {other: article_answer(other, form, case) for other in pool})
+        for form in ("definite", "indefinite")
+        for case in BANK["grammar"]["cases"]
+    ]
     for word_id in pool:
         accepted = accepted_answers(BANK["words"][word_id], source, target)
-        eligible = [other for other in pool if BANK["words"][other][target] not in accepted]
-        if level["mode"] == "word":
-            assert len({BANK["words"][other][target] for other in eligible}) >= 2, word_id
-            continue
-        for form in ("definite", "indefinite"):
-            for case in BANK["grammar"]["cases"]:
-                correct = article_answer(word_id, form, case)
-                answers = {article_answer(other, form, case) for other in eligible} - {correct}
-                assert len(answers) >= 2, (word_id, form, case)
+        eligible = [other for other in pool if targets[other] not in accepted]
+        for form, case, answers_by_word in forms:
+            answers = {answers_by_word[other] for other in eligible} - {answers_by_word[word_id]}
+            assert len(answers) >= 2, (word_id, form, case)

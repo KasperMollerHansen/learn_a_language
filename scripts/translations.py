@@ -12,9 +12,24 @@ ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
 CSV_PATH = ROOT / "translations.csv"
 
-TEXT_FIELDS = ["danish", "german", "english", "gender", "danishDefinite", "danishIndefinite"]
+TEXT_FIELDS = [
+    "danish",
+    "german",
+    "english",
+    "spanish",
+    "french",
+    "gender",
+    "danishDefinite",
+    "danishIndefinite",
+]
 # Sentence-builder chunks list their gate options per target language.
-OPTION_FIELDS = ["danishOptions", "germanOptions", "englishOptions"]
+OPTION_FIELDS = [
+    "danishOptions",
+    "germanOptions",
+    "englishOptions",
+    "spanishOptions",
+    "frenchOptions",
+]
 COLUMNS = ["id", "levels", *TEXT_FIELDS, *OPTION_FIELDS, "checked", "comment"]
 OPTIONS_SEP = " | "
 DELIMITER = ";"

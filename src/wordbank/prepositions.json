@@ -3,312 +3,416 @@
     "danish": "i",
     "german": "in",
     "english": "in",
+    "spanish": "en",
+    "french": "dans",
     "tier": 1
   },
   "prepositions.on": {
     "danish": "på",
     "german": "auf",
     "english": "on",
+    "spanish": "sobre",
+    "french": "sur",
     "tier": 1
   },
   "prepositions.under": {
     "danish": "under",
     "german": "unter",
     "english": "under",
+    "spanish": "bajo",
+    "french": "sous",
     "tier": 1
   },
   "prepositions.over": {
     "danish": "over",
     "german": "über",
     "english": "over",
+    "spanish": "por encima de",
+    "french": "par-dessus",
     "tier": 1
   },
   "prepositions.behind": {
     "danish": "bagved",
     "german": "hinter",
     "english": "behind",
+    "spanish": "detrás de",
+    "french": "derrière",
     "tier": 2
   },
   "prepositions.infrontof": {
     "danish": "foran",
     "german": "vor",
     "english": "in front of",
+    "spanish": "delante de",
+    "french": "devant",
     "tier": 1
   },
   "prepositions.beside": {
     "danish": "ved siden af",
     "german": "neben",
     "english": "beside",
+    "spanish": "junto a",
+    "french": "à côté de",
     "tier": 2
   },
   "prepositions.between": {
     "danish": "mellem",
     "german": "zwischen",
     "english": "between",
+    "spanish": "entre",
+    "french": "entre",
     "tier": 2
   },
   "prepositions.with": {
     "danish": "med",
     "german": "mit",
     "english": "with",
+    "spanish": "con",
+    "french": "avec",
     "tier": 1
   },
   "prepositions.without": {
     "danish": "uden",
     "german": "ohne",
     "english": "without",
+    "spanish": "sin",
+    "french": "sans",
     "tier": 1
   },
   "prepositions.from": {
     "danish": "fra",
     "german": "von",
     "english": "from",
+    "spanish": "de",
+    "french": "de",
     "tier": 1
   },
   "prepositions.to": {
     "danish": "til",
     "german": "zu",
     "english": "to",
+    "spanish": "a",
+    "french": "à",
     "tier": 1
   },
   "prepositions.before": {
     "danish": "før",
     "german": "vor",
     "english": "before",
+    "spanish": "antes de",
+    "french": "avant",
     "tier": 1
   },
   "prepositions.after": {
     "danish": "efter",
     "german": "nach",
     "english": "after",
+    "spanish": "después de",
+    "french": "après",
     "tier": 1
   },
   "prepositions.around": {
     "danish": "omkring",
     "german": "um",
     "english": "around",
+    "spanish": "alrededor de",
+    "french": "autour de",
     "tier": 1
   },
   "prepositions.through": {
     "danish": "gennem",
     "german": "durch",
     "english": "through",
+    "spanish": "a través de",
+    "french": "à travers",
     "tier": 2
   },
   "prepositions.across": {
     "danish": "tværs over",
     "german": "über",
     "english": "across",
+    "spanish": "al otro lado de",
+    "french": "en travers de",
     "tier": 2
   },
   "prepositions.near": {
     "danish": "nær",
     "german": "nahe",
     "english": "near",
+    "spanish": "cerca de",
+    "french": "près de",
     "tier": 3
   },
   "prepositions.farfrom": {
     "danish": "langt fra",
     "german": "weit von",
     "english": "far from",
+    "spanish": "lejos de",
+    "french": "loin de",
     "tier": 2
   },
   "prepositions.inside": {
     "danish": "inde i",
     "german": "innerhalb",
     "english": "inside",
+    "spanish": "dentro de",
+    "french": "à l'intérieur de",
     "tier": 3
   },
   "prepositions.outside": {
     "danish": "uden for",
     "german": "außerhalb",
     "english": "outside",
+    "spanish": "fuera de",
+    "french": "à l'extérieur de",
     "tier": 3
   },
   "prepositions.above": {
     "danish": "over",
     "german": "oberhalb",
     "english": "above",
+    "spanish": "encima de",
+    "french": "au-dessus de",
     "tier": 4
   },
   "prepositions.below": {
     "danish": "under",
     "german": "unterhalb",
     "english": "below",
+    "spanish": "debajo de",
+    "french": "en dessous de",
     "tier": 4
   },
   "prepositions.into": {
     "danish": "ind i",
     "german": "in",
     "english": "into",
+    "spanish": "hacia dentro de",
+    "french": "dans",
     "tier": 1
   },
   "prepositions.outof": {
     "danish": "ud af",
     "german": "aus",
     "english": "out of",
+    "spanish": "desde dentro de",
+    "french": "hors de",
     "tier": 1
   },
   "prepositions.along": {
     "danish": "langs med",
     "german": "entlang",
     "english": "along",
+    "spanish": "a lo largo de",
+    "french": "le long de",
     "tier": 3
   },
   "prepositions.against": {
     "danish": "imod",
     "german": "gegen",
     "english": "against",
+    "spanish": "contra",
+    "french": "contre",
     "tier": 2
   },
   "prepositions.among": {
     "danish": "blandt",
     "german": "unter",
     "english": "among",
+    "spanish": "entre",
+    "french": "parmi",
     "tier": 3
   },
   "prepositions.nextto": {
     "danish": "ved siden af",
     "german": "neben",
     "english": "next to",
+    "spanish": "al lado de",
+    "french": "à côté de",
     "tier": 2
   },
   "prepositions.during": {
     "danish": "under",
     "german": "während",
     "english": "during",
+    "spanish": "durante",
+    "french": "pendant",
     "tier": 3
   },
   "prepositions.at": {
     "danish": "hos",
     "german": "bei",
     "english": "at",
+    "spanish": "en casa de",
+    "french": "chez",
     "tier": 1
   },
   "prepositions.statt": {
     "danish": "i stedet for",
     "german": "statt",
     "english": "instead of",
+    "spanish": "en lugar de",
+    "french": "au lieu de",
     "tier": 4
   },
   "prepositions.bezueglich": {
     "danish": "angående",
     "german": "bezüglich",
     "english": "regarding",
+    "spanish": "con respecto a",
+    "french": "concernant",
     "tier": 4
   },
   "prepositions.aufgrund": {
     "danish": "på grund af",
     "german": "aufgrund",
     "english": "due to",
+    "spanish": "debido a",
+    "french": "en raison de",
     "tier": 4
   },
   "prepositions.ausser": {
     "danish": "undtagen",
     "german": "außer",
     "english": "except",
+    "spanish": "excepto",
+    "french": "sauf",
     "tier": 2
   },
   "prepositions.gemaess": {
     "danish": "i henhold til",
     "german": "gemäß",
     "english": "in accordance with",
+    "spanish": "de acuerdo con",
+    "french": "conformément à",
     "tier": 5
   },
   "prepositions.hinsichtlich": {
     "danish": "med hensyn til",
     "german": "hinsichtlich",
     "english": "with regard to",
+    "spanish": "en cuanto a",
+    "french": "en ce qui concerne",
     "tier": 5
   },
   "prepositions.infolge": {
     "danish": "som følge af",
     "german": "infolge",
     "english": "as a result of",
+    "spanish": "como consecuencia de",
+    "french": "à la suite de",
     "tier": 5
   },
   "prepositions.mittels": {
     "danish": "ved hjælp af",
     "german": "mittels",
     "english": "by means of",
+    "spanish": "mediante",
+    "french": "au moyen de",
     "tier": 5
   },
   "prepositions.anlaesslich": {
     "danish": "i anledning af",
     "german": "anlässlich",
     "english": "on the occasion of",
+    "spanish": "con motivo de",
+    "french": "à l'occasion de",
     "tier": 5
   },
   "prepositions.zwecks": {
     "danish": "med henblik på",
     "german": "zwecks",
     "english": "for the purpose of",
+    "spanish": "con el fin de",
+    "french": "dans le but de",
     "tier": 5
   },
   "prepositions.angesichts": {
     "danish": "i lyset af",
     "german": "angesichts",
     "english": "in view of",
+    "spanish": "en vista de",
+    "french": "face à",
     "tier": 5
   },
   "prepositions.unweit": {
     "danish": "ikke langt fra",
     "german": "unweit",
     "english": "not far from",
+    "spanish": "no lejos de",
+    "french": "non loin de",
     "tier": 5
   },
   "prepositions.diesseits": {
     "danish": "på denne side af",
     "german": "diesseits",
     "english": "on this side of",
+    "spanish": "de este lado de",
+    "french": "en deçà de",
     "tier": 5
   },
   "prepositions.jenseits": {
     "danish": "hinsides",
     "german": "jenseits",
     "english": "beyond",
+    "spanish": "más allá de",
+    "french": "au-delà de",
     "tier": 5
   },
   "prepositions.entgegen": {
     "danish": "i modstrid med",
     "german": "entgegen",
     "english": "contrary to",
+    "spanish": "en contra de",
+    "french": "contrairement à",
     "tier": 5
   },
   "prepositions.ungeachtet": {
     "danish": "uanset",
     "german": "ungeachtet",
     "english": "regardless of",
+    "spanish": "a pesar de",
+    "french": "malgré",
     "tier": 5
   },
   "prepositions.mangels": {
     "danish": "i mangel af",
     "german": "mangels",
     "english": "for lack of",
+    "spanish": "por falta de",
+    "french": "faute de",
     "tier": 5
   },
   "prepositions.anhand": {
     "danish": "ud fra",
     "german": "anhand",
     "english": "on the basis of (evidence)",
+    "spanish": "a partir de",
+    "french": "d'après",
     "tier": 5
   },
   "prepositions.zugunsten": {
     "danish": "til fordel for",
     "german": "zugunsten",
     "english": "in favour of",
+    "spanish": "a favor de",
+    "french": "en faveur de",
     "tier": 5
   },
   "prepositions.zulasten": {
     "danish": "på bekostning af",
     "german": "zulasten",
     "english": "at the expense of",
+    "spanish": "a costa de",
+    "french": "aux dépens de",
     "tier": 5
   },
   "prepositions.entsprechend": {
     "danish": "i overensstemmelse med",
     "german": "entsprechend",
     "english": "in line with",
+    "spanish": "en línea con",
+    "french": "en accord avec",
     "tier": 5
   }
 }
