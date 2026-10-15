@@ -29,7 +29,7 @@ def test_csv_is_in_sync_with_wordbank() -> None:
     assert ids == list(words), "translations.csv is stale: run scripts/translations.py export"
     for row in rows:
         expected = script.entry_to_row(row["id"], words[row["id"]], [])
-        for column in [*script.TEXT_FIELDS, "options"]:
+        for column in [*script.TEXT_FIELDS, *script.OPTION_FIELDS]:
             assert row[column] == expected[column], f"{row['id']}.{column}"
 
 
