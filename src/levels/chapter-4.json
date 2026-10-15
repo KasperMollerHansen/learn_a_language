@@ -2,7 +2,7 @@
   {
     "id": "4-1",
     "chapter": "Chapter 4 · Fluent",
-    "name": "People",
+    "name": "People and feelings",
     "mode": "word",
     "prompt": "Find the German word for",
     "categories": [
@@ -46,7 +46,7 @@
   {
     "id": "4-4",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Small words",
+    "name": "Small words, numbers and time",
     "mode": "word",
     "prompt": "Find the German word for",
     "categories": [
@@ -90,7 +90,7 @@
   {
     "id": "4-7",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Home",
+    "name": "Home and everyday things",
     "mode": "word",
     "prompt": "Find the German word for",
     "categories": [
@@ -108,7 +108,7 @@
   {
     "id": "4-8",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Body and clothes",
+    "name": "Body, health and clothes",
     "mode": "word",
     "prompt": "Find the German word for",
     "categories": [
@@ -123,7 +123,7 @@
   {
     "id": "4-9",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Nature",
+    "name": "Animals, nature and weather",
     "mode": "word",
     "prompt": "Find the German word for",
     "categories": [
@@ -139,7 +139,7 @@
   {
     "id": "4-10",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Town and travel",
+    "name": "Town, travel and shopping",
     "mode": "word",
     "prompt": "Find the German word for",
     "categories": [
@@ -156,7 +156,7 @@
   {
     "id": "4-11",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Free time",
+    "name": "Sport, music and hobbies",
     "mode": "word",
     "prompt": "Find the German word for",
     "categories": [
@@ -171,7 +171,7 @@
   {
     "id": "4-12",
     "chapter": "Chapter 4 · Fluent",
-    "name": "Work and school",
+    "name": "Work, school and society",
     "mode": "word",
     "prompt": "Find the German word for",
     "categories": [
