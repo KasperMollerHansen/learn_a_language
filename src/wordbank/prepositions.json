@@ -132,7 +132,7 @@
     "german": "über",
     "english": "across",
     "spanish": "al otro lado de",
-    "french": "en travers de",
+    "french": "à travers",
     "tier": 2
   },
   "prepositions.near": {
@@ -187,7 +187,7 @@
     "danish": "ind i",
     "german": "in",
     "english": "into",
-    "spanish": "hacia dentro de",
+    "spanish": "hacia el interior de",
     "french": "dans",
     "tier": 1
   },
@@ -195,7 +195,7 @@
     "danish": "ud af",
     "german": "aus",
     "english": "out of",
-    "spanish": "desde dentro de",
+    "spanish": "de",
     "french": "hors de",
     "tier": 1
   },
@@ -363,7 +363,7 @@
     "danish": "i modstrid med",
     "german": "entgegen",
     "english": "contrary to",
-    "spanish": "en contra de",
+    "spanish": "contrariamente a",
     "french": "contrairement à",
     "tier": 5
   },
@@ -371,7 +371,7 @@
     "danish": "uanset",
     "german": "ungeachtet",
     "english": "regardless of",
-    "spanish": "a pesar de",
+    "spanish": "independientemente de",
     "french": "malgré",
     "tier": 5
   },
@@ -387,7 +387,7 @@
     "danish": "ud fra",
     "german": "anhand",
     "english": "on the basis of (evidence)",
-    "spanish": "a partir de",
+    "spanish": "basándose en",
     "french": "d'après",
     "tier": 5
   },
@@ -411,7 +411,7 @@
     "danish": "i overensstemmelse med",
     "german": "entsprechend",
     "english": "in line with",
-    "spanish": "en línea con",
+    "spanish": "conforme a",
     "french": "en accord avec",
     "tier": 5
   }

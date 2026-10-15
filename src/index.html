@@ -282,7 +282,7 @@
         german: { code: "de", name: "German", wellDone: "Sehr gut!" },
         english: { code: "en", name: "English", wellDone: "Well done!" },
         spanish: { code: "es", name: "Spanish", wellDone: "¡Muy bien!" },
-        french: { code: "fr", name: "French", wellDone: "Très bien !" }
+        french: { code: "fr", name: "French", wellDone: "Très bien !" }
       };
       const languageKeys = Object.keys(languages);
       // Which pairs a level mode can be played in: article mode drills German articles from Danish or English (Spanish and French nouns carry their own article); word and sentence levels work in every pair.
@@ -348,7 +348,7 @@
       let installPrompt, activePointerId = null, activeSentenceId = null, sentenceProgress = [];
 
       function shuffle(items) { return [...items].sort(() => Math.random() - .5); }
-      const promptKey = (word) => word[pair.source].trim().toLowerCase();
+      const promptKey = (word) => word[pair.source].trim().toLowerCase().replaceAll("’", "'");
       // Every target word that is a correct answer for this word's prompt; such words never appear as wrong gates.
       function acceptedAnswers(word) {
         return new Set([...(answersByPrompt.get(promptKey(word)) || []), ...(word[`${pair.target}Alternatives`] || [])]);
@@ -381,7 +381,6 @@
         }
         return deck;
       }
-      // The prompt sentence is its chunks in the source language, joined by spaces except after an apostrophe, with the active chunk marked.
       // Chunks are separated by a space, except after an apostrophe (French elision: "J'" + "ai").
       function chunkGap(text) {
         return /['’]$/.test(text) ? "" : " ";
@@ -501,8 +500,13 @@
           $("#prompt-label").textContent = fillLanguages(level.prompt);
           $("#word").textContent = currentWord[pair.source];
           const accepted = acceptedAnswers(currentWord);
-          const distractors = [...new Map(shuffle(level.words.filter((word) => !accepted.has(word[pair.target])))
-            .map((word) => [word[pair.target], word])).values()].slice(0, 2);
+          // Same kind first (noun vs non-noun), so an article or capital never gives the answer away.
+          const eligible = level.words.filter((word) => !accepted.has(word[pair.target]));
+          const sameKind = (word) => ("gender" in word) === ("gender" in currentWord);
+          const unique = (words) => [...new Map(words.map((word) => [word[pair.target], word])).values()];
+          const preferred = unique(shuffle(eligible.filter(sameKind)));
+          const distractors = preferred.length >= 2 ? preferred.slice(0, 2)
+            : unique([...preferred, ...shuffle(eligible.filter((word) => !sameKind(word)))]).slice(0, 2);
           options = shuffle([currentWord, ...distractors]).map((word) => word[pair.target]);
           correctLane = options.indexOf(currentWord[pair.target]);
         }

@@ -26,6 +26,7 @@ BARE_NOUNS: dict[str, set[str]] = {
     "time.easter": {"french"},
     "culture.pentecost": {"spanish"},
     "culture.halloween": {"spanish", "french"},
+    "numbers.billion": {"spanish"},
 }
 
 
@@ -143,7 +144,7 @@ def test_reference_spanish_and_french_translations_match_expected_pairs() -> Non
 def test_spanish_and_french_nouns_carry_their_definite_article() -> None:
     bank = load_wordbank()
     spanish = ("el ", "la ", "los ", "las ")
-    french = ("le ", "la ", "les ", "l'")
+    french = ("le ", "la ", "les ", "l'", "l’")
 
     for word_id, word in bank["words"].items():
         if "gender" not in word or word_id.startswith("countries."):
@@ -239,7 +240,10 @@ def test_sentence_builder_chunks_have_ordered_answers_and_distractors() -> None:
             for chunk in ordered:
                 gap = "" if text.endswith(("'", "’")) else " "
                 text += (gap if text else "") + cast(str, chunk[language])
-            assert text[0].isupper() and text.endswith("."), (parts[0]["sentenceId"], language)
+            assert next(c for c in text if c.isalpha()).isupper() and text.endswith("."), (
+                parts[0]["sentenceId"],
+                language,
+            )
 
     sentences_per_tier: dict[int, int] = {}
     for parts in sentences.values():

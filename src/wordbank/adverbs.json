@@ -51,7 +51,7 @@
     "danish": "for det meste",
     "german": "meistens",
     "english": "mostly",
-    "spanish": "en su mayoría",
+    "spanish": "casi siempre",
     "french": "la plupart du temps",
     "tier": 2
   },
@@ -172,7 +172,7 @@
     "german": "weg",
     "english": "away",
     "spanish": "lejos",
-    "french": "au loin",
+    "french": "ailleurs",
     "tier": 2
   },
   "adverbs.far": {
@@ -339,8 +339,8 @@
     "danish": "allerhelst",
     "german": "am liebsten",
     "english": "most of all",
-    "spanish": "más que nada",
-    "french": "avant tout",
+    "spanish": "sobre todo",
+    "french": "de préférence",
     "tier": 2
   },
   "adverbs.more": {
@@ -595,7 +595,7 @@
     "danish": "forbi",
     "german": "vorbei",
     "english": "past",
-    "spanish": "pasado",
+    "spanish": "terminado",
     "french": "fini",
     "tier": 2
   },
@@ -812,7 +812,7 @@
     "german": "zu viel",
     "english": "too much",
     "spanish": "en exceso",
-    "french": "beaucoup trop",
+    "french": "trop",
     "tier": 2
   },
   "adverbs.too-little": {
@@ -1100,7 +1100,7 @@
     "german": "keineswegs",
     "english": "by no means",
     "spanish": "de ningún modo",
-    "french": "en aucun cas",
+    "french": "nullement",
     "tier": 5
   },
   "adverbs.allmaehlich": {

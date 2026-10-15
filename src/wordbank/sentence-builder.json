@@ -3352,7 +3352,7 @@
     "german": "Ich wünschte,",
     "english": "I wish",
     "spanish": "Quisiera",
-    "french": "Je souhaite",
+    "french": "Je voudrais",
     "sentenceId": "oenske",
     "step": 1,
     "steps": 3,
@@ -3377,9 +3377,9 @@
       "Quise"
     ],
     "frenchOptions": [
-      "Je souhaites",
-      "Je souhaite",
-      "Tu souhaites"
+      "Je voudrai",
+      "Je voudrais",
+      "Je voulais"
     ],
     "tier": 4
   },

@@ -347,7 +347,7 @@
     "danish": "at overnatte",
     "german": "übernachten",
     "english": "to stay overnight",
-    "spanish": "pernoctar",
+    "spanish": "pasar la noche",
     "french": "passer la nuit",
     "tier": 2
   },
@@ -411,7 +411,7 @@
     "danish": "at komme med",
     "german": "mitkommen",
     "english": "to come along",
-    "spanish": "acompañar",
+    "spanish": "venir con",
     "french": "venir avec",
     "tier": 1
   },
@@ -892,7 +892,7 @@
     "german": "aufhören",
     "english": "to stop",
     "spanish": "parar",
-    "french": "cesser",
+    "french": "arrêter",
     "tier": 2
   },
   "verbs.try": {
@@ -1140,7 +1140,7 @@
     "german": "braten",
     "english": "to fry",
     "spanish": "freír",
-    "french": "frire",
+    "french": "faire revenir",
     "tier": 2
   },
   "verbs.taste": {
@@ -1148,7 +1148,7 @@
     "german": "schmecken",
     "english": "to taste",
     "spanish": "tener sabor",
-    "french": "avoir bon goût",
+    "french": "goûter",
     "tier": 1
   },
   "verbs.smell": {
@@ -1252,7 +1252,7 @@
     "german": "ausfüllen",
     "english": "to fill in",
     "spanish": "rellenar",
-    "french": "compléter",
+    "french": "remplir",
     "tier": 1
   },
   "verbs.sign": {
@@ -1564,14 +1564,14 @@
     "german": "herauskommen",
     "english": "to come out",
     "spanish": "salir",
-    "french": "ressortir",
+    "french": "sortir",
     "tier": 3
   },
   "verbs.enter-a-country": {
     "danish": "at rejse ind",
     "german": "einreisen",
     "english": "to enter a country",
-    "spanish": "entrar al país",
+    "spanish": "entrar en el país",
     "french": "entrer dans le pays",
     "tier": 3
   },
@@ -1596,7 +1596,7 @@
     "german": "weglaufen",
     "english": "to run away",
     "spanish": "escaparse",
-    "french": "s'échapper",
+    "french": "s'enfuir",
     "tier": 3
   },
   "verbs.flee": {
@@ -1756,7 +1756,7 @@
     "german": "mähen",
     "english": "to mow",
     "spanish": "segar",
-    "french": "faucher",
+    "french": "tondre",
     "tier": 4
   },
   "verbs.sweep": {
@@ -1787,7 +1787,7 @@
     "danish": "at hænge op",
     "german": "aufhängen",
     "english": "to hang up",
-    "spanish": "colgar algo",
+    "spanish": "colgar",
     "french": "accrocher",
     "tier": 2
   },
@@ -2004,7 +2004,7 @@
     "german": "mailen",
     "english": "to email",
     "spanish": "enviar un correo",
-    "french": "envoyer un courriel",
+    "french": "envoyer un mail",
     "tier": 2
   },
   "verbs.text": {
@@ -2027,8 +2027,8 @@
     "danish": "at berette",
     "german": "berichten",
     "english": "to report",
-    "spanish": "relatar",
-    "french": "rapporter",
+    "spanish": "dar cuenta de",
+    "french": "relater",
     "tier": 3
   },
   "verbs.mention": {
@@ -2268,7 +2268,7 @@
     "german": "bitten",
     "english": "to ask for",
     "spanish": "pedir",
-    "french": "solliciter",
+    "french": "demander",
     "tier": 2
   },
   "verbs.demand": {
@@ -2284,7 +2284,7 @@
     "german": "anbieten",
     "english": "to offer",
     "spanish": "ofrecer",
-    "french": "offrir",
+    "french": "proposer",
     "tier": 2
   },
   "verbs.accept": {
@@ -2564,7 +2564,7 @@
     "german": "sich sehnen",
     "english": "to long",
     "spanish": "anhelar",
-    "french": "aspirer à",
+    "french": "se languir de",
     "tier": 4
   },
   "verbs.appreciate": {
@@ -2723,7 +2723,7 @@
     "danish": "at forlove sig",
     "german": "sich verloben",
     "english": "to get engaged",
-    "spanish": "prometerse",
+    "spanish": "comprometerse",
     "french": "se fiancer",
     "tier": 3
   },
@@ -2876,7 +2876,7 @@
     "german": "sich verändern",
     "english": "to change oneself",
     "spanish": "transformarse",
-    "french": "se transformer",
+    "french": "changer",
     "tier": 3
   },
   "verbs.worsen": {
@@ -2939,7 +2939,7 @@
     "danish": "at samle",
     "german": "sammeln",
     "english": "to collect",
-    "spanish": "recopilar",
+    "spanish": "juntar",
     "french": "collectionner",
     "tier": 2
   },
@@ -2987,7 +2987,7 @@
     "danish": "at rulle",
     "german": "rollen",
     "english": "to roll",
-    "spanish": "enrollar",
+    "spanish": "rodar",
     "french": "rouler",
     "tier": 3
   },
@@ -3164,7 +3164,7 @@
     "german": "heilen",
     "english": "to heal",
     "spanish": "sanar",
-    "french": "cicatriser",
+    "french": "guérir",
     "tier": 4
   },
   "verbs.treat": {
@@ -3564,7 +3564,7 @@
     "german": "tagen",
     "english": "to hold a meeting",
     "spanish": "reunirse en sesión",
-    "french": "siéger",
+    "french": "tenir une réunion",
     "tier": 4
   },
   "verbs.introduce": {
@@ -3787,7 +3787,7 @@
     "danish": "at udgive",
     "german": "veröffentlichen",
     "english": "to publish",
-    "spanish": "editar",
+    "spanish": "publicar",
     "french": "publier",
     "tier": 4
   },
@@ -3804,7 +3804,7 @@
     "german": "abspielen",
     "english": "to play back",
     "spanish": "reproducir",
-    "french": "faire jouer",
+    "french": "lire",
     "tier": 4
   },
   "verbs.broadcast": {
@@ -3852,7 +3852,7 @@
     "german": "tapezieren",
     "english": "to wallpaper",
     "spanish": "empapelar",
-    "french": "tapisser",
+    "french": "poser du papier peint",
     "tier": 4
   },
   "verbs.drill": {
@@ -3995,7 +3995,7 @@
     "danish": "at anholde",
     "german": "verhaften",
     "english": "to arrest",
-    "spanish": "arrestar",
+    "spanish": "detener",
     "french": "arrêter",
     "tier": 4
   },
@@ -4364,7 +4364,7 @@
     "german": "klären",
     "english": "to settle",
     "spanish": "esclarecer",
-    "french": "élucider",
+    "french": "régler",
     "tier": 3
   },
   "verbs.avoid": {
@@ -4443,8 +4443,8 @@
     "danish": "at opfatte",
     "german": "auffassen",
     "english": "to perceive",
-    "spanish": "concebir",
-    "french": "concevoir",
+    "spanish": "entender",
+    "french": "appréhender",
     "tier": 5
   },
   "verbs.perceive-with-senses": {
@@ -4460,7 +4460,7 @@
     "german": "betrachten",
     "english": "to view",
     "spanish": "contemplar",
-    "french": "contempler",
+    "french": "considérer",
     "tier": 4
   },
   "verbs.observe": {
@@ -4619,7 +4619,7 @@
     "danish": "at erhverve",
     "german": "erwerben",
     "english": "to obtain",
-    "spanish": "adquirir",
+    "spanish": "obtener",
     "french": "acquérir",
     "tier": 5
   },
@@ -5155,7 +5155,7 @@
     "danish": "at chokere",
     "german": "schockieren",
     "english": "to shock",
-    "spanish": "escandalizar",
+    "spanish": "conmocionar",
     "french": "choquer",
     "tier": 4
   },
@@ -5211,7 +5211,7 @@
     "danish": "at bede til",
     "german": "beten",
     "english": "to pray",
-    "spanish": "orar",
+    "spanish": "rezar",
     "french": "prier",
     "tier": 3
   },

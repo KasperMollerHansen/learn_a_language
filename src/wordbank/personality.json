@@ -196,7 +196,7 @@
     "german": "humorvoll",
     "english": "humorous",
     "spanish": "gracioso",
-    "french": "humoristique",
+    "french": "drôle",
     "tier": 3
   },
   "personality.muscular": {
@@ -251,7 +251,7 @@
     "danish": "jordnær",
     "german": "bodenständig",
     "english": "down-to-earth",
-    "spanish": "práctico",
+    "spanish": "sencillo",
     "french": "pragmatique",
     "tier": 5
   },
@@ -497,14 +497,14 @@
     "german": "anständig",
     "english": "decent",
     "spanish": "decente",
-    "french": "décent",
+    "french": "honnête",
     "tier": 4
   },
   "personality.shameless": {
     "danish": "skamløs",
     "german": "schamlos",
     "english": "shameless",
-    "spanish": "sinvergüenza",
+    "spanish": "desvergonzado",
     "french": "éhonté",
     "tier": 5
   },
@@ -721,7 +721,7 @@
     "german": "hemmungslos",
     "english": "uninhibited",
     "spanish": "desinhibido",
-    "french": "désinhibé",
+    "french": "décomplexé",
     "tier": 5
   },
   "personality.sturdy": {
@@ -825,7 +825,7 @@
     "german": "attraktiv",
     "english": "attractive",
     "spanish": "atractivo",
-    "french": "attrayant",
+    "french": "séduisant",
     "tier": 3
   },
   "personality.conspicuous": {

@@ -300,7 +300,7 @@
     "german": "als",
     "english": "when (past)",
     "spanish": "cuando",
-    "french": "lorsque",
+    "french": "quand",
     "tier": 2
   },
   "function.although": {
@@ -508,7 +508,7 @@
     "german": "solche",
     "english": "such",
     "spanish": "tales",
-    "french": "tels",
+    "french": "de tels",
     "tier": 3
   },
   "function.this": {
@@ -675,7 +675,7 @@
     "danish": "så længe",
     "german": "solange",
     "english": "as long as",
-    "spanish": "siempre y cuando",
+    "spanish": "mientras",
     "french": "tant que",
     "tier": 4
   },
@@ -707,7 +707,7 @@
     "danish": "en eller anden",
     "german": "irgendein",
     "english": "some (or other)",
-    "spanish": "cualquier",
+    "spanish": "algún",
     "french": "quelconque",
     "tier": 4
   },

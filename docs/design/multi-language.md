@@ -34,7 +34,7 @@ reads `word[pair.source]` for the prompt and `word[pair.target]` for the answer.
   Alternatives belong to the target word, not the pair: *unterhalb* is a correct German answer for
   "under" whether the prompt is Danish or English.
 - **Word mode** works for all 20 pairs. Modal sentences (`modals.*`) are word-mode entries with full
-  sentences in all three fields, so they work too.
+  sentences in all five languages, so they work too.
 - **Article mode** only applies when the target is German and the source is Danish or English: Spanish and French nouns carry their own article, which would contradict the definite/indefinite hint. Prompt by source: Danish shows
   `danishDefinite` / `danishIndefinite` as today; English shows the bare `english` noun (the label
   already says definite/indefinite). Levels in this mode are hidden for every other pair. A Danish en/et mode is a separate later mode, not a variant of this one.

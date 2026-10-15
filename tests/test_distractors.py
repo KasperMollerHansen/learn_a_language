@@ -9,11 +9,16 @@ from wordbank import MODE_PAIRS, PAIRS, level_word_ids, load_wordbank
 BANK = load_wordbank()
 
 
+def prompt_key(text: str) -> str:
+    """Mirror promptKey() in src/index.html: trimmed, lower-case, curly apostrophe straightened."""
+    return text.strip().lower().replace("’", "'")
+
+
 def answers_by_prompt(source: str, target: str) -> defaultdict[str, set[str]]:
     """Mirror answersByPrompt in src/index.html: normalised prompt to every target text."""
     answers: defaultdict[str, set[str]] = defaultdict(set)
     for entry in BANK["words"].values():
-        answers[entry[source].strip().lower()].add(entry[target])
+        answers[prompt_key(entry[source])].add(entry[target])
     return answers
 
 
@@ -23,7 +28,7 @@ ANSWERS = {pair: answers_by_prompt(*pair) for pair in PAIRS}
 def accepted_answers(word: dict[str, Any], source: str, target: str) -> set[str]:
     """Mirror acceptedAnswers() in src/index.html: every target valid for this word's prompt."""
     alternatives = set(word.get(f"{target}Alternatives", []))
-    return ANSWERS[(source, target)][word[source].strip().lower()] | alternatives
+    return ANSWERS[(source, target)][prompt_key(word[source])] | alternatives
 
 
 def article_answer(word_id: str, form: str, case: str) -> str:
@@ -47,10 +52,10 @@ def test_every_word_has_two_unambiguous_distractors(
     pool = level_word_ids(BANK, level)
     targets = {word_id: BANK["words"][word_id][target] for word_id in pool}
     if level["mode"] == "word":
-        distinct = set(targets.values())
         for word_id in pool:
             accepted = accepted_answers(BANK["words"][word_id], source, target)
-            assert len(distinct - accepted) >= 2, word_id
+            eligible_texts = {targets[other] for other in pool if targets[other] not in accepted}
+            assert len(eligible_texts) >= 2, word_id
         return
     forms = [
         (form, case, {other: article_answer(other, form, case) for other in pool})

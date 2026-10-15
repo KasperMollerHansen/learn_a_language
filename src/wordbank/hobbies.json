@@ -169,7 +169,7 @@
     "german": "sich sonnen",
     "english": "to sunbathe",
     "spanish": "tomar el sol",
-    "french": "bronzer",
+    "french": "se faire bronzer",
     "tier": 3
   },
   "hobbies.creative": {
@@ -356,7 +356,7 @@
     "danish": "modeljernbane",
     "german": "Modelleisenbahn",
     "english": "model railway",
-    "spanish": "el tren de maqueta",
+    "spanish": "el tren eléctrico",
     "french": "le train miniature",
     "gender": "die",
     "danishDefinite": "modeljernbanen",

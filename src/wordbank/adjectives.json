@@ -251,7 +251,7 @@
     "danish": "kølig",
     "german": "kühl",
     "english": "cool",
-    "spanish": "fresquito",
+    "spanish": "fresco",
     "french": "frisquet",
     "tier": 2
   },
@@ -291,7 +291,7 @@
     "danish": "mæt",
     "german": "satt",
     "english": "full (of food)",
-    "spanish": "saciado",
+    "spanish": "lleno",
     "french": "rassasié",
     "tier": 2
   },
@@ -403,7 +403,7 @@
     "danish": "tyk",
     "german": "dick",
     "english": "thick",
-    "spanish": "espeso",
+    "spanish": "grueso",
     "french": "épais",
     "tier": 2
   },
@@ -531,7 +531,7 @@
     "danish": "kantet",
     "german": "eckig",
     "english": "angular",
-    "spanish": "angular",
+    "spanish": "anguloso",
     "french": "anguleux",
     "tier": 4
   },
@@ -700,7 +700,7 @@
     "german": "fleißig",
     "english": "diligent",
     "spanish": "diligente",
-    "french": "assidu",
+    "french": "travailleur",
     "tier": 2
   },
   "adjectives.lazy": {
@@ -860,7 +860,7 @@
     "german": "einsam",
     "english": "lonely",
     "spanish": "solitario",
-    "french": "solitaire",
+    "french": "esseulé",
     "tier": 3
   },
   "adjectives.nervous": {
@@ -876,7 +876,7 @@
     "german": "aufgeregt",
     "english": "excited",
     "spanish": "emocionado",
-    "french": "enthousiaste",
+    "french": "excité",
     "tier": 3
   },
   "adjectives.relaxed": {
@@ -1356,15 +1356,15 @@
     "german": "früh",
     "english": "early",
     "spanish": "temprano",
-    "french": "précoce",
+    "french": "tôt",
     "tier": 1
   },
   "adjectives.late": {
     "danish": "sen",
     "german": "spät",
     "english": "late",
-    "spanish": "tardío",
-    "french": "tardif",
+    "spanish": "tarde",
+    "french": "tard",
     "tier": 1
   },
   "adjectives.alone": {
@@ -1380,7 +1380,7 @@
     "german": "gemeinsam",
     "english": "shared",
     "spanish": "compartido",
-    "french": "partagé",
+    "french": "commun",
     "tier": 3
   },
   "adjectives.dead": {
@@ -1667,7 +1667,7 @@
     "danish": "pinlig",
     "german": "peinlich",
     "english": "embarrassing",
-    "spanish": "vergonzoso",
+    "spanish": "embarazoso",
     "french": "gênant",
     "tier": 3
   },
@@ -1859,7 +1859,7 @@
     "danish": "succesfuld",
     "german": "erfolgreich",
     "english": "successful",
-    "spanish": "exitoso",
+    "spanish": "de éxito",
     "french": "réussi",
     "tier": 3
   },
@@ -2068,7 +2068,7 @@
     "german": "herrlich",
     "english": "lovely",
     "spanish": "encantador",
-    "french": "charmant",
+    "french": "splendide",
     "tier": 3
   },
   "adjectives.cute": {
@@ -2220,7 +2220,7 @@
     "german": "umfassend",
     "english": "comprehensive",
     "spanish": "exhaustivo",
-    "french": "complet",
+    "french": "exhaustif",
     "tier": 4
   },
   "adjectives.wesentlich": {
@@ -2299,7 +2299,7 @@
     "danish": "besværlig",
     "german": "mühsam",
     "english": "arduous",
-    "spanish": "penoso",
+    "spanish": "arduo",
     "french": "pénible",
     "tier": 5
   },

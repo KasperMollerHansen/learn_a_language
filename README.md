@@ -31,10 +31,10 @@ chapter uses only words of its own tier, except the review. Every chapter has th
    clothes, Nature, Town and travel, Free time, and Work and school. A theme gets a level in a
    chapter only when that tier has at least 15 words, and a chapter holds at most 15 levels, so
    themes past the cap (Words that look alike) appear only in the review.
-2. **Sentences:** short Danish sentences to translate, including the modal verbs *können, müssen,
+2. **Sentences:** short sentences to translate, including the modal verbs *können, müssen,
    wollen, dürfen, sollen* and *mögen*.
 3. **Review:** mixed words from every theme, this chapter's tier and all earlier ones.
-4. **Sentence builder:** build a German sentence one chunk at a time.
+4. **Sentence builder:** build a sentence in the language you learn one chunk at a time.
 
 The level files are generated: edit `THEMES` or `CHAPTERS` in [`scripts/levels.py`](scripts/levels.py)
 and run `python scripts/levels.py`. A test fails if the level files drift from the generator.
@@ -42,10 +42,10 @@ and run `python scripts/levels.py`. A test fails if the level files drift from t
 Levels are cleared from the top: a level opens once every level above it is cleared, and the menu
 starts on the first level not yet cleared.
 
-- Catch all 30 words before the clock runs out. The Danish prompt sits ahead of the stationary
+- Catch all 30 words before the clock runs out. The prompt in your language sits ahead of the stationary
   gates, and the runner advances toward them for each timed choice. A correct pass speeds up the
   next approach; a miss bounces the runner back, slows the next approach, and retries the same word.
-  The first approach takes 4.2 seconds. Only one gate is ever a correct answer: a German word that also translates the Danish prompt (for
+  The first approach takes 4.2 seconds. Only one gate is ever a correct answer: a word in the language you learn that also translates the prompt (for
   example *unterhalb* for "under") is never shown as a wrong gate. Tap a gate on a phone, or use
   the arrow keys and number keys on a keyboard.
 

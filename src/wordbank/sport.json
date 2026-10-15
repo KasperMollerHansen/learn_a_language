@@ -80,7 +80,7 @@
     "danish": "bold",
     "german": "Ball",
     "english": "ball",
-    "spanish": "el balón",
+    "spanish": "la pelota",
     "french": "le ballon",
     "gender": "der",
     "danishDefinite": "bolden",
@@ -1143,7 +1143,7 @@
     "danish": "at skyde",
     "german": "schießen",
     "english": "to shoot",
-    "spanish": "tirar",
+    "spanish": "disparar",
     "french": "tirer",
     "tier": 3
   },
